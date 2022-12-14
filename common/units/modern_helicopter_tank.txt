@@ -1,0 +1,77 @@
+sub_units = {
+
+	modern_helicopter_tank = {
+		sprite = "light_armor"
+		map_icon_category = armored
+		priority = 2504
+		ai_priority = 2504
+		active = no
+
+		type = {
+			armor
+		}
+		
+		group = armor
+		
+		categories = {
+			category_tanks
+			category_front_line
+			category_all_armor
+			category_army
+			category_MBT_1950
+		}
+
+
+		forest = {
+		    attack = -0.9
+			movement = 0.1
+		}
+		hills = {
+		    attack = -0.9
+			movement = 0.1
+		}
+		mountain = 	{
+		    attack = -0.9
+			movement = -0.2
+		}
+		jungle = {
+		    attack = -0.9
+			movement = 0.1
+		}
+		marsh = {
+		    attack = -0.9
+			movement = 0.1
+		}
+		urban = {
+			attack = -0.9
+			defence = -0.9
+			movement = 0.1
+		}
+		river = { 
+			attack = -0.9
+			movement = 0.2
+		}
+		amphibious = { 
+			attack = -0.9
+			movement = 0.1
+		}
+		fort = {
+			attack = -0.8
+		}
+
+		combat_width = 1.5
+
+		need = {
+			modern_helicopter_tank_equipment = 40
+		}
+
+		manpower = 500
+		max_organisation = 10
+		default_morale = 0.3
+		training_time = 180
+		max_strength = 2
+		weight = 1.5		
+		supply_consumption = 0.6
+		
+	}
+}

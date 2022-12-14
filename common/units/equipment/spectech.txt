@@ -477,4 +477,223 @@ equipments = {
 		priority = 40
 		visual_level = 0
 	}
+	
+	modern_heavy_tank_equipment = {
+		year = 2025
+		
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_medium_tank_equipment		
+		is_buildable = no
+		is_convertable = yes
+		type = armor
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+		
+		upgrades = {
+			tank_reliability_upgrade
+			tank_engine_upgrade
+			tank_armor_upgrade
+			tank_gun_upgrade
+		}
+		
+		maximum_speed = 20
+		reliability = 0.5
+
+		
+		defense = 25
+		breakthrough = 190
+		hardness = 0.99
+		armor_value = 250
+
+		
+		soft_attack = 60
+		hard_attack = 78
+		ap_attack = 300
+		air_attack = 10
+
+		
+		lend_lease_cost = 20
+		
+		build_cost_ic = 58
+		resources = {
+			steel = 4
+			tungsten = 3
+			chromium = 2
+			
+		}
+	}
+	
+	modern_heavy_tank_equipment_1 = {
+		year = 2025
+		archetype = modern_heavy_tank_equipment
+		is_buildable = yes
+		priority = 40
+		visual_level = 0
+	}
+	
+	modern_light_tank_equipment = {
+		year = 2025
+		
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_medium_tank_equipment		
+		is_buildable = no
+		is_convertable = yes
+		type = armor
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+		
+		upgrades = {
+			tank_reliability_upgrade
+			tank_engine_upgrade
+			tank_armor_upgrade
+			tank_gun_upgrade
+		}
+		
+		
+		maximum_speed = 40
+		reliability = 0.5
+
+		
+		defense = 10
+		breakthrough = 160
+		hardness = 0.95
+		armor_value = 145
+
+		
+		soft_attack = 65
+		hard_attack = 55
+		ap_attack = 220
+		air_attack = 15
+
+		
+		lend_lease_cost = 14
+		
+		build_cost_ic = 40
+		resources = {
+			steel = 2
+			tungsten = 1
+		}
+	}
+	
+	modern_light_tank_equipment_1 = {
+		year = 2025
+		archetype = modern_light_tank_equipment
+		is_buildable = yes
+		priority = 40
+		visual_level = 0
+	}
+	
+	modern_helicopter_tank_equipment = {
+		year = 2025
+		
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_medium_tank_equipment		
+		is_buildable = no
+		is_convertable = yes
+		type = armor
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+		
+		upgrades = {
+			tank_reliability_upgrade
+			tank_engine_upgrade
+			tank_armor_upgrade
+			tank_gun_upgrade
+		}
+		
+		
+		maximum_speed = 80
+		reliability = 0.2
+
+		
+		defense = 5
+		breakthrough = 100
+		hardness = 0.90
+		armor_value = 100
+
+		
+		soft_attack = 65
+		hard_attack = 20
+		ap_attack = 220
+		air_attack = 45
+
+		
+		lend_lease_cost = 14
+		
+		build_cost_ic = 50
+		resources = {
+			steel = 2
+			tungsten = 2
+		}
+	}
+	
+	modern_helicopter_tank_equipment_1 = {
+		year = 2025
+		archetype = modern_helicopter_tank_equipment
+		is_buildable = yes
+		priority = 40
+		visual_level = 0
+	}
+	
+	modern_railgun_tank_equipment = {
+		year = 2025
+		
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_medium_tank_equipment		
+		is_buildable = no
+		is_convertable = yes
+		type = armor
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+		
+		upgrades = {
+			tank_reliability_upgrade
+			tank_engine_upgrade
+			tank_armor_upgrade
+			tank_gun_upgrade
+		}
+		
+		maximum_speed = 10
+		reliability = 0.4
+
+		
+		defense = 15
+		breakthrough = 225
+		hardness = 0.99
+		armor_value = 145
+
+		
+		soft_attack = 29
+		hard_attack = 90
+		ap_attack = 329
+		air_attack = 0
+
+		
+		lend_lease_cost = 20
+		
+		build_cost_ic = 70
+		resources = {
+			steel = 4
+			tungsten = 3
+			chromium = 2
+			
+		}
+	}
+	
+	modern_railgun_tank_equipment_1 = {
+		year = 2025
+		archetype = modern_railgun_tank_equipment
+		is_buildable = yes
+		priority = 40
+		visual_level = 0
+	}
+	
 }

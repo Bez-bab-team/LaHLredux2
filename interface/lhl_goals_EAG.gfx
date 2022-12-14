@@ -288,7 +288,55 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/EAG/goal_EAG_we_are_the_machine.dds"
 	}
 	SpriteType = {
-		name = "GFX_goal_EAG_governors_care"
-		texturefile = "gfx/interface/goals/EAG/goal_EAG_governors_care.dds"
+		name = "GFX_goal_EAG_haven_for_smugglers"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_haven_for_smugglers.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_acmesation"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_acmesation.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_gunzel_pounds"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_gunzel_pounds.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_revise_lands_blueprints"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_revise_lands_blueprints.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_flat_taxation"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_flat_taxation.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_rebrand_oxford"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_rebrand_oxford.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_deal_for_regressionists"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_deal_for_regressionists.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_the_moneybag"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_the_moneybag.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_our_own_guns"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_our_own_guns.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_trusted_partners"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_trusted_partners.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_englisch_kontore"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_englisch_kontore.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_farmers_self_governance"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_farmers_self_governance.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_liquid_gold"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_liquid_gold.dds"
 	}
 }

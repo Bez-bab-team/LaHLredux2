@@ -699,4 +699,108 @@ technologies = {
 			factor = 2
 		}
     }
+	modern_heavy_tank = { 
+	
+		enable_equipments = {
+			modern_heavy_tank_equipment_1
+		}
+		
+		dependencies = {
+			modern_heavy_tank = 1
+		}
+				
+		research_cost = 2
+		start_year = 2025
+		
+		folder = {
+			name = spectech_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	modern_light_tank = { 
+	
+		enable_equipments = {
+			modern_light_tank_equipment_1
+		}
+		
+		dependencies = {
+			modern_light_tank = 1
+		}
+				
+		research_cost = 2
+		start_year = 2025
+		
+		folder = {
+			name = spectech_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	modern_helicopter_tank = { 
+	
+		enable_equipments = {
+			modern_helicopter_tank_equipment_1
+		}
+		
+		dependencies = {
+			modern_helicopter_tank = 1
+		}
+				
+		research_cost = 2
+		start_year = 2025
+		
+		folder = {
+			name = spectech_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	modern_railgun_tank = { 
+	
+		enable_equipments = {
+			modern_railgun_tank_equipment_1
+		}
+		
+		dependencies = {
+			modern_railgun_tank = 1
+		}
+				
+		research_cost = 2
+		start_year = 2025
+		
+		folder = {
+			name = spectech_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+		
+		categories = {
+			armor
+		}
+	}
 }

@@ -57,155 +57,212 @@ guiTypes = {
 				}
 				clipping = no
 
-				iconType = {
-					name ="spectech_techtree_bg"
-					spriteType = "GFX_armortech_bg"
-					position = { x=0 y=0 }
-					alwaystransparent = yes
-				}
                 instantTextBoxType = {
-					name = "spectech_subtitle_weapons"
-					position = { x = 30 y = 100 }
+					name = "spectech_subtitle_weapons_0"
+					position = { x = 395 y = 150 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
-					text = "SPECIAL TECH"
+					text = "Experimental Ground Vehicles"
 					maxWidth = 600
 					maxHeight = 62
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
-					
+                instantTextBoxType = {
+					name = "spectech_subtitle_weapons_1"
+					position = { x = 1430 y = 150 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 0}
+					text = "Experimental Aircraft"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+                instantTextBoxType = {
+					name = "spectech_subtitle_weapons_2"
+					position = { x = 2170 y = 150 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 0}
+					text = "Unique Unit Types"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+                instantTextBoxType = {
+					name = "spectech_subtitle_weapons_3"
+					position = { x = 475 y = 650 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 0}
+					text = "Static Upgrades"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}				
 			}
+			##EXPERIMENTAL GROUND VEHICLES##
 			gridboxtype = {
 				name = "airgun_tree"
-				position = { x = 150 y = 335 }
+				position = { x = 150 y = 250 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			gridboxtype = {
 				name = "railgun_tree"
-				position = { x = 450 y = 335 }
+				position = { x = 375 y = 250 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			gridboxtype = {
 				name = "landing_tank_tree"
-				position = { x = 750 y = 335 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "transport_airship_tree"
-				position = { x = 1050 y = 335 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "evangelion_tree"
-				position = { x = 1350 y = 335 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "jetpack_brigade_tree"
-				position = { x = 150 y = 535 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "unmanned_tank_tree"
-				position = { x = 1650 y = 335 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "power_armor_weapon_tree"
-				position = { x = 1950 y = 335 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "exosuit_brigade_tree"
-				position = { x = 450 y = 535 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "rubber_bomb_tree"
-				position = { x = 750 y = 535 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "DU_ammo_tree"
-				position = { x = 1050 y = 535 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "biofuel_tree"
-				position = { x = 1350 y = 535 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "threeD_printers_tree"
-				position = { x = 1650 y = 535 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "suicide_drones_tree"
-				position = { x = 1950 y = 535 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "stem_cell_tree"
-				position = { x = 150 y = 735 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "wireless_power_transfer_tree"
-				position = { x = 450 y = 735 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "supersoldier_rations_tree"
-				position = { x = 750 y = 735 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "drone_hives_tree"
-				position = { x = 1050 y = 735 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "supercannons_tree"
-				position = { x = 1350 y = 735 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "cavalry_tree"
-				position = { x = 150 y = 935 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "helicopter_pirates_tree"
-				position = { x = 300 y = 935 }
+				position = { x = 600 y = 250 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			gridboxtype = {
 				name = "battle_bus_tree"
-				position = { x = 300 y = 1135 }
+				position = { x = 150 y = 375 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "evangelion_tree"
+				position = { x = 375 y = 375 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "unmanned_tank_tree"
+				position = { x = 600 y = 375 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "power_armor_weapon_tree"
+				position = { x = 825 y = 250 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "supercannons_tree"
+				position = { x = 825 y = 375 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "modern_light_tank_tree"
+				position = { x = 150 y = 500 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "modern_heavy_tank_tree"
+				position = { x = 375 y = 500 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "modern_helicopter_tank_tree"
+				position = { x = 600 y = 500 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "modern_railgun_tank_tree"
+				position = { x = 825 y = 500 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			##Experimental Aircraft##
+			gridboxtype = {
+				name = "transport_airship_tree"
+				position = { x = 1150 y = 250 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "suicide_drones_tree"
+				position = { x = 1375 y = 250 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "drone_hives_tree"
+				position = { x = 1600 y = 250 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			##Unique Unit Types##
+			gridboxtype = {
+				name = "jetpack_brigade_tree"
+				position = { x = 2150 y = 250 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "exosuit_brigade_tree"
+				position = { x = 2250 y = 250 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "cavalry_tree"
+				position = { x = 2350 y = 250 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "helicopter_pirates_tree"
+				position = { x = 2150 y = 375 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			##Static Upgrades##
+			gridboxtype = {
+				name = "biofuel_tree"
+				position = { x = 150 y = 750 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "threeD_printers_tree"
+				position = { x = 250 y = 750 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "stem_cell_tree"
+				position = { x = 375 y = 750 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "wireless_power_transfer_tree"
+				position = { x = 475 y = 750 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "rubber_bomb_tree"
+				position = { x = 600 y = 750 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "DU_ammo_tree"
+				position = { x = 700 y = 750 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "supersoldier_rations_tree"
+				position = { x = 825 y = 750 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
