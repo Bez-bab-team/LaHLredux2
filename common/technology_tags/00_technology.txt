@@ -119,19 +119,20 @@ technology_folders = {
 	armour_folder = {
 		ledger = army
 		available = {
-			NOT = {
-				has_game_rule = { 
-					rule = enable_nsb_tanks 
-					option = ALLOW_NSB_TANKS 
-				}
-			}
+			# NOT = {
+			# 	has_game_rule = { 
+			# 		rule = enable_nsb_tanks 
+			# 		option = ALLOW_NSB_TANKS 
+			# 	}
+			# }
+			always = no
 		}
 	}
 	nsb_armour_folder = {
 		ledger = army
 		available = {
 			has_dlc = "No Step Back"
-			has_game_rule = { rule = enable_nsb_tanks option = ALLOW_NSB_TANKS }
+			# has_game_rule = { rule = enable_nsb_tanks option = ALLOW_NSB_TANKS }
 		}
 	}
 	artillery_folder = {
