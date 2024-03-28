@@ -1,0 +1,19 @@
+state={
+	id=1323
+	name="STATE_1323"
+	
+	history={
+		owner = SHA
+		add_core_of = SHA
+		victory_points = {
+			8276 5 
+		}
+
+	}
+	provinces={
+		8276 12959 12970 17453 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

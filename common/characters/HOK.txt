@@ -1,13 +1,13 @@
 characters={
 	HOK_lian_zhan={
-		name=HOK_lian_zhan
+		name=HOK_cao_dewang
 		portraits={
 			civilian={
-				large="gfx/leaders/HOK/Portrait_HOK_Lian_Zhan.dds"
+				large="gfx/leaders/HOK/Portrait_HOK_Cao_Dewang.dds"
 			}
 		}
 		country_leader={
-			ideology=social_conservatism
+			ideology=neo_reaction
 			expire="1960.1.1.1"
 			id=-1
 		}

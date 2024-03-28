@@ -1,16 +1,10 @@
 ﻿l_english:
  ##LEADERS##
- HOK_lian_zhan:0 "Lian Zhan"
  ##POLITICAL PARTIES##
- HOK_right_populism_party:0 "CUL - Liberals"
- HOK_right_populism_party_long:0 "Chinese United League - Liberals"
- HOK_hegemonism_party:0 "CUL - Principlists"
- HOK_hegemonism_party_long:0 "Chinese United League - Principlists"
+
  ##COUNTRY NAME##
- HOK_right_populism:0 "Hokkien Republic"
- HOK_right_populism_DEF:0 "the Hokkien Republic"
- HOK_hegemonism:0 "Hokkien Republic"
- HOK_hegemonism_DEF:0 "the Hokkien Republic"
+ HOK_neocameralism:0 "Hokkien Republic"
+ HOK_neocameralism_DEF:0 "the Hokkien Republic"
  ##TRAITS##
  ##IDEAS##
  ##FOCUS TREES##

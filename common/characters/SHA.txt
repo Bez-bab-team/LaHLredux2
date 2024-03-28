@@ -1,14 +1,14 @@
 characters={
-	SHA_chen_liangyu={
-		name="Chen Liangyu"
+	SHA_pan_weiming={
+		name="Pan Weiming"
 		portraits={
 			civilian={
-				large="gfx/leaders/SHA/Portrait_SHA_Chen_Liangyu.dds"
+				large="gfx/leaders/SHA/Portrait_SHA_Pan_Weiming.dds"
 			}
 		}
 		country_leader={
-			ideology=social_conservatism
-			expire="1953.3.1.1"
+			ideology=progressivism
+			expire="1960.1.1.1"
 			id=-1
 		}
 	}

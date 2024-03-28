@@ -1,9 +1,9 @@
 characters={
 	GUD_wen_jiabao={
-		name=GUD_wen_jiabao
+		name=GUD_li_yuanchao
 		portraits={
 			civilian={
-				large="gfx/leaders/GUD/Portrait_GUD_Wen_Jiabao.dds"
+				large="gfx/leaders/GUD/Portrait_GUD_Li_Yuanchao.dds"
 			}
 		}
 		country_leader={

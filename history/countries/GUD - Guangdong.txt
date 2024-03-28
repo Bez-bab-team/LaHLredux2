@@ -21,8 +21,8 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Wen Jiabao"
-	picture = "Portrait_GUD_Wen_Jiabao.dds"
+	name = "Li Yuanchao"
+	picture = "Portrait_GUD_Li_Yuanchao.dds"
 	expire = "1960.1.1"
 	ideology = progressivism
 	traits = {

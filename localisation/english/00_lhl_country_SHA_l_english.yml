@@ -1,16 +1,8 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
- SHA_socialism_party:0 "CPC - Han"
- SHA_socialism_party_long:0 "Communist Party of China - Han's Faction"
- SHA_left_authoritarianism_party:0 "CPC - Wang"
- SHA_left_authoritarianism_party_long:0 "Communist Party of China - Wang's Faction"
- SHA_right_populism_party:0 "Office of Shanghai - SC"
- SHA_right_populism_party_long:0 "Office of Shanghai - Shanghai Clique"
- SHA_hegemonism_party:0 "SNP"
- SHA_hegemonism_party_long:0 "Shanghai National Party"
- SHA_neocameralism_party:0 "Office of Shanghai - EC"
- SHA_neocameralism_party_long:0 "Office of Shanghai - Enterprise Confederation"
+ SHA_socialism_party:0 "CPC"
+ SHA_socialism_party_long:0 "Communist Party of China"
  ##COUNTRY NAME##
  SHA_socialism:0 "Huadong People's Government"
  SHA_socialism_DEF:0 "the Huadong People's Government"

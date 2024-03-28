@@ -24,8 +24,8 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Han Zheng"
-	picture = "Portrait_SHA_Han_Zheng.dds"
+	name = "Pan Weiming"
+	picture = "Portrait_SHA_Pan_Weiming.dds"
 	expire = "1960.1.1"
 	ideology = progressivism
 	traits = {
