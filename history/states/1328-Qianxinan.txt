@@ -1,22 +1,18 @@
-
 state={
-	id=1224
-	name="STATE_1224"
-
+	id=1328
+	name="STATE_1328"
 	history={
 		owner = SWU
 		add_core_of = SWU
 		victory_points = {
-			13573 5 
+			6130 5 
 		}
 
 	}
-
 	provinces={
-		1637 2728 3434 5379 5395 5528 7611 13522 13573 13614 
+		6130 8164 13607 13651 13677 13692 
 	}
-	manpower=1
+	manpower=0
 	buildings_max_level_factor=1.000
-	state_category=pastoral
 	local_supplies=0.000
 }

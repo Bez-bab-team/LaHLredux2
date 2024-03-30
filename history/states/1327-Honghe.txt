@@ -1,0 +1,21 @@
+
+state={
+	id=1327
+	name="STATE_1327"
+
+	history={
+		owner = YUN
+		add_core_of = YUN
+		victory_points = {
+			13864 5 
+		}
+
+	}
+
+	provinces={
+		671 995 2071 2082 3705 3709 5593 5686 7694 9974 13796 13801 13837 13859 13864 13871 13894 13914 13915 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
