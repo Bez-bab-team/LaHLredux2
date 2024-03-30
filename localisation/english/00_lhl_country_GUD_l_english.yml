@@ -41,5 +41,5 @@
  prc_cabinet_1_desc:0 "[GetPRCabinet1Desc]"
  prc_cabinet_1_ccdi_desc:0 "prc_cabinet_1_ccdi_desc"
  prc_cabinet_2_desc:0 "[GetPRCabinet2Desc]"
- prc_cabinet_2_state council_vice_desc:0 " prc_cabinet_2_state council_vice_desc"
+ prc_cabinet_2_state council_vice_desc:0 " prc_cabinet_2_state_council_vice_desc"
  ##EVENTS##
