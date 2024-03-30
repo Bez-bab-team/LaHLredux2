@@ -4,16 +4,16 @@ state={
 	name="STATE_1225"
 
 	history={
-		owner = SWU
-		add_core_of = SWU
+		owner = CHQ
+		add_core_of = CHQ
 		victory_points = {
-			3751 5 
+			2802 5 
 		}
 
 	}
 
 	provinces={
-		2324 2802 3184 3751 3996 4645 6017 7540 7715 9460 9539 9603 9968 13418 13435 13450 13509 
+		2324 2802 3184 3751 3996 7540 9539 9603 13418 13435 13450 13509 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
