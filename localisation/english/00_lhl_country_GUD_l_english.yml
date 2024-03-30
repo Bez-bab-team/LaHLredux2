@@ -26,7 +26,7 @@
  prc_secretariat_localisation_tt:0 "[GetPRCSecretariat]"
  prc_secretariat_text_loc:0 "§YSecretariat§!\nLoyalty: [?prc_secretariat_loyality]\nInfluence: [?prc_secretariat_influence]"
  prc_cppcc_localisation_tt:0 "[GetPRCCPPCC]"
- prc_cppcc_text_loc:0 "§YCPPCC§!\nLoyalty: [?prc_secretariat_loyality]\nInfluence: [?prc_secretariat_influence]"
+ prc_cppcc_text_loc:0 "§YCPPCC§!\nLoyalty: [?prc_cppcc_loyality]\nInfluence: [?prc_cppcc_influence]"
  prc_cabinet_1_localisation_tt:0 "[GetPRCabinet1]"
  prc_cabinet_1_text_loc:0 "§Y[GetPRCabinet1Name]§!\nLoyalty: [?prc_cabinet_1_loyality]\nInfluence: [?prc_cabinet_1_influence]"
  prc_cabinet_1_name_1_desc:0 "CCDI"
