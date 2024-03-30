@@ -21,6 +21,7 @@ guiTypes = {
 			format = center
 			maxHeight = 0
 			maxWidth = 450
+			pdx_tooltip = prc_general_secretary_desc
 		}
 		
 		iconType = {
@@ -40,6 +41,7 @@ guiTypes = {
 			format = center
 			maxHeight = 0
 			maxWidth = 450
+			pdx_tooltip = prc_state_council_desc
 		}
 		
 		iconType = {
@@ -59,6 +61,7 @@ guiTypes = {
 			format = center
 			maxHeight = 0
 			maxWidth = 450
+			pdx_tooltip = prc_npcsc_desc
 		}
 		
 		iconType = {
@@ -78,6 +81,7 @@ guiTypes = {
 			format = center
 			maxHeight = 0
 			maxWidth = 450
+			pdx_tooltip = prc_secretariat_desc
 		}
 
 		iconType = {
@@ -97,6 +101,7 @@ guiTypes = {
 			format = center
 			maxHeight = 0
 			maxWidth = 450
+			pdx_tooltip = prc_cppcc_desc
 		}
 		
 		iconType = {
@@ -116,6 +121,7 @@ guiTypes = {
 			format = center
 			maxHeight = 0
 			maxWidth = 450
+			pdx_tooltip = prc_cabinet_1_desc
 		}
 		
 		iconType = {
@@ -135,6 +141,7 @@ guiTypes = {
 			format = center
 			maxHeight = 0
 			maxWidth = 450
+			pdx_tooltip = prc_cabinet_2_desc
 		}
 
 	}
