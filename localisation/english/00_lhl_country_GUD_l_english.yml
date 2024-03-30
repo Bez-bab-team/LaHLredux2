@@ -33,4 +33,13 @@
  prc_cabinet_2_localisation_tt:0 "[GetPRCabinet2]"
  prc_cabinet_2_text_loc:0 "§Y[GetPRCabinet2Name]§!\nLoyalty: [?prc_cabinet_2_loyality]\nInfluence: [?prc_cabinet_2_influence]"
  prc_cabinet_2_name_1_desc:0 "State Council (Vice)"
+ prc_general_secretary_desc:0 "prc_general_secretary_desc"
+ prc_state_council_desc:0 "prc_state_council_desc"
+ prc_npcsc_desc:0 "prc_npcsc_desc"
+ prc_secretariat_desc:0 "prc_secretariat_desc"
+ prc_cppcc_desc:0 "prc_cppcc_desc"
+ prc_cabinet_1_desc:0 "[GetPRCabinet1Desc]"
+ prc_cabinet_1_ccdi_desc:0 "prc_cabinet_1_ccdi_desc"
+ prc_cabinet_2_desc:0 "[GetPRCabinet2Desc]"
+ prc_cabinet_2_state council_vice_desc:0 " prc_cabinet_2_state council_vice_desc"
  ##EVENTS##
