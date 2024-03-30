@@ -17,4 +17,20 @@
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##
+  prc_general_secretary_localisation_tt:0 "[GetPRCGeneralSecretary]"
+ prc_general_secretary_text_loc:0 "§YGeneral Secretary§!"
+ prc_state_council_localisation_tt:0 "[GetPRCStateCouncil]"
+ prc_state_council_text_loc:0 "§YState Council§!\nLoyalty: [?prc_state_council_loyality]\nInfluence: [?prc_state_council_influence]"
+ prc_npcsc_localisation_tt:0 "[GetPRCNPCSC]"
+ prc_npcsc_localisation_text_loc:0 "§YNPCSC§!\nLoyalty: [?prc_npcsc_loyality]\nInfluence: [?prc_npcsc_influence]"
+ prc_secretariat_localisation_tt:0 "[GetPRCSecretariat]"
+ prc_secretariat_text_loc:0 "§YSecretariat§!\nLoyalty: [?prc_secretariat_loyality]\nInfluence: [?prc_secretariat_influence]"
+ prc_cppcc_localisation_tt:0 "[GetPRCCPPCC]"
+ prc_cppcc_text_loc:0 "§YCPPCC§!\nLoyalty: [?prc_secretariat_loyality]\nInfluence: [?prc_secretariat_influence]"
+ prc_cabinet_1_localisation_tt:0 "[GetPRCabinet1]"
+ prc_cabinet_1_text_loc:0 "§Y[GetPRCabinet1Name]§!\nLoyalty: [?prc_cabinet_1_loyality]\nInfluence: [?prc_cabinet_1_influence]"
+ prc_cabinet_1_name_1_desc:0 "CCDI"
+ prc_cabinet_2_localisation_tt:0 "[GetPRCabinet2]"
+ prc_cabinet_2_text_loc:0 "§Y[GetPRCabinet2Name]§!\nLoyalty: [?prc_cabinet_2_loyality]\nInfluence: [?prc_cabinet_2_influence]"
+ prc_cabinet_2_name_1_desc:0 "State Council (Vice)"
  ##EVENTS##
