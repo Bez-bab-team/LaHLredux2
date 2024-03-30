@@ -1,0 +1,141 @@
+guiTypes = {
+	containerWindowType = {
+		name = "lhl_PRC_leaders"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height= 800 }
+		
+		iconType = {
+			name ="prc_general_secretary_icon"
+			spriteType = "GFX_prc_general_secretary_icon"
+			position = { x= 200	 y= 45 } 
+			size = { width = 75 height= 75 }
+			pdx_tooltip = prc_general_secretary_localisation_tt
+
+		}
+
+		instantTextBoxType = {
+			name ="prc_general_secretary_text"
+			position = { x = 15 y = 160 }
+			font = "hoi_18mbs"
+			text = "prc_general_secretary_text_loc"
+			format = center
+			maxHeight = 0
+			maxWidth = 450
+		}
+		
+		iconType = {
+			name ="prc_state_council_icon"
+			spriteType = "GFX_prc_state_council_icon"
+			position = { x= 100	 y= 195 } 
+			size = { width = 75 height= 75 }
+			pdx_tooltip = prc_state_council_localisation_tt
+
+		}
+
+		instantTextBoxType = {
+			name ="prc_state_council_text"
+			position = { x = -85 y = 310 }
+			font = "hoi_18mbs"
+			text = "prc_state_council_text_loc"
+			format = center
+			maxHeight = 0
+			maxWidth = 450
+		}
+		
+		iconType = {
+			name ="prc_npcsc_icon"
+			spriteType = "GFX_prc_npcsc_icon"
+			position = { x= 300	 y= 195 }
+			size = { width = 75 height= 75 } 
+			pdx_tooltip = prc_npcsc_localisation_tt
+
+		}
+
+		instantTextBoxType = {
+			name ="prc_npcsc_text"
+			position = { x = 115 y = 310 }
+			font = "hoi_18mbs"
+			text = "prc_npcsc_localisation_text_loc"
+			format = center
+			maxHeight = 0
+			maxWidth = 450
+		}
+		
+		iconType = {
+			name ="prc_secretariat_icon"
+			spriteType = "GFX_prc_secretariat_icon"
+			position = { x= 100	 y= 375 } 
+			size = { width = 75 height= 75 }
+			pdx_tooltip = prc_secretariat_localisation_tt
+
+		}
+		
+		instantTextBoxType = {
+			name ="prc_secretariat_text"
+			position = { x = -85 y = 490 }
+			font = "hoi_18mbs"
+			text = "prc_secretariat_text_loc"
+			format = center
+			maxHeight = 0
+			maxWidth = 450
+		}
+
+		iconType = {
+			name ="prc_cppcc_icon"
+			spriteType = "GFX_prc_cppcc_icon"
+			position = { x= 300	 y= 375 } 
+			size = { width = 75 height= 75 }
+			pdx_tooltip = prc_cppcc_localisation_tt
+
+		}
+		
+		instantTextBoxType = {
+			name ="prc_cppcc_text"
+			position = { x = 115 y = 490 }
+			font = "hoi_18mbs"
+			text = "prc_cppcc_text_loc"
+			format = center
+			maxHeight = 0
+			maxWidth = 450
+		}
+		
+		iconType = {
+			name ="prc_cabinet_1_icon"
+			spriteType = "GFX_prc_cabinet_1_icon"
+			position = { x= 100	 y= 555 } 
+			size = { width = 75 height= 75 }
+			pdx_tooltip = prc_cabinet_1_localisation_tt
+
+		}
+
+		instantTextBoxType = {
+			name ="prc_cabinet_1_text"
+			position = { x = -85 y = 670 }
+			font = "hoi_18mbs"
+			text = "prc_cabinet_1_text_loc"
+			format = center
+			maxHeight = 0
+			maxWidth = 450
+		}
+		
+		iconType = {
+			name ="prc_cabinet_2_icon"
+			spriteType = "GFX_prc_cabinet_2_icon"
+			position = { x= 300 y= 555 } 
+			size = { width = 75 height= 75 }
+			pdx_tooltip = prc_cabinet_2_localisation_tt
+
+		}
+		
+		instantTextBoxType = {
+			name ="prc_cabinet_2_text"
+			position = { x = 115 y = 670 }
+			font = "hoi_18mbs"
+			text = "prc_cabinet_2_text_loc"
+			format = center
+			maxHeight = 0
+			maxWidth = 450
+		}
+
+	}
+}
