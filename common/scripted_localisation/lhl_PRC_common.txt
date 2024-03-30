@@ -22,7 +22,7 @@ defined_text = {
 defined_text = {
 	name = GetPRCCPPCC
 	text = {
-		localization_key = SHI_Meng_Jianzhu_desc
+		localization_key = SHA_Meng_Jianzhu_desc
 	}
 }
 
