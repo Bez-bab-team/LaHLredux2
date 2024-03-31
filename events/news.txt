@@ -1072,3 +1072,17 @@ news_event = {
 		name = lhl_news.46.a
 	}
 }
+
+news_event = { #li yuanchao resignation
+	id = lhl_news.47
+	title = lhl_news.47.t
+	immediate = {log = "[GetDateText]: [Root.GetName]: lhl_news.47"}
+	desc = lhl_news.47.d
+	picture = GFX_GUD_Li_Yuanchao_Resignation
+	major = yes 
+	is_triggered_only = yes 
+	fire_only_once = no
+	option = {
+		name = lhl_news.47.a
+	}
+}
