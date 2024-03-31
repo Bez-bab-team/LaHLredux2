@@ -1,0 +1,56 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			GUD = {
+                clamp_variable = { var = global.prc_state_council_influence min = 0 max = 100 }
+                set_variable = {
+                    global.prc_state_council_influence = 30
+                }
+                clamp_variable = { var = global.prc_state_council_compatibility min = 0 max = 100 }
+                set_variable = {
+                    global.prc_state_council_compatibility = 70
+                }
+                clamp_variable = { var = global.prc_npcsc_influence min = 0 max = 100 }
+                set_variable = {
+                    global.prc_npcsc_influence = 25
+                }
+                clamp_variable = { var = global.prc_npcsc_compatibility min = 0 max = 100 }
+                set_variable = {
+                    global.prc_npcsc_compatibility = 70
+                }
+                clamp_variable = { var = global.prc_secretariat_influence min = 0 max = 100 }
+                set_variable = {
+                    global.prc_secretariat_influence = 15
+                }
+                clamp_variable = { var = global.prc_secretariat_compatibility min = 0 max = 100 }
+                set_variable = {
+                    global.prc_secretariat_compatibility = 75
+                }
+                clamp_variable = { var = global.prc_cppcc_influence min = 0 max = 100 }
+                set_variable = {
+                    global.prc_cppcc_influence = 15
+                }
+                clamp_variable = { var = global.prc_cppcc_compatibility min = 0 max = 100 }
+                set_variable = {
+                    global.prc_cppcc_compatibility = 70
+                }
+                clamp_variable = { var = global.prc_cabinet_1_influence min = 0 max = 100 }
+                set_variable = {
+                    global.prc_cabinet_1_influence = 10
+                }
+                clamp_variable = { var = global.prc_cabinet_1_compatibility min = 0 max = 100 }
+                set_variable = {
+                    global.prc_cabinet_1_compatibility = 60
+                }
+                clamp_variable = { var = global.prc_cabinet_2_influence min = 0 max = 100 }
+                set_variable = {
+                    global.prc_cabinet_2_influence = 5
+                }
+                clamp_variable = { var = global.prc_cabinet_2_compatibility min = 0 max = 100 }
+                set_variable = {
+                    global.prc_cabinet_2_compatibility = 75
+                }
+            }
+		}
+	}
+}
