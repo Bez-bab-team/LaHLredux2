@@ -1,6 +1,7 @@
-﻿l_english:
+l_english:
  ##LEADERS##
  GUD_wen_jiabao:0 "Wen Jiabao"
+ GUD_Zhu_Jiaming_desc:0 "Zhu Jiaming belongs to the Three Researches Faction.\n\n§YBiography§!: Zhu Jiaming (born 1950) was born in Beijing and later joined the down to the countryside movement during the Cultural Revolution, volunteering to go to Tibet and Heilongjiang. During his time in the Heilongjiang Production and Construction Corps, he completed a lengthy critique of the "Political Economy," ultimately leading Zhu to choose the path of an economist. In 1978, Zhu entered the newly established Institute of Industrial Economics at the Chinese Academy of Social Sciences, firmly believing that only modernization could save China, and obtained a master's degree in economics. With the beginning of the reform and opening up in the 1980s, he gained Zhao Ziyang's favor as one of the initiators of the Moganshan Conference and one of the "Four Junzi of Reform." In 1984, Zhu became the vice chairman of the Economic System Reform Committee of Henan, marking the first stop in his career, before later going to Columbia University as a scholar.\n\nAfter witnessing prosperity on the other side of the sea, Zhu was determined to study international economics. He resigned from his public position in Henan and joined the CITIC Institute for International Economics. Since the turbulent events of 1989 and Deng Xiaoping's Southern Tour, Bao Tong, then chairman of the National Economic System Reform Commission, invited him to rejoin the committee and the ranks of reform leaders. The arrival of the new millennium opened a new chapter in China's reform blueprint, but the mutual protectionism among cadres and unsatisfactory anti-corruption efforts became stumbling blocks on the road. As the Chairman of the NESRC, Zhu knew that these issues would gradually hollow out the government, a speculation directly validated by the political upheaval in 2012. \n\nAmidst the Beijing coup supported by Eurasia, Zhu, who was supposed to become the vice premier, withdrew to Guangdong, the birthplace of the nationwide reform and opening-up ten years prior. Over the next eight years, he diligently served within the Huanan Administrative Committee, attempting to mend every crack caused by the war and remedy his still deeply-held ideals with his limited power. In 2020, as the black behemoth in the north fell, a glimmer of dawn shone on his desk. As the long-dormant blueprint unfolded once again, he not only picked up his ideals but also shouldered the responsibility of fulfilling the vision of Zhao Ziyang."
  ##POLITICAL PARTIES##
  GUD_commendationism_party:0 "CPC"
  GUD_commendationism_party_long:0 "Communist Party of China"
@@ -17,21 +18,21 @@
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##
-  prc_general_secretary_localisation_tt:0 "[GetPRCGeneralSecretary]"
+ prc_general_secretary_localisation_tt:0 "[GetPRCGeneralSecretary]"
  prc_general_secretary_text_loc:0 "§YGeneral Secretary§!"
  prc_state_council_localisation_tt:0 "[GetPRCStateCouncil]"
- prc_state_council_text_loc:0 "§YState Council§!\nLoyalty: [?prc_state_council_loyality]\nInfluence: [?prc_state_council_influence]"
+ prc_state_council_text_loc:0 "§YState Council§!\n Compatibility: [?global.prc_state_council_compatibility|0]\nInfluence: [?global.prc_state_council_influence|0]"
  prc_npcsc_localisation_tt:0 "[GetPRCNPCSC]"
- prc_npcsc_localisation_text_loc:0 "§YNPCSC§!\nLoyalty: [?prc_npcsc_loyality]\nInfluence: [?prc_npcsc_influence]"
+ prc_npcsc_localisation_text_loc:0 "§YNPCSC§!\n Compatibility: [?global.prc_npcsc_compatibility|0]\nInfluence: [?global.prc_npcsc_influence|0]"
  prc_secretariat_localisation_tt:0 "[GetPRCSecretariat]"
- prc_secretariat_text_loc:0 "§YSecretariat§!\nLoyalty: [?prc_secretariat_loyality]\nInfluence: [?prc_secretariat_influence]"
+ prc_secretariat_text_loc:0 "§YSecretariat§!\n Compatibility: [?global.prc_secretariat_compatibility|0]\nInfluence: [?global.prc_secretariat_influence|0]"
  prc_cppcc_localisation_tt:0 "[GetPRCCPPCC]"
- prc_cppcc_text_loc:0 "§YCPPCC§!\nLoyalty: [?prc_cppcc_loyality]\nInfluence: [?prc_cppcc_influence]"
+ prc_cppcc_text_loc:0 "§YCPPCC§!\n Compatibility: [?global.prc_cppcc_compatibility|0]\nInfluence: [?global.prc_cppcc_influence|0]"
  prc_cabinet_1_localisation_tt:0 "[GetPRCabinet1]"
- prc_cabinet_1_text_loc:0 "§Y[GetPRCabinet1Name]§!\nLoyalty: [?prc_cabinet_1_loyality]\nInfluence: [?prc_cabinet_1_influence]"
+ prc_cabinet_1_text_loc:0 "§Y[GetPRCabinet1Name]§!\n Compatibility: [?global.prc_cabinet_1_compatibility|0]\nInfluence: [?global.prc_cabinet_1_influence|0]"
  prc_cabinet_1_name_1_desc:0 "CCDI"
  prc_cabinet_2_localisation_tt:0 "[GetPRCabinet2]"
- prc_cabinet_2_text_loc:0 "§Y[GetPRCabinet2Name]§!\nLoyalty: [?prc_cabinet_2_loyality]\nInfluence: [?prc_cabinet_2_influence]"
+ prc_cabinet_2_text_loc:0 "§Y[GetPRCabinet2Name]§!\n Compatibility: [?global.prc_cabinet_2_compatibility|0]\nInfluence: [?global.prc_cabinet_2_influence|0]"
  prc_cabinet_2_name_1_desc:0 "State Council (Vice)"
  prc_general_secretary_desc:0 "prc_general_secretary_desc"
  prc_state_council_desc:0 "prc_state_council_desc"
@@ -41,5 +42,6 @@
  prc_cabinet_1_desc:0 "[GetPRCabinet1Desc]"
  prc_cabinet_1_ccdi_desc:0 "prc_cabinet_1_ccdi_desc"
  prc_cabinet_2_desc:0 "[GetPRCabinet2Desc]"
- prc_cabinet_2_state council_vice_desc:0 " prc_cabinet_2_state_council_vice_desc"
+ prc_cabinet_2_state_council_vice_desc:0 "The tasks of the Vice Premier of the State Council include supporting the Premier in dealing with the state executions on a daily basis, fulfilment of the tasks delegated by the Premier, and direct participation in the decision-making and management of the State Council. Vice Premier usually handles certain sectors or ministries like economy, finance, foreign affairs, agriculture, education, environment, etc. They work under the leadership of the Premier and are responsible for the harmonization of activities of different ministries, stimulation of the realization of national policies, and securing the political, economic, and social stability and development of the country."
+ 
  ##EVENTS##
