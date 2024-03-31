@@ -1,0 +1,191 @@
+PRC_influence_state_council = {
+	clamp_variable = { var = global.prc_state_council_influence min = 0 max = 100 }
+	clamp_variable = { var = global.prc_npcsc_influence min = 0 max = 100 }
+	clamp_variable = { var = global.prc_secretariat_influence min = 0 max = 100 }
+	clamp_variable = { var = global.prc_cppcc_influence min = 0 max = 100 }
+    clamp_variable = { var = global.prc_cabinet_1_influence min = 0 max = 100 }
+	clamp_variable = { var = global.prc_cabinet_2_influence min = 0 max = 100 }
+
+	set_temp_variable = { total = 100 }
+	subtract_from_temp_variable = { total = global.prc_state_council_influence }
+	add_to_variable = { global.prc_state_council_influence = global.prc_state_council_influence_temp }
+	divide_variable = { global.prc_npcsc_influence = total }
+	divide_variable = { global.prc_secretariat_influence = total }
+	divide_variable = { global.prc_cppcc_influence = total }
+	divide_variable = { global.prc_cabinet_1_influence = total }
+	divide_variable = { global.prc_cabinet_2_influence = total }
+
+	set_temp_variable = { total = 100 }
+	subtract_from_temp_variable = { total = global.prc_state_council_influence }
+	multiply_variable = { global.prc_npcsc_influence = total }
+	round_variable = global.prc_npcsc_influence
+	multiply_variable = { global.prc_secretariat_influence = total }
+	round_variable = global.prc_secretariat_influence
+	multiply_variable = { global.prc_cppcc_influence = total }
+	round_variable = global.prc_cppcc_influence
+    multiply_variable = { global.prc_cabinet_1_influence = total }
+	round_variable = global.prc_cabinet_1_influence
+	multiply_variable = { global.prc_cabinet_2_influence = total }
+	round_variable = global.prc_cabinet_2_influence
+
+}
+
+PRC_influence_npcsc = {
+	clamp_variable = { var = global.prc_state_council_influence min = 0 max = 100 }
+	clamp_variable = { var = global.prc_npcsc_influence min = 0 max = 100 }
+	clamp_variable = { var = global.prc_secretariat_influence min = 0 max = 100 }
+	clamp_variable = { var = global.prc_cppcc_influence min = 0 max = 100 }
+    clamp_variable = { var = global.prc_cabinet_1_influence min = 0 max = 100 }
+	clamp_variable = { var = global.prc_cabinet_2_influence min = 0 max = 100 }
+
+	set_temp_variable = { total = 100 }
+	subtract_from_variable = { total = global.prc_npcsc_influence }
+	add_to_variable = { global.prc_npcsc_influence = global.prc_npcsc_influence_temp }
+	divide_variable = { global.prc_state_council_influence = total }
+	divide_variable = { global.prc_secretariat_influence = total }
+	divide_variable = { global.prc_cppcc_influence = total }
+	divide_variable = { global.prc_cabinet_1_influence = total }
+	divide_variable = { global.prc_cabinet_2_influence = total }
+	
+	set_temp_variable = { total = 100 }
+	subtract_from_variable = { total = global.prc_npcsc_influence }
+	multiply_variable = { global.prc_state_council_influence = total }
+	round_variable = global.prc_state_council_influence
+	multiply_variable = { global.prc_secretariat_influence = total }
+	round_variable = global.prc_secretariat_influence
+	multiply_variable = { global.prc_cppcc_influence = total }
+	round_variable = global.prc_cppcc_influence
+    multiply_variable = { global.prc_cabinet_1_influence = total }
+	round_variable = global.prc_cabinet_1_influence
+	multiply_variable = { global.prc_cabinet_2_influence = total }
+	round_variable = global.prc_cabinet_2_influence
+
+}
+
+PRC_influence_secretariat = {
+	clamp_variable = { var = global.prc_state_council_influence min = 0 max = 100 }
+	clamp_variable = { var = global.prc_npcsc_influence min = 0 max = 100 }
+	clamp_variable = { var = global.prc_secretariat_influence min = 0 max = 100 }
+	clamp_variable = { var = global.prc_cppcc_influence min = 0 max = 100 }
+    clamp_variable = { var = global.prc_cabinet_1_influence min = 0 max = 100 }
+	clamp_variable = { var = global.prc_cabinet_2_influence min = 0 max = 100 }
+
+	set_temp_variable = { total = 100 }
+	subtract_from_variable = { total = global.prc_secretariat_influence }
+	add_to_variable = { global.prc_secretariat_influence = global.prc_secretariat_influence_temp }
+	divide_variable = { global.prc_state_council_influence = total }
+	divide_variable = { global.prc_npcsc_influence = total }
+	divide_variable = { global.prc_cppcc_influence = total }
+	divide_variable = { global.prc_cabinet_1_influence = total }
+	divide_variable = { global.prc_cabinet_2_influence = total }
+
+	set_temp_variable = { total = 100 }
+	subtract_from_variable = { total = global.prc_secretariat_influence }
+	multiply_variable = { global.prc_state_council_influence = total }
+	round_variable = global.prc_state_council_influence
+	multiply_variable = { global.prc_npcsc_influence = total }
+	round_variable = global.prc_npcsc_influence
+	multiply_variable = { global.prc_cppcc_influence = total }
+	round_variable = global.prc_cppcc_influence
+    multiply_variable = { global.prc_cabinet_1_influence = total }
+	round_variable = global.prc_cabinet_1_influence
+	multiply_variable = { global.prc_cabinet_2_influence = total }
+	round_variable = global.prc_cabinet_2_influence
+
+}
+
+PRC_influence_cppcc = {
+	clamp_variable = { var = global.prc_state_council_influence min = 0 max = 100 }
+	clamp_variable = { var = global.prc_npcsc_influence min = 0 max = 100 }
+	clamp_variable = { var = global.prc_secretariat_influence min = 0 max = 100 }
+	clamp_variable = { var = global.prc_cppcc_influence min = 0 max = 100 }
+    clamp_variable = { var = global.prc_cabinet_1_influence min = 0 max = 100 }
+	clamp_variable = { var = global.prc_cabinet_2_influence min = 0 max = 100 }
+
+	set_temp_variable = { total = 100 }
+	subtract_from_variable = { total = global.prc_cppcc_influence }
+	add_to_variable = { global.prc_cppcc_influence = global.prc_cppcc_influence_temp }
+	divide_variable = { global.prc_state_council_influence = total }
+	divide_variable = { global.prc_secretariat_influence = total }
+	divide_variable = { global.prc_npcsc_influence = total }
+	divide_variable = { global.prc_cabinet_1_influence = total }
+	divide_variable = { global.prc_cabinet_2_influence = total }
+	
+	set_temp_variable = { total = 100 }
+	subtract_from_variable = { total = global.prc_cppcc_influence }
+	multiply_variable = { global.prc_state_council_influence = total }
+	round_variable = global.prc_state_council_influence
+	multiply_variable = { global.prc_npcsc_influence = total }
+	round_variable = global.prc_npcsc_influence
+	multiply_variable = { global.prc_secretariat_influence = total }
+	round_variable = global.prc_secretariat_influence
+    multiply_variable = { global.prc_cabinet_1_influence = total }
+	round_variable = global.prc_cabinet_1_influence
+	multiply_variable = { global.prc_cabinet_2_influence = total }
+	round_variable = global.prc_cabinet_2_influence
+
+}
+
+PRC_influence_cabinet_1 = {
+	clamp_variable = { var = global.prc_state_council_influence min = 0 max = 100 }
+	clamp_variable = { var = global.prc_npcsc_influence min = 0 max = 100 }
+	clamp_variable = { var = global.prc_secretariat_influence min = 0 max = 100 }
+	clamp_variable = { var = global.prc_cppcc_influence min = 0 max = 100 }
+    clamp_variable = { var = global.prc_cabinet_1_influence min = 0 max = 100 }
+	clamp_variable = { var = global.prc_cabinet_2_influence min = 0 max = 100 }
+
+	set_temp_variable = { total = 100 }
+	subtract_from_variable = { total = global.prc_cabinet_1_influence }
+	add_to_variable = { global.prc_cabinet_1_influence = global.prc_cabinet_1_influence_temp }
+	divide_variable = { global.prc_state_council_influence = total }
+	divide_variable = { global.prc_secretariat_influence = total }
+	divide_variable = { global.prc_npcsc_influence = total }
+	divide_variable = { global.prc_cppcc_influence = total }
+	divide_variable = { global.prc_cabinet_2_influence = total }
+
+	set_temp_variable = { total = 100 }
+	subtract_from_variable = { total = global.prc_cabinet_1_influence }
+	multiply_variable = { global.prc_state_council_influence = total }
+	round_variable = global.prc_state_council_influence
+	multiply_variable = { global.prc_npcsc_influence = total }
+	round_variable = global.prc_npcsc_influence
+	multiply_variable = { global.prc_secretariat_influence = total }
+	round_variable = global.prc_secretariat_influence
+    multiply_variable = { global.prc_cppcc_influence = total }
+	round_variable = global.prc_cppcc_influence
+	multiply_variable = { global.prc_cabinet_2_influence = total }
+	round_variable = global.prc_cabinet_2_influence
+
+}
+
+PRC_influence_cabinet_2 = {
+	clamp_variable = { var = global.prc_state_council_influence min = 0 max = 100 }
+	clamp_variable = { var = global.prc_npcsc_influence min = 0 max = 100 }
+	clamp_variable = { var = global.prc_secretariat_influence min = 0 max = 100 }
+	clamp_variable = { var = global.prc_cppcc_influence min = 0 max = 100 }
+    clamp_variable = { var = global.prc_cabinet_1_influence min = 0 max = 100 }
+	clamp_variable = { var = global.prc_cabinet_2_influence min = 0 max = 100 }
+
+	set_temp_variable = { total = 100 }
+	subtract_from_variable = { total = global.prc_cabinet_2_influence }
+		add_to_variable = { global.prc_cabinet_2_influence = global.prc_cabinet_2_influence_temp }
+	divide_variable = { global.prc_state_council_influence = total }
+	divide_variable = { global.prc_secretariat_influence = total }
+	divide_variable = { global.prc_npcsc_influence = total }
+	divide_variable = { global.prc_cppcc_influence = total }
+	divide_variable = { global.prc_cabinet_2_influence = total }
+
+	set_temp_variable = { total = 100 }
+	subtract_from_variable = { total = global.prc_cabinet_2_influence }
+	multiply_variable = { global.prc_state_council_influence = total }
+	round_variable = global.prc_state_council_influence
+	multiply_variable = { global.prc_npcsc_influence = total }
+	round_variable = global.prc_npcsc_influence
+	multiply_variable = { global.prc_secretariat_influence = total }
+	round_variable = global.prc_secretariat_influence
+    multiply_variable = { global.prc_cppcc_influence = total }
+	round_variable = global.prc_cppcc_influence
+	multiply_variable = { global.prc_cabinet_1_influence = total }
+	round_variable = global.prc_cabinet_1_influence
+
+}
