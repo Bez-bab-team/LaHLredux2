@@ -120,4 +120,8 @@ spriteTypes = {
 		name = "GFX_SUS_5_history_lesson_event"
 		texturefile = "gfx/event_pictures/SUS_5_history_lesson.dds"
 	}
+	spriteType = {
+		name = "GFX_GUD_Li_Yuanchao_Resignation"
+		texturefile = "gfx/event_pictures/li_yuanchao_resignation.dds"
+	}
 }
