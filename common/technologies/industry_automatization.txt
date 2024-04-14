@@ -15,30 +15,68 @@ technologies = {
 			change_economy_u
 		}
 		
-		production_factory_max_efficiency_factor = 0.1
+		research_cost = 1.5
+		start_year = 2020
+		folder = {
+			name = automatization_folder
+			position = { x = -3 y = 0 }
+		}
+		
+		path = {
+			leads_to_tech = automatization_mop_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = automatization_construction_1_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = automatization_resources_1_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = automatization_organization_1
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			automatization_industry_category
+		}
+	}
+	##MEANS OF PRODCUTION##
+	automatization_mop_1 = {
+	
+		line_change_production_efficiency_factor = 0.125
+		production_factory_max_efficiency_factor = 0.2
+		production_factory_start_efficiency_factor = 0.05
+		industry_air_damage_factor = 0.0625	
+		industry_free_repair_factor = 0.0625	
+		production_lack_of_resource_penalty_factor = 0.0625
+		
+		path = {
+			leads_to_tech = automatization_mop_2_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = automatization_mop_2_2
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_mop_1
+			}
+		}
 		
 		research_cost = 1.5
 		start_year = 2020
 		folder = {
 			name = automatization_folder
-			position = { x = -12 y = 0 }
-		}
-		
-		path = {
-			leads_to_tech = automatization_factory_output_1
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = automatization_full_robotization_1
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = automatization_steady_production_1
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = automatization_construction_1
-			research_cost_coeff = 1
+			position = { x = -11 y = 2 }
 		}
 		
 		ai_will_do = {
@@ -51,20 +89,19 @@ technologies = {
 			automatization_industry_category
 		}
 	}
-##FACTORY OUTPUT##
-	automatization_factory_output_1 = {
+	automatization_mop_2_1 = {
 	
-		production_speed_buildings_factor = 0.05
-		global_building_slots_factor = 0.05
+		recruitable_population = 0.02
+		production_factory_efficiency_gain_factor = 0.1
 		
 		path = {
-			leads_to_tech = automatization_factory_output_2
+			leads_to_tech = automatization_mop_3
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_left_1
+				set_country_flag = lhl_mop_2_1
 			}
 		}
 		
@@ -72,7 +109,7 @@ technologies = {
 		start_year = 2022
 		folder = {
 			name = automatization_folder
-			position = { x = -12 y = 3 }
+			position = { x = -9 y = 4 }
 		}
 		
 		ai_will_do = {
@@ -81,187 +118,23 @@ technologies = {
 		
 		categories = {
 			industry
+			cat_production
 			automatization_industry_category
 		}
 	}
-	automatization_factory_output_2 = {
+	automatization_mop_2_2 = {
 	
-		production_speed_buildings_factor = 0.05
-		global_building_slots_factor = 0.05
-		
+		recruitable_population = 0.02
+		production_factory_efficiency_gain_factor = 0.1
+				
 		path = {
-			leads_to_tech = automatization_factory_output_3
+			leads_to_tech = automatization_mop_3
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_left_2
-			}
-		}
-		
-		research_cost = 1.5
-		start_year = 2024
-		folder = {
-			name = automatization_folder
-			position = { x = -12 y = 5 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			automatization_industry_category
-		}
-	}
-	automatization_factory_output_3 = {
-	
-		production_speed_buildings_factor = 0.05
-		global_building_slots_factor = 0.05
-		
-		path = {
-			leads_to_tech = automatization_factory_output_4
-			research_cost_coeff = 1
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_left_3
-			}
-		}
-		
-		research_cost = 1.5
-		start_year = 2026
-		folder = {
-			name = automatization_folder
-			position = { x = -12 y = 7 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			automatization_industry_category
-		}
-	}
-	automatization_factory_output_4 = {
-	
-		production_speed_buildings_factor = 0.05
-		global_building_slots_factor = 0.05
-		
-		path = {
-			leads_to_tech = automatization_factory_output_5
-			research_cost_coeff = 1
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_left_4
-			}
-		}
-		
-		research_cost = 1.5
-		start_year = 2028
-		folder = {
-			name = automatization_folder
-			position = { x = -12 y = 9 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			automatization_industry_category
-		}
-	}
-	automatization_factory_output_5 = {
-	
-		production_speed_buildings_factor = 0.05
-		global_building_slots_factor = 0.05
-		
-		path = {
-			leads_to_tech = automatization_factory_output_6
-			research_cost_coeff = 1
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_left_5
-			}
-		}
-		
-		research_cost = 1.5
-		start_year = 2030
-		folder = {
-			name = automatization_folder
-			position = { x = -12 y = 11 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			automatization_industry_category
-		}
-	}
-	automatization_factory_output_6 = {
-	
-		production_speed_buildings_factor = 0.05
-		global_building_slots_factor = 0.05
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_left_6
-			}
-		}
-		
-		research_cost = 1.5
-		start_year = 2032
-		folder = {
-			name = automatization_folder
-			position = { x = -12 y = 13 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			automatization_industry_category
-		}
-	}
-	##AUTOMATIZATION: ROBOTIZATION##
-	automatization_full_robotization_1 = {
-	
-		XOR = {
-			automatization_steady_production_1
-		}
-	
-		production_factory_max_efficiency_factor = 0.15
-		line_change_production_efficiency_factor = 0.15
-		production_factory_efficiency_gain_factor = 0.15
-		production_factory_start_efficiency_factor = 0.1
-		recruitable_population = 0.05
-		industry_air_damage_factor = 0.5
-		industry_free_repair_factor = -0.5
-		
-		path = {
-			leads_to_tech = automatization_full_robotization_2
-			research_cost_coeff = 1
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_centre_left_1
+				set_country_flag = lhl_mop_2_2
 			}
 		}
 		
@@ -269,15 +142,11 @@ technologies = {
 		start_year = 2022
 		folder = {
 			name = automatization_folder
-			position = { x = -9 y = 3 }
+			position = { x = -13 y = 4 }
 		}
 		
 		ai_will_do = {
 			factor = 50
-			modifier = {
-				factor = 0
-				has_tech = automatization_steady_production_1
-			}
 		}
 		
 		categories = {
@@ -286,24 +155,27 @@ technologies = {
 			automatization_industry_category
 		}
 	}
-	automatization_full_robotization_2 = {
+	automatization_mop_3 = {
 	
-		production_factory_max_efficiency_factor = 0.15
-		line_change_production_efficiency_factor = 0.15
-		production_factory_efficiency_gain_factor = 0.15
-		production_factory_start_efficiency_factor = 0.1
-		recruitable_population = 0.05
-		industry_air_damage_factor = 0.5
-		industry_free_repair_factor = -0.5
+		line_change_production_efficiency_factor = 0.125
+		production_factory_max_efficiency_factor = 0.2
+		production_factory_start_efficiency_factor = 0.05
+		industry_air_damage_factor = 0.0625	
+		industry_free_repair_factor = 0.0625
+		production_lack_of_resource_penalty_factor = 0.0625
 		
 		path = {
-			leads_to_tech = automatization_full_robotization_3
+			leads_to_tech = automatization_mop_4_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = automatization_mop_4_2
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_centre_left_2
+				set_country_flag = lhl_mop_3
 			}
 		}
 		
@@ -311,7 +183,7 @@ technologies = {
 		start_year = 2024
 		folder = {
 			name = automatization_folder
-			position = { x = -9 y = 5 }
+			position = { x = -11 y = 6 }
 		}
 		
 		ai_will_do = {
@@ -324,24 +196,19 @@ technologies = {
 			automatization_industry_category
 		}
 	}
-	automatization_full_robotization_3 = {
+	automatization_mop_4_1 = {
 	
-		production_factory_max_efficiency_factor = 0.15
-		line_change_production_efficiency_factor = 0.15
-		production_factory_efficiency_gain_factor = 0.15
-		production_factory_start_efficiency_factor = 0.1
-		recruitable_population = 0.05
-		industry_air_damage_factor = 0.5
-		industry_free_repair_factor = -0.5
-		
+		recruitable_population = 0.02
+		production_factory_efficiency_gain_factor = 0.1
+				
 		path = {
-			leads_to_tech = automatization_full_robotization_4
+			leads_to_tech = automatization_mop_5
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_centre_left_3
+				set_country_flag = lhl_mop_4_1
 			}
 		}
 		
@@ -349,7 +216,7 @@ technologies = {
 		start_year = 2026
 		folder = {
 			name = automatization_folder
-			position = { x = -9 y = 7 }
+			position = { x = -9 y = 8 }
 		}
 		
 		ai_will_do = {
@@ -362,217 +229,19 @@ technologies = {
 			automatization_industry_category
 		}
 	}
-	automatization_full_robotization_4 = {
+	automatization_mop_4_2 = {
 	
-		production_factory_max_efficiency_factor = 0.15
-		line_change_production_efficiency_factor = 0.15
-		production_factory_efficiency_gain_factor = 0.15
-		production_factory_start_efficiency_factor = 0.1
-		recruitable_population = 0.05
-		industry_air_damage_factor = 0.5
-		industry_free_repair_factor = -0.5
-		
-		path = {
-			leads_to_tech = automatization_full_robotization_5
-			research_cost_coeff = 1
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_centre_left_4
-			}
-		}
-		
-		research_cost = 1.5
-		start_year = 2028
-		folder = {
-			name = automatization_folder
-			position = { x = -9 y = 9 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			cat_production
-			automatization_industry_category
-		}
-	}
-	automatization_full_robotization_5 = {
-	
-		production_factory_max_efficiency_factor = 0.15
-		line_change_production_efficiency_factor = 0.15
-		production_factory_efficiency_gain_factor = 0.15
-		production_factory_start_efficiency_factor = 0.1
-		recruitable_population = 0.05
-		industry_air_damage_factor = 0.5
-		industry_free_repair_factor = -0.5
-		
-		path = {
-			leads_to_tech = automatization_full_robotization_6
-			research_cost_coeff = 1
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_centre_left_5
-			}
-		}
-		
-		research_cost = 1.5
-		start_year = 2030
-		folder = {
-			name = automatization_folder
-			position = { x = -9 y = 11 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			cat_production
-			automatization_industry_category
-		}
-	}
-	automatization_full_robotization_6 = {
-	
-		production_factory_max_efficiency_factor = 0.15
-		line_change_production_efficiency_factor = 0.15
-		production_factory_efficiency_gain_factor = 0.15
-		production_factory_start_efficiency_factor = 0.1
-		recruitable_population = 0.05
-		industry_air_damage_factor = 0.5
-		industry_free_repair_factor = -0.5
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_centre_left_6
-			}
-		}
-		
-		research_cost = 1.5
-		start_year = 2032
-		folder = {
-			name = automatization_folder
-			position = { x = -9 y = 13 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			cat_production
-			automatization_industry_category
-		}
-	}
-	##AUTOMATIZATION: STEADY##
-	automatization_steady_production_1 = {
-		XOR = {
-			automatization_full_robotization_1
-		}
-	
-		production_factory_max_efficiency_factor = 0.1
-		line_change_production_efficiency_factor = 0.1
-		production_factory_efficiency_gain_factor = 0.1
-		production_factory_start_efficiency_factor = 0.1
 		recruitable_population = 0.02
-		industry_air_damage_factor = 0.15
-		industry_free_repair_factor = -0.15
-		
-		path = {
-			leads_to_tech = automatization_steady_production_2
-			research_cost_coeff = 1
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_centre_right_1
-			}
-		}
-		
-		research_cost = 1.5
-		start_year = 2022
-		folder = {
-			name = automatization_folder
-			position = { x = -6 y = 3 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-			modifier = {
-				factor = 0
-				has_tech = automatization_full_robotization_1
-			}
-		}
-		
-		categories = {
-			industry
-			cat_production
-			automatization_industry_category
-		}
-	}
-	automatization_steady_production_2 = {
-	
-		production_factory_max_efficiency_factor = 0.12
-		line_change_production_efficiency_factor = 0.1
 		production_factory_efficiency_gain_factor = 0.1
-		production_factory_start_efficiency_factor = 0.1
-		recruitable_population = 0.02
-		industry_air_damage_factor = 0.15
-		industry_free_repair_factor = -0.15
-		
+				
 		path = {
-			leads_to_tech = automatization_steady_production_3
+			leads_to_tech = automatization_mop_5
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_centre_right_2
-			}
-		}
-		
-		research_cost = 1.5
-		start_year = 2024
-		folder = {
-			name = automatization_folder
-			position = { x = -6 y = 5 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			cat_production
-			automatization_industry_category
-		}
-	}
-	automatization_steady_production_3 = {
-	
-		production_factory_max_efficiency_factor = 0.12
-		line_change_production_efficiency_factor = 0.1
-		production_factory_efficiency_gain_factor = 0.1
-		production_factory_start_efficiency_factor = 0.1
-		recruitable_population = 0.02
-		industry_air_damage_factor = 0.15
-		industry_free_repair_factor = -0.15
-		
-		path = {
-			leads_to_tech = automatization_steady_production_4
-			research_cost_coeff = 1
-		}
-
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_centre_right_3
+				set_country_flag = lhl_mop_4_2
 			}
 		}
 		
@@ -580,7 +249,7 @@ technologies = {
 		start_year = 2026
 		folder = {
 			name = automatization_folder
-			position = { x = -6 y = 7 }
+			position = { x = -13 y = 8 }
 		}
 		
 		ai_will_do = {
@@ -593,24 +262,27 @@ technologies = {
 			automatization_industry_category
 		}
 	}
-	automatization_steady_production_4 = {
+	automatization_mop_5 = {
 	
-		production_factory_max_efficiency_factor = 0.12
-		line_change_production_efficiency_factor = 0.1
-		production_factory_efficiency_gain_factor = 0.1
-		production_factory_start_efficiency_factor = 0.1
-		recruitable_population = 0.02
-		industry_air_damage_factor = 0.15
-		industry_free_repair_factor = -0.15
+		line_change_production_efficiency_factor = 0.125
+		production_factory_max_efficiency_factor = 0.2
+		production_factory_start_efficiency_factor = 0.05
+		industry_air_damage_factor = 0.0625	
+		industry_free_repair_factor = 0.0625
+		production_lack_of_resource_penalty_factor = 0.0625
 		
 		path = {
-			leads_to_tech = automatization_steady_production_5
+			leads_to_tech = automatization_mop_6_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = automatization_mop_6_2
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_centre_right_4
+				set_country_flag = lhl_mop_5
 			}
 		}
 		
@@ -618,7 +290,7 @@ technologies = {
 		start_year = 2028
 		folder = {
 			name = automatization_folder
-			position = { x = -6 y = 9 }
+			position = { x = -11 y = 10 }
 		}
 		
 		ai_will_do = {
@@ -631,24 +303,19 @@ technologies = {
 			automatization_industry_category
 		}
 	}
-	automatization_steady_production_5 = {
+	automatization_mop_6_1 = {
 	
-		production_factory_max_efficiency_factor = 0.12
-		line_change_production_efficiency_factor = 0.1
-		production_factory_efficiency_gain_factor = 0.1
-		production_factory_start_efficiency_factor = 0.1
 		recruitable_population = 0.02
-		industry_air_damage_factor = 0.15
-		industry_free_repair_factor = -0.15
-		
+		production_factory_efficiency_gain_factor = 0.1
+				
 		path = {
-			leads_to_tech = automatization_steady_production_6
+			leads_to_tech = automatization_mop_7
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_centre_right_5
+				set_country_flag = lhl_mop_6_1
 			}
 		}
 		
@@ -656,7 +323,7 @@ technologies = {
 		start_year = 2030
 		folder = {
 			name = automatization_folder
-			position = { x = -6 y = 11 }
+			position = { x = -9 y = 12 }
 		}
 		
 		ai_will_do = {
@@ -669,19 +336,51 @@ technologies = {
 			automatization_industry_category
 		}
 	}
-	automatization_steady_production_6 = {
+	automatization_mop_6_2 = {
 	
-		production_factory_max_efficiency_factor = 0.12
-		line_change_production_efficiency_factor = 0.1
-		production_factory_efficiency_gain_factor = 0.1
-		production_factory_start_efficiency_factor = 0.1
 		recruitable_population = 0.02
-		industry_air_damage_factor = 0.15
-		industry_free_repair_factor = -0.15
+		production_factory_efficiency_gain_factor = 0.1
+				
+		path = {
+			leads_to_tech = automatization_mop_7
+			research_cost_coeff = 1
+		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_centre_right_6
+				set_country_flag = lhl_mop_6_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2030
+		folder = {
+			name = automatization_folder
+			position = { x = -13 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			cat_production
+			automatization_industry_category
+		}
+	}
+	automatization_mop_7 = {
+	
+		line_change_production_efficiency_factor = 0.125
+		production_factory_max_efficiency_factor = 0.2
+		production_factory_start_efficiency_factor = 0.05
+		industry_air_damage_factor = 0.0625	
+		industry_free_repair_factor = 0.0625
+		production_lack_of_resource_penalty_factor = 0.0625
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_mop_7
 			}
 		}
 		
@@ -689,7 +388,7 @@ technologies = {
 		start_year = 2032
 		folder = {
 			name = automatization_folder
-			position = { x = -6 y = 13 }
+			position = { x = -11 y = 14 }
 		}
 		
 		ai_will_do = {
@@ -703,31 +402,58 @@ technologies = {
 		}
 	}
 	##CONSTRUCTION##
-	automatization_construction_1 = {
+	automatization_construction_1_1 = {
 	
 		production_speed_buildings_factor = 0.05
-		industry_repair_factor = 0.05
+		industry_repair_factor = 0.05	
 		
 		path = {
-			leads_to_tech = automatization_construction_2
+			leads_to_tech = automatization_construction_1_2
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = automatization_resource_gain_1
+			leads_to_tech = automatization_construction_2
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_right_1
+				set_country_flag = lhl_construction_1_1
 			}
 		}
 		
 		research_cost = 1.5
-		start_year = 2022
+		start_year = 2020
 		folder = {
 			name = automatization_folder
-			position = { x = -3 y = 3 }
+			position = { x = -6 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			construction_tech
+			automatization_industry_category
+		}
+	}
+	automatization_construction_1_2 = {
+	
+		cic_construction_boost_factor = 0.05
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_construction_1_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2020
+		folder = {
+			name = automatization_folder
+			position = { x = -4 y = 2 }
 		}
 		
 		ai_will_do = {
@@ -743,28 +469,24 @@ technologies = {
 	automatization_construction_2 = {
 	
 		production_speed_buildings_factor = 0.05
-		industry_repair_factor = 0.05
-		
+		industry_repair_factor = 0.05	
+				
 		path = {
-			leads_to_tech = automatization_construction_3
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = automatization_resource_gain_2
+			leads_to_tech = automatization_construction_3_1
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_right_2
+				set_country_flag = lhl_construction_2
 			}
 		}
 		
 		research_cost = 1.5
-		start_year = 2024
+		start_year = 2022
 		folder = {
 			name = automatization_folder
-			position = { x = -3 y = 5 }
+			position = { x = -6 y = 4 }
 		}
 		
 		ai_will_do = {
@@ -777,31 +499,58 @@ technologies = {
 			automatization_industry_category
 		}
 	}
-	automatization_construction_3 = {
+	automatization_construction_3_1 = {
 	
 		production_speed_buildings_factor = 0.05
-		industry_repair_factor = 0.05
-		
+		industry_repair_factor = 0.05	
+				
 		path = {
-			leads_to_tech = automatization_construction_4
+			leads_to_tech = automatization_construction_3_2
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = automatization_resource_gain_3
+			leads_to_tech = automatization_construction_4
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_right_3
+				set_country_flag = lhl_construction_3_1
 			}
 		}
 		
 		research_cost = 1.5
-		start_year = 2026
+		start_year = 2024
 		folder = {
 			name = automatization_folder
-			position = { x = -3 y = 7 }
+			position = { x = -6 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			construction_tech
+			automatization_industry_category
+		}
+	}
+	automatization_construction_3_2 = {
+	
+		cic_construction_boost_factor = 0.05
+				
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_construction_3_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2024
+		folder = {
+			name = automatization_folder
+			position = { x = -4 y = 6 }
 		}
 		
 		ai_will_do = {
@@ -817,28 +566,24 @@ technologies = {
 	automatization_construction_4 = {
 	
 		production_speed_buildings_factor = 0.05
-		industry_repair_factor = 0.05
-		
+		industry_repair_factor = 0.05	
+				
 		path = {
-			leads_to_tech = automatization_construction_5
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = automatization_resource_gain_4
+			leads_to_tech = automatization_construction_5_1
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_right_4
+				set_country_flag = lhl_construction_4
 			}
 		}
 		
 		research_cost = 1.5
-		start_year = 2028
+		start_year = 2026
 		folder = {
 			name = automatization_folder
-			position = { x = -3 y = 9 }
+			position = { x = -6 y = 8 }
 		}
 		
 		ai_will_do = {
@@ -851,31 +596,58 @@ technologies = {
 			automatization_industry_category
 		}
 	}
-	automatization_construction_5 = {
+	automatization_construction_5_1 = {
 	
 		production_speed_buildings_factor = 0.05
-		industry_repair_factor = 0.05
-		
+		industry_repair_factor = 0.05	
+				
 		path = {
-			leads_to_tech = automatization_construction_6
+			leads_to_tech = automatization_construction_5_2
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = automatization_resource_gain_5
+			leads_to_tech = automatization_construction_6
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_right_5
+				set_country_flag = lhl_construction_5_1
 			}
 		}
 		
 		research_cost = 1.5
-		start_year = 2030
+		start_year = 2028
 		folder = {
 			name = automatization_folder
-			position = { x = -3 y = 11 }
+			position = { x = -6 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			construction_tech
+			automatization_industry_category
+		}
+	}
+	automatization_construction_5_2 = {
+	
+		cic_construction_boost_factor = 0.05
+				
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_construction_5_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2028
+		folder = {
+			name = automatization_folder
+			position = { x = -4 y = 10 }
 		}
 		
 		ai_will_do = {
@@ -891,24 +663,24 @@ technologies = {
 	automatization_construction_6 = {
 	
 		production_speed_buildings_factor = 0.05
-		industry_repair_factor = 0.05
-		
+		industry_repair_factor = 0.05	
+				
 		path = {
-			leads_to_tech = automatization_resource_gain_6
+			leads_to_tech = automatization_construction_7_1
 			research_cost_coeff = 1
-		}	
-
+		}
+		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_right_6
+				set_country_flag = lhl_construction_6
 			}
-		}		
+		}
 		
 		research_cost = 1.5
-		start_year = 2032
+		start_year = 2030
 		folder = {
 			name = automatization_folder
-			position = { x = -3 y = 13 }
+			position = { x = -6 y = 12 }
 		}
 		
 		ai_will_do = {
@@ -921,157 +693,91 @@ technologies = {
 			automatization_industry_category
 		}
 	}
-	##RESOURCE GAIN##
-	automatization_resource_gain_1 = {
+	automatization_construction_7_1 = {
 	
-		local_resources_factor = 0.05
-
-		research_cost = 1.5
-		start_year = 2022
-		folder = {
-			name = automatization_folder
-			position = { x = -1 y = 3 }
+		production_speed_buildings_factor = 0.05
+		industry_repair_factor = 0.05	
+			
+		path = {
+			leads_to_tech = automatization_construction_7_2
+			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_side_1
+				set_country_flag = lhl_construction_7_1
 			}
 		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			excavation_tech
-			automatization_industry_category
-		}
-	}
-	automatization_resource_gain_2 = {
-	
-		local_resources_factor = 0.05
-		
-		research_cost = 1.5
-		start_year = 2024
-		folder = {
-			name = automatization_folder
-			position = { x = -1 y = 5 }
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_side_2
-			}
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			excavation_tech
-			automatization_industry_category
-		}
-	}
-	automatization_resource_gain_3 = {
-	
-		local_resources_factor = 0.05
-		
-		research_cost = 1.5
-		start_year = 2026
-		folder = {
-			name = automatization_folder
-			position = { x = -1 y = 7 }
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_side_3
-			}
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			excavation_tech
-			automatization_industry_category
-		}
-	}
-	automatization_resource_gain_4 = {
-	
-		local_resources_factor = 0.05
-		
-		research_cost = 1.5
-		start_year = 2028
-		folder = {
-			name = automatization_folder
-			position = { x = -1 y = 9 }
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_side_4
-			}
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			excavation_tech
-			automatization_industry_category
-		}
-	}
-	automatization_resource_gain_5 = {
-	
-		local_resources_factor = 0.05
-		
-		research_cost = 1.5
-		start_year = 2030
-		folder = {
-			name = automatization_folder
-			position = { x = -1 y = 11 }
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_side_5
-			}
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			excavation_tech
-			automatization_industry_category
-		}
-	}
-	automatization_resource_gain_6 = {
-	
-		local_resources_factor = 0.05		
 		
 		research_cost = 1.5
 		start_year = 2032
 		folder = {
 			name = automatization_folder
-			position = { x = -1 y = 13 }
+			position = { x = -6 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			construction_tech
+			automatization_industry_category
+		}
+	}
+	automatization_construction_7_2 = {
+	
+		cic_construction_boost_factor = 0.05
+				
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_construction_7_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2032
+		folder = {
+			name = automatization_folder
+			position = { x = -4 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			construction_tech
+			automatization_industry_category
+		}
+	}
+	##RESOURCES##
+	automatization_resources_1_1 = {
+	
+		local_resources_factor = 0.05
+		
+		path = {
+			leads_to_tech = automatization_resources_1_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = automatization_resources_2
+			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_side_6
+				set_country_flag = lhl_resources_1_1
 			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2020
+		folder = {
+			name = automatization_folder
+			position = { x = -1 y = 2 }
 		}
 		
 		ai_will_do = {
@@ -1081,6 +787,652 @@ technologies = {
 		categories = {
 			industry
 			excavation_tech
+			automatization_industry_category
+		}
+	}
+	automatization_resources_1_2 = {
+	
+		global_building_slots_factor = 0.125
+				
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_1_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2020
+		folder = {
+			name = automatization_folder
+			position = { x = 1 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			automatization_industry_category
+		}
+	}
+	automatization_resources_2 = {
+	
+		local_resources_factor = 0.05
+		
+		path = {
+			leads_to_tech = automatization_resources_3_1
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2022
+		folder = {
+			name = automatization_folder
+			position = { x = -1 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			automatization_industry_category
+		}
+	}
+	automatization_resources_3_1 = {
+	
+		local_resources_factor = 0.05
+				
+		path = {
+			leads_to_tech = automatization_resources_3_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = automatization_resources_4
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_3_1
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2024
+		folder = {
+			name = automatization_folder
+			position = { x = -1 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			automatization_industry_category
+		}
+	}
+	automatization_resources_3_2 = {
+	
+		global_building_slots_factor = 0.125
+				
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_3_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2024
+		folder = {
+			name = automatization_folder
+			position = { x = 1 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			automatization_industry_category
+		}
+	}
+	automatization_resources_4 = {
+	
+		local_resources_factor = 0.05
+				
+		path = {
+			leads_to_tech = automatization_resources_5_1
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_4
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2026
+		folder = {
+			name = automatization_folder
+			position = { x = -1 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			automatization_industry_category
+		}
+	}
+	automatization_resources_5_1 = {
+	
+		local_resources_factor = 0.05
+				
+		path = {
+			leads_to_tech = automatization_resources_5_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = automatization_resources_6
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_5_1
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2028
+		folder = {
+			name = automatization_folder
+			position = { x = -1 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			automatization_industry_category
+		}
+	}
+	automatization_resources_5_2 = {
+	
+		global_building_slots_factor = 0.125
+				
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_5_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2028
+		folder = {
+			name = automatization_folder
+			position = { x = 1 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			automatization_industry_category
+		}
+	}
+	automatization_resources_6 = {
+	
+		local_resources_factor = 0.05
+				
+		path = {
+			leads_to_tech = automatization_resources_7_1
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_6
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2030
+		folder = {
+			name = automatization_folder
+			position = { x = -1 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			automatization_industry_category
+		}
+	}
+	automatization_resources_7_1 = {
+	
+		local_resources_factor = 0.05
+			
+		path = {
+			leads_to_tech = automatization_resources_7_2
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_7_1
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2032
+		folder = {
+			name = automatization_folder
+			position = { x = -1 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			automatization_industry_category
+		}
+	}
+	automatization_resources_7_2 = {
+	
+		global_building_slots_factor = 0.125
+				
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_7_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2032
+		folder = {
+			name = automatization_folder
+			position = { x = 1 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			automatization_industry_category
+		}
+	}
+	##ORGANIZATION##
+	automatization_organization_1 = {
+	
+		industrial_capacity_factory = 0.06
+		industrial_capacity_dockyard = 0.06
+		
+		path = {
+			leads_to_tech = automatization_organization_2_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = automatization_organization_2_2
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_1
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2020
+		folder = {
+			name = automatization_folder
+			position = { x = 6 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
+			automatization_industry_category
+		}
+	}
+	automatization_organization_2_1 = {
+	
+		industrial_capacity_factory = 0.035
+		industrial_capacity_dockyard = 0.035
+				
+		path = {
+			leads_to_tech = automatization_organization_3
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_2_1
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2022
+		folder = {
+			name = automatization_folder
+			position = { x = 4 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
+			automatization_industry_category
+		}
+	}
+	automatization_organization_2_2 = {
+	
+		industrial_capacity_factory = 0.035
+		industrial_capacity_dockyard = 0.035
+					
+		path = {
+			leads_to_tech = automatization_organization_3
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_2_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2022
+		folder = {
+			name = automatization_folder
+			position = { x = 8 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
+			automatization_industry_category
+		}
+	}
+	automatization_organization_3 = {
+	
+		industrial_capacity_factory = 0.06
+		industrial_capacity_dockyard = 0.06
+					
+		path = {
+			leads_to_tech = automatization_organization_4_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = automatization_organization_4_2
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_3
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2024
+		folder = {
+			name = automatization_folder
+			position = { x = 6 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
+			automatization_industry_category
+		}
+	}
+	automatization_organization_4_1 = {
+	
+		industrial_capacity_factory = 0.035
+		industrial_capacity_dockyard = 0.035
+					
+		path = {
+			leads_to_tech = automatization_organization_5
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_4_1
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2026
+		folder = {
+			name = automatization_folder
+			position = { x = 4 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
+			automatization_industry_category
+		}
+	}
+	automatization_organization_4_2 = {
+	
+		industrial_capacity_factory = 0.035
+		industrial_capacity_dockyard = 0.035
+					
+		path = {
+			leads_to_tech = automatization_organization_5
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_4_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2026
+		folder = {
+			name = automatization_folder
+			position = { x = 8 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
+			automatization_industry_category
+		}
+	}
+	automatization_organization_5 = {
+	
+		industrial_capacity_factory = 0.06
+		industrial_capacity_dockyard = 0.06
+					
+		path = {
+			leads_to_tech = automatization_organization_6_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = automatization_organization_6_2
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_5
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2028
+		folder = {
+			name = automatization_folder
+			position = { x = 6 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
+			automatization_industry_category
+		}
+	}
+	automatization_organization_6_1 = {
+	
+		industrial_capacity_factory = 0.035
+		industrial_capacity_dockyard = 0.035
+					
+		path = {
+			leads_to_tech = automatization_organization_7
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_6_1
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2030
+		folder = {
+			name = automatization_folder
+			position = { x = 4 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
+			automatization_industry_category
+		}
+	}
+	automatization_organization_6_2 = {
+	
+		industrial_capacity_factory = 0.035
+		industrial_capacity_dockyard = 0.035
+					
+		path = {
+			leads_to_tech = automatization_organization_7
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_6_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2030
+		folder = {
+			name = automatization_folder
+			position = { x = 8 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
+			automatization_industry_category
+		}
+	}
+	automatization_organization_7 = {
+	
+		industrial_capacity_factory = 0.06
+		industrial_capacity_dockyard = 0.06
+					
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_7
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2032
+		folder = {
+			name = automatization_folder
+			position = { x = 6 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
 			automatization_industry_category
 		}
 	}
