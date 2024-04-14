@@ -10,10 +10,6 @@ technologies = {
 			green_overall
 			unorthodox_overall
 			unorthodox_overall_dummy
-			change_economy_a
-			change_economy_i
-			change_economy_g
-			change_economy_u
 		}
 		
 		research_cost = 1.5
@@ -51,8 +47,8 @@ technologies = {
 	##MEANS OF PRODCUTION##
 	industrialization_mop_1 = {
 	
-		conversion_cost_civ_to_mil_factor = 0.0625
-		conversion_cost_mil_to_civ_factor = 0.0625
+		conversion_cost_civ_to_mil_factor = -0.0625
+		conversion_cost_mil_to_civ_factor = -0.0625
 		production_factory_efficiency_gain_factor = 0.05
 		
 		path = {
@@ -153,8 +149,8 @@ technologies = {
 	}
 	industrialization_mop_3 = {
 	
-		conversion_cost_civ_to_mil_factor = 0.0625
-		conversion_cost_mil_to_civ_factor = 0.0625
+		conversion_cost_civ_to_mil_factor = -0.0625
+		conversion_cost_mil_to_civ_factor = -0.0625
 		production_factory_efficiency_gain_factor = 0.05
 				
 		path = {
@@ -255,8 +251,8 @@ technologies = {
 	}
 	industrialization_mop_5 = {
 	
-		conversion_cost_civ_to_mil_factor = 0.0625
-		conversion_cost_mil_to_civ_factor = 0.0625
+		conversion_cost_civ_to_mil_factor = -0.0625
+		conversion_cost_mil_to_civ_factor = -0.0625
 		production_factory_efficiency_gain_factor = 0.05
 				
 		path = {
@@ -357,8 +353,8 @@ technologies = {
 	}
 	industrialization_mop_7 = {
 	
-		conversion_cost_civ_to_mil_factor = 0.0625
-		conversion_cost_mil_to_civ_factor = 0.0625
+		conversion_cost_civ_to_mil_factor = -0.0625
+		conversion_cost_mil_to_civ_factor = -0.0625
 		production_factory_efficiency_gain_factor = 0.05
 				
 		on_research_complete = {
@@ -1425,38 +1421,6 @@ technologies = {
 			industry
 			industry_organization
 			industrialization_industry_category
-		}
-	}
-	##SWITCH TECHNOLOGY##
-	change_economy_i = {
-	
-		XOR = {
-			automatization_overall
-			automatization_overall_dummy
-			industrialization_overall
-			industrialization_overall_dummy
-			green_overall
-			green_overall_dummy
-			unorthodox_overall
-			unorthodox_overall_dummy
-			change_economy_a
-			change_economy_g
-			change_economy_u
-		}	
-		
-		research_cost = 0.01
-		start_year = 2020
-		folder = {
-			name = industrialization_folder
-			position = { x = 12 y = 7 }
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-		
-		categories = {
-			industry
 		}
 	}
 }

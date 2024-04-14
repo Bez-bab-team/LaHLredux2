@@ -9,10 +9,6 @@ technologies = {
 			industrialization_overall
 			unorthodox_overall_dummy
 			unorthodox_overall
-			change_economy_a
-			change_economy_i
-			change_economy_g
-			change_economy_u
 		}
 		
 		research_cost = 1.5
@@ -420,7 +416,7 @@ technologies = {
 	}
 	green_construction_1_2 = {
 			
-		production_speed_infrastracture_factor = 0.08
+		production_speed_infrastructure_factor = 0.08
 		production_speed_rail_way_factor = 0.08
 		production_speed_synthetic_refinery_factor = 0.08
 		global_building_slots_factor = 0.125
@@ -518,7 +514,7 @@ technologies = {
 	}
 	green_construction_3_2 = {
 			
-		production_speed_infrastracture_factor = 0.08
+		production_speed_infrastructure_factor = 0.08
 		production_speed_rail_way_factor = 0.08
 		production_speed_synthetic_refinery_factor = 0.08
 		global_building_slots_factor = 0.125
@@ -616,7 +612,7 @@ technologies = {
 	}
 	green_construction_5_2 = {
 			
-		production_speed_infrastracture_factor = 0.08
+		production_speed_infrastructure_factor = 0.08
 		production_speed_rail_way_factor = 0.08
 		production_speed_synthetic_refinery_factor = 0.08
 		global_building_slots_factor = 0.125
@@ -710,7 +706,7 @@ technologies = {
 	}
 	green_construction_7_2 = {
 			
-		production_speed_infrastracture_factor = 0.08
+		production_speed_infrastructure_factor = 0.08
 		production_speed_rail_way_factor = 0.08
 		production_speed_synthetic_refinery_factor = 0.08
 		global_building_slots_factor = 0.125
@@ -778,8 +774,8 @@ technologies = {
 	green_resources_1_2 = {
 			
 		production_lack_of_resource_penalty_factor = -0.2
-		army_fuel_consumption = -0.1
-		base_fuel_gain = 0.1
+		army_fuel_consumption_factor = -0.1
+		base_fuel_gain_factor = 0.1
 				
 		on_research_complete = {
 			ROOT = {
@@ -875,8 +871,8 @@ technologies = {
 	green_resources_3_2 = {
 			
 		production_lack_of_resource_penalty_factor = -0.2
-		army_fuel_consumption = -0.1
-		base_fuel_gain = 0.1
+		army_fuel_consumption_factor = -0.1
+		base_fuel_gain_factor = 0.1
 						
 		on_research_complete = {
 			ROOT = {
@@ -972,8 +968,8 @@ technologies = {
 	green_resources_5_2 = {
 			
 		production_lack_of_resource_penalty_factor = -0.2
-		army_fuel_consumption = -0.1
-		base_fuel_gain = 0.1
+		army_fuel_consumption_factor = -0.1
+		base_fuel_gain_factor = 0.1
 						
 		on_research_complete = {
 			ROOT = {
@@ -1065,8 +1061,8 @@ technologies = {
 	green_resources_7_2 = {
 			
 		production_lack_of_resource_penalty_factor = -0.2
-		army_fuel_consumption = -0.1
-		base_fuel_gain = 0.1
+		army_fuel_consumption_factor = -0.1
+		base_fuel_gain_factor = 0.1
 						
 		on_research_complete = {
 			ROOT = {
@@ -1094,7 +1090,7 @@ technologies = {
 	##ORGANIZATION##
 	green_organization_1 = {
 			
-		consumer_goods_factor = 0.0625
+		consumer_goods_factor = -0.0625
 			
 		path = {
 			leads_to_tech = green_organization_2_1
@@ -1196,7 +1192,7 @@ technologies = {
 	}
 	green_organization_3 = {
 			
-		consumer_goods_factor = 0.0625
+		consumer_goods_factor = -0.0625
 					
 		path = {
 			leads_to_tech = green_organization_4_1
@@ -1298,7 +1294,7 @@ technologies = {
 	}
 	green_organization_5 = {
 			
-		consumer_goods_factor = 0.0625
+		consumer_goods_factor = -0.0625
 					
 		path = {
 			leads_to_tech = green_organization_6_1
@@ -1400,7 +1396,7 @@ technologies = {
 	}
 	green_organization_7 = {
 			
-		consumer_goods_factor = 0.0625
+		consumer_goods_factor = -0.0625
 					
 		on_research_complete = {
 			ROOT = {
@@ -1423,38 +1419,6 @@ technologies = {
 			industry
 			industry_organization
 			green_industry_category
-		}
-	}
-	##SWITCH TECHNOLOGY##
-	change_economy_g = {
-	
-		XOR = {
-			automatization_overall
-			automatization_overall_dummy
-			industrialization_overall
-			industrialization_overall_dummy
-			green_overall
-			green_overall_dummy
-			unorthodox_overall_dummy
-			unorthodox_overall
-			change_economy_a
-			change_economy_i
-			change_economy_u
-		}	
-		
-		research_cost = 0.01
-		start_year = 2020
-		folder = {
-			name = green_folder
-			position = { x = 12 y = 7 }
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-		
-		categories = {
-			industry
 		}
 	}
 }

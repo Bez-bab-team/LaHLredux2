@@ -2,235 +2,152 @@ technology_check_unorthodox = {
 	if = {
 		limit = {
 			ROOT = {
-				has_country_flag = industry_left_1
+				has_country_flag = lhl_mop_1
 			}
 		}
 		ROOT = {
 			set_technology = {
-				unorthodox_total_mobilization_1 = 1
+				unorthodox_mop_1 = 1
 			}
 		}
 	}
 	if = {
 		limit = {
 			ROOT = {
-				has_country_flag = industry_left_2
+				has_country_flag = lhl_mop_2_1
 			}
 		}
 		ROOT = {
 			set_technology = {
-				unorthodox_total_mobilization_2 = 1
+				unorthodox_mop_2_1 = 1
 			}
 		}
 	}
 	if = {
 		limit = {
 			ROOT = {
-				has_country_flag = industry_left_3
+				has_country_flag = lhl_mop_2_2
 			}
 		}
 		ROOT = {
 			set_technology = {
-				unorthodox_total_mobilization_3 = 1
+				unorthodox_mop_2_2 = 1
 			}
 		}
 	}
 	if = {
 		limit = {
 			ROOT = {
-				has_country_flag = industry_left_4
+				has_country_flag = lhl_mop_3
 			}
 		}
 		ROOT = {
 			set_technology = {
-				unorthodox_total_mobilization_4 = 1
+				unorthodox_mop_3 = 1
 			}
 		}
 	}
 	if = {
 		limit = {
 			ROOT = {
-				has_country_flag = industry_left_5
+				has_country_flag = lhl_mop_4_1
 			}
 		}
 		ROOT = {
 			set_technology = {
-				unorthodox_total_mobilization_5 = 1
+				unorthodox_mop_4_1 = 1
 			}
 		}
 	}
 	if = {
 		limit = {
 			ROOT = {
-				has_country_flag = industry_left_6
+				has_country_flag = lhl_mop_4_2
 			}
 		}
 		ROOT = {
 			set_technology = {
-				unorthodox_total_mobilization_6 = 1
-			}
-		}
-	}	
-	if = {
-		limit = {
-			ROOT = {
-				has_country_flag = industry_centre_left_1
-			}
-		}
-		ROOT = {
-			set_technology = {
-				unorthodox_war_economy_1 = 1
+				unorthodox_mop_4_2 = 1
 			}
 		}
 	}
 	if = {
 		limit = {
 			ROOT = {
-				has_country_flag = industry_centre_left_2
+				has_country_flag = lhl_mop_5
 			}
 		}
 		ROOT = {
 			set_technology = {
-				unorthodox_war_economy_2 = 1
+				unorthodox_mop_5 = 1
 			}
 		}
 	}
 	if = {
 		limit = {
 			ROOT = {
-				has_country_flag = industry_centre_left_3
+				has_country_flag = lhl_mop_6_1
 			}
 		}
 		ROOT = {
 			set_technology = {
-				unorthodox_war_economy_3 = 1
+				unorthodox_mop_6_1 = 1
 			}
 		}
 	}
 	if = {
 		limit = {
 			ROOT = {
-				has_country_flag = industry_centre_left_4
+				has_country_flag = lhl_mop_6_2
 			}
 		}
 		ROOT = {
 			set_technology = {
-				unorthodox_war_economy_4 = 1
+				unorthodox_mop_6_2 = 1
 			}
 		}
 	}
 	if = {
 		limit = {
 			ROOT = {
-				has_country_flag = industry_centre_left_5
+				has_country_flag = lhl_mop_7
 			}
 		}
 		ROOT = {
 			set_technology = {
-				unorthodox_war_economy_5 = 1
+				unorthodox_mop_7 = 1
+			}
+		}
+	}
+	#
+	if = {
+		limit = {
+			ROOT = {
+				has_country_flag = lhl_construction_1_1
+			}
+		}
+		ROOT = {
+			set_technology = {
+				unorthodox_construction_1_1 = 1
 			}
 		}
 	}
 	if = {
 		limit = {
 			ROOT = {
-				has_country_flag = industry_centre_left_6
+				has_country_flag = lhl_construction_1_2
 			}
 		}
 		ROOT = {
 			set_technology = {
-				unorthodox_war_economy_6 = 1
+				unorthodox_construction_1_2 = 1
 			}
 		}
 	}
 	if = {
 		limit = {
 			ROOT = {
-				has_country_flag = industry_centre_right_1
-			}
-		}
-		ROOT = {
-			set_technology = {
-				unorthodox_great_leap_1 = 1
-			}
-		}
-	}
-	if = {
-		limit = {
-			ROOT = {
-				has_country_flag = industry_centre_right_2
-			}
-		}
-		ROOT = {
-			set_technology = {
-				unorthodox_great_leap_2 = 1
-			}
-		}
-	}
-	if = {
-		limit = {
-			ROOT = {
-				has_country_flag = industry_centre_right_3
-			}
-		}
-		ROOT = {
-			set_technology = {
-				unorthodox_great_leap_3 = 1
-			}
-		}
-	}
-	if = {
-		limit = {
-			ROOT = {
-				has_country_flag = industry_centre_right_4
-			}
-		}
-		ROOT = {
-			set_technology = {
-				unorthodox_great_leap_4 = 1
-			}
-		}
-	}
-	if = {
-		limit = {
-			ROOT = {
-				has_country_flag = industry_centre_right_5
-			}
-		}
-		ROOT = {
-			set_technology = {
-				unorthodox_great_leap_5 = 1
-			}
-		}
-	}
-	if = {
-		limit = {
-			ROOT = {
-				has_country_flag = industry_centre_right_6
-			}
-		}
-		ROOT = {
-			set_technology = {
-				unorthodox_great_leap_6 = 1
-			}
-		}
-	}
-	if = {
-		limit = {
-			ROOT = {
-				has_country_flag = industry_right_1
-			}
-		}
-		ROOT = {
-			set_technology = {
-				unorthodox_construction_1 = 1
-			}
-		}
-	}
-	if = {
-		limit = {
-			ROOT = {
-				has_country_flag = industry_right_2
+				has_country_flag = lhl_construction_2
 			}
 		}
 		ROOT = {
@@ -242,31 +159,31 @@ technology_check_unorthodox = {
 	if = {
 		limit = {
 			ROOT = {
-				has_country_flag = industry_right_3
+				has_country_flag = lhl_construction_3_1
 			}
 		}
 		ROOT = {
 			set_technology = {
-				unorthodox_construction_3 = 1
+				unorthodox_construction_3_1 = 1
 			}
 		}
 	}
 	if = {
 		limit = {
 			ROOT = {
-				has_country_flag = industry_right_4
+				has_country_flag = lhl_construction_3_2
 			}
 		}
 		ROOT = {
 			set_technology = {
-				unorthodox_construction_4 = 1
+				unorthodox_construction_3_2 = 1
 			}
 		}
 	}
 	if = {
 		limit = {
 			ROOT = {
-				has_country_flag = industry_right_5
+				has_country_flag = lhl_construction_4
 			}
 		}
 		ROOT = {
@@ -278,7 +195,31 @@ technology_check_unorthodox = {
 	if = {
 		limit = {
 			ROOT = {
-				has_country_flag = industry_right_6
+				has_country_flag = lhl_construction_5_1
+			}
+		}
+		ROOT = {
+			set_technology = {
+				unorthodox_construction_5_1 = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_country_flag = lhl_construction_5_2
+			}
+		}
+		ROOT = {
+			set_technology = {
+				unorthodox_construction_5_2 = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_country_flag = lhl_construction_6
 			}
 		}
 		ROOT = {
@@ -290,73 +231,384 @@ technology_check_unorthodox = {
 	if = {
 		limit = {
 			ROOT = {
-				has_country_flag = industry_side_1
+				has_country_flag = lhl_construction_7_1
 			}
 		}
 		ROOT = {
 			set_technology = {
-				unorthodox_salvage_1 = 1
+				unorthodox_construction_7_1 = 1
 			}
 		}
 	}
 	if = {
 		limit = {
 			ROOT = {
-				has_country_flag = industry_side_2
+				has_country_flag = lhl_construction_7_2
 			}
 		}
 		ROOT = {
 			set_technology = {
-				unorthodox_salvage_2 = 1
+				unorthodox_construction_7_2 = 1
+			}
+		}
+	}
+	#
+	if = {
+		limit = {
+			ROOT = {
+				has_country_flag = lhl_resources_1_1
+			}
+		}
+		ROOT = {
+			set_technology = {
+				unorthodox_resources_1_1 = 1
 			}
 		}
 	}
 	if = {
 		limit = {
 			ROOT = {
-				has_country_flag = industry_side_3
+				has_country_flag = lhl_resources_1_2
 			}
 		}
 		ROOT = {
 			set_technology = {
-				unorthodox_salvage_3 = 1
+				unorthodox_resources_1_2 = 1
 			}
 		}
 	}
 	if = {
 		limit = {
 			ROOT = {
-				has_country_flag = industry_side_4
+				has_country_flag = lhl_resources_2
 			}
 		}
 		ROOT = {
 			set_technology = {
-				unorthodox_salvage_4 = 1
+				unorthodox_resources_2 = 1
 			}
 		}
 	}
 	if = {
 		limit = {
 			ROOT = {
-				has_country_flag = industry_side_5
+				has_country_flag = lhl_resources_3_1
 			}
 		}
 		ROOT = {
 			set_technology = {
-				unorthodox_salvage_5 = 1
+				unorthodox_resources_3_1 = 1
 			}
 		}
 	}
 	if = {
 		limit = {
 			ROOT = {
-				has_country_flag = industry_side_6
+				has_country_flag = lhl_resources_3_2
 			}
 		}
 		ROOT = {
 			set_technology = {
-				unorthodox_salvage_6 = 1
+				unorthodox_resources_3_2 = 1
 			}
 		}
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_country_flag = lhl_resources_4
+			}
+		}
+		ROOT = {
+			set_technology = {
+				unorthodox_resources_5 = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_country_flag = lhl_resources_5_1
+			}
+		}
+		ROOT = {
+			set_technology = {
+				unorthodox_resources_5_1 = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_country_flag = lhl_resources_5_2
+			}
+		}
+		ROOT = {
+			set_technology = {
+				unorthodox_resources_5_2 = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_country_flag = lhl_resources_6
+			}
+		}
+		ROOT = {
+			set_technology = {
+				unorthodox_resources_6 = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_country_flag = lhl_resources_7_1
+			}
+		}
+		ROOT = {
+			set_technology = {
+				unorthodox_resources_7_1 = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_country_flag = lhl_resources_7_2
+			}
+		}
+		ROOT = {
+			set_technology = {
+				unorthodox_resources_7_2 = 1
+			}
+		}
+	}
+	#
+	if = {
+		limit = {
+			ROOT = {
+				has_country_flag = lhl_organization_1
+			}
+		}
+		ROOT = {
+			set_technology = {
+				unorthodox_organization_1 = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_country_flag = lhl_organization_2_1
+			}
+		}
+		ROOT = {
+			set_technology = {
+				unorthodox_organization_2_1 = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_country_flag = lhl_organization_2_2
+			}
+		}
+		ROOT = {
+			set_technology = {
+				unorthodox_organization_2_2 = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_country_flag = lhl_organization_3
+			}
+		}
+		ROOT = {
+			set_technology = {
+				unorthodox_organization_3 = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_country_flag = lhl_organization_4_1
+			}
+		}
+		ROOT = {
+			set_technology = {
+				unorthodox_organization_4_1 = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_country_flag = lhl_organization_4_2
+			}
+		}
+		ROOT = {
+			set_technology = {
+				unorthodox_organization_4_2 = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_country_flag = lhl_organization_5
+			}
+		}
+		ROOT = {
+			set_technology = {
+				unorthodox_organization_5 = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_country_flag = lhl_organization_6_1
+			}
+		}
+		ROOT = {
+			set_technology = {
+				unorthodox_organization_6_1 = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_country_flag = lhl_organization_6_2
+			}
+		}
+		ROOT = {
+			set_technology = {
+				unorthodox_organization_6_2 = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_country_flag = lhl_organization_7
+			}
+		}
+		ROOT = {
+			set_technology = {
+				unorthodox_organization_7 = 1
+			}
+		}
+	}
+}
+technology_switch_unorthodox = {
+	set_technology = {
+		unorthodox_overall = 1
+		unorthodox_overall_dummy = 1
+		industrialization_overall = 0
+		industrialization_overall_dummy = 0
+		industrialization_mop_1 = 0
+		industrialization_mop_2_1 = 0
+		industrialization_mop_2_2 = 0
+		industrialization_mop_3 = 0
+		industrialization_mop_4_1 = 0
+		industrialization_mop_4_2 = 0
+		industrialization_mop_5 = 0
+		industrialization_mop_6_1 = 0
+		industrialization_mop_6_2 = 0
+		industrialization_mop_7 = 0
+		industrialization_construction_1_1 = 0
+		industrialization_construction_1_2 = 0
+		industrialization_construction_2 = 0
+		industrialization_construction_3_1 = 0
+		industrialization_construction_3_2 = 0
+		industrialization_construction_4 = 0
+		industrialization_construction_5_1 = 0
+		industrialization_construction_5_2 = 0
+		industrialization_construction_6 = 0
+		industrialization_construction_7_1 = 0
+		industrialization_construction_7_2 = 0
+		industrialization_organization_1 = 0
+		industrialization_organization_2_1 = 0
+		industrialization_organization_2_2 = 0
+		industrialization_organization_3:0 = 0
+		industrialization_organization_4_1 = 0
+		industrialization_organization_4_2 = 0
+		industrialization_organization_5 = 0
+		industrialization_organization_6_1 = 0
+		industrialization_organization_6_2 = 0
+		industrialization_organization_7 = 0
+		automatization_overall = 0
+		automatization_overall_dummy = 0
+		automatization_mop_1 = 0
+		automatization_mop_2_1 = 0
+		automatization_mop_2_2 = 0
+		automatization_mop_3 = 0
+		automatization_mop_4_1 = 0
+		automatization_mop_4_2 = 0
+		automatization_mop_5 = 0
+		automatization_mop_6_1 = 0
+		automatization_mop_6_2 = 0
+		automatization_mop_7 = 0
+		automatization_construction_1_1 = 0
+		automatization_construction_1_2 = 0
+		automatization_construction_2 = 0
+		automatization_construction_3_1 = 0
+		automatization_construction_3_2 = 0
+		automatization_construction_4 = 0
+		automatization_construction_5_1 = 0
+		automatization_construction_5_2 = 0
+		automatization_construction_6 = 0
+		automatization_construction_7_1 = 0
+		automatization_construction_7_2 = 0
+		automatization_organization_1 = 0
+		automatization_organization_2_1 = 0
+		automatization_organization_2_2 = 0
+		automatization_organization_3:0 = 0
+		automatization_organization_4_1 = 0
+		automatization_organization_4_2 = 0
+		automatization_organization_5 = 0
+		automatization_organization_6_1 = 0
+		automatization_organization_6_2 = 0
+		automatization_organization_7 = 0
+		green_overall = 0
+		green_overall_dummy = 0
+		green_mop_1 = 0
+		green_mop_2_1 = 0
+		green_mop_2_2 = 0
+		green_mop_3 = 0
+		green_mop_4_1 = 0
+		green_mop_4_2 = 0
+		green_mop_5 = 0
+		green_mop_6_1 = 0
+		green_mop_6_2 = 0
+		green_mop_7 = 0
+		green_construction_1_1 = 0
+		green_construction_1_2 = 0
+		green_construction_2 = 0
+		green_construction_3_1 = 0
+		green_construction_3_2 = 0
+		green_construction_4 = 0
+		green_construction_5_1 = 0
+		green_construction_5_2 = 0
+		green_construction_6 = 0
+		green_construction_7_1 = 0
+		green_construction_7_2 = 0
+		green_organization_1 = 0
+		green_organization_2_1 = 0
+		green_organization_2_2 = 0
+		green_organization_3:0 = 0
+		green_organization_4_1 = 0
+		green_organization_4_2 = 0
+		green_organization_5 = 0
+		green_organization_6_1 = 0
+		green_organization_6_2 = 0
+		green_organization_7 = 0
 	}
 }

@@ -3,6 +3,11 @@ SUS_debug = {
 	picture = GFX
 	allowed = { original_tag = SUS }
 }
+SUS_debug_technology = {
+	icon = GFX
+	picture = GFX
+	allowed = { original_tag = SUS }
+}
 SUS_socecon = {
 	icon = GFX
 	#picture

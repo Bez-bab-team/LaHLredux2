@@ -432,12 +432,12 @@ guiTypes = {
 				}			
 			}			
 				instantTextBoxType = {
-					name = "industry_subtitle"
-					position = { x = 610 y = 210 }
+					name = "lhl_industry_subtitle_1"
+					position = { x = 290 y = 220 }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
-					text = "INDUSTRY_TITLE"
+					text = "LHL_INDUSTRY_1"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
@@ -445,12 +445,12 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "industry_subtitle_production"
-					position = { x = 260 y = 115  }
+					name = "lhl_industry_subtitle_2"
+					position = { x = 630 y = 220  }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
-					text = "INDUSTRY_TITLE_PRODUCTION"
+					text = "LHL_INDUSTRY_2"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
@@ -458,12 +458,12 @@ guiTypes = {
 				}				
 
 				instantTextBoxType = {
-					name = "industry_subtitle_synthetic_oil"
-					position = { x = 1308 y = 115  }
+					name = "lhl_industry_subtitle_3"
+					position = { x = 1008 y = 220  }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
-					text = "INDUSTRY_TITLE_OIL"
+					text = "LHL_INDUSTRY_3"
 					maxWidth = 150
 					maxHeight = 62
 					format = center
@@ -471,12 +471,12 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "industry_subtitle_construction"
-					position = { x = 871 y = 255  }
+					name = "lhl_industry_subtitle_4"
+					position = { x = 1450 y = 220  }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
-					text = "INDUSTRY_TITLE_CONSTRUCTION"
+					text = "LHL_INDUSTRY_4"
 					maxWidth = 250
 					maxHeight = 62
 					format = center
@@ -497,14 +497,6 @@ guiTypes = {
 				position = { x=320 y=172}
 				hide = yes
 				alwaystransparent = yes
-			}
-			
-			gridboxtype = {
-				name = "change_economy_a_tree"
-				position = { x = 1250 y = 172 }
-				size = { width =72 height = 650 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
 			}
 			
 			iconType = {
@@ -645,12 +637,12 @@ guiTypes = {
 				}			
 			}			
 				instantTextBoxType = {
-					name = "industry_subtitle"
-					position = { x = 610 y = 210 }
+					name = "lhl_industry_subtitle_1"
+					position = { x = 290 y = 220 }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
-					text = "INDUSTRY_TITLE"
+					text = "LHL_INDUSTRY_1"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
@@ -658,12 +650,12 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "industry_subtitle_production"
-					position = { x = 260 y = 115  }
+					name = "lhl_industry_subtitle_2"
+					position = { x = 630 y = 220  }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
-					text = "INDUSTRY_TITLE_PRODUCTION"
+					text = "LHL_INDUSTRY_2"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
@@ -671,12 +663,12 @@ guiTypes = {
 				}				
 
 				instantTextBoxType = {
-					name = "industry_subtitle_synthetic_oil"
-					position = { x = 1308 y = 115  }
+					name = "lhl_industry_subtitle_3"
+					position = { x = 1008 y = 220  }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
-					text = "INDUSTRY_TITLE_OIL"
+					text = "LHL_INDUSTRY_3"
 					maxWidth = 150
 					maxHeight = 62
 					format = center
@@ -684,12 +676,12 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "industry_subtitle_construction"
-					position = { x = 871 y = 255  }
+					name = "lhl_industry_subtitle_4"
+					position = { x = 1450 y = 220  }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
-					text = "INDUSTRY_TITLE_CONSTRUCTION"
+					text = "LHL_INDUSTRY_4"
 					maxWidth = 250
 					maxHeight = 62
 					format = center
@@ -710,14 +702,6 @@ guiTypes = {
 				position = { x=320 y=172}
 				hide = yes
 				alwaystransparent = yes
-			}
-			
-			gridboxtype = {
-				name = "change_economy_u_tree"
-				position = { x = 1250 y = 172 }
-				size = { width =72 height = 650 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
 			}
 			
 			iconType = {
@@ -858,12 +842,12 @@ guiTypes = {
 				}			
 			}			
 				instantTextBoxType = {
-					name = "industry_subtitle"
-					position = { x = 610 y = 210 }
+					name = "lhl_industry_subtitle_1"
+					position = { x = 290 y = 220 }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
-					text = "INDUSTRY_TITLE"
+					text = "LHL_INDUSTRY_1"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
@@ -871,12 +855,12 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "industry_subtitle_production"
-					position = { x = 260 y = 115  }
+					name = "lhl_industry_subtitle_2"
+					position = { x = 630 y = 220  }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
-					text = "INDUSTRY_TITLE_PRODUCTION"
+					text = "LHL_INDUSTRY_2"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
@@ -884,12 +868,12 @@ guiTypes = {
 				}				
 
 				instantTextBoxType = {
-					name = "industry_subtitle_synthetic_oil"
-					position = { x = 1308 y = 115  }
+					name = "lhl_industry_subtitle_3"
+					position = { x = 1008 y = 220  }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
-					text = "INDUSTRY_TITLE_OIL"
+					text = "LHL_INDUSTRY_3"
 					maxWidth = 150
 					maxHeight = 62
 					format = center
@@ -897,12 +881,12 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "industry_subtitle_construction"
-					position = { x = 871 y = 255  }
+					name = "lhl_industry_subtitle_4"
+					position = { x = 1450 y = 220  }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
-					text = "INDUSTRY_TITLE_CONSTRUCTION"
+					text = "LHL_INDUSTRY_4"
 					maxWidth = 250
 					maxHeight = 62
 					format = center
@@ -923,14 +907,6 @@ guiTypes = {
 				position = { x=320 y=172}
 				hide = yes
 				alwaystransparent = yes
-			}
-			
-			gridboxtype = {
-				name = "change_economy_i_tree"
-				position = { x = 1250 y = 172 }
-				size = { width =72 height = 650 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
 			}
 			
 			iconType = {
@@ -1071,12 +1047,12 @@ guiTypes = {
 				}			
 			}			
 				instantTextBoxType = {
-					name = "industry_subtitle"
-					position = { x = 610 y = 210 }
+					name = "lhl_industry_subtitle_1"
+					position = { x = 290 y = 220 }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
-					text = "INDUSTRY_TITLE"
+					text = "LHL_INDUSTRY_1"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
@@ -1084,12 +1060,12 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "industry_subtitle_production"
-					position = { x = 260 y = 115  }
+					name = "lhl_industry_subtitle_2"
+					position = { x = 630 y = 220  }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
-					text = "INDUSTRY_TITLE_PRODUCTION"
+					text = "LHL_INDUSTRY_2"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
@@ -1097,12 +1073,12 @@ guiTypes = {
 				}				
 
 				instantTextBoxType = {
-					name = "industry_subtitle_synthetic_oil"
-					position = { x = 1308 y = 115  }
+					name = "lhl_industry_subtitle_3"
+					position = { x = 1008 y = 220  }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
-					text = "INDUSTRY_TITLE_OIL"
+					text = "LHL_INDUSTRY_3"
 					maxWidth = 150
 					maxHeight = 62
 					format = center
@@ -1110,12 +1086,12 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "industry_subtitle_construction"
-					position = { x = 871 y = 255  }
+					name = "lhl_industry_subtitle_4"
+					position = { x = 1450 y = 220  }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
-					text = "INDUSTRY_TITLE_CONSTRUCTION"
+					text = "LHL_INDUSTRY_4"
 					maxWidth = 250
 					maxHeight = 62
 					format = center
@@ -1136,14 +1112,6 @@ guiTypes = {
 				position = { x=320 y=172}
 				hide = yes
 				alwaystransparent = yes
-			}
-			
-			gridboxtype = {
-				name = "change_economy_g_tree"
-				position = { x = 1250 y = 172 }
-				size = { width =72 height = 650 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
 			}
 			
 			iconType = {

@@ -9,10 +9,6 @@ technologies = {
 			green_overall
 			unorthodox_overall
 			unorthodox_overall_dummy
-			change_economy_a
-			change_economy_i
-			change_economy_g
-			change_economy_u
 		}
 		
 		research_cost = 1.5
@@ -1434,38 +1430,6 @@ technologies = {
 			industry
 			industry_organization
 			automatization_industry_category
-		}
-	}
-	##SWITCH TECHNOLOGY##
-	change_economy_a = {
-	
-		XOR = {
-			automatization_overall
-			automatization_overall_dummy
-			industrialization_overall
-			industrialization_overall_dummy
-			green_overall
-			green_overall_dummy
-			unorthodox_overall
-			unorthodox_overall_dummy
-			change_economy_i
-			change_economy_g
-			change_economy_u
-		}	
-		
-		research_cost = 0.01
-		start_year = 2020
-		folder = {
-			name = automatization_folder
-			position = { x = 12 y = 7 }
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-		
-		categories = {
-			industry
 		}
 	}
 }

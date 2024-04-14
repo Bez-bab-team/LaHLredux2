@@ -9,10 +9,6 @@ technologies = {
 			green_overall
 			automatization_overall_dummy
 			automatization_overall
-			change_economy_a
-			change_economy_i
-			change_economy_g
-			change_economy_u
 		}
 		
 		research_cost = 1.5
@@ -50,8 +46,8 @@ technologies = {
 	##MEANS OF PRODCUTION##
 	unorthodox_mop_1 = {
 	
-		conversion_cost_civ_to_mil_factor = 0.2
-		conversion_cost_mil_to_civ_factor = 0.2
+		conversion_cost_civ_to_mil_factor = -0.2
+		conversion_cost_mil_to_civ_factor = -0.2
 		production_factory_efficiency_gain_factor = 0.05
 		
 		path = {
@@ -154,8 +150,8 @@ technologies = {
 	}
 	unorthodox_mop_3 = {
 	
-		conversion_cost_civ_to_mil_factor = 0.2
-		conversion_cost_mil_to_civ_factor = 0.2
+		conversion_cost_civ_to_mil_factor = -0.2
+		conversion_cost_mil_to_civ_factor = -0.2
 		production_factory_efficiency_gain_factor = 0.05
 				
 		path = {
@@ -258,8 +254,8 @@ technologies = {
 	}
 	unorthodox_mop_5 = {
 	
-		conversion_cost_civ_to_mil_factor = 0.2
-		conversion_cost_mil_to_civ_factor = 0.2
+		conversion_cost_civ_to_mil_factor = -0.2
+		conversion_cost_mil_to_civ_factor = -0.2
 		production_factory_efficiency_gain_factor = 0.05
 				
 		path = {
@@ -362,8 +358,8 @@ technologies = {
 	}
 	unorthodox_mop_7 = {
 	
-		conversion_cost_civ_to_mil_factor = 0.2
-		conversion_cost_mil_to_civ_factor = 0.2
+		conversion_cost_civ_to_mil_factor = -0.2
+		conversion_cost_mil_to_civ_factor = -0.2
 		production_factory_efficiency_gain_factor = 0.05
 				
 		on_research_complete = {
@@ -847,12 +843,12 @@ technologies = {
 	unorthodox_resources_1_1 = {
 	
 		country_resource_oil = 8
-		country_resource_aluminimum = 8
+		country_resource_aluminium = 8
 		country_resource_rubber = 8
 		country_resource_tungsten = 8
 		country_resource_steel = 8
 		country_resource_chromium = 8
-		effect = {
+		on_research_complete = {
 			random_controlled_state = {
 				damage_building = {
 					type = infrastructure
@@ -924,12 +920,12 @@ technologies = {
 	unorthodox_resources_2 = {
 	
 		country_resource_oil = 8
-		country_resource_aluminimum = 8
+		country_resource_aluminium = 8
 		country_resource_rubber = 8
 		country_resource_tungsten = 8
 		country_resource_steel = 8
 		country_resource_chromium = 8
-		effect = {
+		on_research_complete = {
 			random_controlled_state = {
 				damage_building = {
 					type = infrastructure
@@ -969,12 +965,12 @@ technologies = {
 	unorthodox_resources_3_1 = {
 	
 		country_resource_oil = 8
-		country_resource_aluminimum = 8
+		country_resource_aluminium = 8
 		country_resource_rubber = 8
 		country_resource_tungsten = 8
 		country_resource_steel = 8
 		country_resource_chromium = 8
-		effect = {
+		on_research_complete = {
 			random_controlled_state = {
 				damage_building = {
 					type = infrastructure
@@ -1046,12 +1042,12 @@ technologies = {
 	unorthodox_resources_4 = {
 	
 		country_resource_oil = 8
-		country_resource_aluminimum = 8
+		country_resource_aluminium = 8
 		country_resource_rubber = 8
 		country_resource_tungsten = 8
 		country_resource_steel = 8
 		country_resource_chromium = 8
-		effect = {
+		on_research_complete = {
 			random_controlled_state = {
 				damage_building = {
 					type = infrastructure
@@ -1091,12 +1087,12 @@ technologies = {
 	unorthodox_resources_5_1 = {
 	
 		country_resource_oil = 8
-		country_resource_aluminimum = 8
+		country_resource_aluminium = 8
 		country_resource_rubber = 8
 		country_resource_tungsten = 8
 		country_resource_steel = 8
 		country_resource_chromium = 8
-		effect = {
+		on_research_complete = {
 			random_controlled_state = {
 				damage_building = {
 					type = infrastructure
@@ -1168,12 +1164,12 @@ technologies = {
 	unorthodox_resources_6 = {
 	
 		country_resource_oil = 8
-		country_resource_aluminimum = 8
+		country_resource_aluminium = 8
 		country_resource_rubber = 8
 		country_resource_tungsten = 8
 		country_resource_steel = 8
 		country_resource_chromium = 8
-		effect = {
+		on_research_complete = {
 			random_controlled_state = {
 				damage_building = {
 					type = infrastructure
@@ -1213,12 +1209,12 @@ technologies = {
 	unorthodox_resources_7_1 = {
 	
 		country_resource_oil = 8
-		country_resource_aluminimum = 8
+		country_resource_aluminium = 8
 		country_resource_rubber = 8
 		country_resource_tungsten = 8
 		country_resource_steel = 8
 		country_resource_chromium = 8
-		effect = {
+		on_research_complete = {
 			random_controlled_state = {
 				damage_building = {
 					type = infrastructure
@@ -1619,38 +1615,6 @@ technologies = {
 			industry
 			industry_organization
 			unorthodox_industry_category
-		}
-	}
-	##SWITCH TECHNOLOGY##
-	change_economy_u = {
-	
-		XOR = {
-			automatization_overall
-			automatization_overall_dummy
-			industrialization_overall
-			industrialization_overall_dummy
-			green_overall
-			green_overall_dummy
-			unorthodox_overall_dummy
-			unorthodox_overall
-			change_economy_i
-			change_economy_a
-			change_economy_g
-		}	
-		
-		research_cost = 0.01
-		start_year = 2020
-		folder = {
-			name = unorthodox_folder
-			position = { x = 12 y = 7 }
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-		
-		categories = {
-			industry
 		}
 	}
 }
