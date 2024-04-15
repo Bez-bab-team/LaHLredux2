@@ -1,3 +1,29 @@
+SUS_debug_technology = {
+	SUS_technology_green = {
+		complete_effect = {
+			technology_check_green = yes
+			technology_switch_green = yes
+		}
+	}
+	SUS_technology_automatization = {
+		complete_effect = {
+			technology_check_automatization = yes
+			technology_switch_automatization = yes
+		}
+	}
+	SUS_technology_unorthodox = {
+		complete_effect = {
+			technology_check_unorthodox = yes
+			technology_switch_unorthodox = yes
+		}
+	}
+	SUS_technology_industrialization = {
+		complete_effect = {
+			technology_check_industrialization = yes
+			technology_switch_industrialization = yes
+		}
+	}
+}
 SUS_debug = {
 	SUS_king = {
 		complete_effect = {

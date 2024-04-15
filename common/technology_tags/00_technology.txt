@@ -132,6 +132,7 @@ technology_categories = {
 	industrialization_industry_category
 	green_industry_category
 	unorthodox_industry_category
+	industry_organization
 	cat_armored_cars
 	cat_special_forces_generic
 	cat_torpedoes

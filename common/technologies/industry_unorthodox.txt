@@ -9,36 +9,67 @@ technologies = {
 			green_overall
 			automatization_overall_dummy
 			automatization_overall
-			change_economy_a
-			change_economy_i
-			change_economy_g
-			change_economy_u
 		}
-		
-		global_building_slots_factor = 0.20
 		
 		research_cost = 1.5
 		start_year = 2020
 		folder = {
 			name = unorthodox_folder
-			position = { x = -12 y = 0 }
+			position = { x = -3 y = 0 }
 		}
 		
 		path = {
-			leads_to_tech = unorthodox_total_mobilization_1
+			leads_to_tech = unorthodox_mop_1
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = unorthodox_war_economy_1
+			leads_to_tech = unorthodox_construction_1_1
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = unorthodox_great_leap_1
+			leads_to_tech = unorthodox_resources_1_1
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = unorthodox_construction_1
+			leads_to_tech = unorthodox_organization_1
 			research_cost_coeff = 1
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			unorthodox_industry_category
+		}
+	}
+	##MEANS OF PRODCUTION##
+	unorthodox_mop_1 = {
+	
+		conversion_cost_civ_to_mil_factor = -0.2
+		conversion_cost_mil_to_civ_factor = -0.2
+		production_factory_efficiency_gain_factor = 0.05
+		
+		path = {
+			leads_to_tech = unorthodox_mop_2_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = unorthodox_mop_2_2
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_mop_1
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2020
+		folder = {
+			name = unorthodox_folder
+			position = { x = -11 y = 2 }
 		}
 		
 		ai_will_do = {
@@ -51,22 +82,19 @@ technologies = {
 			unorthodox_industry_category
 		}
 	}
-##FACTORY OUTPUT##
-	unorthodox_total_mobilization_1 = {
-	
-		resistance_growth_on_our_occupied_states = 0.15
-		resistance_damage_to_garrison_on_our_occupied_states = 0.15
-		recruitable_population = 0.03
-		consumer_goods_factor = -0.08
-		
+	unorthodox_mop_2_1 = {
+			
+		line_change_production_efficiency_factor = 0.14
+		equipment_conversion_speed = 0.27
+				
 		path = {
-			leads_to_tech = unorthodox_total_mobilization_2
+			leads_to_tech = unorthodox_mop_3
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_left_1
+				set_country_flag = lhl_mop_2_1
 			}
 		}
 		
@@ -74,7 +102,7 @@ technologies = {
 		start_year = 2022
 		folder = {
 			name = unorthodox_folder
-			position = { x = -12 y = 3 }
+			position = { x = -9 y = 4 }
 		}
 		
 		ai_will_do = {
@@ -83,197 +111,23 @@ technologies = {
 		
 		categories = {
 			industry
+			cat_production
 			unorthodox_industry_category
 		}
 	}
-	unorthodox_total_mobilization_2 = {
-	
-		resistance_growth_on_our_occupied_states = 0.15
-		resistance_damage_to_garrison_on_our_occupied_states = 0.15
-		recruitable_population = 0.03
-		consumer_goods_factor = -0.08
-		
+	unorthodox_mop_2_2 = {
+			
+		line_change_production_efficiency_factor = 0.14
+		equipment_conversion_speed = 0.27
+					
 		path = {
-			leads_to_tech = unorthodox_total_mobilization_3
+			leads_to_tech = unorthodox_mop_3
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_left_2
-			}
-		}
-		
-		research_cost = 1.5
-		start_year = 2024
-		folder = {
-			name = unorthodox_folder
-			position = { x = -12 y = 5 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			unorthodox_industry_category
-		}
-	}
-	unorthodox_total_mobilization_3 = {
-	
-		resistance_growth_on_our_occupied_states = 0.15
-		resistance_damage_to_garrison_on_our_occupied_states = 0.15
-		recruitable_population = 0.03
-		consumer_goods_factor = -0.08
-		
-		path = {
-			leads_to_tech = unorthodox_total_mobilization_4
-			research_cost_coeff = 1
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_left_3
-			}
-		}
-		
-		research_cost = 1.5
-		start_year = 2026
-		folder = {
-			name = unorthodox_folder
-			position = { x = -12 y = 7 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			unorthodox_industry_category
-		}
-	}
-	unorthodox_total_mobilization_4 = {
-	
-		resistance_growth_on_our_occupied_states = 0.15
-		resistance_damage_to_garrison_on_our_occupied_states = 0.15
-		recruitable_population = 0.03
-		consumer_goods_factor = -0.08
-		
-		path = {
-			leads_to_tech = unorthodox_total_mobilization_5
-			research_cost_coeff = 1
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_left_4
-			}
-		}
-		
-		research_cost = 1.5
-		start_year = 2028
-		folder = {
-			name = unorthodox_folder
-			position = { x = -12 y = 9 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			unorthodox_industry_category
-		}
-	}
-	unorthodox_total_mobilization_5 = {
-	
-		resistance_growth_on_our_occupied_states = 0.15
-		resistance_damage_to_garrison_on_our_occupied_states = 0.15
-		recruitable_population = 0.03
-		consumer_goods_factor = -0.08
-		
-		path = {
-			leads_to_tech = unorthodox_total_mobilization_6
-			research_cost_coeff = 1
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_left_5
-			}
-		}
-		
-		research_cost = 1.5
-		start_year = 2030
-		folder = {
-			name = unorthodox_folder
-			position = { x = -12 y = 11 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			unorthodox_industry_category
-		}
-	}
-	unorthodox_total_mobilization_6 = {
-	
-		resistance_growth_on_our_occupied_states = 0.15
-		resistance_damage_to_garrison_on_our_occupied_states = 0.15
-		recruitable_population = 0.03
-		consumer_goods_factor = -0.08
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_left_6
-			}
-		}
-		
-		research_cost = 1.5
-		start_year = 2032
-		folder = {
-			name = unorthodox_folder
-			position = { x = -12 y = 13 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			unorthodox_industry_category
-		}
-	}
-	##UNORTHODOX: WAR ECONOMY##
-	unorthodox_war_economy_1 = {
-	
-		XOR = {
-			unorthodox_great_leap_1
-		}
-	
-		line_change_production_efficiency_factor = 0.2
-		industry_air_damage_factor = -0.30
-		industry_repair_factor = 0.30
-		conversion_cost_civ_to_mil_factor = -0.5
-		conversion_cost_mil_to_civ_factor = -0.5
-		production_speed_arms_factory_factor = 0.15
-		repair_speed_arms_factory_factor = 0.15
-		
-		path = {
-			leads_to_tech = unorthodox_war_economy_2
-			research_cost_coeff = 1
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_centre_left_1
+				set_country_flag = lhl_mop_2_2
 			}
 		}
 		
@@ -281,15 +135,11 @@ technologies = {
 		start_year = 2022
 		folder = {
 			name = unorthodox_folder
-			position = { x = -9 y = 3 }
+			position = { x = -13 y = 4 }
 		}
 		
 		ai_will_do = {
 			factor = 50
-			modifier = {
-				factor = 0
-				has_tech = unorthodox_great_leap_1
-			}
 		}
 		
 		categories = {
@@ -298,24 +148,24 @@ technologies = {
 			unorthodox_industry_category
 		}
 	}
-	unorthodox_war_economy_2 = {
-		
-		line_change_production_efficiency_factor = 0.2
-		industry_air_damage_factor = -0.30
-		industry_repair_factor = 0.30
-		conversion_cost_civ_to_mil_factor = -0.5
-		conversion_cost_mil_to_civ_factor = -0.5
-		production_speed_arms_factory_factor = 0.15
-		repair_speed_arms_factory_factor = 0.15
-		
+	unorthodox_mop_3 = {
+	
+		conversion_cost_civ_to_mil_factor = -0.2
+		conversion_cost_mil_to_civ_factor = -0.2
+		production_factory_efficiency_gain_factor = 0.05
+				
 		path = {
-			leads_to_tech = unorthodox_war_economy_3
+			leads_to_tech = unorthodox_mop_4_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = unorthodox_mop_4_2
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_centre_left_2
+				set_country_flag = lhl_mop_3
 			}
 		}
 		
@@ -323,7 +173,7 @@ technologies = {
 		start_year = 2024
 		folder = {
 			name = unorthodox_folder
-			position = { x = -9 y = 5 }
+			position = { x = -11 y = 6 }
 		}
 		
 		ai_will_do = {
@@ -336,24 +186,19 @@ technologies = {
 			unorthodox_industry_category
 		}
 	}
-	unorthodox_war_economy_3 = {
-	
-	    line_change_production_efficiency_factor = 0.2 
-		industry_air_damage_factor = -0.30
-		industry_repair_factor = 0.30
-		conversion_cost_civ_to_mil_factor = -0.5
-		conversion_cost_mil_to_civ_factor = -0.5
-		production_speed_arms_factory_factor = 0.15
-		repair_speed_arms_factory_factor = 0.15
-		
+	unorthodox_mop_4_1 = {
+			
+		line_change_production_efficiency_factor = 0.14
+		equipment_conversion_speed = 0.27
+					
 		path = {
-			leads_to_tech = unorthodox_war_economy_4
+			leads_to_tech = unorthodox_mop_5
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_centre_left_3
+				set_country_flag = lhl_mop_4_1
 			}
 		}
 		
@@ -361,7 +206,7 @@ technologies = {
 		start_year = 2026
 		folder = {
 			name = unorthodox_folder
-			position = { x = -9 y = 7 }
+			position = { x = -9 y = 8 }
 		}
 		
 		ai_will_do = {
@@ -374,249 +219,27 @@ technologies = {
 			unorthodox_industry_category
 		}
 	}
-	unorthodox_war_economy_4 = {
-	
-		line_change_production_efficiency_factor = 0.2
-		industry_air_damage_factor = -0.30
-		industry_repair_factor = 0.30
-		conversion_cost_civ_to_mil_factor = -0.5
-		conversion_cost_mil_to_civ_factor = -0.5
-		production_speed_arms_factory_factor = 0.15
-		repair_speed_arms_factory_factor = 0.15
-		
+	unorthodox_mop_4_2 = {
+			
+		line_change_production_efficiency_factor = 0.14
+		equipment_conversion_speed = 0.27
+					
 		path = {
-			leads_to_tech = unorthodox_war_economy_5
+			leads_to_tech = unorthodox_mop_5
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_centre_left_4
+				set_country_flag = lhl_mop_4_2
 			}
 		}
 		
 		research_cost = 1.5
-		start_year = 2028
-		folder = {
-			name = unorthodox_folder
-			position = { x = -9 y = 9 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			cat_production
-			unorthodox_industry_category
-		}
-	}
-	unorthodox_war_economy_5 = {
-	
-		line_change_production_efficiency_factor = 0.2
-		industry_air_damage_factor = -0.30
-		industry_repair_factor = 0.30
-		conversion_cost_civ_to_mil_factor = -0.5
-		conversion_cost_mil_to_civ_factor = -0.5
-		production_speed_arms_factory_factor = 0.15
-		repair_speed_arms_factory_factor = 0.15
-		
-		path = {
-			leads_to_tech = unorthodox_war_economy_6
-			research_cost_coeff = 1
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_centre_left_5
-			}
-		}
-		
-		research_cost = 1.5
-		start_year = 2030
-		folder = {
-			name = unorthodox_folder
-			position = { x = -9 y = 11 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			cat_production
-			unorthodox_industry_category
-		}
-	}
-	unorthodox_war_economy_6 = {
-	
-		line_change_production_efficiency_factor = 0.2
-		industry_air_damage_factor = -0.30
-		industry_repair_factor = 0.30
-		conversion_cost_civ_to_mil_factor = -0.5
-		conversion_cost_mil_to_civ_factor = -0.5
-		production_speed_arms_factory_factor = 0.15
-		repair_speed_arms_factory_factor = 0.15
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_centre_left_6
-			}
-		}
-		
-		research_cost = 1.5
-		start_year = 2032
-		folder = {
-			name = unorthodox_folder
-			position = { x = -9 y = 13 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			cat_production
-			unorthodox_industry_category
-		}
-	}
-	##UNORTHODOX: GREAT LEAP##
-	unorthodox_great_leap_1 = {
-		XOR = {
-			unorthodox_war_economy_1
-		}
-	
-		production_factory_max_efficiency_factor = 0.12
-		line_change_production_efficiency_factor = 0.12
-		production_factory_efficiency_gain_factor = 0.12
-		production_factory_start_efficiency_factor = 0.12
-		industrial_capacity_factory = 0.12
-		industrial_capacity_dockyard = 0.12
-		production_speed_buildings_factor = 0.12
-		recruitable_population = -0.1
-		stability_factor = -0.15
-		war_support_factor = -0.15
-		
-		path = {
-			leads_to_tech = unorthodox_great_leap_2
-			research_cost_coeff = 1
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_centre_right_1
-				add_tech_bonus = {
-					bonus = 0.5
-					uses = 1
-					category = industry
-				}
-			}
-		}
-		
-		research_cost = 0.5
-		start_year = 2022
-		folder = {
-			name = unorthodox_folder
-			position = { x = -6 y = 3 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-			modifier = {
-				factor = 0
-				has_tech = unorthodox_war_economy_1
-			}
-		}
-		
-		categories = {
-			industry
-			cat_production
-			unorthodox_industry_category
-		}
-	}
-	unorthodox_great_leap_2 = {
-	
-		production_factory_max_efficiency_factor = 0.12
-		line_change_production_efficiency_factor = 0.12
-		production_factory_efficiency_gain_factor = 0.12
-		production_factory_start_efficiency_factor = 0.12
-		industrial_capacity_factory = 0.12
-		industrial_capacity_dockyard = 0.12
-		production_speed_buildings_factor = 0.12
-		recruitable_population = -0.15
-		stability_factor = -0.2
-		war_support_factor = -0.2
-		
-		path = {
-			leads_to_tech = unorthodox_great_leap_3
-			research_cost_coeff = 1
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_centre_right_2
-				add_tech_bonus = {
-					bonus = 0.5
-					uses = 1
-					category = industry
-				}
-			}
-		}
-		
-		research_cost = 0.5
-		start_year = 2024
-		folder = {
-			name = unorthodox_folder
-			position = { x = -6 y = 5 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			cat_production
-			unorthodox_industry_category
-		}
-	}
-	unorthodox_great_leap_3 = {
-	
-		production_factory_max_efficiency_factor = 0.12
-		line_change_production_efficiency_factor = 0.12
-		production_factory_efficiency_gain_factor = 0.12
-		production_factory_start_efficiency_factor = 0.12
-		industrial_capacity_factory = 0.12
-		industrial_capacity_dockyard = 0.12
-		production_speed_buildings_factor = 0.12
-		recruitable_population = -0.3
-		stability_factor = -0.35
-		war_support_factor = -0.35
-		
-		path = {
-			leads_to_tech = unorthodox_great_leap_4
-			research_cost_coeff = 1
-		}
-
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_centre_right_3
-				add_tech_bonus = {
-					bonus = 0.5
-					uses = 1
-					category = industry
-				}
-			}
-		}
-		
-		research_cost = 0.5
 		start_year = 2026
 		folder = {
 			name = unorthodox_folder
-			position = { x = -6 y = 7 }
+			position = { x = -13 y = 8 }
 		}
 		
 		ai_will_do = {
@@ -629,40 +252,32 @@ technologies = {
 			unorthodox_industry_category
 		}
 	}
-	unorthodox_great_leap_4 = {
+	unorthodox_mop_5 = {
 	
-		production_factory_max_efficiency_factor = 0.12
-		line_change_production_efficiency_factor = 0.12
-		production_factory_efficiency_gain_factor = 0.12
-		production_factory_start_efficiency_factor = 0.12
-		industrial_capacity_factory = 0.12
-		industrial_capacity_dockyard = 0.12
-		production_speed_buildings_factor = 0.12
-		recruitable_population = -0.35
-		stability_factor = -0.5
-		war_support_factor = -0.5
-		
+		conversion_cost_civ_to_mil_factor = -0.2
+		conversion_cost_mil_to_civ_factor = -0.2
+		production_factory_efficiency_gain_factor = 0.05
+				
 		path = {
-			leads_to_tech = unorthodox_great_leap_5
+			leads_to_tech = unorthodox_mop_6_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = unorthodox_mop_6_2
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_centre_right_4
-				add_tech_bonus = {
-					bonus = 0.5
-					uses = 1
-					category = industry
-				}
+				set_country_flag = lhl_mop_5
 			}
 		}
 		
-		research_cost = 0.5
+		research_cost = 1.5
 		start_year = 2028
 		folder = {
 			name = unorthodox_folder
-			position = { x = -6 y = 9 }
+			position = { x = -11 y = 10 }
 		}
 		
 		ai_will_do = {
@@ -675,40 +290,27 @@ technologies = {
 			unorthodox_industry_category
 		}
 	}
-	unorthodox_great_leap_5 = {
-	
-		production_factory_max_efficiency_factor = 0.12
-		line_change_production_efficiency_factor = 0.12
-		production_factory_efficiency_gain_factor = 0.12
-		production_factory_start_efficiency_factor = 0.12
-		industrial_capacity_factory = 0.12
-		industrial_capacity_dockyard = 0.12
-		production_speed_buildings_factor = 0.12
-		recruitable_population = -0.4
-		stability_factor = -0.6
-		war_support_factor = -0.6
-		
+	unorthodox_mop_6_1 = {
+			
+		line_change_production_efficiency_factor = 0.14
+		equipment_conversion_speed = 0.27
+					
 		path = {
-			leads_to_tech = unorthodox_great_leap_6
+			leads_to_tech = unorthodox_mop_7
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_centre_right_5
-				add_tech_bonus = {
-					bonus = 0.5
-					uses = 1
-					category = industry
-				}
+				set_country_flag = lhl_mop_6_1
 			}
 		}
 		
-		research_cost = 0.5
+		research_cost = 1.5
 		start_year = 2030
 		folder = {
 			name = unorthodox_folder
-			position = { x = -6 y = 11 }
+			position = { x = -9 y = 12 }
 		}
 		
 		ai_will_do = {
@@ -721,38 +323,56 @@ technologies = {
 			unorthodox_industry_category
 		}
 	}
-	unorthodox_great_leap_6 = {
-	
-		production_factory_max_efficiency_factor = 0.12
-		line_change_production_efficiency_factor = 0.12
-		production_factory_efficiency_gain_factor = 0.12
-		production_factory_start_efficiency_factor = 0.12
-		industrial_capacity_factory = 0.12
-		industrial_capacity_dockyard = 0.12
-		production_speed_buildings_factor = 0.12
-		recruitable_population = -0.5
-		stability_factor = -1.0
-		war_support_factor = -1.0
+	unorthodox_mop_6_2 = {
+			
+		line_change_production_efficiency_factor = 0.14
+		equipment_conversion_speed = 0.27
+					
+		path = {
+			leads_to_tech = unorthodox_mop_7
+			research_cost_coeff = 1
+		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_centre_right_6
-				add_tech_bonus = {
-					bonus = 0.5
-					uses = 1
-					category = industry
-				}
-				set_technology = {
-					change_economy_u = 1
-				}
+				set_country_flag = lhl_mop_6_2
 			}
 		}
 		
-		research_cost = 0.5
+		research_cost = 1.5
+		start_year = 2030
+		folder = {
+			name = unorthodox_folder
+			position = { x = -13 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			cat_production
+			unorthodox_industry_category
+		}
+	}
+	unorthodox_mop_7 = {
+	
+		conversion_cost_civ_to_mil_factor = -0.2
+		conversion_cost_mil_to_civ_factor = -0.2
+		production_factory_efficiency_gain_factor = 0.05
+				
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_mop_7
+			}
+		}
+		
+		research_cost = 1.5
 		start_year = 2032
 		folder = {
 			name = unorthodox_folder
-			position = { x = -6 y = 13 }
+			position = { x = -11 y = 14 }
 		}
 		
 		ai_will_do = {
@@ -766,32 +386,73 @@ technologies = {
 		}
 	}
 	##CONSTRUCTION##
-	unorthodox_construction_1 = {
+	unorthodox_construction_1_1 = {
 	
-		production_speed_buildings_factor = 0.05
-		industry_repair_factor = 0.05
-		global_building_slots_factor = 0.35
+		production_cost_infrastructure_factor = -0.09
+		production_cost_arms_factory_factor = -0.09
+		production_cost_industrial_complex_factor = -0.09
+		production_cost_air_base_factor = -0.09
+		production_cost_supply_node_factor = -0.09
+		production_cost_rail_way_factor = -0.09
+		production_cost_naval_base_factor = -0.09
+		production_cost_bunker_factor = -0.09
+		production_cost_coastal_bunker_factor = -0.09
+		production_cost_dockyard_factor  = -0.09
+		production_cost_anti_air_building_factor = -0.09
+		production_cost_fuel_silo_factor = -0.09
+		production_cost_radar_station_factor = -0.09
+		production_cost_rocket_site_factor = -0.09
+		production_cost_nuclear_reactor_factor = -0.09
+		production_cost_synthetic_refinery_factor = -0.09
 		
 		path = {
-			leads_to_tech = unorthodox_construction_2
+			leads_to_tech = unorthodox_construction_1_2
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = unorthodox_salvage_1
+			leads_to_tech = unorthodox_construction_2
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_right_1
+				set_country_flag = lhl_construction_1_1
 			}
 		}
 		
 		research_cost = 1.5
-		start_year = 2022
+		start_year = 2020
 		folder = {
 			name = unorthodox_folder
-			position = { x = -3 y = 3 }
+			position = { x = -6 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			construction_tech
+			unorthodox_industry_category
+		}
+	}
+	unorthodox_construction_1_2 = {
+	
+		industry_air_damage_factor = -0.125
+		industry_free_repair_factor = 0.15
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_construction_1_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2020
+		folder = {
+			name = unorthodox_folder
+			position = { x = -4 y = 2 }
 		}
 		
 		ai_will_do = {
@@ -806,30 +467,39 @@ technologies = {
 	}
 	unorthodox_construction_2 = {
 	
-		production_speed_buildings_factor = 0.05
-		industry_repair_factor = 0.05
-		global_building_slots_factor = 0.35
-		
+		production_cost_infrastructure_factor = -0.09
+		production_cost_arms_factory_factor = -0.09
+		production_cost_industrial_complex_factor = -0.09
+		production_cost_air_base_factor = -0.09
+		production_cost_supply_node_factor = -0.09
+		production_cost_rail_way_factor = -0.09
+		production_cost_naval_base_factor = -0.09
+		production_cost_bunker_factor = -0.09
+		production_cost_coastal_bunker_factor = -0.09
+		production_cost_dockyard_factor  = -0.09
+		production_cost_anti_air_building_factor = -0.09
+		production_cost_fuel_silo_factor = -0.09
+		production_cost_radar_station_factor = -0.09
+		production_cost_rocket_site_factor = -0.09
+		production_cost_nuclear_reactor_factor = -0.09
+		production_cost_synthetic_refinery_factor = -0.09
+				
 		path = {
-			leads_to_tech = unorthodox_construction_3
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = unorthodox_salvage_2
+			leads_to_tech = unorthodox_construction_3_1
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_right_2
+				set_country_flag = lhl_construction_2
 			}
 		}
 		
 		research_cost = 1.5
-		start_year = 2024
+		start_year = 2022
 		folder = {
 			name = unorthodox_folder
-			position = { x = -3 y = 5 }
+			position = { x = -6 y = 4 }
 		}
 		
 		ai_will_do = {
@@ -842,32 +512,73 @@ technologies = {
 			unorthodox_industry_category
 		}
 	}
-	unorthodox_construction_3 = {
+	unorthodox_construction_3_1 = {
 	
-		production_speed_buildings_factor = 0.05
-		industry_repair_factor = 0.05
-		global_building_slots_factor = 0.35
-		
+		production_cost_infrastructure_factor = -0.09
+		production_cost_arms_factory_factor = -0.09
+		production_cost_industrial_complex_factor = -0.09
+		production_cost_air_base_factor = -0.09
+		production_cost_supply_node_factor = -0.09
+		production_cost_rail_way_factor = -0.09
+		production_cost_naval_base_factor = -0.09
+		production_cost_bunker_factor = -0.09
+		production_cost_coastal_bunker_factor = -0.09
+		production_cost_dockyard_factor  = -0.09
+		production_cost_anti_air_building_factor = -0.09
+		production_cost_fuel_silo_factor = -0.09
+		production_cost_radar_station_factor = -0.09
+		production_cost_rocket_site_factor = -0.09
+		production_cost_nuclear_reactor_factor = -0.09
+		production_cost_synthetic_refinery_factor = -0.09
+				
 		path = {
-			leads_to_tech = unorthodox_construction_4
+			leads_to_tech = unorthodox_construction_3_2
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = unorthodox_salvage_3
+			leads_to_tech = unorthodox_construction_4
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_right_3
+				set_country_flag = lhl_construction_3_1
 			}
 		}
 		
 		research_cost = 1.5
-		start_year = 2026
+		start_year = 2024
 		folder = {
 			name = unorthodox_folder
-			position = { x = -3 y = 7 }
+			position = { x = -6 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			construction_tech
+			unorthodox_industry_category
+		}
+	}
+	unorthodox_construction_3_2 = {
+	
+		industry_air_damage_factor = -0.125
+		industry_free_repair_factor = 0.15
+				
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_construction_3_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2024
+		folder = {
+			name = unorthodox_folder
+			position = { x = -4 y = 6 }
 		}
 		
 		ai_will_do = {
@@ -882,30 +593,39 @@ technologies = {
 	}
 	unorthodox_construction_4 = {
 	
-		production_speed_buildings_factor = 0.05
-		industry_repair_factor = 0.05
-		global_building_slots_factor = 0.35
-		
+		production_cost_infrastructure_factor = -0.09
+		production_cost_arms_factory_factor = -0.09
+		production_cost_industrial_complex_factor = -0.09
+		production_cost_air_base_factor = -0.09
+		production_cost_supply_node_factor = -0.09
+		production_cost_rail_way_factor = -0.09
+		production_cost_naval_base_factor = -0.09
+		production_cost_bunker_factor = -0.09
+		production_cost_coastal_bunker_factor = -0.09
+		production_cost_dockyard_factor  = -0.09
+		production_cost_anti_air_building_factor = -0.09
+		production_cost_fuel_silo_factor = -0.09
+		production_cost_radar_station_factor = -0.09
+		production_cost_rocket_site_factor = -0.09
+		production_cost_nuclear_reactor_factor = -0.09
+		production_cost_synthetic_refinery_factor = -0.09
+				
 		path = {
-			leads_to_tech = unorthodox_construction_5
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = unorthodox_salvage_4
+			leads_to_tech = unorthodox_construction_5_1
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_right_4
+				set_country_flag = lhl_construction_4
 			}
 		}
 		
 		research_cost = 1.5
-		start_year = 2028
+		start_year = 2026
 		folder = {
 			name = unorthodox_folder
-			position = { x = -3 y = 9 }
+			position = { x = -6 y = 8 }
 		}
 		
 		ai_will_do = {
@@ -918,32 +638,73 @@ technologies = {
 			unorthodox_industry_category
 		}
 	}
-	unorthodox_construction_5 = {
+	unorthodox_construction_5_1 = {
 	
-		production_speed_buildings_factor = 0.05
-		industry_repair_factor = 0.05
-		global_building_slots_factor = 0.35
-		
+		production_cost_infrastructure_factor = -0.09
+		production_cost_arms_factory_factor = -0.09
+		production_cost_industrial_complex_factor = -0.09
+		production_cost_air_base_factor = -0.09
+		production_cost_supply_node_factor = -0.09
+		production_cost_rail_way_factor = -0.09
+		production_cost_naval_base_factor = -0.09
+		production_cost_bunker_factor = -0.09
+		production_cost_coastal_bunker_factor = -0.09
+		production_cost_dockyard_factor  = -0.09
+		production_cost_anti_air_building_factor = -0.09
+		production_cost_fuel_silo_factor = -0.09
+		production_cost_radar_station_factor = -0.09
+		production_cost_rocket_site_factor = -0.09
+		production_cost_nuclear_reactor_factor = -0.09
+		production_cost_synthetic_refinery_factor = -0.09
+				
 		path = {
-			leads_to_tech = unorthodox_construction_6
+			leads_to_tech = unorthodox_construction_5_2
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = unorthodox_salvage_5
+			leads_to_tech = unorthodox_construction_6
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_right_5
+				set_country_flag = lhl_construction_5_1
 			}
 		}
 		
 		research_cost = 1.5
-		start_year = 2030
+		start_year = 2028
 		folder = {
 			name = unorthodox_folder
-			position = { x = -3 y = 11 }
+			position = { x = -6 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			construction_tech
+			unorthodox_industry_category
+		}
+	}
+	unorthodox_construction_5_2 = {
+	
+		industry_air_damage_factor = -0.125
+		industry_free_repair_factor = 0.15
+				
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_construction_5_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2028
+		folder = {
+			name = unorthodox_folder
+			position = { x = -4 y = 10 }
 		}
 		
 		ai_will_do = {
@@ -958,26 +719,39 @@ technologies = {
 	}
 	unorthodox_construction_6 = {
 	
-		production_speed_buildings_factor = 0.05
-		industry_repair_factor = 0.05
-		global_building_slots_factor = 0.35
-		
+		production_cost_infrastructure_factor = -0.09
+		production_cost_arms_factory_factor = -0.09
+		production_cost_industrial_complex_factor = -0.09
+		production_cost_air_base_factor = -0.09
+		production_cost_supply_node_factor = -0.09
+		production_cost_rail_way_factor = -0.09
+		production_cost_naval_base_factor = -0.09
+		production_cost_bunker_factor = -0.09
+		production_cost_coastal_bunker_factor = -0.09
+		production_cost_dockyard_factor  = -0.09
+		production_cost_anti_air_building_factor = -0.09
+		production_cost_fuel_silo_factor = -0.09
+		production_cost_radar_station_factor = -0.09
+		production_cost_rocket_site_factor = -0.09
+		production_cost_nuclear_reactor_factor = -0.09
+		production_cost_synthetic_refinery_factor = -0.09
+				
 		path = {
-			leads_to_tech = unorthodox_salvage_6
+			leads_to_tech = unorthodox_construction_7_1
 			research_cost_coeff = 1
-		}	
-
+		}
+		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_right_6
+				set_country_flag = lhl_construction_6
 			}
-		}		
+		}
 		
 		research_cost = 1.5
-		start_year = 2032
+		start_year = 2030
 		folder = {
 			name = unorthodox_folder
-			position = { x = -3 y = 13 }
+			position = { x = -6 y = 12 }
 		}
 		
 		ai_will_do = {
@@ -990,169 +764,119 @@ technologies = {
 			unorthodox_industry_category
 		}
 	}
-	##RESOURCE GAIN##
-	unorthodox_salvage_1 = {
+	unorthodox_construction_7_1 = {
 	
-		local_resources_factor = 0.05
-		equipment_capture_factor = 0.10
-		equipment_conversion_speed = 0.10
-
-		research_cost = 1.5
-		start_year = 2022
-		folder = {
-			name = unorthodox_folder
-			position = { x = -1 y = 3 }
+		production_cost_infrastructure_factor = -0.09
+		production_cost_arms_factory_factor = -0.09
+		production_cost_industrial_complex_factor = -0.09
+		production_cost_air_base_factor = -0.09
+		production_cost_supply_node_factor = -0.09
+		production_cost_rail_way_factor = -0.09
+		production_cost_naval_base_factor = -0.09
+		production_cost_bunker_factor = -0.09
+		production_cost_coastal_bunker_factor = -0.09
+		production_cost_dockyard_factor  = -0.09
+		production_cost_anti_air_building_factor = -0.09
+		production_cost_fuel_silo_factor = -0.09
+		production_cost_radar_station_factor = -0.09
+		production_cost_rocket_site_factor = -0.09
+		production_cost_nuclear_reactor_factor = -0.09
+		production_cost_synthetic_refinery_factor = -0.09
+			
+		path = {
+			leads_to_tech = unorthodox_construction_7_2
+			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_side_1
+				set_country_flag = lhl_construction_7_1
 			}
 		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			excavation_tech
-			unorthodox_industry_category
-		}
-	}
-	unorthodox_salvage_2 = {
-	
-		local_resources_factor = 0.05
-		equipment_capture_factor = 0.10
-		equipment_conversion_speed = 0.10
-		
-		research_cost = 1.5
-		start_year = 2024
-		folder = {
-			name = unorthodox_folder
-			position = { x = -1 y = 5 }
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_side_2
-			}
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			excavation_tech
-			unorthodox_industry_category
-		}
-	}
-	unorthodox_salvage_3 = {
-	
-		local_resources_factor = 0.05
-		equipment_capture_factor = 0.10
-		equipment_conversion_speed = 0.10
-		
-		research_cost = 1.5
-		start_year = 2026
-		folder = {
-			name = unorthodox_folder
-			position = { x = -1 y = 7 }
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_side_3
-			}
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			excavation_tech
-			unorthodox_industry_category
-		}
-	}
-	unorthodox_salvage_4 = {
-	
-		local_resources_factor = 0.05
-		equipment_capture_factor = 0.10
-		equipment_conversion_speed = 0.10
-		
-		research_cost = 1.5
-		start_year = 2028
-		folder = {
-			name = unorthodox_folder
-			position = { x = -1 y = 9 }
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_side_4
-			}
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			excavation_tech
-			unorthodox_industry_category
-		}
-	}
-	unorthodox_salvage_5 = {
-	
-		local_resources_factor = 0.05
-		equipment_capture_factor = 0.10
-		equipment_conversion_speed = 0.10
-		
-		research_cost = 1.5
-		start_year = 2030
-		folder = {
-			name = unorthodox_folder
-			position = { x = -1 y = 11 }
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_side_5
-			}
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			excavation_tech
-			unorthodox_industry_category
-		}
-	}
-	unorthodox_salvage_6 = {
-	
-		local_resources_factor = 0.05
-		equipment_capture_factor = 0.10
-		equipment_conversion_speed = 0.10		
 		
 		research_cost = 1.5
 		start_year = 2032
 		folder = {
 			name = unorthodox_folder
-			position = { x = -1 y = 13 }
+			position = { x = -6 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			construction_tech
+			unorthodox_industry_category
+		}
+	}
+	unorthodox_construction_7_2 = {
+	
+		industry_air_damage_factor = -0.125
+		industry_free_repair_factor = 0.15
+				
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_construction_7_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2032
+		folder = {
+			name = unorthodox_folder
+			position = { x = -4 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			construction_tech
+			unorthodox_industry_category
+		}
+	}
+	##RESOURCES##
+	unorthodox_resources_1_1 = {
+	
+		country_resource_oil = 8
+		country_resource_aluminium = 8
+		country_resource_rubber = 8
+		country_resource_tungsten = 8
+		country_resource_steel = 8
+		country_resource_chromium = 8
+		on_research_complete = {
+			random_controlled_state = {
+				damage_building = {
+					type = infrastructure
+					damage = 3
+				}
+			}
+		}	
+		
+		path = {
+			leads_to_tech = unorthodox_resources_1_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = unorthodox_resources_2
+			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_side_6
+				set_country_flag = lhl_resources_1_1
 			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2020
+		folder = {
+			name = unorthodox_folder
+			position = { x = -1 y = 2 }
 		}
 		
 		ai_will_do = {
@@ -1165,36 +889,732 @@ technologies = {
 			unorthodox_industry_category
 		}
 	}
-	##SWITCH TECHNOLOGY##
-	change_economy_u = {
+	unorthodox_resources_1_2 = {
 	
-		XOR = {
-			automatization_overall
-			automatization_overall_dummy
-			industrialization_overall
-			industrialization_overall_dummy
-			green_overall
-			green_overall_dummy
-			unorthodox_overall_dummy
-			unorthodox_overall
-			change_economy_i
-			change_economy_a
-			change_economy_g
-		}	
+		equipment_capture_factor = 0.125
+		production_lack_of_resource_penalty_factor = -0.1
 		
-		research_cost = 0.01
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_1_2
+			}
+		}
+		
+		research_cost = 1.5
 		start_year = 2020
 		folder = {
 			name = unorthodox_folder
-			position = { x = 12 y = 7 }
+			position = { x = 1 y = 2 }
 		}
 		
 		ai_will_do = {
-			factor = 0
+			factor = 50
 		}
 		
 		categories = {
 			industry
+			excavation_tech
+			unorthodox_industry_category
+		}
+	}
+	unorthodox_resources_2 = {
+	
+		country_resource_oil = 8
+		country_resource_aluminium = 8
+		country_resource_rubber = 8
+		country_resource_tungsten = 8
+		country_resource_steel = 8
+		country_resource_chromium = 8
+		on_research_complete = {
+			random_controlled_state = {
+				damage_building = {
+					type = infrastructure
+					damage = 3
+				}
+			}
+		}	
+				
+		path = {
+			leads_to_tech = unorthodox_resources_3_1
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2022
+		folder = {
+			name = unorthodox_folder
+			position = { x = -1 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			unorthodox_industry_category
+		}
+	}
+	unorthodox_resources_3_1 = {
+	
+		country_resource_oil = 8
+		country_resource_aluminium = 8
+		country_resource_rubber = 8
+		country_resource_tungsten = 8
+		country_resource_steel = 8
+		country_resource_chromium = 8
+		on_research_complete = {
+			random_controlled_state = {
+				damage_building = {
+					type = infrastructure
+					damage = 3
+				}
+			}
+		}	
+				
+		path = {
+			leads_to_tech = unorthodox_resources_3_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = unorthodox_resources_4
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_3_1
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2024
+		folder = {
+			name = unorthodox_folder
+			position = { x = -1 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			unorthodox_industry_category
+		}
+	}
+	unorthodox_resources_3_2 = {
+	
+		equipment_capture_factor = 0.125
+		production_lack_of_resource_penalty_factor = -0.1
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_3_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2024
+		folder = {
+			name = unorthodox_folder
+			position = { x = 1 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			unorthodox_industry_category
+		}
+	}
+	unorthodox_resources_4 = {
+	
+		country_resource_oil = 8
+		country_resource_aluminium = 8
+		country_resource_rubber = 8
+		country_resource_tungsten = 8
+		country_resource_steel = 8
+		country_resource_chromium = 8
+		on_research_complete = {
+			random_controlled_state = {
+				damage_building = {
+					type = infrastructure
+					damage = 3
+				}
+			}
+		}	
+				
+		path = {
+			leads_to_tech = unorthodox_resources_5_1
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_4
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2026
+		folder = {
+			name = unorthodox_folder
+			position = { x = -1 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			unorthodox_industry_category
+		}
+	}
+	unorthodox_resources_5_1 = {
+	
+		country_resource_oil = 8
+		country_resource_aluminium = 8
+		country_resource_rubber = 8
+		country_resource_tungsten = 8
+		country_resource_steel = 8
+		country_resource_chromium = 8
+		on_research_complete = {
+			random_controlled_state = {
+				damage_building = {
+					type = infrastructure
+					damage = 3
+				}
+			}
+		}	
+				
+		path = {
+			leads_to_tech = unorthodox_resources_5_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = unorthodox_resources_6
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_5_1
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2028
+		folder = {
+			name = unorthodox_folder
+			position = { x = -1 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			unorthodox_industry_category
+		}
+	}
+	unorthodox_resources_5_2 = {
+	
+		equipment_capture_factor = 0.125
+		production_lack_of_resource_penalty_factor = -0.1
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_5_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2028
+		folder = {
+			name = unorthodox_folder
+			position = { x = 1 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			unorthodox_industry_category
+		}
+	}
+	unorthodox_resources_6 = {
+	
+		country_resource_oil = 8
+		country_resource_aluminium = 8
+		country_resource_rubber = 8
+		country_resource_tungsten = 8
+		country_resource_steel = 8
+		country_resource_chromium = 8
+		on_research_complete = {
+			random_controlled_state = {
+				damage_building = {
+					type = infrastructure
+					damage = 3
+				}
+			}
+		}	
+				
+		path = {
+			leads_to_tech = unorthodox_resources_7_1
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_6
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2030
+		folder = {
+			name = unorthodox_folder
+			position = { x = -1 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			unorthodox_industry_category
+		}
+	}
+	unorthodox_resources_7_1 = {
+	
+		country_resource_oil = 8
+		country_resource_aluminium = 8
+		country_resource_rubber = 8
+		country_resource_tungsten = 8
+		country_resource_steel = 8
+		country_resource_chromium = 8
+		on_research_complete = {
+			random_controlled_state = {
+				damage_building = {
+					type = infrastructure
+					damage = 3
+				}
+			}
+		}	
+			
+		path = {
+			leads_to_tech = unorthodox_resources_7_2
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_7_1
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2032
+		folder = {
+			name = unorthodox_folder
+			position = { x = -1 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			unorthodox_industry_category
+		}
+	}
+	unorthodox_resources_7_2 = {
+	
+		equipment_capture_factor = 0.125
+		production_lack_of_resource_penalty_factor = -0.1
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_7_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2032
+		folder = {
+			name = unorthodox_folder
+			position = { x = 1 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			unorthodox_industry_category
+		}
+	}
+	##ORGANIZATION##
+	unorthodox_organization_1 = {
+			
+		consumer_goods_factor = -0.1
+		monthly_population = 0.25
+				
+		path = {
+			leads_to_tech = unorthodox_organization_2_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = unorthodox_organization_2_2
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_1
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2020
+		folder = {
+			name = unorthodox_folder
+			position = { x = 6 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
+			unorthodox_industry_category
+		}
+	}
+	unorthodox_organization_2_1 = {
+			
+		industrial_capacity_dockyard = 0.05
+		industrial_capacity_factory = 0.05
+
+		path = {
+			leads_to_tech = unorthodox_organization_3
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_2_1
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2022
+		folder = {
+			name = unorthodox_folder
+			position = { x = 4 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
+			unorthodox_industry_category
+		}
+	}
+	unorthodox_organization_2_2 = {
+			
+		industrial_capacity_dockyard = 0.05
+		industrial_capacity_factory = 0.05
+		
+		path = {
+			leads_to_tech = unorthodox_organization_3
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_2_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2022
+		folder = {
+			name = unorthodox_folder
+			position = { x = 8 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
+			unorthodox_industry_category
+		}
+	}
+	unorthodox_organization_3 = {
+			
+		consumer_goods_factor = -0.1
+		monthly_population = 0.25
+				
+		path = {
+			leads_to_tech = unorthodox_organization_4_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = unorthodox_organization_4_2
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_3
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2024
+		folder = {
+			name = unorthodox_folder
+			position = { x = 6 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
+			unorthodox_industry_category
+		}
+	}
+	unorthodox_organization_4_1 = {
+			
+		industrial_capacity_dockyard = 0.05
+		industrial_capacity_factory = 0.05
+		
+		path = {
+			leads_to_tech = unorthodox_organization_5
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_4_1
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2026
+		folder = {
+			name = unorthodox_folder
+			position = { x = 4 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
+			unorthodox_industry_category
+		}
+	}
+	unorthodox_organization_4_2 = {
+			
+		industrial_capacity_dockyard = 0.05
+		industrial_capacity_factory = 0.05
+		
+		path = {
+			leads_to_tech = unorthodox_organization_5
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_4_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2026
+		folder = {
+			name = unorthodox_folder
+			position = { x = 8 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
+			unorthodox_industry_category
+		}
+	}
+	unorthodox_organization_5 = {
+			
+		consumer_goods_factor = -0.1
+		monthly_population = 0.25
+				
+		path = {
+			leads_to_tech = unorthodox_organization_6_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = unorthodox_organization_6_2
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_5
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2028
+		folder = {
+			name = unorthodox_folder
+			position = { x = 6 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
+			unorthodox_industry_category
+		}
+	}
+	unorthodox_organization_6_1 = {
+			
+		industrial_capacity_dockyard = 0.05
+		industrial_capacity_factory = 0.05
+		
+		path = {
+			leads_to_tech = unorthodox_organization_7
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_6_1
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2030
+		folder = {
+			name = unorthodox_folder
+			position = { x = 4 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
+			unorthodox_industry_category
+		}
+	}
+	unorthodox_organization_6_2 = {
+			
+		industrial_capacity_dockyard = 0.05
+		industrial_capacity_factory = 0.05
+		
+		path = {
+			leads_to_tech = unorthodox_organization_7
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_6_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2030
+		folder = {
+			name = unorthodox_folder
+			position = { x = 8 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
+			unorthodox_industry_category
+		}
+	}
+	unorthodox_organization_7 = {
+			
+		consumer_goods_factor = -0.1
+		monthly_population = 0.25
+					
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_7
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2032
+		folder = {
+			name = unorthodox_folder
+			position = { x = 6 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
+			unorthodox_industry_category
 		}
 	}
 }
