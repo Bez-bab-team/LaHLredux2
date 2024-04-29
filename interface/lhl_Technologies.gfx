@@ -3551,4 +3551,709 @@ spriteTypes = {
         name = "GFX_NSB_futuristic_ifv_weaponry_medium"
         textureFile = "gfx/interface/technologies/cannon_upgrade3.dds"
     }
+	###Technologies###
+	#Automatization#
+	SpriteType = {
+		name = "GFX_automatization_overall_dummy_medium"
+		texturefile = "gfx/interface/technologies/Automation Doctrine.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_mop_1_medium"
+		texturefile = "gfx/interface/technologies/Mechatronics.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_mop_2_1_medium"
+		texturefile = "gfx/interface/technologies/Robot Welding.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_mop_2_2_medium"
+		texturefile = "gfx/interface/technologies/Assembly Automatization.dds"
+	}	
+	SpriteType = {
+		name = "GFX_automatization_mop_3_medium"
+		texturefile = "gfx/interface/technologies/Mechanical Enclosure.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_mop_4_1_medium"
+		texturefile = "gfx/interface/technologies/Industrial Exoskeletons.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_mop_4_2_medium"
+		texturefile = "gfx/interface/technologies/Cobots.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_mop_5_medium"
+		texturefile = "gfx/interface/technologies/Robot Reproduction.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_mop_6_1_medium"
+		texturefile = "gfx/interface/technologies/Robotic Materials.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_mop_6_2_medium"
+		texturefile = "gfx/interface/technologies/Autopilot Vehicles.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_mop_7_medium"
+		texturefile = "gfx/interface/technologies/Nanomachines.dds"
+	}
+	#
+	SpriteType = {
+		name = "GFX_automatization_construction_1_1_medium"
+		texturefile = "gfx/interface/technologies/Assisted Construction Management I.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_construction_1_2_medium"
+		texturefile = "gfx/interface/technologies/Prefabrication on Site.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_construction_2_medium"
+		texturefile = "gfx/interface/technologies/Assisted Construction Management II.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_construction_3_1_medium"
+		texturefile = "gfx/interface/technologies/Assisted Construction Management III.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_construction_3_2_medium"
+		texturefile = "gfx/interface/technologies/Unmanned Heavy Equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_construction_4_medium"
+		texturefile = "gfx/interface/technologies/Assisted Construction Management IV.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_construction_5_1_medium"
+		texturefile = "gfx/interface/technologies/Assisted Construction Management V.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_construction_5_2_medium"
+		texturefile = "gfx/interface/technologies/Smart Cranes.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_construction_6_medium"
+		texturefile = "gfx/interface/technologies/Assisted Construction Management VI.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_construction_7_1_medium"
+		texturefile = "gfx/interface/technologies/Assisted Construction Management VII.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_construction_7_2_medium"
+		texturefile = "gfx/interface/technologies/3D-Printing.dds"
+	}
+	#
+	SpriteType = {
+		name = "GFX_automatization_resources_1_1_medium"
+		texturefile = "gfx/interface/technologies/Autonomous Mining Vehicles I.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_resources_1_2_medium"
+		texturefile = "gfx/interface/technologies/In-situ Leaching.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_resources_2_medium"
+		texturefile = "gfx/interface/technologies/Autonomous Mining Vehicles II.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_resources_3_1_medium"
+		texturefile = "gfx/interface/technologies/Autonomous Mining Vehicles III.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_resources_3_2_medium"
+		texturefile = "gfx/interface/technologies/Teleoperated Mining Equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_resources_4_medium"
+		texturefile = "gfx/interface/technologies/Autonomous Mining Vehicles IV.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_resources_5_1_medium"
+		texturefile = "gfx/interface/technologies/Autonomous Mining Vehicles V.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_resources_5_2_medium"
+		texturefile = "gfx/interface/technologies/Unmanned Quarry Dump Trucks.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_resources_6_medium"
+		texturefile = "gfx/interface/technologies/Autonomous Mining Vehicles VI.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_resources_7_1_medium"
+		texturefile = "gfx/interface/technologies/Autonomous Mining Vehicles VII.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_resources_7_2_medium"
+		texturefile = "gfx/interface/technologies/AI Assisted Markscheidering.dds"
+	}
+	#
+	SpriteType = {
+		name = "GFX_automatization_organization_1_medium"
+		texturefile = "gfx/interface/technologies/Automation Protocols.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_organization_2_1_medium"
+		texturefile = "gfx/interface/technologies/Robotics Safety.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_organization_2_2_medium"
+		texturefile = "gfx/interface/technologies/Speed Capacity.dds"
+	}	
+	SpriteType = {
+		name = "GFX_automatization_organization_3_medium"
+		texturefile = "gfx/interface/technologies/Universal Robotics.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_organization_4_1_medium"
+		texturefile = "gfx/interface/technologies/Software Simplification.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_organization_4_2_medium"
+		texturefile = "gfx/interface/technologies/Structural Re-Education.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_organization_5_medium"
+		texturefile = "gfx/interface/technologies/Database Management.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_organization_6_1_medium"
+		texturefile = "gfx/interface/technologies/Enterprise Resource Planning.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_organization_6_2_medium"
+		texturefile = "gfx/interface/technologies/Inspection Robots.dds"
+	}
+	SpriteType = {
+		name = "GFX_automatization_organization_7_medium"
+		texturefile = "gfx/interface/technologies/AI Management Assistance.dds"
+	}
+	#Industrialization#
+	SpriteType = {
+		name = "GFX_industrialization_overall_dummy_medium"
+		texturefile = "gfx/interface/technologies/Extensive_Doctrine.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_mop_1_medium"
+		texturefile = "gfx/interface/technologies/Basic Tool Manufacturing.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_mop_2_1_medium"
+		texturefile = "gfx/interface/technologies/Computer-Aided Drafting.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_mop_2_2_medium"
+		texturefile = "gfx/interface/technologies/Economies of Scale.dds"
+	}	
+	SpriteType = {
+		name = "GFX_industrialization_mop_3_medium"
+		texturefile = "gfx/interface/technologies/Wide Track Gauge.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_mop_4_1_medium"
+		texturefile = "gfx/interface/technologies/Flexible Automation of Manufacturing.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_mop_4_2_medium"
+		texturefile = "gfx/interface/technologies/Epoxy Granite.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_mop_5_medium"
+		texturefile = "gfx/interface/technologies/Computer Numerical Control.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_mop_6_1_medium"
+		texturefile = "gfx/interface/technologies/Machining Сenter.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_mop_6_2_medium"
+		texturefile = "gfx/interface/technologies/Workshop Programming.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_mop_7_medium"
+		texturefile = "gfx/interface/technologies/Universal Machine Tools.dds"
+	}
+	#
+	SpriteType = {
+		name = "GFX_industrialization_construction_1_1_medium"
+		texturefile = "gfx/interface/technologies/Standardized Construction I.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_construction_1_2_medium"
+		texturefile = "gfx/interface/technologies/Large Panel System.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_construction_2_medium"
+		texturefile = "gfx/interface/technologies/Standardized Construction II.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_construction_3_1_medium"
+		texturefile = "gfx/interface/technologies/Standardized Construction III.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_construction_3_2_medium"
+		texturefile = "gfx/interface/technologies/Improved Composite Materials.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_construction_4_medium"
+		texturefile = "gfx/interface/technologies/Standardized Construction IV.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_construction_5_1_medium"
+		texturefile = "gfx/interface/technologies/Standardized Construction V.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_construction_5_2_medium"
+		texturefile = "gfx/interface/technologies/Microdistricts.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_construction_6_medium"
+		texturefile = "gfx/interface/technologies/Standardized Construction VI.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_construction_7_1_medium"
+		texturefile = "gfx/interface/technologies/Standardized Construction VII.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_construction_7_2_medium"
+		texturefile = "gfx/interface/technologies/Industrial Evacuation Drills.dds"
+	}
+	#
+	SpriteType = {
+		name = "GFX_industrialization_resources_1_1_medium"
+		texturefile = "gfx/interface/technologies/Mineral Exploration I.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_resources_1_2_medium"
+		texturefile = "gfx/interface/technologies/Productive Waste Utilization.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_resources_2_medium"
+		texturefile = "gfx/interface/technologies/Mineral Exploration II.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_resources_3_1_medium"
+		texturefile = "gfx/interface/technologies/Mineral Exploration III.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_resources_3_2_medium"
+		texturefile = "gfx/interface/technologies/Expanded_Quarries_Design.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_resources_4_medium"
+		texturefile = "gfx/interface/technologies/Mineral Exploration IV.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_resources_5_1_medium"
+		texturefile = "gfx/interface/technologies/Mineral Exploration V.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_resources_5_2_medium"
+		texturefile = "gfx/interface/technologies/Diamond Cutters.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_resources_6_medium"
+		texturefile = "gfx/interface/technologies/Mineral Exploration VI.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_resources_7_1_medium"
+		texturefile = "gfx/interface/technologies/Mineral Exploration VII.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_resources_7_2_medium"
+		texturefile = "gfx/interface/technologies/Advanced Mineral Benefication.dds"
+	}
+	#
+	SpriteType = {
+		name = "GFX_industrialization_organization_1_medium"
+		texturefile = "gfx/interface/technologies/Long Term Planning.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_organization_2_1_medium"
+		texturefile = "gfx/interface/technologies/Industrial Arts.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_organization_2_2_medium"
+		texturefile = "gfx/interface/technologies/Labour Dispersal.dds"
+	}	
+	SpriteType = {
+		name = "GFX_industrialization_organization_3_medium"
+		texturefile = "gfx/interface/technologies/Lifted Limitations.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_organization_4_1_medium"
+		texturefile = "gfx/interface/technologies/Labour Discipline.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_organization_4_2_medium"
+		texturefile = "gfx/interface/technologies/State Standartization.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_organization_5_medium"
+		texturefile = "gfx/interface/technologies/Pockets of Effectiveness.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_organization_6_1_medium"
+		texturefile = "gfx/interface/technologies/Stable Workplaces.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_organization_6_2_medium"
+		texturefile = "gfx/interface/technologies/Heavy Industry Effort.dds"
+	}
+	SpriteType = {
+		name = "GFX_industrialization_organization_7_medium"
+		texturefile = "gfx/interface/technologies/Centralised Cybernetics.dds"
+	}
+	#Green#
+	SpriteType = {
+		name = "GFX_green_overall_dummy_medium"
+		texturefile = "gfx/interface/technologies/Green Doctrine.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_mop_1_medium"
+		texturefile = "gfx/interface/technologies/Mainstream Renewables.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_mop_2_1_medium"
+		texturefile = "gfx/interface/technologies/Recycled Packaging.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_mop_2_2_medium"
+		texturefile = "gfx/interface/technologies/Laser Welding.dds"
+	}	
+	SpriteType = {
+		name = "GFX_green_mop_3_medium"
+		texturefile = "gfx/interface/technologies/Biomass.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_mop_4_1_medium"
+		texturefile = "gfx/interface/technologies/Mass Customization.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_mop_4_2_medium"
+		texturefile = "gfx/interface/technologies/Printed Electronics.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_mop_5_medium"
+		texturefile = "gfx/interface/technologies/Tidal Power Stations.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_mop_6_1_medium"
+		texturefile = "gfx/interface/technologies/Battery Storage Power Station.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_mop_6_2_medium"
+		texturefile = "gfx/interface/technologies/Logistics Drones.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_mop_7_medium"
+		texturefile = "gfx/interface/technologies/Open Manufacturing.dds"
+	}
+	#
+	SpriteType = {
+		name = "GFX_green_construction_1_1_medium"
+		texturefile = "gfx/interface/technologies/Sustainable Construction I.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_construction_1_2_medium"
+		texturefile = "gfx/interface/technologies/Synthetic Resources.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_construction_2_medium"
+		texturefile = "gfx/interface/technologies/Sustainable Construction II.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_construction_3_1_medium"
+		texturefile = "gfx/interface/technologies/Sustainable Construction III.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_construction_3_2_medium"
+		texturefile = "gfx/interface/technologies/Precision Agriculture.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_construction_4_medium"
+		texturefile = "gfx/interface/technologies/Sustainable Construction IV.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_construction_5_1_medium"
+		texturefile = "gfx/interface/technologies/Sustainable Construction V.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_construction_5_2_medium"
+		texturefile = "gfx/interface/technologies/Infrastructure Renewal.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_construction_6_medium"
+		texturefile = "gfx/interface/technologies/Sustainable Construction VI.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_construction_7_1_medium"
+		texturefile = "gfx/interface/technologies/Sustainable Construction VII.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_construction_7_2_medium"
+		texturefile = "gfx/interface/technologies/Logistics Renewal.dds"
+	}
+	#
+	SpriteType = {
+		name = "GFX_green_resources_1_1_medium"
+		texturefile = "gfx/interface/technologies/Responsible Mining I.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_resources_1_2_medium"
+		texturefile = "gfx/interface/technologies/Basic Materials Recycling.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_resources_2_medium"
+		texturefile = "gfx/interface/technologies/Responsible Mining II.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_resources_3_1_medium"
+		texturefile = "gfx/interface/technologies/Responsible Mining III.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_resources_3_2_medium"
+		texturefile = "gfx/interface/technologies/Mass Electrification of Vehicles.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_resources_4_medium"
+		texturefile = "gfx/interface/technologies/Responsible Mining IV.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_resources_5_1_medium"
+		texturefile = "gfx/interface/technologies/Responsible Mining V.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_resources_5_2_medium"
+		texturefile = "gfx/interface/technologies/Rare Earth Metals Recycling.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_resources_6_medium"
+		texturefile = "gfx/interface/technologies/Responsible Mining VI.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_resources_7_1_medium"
+		texturefile = "gfx/interface/technologies/Responsible Mining VII.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_resources_7_2_medium"
+		texturefile = "gfx/interface/technologies/Green Hydrogen.dds"
+	}
+	#
+	SpriteType = {
+		name = "GFX_green_organization_1_medium"
+		texturefile = "gfx/interface/technologies/Cyber-Physical System.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_organization_2_1_medium"
+		texturefile = "gfx/interface/technologies/Restructured Vocational Education.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_organization_2_2_medium"
+		texturefile = "gfx/interface/technologies/Planned Sustainability.dds"
+	}	
+	SpriteType = {
+		name = "GFX_green_organization_3_medium"
+		texturefile = "gfx/interface/technologies/Collaborative Virtual Factory.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_organization_4_1_medium"
+		texturefile = "gfx/interface/technologies/Quality Machine Shops.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_organization_4_2_medium"
+		texturefile = "gfx/interface/technologies/Waste Management.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_organization_5_medium"
+		texturefile = "gfx/interface/technologies/Cloud Computing.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_organization_6_1_medium"
+		texturefile = "gfx/interface/technologies/Digital Twins.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_organization_6_2_medium"
+		texturefile = "gfx/interface/technologies/Autonomous Maintenance.dds"
+	}
+	SpriteType = {
+		name = "GFX_green_organization_7_medium"
+		texturefile = "gfx/interface/technologies/Augmented Reality.dds"
+	}
+	#Unorthodox#
+	SpriteType = {
+		name = "GFX_unorthodox_overall_dummy_medium"
+		texturefile = "gfx/interface/technologies/Regressionist Doctrine.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_mop_1_medium"
+		texturefile = "gfx/interface/technologies/Decentralised Workshops.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_mop_2_1_medium"
+		texturefile = "gfx/interface/technologies/Irregular Production.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_mop_2_2_medium"
+		texturefile = "gfx/interface/technologies/Cottage Gunsmiths.dds"
+	}	
+	SpriteType = {
+		name = "GFX_unorthodox_mop_3_medium"
+		texturefile = "gfx/interface/technologies/Apprenticeship.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_mop_4_1_medium"
+		texturefile = "gfx/interface/technologies/Modern Handyman Tools.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_mop_4_2_medium"
+		texturefile = "gfx/interface/technologies/Technicals Workshops.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_mop_5_medium"
+		texturefile = "gfx/interface/technologies/Microgeneration.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_mop_6_1_medium"
+		texturefile = "gfx/interface/technologies/Personalised Machine Tools.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_mop_6_2_medium"
+		texturefile = "gfx/interface/technologies/Carriage Transport.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_mop_7_medium"
+		texturefile = "gfx/interface/technologies/Reverse-Engineering.dds"
+	}
+	#
+	SpriteType = {
+		name = "GFX_unorthodox_construction_1_1_medium"
+		texturefile = "gfx/interface/technologies/Simplified Construction I.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_construction_1_2_medium"
+		texturefile = "gfx/interface/technologies/Maintenance Dugouts.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_construction_2_medium"
+		texturefile = "gfx/interface/technologies/Simplified Construction II.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_construction_3_1_medium"
+		texturefile = "gfx/interface/technologies/Simplified Construction III.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_construction_3_2_medium"
+		texturefile = "gfx/interface/technologies/Convenient Building Recovery.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_construction_4_medium"
+		texturefile = "gfx/interface/technologies/Simplified Construction IV.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_construction_5_1_medium"
+		texturefile = "gfx/interface/technologies/Simplified Construction V.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_construction_5_2_medium"
+		texturefile = "gfx/interface/technologies/Recyclable Construction Materials.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_construction_6_medium"
+		texturefile = "gfx/interface/technologies/Simplified Construction VI.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_construction_7_1_medium"
+		texturefile = "gfx/interface/technologies/Simplified Construction VII.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_construction_7_2_medium"
+		texturefile = "gfx/interface/technologies/Stonemasonry.dds"
+	}
+	#
+	SpriteType = {
+		name = "GFX_unorthodox_resources_1_1_medium"
+		texturefile = "gfx/interface/technologies/Scavenge Economy I.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_resources_1_2_medium"
+		texturefile = "gfx/interface/technologies/Equipment Recovery.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_resources_2_medium"
+		texturefile = "gfx/interface/technologies/Scavenge Economy II.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_resources_3_1_medium"
+		texturefile = "gfx/interface/technologies/Scavenge Economy III.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_resources_3_2_medium"
+		texturefile = "gfx/interface/technologies/Artisanal Oil Refinery.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_resources_4_medium"
+		texturefile = "gfx/interface/technologies/Scavenge Economy IV.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_resources_5_1_medium"
+		texturefile = "gfx/interface/technologies/Scavenge Economy V.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_resources_5_2_medium"
+		texturefile = "gfx/interface/technologies/Backyard Furnaces.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_resources_6_medium"
+		texturefile = "gfx/interface/technologies/Scavenge Economy VI.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_resources_7_1_medium"
+		texturefile = "gfx/interface/technologies/Scavenge Economy VII.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_resources_7_2_medium"
+		texturefile = "gfx/interface/technologies/Prospectors.dds"
+	}
+	#
+	SpriteType = {
+		name = "GFX_unorthodox_organization_1_medium"
+		texturefile = "gfx/interface/technologies/Sustainable Products.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_organization_2_1_medium"
+		texturefile = "gfx/interface/technologies/Homesteading.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_organization_2_2_medium"
+		texturefile = "gfx/interface/technologies/Organic Farming.dds"
+	}	
+	SpriteType = {
+		name = "GFX_unorthodox_organization_3_medium"
+		texturefile = "gfx/interface/technologies/Self-Employment.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_organization_4_1_medium"
+		texturefile = "gfx/interface/technologies/Public Frugality.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_organization_4_2_medium"
+		texturefile = "gfx/interface/technologies/Rural Schools.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_organization_5_medium"
+		texturefile = "gfx/interface/technologies/Cooperatives.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_organization_6_1_medium"
+		texturefile = "gfx/interface/technologies/Cultural Protectionism.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_organization_6_2_medium"
+		texturefile = "gfx/interface/technologies/Soil Recreation.dds"
+	}
+	SpriteType = {
+		name = "GFX_unorthodox_organization_7_medium"
+		texturefile = "gfx/interface/technologies/Olympism.dds"
+	}
 }
