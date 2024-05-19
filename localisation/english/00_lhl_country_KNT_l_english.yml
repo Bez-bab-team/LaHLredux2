@@ -1796,6 +1796,46 @@
  KNT_event.169.t:0 "Falkland War Celebrations"
  KNT_event.169.d:0 "Cool but costly"
  KNT_event.169.a:0 "Yes!"
+
+ KNT_event_f.1000.t:0 "Amazing Velo-eco-cipede!"
+ KNT_event_f.1000.d:0 "Coming straight from Cambridge United Mechanics, the VEC is the latest word in transportation! Forget about bicycles and cars! And hop onto the joyful adventure that we offer you! A classy experience of your ancestors with a twist of modern machinery, a portable steam generator with a special network around your body to gather the sweat of your brow and legs to push your iron stallion forth! All you need is a simple push, a few drops and you'll be taken forward in no time! Also comes in tandems and children's options! Only 65 pounds!"
+ KNT_event_f.1000.a:0 "Ugh, I think Id just buy a bike"
+ 
+ KNT_event_f.1001.t:0 "Sir Cleanington's Soap!"
+ KNT_event_f.1001.d:0 "Tired of breaking your spine and arms? Can't stand the odor of chemicals? Exhausted to clean the same spot again and again every few hours? Sir Cleanington's Soap is what you need! With the finest minds of our Empire working tirelessly to free the housewives from the burden of mundane routine, Cleaningston's Boston Transnational offers you the most advanced soap there is! Just would you take a look? Cleans the sauce, cleans the rust, cleans melanin, and more! With Cleaningston's Soap, one can make anything white and shiny!\n\nTheproductisnotrecommendedforpeoplewithanyformofskindiseasessidesymptomsmayincludehypothermiaheadachenauseaandvomitingCleaningstonsBostonTransnationalbearsnoresponsibilityfortheimproperuseoftheproduct"
+ KNT_event_f.1001.a:0 "But can it clean blood?"
+
+ KNT_event_f.1002.t:0 "Spark-a Park-a!"
+ KNT_event_f.1002.d:0 "Some say that a book is judged by the cover?  Then Paddington's Ordnances & Research National can offer you the brightest and most exquisite cover that will help you open your inner world to the fine ladies and gentlemen! Become not the spark, but the star to gaze at! With Spark-a Park-a every walk down London's streets would be unforgivable! For just 85 pounds, a fine gentleman can get a Special-mineral coated jacket of any kind, becoming a lighthouse and a lightning bearer! No longer shall you be lost on the streets, or wander in search of a plug, Spark-a Park-a can act as a portable warmer, powerbank and a flashlight at the same time! Special! Get your Spark-a Skirt-a for a fine gal for just 54!"
+ KNT_event_f.1002.a:0 "Why does it glows with such bright green?"
+
+ KNT_event_f.1003.t:0 "The Genie to Cure Your Head!"
+ KNT_event_f.1003.d:0 "Cannot sleep or have trouble thinking? Why don't you indulge in the newest achievements of British Science? Dickenson's Independent Curing Kiosk at No 88 Fifth Avenue offers an unforgettable experience. Get the Genie Lamp and let the aroma of the Eastern Herbs cure your worries and sickness away! For just 299, one can forever forget about the pain and sleepless nights! Comes with a variety of recipes with "special powders" and mixtures for every sickness there is!\n\nNote from producer: We require you to ventilate your room every time after Genie's Lamp usage, otherwise, we do not bear responsibility for the consequences."
+ KNT_event_f.1003.a:0 "Finally, some sleep"
+
+ KNT_event_f.1004.t:0 "A Light Crown for the Brightest Minds!"
+ KNT_event_f.1004.d:0 "Have your kid been struggling with even the basic math? Cant make the young man stand in line? Sheddington's Hamlet Institute for Trepanation and Sons can make your child the next Einstein or Caroll! For what can the feeble brain do without proper motivation? Embark with your child on a wonderful and energizing journey of mechanics and learning! A Light Crown with all the attached instructions and instruments for just 999 pounds! With a simple Zap-to a great future! Illuminate your future generations and make them kings with a Light Crown!"
+ KNT_event_f.1004.a:0 "I think I've seen such things in prison before"
+
+ KNT_event_f.1005.t:0 "Sandclock Shell"
+ KNT_event_f.1005.d:0 "Even in such a splendid place as Brittain one may encounter a threat to his life, but where the man always gets out safe, the ladies may have a harder time, but Alcester's Scientific and Specials got your back! Introducing the Sandclock Shell, the new corset model for those who feel less than safe in the streets and at home! Powered by the mighty microcomputers, Shell-y can\n\n1-talk to you\n2-Automatically regulate the tightness\n3-Give out advice to lose weight\n4-And remind you of proper attire with a pinch of British humor!\n\nBut importantly-the finest kevlar can assure that whatever comes-storm or invader-the fine ladies of Britain will never get any harm!\n\nNote: It is recommended to follow Shelly's instructions, otherwise, Alcester's Scientific and Specials are not responsible for the consequences."
+ KNT_event_f.1005.a:0 "What next? Titanium tophats?"
+
+ KNT_event_f.1006.t:0 "Cigars of Joy"
+ KNT_event_f.1006.d:0 "We all crave a little relief in times of trouble. JOY'S CIGARETTES afford immediate relief in cases of CURE ASTHMA, WHEEZING, and WINTER COUCH, and a little perseverance will effect a permanent cure. Universally recommended by the most eminent physicians and medical authors. Agreeable to use, certain in their effects, and harmless in their action, they may be safely smoked by ladies and children!\n\nNote: Does not applies to the cases of cancer"
+ KNT_event_f.1006.a:0 "That tobacco sure smells weird"
+
+ KNT_event_f.1007.t:0 "Energe-tea!"
+ KNT_event_f.1007.d:0 "Come around, ye British folk! It's time to work and conquer! What? Lacking power? Why worry not! The Clinton's Liquor International Trades got your back chap! Why don't you power up the British style? Come forth and taste the Energe-tea! Every boy and girl should try one if wishes to act fast like Nelson, hard as Wellington, and smart as John Bull! A cup of water and this bag of very potent herbs and chems can do magic to your bones and brain! Don't forget- it's five o'clock soon!"
+ KNT_event_f.1007.a:0 "What would Britain be without the tea?"
+
+ KNT_event_f.1008.t:0 "The Copter-Tophat"
+ KNT_event_f.1008.d:0 "Late for the Five o'clock? Stuck in traffic? Late for your lady? The folks who bought Cornwall Robotics Advanced Product's Copter-Tophat have none of those issues! Just pull the rope and the power of helium and metal can take you from Liverpool to London in one go! Repeat the feat of the Montgolfie Brothers on your own with Copter-Tophat, with little delay-a continent away!"
+ KNT_event_f.1008.a:0 "Extravagant, but promising?"
+
+ KNT_event_f.1009.t:0 "Para-mbrella!"
+ KNT_event_f.1009.d:0 "Ever dreamed of becoming like Mary Poppins? Drifting like a leaf on the wind on your way to the unknown destiny? Cardiff United National Technologies offers a technically proven solution equal to none other than the legendary lady of British folklore! For 44 pounds, you will receive the perfect fine work that will put Chinese silk to shame! The thin, light and sturdy fabric of British masters that not just deflect any water, but the air as well, allowing for smooth transition from heavens to earth! Trust no other, but your dreams and Cardiff United National Technologies! For we bring forth the fairy tale!"
+ KNT_event_f.1009.a:0 "I believe I can fly"
  #FOCUS TT#
  KNT_channel_tunnel.tt:0 "§YWe will be able to smuggle weapons through the English Channel tunnel§!"
  KNT_georges_knights.tt:0 "§YWe will try to recruit the "knights" of King George VII§!"
