@@ -1090,7 +1090,20 @@ country_event = {
 		}
 	}
 	
+country_event = { 
+	id = ESS_event.32
+	title = ESS_event.32.t
+	desc = ESS_event.32.d
+	
+	fire_only_once = yes	
+	is_triggered_only = yes
 
+	option = {
+		name = ESS_event.32.a
+			
+		add_political_power = 75
+		}
+	}
 	
 
 	
