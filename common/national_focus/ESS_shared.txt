@@ -41,7 +41,6 @@
 			focus = ESS_luciferoverlondon
 		}
 		completion_reward = {
-				add_manpower = 56000
 		    ESS = {
 			    add_ideas = ESS_accelerated_army
 				}
@@ -59,15 +58,12 @@
 			focus = ESS_revolutionary_ethic
 		}
 		completion_reward = {
-		add_equipment_to_stockpile = {
-			type = infantry_equipment
-			amount = 800
-			producer = ESS
-		}
+		add_manpower = 25000
 		swap_ideas = {
 			remove_idea = ESS_accelerated_army
 			add_idea = ESS_accelerated_army_1
 			}
+			
 		}
 		x = -1
 		y = 3
@@ -81,7 +77,25 @@
 			focus = ESS_revolutionary_ethic
 		}
 		completion_reward = {
-		add_stability = 0.05
+		add_cic = 2000
+		1160 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 3
+		}
+		1160 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+			
+		}
+		
+		
 			ESS = {
 				country_event = {
 					days = 1
@@ -130,6 +144,7 @@
 					id = ESS_event.10
 				}
 			}
+			add_political_power = 50
 		}
 		x = 1
 		y = 4
@@ -142,10 +157,15 @@
 		prerequisite = {
 			focus = ESS_expropriating_the_expropriators
 		}
-		x = 3
-		y = 4
-
-	}
+		completion_reward = {
+			ESS = {
+			    add_ideas = ESS_social_responsibility
+				}
+			}
+			x = 3
+			y = 4
+		}
+		
 	shared_focus = {
 		id = ESS_happiness_is_a_warm_gun
 		icon = GFX_goal_ESS_happiness_is_a_warm_gun
@@ -159,6 +179,18 @@
 				    days = 1
 					id = ESS_event.9
 				}
+			}
+			mio:ESS_james_purdey_and_sons_organization = {
+				add_mio_funds = 2000
+				add_mio_funds_gain_factor = 0.1
+			}
+			1160 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
 			}
 		}
 		x = -1
@@ -179,12 +211,16 @@
 					id = ESS_event.32
 				}
 			}
+			add_political_power = 100
+			mio:ESS_MacGyver_scrap = {
+				add_mio_funds = 2500
+			}
 		}
 		x = 1
 		y = 5
 
 	}
-		shared_focus = {
+	shared_focus = {
 		id = ESS_lawless_welfare
 		icon = GFX_goal_ESS_lawless_welfare
 		cost = 3
@@ -192,10 +228,11 @@
 			focus = ESS_bread_and_circuses
 		}
 		completion_reward = {
-		    ESS = {
-			    add_ideas = ESS_social_responsibility
+			swap_ideas = {
+				remove_idea = ESS_social_responsibility
+				add_idea = ESS_social_responsibility_1
 				}
-			}
+		    }
 		x = 3
 		y = 5
 
@@ -211,14 +248,10 @@
 			focus = ESS_lawless_welfare
 		}
 		completion_reward = {
-			hidden_effect = {
-				ESS = {
-					country_event = {
-						days = 15
-						id = ESS_event.29
-					}
-				}
+			ESS = {
+			   add_ideas = ESS_my_war
 			}
+			add_political_power = 75
 		}
 		x = 1
 		y = 6
@@ -236,7 +269,8 @@
 		    ESS = {
 			    add_ideas = ESS_militants_supremacy
 				}
-			}
+		
+		}
 		
 		x = 0
 		y = 7
@@ -250,10 +284,16 @@
 			focus = ESS_catechism_of_a_nationalist
 		}
 		completion_reward = {
-		    ESS = {
-			    add_ideas = ESS_granddad_of_nation
-				}
+			ESS = {
+				add_ideas = ESS_my_war_1
 			}
+			add_manpower = 13000
+			add_to_variable = {
+				var = ESS_coring_cost
+				value = -30
+			}
+			custom_effect_tooltip = EAG_coring_cost_lowered_30_tt
+		}
 		x = 2
 		y = 7
 
@@ -371,6 +411,22 @@
 		prerequisite = {
 			focus = ESS_city_government 
 		}
+		completion_reward = {
+			1158 = {
+				remove_province_modifier = {
+					static_modifiers = { major_anarchist_presence }
+					province = {
+							all_provinces = yes
+						}
+				}
+			}
+			ESS = {
+			    country_event = {
+				    days = 5
+					id = ESS_event.45
+				}
+			}
+		}
 		x = 7
 		y = 4
 
@@ -392,21 +448,22 @@
 			set_technology = { ESS_londons_legacy = 1 popup = yes }
 			custom_effect_tooltip = ESS_londons_legacy_buff
 			1160 = {
-			add_building_construction = {
-				type = industrial_complex
-				level = 2
-				instant_build = yes
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
 				}
-			add_building_construction = {
-				type = arms_factory
-				level = 2
-				instant_build = yes 
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes 
 				}	
-			add_building_construction = {
-				type = synthetic_refinery
-				level = 1
-				instant_build = yes
-				}	
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 5				
 			}
 		}	
 		x = 7
@@ -422,7 +479,7 @@
 		    ESS = {
 			    add_ideas = ESS_big_thinkin
 				}
-				army_experience = 25
+				army_experience = 30
 			}
 		x = 16
 		y = 1
@@ -760,8 +817,13 @@
 		icon = GFX_goal_ESS_amnesty_for_royal_officers
 		cost = 3
 		prerequisite = {
-		focus = ESS_sword_of_the_republic
-	}
+			focus = ESS_sword_of_the_republic
+		}
+		completion_reward = {
+			ESS = {
+				add_idea = ESS_pardoned_officers
+			}
+		}
 		x = 19
 		y = 4
 

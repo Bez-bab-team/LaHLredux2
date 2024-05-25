@@ -573,6 +573,17 @@ tidal_powerplants_infrastructure = {
 	state_production_speed_buildings_factor = 0.25
 }
 
+minor_anarchist_presence = { 
+	army_speed_factor = -0.25
+	local_manpower = -0.25
+	local_factories = -0.33
+}
+
+major_anarchist_presence = { 
+	army_speed_factor = -0.4
+	local_manpower = -0.5
+	local_factories = -0.5
+}
 #SUS#
 SUS_plan_vecta_mod = {
     attack_bonus_against = 0.1
