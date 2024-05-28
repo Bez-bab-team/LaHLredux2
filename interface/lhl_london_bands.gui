@@ -2,7 +2,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "lhl_london_bands_screen_full"
-		size = { width = 1000 height = 450 }
+		size = { width = 1000 height = 300 }
 		position = { x = 150 y = 0 }
 		scale = 1.4
 		moveable = no
@@ -27,49 +27,49 @@ guiTypes = {
 			spriteType = "GFX_lhl_ess_central_region_negative"
 			pdx_tooltip = "ESS_central_region_loyal"
 			pdx_tooltip_delayed = "ESS_central_region_loyal_text"
-			position = { x = 130 y = 129}
+			position = { x = 145 y = 74}
 		}
 		buttonType = {
 			name = "lhl_ess_central_region_band"
 			spriteType = "GFX_lhl_ess_central_region"
 			pdx_tooltip = "ESS_central_region_band"
 			pdx_tooltip_delayed = "ESS_central_region_loyal_text"
-			position = { x = 130 y = 129}
+			position = { x = 145 y = 74}
 		}
 		buttonType = {
 			name = "lhl_ess_south_west_region_band"
 			spriteType = "GFX_lhl_ess_south_west_region"
 			pdx_tooltip = "ESS_south_west_region_band"
 			pdx_tooltip_delayed = "ESS_south_west_region_band_text"
-			position = { x = 100 y = 150}
+			position = { x = 115 y = 95}
 		}
 		buttonType = {
 			name = "lhl_ess_south_east_region_dist"
 			spriteType = "GFX_lhl_ess_south_east_region_negative"
 			pdx_tooltip = "ESS_south_east_region_dist"
 			pdx_tooltip_delayed = "ESS_south_east_region_dist_text"
-			position = { x = 175 y = 156}
+			position = { x = 190 y = 101}
 		}
 		buttonType = {
 			name = "lhl_ess_south_east_region_band"
 			spriteType = "GFX_lhl_ess_south_east_region"
 			pdx_tooltip = "ESS_south_east_region_band"
 			pdx_tooltip_delayed = "ESS_south_east_region_dist_text"
-			position = { x = 175 y = 156}
+			position = { x = 190 y = 111}
 		}
 		buttonType = {
 			name = "lhl_ess_north_west_region_band"
 			spriteType = "GFX_lhl_ess_north_west_region"
 			pdx_tooltip = "ESS_north_west_region_band"
 			pdx_tooltip_delayed = "ESS_north_west_region_band_text"
-			position = { x = 47 y = 83}
+			position = { x = 62 y = 28}
 		}
 		buttonType = {
 			name = "lhl_ess_north_east_region_band"
 			spriteType = "GFX_lhl_ess_north_east_region"
 			pdx_tooltip = "ESS_north_east_region_band"
 			pdx_tooltip_delayed = "ESS_north_east_region_band_text"
-			position = { x = 141 y = 70}
+			position = { x = 156 y = 15}
 		}
 		iconType = {
 			name = "lhl_block"
@@ -82,35 +82,35 @@ guiTypes = {
 			spriteType = "GFX_lhl_ess_central_region_dawkins"
 			pdx_tooltip = "ESS_central_region_dawkins"
 			pdx_tooltip_delayed = "ESS_central_region_dawkins_text"
-			position = { x = 130 y = 129}
+			position = { x = 160 y = 109}
 		}
 		buttonType = {
 			name = "lhl_ess_south_west_region_dawkins"
 			spriteType = "GFX_lhl_ess_south_west_region_dawkins"
 			pdx_tooltip = "ESS_south_west_region_dawkins"
 			pdx_tooltip_delayed = "ESS_south_west_region_dawkins_text"
-			position = { x = 100 y = 150}
+			position = { x = 130 y = 130}
 		}
 		buttonType = {
 			name = "lhl_ess_south_east_region_dawkins"
 			spriteType = "GFX_lhl_ess_south_east_region_dawkins"
 			pdx_tooltip = "ESS_south_east_region_dawkins"
 			pdx_tooltip_delayed = "ESS_south_east_region_dawkins_text"
-			position = { x = 175 y = 156}
+			position = { x = 205 y = 136}
 		}
 		buttonType = {
 			name = "lhl_ess_north_west_region_dawkins"
 			spriteType = "GFX_lhl_ess_north_west_region_dawkins"
 			pdx_tooltip = "ESS_north_west_region_dawkins"
 			pdx_tooltip_delayed = "ESS_north_west_region_dawkins_text"
-			position = { x = 47 y = 83}
+			position = { x = 77 y = 63}
 		}
 		buttonType = {
 			name = "lhl_ess_north_east_region_dawkins"
 			spriteType = "GFX_lhl_ess_north_east_region_dawkins"
 			pdx_tooltip = "ESS_north_east_region_dawkins"
 			pdx_tooltip_delayed = "ESS_north_east_region_dawkins_text"
-			position = { x = 141 y = 70}
+			position = { x = 171 y = 50}
 		}
 	}
 }
