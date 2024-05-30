@@ -9,35 +9,29 @@ technologies = {
 			industrialization_overall
 			unorthodox_overall_dummy
 			unorthodox_overall
-			change_economy_a
-			change_economy_i
-			change_economy_g
-			change_economy_u
 		}
-		
-		consumer_goods_factor = -0.05
 		
 		research_cost = 1.5
 		start_year = 2020
 		folder = {
 			name = green_folder
-			position = { x = -12 y = 0 }
+			position = { x = -3 y = 0 }
 		}
 		
 		path = {
-			leads_to_tech = green_production_line_1
+			leads_to_tech = green_mop_1
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = green_recycling_1
+			leads_to_tech = green_construction_1_1
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = green_traditional_1
+			leads_to_tech = green_resources_1_1
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = green_modern_economics_1
+			leads_to_tech = green_organization_1
 			research_cost_coeff = 1
 		}
 		
@@ -46,23 +40,59 @@ technologies = {
 		}
 		
 		categories = {
-			industry
 			green_industry_category
 		}
 	}
-    ##AGRARIAN SOCIETY##
-	green_production_line_1 = {
+	##MEANS OF PRODCUTION##
+	green_mop_1 = {
 	
-		production_factory_efficiency_gain_factor = 0.5 
+		production_factory_start_efficiency_factor = 0.0625
 		
 		path = {
-			leads_to_tech = green_production_line_2
+			leads_to_tech = green_mop_2_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = green_mop_2_2
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_left_1
+				set_country_flag = lhl_mop_1
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2020
+		folder = {
+			name = green_folder
+			position = { x = -11 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			cat_production
+			green_industry_category
+		}
+	}
+	green_mop_2_1 = {
+			
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.075	
+			
+		path = {
+			leads_to_tech = green_mop_3
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_mop_2_1
 			}
 		}
 		
@@ -70,7 +100,7 @@ technologies = {
 		start_year = 2022
 		folder = {
 			name = green_folder
-			position = { x = -12 y = 3 }
+			position = { x = -9 y = 4 }
 		}
 		
 		ai_will_do = {
@@ -79,184 +109,23 @@ technologies = {
 		
 		categories = {
 			industry
+			cat_production
 			green_industry_category
 		}
 	}
-	green_production_line_2 = {
-	
-		production_factory_efficiency_gain_factor = 0.5 
-		
+	green_mop_2_2 = {
+			
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.075	
+					
 		path = {
-			leads_to_tech = green_production_line_3
+			leads_to_tech = green_mop_3
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_left_2
-			}
-		}
-		
-		research_cost = 1.5
-		start_year = 2024
-		folder = {
-			name = green_folder
-			position = { x = -12 y = 5 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			green_industry_category
-		}
-	}
-	green_production_line_3 = {
-	
-		production_factory_efficiency_gain_factor = 0.5 
-		
-		path = {
-			leads_to_tech = green_production_line_4
-			research_cost_coeff = 1
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_left_3
-			}
-		}
-		
-		research_cost = 1.5
-		start_year = 2026
-		folder = {
-			name = green_folder
-			position = { x = -12 y = 7 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			green_industry_category
-		}
-	}
-	green_production_line_4 = {
-	
-		production_factory_efficiency_gain_factor = 0.5 
-		
-		path = {
-			leads_to_tech = green_production_line_5
-			research_cost_coeff = 1
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_left_4
-			}
-		}
-		
-		research_cost = 1.5
-		start_year = 2028
-		folder = {
-			name = green_folder
-			position = { x = -12 y = 9 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			green_industry_category
-		}
-	}
-	green_production_line_5 = {
-	
-		production_factory_efficiency_gain_factor = 0.5 
-		
-		path = {
-			leads_to_tech = green_production_line_6
-			research_cost_coeff = 1
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_left_5
-			}
-		}
-		
-		research_cost = 1.5
-		start_year = 2030
-		folder = {
-			name = green_folder
-			position = { x = -12 y = 11 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			green_industry_category
-		}
-	}
-	green_production_line_6 = {
-	
-		production_factory_efficiency_gain_factor = 0.5 	
-		
-		research_cost = 1.5
-		start_year = 2032
-		folder = {
-			name = green_folder
-			position = { x = -12 y = 13 }
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_left_6
-			}
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			green_industry_category
-		}
-	}
-	##GREEN: RECYCLING##
-	green_recycling_1 = {
-	
-		XOR = {
-			green_traditional_1
-		}
-	
-		line_change_production_efficiency_factor = 0.15
-		production_oil_factor = 0.1
-		base_fuel_gain_factor = 0.3
-		local_resources_factor = 0.15
-		min_export = -0.1
-		equipment_capture_factor = 0.15
-		equipment_conversion_speed = 0.15
-		production_lack_of_resource_penalty_factor = -0.15
-		equipment_upgrade_xp_cost = -0.2
-		
-		path = {
-			leads_to_tech = green_recycling_2
-			research_cost_coeff = 1
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_centre_left_1
+				set_country_flag = lhl_mop_2_2
 			}
 		}
 		
@@ -264,42 +133,35 @@ technologies = {
 		start_year = 2022
 		folder = {
 			name = green_folder
-			position = { x = -9 y = 3 }
+			position = { x = -13 y = 4 }
 		}
 		
 		ai_will_do = {
 			factor = 50
-			modifier = {
-				factor = 0
-				has_tech = green_traditional_1
-			}
 		}
 		
 		categories = {
 			industry
+			cat_production
 			green_industry_category
 		}
 	}
-	green_recycling_2 = {
+	green_mop_3 = {
 	
-		line_change_production_efficiency_factor = 0.15
-		production_oil_factor = 0.1
-		base_fuel_gain_factor = 0.3
-		local_resources_factor = 0.15
-		min_export = -0.1
-		equipment_capture_factor = 0.15
-		equipment_conversion_speed = 0.15
-		production_lack_of_resource_penalty_factor = -0.15
-		equipment_upgrade_xp_cost = -0.2
-		
+		production_factory_start_efficiency_factor = 0.0625
+				
 		path = {
-			leads_to_tech = green_recycling_3
+			leads_to_tech = green_mop_4_1
 			research_cost_coeff = 1
 		}
-	
+		path = {
+			leads_to_tech = green_mop_4_2
+			research_cost_coeff = 1
+		}
+		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_centre_left_2
+				set_country_flag = lhl_mop_3
 			}
 		}
 		
@@ -307,7 +169,7 @@ technologies = {
 		start_year = 2024
 		folder = {
 			name = green_folder
-			position = { x = -9 y = 5 }
+			position = { x = -11 y = 6 }
 		}
 		
 		ai_will_do = {
@@ -316,29 +178,23 @@ technologies = {
 		
 		categories = {
 			industry
+			cat_production
 			green_industry_category
 		}
 	}
-	green_recycling_3 = {
-	
-		line_change_production_efficiency_factor = 0.15
-		production_oil_factor = 0.1
-		base_fuel_gain_factor = 0.3
-		local_resources_factor = 0.15
-		min_export = -0.1
-		equipment_capture_factor = 0.15
-		equipment_conversion_speed = 0.15
-		production_lack_of_resource_penalty_factor = -0.15
-		equipment_upgrade_xp_cost = -0.2
-		
+	green_mop_4_1 = {
+			
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.075	
+					
 		path = {
-			leads_to_tech = green_recycling_4
+			leads_to_tech = green_mop_5
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_centre_left_3
+				set_country_flag = lhl_mop_4_1
 			}
 		}
 		
@@ -346,7 +202,7 @@ technologies = {
 		start_year = 2026
 		folder = {
 			name = green_folder
-			position = { x = -9 y = 7 }
+			position = { x = -9 y = 8 }
 		}
 		
 		ai_will_do = {
@@ -355,234 +211,23 @@ technologies = {
 		
 		categories = {
 			industry
+			cat_production
 			green_industry_category
 		}
 	}
-	green_recycling_4 = {
-	
-		line_change_production_efficiency_factor = 0.15
-		production_oil_factor = 0.1
-		base_fuel_gain_factor = 0.3
-		local_resources_factor = 0.15
-		min_export = -0.1
-		equipment_capture_factor = 0.15
-		equipment_conversion_speed = 0.15
-		production_lack_of_resource_penalty_factor = -0.15
-		equipment_upgrade_xp_cost = -0.2
-		
+	green_mop_4_2 = {
+			
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.075	
+					
 		path = {
-			leads_to_tech = green_recycling_5
+			leads_to_tech = green_mop_5
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_centre_left_4
-			}
-		}
-		
-		research_cost = 1.5
-		start_year = 2028
-		folder = {
-			name = green_folder
-			position = { x = -9 y = 9 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			green_industry_category
-		}
-	}
-	green_recycling_5 = {
-	
-		line_change_production_efficiency_factor = 0.15
-		production_oil_factor = 0.1
-		base_fuel_gain_factor = 0.3
-		local_resources_factor = 0.15
-		min_export = -0.1
-		equipment_capture_factor = 0.15
-		equipment_conversion_speed = 0.15
-		production_lack_of_resource_penalty_factor = -0.15
-		equipment_upgrade_xp_cost = -0.2
-		
-		path = {
-			leads_to_tech = green_recycling_6
-			research_cost_coeff = 1
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_centre_left_5
-			}
-		}
-		
-		research_cost = 1.5
-		start_year = 2030
-		folder = {
-			name = green_folder
-			position = { x = -9 y = 11 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			green_industry_category
-		}
-	}
-	green_recycling_6 = {
-	
-		line_change_production_efficiency_factor = 0.15
-		production_oil_factor = 0.1
-		base_fuel_gain_factor = 0.3
-		local_resources_factor = 0.15
-		min_export = -0.1
-		equipment_capture_factor = 0.15
-		equipment_conversion_speed = 0.15
-		production_lack_of_resource_penalty_factor = -0.15
-		equipment_upgrade_xp_cost = -0.2
-		
-		
-		research_cost = 1.5
-		start_year = 2032
-		folder = {
-			name = green_folder
-			position = { x = -9 y = 13 }
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_centre_left_6
-			}
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			green_industry_category
-		}
-	}
-	##INDUSTRIALIZATION: CIVILIAN##
-	green_traditional_1 = {
-		XOR = {
-			green_recycling_1
-		}
-	
-		line_change_production_efficiency_factor = 0.1
-		local_resources_factor = 0.15
-		min_export = -0.2
-		equipment_capture_factor = 0.2
-		equipment_conversion_speed = 0.2
-		production_lack_of_resource_penalty_factor = -0.2
-		supply_factor = 0.2
-		out_of_supply_factor = -0.2
-		recruitable_population = 0.05
-		monthly_population = 0.1
-		consumer_goods_factor = -0.05
-		
-		path = {
-			leads_to_tech = green_traditional_2
-			research_cost_coeff = 1
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_centre_right_1
-			}
-		}
-		
-		research_cost = 1.5
-		start_year = 2022
-		folder = {
-			name = green_folder
-			position = { x = -6 y = 3 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-			modifier = {
-				factor = 0
-				has_tech = green_recycling_1
-			}
-		}
-		
-		categories = {
-			industry
-			green_industry_category
-		}
-	}
-	green_traditional_2 = {
-	
-		line_change_production_efficiency_factor = 0.1
-		local_resources_factor = 0.15
-		min_export = -0.2
-		equipment_capture_factor = 0.2
-		equipment_conversion_speed = 0.2
-		production_lack_of_resource_penalty_factor = -0.2
-		supply_factor = 0.2
-		out_of_supply_factor = -0.2
-		recruitable_population = 0.05
-		monthly_population = 0.1
-		consumer_goods_factor = -0.05
-		
-		path = {
-			leads_to_tech = green_traditional_3
-			research_cost_coeff = 1
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_centre_right_2
-			}
-		}
-		
-		research_cost = 1.5
-		start_year = 2024
-		folder = {
-			name = green_folder
-			position = { x = -6 y = 5 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			green_industry_category
-		}
-	}
-	green_traditional_3 = {
-	
-		line_change_production_efficiency_factor = 0.1
-		local_resources_factor = 0.15
-		min_export = -0.2
-		equipment_capture_factor = 0.2
-		equipment_conversion_speed = 0.2
-		production_lack_of_resource_penalty_factor = -0.2
-		supply_factor = 0.2
-		out_of_supply_factor = -0.2
-		recruitable_population = 0.05
-		monthly_population = 0.1
-		consumer_goods_factor = -0.05
-		
-		path = {
-			leads_to_tech = green_traditional_4
-			research_cost_coeff = 1
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_centre_right_3
+				set_country_flag = lhl_mop_4_2
 			}
 		}
 		
@@ -590,7 +235,7 @@ technologies = {
 		start_year = 2026
 		folder = {
 			name = green_folder
-			position = { x = -6 y = 7 }
+			position = { x = -13 y = 8 }
 		}
 		
 		ai_will_do = {
@@ -599,31 +244,26 @@ technologies = {
 		
 		categories = {
 			industry
+			cat_production
 			green_industry_category
 		}
 	}
-	green_traditional_4 = {
+	green_mop_5 = {
 	
-		line_change_production_efficiency_factor = 0.1
-		local_resources_factor = 0.15
-		min_export = -0.2
-		equipment_capture_factor = 0.2
-		equipment_conversion_speed = 0.2
-		production_lack_of_resource_penalty_factor = -0.2
-		supply_factor = 0.2
-		out_of_supply_factor = -0.2
-		recruitable_population = 0.05
-		monthly_population = 0.1
-		consumer_goods_factor = -0.05
-		
+		production_factory_start_efficiency_factor = 0.0625
+				
 		path = {
-			leads_to_tech = green_traditional_5
+			leads_to_tech = green_mop_6_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = green_mop_6_2
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_centre_right_4
+				set_country_flag = lhl_mop_5
 			}
 		}
 		
@@ -631,7 +271,7 @@ technologies = {
 		start_year = 2028
 		folder = {
 			name = green_folder
-			position = { x = -6 y = 9 }
+			position = { x = -11 y = 10 }
 		}
 		
 		ai_will_do = {
@@ -640,31 +280,23 @@ technologies = {
 		
 		categories = {
 			industry
+			cat_production
 			green_industry_category
 		}
 	}
-	green_traditional_5 = {
-	
-		line_change_production_efficiency_factor = 0.1
-		local_resources_factor = 0.15
-		min_export = -0.2
-		equipment_capture_factor = 0.2
-		equipment_conversion_speed = 0.2
-		production_lack_of_resource_penalty_factor = -0.2
-		supply_factor = 0.2
-		out_of_supply_factor = -0.2
-		recruitable_population = 0.05
-		monthly_population = 0.1
-		consumer_goods_factor = -0.05
-		
+	green_mop_6_1 = {
+			
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.075	
+					
 		path = {
-			leads_to_tech = green_traditional_6
+			leads_to_tech = green_mop_7
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_centre_right_5
+				set_country_flag = lhl_mop_6_1
 			}
 		}
 		
@@ -672,7 +304,7 @@ technologies = {
 		start_year = 2030
 		folder = {
 			name = green_folder
-			position = { x = -6 y = 11 }
+			position = { x = -9 y = 12 }
 		}
 		
 		ai_will_do = {
@@ -681,35 +313,58 @@ technologies = {
 		
 		categories = {
 			industry
+			cat_production
 			green_industry_category
 		}
 	}
-	green_traditional_6 = {
-	
-		line_change_production_efficiency_factor = 0.1
-		local_resources_factor = 0.15
-		min_export = -0.2
-		equipment_capture_factor = 0.2
-		equipment_conversion_speed = 0.2
-		production_lack_of_resource_penalty_factor = -0.2
-		supply_factor = 0.2
-		out_of_supply_factor = -0.2
-		recruitable_population = 0.05
-		monthly_population = 0.1
-		consumer_goods_factor = -0.05
+	green_mop_6_2 = {
+			
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.075	
+					
+		path = {
+			leads_to_tech = green_mop_7
+			research_cost_coeff = 1
+		}
 		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_mop_6_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2030
+		folder = {
+			name = green_folder
+			position = { x = -13 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			cat_production
+			green_industry_category
+		}
+	}
+	green_mop_7 = {
+	
+		production_factory_start_efficiency_factor = 0.0625
+				
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_mop_7
+			}
+		}
 		
 		research_cost = 1.5
 		start_year = 2032
 		folder = {
 			name = green_folder
-			position = { x = -6 y = 13 }
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_centre_right_6
-			}
+			position = { x = -11 y = 14 }
 		}
 		
 		ai_will_do = {
@@ -718,421 +373,1052 @@ technologies = {
 		
 		categories = {
 			industry
+			cat_production
 			green_industry_category
 		}
 	}
 	##CONSTRUCTION##
-	green_modern_economics_1 = {
-	
-		production_factory_max_efficiency_factor = 0.05
-		global_building_slots_factor = 0.05
-		
+	green_construction_1_1 = {
+			
+		production_speed_buildings_factor = 0.08
+			
 		path = {
-			leads_to_tech = green_modern_economics_2
+			leads_to_tech = green_construction_1_2
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = green_modern_construction_1
-			research_cost_coeff = 1
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_right_1
-			}
-		}
-		
-		research_cost = 1.5
-		start_year = 2022
-		folder = {
-			name = green_folder
-			position = { x = -3 y = 3 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			green_industry_category
-		}
-	}
-	green_modern_economics_2 = {
-	
-		production_factory_max_efficiency_factor = 0.05
-		global_building_slots_factor = 0.05
-		
-		path = {
-			leads_to_tech = green_modern_economics_3
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = green_modern_construction_2
+			leads_to_tech = green_construction_2
 			research_cost_coeff = 1
 		}
 		
 		on_research_complete = {
 			ROOT = {
-				set_country_flag = industry_right_2
+				set_country_flag = lhl_construction_1_1
 			}
 		}
 		
 		research_cost = 1.5
-		start_year = 2024
-		folder = {
-			name = green_folder
-			position = { x = -3 y = 5 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			green_industry_category
-		}
-	}
-	green_modern_economics_3 = {
-	
-		production_factory_max_efficiency_factor = 0.05
-		global_building_slots_factor = 0.05
-		
-		path = {
-			leads_to_tech = green_modern_economics_4
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = green_modern_construction_3
-			research_cost_coeff = 1
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_right_3
-			}
-		}
-		
-		research_cost = 1.5
-		start_year = 2026
-		folder = {
-			name = green_folder
-			position = { x = -3 y = 7 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			green_industry_category
-		}
-	}
-	green_modern_economics_4 = {
-	
-		production_factory_max_efficiency_factor = 0.05
-		global_building_slots_factor = 0.05
-		
-		path = {
-			leads_to_tech = green_modern_economics_5
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = green_modern_construction_4
-			research_cost_coeff = 1
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_right_4
-			}
-		}
-		
-		research_cost = 1.5
-		start_year = 2028
-		folder = {
-			name = green_folder
-			position = { x = -3 y = 9 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			green_industry_category
-		}
-	}
-	green_modern_economics_5 = {
-	
-		production_factory_max_efficiency_factor = 0.05
-		global_building_slots_factor = 0.05
-		
-		path = {
-			leads_to_tech = green_modern_economics_6
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = green_modern_construction_5
-			research_cost_coeff = 1
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_right_5
-			}
-		}
-		
-		research_cost = 1.5
-		start_year = 2030
-		folder = {
-			name = green_folder
-			position = { x = -3 y = 11 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			green_industry_category
-		}
-	}
-	green_modern_economics_6 = {
-	
-		production_factory_max_efficiency_factor = 0.05
-		global_building_slots_factor = 0.05
-		
-		path = {
-			leads_to_tech = green_modern_construction_6
-			research_cost_coeff = 1
-		}
-
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_right_6
-			}
-		}		
-		
-		research_cost = 1.5
-		start_year = 2032
-		folder = {
-			name = green_folder
-			position = { x = -3 y = 13 }
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			green_industry_category
-		}
-	}
-	##RESOURCE GAIN##
-	green_modern_construction_1 = {
-	
-		production_speed_buildings_factor = 0.05
-		industry_repair_factor = 0.05
-
-		research_cost = 1.5
-		start_year = 2022
-		folder = {
-			name = green_folder
-			position = { x = -1 y = 3 }
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_side_1
-			}
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			construction_tech
-			green_industry_category
-		}
-	}
-	green_modern_construction_2 = {
-	
-		production_speed_buildings_factor = 0.05
-		industry_repair_factor = 0.05
-		
-		research_cost = 1.5
-		start_year = 2024
-		folder = {
-			name = green_folder
-			position = { x = -1 y = 5 }
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_side_2
-			}
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			construction_tech
-			green_industry_category
-		}
-	}
-	green_modern_construction_3 = {
-	
-		production_speed_buildings_factor = 0.05
-		industry_repair_factor = 0.05
-		
-		research_cost = 1.5
-		start_year = 2026
-		folder = {
-			name = green_folder
-			position = { x = -1 y = 7 }
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_side_3
-			}
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			construction_tech
-			green_industry_category
-		}
-	}
-	green_modern_construction_4 = {
-	
-		production_speed_buildings_factor = 0.05
-		industry_repair_factor = 0.05
-		
-		research_cost = 1.5
-		start_year = 2028
-		folder = {
-			name = green_folder
-			position = { x = -1 y = 9 }
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_side_4
-			}
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			construction_tech
-			green_industry_category
-		}
-	}
-	green_modern_construction_5 = {
-	
-		production_speed_buildings_factor = 0.05
-		industry_repair_factor = 0.05
-		
-		research_cost = 1.5
-		start_year = 2030
-		folder = {
-			name = green_folder
-			position = { x = -1 y = 11 }
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_side_5
-			}
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			construction_tech
-			green_industry_category
-		}
-	}
-	green_modern_construction_6 = {
-	
-		production_speed_buildings_factor = 0.05
-		industry_repair_factor = 0.05		
-		
-		research_cost = 1.5
-		start_year = 2032
-		folder = {
-			name = green_folder
-			position = { x = -1 y = 13 }
-		}
-		
-		on_research_complete = {
-			ROOT = {
-				set_country_flag = industry_side_6
-			}
-		}
-		
-		ai_will_do = {
-			factor = 50
-		}
-		
-		categories = {
-			industry
-			construction_tech
-			green_industry_category
-		}
-	}
-	##SWITCH TECHNOLOGY##
-	change_economy_g = {
-	
-		XOR = {
-			automatization_overall
-			automatization_overall_dummy
-			industrialization_overall
-			industrialization_overall_dummy
-			green_overall
-			green_overall_dummy
-			unorthodox_overall_dummy
-			unorthodox_overall
-			change_economy_a
-			change_economy_i
-			change_economy_u
-		}	
-		
-		research_cost = 0.01
 		start_year = 2020
 		folder = {
 			name = green_folder
-			position = { x = 12 y = 7 }
+			position = { x = -6 y = 2 }
 		}
 		
 		ai_will_do = {
-			factor = 0
+			factor = 50
 		}
 		
 		categories = {
 			industry
+			construction_tech
+			green_industry_category
+		}
+	}
+	green_construction_1_2 = {
+			
+		production_speed_infrastructure_factor = 0.08
+		production_speed_rail_way_factor = 0.08
+		production_speed_synthetic_refinery_factor = 0.08
+		global_building_slots_factor = 0.125
+				
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_construction_1_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2020
+		folder = {
+			name = green_folder
+			position = { x = -4 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			construction_tech
+			green_industry_category
+		}
+	}
+	green_construction_2 = {
+	
+		production_speed_buildings_factor = 0.08
+		
+		path = {
+			leads_to_tech = green_construction_3_1
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_construction_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2022
+		folder = {
+			name = green_folder
+			position = { x = -6 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			construction_tech
+			green_industry_category
+		}
+	}
+	green_construction_3_1 = {
+			
+		production_speed_buildings_factor = 0.08
+				
+		path = {
+			leads_to_tech = green_construction_3_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = green_construction_4
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_construction_3_1
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2024
+		folder = {
+			name = green_folder
+			position = { x = -6 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			construction_tech
+			green_industry_category
+		}
+	}
+	green_construction_3_2 = {
+			
+		production_speed_infrastructure_factor = 0.08
+		production_speed_rail_way_factor = 0.08
+		production_speed_synthetic_refinery_factor = 0.08
+		global_building_slots_factor = 0.125
+						
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_construction_3_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2024
+		folder = {
+			name = green_folder
+			position = { x = -4 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			construction_tech
+			green_industry_category
+		}
+	}
+	green_construction_4 = {
+	
+		production_speed_buildings_factor = 0.08
+		
+		path = {
+			leads_to_tech = green_construction_5_1
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_construction_4
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2026
+		folder = {
+			name = green_folder
+			position = { x = -6 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			construction_tech
+			green_industry_category
+		}
+	}
+	green_construction_5_1 = {
+			
+		production_speed_buildings_factor = 0.08
+				
+		path = {
+			leads_to_tech = green_construction_5_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = green_construction_6
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_construction_5_1
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2028
+		folder = {
+			name = green_folder
+			position = { x = -6 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			construction_tech
+			green_industry_category
+		}
+	}
+	green_construction_5_2 = {
+			
+		production_speed_infrastructure_factor = 0.08
+		production_speed_rail_way_factor = 0.08
+		production_speed_synthetic_refinery_factor = 0.08
+		global_building_slots_factor = 0.125
+					
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_construction_5_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2028
+		folder = {
+			name = green_folder
+			position = { x = -4 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			construction_tech
+			green_industry_category
+		}
+	}
+	green_construction_6 = {
+	
+		production_speed_buildings_factor = 0.08
+		
+		path = {
+			leads_to_tech = green_construction_7_1
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_construction_6
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2030
+		folder = {
+			name = green_folder
+			position = { x = -6 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			construction_tech
+			green_industry_category
+		}
+	}
+	green_construction_7_1 = {
+			
+		production_speed_buildings_factor = 0.08
+			
+		path = {
+			leads_to_tech = green_construction_7_2
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_construction_7_1
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2032
+		folder = {
+			name = green_folder
+			position = { x = -6 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			construction_tech
+			green_industry_category
+		}
+	}
+	green_construction_7_2 = {
+			
+		production_speed_infrastructure_factor = 0.08
+		production_speed_rail_way_factor = 0.08
+		production_speed_synthetic_refinery_factor = 0.08
+		global_building_slots_factor = 0.125
+					
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_construction_7_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2032
+		folder = {
+			name = green_folder
+			position = { x = -4 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			construction_tech
+			green_industry_category
+		}
+	}
+	##RESOURCES##
+	green_resources_1_1 = {
+	
+		local_resources_factor = 0.05
+		
+		path = {
+			leads_to_tech = green_resources_1_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = green_resources_2
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_1_1
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2020
+		folder = {
+			name = green_folder
+			position = { x = -1 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			green_industry_category
+		}
+	}
+	green_resources_1_2 = {
+			
+		production_lack_of_resource_penalty_factor = -0.2
+		army_fuel_consumption_factor = -0.1
+		base_fuel_gain_factor = 0.1
+				
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_1_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2020
+		folder = {
+			name = green_folder
+			position = { x = 1 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			green_industry_category
+		}
+	}
+	green_resources_2 = {
+	
+		local_resources_factor = 0.05
+				
+		path = {
+			leads_to_tech = green_resources_3_1
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2022
+		folder = {
+			name = green_folder
+			position = { x = -1 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			green_industry_category
+		}
+	}
+	green_resources_3_1 = {
+	
+		local_resources_factor = 0.05
+				
+		path = {
+			leads_to_tech = green_resources_3_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = green_resources_4
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_3_1
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2024
+		folder = {
+			name = green_folder
+			position = { x = -1 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			green_industry_category
+		}
+	}
+	green_resources_3_2 = {
+			
+		production_lack_of_resource_penalty_factor = -0.2
+		army_fuel_consumption_factor = -0.1
+		base_fuel_gain_factor = 0.1
+						
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_3_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2024
+		folder = {
+			name = green_folder
+			position = { x = 1 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			green_industry_category
+		}
+	}
+	green_resources_4 = {
+	
+		local_resources_factor = 0.05
+				
+		path = {
+			leads_to_tech = green_resources_5_1
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_4
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2026
+		folder = {
+			name = green_folder
+			position = { x = -1 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			green_industry_category
+		}
+	}
+	green_resources_5_1 = {
+	
+		local_resources_factor = 0.05
+				
+		path = {
+			leads_to_tech = green_resources_5_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = green_resources_6
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_5_1
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2028
+		folder = {
+			name = green_folder
+			position = { x = -1 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			green_industry_category
+		}
+	}
+	green_resources_5_2 = {
+			
+		production_lack_of_resource_penalty_factor = -0.2
+		army_fuel_consumption_factor = -0.1
+		base_fuel_gain_factor = 0.1
+						
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_5_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2028
+		folder = {
+			name = green_folder
+			position = { x = 1 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			green_industry_category
+		}
+	}
+	green_resources_6 = {
+	
+		local_resources_factor = 0.05
+				
+		path = {
+			leads_to_tech = green_resources_7_1
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_6
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2030
+		folder = {
+			name = green_folder
+			position = { x = -1 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			green_industry_category
+		}
+	}
+	green_resources_7_1 = {
+	
+		local_resources_factor = 0.05
+			
+		path = {
+			leads_to_tech = green_resources_7_2
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_7_1
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2032
+		folder = {
+			name = green_folder
+			position = { x = -1 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			green_industry_category
+		}
+	}
+	green_resources_7_2 = {
+			
+		production_lack_of_resource_penalty_factor = -0.2
+		army_fuel_consumption_factor = -0.1
+		base_fuel_gain_factor = 0.1
+						
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_resources_7_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2032
+		folder = {
+			name = green_folder
+			position = { x = 1 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			excavation_tech
+			green_industry_category
+		}
+	}
+	##ORGANIZATION##
+	green_organization_1 = {
+			
+		consumer_goods_factor = -0.0625
+			
+		path = {
+			leads_to_tech = green_organization_2_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = green_organization_2_2
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_1
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2020
+		folder = {
+			name = green_folder
+			position = { x = 6 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
+			green_industry_category
+		}
+	}
+	green_organization_2_1 = {
+			
+		industrial_capacity_dockyard = 0.06
+		industrial_capacity_factory = 0.06
+	
+		path = {
+			leads_to_tech = green_organization_3
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_2_1
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2022
+		folder = {
+			name = green_folder
+			position = { x = 4 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
+			green_industry_category
+		}
+	}
+	green_organization_2_2 = {
+			
+		industrial_capacity_dockyard = 0.06
+		industrial_capacity_factory = 0.06
+			
+		path = {
+			leads_to_tech = green_organization_3
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_2_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2022
+		folder = {
+			name = green_folder
+			position = { x = 8 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
+			green_industry_category
+		}
+	}
+	green_organization_3 = {
+			
+		consumer_goods_factor = -0.0625
+					
+		path = {
+			leads_to_tech = green_organization_4_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = green_organization_4_2
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_3
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2024
+		folder = {
+			name = green_folder
+			position = { x = 6 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
+			green_industry_category
+		}
+	}
+	green_organization_4_1 = {
+			
+		industrial_capacity_dockyard = 0.06
+		industrial_capacity_factory = 0.06
+			
+		path = {
+			leads_to_tech = green_organization_5
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_4_1
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2026
+		folder = {
+			name = green_folder
+			position = { x = 4 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
+			green_industry_category
+		}
+	}
+	green_organization_4_2 = {
+			
+		industrial_capacity_dockyard = 0.06
+		industrial_capacity_factory = 0.06
+			
+		path = {
+			leads_to_tech = green_organization_5
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_4_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2026
+		folder = {
+			name = green_folder
+			position = { x = 8 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
+			green_industry_category
+		}
+	}
+	green_organization_5 = {
+			
+		consumer_goods_factor = -0.0625
+					
+		path = {
+			leads_to_tech = green_organization_6_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = green_organization_6_2
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_5
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2028
+		folder = {
+			name = green_folder
+			position = { x = 6 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
+			green_industry_category
+		}
+	}
+	green_organization_6_1 = {
+			
+		industrial_capacity_dockyard = 0.06
+		industrial_capacity_factory = 0.06
+			
+		path = {
+			leads_to_tech = green_organization_7
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_6_1
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2030
+		folder = {
+			name = green_folder
+			position = { x = 4 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
+			green_industry_category
+		}
+	}
+	green_organization_6_2 = {
+			
+		industrial_capacity_dockyard = 0.06
+		industrial_capacity_factory = 0.06
+			
+		path = {
+			leads_to_tech = green_organization_7
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_6_2
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2030
+		folder = {
+			name = green_folder
+			position = { x = 8 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
+			green_industry_category
+		}
+	}
+	green_organization_7 = {
+			
+		consumer_goods_factor = -0.0625
+					
+		on_research_complete = {
+			ROOT = {
+				set_country_flag = lhl_organization_7
+			}
+		}
+		
+		research_cost = 1.5
+		start_year = 2032
+		folder = {
+			name = green_folder
+			position = { x = 6 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {	
+			industry
+			industry_organization
+			green_industry_category
 		}
 	}
 }

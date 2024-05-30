@@ -67,3 +67,17 @@ ESS_james_purdey_and_sons_organization = {
 	}
 }
 
+ESS_MacGyver_scrap = {
+	include = generic_motorized_mechanized_organization
+	icon = GFX_idea_ESS_MacGyver_scrap
+	allowed = {	
+		always = yes
+		has_dlc = "Arms Against Tyranny"
+	}
+	available = {
+		original_tag = ESS
+	}
+	visible = {
+		original_tag = ESS
+	}
+}

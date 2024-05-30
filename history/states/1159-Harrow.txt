@@ -23,6 +23,12 @@ state={
 			industrial_complex = 2
 			arms_factory = 1
 		}
+		add_province_modifier = {
+			static_modifiers = { minor_anarchist_presence }
+			province = {
+					all_provinces = yes
+				}
+		}
 	}
 
 	provinces={
