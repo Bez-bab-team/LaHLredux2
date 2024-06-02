@@ -7,16 +7,18 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=nazbol_gang
+			ideology=national_maoism
+			traits={ kong_the_monk }
+			desc="WRC_kong_qingdong_desc"
 			expire="1960.1.1.1"
 			id=-1
 		}
 	}
-	WRC_peter_wilson={
-		name="Peter Wilson"
+	WRC_liu_cixin={
+		name="Liu Cixin"
 		portraits={
 			civilian={
-				large="gfx/leaders/Generics/leader_unknown.dds"
+				large="gfx/leaders/IDJ/Portrait_IDJ_Liu_Cixin.dds"
 			}
 		}
 		country_leader={
@@ -25,22 +27,21 @@ characters={
 			id=-1
 		}
 	}
-	WRC_lucas_wilson={
-		name="Lucas Wilson"
+	WRC_sima_nan={
+		name="Sima Nan"
 		portraits={
 			civilian={
-				large="gfx/leaders/Generics/leader_unknown.dds"
+				large="gfx/leaders/HEG/Portrait_HEG_Sima_Nan.dds"
 			}
 		}
 		country_leader={
 			ideology=leftwing_chauvinism
-			traits={ editor Kipelych }
 			expire="2040.1.1.14"
 			id=-1
 		}
 	}
-	WRC_alexander_white={
-		name="Alexander White"
+	WRC_zhang_hongliang={
+		name="Zhang Hongliang"
 		portraits={
 			civilian={
 				large="gfx/leaders/Generics/leader_unknown.dds"
@@ -52,8 +53,8 @@ characters={
 			id=-1
 		}
 	}
-	WRC_john_smith={
-		name="John Smith"
+	WRC_various={
+		name="Various"
 		portraits={
 			civilian={
 				large="gfx/leaders/Generics/leader_unknown.dds"
@@ -61,41 +62,38 @@ characters={
 		}
 		country_leader={
 			ideology=labor_socialism
-			traits={ national_integralist }
 			expire="2037.1.1.14"
 			id=-1
 		}
 	}
-	WRC_jim_jones={
-		name="Jim Jones"
+	WRC_ling_jihua={
+		name="Ling Jihua"
 		portraits={
 			civilian={
-				large="gfx/leaders/Generics/leader_unknown.dds"
+				large="gfx/leaders/SEG/Portrait_SEG_Ling_Jihua.dds"
 			}
 		}
 		country_leader={
 			ideology=neo_reaction
-			traits={ eager_collaborator fortification_engineer }
 			expire="2028.1.1.14"
 			id=-1
 		}
 	}
-	WRC_marcus_williams={
-		name="Marcus Williams"
+	WRC_guo_wengui={
+		name="Guo Wengui"
 		portraits={
 			civilian={
-				large="gfx/leaders/Generics/leader_unknown.dds"
+				large="gfx/leaders/FHT/Portrait_FHT_Jia_Pingwa.dds"
 			}
 		}
 		country_leader={
 			ideology=national_populism
-			traits={ eager_collaborator }
 			expire="2035.1.1.14"
 			id=-1
 		}
 	}
-	WRC_jonas_williams={
-		name="Jonas Williams"
+	WRC_aleksandr_averin={
+		name="Aleksandr Averin"
 		portraits={
 			civilian={
 				large="gfx/leaders/Generics/leader_unknown.dds"
@@ -107,8 +105,8 @@ characters={
 			id=-1
 		}
 	}
-	WRC_jonas_brown={
-		name="Jonas Brown"
+	WRC_jia_pingwa={
+		name="Jia Pingwa"
 		portraits={
 			civilian={
 				large="gfx/leaders/Generics/leader_unknown.dds"
@@ -121,8 +119,8 @@ characters={
 			id=-1
 		}
 	}
-	WRC_johannes_wilson={
-		name="Johannes Wilson"
+	WRC_jiang_qing={
+		name="Jiang Qing"
 		portraits={
 			civilian={
 				large="gfx/leaders/Generics/leader_unknown.dds"
@@ -130,7 +128,6 @@ characters={
 		}
 		country_leader={
 			ideology=theodemocracy
-			traits={ editor ideological_crusader }
 			expire="2040.1.1.14"
 			id=-1
 		}

@@ -124,4 +124,8 @@ spriteTypes = {
 		name = "GFX_GUD_Li_Yuanchao_Resignation"
 		texturefile = "gfx/event_pictures/li_yuanchao_resignation.dds"
 	}
+	spriteType = {
+		name = "GFX_WRC_beijing_uprising_severe"
+		texturefile = "gfx/event_pictures/beijing_uprising_severe.dds"
+	}
 }

@@ -1,0 +1,141 @@
+﻿capital = 415
+
+oob = "WRC_2020"
+
+set_technology = {
+	infantry_equipment = 1
+	
+	
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = national_bolshevism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	millenarism = 4
+	commendationism = 12
+	left_authoritarianism = 10
+	socialism = 2
+	neocameralism = 15
+	national_bolshevism = 43
+	right_populism = 2
+	hegemonism = 6
+	regressionism = 2
+	ur_fascism = 4
+	
+}
+country_event = {
+	id = WRC_event.1  
+	days = 154
+}
+
+
+create_country_leader = {
+	name = "Liu Cixin"
+	picture = "Portrait_IDJ_Liu_Cixin.dds"
+	expire = "1960.1.1"
+	ideology = religious_millennialism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Sima Nan"
+	picture = "Portrait_HEG_Sima_Nan.dds"
+	expire = "1960.1.1"
+	ideology = leftwing_chauvinism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Zhang Hongliang"
+	picture = "leader_unknown.dds"
+	expire = "1960.1.1"
+	ideology = soviet_marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Various"
+	picture = "leader_unknown.dds"
+	expire = "1960.1.1"
+	ideology = labor_socialism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ling Jihua"
+	picture = "Portrait_SEG_Ling_Jihua.dds"
+	expire = "1960.1.1"
+	ideology = neo_reaction
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Guo Wengui"
+	picture = "leader_unknown.dds"
+	expire = "1960.1.1"
+	ideology = national_populism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Aleksandr Averin"
+	picture = "leader_unknown.dds"
+	expire = "1960.1.1"
+	ideology = nationalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Jia Pingwa"
+	picture = "Portrait_FHT_Jia_Pingwa.dds"
+	expire = "1960.1.1"
+	ideology = neo_feudalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Jiang Qing"
+	picture = "leader_unknown.dds"
+	expire = "1960.1.1"
+	ideology = theodemocracy
+	traits = {
+	}
+}
+
+##CHARACTERS##
+#leader#
+recruit_character = WRC_kong_qingdong
+recruit_character = WRC_liu_cixin
+recruit_character = WRC_sima_nan
+recruit_character = WRC_zhang_hongliang
+recruit_character = WRC_various
+recruit_character = WRC_ling_jihua
+recruit_character = WRC_guo_wengui
+recruit_character = WRC_aleksandr_averin
+recruit_character = WRC_jia_pingwa
+recruit_character = WRC_jiang_qing
+
+#generals#
+
+#advisers#
+
+add_ideas = {
+	WRC_beijing_uprising
+	WRC_pobeda_kitayskogo_naroda
+	WRC_the_suspended_rectification_movement
+	WRC_whistleblower_revolution
+}

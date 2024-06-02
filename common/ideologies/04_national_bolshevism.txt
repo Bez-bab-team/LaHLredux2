@@ -13,6 +13,8 @@ ideologies = {
 			}
 			larouche_movement = {
 			}
+			national_maoism = {
+			}
 		}
 		
 		dynamic_faction_names = {

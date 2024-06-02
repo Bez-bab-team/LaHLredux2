@@ -17,9 +17,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	socialism = 60
+	socialism = 52
 	left_authoritarianism = 10
 	neocameralism = 30
+	right_populism = 8
 
 }
 
@@ -27,7 +28,7 @@ create_country_leader = {
 	name = "Pan Weiming"
 	picture = "Portrait_SHA_Pan_Weiming.dds"
 	expire = "1960.1.1"
-	ideology = progressivism
+	ideology = yaobang_spirit
 	traits = {
 	}
 }

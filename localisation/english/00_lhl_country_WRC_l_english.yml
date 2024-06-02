@@ -1,21 +1,41 @@
 ﻿l_english:
  ##LEADERS##
+ WRC_kong_qingdong_desc:0 "§YBiography:§! Chairman, Descendant of Confucius, Drunken Hero—Kong Qingdong boasts a plethora of titles, some inscribed upon the constitution of the Solidary Government, while others have long been blacklisted by internet censorship authorities. Undoubtedly, Kong stands as a significant driving force behind the populist resurgence in 21st-century China.\n\nBorn in 1964 into a working-class family in Harbin, Kong Qingdong entered the Chinese Department of Peking University after the end of the Cultural Revolution. As a student leader during the 1989 Democracy Movement, he was later recognized as one of the patriotic student representatives and received an audience with Zhao Ziyang. After obtaining his doctorate, he was recommended to China National Radio during the youthification of cadres.\n\nDuring the Yuanhua Case investigation in 2001, Kong was expelled from CPC for publicly insulting the inaction of the political and legal system. After leaving CNR, he established his own radio program through connections to promote ultranationalism and nostalgia for the Mao era. His crude yet compelling populist rhetoric attracted a large audience. With the decriminalization of other parties during the Wang Zhaoguo's term, he and others such as Sima Nan and Hu Xijin founded the Pro-Eurasian National Solidarity Party in 2005. The party quickly absorbed various members, from Maoists supporting the Second Cultural Revolution to the fundamentalists advocating for the revival of Confucianism, forming a powerful social and political force centered around Kong.\n\nKong was incensed by the CPC's diplomatic stance in favor of South Korea during the Second Korean War, prompting him to abandon his establishment identity and lead the NSP to participate in the March 19th coup. With covert support from Moscow, the NSP became a formidable political force in the puppet People's Government, and after the military coup in 2017, it was supported by Eurasia to become the ruling party.\n\nThe disconnection from Moscow in 2019 made Chairman Kong, who had just dominated two years of authoritarian rule, realize that he no longer had a backer. The sudden chaos appeared in Beijing, only his own decisions could lead the government back on track. As the new year dawned, the bell rang, but the Solidary Government was no longer solidary."
  ##POLITICAL PARTIES##
- WRC_commendationism_party:0 "NWP - Nationalists"
- WRC_commendationism_party_long:0 "National Welfare Party - Nationalists"
- WRC_left_authoritarianism_party:0 "Leftist remnants"
- WRC_left_authoritarianism_party_long:0 "Leftist remnants"
- WRC_socialism_party:0 "Leftist remnants"
- WRC_socialism_party_long:0 "Leftist remnants"
- WRC_national_bolshevism_party:0 "NWP - Traditionalists"
- WRC_national_bolshevism_party_long:0 "National Welfare Party - Traditionalists"
- WRC_right_populism_party:0 "Civil Rights Movement"
- WRC_right_populism_party_long:0 "Civil Rights Movement"
+ WRC_millenarism_party:0 "NSP - CSTIND"
+ WRC_millenarism_party_long:0 "National Solidary Party - Commission for Science and Technology for National Defense"
+ WRC_commendationism_party:0 "NSP - Ideologue"
+ WRC_commendationism_party_long:0 "National Solidary Party - Ideologue"
+ WRC_left_authoritarianism_party:0 "NSP - Old Comrade"
+ WRC_left_authoritarianism_party_long:0 "National Solidary Party - Old Comrade"
+ WRC_socialism_party:0 "CPC"
+ WRC_socialism_party_long:0 "Communist Party of China"
+ WRC_hegemonism_party:0 "GEFC"
+ WRC_hegemonism_party_long:0 "Group of Eurasian Forces in China"
+ WRC_national_bolshevism_party:0 "NSP - Mainstream"
+ WRC_national_bolshevism_party_long:0 "National Solidary Party - Mainstream"
+ WRC_neocameralism_party:0 "NSP - Xishan Society"
+ WRC_neocameralism_party_long:0 "National Solidary Party - Xishan Society"
+ WRC_right_populism_party:0 "NSP - Populists"
+ WRC_right_populism_party_long:0 "National Solidary Party - Populists"
+ WRC_regressionism_party:0 "NSP - Agrarian Populists"
+ WRC_regressionism_party_long:0 "National Solidary Party - Agrarian Populists"
+ WRC_ur_fascism_party:0 "New Confucianists"
+ WRC_ur_fascism_party_long:0 "New Confucianists"
  ##COUNTRY NAME##
- WRC_national_bolshevism:0 "Minsheng Republic of China"
- WRC_national_bolshevism_DEF:0 "the Minsheng Republic of China"
+ WRC_national_bolshevism:0 "Solidary Government of China"
+ WRC_national_bolshevism_DEF:0 "Solidary Government of China"
  ##TRAITS##
+ kong_the_monk:0 "Kong the Monk"
  ##IDEAS##
+ WRC_beijing_uprising:0 "Beijing Uprising"
+ WRC_beijing_uprising_desc:0 "Following the political upheaval triggered by Eurasia's collapse, what began as commemorations for Mao's birthday in Beijing and surrounding areas quickly morphed into left-wing protests against both Eurasia and the government. Protesters are demanding the swift withdrawal of Eurasian troops, an end to the party restrictions, and the opening up of elections. While the majority within the party favor using force to quell this uprising, there remains a faction of members skeptical of this decision. With the Dongbei Revolutionary Front gaining momentum in support of the uprising, our time for decision-making is running short.\n§RBeijing and its surrounding areas are currently demilitarized zones.§!"
+ WRC_pobeda_kitayskogo_naroda:0 "Pobeda Kitayskogo Naroda"
+ WRC_pobeda_kitayskogo_naroda_desc:0 "The remnants of GEFC and 35th Army are stationed in Henan, having thrown themselves into the battleground in China since the March 19th Coup, wielding significant sway within our military framework. It's unclear what moves the brigades will make once Averin reaches out to Moscow, but for the time being, their top priority is to stand as the firmest shield for our government."
+ WRC_the_suspended_rectification_movement:0 "The Suspended Rectification Movement"
+ WRC_the_suspended_rectification_movement_desc:0 "The NSP's initial lax party admission policies and populist anti-CPC rhetoric attracted a significant number of former dissenting elites and entrepreneurs, who now wield considerable influence within the government and have formed a new bureaucratic class. Under their proactive dilution, our party's ideology has gradually transitioned into a big tent party for nationalists. To standardize party discipline and consolidate Chairman Kong's authority, a rectification movement was initiated within the party at the end of 2018. Unfortunately, it was suspended due to the Liu Tienan Incident, which also caused an irreparable rupture in our relationship with the Xishan Society. The rectification movement should be restarted in the new year, and we must choose the right allies to ensure the smooth elimination of oppositionists."
+ WRC_whistleblower_revolution:0 "Whistleblower Revolution"
+ WRC_whistleblower_revolution_desc:0 "The debate over market economy in the party has long been the main point of contention between the left and right factions. While the latter holds little sway within the government, they've garnered a significant portion of support among young nationalists in urban areas, thanks to the rapid growth of personal medias. Right-wing media outlets led by Guo Media and Whistleblower Movement, founded by entrepreneur Guo Wengui, stand alongside us on the same front. Utilizing this right-wing group to counterbalance the increasingly powerful Xishan Society and leftists could be a wise choice, but we must proceed with caution to avoid any potential backlash."
  ##FOCUS TREES##
  ##DECISIONS##
  ##EVENTS##

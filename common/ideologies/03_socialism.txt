@@ -11,6 +11,8 @@ ideologies = {
 			}
 			left_greens = {
 			}
+			yaobang_spirit = {
+			}
 		}
 		
 		dynamic_faction_names = {

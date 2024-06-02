@@ -1086,3 +1086,26 @@ news_event = { #li yuanchao resignation
 		name = lhl_news.47.a
 	}
 }
+
+news_event = {
+	id = lhl_news.48
+	title = lhl_news.48.t
+	immediate = {log = "[GetDateText]: [Root.GetName]: lhl_news.48"}
+	desc = lhl_news.48.d
+	picture = GFX_WRC_beijing_uprising_severe
+	major = yes 
+	is_triggered_only = yes 
+	fire_only_once = no
+	option = {
+		name = lhl_news.48.a
+		trigger = { TAG = WRC }
+	}
+	option = {
+		name = lhl_news.48.b
+		trigger = { 
+			NOT = { 
+				TAG = WRC
+			}
+		}
+	}
+}

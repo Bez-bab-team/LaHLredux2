@@ -11,6 +11,7 @@ state={
 		history={
 		owner = WRC
 		add_core_of = WRC
+		set_demilitarized_zone = yes
 		victory_points = {
 			9242 5
 		}

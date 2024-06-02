@@ -63,12 +63,15 @@
  accelerationism:0 "Accelerationism"
  accelerationism_desc:0 "???"
  
+ ###Debitalism###
  distributism:0 "Distributism"
  distributism_desc:0 "???"
  nazbol_gang:0 "National Bolshevism"
  nazbol_gang_desc:0 "Political system, frequently associated with Yegor Letov regime. It includes presence of a strong state, combining state capitalism with local autonomy and non-interference in small business."
  national_anarchism:0 "National Anarchism"
  national_anarchism_desc:0 "???"
+ national_maoism:0 "National Maoism"
+ national_maoism_desc:0 "National Maoism emerged as the predominant ideology following Eurasia's support of the National Solidarity Party during the civil war in China. Its aim is to establish a vanguard party centered around sinonationalism, anti-Atlanticism, and Mao Zedong Thought, ultimately leading to the establishment of a state capitalist regime under the party's auspices. Within this framework, the revolutionary essence of Maoism has been diluted, giving way to a greater emphasis on personal worship of Mao and nostalgic sentiments for a bygone era."
  national_conservatism:0 "National conservatism"
  national_conservatism_desc:0 "
  larouche_movement:0 "LaRouche Movement"
