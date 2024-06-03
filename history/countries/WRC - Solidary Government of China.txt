@@ -135,7 +135,7 @@ recruit_character = WRC_jiang_qing
 
 add_ideas = {
 	WRC_beijing_uprising
-	WRC_pobeda_kitayskogo_naroda
+	WRC_long_live_the_sino_soviet_friendship
 	WRC_the_suspended_rectification_movement
 	WRC_whistleblower_revolution
 }

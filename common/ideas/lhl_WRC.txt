@@ -20,9 +20,9 @@ ideas = {
 			}
 		}
 		
-		WRC_pobeda_kitayskogo_naroda = {
+		WRC_long_live_the_sino_soviet_friendship = {
 			
-			picture = GFX_idea_WRC_pobeda_kitayskogo_naroda
+			picture = GFX_idea_WRC_long_live_the_sino_soviet_friendship
 
 			allowed = {
 				always = no

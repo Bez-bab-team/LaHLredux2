@@ -21,8 +21,8 @@ spriteTypes = {
 	}
 	#Ideas#	
 	spriteType = {
-		name = "GFX_idea_WRC_pobeda_kitayskogo_naroda"
-		texturefile = "gfx/interface/ideas/WRC/idea_WRC_pobeda_kitayskogo_naroda.dds"
+		name = "GFX_idea_WRC_long_live_the_sino_soviet_friendship"
+		texturefile = "gfx/interface/ideas/WRC/idea_WRC_long_live_the_sino_soviet_friendship.dds"
 	}
 	#Ideas#	
 	spriteType = {
