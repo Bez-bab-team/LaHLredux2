@@ -4,15 +4,16 @@ state={
 	name="STATE_481"
 
 	history={
-		owner = NRU
-		add_core_of = NRU
+		owner = RWR
+		add_core_of = RWR
 
 	}
 
 	provinces={
-		608 2356 2490 4362 6394 6644 7181 10125 10127 10143 10157 10170 17313 
+		1614
 	}
 	manpower=1
+	impassable = yes
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

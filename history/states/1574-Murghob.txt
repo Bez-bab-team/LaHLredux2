@@ -1,0 +1,16 @@
+state={
+	id=1574
+	name="STATE_1574"
+	history={
+		owner = TAJ
+		add_core_of = TAJ
+
+	}
+	provinces={
+		778 927 1282 5694 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,15 +1,19 @@
+
 state={
 	id=136
 	name="STATE_136"
-	provinces={
-		1065 1467 3316 4211 4838 5381 7764 8776 9545 9802 11760 11827 11870 11876 11885 11899 11906 11959 17395 
-	}
-	manpower=1988506
-	
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = AZE
 		add_core_of = AZE
-	}		
+
+	}
+
+	provinces={
+		9545 11876 11899 11906 17395 
+	}
+	manpower=1988506
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

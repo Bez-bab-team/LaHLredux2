@@ -1,0 +1,15 @@
+state={
+	id=1564
+	name="STATE_1564"
+	history={
+		owner = CMD
+		add_core_of = CMD
+	}
+	provinces={
+		27 374 496 597 615 3666 3929 7642 8139 8587 11369 21307 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

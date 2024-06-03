@@ -4,13 +4,13 @@ state={
 	name="STATE_37"
 
 	history={
-		owner = LEN
-		add_core_of = LEN
+		owner = UFC
+		add_core_of = UFC
 
 	}
 
 	provinces={
-		990 1076 4196 4368 6084 6088 6925 10191 10194 10218 17324 
+		4196 10191 20956 21067 
 	}
 	manpower=596453
 	buildings_max_level_factor=1.000

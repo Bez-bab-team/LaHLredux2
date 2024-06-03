@@ -1,20 +1,25 @@
+
 state={
 	id=99
 	name="STATE_99"
-	provinces={
-		2246 2454 4396 5887 6242 6802 8430 8986 10949 11005 
-	}
-	manpower=1456324
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = ACH
 		add_core_of = ACH
 		victory_points = {
-			6242 7
+			6242 7 
 		}
 		victory_points = {
-			4396 2
+			4396 2 
 		}
+
 	}
+
+	provinces={
+		8430 8986 21554 21582 
+	}
+	manpower=1456324
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

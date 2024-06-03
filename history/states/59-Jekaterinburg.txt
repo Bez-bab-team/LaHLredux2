@@ -1,14 +1,19 @@
+
 state={
 	id=59
 	name="STATE_59"
+
+	history={
+		owner = EKB
+		add_core_of = EKB
+
+	}
+
 	provinces={
-		292 388 747 1510 1512 1640 1691 1923 2008 2460 2814 3021 3422 3652 4082 4278 5256 5541 5782 5796 6118 6539 7470 7592 7684 7856 8173 8537 8627 9089 9417 9429 10094 10122 10158 10201 10220 10221 10232 10242 10248 10270 
+		2346 6118 18097 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
-    state_category=pastoral
-        history={
-		owner = EKB
-		add_core_of = EKB
-	}
+	state_category=pastoral
+	local_supplies=0.000
 }

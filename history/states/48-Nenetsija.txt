@@ -1,13 +1,19 @@
+
 state={
 	id=48
 	name="STATE_48"
+
+	history={
+		owner = RWR
+		add_core_of = RWR
+
+	}
+
 	provinces={
-		153 496 677 1012 1055 1125 1132 1437 2355 3016 3086 3859 4222 4967 5286 5951 6064 6120 7066 7103 7880 8831 9892 9977 9991 
+		315 3158 9944 21123 21127 21141 21164 21192 21201 21220 21222 21269 
 	}
 	manpower=77456
 	buildings_max_level_factor=1.000
-    state_category=pastoral
-	history={
-		owner = NRU
-		add_core_of = NRU
+	state_category=pastoral
+	local_supplies=0.000
 }

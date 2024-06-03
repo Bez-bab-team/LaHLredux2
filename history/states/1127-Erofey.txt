@@ -4,15 +4,16 @@ state={
 	name="STATE_1127"
 
 	history={
-		owner = RZD
-		add_core_of = RZD
+		owner = GUL
+		add_core_of = GUL
 
 	}
 
 	provinces={
-		1453 1711 2298 2317 3048 3856 7527 7597 10110 10285 10377 10386 10443 17901 17915 17968 18279 18339 18365 18595 18623 18628 18634 18635 18636 18637 18638 18641 18653 18654 18655 18670 18673 18696 18702 18707 18726 18738 18742 18745 18763 18947 18948 18949 
+		10136 
 	}
 	manpower=1
+	impassable = yes
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

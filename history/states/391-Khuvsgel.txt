@@ -1,14 +1,19 @@
+
 state={
 	id=391
 	name="STATE_391"
+
+	history={
+		owner = MON
+		add_core_of = MON
+
+	}
+
 	provinces={
-		1611 1811 2568 2916 3149 3206 6929 10745 10762 10808 17355 17367 
+		1611 1811 2568 2916 3149 3206 6929 10745 10762 10808 17355 17367 19042 19071 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
-    state_category=pastoral
-        history={
-		owner = MON
-		add_core_of = MON
-	}
+	state_category=pastoral
+	local_supplies=0.000
 }

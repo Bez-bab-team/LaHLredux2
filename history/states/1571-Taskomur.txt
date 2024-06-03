@@ -1,0 +1,16 @@
+
+state={
+	id=1571
+	name="STATE_1571"
+	history={
+		owner = KYR
+		add_core_of = KYR
+	}
+	provinces={
+		26 1392 2933 3880 11754 17392 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

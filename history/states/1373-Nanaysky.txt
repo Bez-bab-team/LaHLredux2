@@ -1,0 +1,19 @@
+state={
+	id=1373
+	name="STATE_1373"
+	history={
+		owner = RIS
+		add_core_of = RIS
+		victory_points = {
+			1479 1
+		}
+
+	}
+	provinces={
+		1479 10080 10108 10176 10231 10329 10539 10540 18938 
+	}
+	state_category=pastoral
+    manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

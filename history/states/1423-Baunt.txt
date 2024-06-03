@@ -1,0 +1,19 @@
+state={
+	id=1423
+	name="STATE_1423"
+	history={
+		owner = RZD
+		add_core_of = RZD
+		victory_points = {
+			614 1 
+		}
+
+	}
+	provinces={
+		614 777 1689 3217 3487 3514 3546 4980 9765 10051 10052 10360 10400 19179 19200 19205 19237 19257 19296 19321 
+	}
+	state_category=pastoral
+    manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

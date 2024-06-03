@@ -2,14 +2,18 @@
 state={
 	id=26
 	name="STATE_26"
+
+	history={
+		owner = RNE
+		add_core_of = RNE
+
+	}
+
 	provinces={
-		329 924 3557 3742 5085 5436 7176 9824 10224 10253 10257 
+		9824 10298 21892 21893 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
-    state_category=pastoral
-	history={
-		owner = RWR
-		add_core_of = RWR
-	}	
+	state_category=pastoral
+	local_supplies=0.000
 }

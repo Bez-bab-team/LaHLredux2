@@ -4,13 +4,13 @@ state={
 	name="STATE_17"
 
 	history={
-		owner = RTS
-		add_core_of = RTS
+		owner = MSC
+		add_core_of = MSC
 
 	}
 
 	provinces={
-		3442 5051 5081 6297 8064 9256 10572 10627 10639 17562 17566 17580 17596 17607 17610 17611 17627 
+		3442 9256 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

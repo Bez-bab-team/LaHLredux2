@@ -4,13 +4,13 @@ state={
 	name="STATE_454"
 
 	history={
-		owner = YAK
-		add_core_of = YAK
+		owner = GAZ
+		add_core_of = GAZ
 
 	}
 
 	provinces={
-		559 610 1870 2333 8463 9397 10007 
+		20028 20091 20092 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

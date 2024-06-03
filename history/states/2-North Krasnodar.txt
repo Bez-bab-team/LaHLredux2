@@ -2,21 +2,24 @@
 state={
 	id=2
 	name="STATE_2"
-	provinces={
-		629 1165 2172 6533 7039 7576 7986 8692 11352 11381 11402 11426 11439 11455 11514 11547 
-	}
-	manpower=3121564
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = RGD
 		add_core_of = RGD
 		victory_points = {
-			11402 8
+			11402 8 
 		}
 		victory_points = {
-			11514 11
+			11514 11 
 		}
-	}	
+
+	}
+
+	provinces={
+		1165 7576 8692 
+	}
+	manpower=3121564
+	buildings_max_level_factor=1.000
 	state_category=city
-	
+	local_supplies=0.000
 }

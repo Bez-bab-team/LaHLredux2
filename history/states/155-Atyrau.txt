@@ -1,14 +1,19 @@
+
 state={
 	id=155
 	name="STATE_155"
+
+	history={
+		owner = STR
+		add_core_of = STR
+
+	}
+
 	provinces={
-		753 2015 2182 2659 2838 4133 4369 5229 6040 6389 7989 8422 9819 11066 11186 
+		2182 4369 9992 21832 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
-    state_category=pastoral
-	history={
-		owner = RNG
-		add_core_of = RNG
-	}
+	state_category=pastoral
+	local_supplies=0.000
 }

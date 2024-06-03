@@ -4,13 +4,13 @@ state={
 	name="STATE_15"
 
 	history={
-		owner = RST
-		add_core_of = RST
+		owner = MSC
+		add_core_of = MSC
 
 	}
 
 	provinces={
-		1162 1605 1898 2425 3925 4052 4150 6310 6955 9462 9606 10834 10836 10867 10941 18015 
+		6955 21564 21595 21843 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

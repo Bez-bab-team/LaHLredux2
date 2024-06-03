@@ -2,14 +2,18 @@
 state={
 	id=8
 	name="STATE_8"
-	provinces={
-		48 667 1502 3340 4123 5585 7008 7538 9475 11287 11288 11302 11326 11350 11414 
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = RGD
 		add_core_of = RGD
+
 	}
+
+	provinces={
+		48 7008 11414 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

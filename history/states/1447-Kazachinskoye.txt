@@ -1,0 +1,19 @@
+state={
+	id=1447
+	name="STATE_1447"
+	history={
+		owner = IRK
+		add_core_of = IRK
+		victory_points = {
+			3182 1 
+		}
+
+	}
+	provinces={
+		3182 3835 5349 19327 19345 19364 19419 19483 19503 
+	}
+	state_category=pastoral
+    manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

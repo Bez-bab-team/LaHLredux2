@@ -1,0 +1,16 @@
+state={
+	id=1737
+	name="STATE_1737"
+	history={
+		owner = RGD
+		add_core_of = RGD
+
+	}
+	provinces={
+		5446 9668 11657 11685 11711 21418 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

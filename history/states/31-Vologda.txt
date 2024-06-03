@@ -4,15 +4,16 @@ state={
 	name="STATE_31"
 
 	history={
-		owner = NRU
-		add_core_of = NRU
+		owner = FRS
+		add_core_of = FRS
 
 	}
 
 	provinces={
-		215 322 1568 1624 1856 2219 3095 4442 4917 5180 5294 5902 6119 7025 7318 7570 8622 9896 10114 10141 10163 10171 17316 
+		6119 17316 19880 
 	}
 	manpower=1604563
 	buildings_max_level_factor=1.000
-    state_category=pastoral
+	state_category=pastoral
+	local_supplies=0.000
 }

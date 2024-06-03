@@ -1,0 +1,19 @@
+state={
+	id=1439
+	name="STATE_1439"
+	history={
+		owner = KRS
+		add_core_of = KRS
+		victory_points = {
+			19189 1 
+		}
+
+	}
+	provinces={
+		19189 19202 19216 19247 19248 19277 19300 
+	}
+	state_category=pastoral
+    manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

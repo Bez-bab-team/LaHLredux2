@@ -1,0 +1,22 @@
+
+state={
+	id=1385
+	name="STATE_1385"
+
+	history={
+		owner = SAH
+		add_core_of = SAH
+		victory_points = {
+			10927 1 
+		}
+
+	}
+
+	provinces={
+		8124 11170 11201 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

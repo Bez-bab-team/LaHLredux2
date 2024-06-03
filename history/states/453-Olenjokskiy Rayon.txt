@@ -4,15 +4,16 @@ state={
 	name="STATE_453"
 
 	history={
-		owner = YAK
-		add_core_of = YAK
+		owner = NVS
+		add_core_of = NVS
 
 	}
 
 	provinces={
-		521 607 1270 1636 2076 2285 2292 2363 2780 2957 3882 5105 5926 5953 8712 8977 9935 10057 10063 17759 17775 
+		21073 
 	}
 	manpower=1
+	impassable = yes
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

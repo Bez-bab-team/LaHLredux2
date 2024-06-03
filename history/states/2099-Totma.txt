@@ -1,0 +1,16 @@
+state={
+	id=2099
+	name="STATE_2099"
+	history={
+		owner = NRU
+		add_core_of = NRU
+
+	}
+	provinces={
+		19968 20692 20849 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

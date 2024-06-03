@@ -1,0 +1,17 @@
+
+state={
+	id=1615
+	name="STATE_1615"
+	history={
+		owner = KAZ
+		add_core_of = KAZ
+
+	}
+	provinces={
+		324 540 1181 3016 3265 4336 5729 6589 7348 7827 7964 10101 10199 11441 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

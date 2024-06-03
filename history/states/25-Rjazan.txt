@@ -2,14 +2,18 @@
 state={
 	id=25
 	name="STATE_25"
-	provinces={
-		2009 2037 3251 3499 3814 5438 7913 10381 10410 10422 10451 17637 17642 17644 17646 17647 17655 17656 17659 17661 17664 17667 17671 17679 17684 17687 
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = MSC
 		add_core_of = MSC
+
 	}
+
+	provinces={
+		17679 17687 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

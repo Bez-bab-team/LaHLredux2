@@ -1,0 +1,22 @@
+
+state={
+	id=1359
+	name="STATE_1359"
+
+	history={
+		owner = NOD
+		add_core_of = NOD
+		victory_points = {
+			6 1 
+		}
+
+	}
+
+	provinces={
+		6 150 2889 4373 5392 6535 8360 8685 10075 18255 18734 18913 19449 19472 19492 19554 19559 19583 19663 19682 19733 19841 
+	}
+	state_category=pastoral
+    manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

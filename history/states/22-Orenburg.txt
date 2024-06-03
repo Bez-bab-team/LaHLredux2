@@ -1,14 +1,19 @@
+
 state={
 	id=22
 	name="STATE_22"
+
+	history={
+		owner = VER
+		add_core_of = VER
+
+	}
+
 	provinces={
-		61 261 383 2218 2702 3858 4106 4952 5092 5536 5727 5897 6065 6502 6932 7022 7268 7548 8947 10533 10563 10640 10657 10667 10692 10705 
+		5536 8947 21772 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
-    state_category=pastoral
-	history={
-		owner = RST
-		add_core_of = RST
-	}	
+	state_category=pastoral
+	local_supplies=0.000
 }
