@@ -12,20 +12,12 @@ set_technology = {
 }
 set_convoys = 50
 
+recruit_character = IRK_dmitry_zhvania
+
 set_politics = {
-	ruling_party = left_authoritarianism
+	ruling_party = national_bolshevism
 	elections_allowed = no
 }
 set_popularities = {
-	left_authoritarianism  = 100
-}
-
-create_country_leader = {
-	name = "Nazbol Man"
-	desc = ""
-	picture = "Portrait_IRK_.dds"
-	ideology = paternalism
-	traits = {
-		
-	}
+	national_bolshevism  = 100
 }

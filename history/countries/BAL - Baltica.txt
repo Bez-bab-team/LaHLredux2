@@ -3,6 +3,7 @@
 oob = "BAL_2020"
 
 recruit_character = BAL_vladimir_linderman
+recruit_character = BAL_viktor_alksnis
 
 set_research_slots = 3
 
@@ -15,10 +16,10 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = national_bolshevism
+	ruling_party = left_authoritarianism
 	elections_allowed = no
 }
 
 set_popularities = {
-	national_bolshevism = 100
+	left_authoritarianism = 100
 }
