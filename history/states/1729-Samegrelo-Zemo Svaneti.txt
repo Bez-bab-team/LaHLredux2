@@ -1,0 +1,16 @@
+state={
+	id=1729
+	name="STATE_1729"
+	history={
+		owner = GEO
+		add_core_of = GEO
+
+	}
+	provinces={
+		8442 11635 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

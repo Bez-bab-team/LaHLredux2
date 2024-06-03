@@ -1,0 +1,16 @@
+state={
+	id=2252
+	name="STATE_2252"
+	history={
+		owner = FRS
+		add_core_of = FRS
+
+	}
+	provinces={
+		2578 6990 17327 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

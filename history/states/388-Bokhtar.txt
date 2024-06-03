@@ -1,14 +1,19 @@
+
 state={
 	id=388
 	name="STATE_388"
-	provinces={
-		1156 2080 6492 6779 7930 8471 8554 12225 12232 12250 12277 12306 
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = TAJ
 		add_core_of = TAJ
+
 	}
+
+	provinces={
+		2080 6779 7930 8554 12232 12277 12306 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

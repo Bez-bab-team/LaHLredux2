@@ -1223,3 +1223,5 @@
  LHL_INDUSTRY_2:0 "Construction"
  LHL_INDUSTRY_3:0 "Resources"
  LHL_INDUSTRY_4:0 "Organization"
+ #
+ lhl_regressionist_tooltip:0 "§YAll Buildings§! construction cost: §G-9.00%§!"

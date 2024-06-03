@@ -1,14 +1,19 @@
+
 state={
 	id=54
 	name="STATE_54"
+
+	history={
+		owner = RWR
+		add_core_of = RWR
+
+	}
+
 	provinces={
-		1124 1496 1552 1596 2148 3545 3725 5244 6164 6281 6481 7519 8118 8201 8216 8743 9005 10305 10321 10324 10331 10365 10366 10379 17333 
+		6281 8201 8743 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
-    state_category=pastoral
-	history={
-		owner = TAT
-		add_core_of = TAT
-	}
+	state_category=pastoral
+	local_supplies=0.000
 }

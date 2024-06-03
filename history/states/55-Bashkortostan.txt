@@ -1,14 +1,19 @@
+
 state={
 	id=55
 	name="STATE_55"
+
+	history={
+		owner = VER
+		add_core_of = VER
+
+	}
+
 	provinces={
-		1013 1785 2251 2458 2509 3905 4656 4669 4851 5029 5458 5959 6110 6646 6937 7596 7712 7891 9039 9083 9416 9467 9771 9838 10286 10303 10313 10339 10342 10345 10359 10362 10380 10402 10407 10414 10416 10432 10548 10585 
+		5029 10402 20152 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
-    state_category=pastoral
-	history={
-		owner = BSK
-		add_core_of = BSK
-	}
+	state_category=pastoral
+	local_supplies=0.000
 }

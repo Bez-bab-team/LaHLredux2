@@ -6,20 +6,10 @@ state={
 	history={
 		owner = SAH
 		add_core_of = SAH
-		victory_points = {
-			11170 10 
-		}
-		victory_points = {
-			7648 1 
-		}
-		victory_points = {
-			9909 1 
-		}
-
 	}
 
 	provinces={
-		2593 4574 4965 5248 6463 7648 7897 8137 8540 8680 9909 10927 11170 11201 11214 17748 17750 
+		2593 8540
 	}
 	manpower=668895
 	buildings_max_level_factor=1.000

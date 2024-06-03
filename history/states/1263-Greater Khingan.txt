@@ -1,17 +1,22 @@
+
 state={
 	id=1263
 	name="STATE_1263"
-	provinces={
-		568 582 587 883 1715 2351 2411 4039 4578 4582 5290 5598 6042 7387 8044 8785 10527 10580 10586 10875 10939 10943 11002 11044 11054 
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = CPU
 		add_core_of = CPU
 		victory_points = {
-			568 5
+			568 5 
 		}
-    }
+
+	}
+
+	provinces={
+		587 883 2351 4039 4578 4582 5290 5598 6042 7387 10875 10939 10943 11002 11044 11054 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

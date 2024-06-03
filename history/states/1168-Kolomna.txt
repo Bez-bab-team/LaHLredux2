@@ -1,14 +1,19 @@
+
 state={
 	id=1168
 	name="STATE_1168"
-	provinces={
-		4351 6005 10372 
-	}
-		history={
+
+	history={
 		owner = MSC
 		add_core_of = MSC
+
+	}
+
+	provinces={
+		4351 21689 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
-    state_category=pastoral
+	state_category=pastoral
+	local_supplies=0.000
 }

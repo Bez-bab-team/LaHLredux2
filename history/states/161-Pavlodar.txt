@@ -1,15 +1,19 @@
+
 state={
 	id=161
 	name="STATE_161"
+
+	history={
+		owner = NVS
+		add_core_of = NVS
+		add_core_of = RLF
+	}
+
 	provinces={
-		228 1184 1456 1772 3238 3783 3846 4636 5316 5318 6478 6857 7936 9149 10433 10481 10569 10602 10679 10795 17346 
+		1772 4636 10481 10569 19144 21817 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
-    state_category=pastoral
-	history={
-		owner = RNG
-		add_core_of = RNG
-		add_core_of = RLF
-	}
+	state_category=pastoral
+	local_supplies=0.000
 }

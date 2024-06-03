@@ -2,14 +2,18 @@
 state={
 	id=29
 	name="STATE_29"
-	provinces={
-		1075 1340 1703 8302 8467 10217 10237 
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = FRS
 		add_core_of = FRS
+
 	}
+
+	provinces={
+		8302 10237 19675 21900 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

@@ -1,15 +1,19 @@
+
 state={
 	id=135
 	name="STATE_135"
-	provinces={
-		6099 9609 11949 11986 
-	}
-	manpower=1988506
-	
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = KAR
 		add_core_of = KAR
-	}		
+
+	}
+
+	provinces={
+		1598 6099 7326 9609 
+	}
+	manpower=1988506
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

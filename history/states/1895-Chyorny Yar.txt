@@ -1,0 +1,16 @@
+state={
+	id=1895
+	name="STATE_1895"
+	history={
+		owner = KAL
+		add_core_of = KAL
+
+	}
+	provinces={
+		1338 21497 21512 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

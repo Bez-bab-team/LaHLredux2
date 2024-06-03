@@ -1,0 +1,17 @@
+
+state={
+	id=2246
+	name="STATE_2246"
+	history={
+		owner = RNE
+		add_core_of = RNE
+
+	}
+	provinces={
+		227 4245 7082 15400 21114 21381 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

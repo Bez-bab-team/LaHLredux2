@@ -1,14 +1,20 @@
+
 state={
 	id=98
 	name="STATE_98"
+
+	history={
+		owner = GUL
+		add_core_of = GUL
+
+	}
+
 	provinces={
-		1228 2175 3671 6571 7660 8574 11365 11427 
+		21024 
 	}
 	manpower=1
+	impassable = yes
 	buildings_max_level_factor=1.000
-    state_category=pastoral
-	history={
-		owner = RGD
-		add_core_of = RGD
-	}
+	state_category=pastoral
+	local_supplies=0.000
 }

@@ -1,14 +1,19 @@
+
 state={
 	id=378
 	name="STATE_378"
-	provinces={
-		368 1483 2145 3128 4007 4503 5377 6395 6829 7531 7636 12054 12187 12220 12227 12285 12392 12448 
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = TMS
 		add_core_of = TMS
+
 	}
+
+	provinces={
+		1483 5377 12227 21835 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

@@ -1,0 +1,19 @@
+state={
+	id=1394
+	name="STATE_1394"
+	history={
+		owner = CPU
+		add_core_of = CPU
+		victory_points = {
+			5170 1
+		}
+
+	}
+	provinces={
+		5170 10909 17957 17958 17959 17963 17964 17965 17967 17969 18941 
+	}
+	state_category=pastoral
+    manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

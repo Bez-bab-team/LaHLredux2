@@ -2,14 +2,18 @@
 state={
 	id=367
 	name="STATE_367"
-	provinces={
-		197 1564 2677 7505 9901 11837 11852 11983 17393 
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = UZB
 		add_core_of = UZB
+
 	}
+
+	provinces={
+		197 2677 7505 9901 21809 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

@@ -4,15 +4,16 @@ state={
 	name="STATE_472"
 
 	history={
-		owner = KAL
-		add_core_of = KAL
+		owner = RWR
+		add_core_of = RWR
 
 	}
 
 	provinces={
-		253 1426 2114 2742 3971 5764 18927 
+		9902 21258 21262 
 	}
 	manpower=1
+	impassable = yes
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

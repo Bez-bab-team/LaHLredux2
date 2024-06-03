@@ -1,0 +1,16 @@
+state={
+	id=1896
+	name="STATE_1896"
+	history={
+		owner = STR
+		add_core_of = STR
+
+	}
+	provinces={
+		2652 5006 21465 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

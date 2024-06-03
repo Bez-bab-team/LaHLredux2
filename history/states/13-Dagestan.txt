@@ -1,21 +1,25 @@
+
 state={
 	id=13
 	name="STATE_13"
-	provinces={
-		1531 2485 5446 7092 7220 7729 7830 8453 9040 9668 11657 11672 11685 11711 
-	}
-	manpower=5321657
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = RGD
 		add_core_of = RGD
 		victory_points = {
-			9668 4
+			9668 4 
 		}
 		victory_points = {
-			7729 12
+			7729 12 
 		}
-		
+
 	}
+
+	provinces={
+		1531 2485 7729 7830 8453 9040 11672 
+	}
+	manpower=5321657
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

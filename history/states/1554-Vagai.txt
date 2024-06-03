@@ -1,0 +1,15 @@
+state={
+	id=1554
+	name="STATE_1554"
+	history={
+		owner = IMT
+		add_core_of = IMT
+	}
+	provinces={
+		2448 3194 17328 19570 19636 19644 19711 19716 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

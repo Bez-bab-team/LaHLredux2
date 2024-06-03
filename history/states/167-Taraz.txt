@@ -1,14 +1,19 @@
+
 state={
 	id=167
 	name="STATE_167"
-	provinces={
-		672 3061 3081 3170 3265 3582 4443 5666 5729 6033 6589 7300 7964 11319 11441 11517 11583 11624 11626 
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = KAZ
 		add_core_of = KAZ
+
 	}
+
+	provinces={
+		3061 3582 5875 6033 11626 21825 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

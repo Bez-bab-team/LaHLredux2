@@ -1,14 +1,19 @@
+
 state={
 	id=375
 	name="STATE_375"
-	provinces={
-		1574 2785 3130 4602 4816 5262 5494 5592 6187 6837 8706 11666 11673 11686 11695 11700 11746 11795 11851 11915 11931 17389 
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = TMS
 		add_core_of = TMS
+
 	}
+
+	provinces={
+		11673 11700 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

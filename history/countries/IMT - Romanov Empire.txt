@@ -13,11 +13,11 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = hegemonism
+	ruling_party = neocameralism
 	elections_allowed = no
 }
 set_popularities = {
-	hegemonism  = 68
+	neocameralism  = 68
 	socialism = 10
 	left_authoritarianism = 7
 	national_bolshevism = 15

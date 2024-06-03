@@ -10,9 +10,10 @@ state={
 	}
 
 	provinces={
-		82 229 254 282 407 606 673 768 779 1612 1613 2244 2540 2912 2970 3648 3758 4701 4732 6746 7116 7389 8146 8218 8387 9078 9116 9151 9946 10003 10023 10036 
+		2244 19843 20989 21136 
 	}
 	manpower=1
+	impassable = yes
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

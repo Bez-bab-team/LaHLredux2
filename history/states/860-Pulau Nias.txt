@@ -1,14 +1,19 @@
+
 state={
 	id=860
 	name="STATE_860"
+
 	history={
 		owner = MLS
 		add_core_of = MLS
+
 	}
+
 	provinces={
-		 14989 14996
+		14989 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
-    state_category=pastoral
+	state_category=pastoral
+	local_supplies=0.000
 }

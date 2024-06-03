@@ -1,0 +1,16 @@
+state={
+	id=2091
+	name="STATE_2091"
+	history={
+		owner = LEN
+		add_core_of = LEN
+
+	}
+	provinces={
+		2252 10157 21725 21777 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

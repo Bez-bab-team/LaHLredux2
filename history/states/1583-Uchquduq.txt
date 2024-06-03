@@ -1,0 +1,16 @@
+state={
+	id=1583
+	name="STATE_1583"
+	history={
+		owner = UZB
+		add_core_of = UZB
+
+	}
+	provinces={
+		67 1249 3884 6707 21007 21013 21059 21063 21068 21088 21158 21159 21161 21162 21172 21185 21200 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+state={
+	id=1452
+	name="STATE_1452"
+	history={
+		owner = TVA
+		add_core_of = TVA
+
+	}
+	provinces={
+		2478 7206 7810 17843 18979 18992 18995 19010 19046 19064 19067 19090 
+	}
+	state_category=pastoral
+    manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

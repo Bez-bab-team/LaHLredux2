@@ -8,8 +8,8 @@ state={
 	buildings_max_level_factor=1.000
     state_category=pastoral
 	history={
-		owner = RNG
-		add_core_of = RNG
+		owner = ETK
+		add_core_of = ETK
 		victory_points = {
 			1180 5
         }

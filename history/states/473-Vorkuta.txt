@@ -1,14 +1,20 @@
+
 state={
 	id=473
 	name="STATE_473"
-	provinces={
-		510 615 1358 1709 2029 2217 2523 2653 3256 3570 3700 4041 4287 5579 6513 7015 7426 7850 8587 10028 
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = NRU
 		add_core_of = NRU
-	}	
+
+	}
+
+	provinces={
+		18746 18774 18829 
+	}
+	manpower=1
+	impassable = yes
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

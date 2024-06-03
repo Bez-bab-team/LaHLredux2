@@ -1,4 +1,4 @@
-﻿capital = 152
+﻿capital = 1742
 
 oob = "EST_2020"
 

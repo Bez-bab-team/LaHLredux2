@@ -1,14 +1,20 @@
+
 state={
 	id=1134
 	name="STATE_1134"
-	provinces={
-		2614 3757 4000 7195 9755 10673 10714 10775
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = NVS
 		add_core_of = NVS
-	}	
+
+	}
+
+	provinces={
+		1115 3108 17920 
+	}
+	manpower=1
+	impassable = yes
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }
