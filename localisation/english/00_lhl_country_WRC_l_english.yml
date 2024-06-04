@@ -1,6 +1,19 @@
 ﻿l_english:
  ##LEADERS##
  WRC_kong_qingdong_desc:0 "§YBiography:§! Chairman, Descendant of Confucius, Drunken Hero—Kong Qingdong boasts a plethora of titles, some inscribed upon the constitution of the Solidary Government, while others have long been blacklisted by internet censorship authorities. Undoubtedly, Kong stands as a significant driving force behind the populist resurgence in 21st-century China.\n\nBorn in 1964 into a working-class family in Harbin, Kong Qingdong entered the Chinese Department of Peking University after the end of the Cultural Revolution. As a student leader during the 1989 Democracy Movement, he was later recognized as one of the patriotic student representatives and received an audience with Zhao Ziyang. After obtaining his doctorate, he was recommended to China National Radio during the youthification of cadres.\n\nDuring the Yuanhua Case investigation in 2001, Kong was expelled from CPC for publicly insulting the inaction of the judicial system. After leaving CNR, he established his own radio program through connections to promote ultranationalism and nostalgia for the Mao era. His crude yet compelling populist rhetoric attracted a large audience. With the decriminalization of other parties during the Wang Zhaoguo's term, he and others such as Sima Nan and Hu Xijin founded the Pro-Eurasian National Solidarity Party in 2005. The party quickly absorbed various members, from Maoists supporting the Second Cultural Revolution to the fundamentalists advocating for the revival of Confucianism, forming a powerful social and political force centered around Kong.\n\nKong was incensed by the CPC's diplomatic stance in favor of South Korea during the Second Korean War, prompting him to abandon his establishment identity and lead the NSP to participate in the March 19 coup. With covert support from Moscow, the NSP became a formidable political force in the puppet People's Government, and after the military coup in 2017, it was supported by Eurasia to become the ruling party.\n\nThe disconnection from Moscow in 2019 made Chairman Kong, who had just dominated two years of authoritarian rule, realize that he no longer had a backer. The sudden chaos appeared in Beijing, only his own decisions could lead the government back on track. As the new year dawned, the bell rang, but the Solidary Government was no longer solidary."
+
+ ##characters##
+ WRC_kong_qingdong:0 "Kong Qingdong"
+ WRC_liu_cixin:0 "Liu Cixin"
+ WRC_sima_nan:0 "Sima Nan"
+ WRC_zhang_hongliang:0 "Zhang Hongliang"
+ WRC_various:0 "Various"
+ WRC_ling_jihua:0 "Ling Jihua"
+ WRC_guo_wengui:0 "Guo Wengui"
+ WRC_aleksandr_averin:0 "Aleksandr Averin"
+ WRC_jia_pingwa:0 "Jia Pingwa"
+ WRC_jiang_qing:0 "Jiang Qing"
+
  ##POLITICAL PARTIES##
  WRC_millenarism_party:0 "NSP - CSTIND"
  WRC_millenarism_party_long:0 "National Solidary Party - Commission for Science and Technology for National Defense"

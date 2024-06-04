@@ -1,6 +1,6 @@
 characters={
 	WRC_kong_qingdong={
-		name="Kong Qingdong"
+		name=WRC_kong_qingdong
 		portraits={
 			civilian={
 				large="gfx/leaders/WRC/Portrait_WRC_Kong_Qingdong.dds"
@@ -15,7 +15,7 @@ characters={
 		}
 	}
 	WRC_liu_cixin={
-		name="Liu Cixin"
+		name=WRC_liu_cixin
 		portraits={
 			civilian={
 				large="gfx/leaders/IDJ/Portrait_IDJ_Liu_Cixin.dds"
@@ -28,7 +28,7 @@ characters={
 		}
 	}
 	WRC_sima_nan={
-		name="Sima Nan"
+		name=WRC_sima_nan
 		portraits={
 			civilian={
 				large="gfx/leaders/HEG/Portrait_HEG_Sima_Nan.dds"
@@ -41,7 +41,7 @@ characters={
 		}
 	}
 	WRC_zhang_hongliang={
-		name="Zhang Hongliang"
+		name=WRC_zhang_hongliang
 		portraits={
 			civilian={
 				large="gfx/leaders/Generics/leader_unknown.dds"
@@ -54,7 +54,7 @@ characters={
 		}
 	}
 	WRC_various={
-		name="Various"
+		name=WRC_various
 		portraits={
 			civilian={
 				large="gfx/leaders/Generics/leader_unknown.dds"
@@ -67,7 +67,7 @@ characters={
 		}
 	}
 	WRC_ling_jihua={
-		name="Ling Jihua"
+		name=WRC_ling_jihua
 		portraits={
 			civilian={
 				large="gfx/leaders/SEG/Portrait_SEG_Ling_Jihua.dds"
@@ -80,7 +80,7 @@ characters={
 		}
 	}
 	WRC_guo_wengui={
-		name="Guo Wengui"
+		name=WRC_guo_wengui
 		portraits={
 			civilian={
 				large="gfx/leaders/FHT/Portrait_FHT_Jia_Pingwa.dds"
@@ -93,7 +93,7 @@ characters={
 		}
 	}
 	WRC_aleksandr_averin={
-		name="Aleksandr Averin"
+		name=WRC_aleksandr_averin
 		portraits={
 			civilian={
 				large="gfx/leaders/Generics/leader_unknown.dds"
@@ -106,7 +106,7 @@ characters={
 		}
 	}
 	WRC_jia_pingwa={
-		name="Jia Pingwa"
+		name=WRC_jia_pingwa
 		portraits={
 			civilian={
 				large="gfx/leaders/Generics/leader_unknown.dds"
@@ -120,7 +120,7 @@ characters={
 		}
 	}
 	WRC_jiang_qing={
-		name="Jiang Qing"
+		name=WRC_jiang_qing
 		portraits={
 			civilian={
 				large="gfx/leaders/Generics/leader_unknown.dds"
