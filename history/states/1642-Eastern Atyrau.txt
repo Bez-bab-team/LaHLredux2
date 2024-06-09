@@ -1,0 +1,16 @@
+state={
+	id=1642
+	name="STATE_1642"
+	history={
+		owner = GOR
+		add_core_of = GOR
+
+	}
+	provinces={
+		753 2580 2659 4992 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

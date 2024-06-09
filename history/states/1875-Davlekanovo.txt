@@ -1,0 +1,16 @@
+state={
+	id=1875
+	name="STATE_1875"
+	history={
+		owner = VER
+		add_core_of = VER
+
+	}
+	provinces={
+		2458 20116 20166 21753 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

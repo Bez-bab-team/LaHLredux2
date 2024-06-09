@@ -1,0 +1,16 @@
+state={
+	id=1521
+	name="STATE_1521"
+	history={
+		owner = NVS
+		add_core_of = NVS
+
+	}
+	provinces={
+		512 1099 2651 3537 9065 10714 19038 19074 19075 20011 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

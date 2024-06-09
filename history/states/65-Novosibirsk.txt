@@ -1,14 +1,19 @@
+
 state={
 	id=65
 	name="STATE_65"
+
+	history={
+		owner = NVS
+		add_core_of = NVS
+
+	}
+
 	provinces={
-		1727 2256 3427 3453 3614 3907 3948 4426 4585 4796 5613 6245 6649 6934 7695 7711 7892 8827 10325 10357 10399 10423 17335 17338 17339 17340 17343 
+		5220 19291 20164 20177 20195 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
-    state_category=pastoral
-        history={
-		owner = NVS
-		add_core_of = NVS
-	}
+	state_category=pastoral
+	local_supplies=0.000
 }

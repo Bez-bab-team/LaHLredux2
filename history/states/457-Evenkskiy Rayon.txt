@@ -4,15 +4,16 @@ state={
 	name="STATE_457"
 
 	history={
-		owner = KRS
-		add_core_of = KRS
+		owner = NOD
+		add_core_of = NOD
 
 	}
 
 	provinces={
-		86 247 554 668 835 948 1126 1385 1705 1726 1780 2472 2533 2645 2668 2685 2979 3010 3328 3463 3546 4098 4303 4516 4604 5159 5285 5507 5563 6274 7409 7447 7547 7680 8762 8765 8987 9507 9759 10113 10117 10126 10152 10153 10183 10188 10193 17794 17815 18041 
+		7306 10156 10208 21105 
 	}
 	manpower=1
+	impassable = yes
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

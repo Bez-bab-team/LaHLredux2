@@ -1,0 +1,17 @@
+
+state={
+	id=1811
+	name="STATE_1811"
+	history={
+		owner = EKB
+		add_core_of = EKB
+
+	}
+	provinces={
+		747 10201 10220 18100 18106 19790 19813 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

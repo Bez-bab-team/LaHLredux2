@@ -1,0 +1,16 @@
+state={
+	id=2226
+	name="STATE_2226"
+	history={
+		owner = MSC
+		add_core_of = MSC
+
+	}
+	provinces={
+		2009 3499 10381 10422 10451 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

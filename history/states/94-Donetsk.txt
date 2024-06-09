@@ -1,14 +1,19 @@
+
 state={
 	id=94
 	name="STATE_94"
-	provinces={
-		764 1513 2282 4207 4487 5889 6133 7572 9714 11042 11072 11118 11151 11154 
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = NRS
 		add_core_of = NRS
+
 	}
+
+	provinces={
+		7572 11118 20879 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

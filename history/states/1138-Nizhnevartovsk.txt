@@ -10,9 +10,11 @@ state={
 	}
 
 	provinces={
-		389 540 2272 2709 4293 4722 4881 5019 6018 6039 6767 7183 7286 7348 7827 10085 10103 10116 17733 
+		20204 20445 
 	}
 	manpower=1
+	impassable = yes
 	buildings_max_level_factor=1.000
-    state_category=pastoral
+	state_category=pastoral
+	local_supplies=0.000
 }

@@ -1,0 +1,138 @@
+characters={
+	VER_anatoly_chubais={
+		name="Anatoly Chubais"
+		portraits={
+			civilian={
+				large="gfx/leaders/VER/Portrait_VER_Anatoly_Chubais.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_CHUBAIS_DESC"
+			ideology=neo_reaction
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VER_alex_smith={
+		name="Alex Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Generics/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=religious_millennialism
+			expire="2034.1.1.14"
+			id=-1
+		}
+	}
+	VER_johannes_brown={
+		name="Johannes Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Generics/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=leftwing_chauvinism
+			traits={ war_industrialist dealbroker }
+			expire="2027.1.1.14"
+			id=-1
+		}
+	}
+	VER_jonas_williams={
+		name="Jonas Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Generics/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=soviet_marxism
+			traits={ war_industrialist smooth_talking_charmer }
+			expire="2036.1.1.14"
+			id=-1
+		}
+	}
+	VER_bob_evans={
+		name="Bob Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Generics/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=left_greens
+			expire="2030.1.1.14"
+			id=-1
+		}
+	}
+	VER_jonas_roberts={
+		name="Jonas Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Generics/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=national_anarchism
+			traits={ quartermaster_general }
+			expire="2039.1.1.14"
+			id=-1
+		}
+	}
+	VER_john_wilson={
+		name="John Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Generics/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=social_conservatism
+			expire="2032.1.1.14"
+			id=-1
+		}
+	}
+	VER_john_evans={
+		name="John Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Generics/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=nationalism
+			traits={ eager_collaborator }
+			expire="2025.1.1.14"
+			id=-1
+		}
+	}
+	VER_alexander_white={
+		name="Alexander White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Generics/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=neoluddism
+			expire="2034.1.1.14"
+			id=-1
+		}
+	}
+	VER_jim_jones={
+		name="Jim Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Generics/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=theodemocracy
+			traits={ captain_of_industry quartermaster_general }
+			expire="2027.1.1.14"
+			id=-1
+		}
+	}
+}

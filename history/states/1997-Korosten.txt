@@ -1,0 +1,16 @@
+state={
+	id=1997
+	name="STATE_1997"
+	history={
+		owner = KHA
+		add_core_of = KHA
+
+	}
+	provinces={
+		5746 8763 10719 11435 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,5 +1,4 @@
 add_namespace = KNT_event
-add_namespace = KNT_event_f
 
 country_event = {
 	id = KNT_event.1
@@ -347,71 +346,71 @@ country_event = {
 			country_event = {
 				days = 5
 				random = 5
-				random_days = 365
-				id = KNT_f_event.1000
+				random_days = 1460
+				id = KNT_event.2000
 			}
 			
 			country_event = {
 				days = 5
 				random = 5
-				random_days = 365
-				id = KNT_f_event.1001
+				random_days = 1460
+				id = KNT_event.2001
 			}
 			
 			country_event = {
 				days = 5
 				random = 5
-				random_days = 365
-				id = KNT_f_event.1002
+				random_days = 1460
+				id = KNT_event.2002
 			}
 			
 			country_event = {
 				days = 5
 				random = 5
-				random_days = 365
-				id = KNT_f_event.1003
+				random_days = 1460
+				id = KNT_event.2003
 			}
 			
 			country_event = {
 				days = 5
 				random = 5
-				random_days = 365
-				id = KNT_f_event.1004
+				random_days = 1460
+				id = KNT_event.2004
 			}
 			
 			country_event = {
 				days = 5
 				random = 5
-				random_days = 365
-				id = KNT_f_event.1005
+				random_days = 1460
+				id = KNT_event.2005
 			}
 			
 			country_event = {
 				days = 5
 				random = 5
-				random_days = 365
-				id = KNT_f_event.1006
+				random_days = 1460
+				id = KNT_event.2006
 			}
 			
 			country_event = {
 				days = 5
 				random = 5
-				random_days = 365
-				id = KNT_f_event.1007
+				random_days = 1460
+				id = KNT_event.2007
 			}
 			
 			country_event = {
 				days = 5
 				random = 5
-				random_days = 365
-				id = KNT_f_event.1008
+				random_days = 1460
+				id = KNT_event.2008
 			}
 			
 			country_event = {
 				days = 5
 				random = 5
-				random_days = 365
-				id = KNT_f_event.1009
+				random_days = 1460
+				id = KNT_event.2009
 			}
 		}
     }
@@ -7505,114 +7504,114 @@ country_event = {
 			}
 		}
 	}
-	
+	###Experiments###
 	country_event = {
-		id = KNT_f_event.1000
-		title = KNT_f_event.1000.t
-		desc = KNT_f_event.1000.d
-		is_triggered_only = no
+		id = KNT_event.2000
+		title = KNT_event.2000.t
+		desc = KNT_event.2000.d
+		is_triggered_only = yes
 		
 		option = {
-			name = KNT_f_event.1000.a
+			name = KNT_event.2000.a
 		}
 	}
 	
 	country_event = {
-		id = KNT_f_event.1001
-		title = KNT_f_event.1001.t
-		desc = KNT_f_event.1001.d
-		is_triggered_only = no
+		id = KNT_event.2001
+		title = KNT_event.2001.t
+		desc = KNT_event.2001.d
+		is_triggered_only = yes
 		
 		option = {
-			name = KNT_f_event.1001.a
+			name = KNT_event.2001.a
 		}
 	}
 	
 	country_event = {
-		id = KNT_f_event.1002
-		title = KNT_f_event.1002.t
-		desc = KNT_f_event.1002.d
-		is_triggered_only = no
+		id = KNT_event.2002
+		title = KNT_event.2002.t
+		desc = KNT_event.2002.d
+		is_triggered_only = yes
 		
 		option = {
-			name = KNT_f_event.1002.a
+			name = KNT_event.2002.a
 		}
 	}
 	
 	country_event = {
-		id = KNT_f_event.1003
-		title = KNT_f_event.1003.t
-		desc = KNT_f_event.1003.d
-		is_triggered_only = no
+		id = KNT_event.2003
+		title = KNT_event.2003.t
+		desc = KNT_event.2003.d
+		is_triggered_only = yes
 		
 		option = {
-			name = KNT_f_event.1003.a
+			name = KNT_event.2003.a
 		}
 	}
 	
 	country_event = {
-		id = KNT_f_event.1004
-		title = KNT_f_event.1004.t
-		desc = KNT_f_event.1004.d
-		is_triggered_only = no
+		id = KNT_event.2004
+		title = KNT_event.2004.t
+		desc = KNT_event.2004.d
+		is_triggered_only = yes
 		
 		option = {
-			name = KNT_f_event.1004.a
+			name = KNT_event.2004.a
 		}
 	}
 	
 	country_event = {
-		id = KNT_f_event.1005
-		title = KNT_f_event.1005.t
-		desc = KNT_f_event.1005.d
-		is_triggered_only = no
+		id = KNT_event.2005
+		title = KNT_event.2005.t
+		desc = KNT_event.2005.d
+		is_triggered_only = yes
 		
 		option = {
-			name = KNT_f_event.1005.a
+			name = KNT_event.2005.a
 		}
 	}
 	
 	country_event = {
-		id = KNT_f_event.1006
-		title = KNT_f_event.1006.t
-		desc = KNT_f_event.1006.d
-		is_triggered_only = no
+		id = KNT_event.2006
+		title = KNT_event.2006.t
+		desc = KNT_event.2006.d
+		is_triggered_only = yes
 		
 		option = {
-			name = KNT_f_event.1006.a
+			name = KNT_event.2006.a
 		}
 	}
 	
 	country_event = {
-		id = KNT_f_event.1007
-		title = KNT_f_event.1007.t
-		desc = KNT_f_event.1007.d
-		is_triggered_only = no
+		id = KNT_event.2007
+		title = KNT_event.2007.t
+		desc = KNT_event.2007.d
+		is_triggered_only = yes
 		
 		option = {
-			name = KNT_f_event.1007.a
+			name = KNT_event.2007.a
 		}
 	}
 	
 	country_event = {
-		id = KNT_f_event.1008
-		title = KNT_f_event.1008.t
-		desc = KNT_f_event.1008.d
-		is_triggered_only = no
+		id = KNT_event.2008
+		title = KNT_event.2008.t
+		desc = KNT_event.2008.d
+		is_triggered_only = yes
 		
 		option = {
-			name = KNT_f_event.1008.a
+			name = KNT_event.2008.a
 		}
 	}
 	
 	country_event = {
-		id = KNT_f_event.1009
-		title = KNT_f_event.1009.t
-		desc = KNT_f_event.1009.d
-		is_triggered_only = no
+		id = KNT_event.2009
+		title = KNT_event.2009.t
+		desc = KNT_event.2009.d
+		is_triggered_only = yes
 		
 		option = {
-			name = KNT_f_event.1009.a
+			name = KNT_event.2009.a
 		}
 	}
 	

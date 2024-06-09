@@ -1,0 +1,16 @@
+state={
+	id=2103
+	name="STATE_2103"
+	history={
+		owner = RWR
+		add_core_of = RWR
+
+	}
+	provinces={
+		19942 19993 20012 20026 20078 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

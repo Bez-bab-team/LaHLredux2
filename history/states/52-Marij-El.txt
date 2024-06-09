@@ -1,14 +1,19 @@
+
 state={
 	id=52
 	name="STATE_52"
-	provinces={
-		5139 6499 7506 9690 10267 10271 10302 17330 
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = RWR
 		add_core_of = RWR
-	}	
+
+	}
+
+	provinces={
+		6499 19538 21398 21898 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

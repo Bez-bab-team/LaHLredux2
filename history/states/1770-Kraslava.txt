@@ -1,0 +1,16 @@
+state={
+	id=1770
+	name="STATE_1770"
+	history={
+		owner = BAL
+		add_core_of = BAL
+
+	}
+	provinces={
+		2452 18179 18180 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

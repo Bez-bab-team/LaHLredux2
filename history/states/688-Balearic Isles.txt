@@ -1,17 +1,19 @@
+
 state={
 	id=688
 	name="STATE_688"
-	provinces={
-		342 7135 7391 12013 15097 
-	}
-	buildings_max_level_factor=1.000
-    state_category=pastoral
-	manpower=1988506
-	
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = SPA
 		add_core_of = SPA
+
 	}
+
+	provinces={
+		342 7135 7391 15097 
+	}
+	manpower=1988506
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

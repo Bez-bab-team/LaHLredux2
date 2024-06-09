@@ -40,16 +40,16 @@ characters={
 			id=-1
 		}
 	}
-	BAL_jonas_williams={
-		name="Jonas Williams"
+	BAL_viktor_alksnis={
+		name="Viktor Alksnis"
 		portraits={
 			civilian={
-				large="gfx/leaders/Generics/leader_unknown.dds"
+				large="gfx/leaders/BAL/Portrait_BAL_Viktor_Alksnis.dds"
 			}
 		}
 		country_leader={
 			ideology=soviet_marxism
-			expire="2040.1.1.14"
+			expire="1.1.1.1"
 			id=-1
 		}
 	}

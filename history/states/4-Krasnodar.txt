@@ -7,15 +7,16 @@ state={
 		owner = COU
 		add_core_of = COU
 		victory_points = {
-			8594 17
+			8594 17 
 		}
 
 	}
 
 	provinces={
-		542 2276 3231 3300 3841 5675 6356 8594 8669 9688 11237 11242 11277 
+		21862 21864 
 	}
 	manpower=3604123
 	buildings_max_level_factor=1.000
 	state_category=city
+	local_supplies=0.000
 }

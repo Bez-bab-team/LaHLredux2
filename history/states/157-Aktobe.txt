@@ -1,14 +1,19 @@
+
 state={
 	id=157
 	name="STATE_157"
-	provinces={
-		305 650 880 1098 1567 2059 2083 2100 2434 2947 4062 4624 4763 4903 5209 5246 5608 5724 5831 5937 6059 6617 6692 7226 8419 8738 10804 10813 10819 10897 10914 11035 11085 11105 
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = RNG
 		add_core_of = RNG
+
 	}
+
+	provinces={
+		1132 1512 2059 2219 10813 20293 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

@@ -1,0 +1,16 @@
+state={
+	id=1817
+	name="STATE_1817"
+	history={
+		owner = RNG
+		add_core_of = RNG
+
+	}
+	provinces={
+		2466 7380 10390 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

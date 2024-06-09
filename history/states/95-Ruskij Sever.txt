@@ -1,13 +1,19 @@
+
 state={
 	id=95
 	name="STATE_95"
+
+	history={
+		owner = GUL
+		add_core_of = GUL
+
+	}
+
 	provinces={
-		543 688 1182 1391 1419 3921 4652 5685 5790 5909 6324 6371 6790 7289 8388 8930 10065 10086 10099 10100 17306 
+		3352 19135 19194 
 	}
 	manpower=567835
 	buildings_max_level_factor=1.000
-    state_category=pastoral
-	history={
-		owner = NRU
-		add_core_of = NRU
+	state_category=pastoral
+	local_supplies=0.000
 }

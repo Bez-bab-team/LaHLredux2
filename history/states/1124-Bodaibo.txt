@@ -4,13 +4,13 @@ state={
 	name="STATE_1124"
 
 	history={
-		owner = GOR
-		add_core_of = GOR
+		owner = IRK
+		add_core_of = IRK
 
 	}
 
 	provinces={
-		101 1748 2503 2811 3801 6979 7010 10178 10184 10185 10205 18936 
+		101 585 796 1696 1748 2503 2811 3254 9036 10159 10172 10178 10185 10205 10258 18936 19543 19692 19707 19752 19753 19783 19786 19834 19844 19935 20076 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

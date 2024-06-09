@@ -1,0 +1,16 @@
+state={
+	id=2029
+	name="STATE_2029"
+	history={
+		owner = UST
+		add_core_of = UST
+
+	}
+	provinces={
+		18053 18069 18086 18102 20823 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

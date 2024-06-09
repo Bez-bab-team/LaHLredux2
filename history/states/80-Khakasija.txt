@@ -1,14 +1,19 @@
+
 state={
 	id=80
 	name="STATE_80"
+
+	history={
+		owner = KRS
+		add_core_of = KRS
+
+	}
+
 	provinces={
-		1657 4346 4880 5182 6353 6633 8634 10615 
+		5327 6353 19155 19168 19246 21737 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
-    state_category=pastoral
-	history={
-		owner = TVA
-		add_core_of = TVA
-	}
+	state_category=pastoral
+	local_supplies=0.000
 }

@@ -1,0 +1,17 @@
+
+state={
+	id=2121
+	name="STATE_2121"
+	history={
+		owner = RWR
+		add_core_of = RWR
+
+	}
+	provinces={
+		15276 21394 21890 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,20 @@
+
+state={
+	id=1339
+	name="STATE_1339"
+	history={
+		owner = GUL
+		add_core_of = GUL
+		victory_points = {
+			1146  1 
+		}
+
+	}
+	provinces={
+		1146 1332 1509 1515 1870 2790 4127 5307 6285 6538 7383 7434 8381 8687 10036 10180 11363 19676 20502 20577 20633 
+	}
+	state_category=pastoral
+    manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

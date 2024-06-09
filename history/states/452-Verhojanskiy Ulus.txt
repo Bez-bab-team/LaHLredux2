@@ -4,15 +4,16 @@ state={
 	name="STATE_452"
 
 	history={
-		owner = YAK
-		add_core_of = YAK
+		owner = NOD
+		add_core_of = NOD
 
 	}
 
 	provinces={
-		128 258 416 424 551 718 844 1034 1127 1373 1516 1945 2197 2515 2655 2834 3366 4482 4773 5240 5367 5864 6083 6648 7006 7259 9240 9787 9937 9962 9967 9996 10043 10083 10088 10090 10106 10115 
+		476 1034 2780 2957 5105 5926 8977 9070 9935 9996 10057 17255 17759 17775 19777 
 	}
 	manpower=1
+	impassable=yes
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

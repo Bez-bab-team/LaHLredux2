@@ -1,0 +1,16 @@
+state={
+	id=1900
+	name="STATE_1900"
+	history={
+		owner = ACH
+		add_core_of = ACH
+
+	}
+	provinces={
+		18929 21445 21447 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

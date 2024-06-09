@@ -1,14 +1,19 @@
+
 state={
 	id=45
 	name="STATE_45"
+
+	history={
+		owner = MSC
+		add_core_of = MSC
+
+	}
+
 	provinces={
-		1966 2463 5830 6442 6743 10752 10790 10794 10838 10857 
+		6442 10794 21285 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
-    state_category=pastoral
-	history={
-		owner = RTS
-		add_core_of = RTS
-	}
+	state_category=pastoral
+	local_supplies=0.000
 }

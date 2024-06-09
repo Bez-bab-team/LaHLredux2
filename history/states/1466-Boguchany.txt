@@ -1,0 +1,16 @@
+state={
+	id=1466
+	name="STATE_1466"
+	history={
+		owner = KRS
+		add_core_of = KRS
+
+	}
+	provinces={
+		948 2645 2685 2979 7409 17794 19671 19680 19684 19731 19737 19760 19848 19934 
+	}
+	state_category=pastoral
+    manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,14 +1,19 @@
+
 state={
 	id=105
 	name="STATE_105"
-	provinces={
-		4204 4288 4982 4998 7137 8022 9449 10811 10824 10848 10888 10905 
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = KHA
 		add_core_of = KHA
+
 	}
+
+	provinces={
+		4288 4982 10888 19710 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

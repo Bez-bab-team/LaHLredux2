@@ -4,15 +4,16 @@ state={
 	name="STATE_478"
 
 	history={
-		owner = NRU
-		add_core_of = NRU
+		owner = GAZ
+		add_core_of = GAZ
 
 	}
 
 	provinces={
-		5346 6388 10093 17234 17302 18486 18490 18497 18522 
+		15239 21414 
 	}
 	manpower=1
+	impassable=yes
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

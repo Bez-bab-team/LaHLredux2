@@ -1,14 +1,19 @@
+
 state={
 	id=154
 	name="STATE_154"
+
+	history={
+		owner = VER
+		add_core_of = VER
+
+	}
+
 	provinces={
-		163 170 268 1301 1678 2030 2510 2657 3205 4169 4568 5677 6188 6332 6812 6854 7035 10818 10891 10987 18930
+		170 1678 6188 7579 20320 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
-    state_category=pastoral
-	history={
-		owner = RNG
-		add_core_of = RNG
-	}
+	state_category=pastoral
+	local_supplies=0.000
 }

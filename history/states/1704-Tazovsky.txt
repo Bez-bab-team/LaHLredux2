@@ -1,0 +1,16 @@
+state={
+	id=1704
+	name="STATE_1704"
+	history={
+		owner = GAZ
+		add_core_of = GAZ
+
+	}
+	provinces={
+		21023 21029 21065 21071 21111 21125 21143 21144 21155 21176 21186 21194 21203 21212 21215 21217 21230 21231 21248 21299 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

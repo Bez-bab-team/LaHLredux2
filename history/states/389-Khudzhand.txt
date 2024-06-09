@@ -1,15 +1,20 @@
+
 state={
 	id=389
 	name="STATE_389"
-	provinces={
-		939 4017 5106 6060 6147 8281 8672 11908 12020 12047 17399 
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = TAJ
 		add_core_of = TAJ
 		add_core_of = SGD
+
 	}
+
+	provinces={
+		939 1443 6147 8672 11908 17399 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

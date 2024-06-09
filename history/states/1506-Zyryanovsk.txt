@@ -1,0 +1,16 @@
+state={
+	id=1506
+	name="STATE_1506"
+	history={
+		owner = TVA
+		add_core_of = TVA
+
+	}
+	provinces={
+		699 5073 10839 21606 21618 21623 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -2,14 +2,18 @@
 state={
 	id=606
 	name="STATE_606"
-	provinces={
-		938 2876 4484 15018 15021 
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = NRS
 		add_core_of = NRS
-	}	
+
+	}
+
+	provinces={
+		938 4484 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

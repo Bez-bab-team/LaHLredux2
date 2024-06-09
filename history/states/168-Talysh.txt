@@ -1,15 +1,19 @@
+
 state={
 	id=168
 	name="STATE_168"
-	provinces={
-		5068 12010 12035 12062 12079 12111 
-	}
-	manpower=1988506
-	
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = AZE
 		add_core_of = AZE
-	}		
+
+	}
+
+	provinces={
+		12062 12079 12111 
+	}
+	manpower=1988506
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

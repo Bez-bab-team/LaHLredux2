@@ -1,14 +1,19 @@
+
 state={
 	id=384
 	name="STATE_384"
-	provinces={
-		26 1392 2933 3880 4378 8005 8521 11703 11754 11755 17392 
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = KYR
 		add_core_of = KYR
+
 	}
+
+	provinces={
+		4378 4649 8005 8521 11703 11755 21819 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

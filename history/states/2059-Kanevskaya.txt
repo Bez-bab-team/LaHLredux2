@@ -1,0 +1,16 @@
+state={
+	id=2059
+	name="STATE_2059"
+	history={
+		owner = COU
+		add_core_of = COU
+
+	}
+	provinces={
+		3231 11237 21869 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

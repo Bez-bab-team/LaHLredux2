@@ -1,14 +1,19 @@
+
 state={
 	id=1131
 	name="STATE_1131"
+
+	history={
+		owner = IMT
+		add_core_of = IMT
+
+	}
+
 	provinces={
-		10350 
+		835 10193 19800 19879 19903 19909 19940 21139 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
-    state_category=technoparadise
-	history={
-		owner = NVS
-		add_core_of = NVS
-	}
+	state_category=technoparadise
+	local_supplies=0.000
 }

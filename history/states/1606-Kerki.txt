@@ -1,0 +1,15 @@
+state={
+	id=1606
+	name="STATE_1606"
+	history={
+		owner = TMS
+		add_core_of = TMS
+	}
+	provinces={
+		3009 4910 5083 8545 9148 9161 12244 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

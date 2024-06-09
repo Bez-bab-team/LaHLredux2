@@ -1,0 +1,16 @@
+state={
+	id=1826
+	name="STATE_1826"
+	history={
+		owner = RWR
+		add_core_of = RWR
+
+	}
+	provinces={
+		20775 20807 20866 20910 20915 20957 20968 21008 21082 
+	}
+	manpower=1
+    state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

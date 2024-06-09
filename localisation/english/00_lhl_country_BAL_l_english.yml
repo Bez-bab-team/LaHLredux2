@@ -6,8 +6,10 @@
  ##COUNTRY NAME##
  BAL_national_bolshevism:0 "Realm of Russia"
  BAL_national_bolshevism_DEF:0 "Realm of Russia"
+ BAL_left_authoritarianism:0 "People's Republic of Lativa"
+ BAL_left_authoritarianism_DEF:0 "People's Republic of Lativa"
  ##TRAITS##
- black_lenin:0 "Black Lenin"
+ #black_lenin:0 "Black Lenin"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##
