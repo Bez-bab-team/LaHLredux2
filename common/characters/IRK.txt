@@ -1,0 +1,135 @@
+characters={
+	IRK_dmitry_zhvania={
+		name="Dmitry Zhvania"
+		portraits={
+			civilian={
+				large="gfx/leaders/IRK/Portrait_IRK_Dmitry_Zhvania.dds"
+			}
+		}
+		country_leader={
+			ideology=nazbol_gang
+			expire="1.1.1.1"
+		}
+	}
+	IRK_vladimir_stalin={
+		name="Vladimir Stalin"
+		portraits={
+			civilian={
+				large="gfx/leaders/Generics/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=national_populism
+			expire="1.1.1.1"
+		}
+	}
+	IRK_alex_walker={
+		name="Alex Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Generics/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=religious_millennialism
+			expire="2037.1.1.14"
+			id=-1
+		}
+	}
+	IRK_alexander_evans={
+		name="Alexander Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Generics/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=leftwing_chauvinism
+			traits={ financial_expert }
+			expire="2027.1.1.14"
+			id=-1
+		}
+	}
+	IRK_jonas_taylor={
+		name="Jonas Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Generics/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=soviet_marxism
+			traits={ reluctant_interventionist financial_expert }
+			expire="2033.1.1.14"
+			id=-1
+		}
+	}
+	IRK_alexander_taylor={
+		name="Alexander Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Generics/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=labor_socialism
+			traits={ smooth_talking_charmer silent_workhorse }
+			expire="2039.1.1.14"
+			id=-1
+		}
+	}
+	IRK_jim_brown={
+		name="Jim Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Generics/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=neo_reaction
+			expire="2029.1.1.14"
+			id=-1
+		}
+	}
+	IRK_john_white={
+		name="John White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Generics/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=stratocracy
+			traits={ captain_of_industry }
+			expire="2040.1.1.14"
+			id=-1
+		}
+	}
+	IRK_johannes_jones={
+		name="Johannes Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Generics/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=ecofascism
+			traits={ ideological_crusader }
+			expire="2030.1.1.14"
+			id=-1
+		}
+	}
+	IRK_alexander_walker={
+		name="Alexander Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Generics/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=charismatic_dictatorship
+			expire="2036.1.1.14"
+			id=-1
+		}
+	}
+}

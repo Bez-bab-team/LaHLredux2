@@ -105,24 +105,6 @@ country_event = {
 	days = 7
 	id = ESS_event.00
 }
-create_country_leader = {
-	name = "David Pearce"
-	desc = ""
-	picture = "Portrait_ESS_David_Pearce.dds"
-	ideology = ethical_millennialism
-	traits = {
-		
-	}
-}
-create_country_leader = {
-	name = "Nick Srnicek"
-	desc = ""
-	picture = ".dds"
-	ideology = ultrahegelianism
-	traits = {
-		
-	}
-}
 
 add_ideas = {
 	lhl_economy_civil_war_economy
