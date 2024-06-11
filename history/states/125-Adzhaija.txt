@@ -1,15 +1,19 @@
+
 state={
 	id=125
 	name="STATE_125"
-	provinces={
-		6038 
-	}
-	manpower=1988506
-	
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = GEO
 		add_core_of = GEO
-	}		
+
+	}
+
+	provinces={
+		1741 2494 2693 4311 4598 6038 6077 6676 6745 6921 7475 8165 8294 8442 9636 11635 11671 11708 11728 11735 11736 14992 21419 21420 
+	}
+	manpower=1988506
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }
