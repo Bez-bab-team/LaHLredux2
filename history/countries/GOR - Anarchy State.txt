@@ -1,4 +1,4 @@
-﻿capital = 1642
+﻿capital = 155
 
 oob = "GOR_2020"
 

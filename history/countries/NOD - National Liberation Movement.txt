@@ -1,4 +1,4 @@
-﻿capital = 1353
+﻿capital = 83
 
 oob = "NOD_2020"
 
