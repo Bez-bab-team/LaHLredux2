@@ -38,7 +38,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 21
 		}
-		location = 21734
+		location = 21735
 		division_template = "Resistance Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -50,7 +50,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 27
 		}
-		location = 21734
+		location = 21735
 		division_template = "Resistance Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -62,7 +62,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 22
 		}
-		location = 21734
+		location = 21735
 		division_template = "Resistance Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -73,7 +73,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 21734
+		location = 21735
 		division_template = "Resistance Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -84,7 +84,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 27
 		}
-		location = 21734
+		location = 21735
 		division_template = "Resistance Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -96,7 +96,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 22
 		}
-		location = 21734
+		location = 21735
 		division_template = "Resistance Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -107,7 +107,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 21734
+		location = 21735
 		division_template = "Resistance Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -118,7 +118,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 21734
+		location = 21735
 		division_template = "Private Military Company"
 		start_experience_factor = 1
 		start_equipment_factor = 0.9
@@ -129,7 +129,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 21
 		}
-		location = 21734
+		location = 21735
 		division_template = "Resistance Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -141,7 +141,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 27
 		}
-		location = 21734
+		location = 21735
 		division_template = "Resistance Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -153,7 +153,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 22
 		}
-		location = 21734
+		location = 21735
 		division_template = "Resistance Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -164,7 +164,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 21734
+		location = 21735
 		division_template = "Resistance Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -175,7 +175,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 27
 		}
-		location = 21734
+		location = 21735
 		division_template = "Resistance Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -187,7 +187,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 22
 		}
-		location = 21734
+		location = 21735
 		division_template = "Resistance Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -198,7 +198,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 21734
+		location = 21735
 		division_template = "Resistance Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -209,7 +209,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 21734
+		location = 21735
 		division_template = "Private Military Company"
 		start_experience_factor = 1
 		start_equipment_factor = 0.9
@@ -220,7 +220,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 21
 		}
-		location = 21734
+		location = 21735
 		division_template = "Resistance Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -232,7 +232,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 27
 		}
-		location = 21734
+		location = 21735
 		division_template = "Resistance Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -244,7 +244,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 22
 		}
-		location = 21734
+		location = 21735
 		division_template = "Resistance Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -255,7 +255,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 21734
+		location = 21735
 		division_template = "Resistance Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -266,7 +266,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 27
 		}
-		location = 21734
+		location = 21735
 		division_template = "Resistance Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -278,7 +278,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 22
 		}
-		location = 21734
+		location = 21735
 		division_template = "Resistance Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -289,7 +289,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 21734
+		location = 21735
 		division_template = "Resistance Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -300,7 +300,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 21734
+		location = 21735
 		division_template = "Private Military Company"
 		start_experience_factor = 1
 		start_equipment_factor = 0.9

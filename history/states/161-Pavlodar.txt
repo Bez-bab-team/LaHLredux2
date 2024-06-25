@@ -7,10 +7,11 @@ state={
 		owner = NVS
 		add_core_of = NVS
 		add_core_of = RLF
+
 	}
 
 	provinces={
-		1772 4636 10481 10569 19144 21817 
+		228 1772 1888 3238 4636 5316 6478 10481 10569 10602 19144 19229 21382 21388 21390 21391 21817 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

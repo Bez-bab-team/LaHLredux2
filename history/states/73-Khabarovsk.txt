@@ -6,9 +6,16 @@ state={
 	history={
 		owner = RIS
 		add_core_of = RIS
+		victory_points = {
+			13520 2
+		}
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 2
+			arms_factory = 2
+			13520 = {
+				supply_node = 1
+			}
 		}
 	}
 	provinces={

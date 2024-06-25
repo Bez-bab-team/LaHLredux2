@@ -1,0 +1,23 @@
+state={
+	id=1331
+	name="STATE_1331"
+	provinces={
+		416 521 607 718 844 1127 1270 2285 2292 2363 2515 2655 3366 3882 3960 4482 5240 5864 6083 6648 7006 7259 9240 9787 9962 10063 10088 10115 10177 17919 20055 
+	}
+	history={
+		owner = NOD
+		add_core_of = NOD
+		victory_points = {
+			3882 2
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 2
+		}
+	}
+	manpower=1988506
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

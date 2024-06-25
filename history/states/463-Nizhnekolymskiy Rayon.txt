@@ -13,6 +13,7 @@ state={
 		2244 19843 20989 21024 21136 
 	}
 	manpower=1
+	impassable=yes
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -1,0 +1,19 @@
+state={
+	id=1329
+	name="STATE_1329"
+	provinces={
+		6 150 1655 2889 4373 5136 5392 6535 8360 8685 9097 10075 18249 18250 18255 18259 18260 18262 18264 18269 18271 18275 18277 18278 18284 18734 18771 18780 18913 19449 19472 19492 19554 19559 19583 19663 19682 19733 19841 
+	}
+	history={
+		owner = NOD
+		add_core_of = NOD
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+	manpower=1988506
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

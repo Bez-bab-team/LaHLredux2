@@ -74,6 +74,8 @@ set_technology = {
 	basic_train = 1
 }
 
+country_event = { id = RIS_event.1 days = 15 }
+
 set_politics = {
 	ruling_party = ur_fascism    
 	last_election = "1933.7.1"

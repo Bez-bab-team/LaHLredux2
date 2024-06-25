@@ -6,13 +6,14 @@ state={
 	history={
 		owner = CPU
 		add_core_of = CPU
+		victory_points = {
+			17819 3
+		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 4
+			arms_factory = 2
 			17819 = {
-				supply_node = 1
-			}
-			17906 = {
 				supply_node = 1
 			}
 		}

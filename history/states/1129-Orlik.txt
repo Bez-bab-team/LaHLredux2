@@ -6,13 +6,20 @@ state={
 	history={
 		owner = IRK
 		add_core_of = IRK
-
+		victory_points = {
+			7720 4
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 4
+			arms_factory = 2
+		}
 	}
 
 	provinces={
-		5380 10579 10645 19078 19095 19106 19114 19123 19125 
+		1112 1324 1820 2902 5653 7290 7720 8413 10590 10791 18997 19006 19011 19022 19036 19043 19048 
 	}
-	manpower=1
+	manpower=1988506
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000
