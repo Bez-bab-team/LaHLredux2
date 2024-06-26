@@ -100,6 +100,7 @@ characters={
 			traits={ mad_max }
 			expire="1.1.1.1"
 			id=-1
+			desc = ESS_max_mosley_desc
 		}
 	}
 	ESS_richard_williamson={

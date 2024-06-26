@@ -371,7 +371,7 @@ ideas = {
 		
 		ESS_pardoned_officers = {
 			
-			picture = GFX_idea_ESS_united_army
+			picture = GFX_idea_ESS_pardoned_officers
 			
 			allowed = {
 				always = no
@@ -385,6 +385,83 @@ ideas = {
 				special_forces_training_time_factor = 0.2
 			}
 		}
+		
+		ESS_employment_rush_research = {
+			
+			picture = GFX_idea_ESS_employment_rush_research
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.15
+				military_industrial_organization_research_bonus = 0.1
+				equipment_upgrade_xp_cost = -0.25
+				experience_gain_army_factor = 0.25
+				custom_modifier_tooltip = ESS_employment_rush_tt
+			}
+		}
+		
+		ESS_employment_rush_civil_production = {
+			
+			picture = GFX_idea_ESS_employment_rush_research
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_industrial_complex_factor  = 0.2
+				base_fuel_gain_factor  = 0.3
+				consumer_goods_factor = -0.05
+				local_resources_factor = 0.33
+				custom_modifier_tooltip = ESS_employment_rush_tt
+			}
+		}
+		
+		ESS_employment_rush_mil_production = {
+			
+			picture = GFX_idea_ESS_employment_rush_research
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_arms_factory_factor  = 0.2
+				industrial_capacity_factory  = 0.25
+				production_factory_efficiency_gain_factor = 0.15
+				military_industrial_organization_funds_gain  = 0.33
+				custom_modifier_tooltip = ESS_employment_rush_tt
+			}
+		}
+		
+		ESS_employment_rush_infrastracture = {
+			
+			picture = GFX_idea_ESS_employment_rush_research
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_rail_way_factory_factor  = 0.15
+				production_rail_supply_node_factor  = 0.6
+				production_rail_infrastructure_factor = 0.15
+				production_rail_air_base_factor  = 0.15
+				custom_modifier_tooltip = ESS_employment_rush_tt
+			}
+		}
+		
 		ESS_spoils_of_kent = {
 			
 			picture = GFX_idea_ESS_spoils_of_kent

@@ -253,7 +253,7 @@ ESS_london_bands = {
 		
 	ESS_dwarf_factories = {
 		cost = 40
-		days_remove = 30
+		days_remove = 120
 		remove_effect = {
 			
 			ESS = {
