@@ -2375,7 +2375,6 @@ country_event = {
 			type = arms_factory
 			level = 2
 			instant_build = yes
-			province = 1446
 		}
 		hidden_effect = {
 			add_to_variable = {

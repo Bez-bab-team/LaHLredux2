@@ -1,0 +1,16 @@
+state={
+	id=1348
+	name="STATE_1348"
+	provinces={
+		1785 1854 3306 3905 4370 4656 6110 7547 7712 9039 9083 10153 10286 10303 10313 10339 10342 10352 10362 19833 19899 19904 19913 19995 20079 20133 21758 21759 21760 21761 21773 21782 
+	}
+	history={
+		owner = VER
+		add_core_of = VER
+
+	}
+	state_category=pastoral
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

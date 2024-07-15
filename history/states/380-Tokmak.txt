@@ -4,13 +4,13 @@ state={
 	name="STATE_380"
 
 	history={
-		owner = KYR
-		add_core_of = KYR
+		owner = ARM
+		add_core_of = ARM
 
 	}
 
 	provinces={
-		2125 3697 8662 8877 11610 11617 11641 11664 21806 
+		3261 4480 9268 11784 21417 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

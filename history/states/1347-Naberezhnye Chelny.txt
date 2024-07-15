@@ -1,0 +1,19 @@
+
+state={
+	id=1347
+	name="STATE_1347"
+
+	history={
+		owner = VER
+		add_core_of = VER
+
+	}
+
+	provinces={
+		1440 1552 2148 3725 3918 5244 6481 7795 8118 8216 10321 10331 10365 10366 10379 16826 17333 17336 17815 20053 21700 21701 21702 21703 21847 21848 21883 21884 21886 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

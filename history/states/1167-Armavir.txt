@@ -4,8 +4,8 @@ state={
 	name="STATE_1167"
 
 	history={
-		owner = RGD
-		add_core_of = RGD
+		owner = NRU
+		add_core_of = NRU
 		victory_points = {
 			9570 5 
 		}
@@ -13,7 +13,7 @@ state={
 	}
 
 	provinces={
-		2837 6543 21423 
+		6023 6644 7181 16385 17309 17313 19936 19962 19977 19987 20063 20069 20088 20095 20100 20153 20165 20200 20231 20941 
 	}
 	manpower=521677
 	buildings_max_level_factor=1.000
