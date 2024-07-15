@@ -1,4 +1,4 @@
-﻿capital = 370
+﻿capital = 369
 
 oob = "UZB_2020"
 

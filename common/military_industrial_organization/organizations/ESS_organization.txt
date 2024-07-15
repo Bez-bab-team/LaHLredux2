@@ -75,9 +75,9 @@ ESS_MacGyver_scrap = {
 		has_dlc = "Arms Against Tyranny"
 	}
 	available = {
-		original_tag = ESS
+		FROM = { original_tag = ESS }
 	}
 	visible = {
-		original_tag = ESS
+		FROM = { original_tag = ESS }
 	}
 }
