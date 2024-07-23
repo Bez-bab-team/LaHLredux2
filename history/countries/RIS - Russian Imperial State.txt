@@ -86,15 +86,9 @@ set_popularities = {
 	ur_fascism = 100
 }
 
-create_country_leader = {
-	name = "Natalia Poklonskaja"
-	desc = "POLITICS_POKLONSKAJA_DESC"
-	picture = "Portrait_RIS_Natalia_Poklonskaja.dds"
-	ideology = charismatic_dictatorship 
-	traits = {
-		
-	}
-}
+##CHARACTERS##
+#leaders#
+recruit_character = RIS_natalia_poklonskaja
 
 create_corps_commander = {
 	name = "Koshiro Tanaka"

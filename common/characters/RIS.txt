@@ -1,6 +1,6 @@
 characters={
 	RIS_natalia_poklonskaja={
-		name="Natalia Poklonskaja"
+		name="Natal'ja Poklonskaya"
 		portraits={
 			civilian={
 				large="gfx/leaders/RIS/Portrait_RIS_Natalia_Poklonskaja.dds"

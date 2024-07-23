@@ -77,6 +77,11 @@ set_politics = {
 	ruling_party = national_bolshevism
 	elections_allowed = no
 }
+
+##CHARACTERS##
+#leaders#
+recruit_character = NOD_yevgeny_fyodorov
+
 set_popularities = {
 	national_bolshevism  = 27
 	neocameralism = 19
@@ -88,14 +93,4 @@ set_popularities = {
 	ur_fascism = 2
 	regressionism = 2
 	millenarism = 2
-}
-
-create_country_leader = {
-	name = "Yevgeny Fyodorov"
-	desc = ""
-	picture = "Portrait_NOD_Yevgenij_Fyodorov.dds"
-	ideology = nazbol_gang
-	traits = {
-		
-	}
 }

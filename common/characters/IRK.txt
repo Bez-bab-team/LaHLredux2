@@ -1,12 +1,13 @@
 characters={
 	IRK_dmitry_zhvania={
-		name="Dmitry Zhvania"
+		name="Dmitrij Zhvania"
 		portraits={
 			civilian={
 				large="gfx/leaders/IRK/Portrait_IRK_Dmitry_Zhvania.dds"
 			}
 		}
 		country_leader={
+			desc="POLITICS_ZHVANIA_DESC"
 			ideology=nazbol_gang
 			expire="1.1.1.1"
 		}

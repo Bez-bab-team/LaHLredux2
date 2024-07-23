@@ -77,16 +77,11 @@ set_politics = {
 	ruling_party = commendationism 
 	elections_allowed = no
 }
+
+##CHARACTERS##
+#leaders#
+recruit_character = CPU_constantine_petrov
+
 set_popularities = {
 	commendationism  = 100
-}
-
-create_country_leader = {
-	name = "Constantine Petrov"
-	desc = ""
-	picture = "Portrait_CPU_Constantine_Petrov.dds"
-	ideology = ultrahegelianism
-	traits = {
-		
-	}
 }

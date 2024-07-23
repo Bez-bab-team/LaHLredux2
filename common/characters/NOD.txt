@@ -1,12 +1,13 @@
 characters={
 	NOD_yevgeny_fyodorov={
-		name="Yevgeny Fyodorov"
+		name="Jevgenij Fyodorov"
 		portraits={
 			civilian={
 				large="gfx/leaders/NOD/Portrait_NOD_Yevgenij_Fyodorov.dds"
 			}
 		}
 		country_leader={
+			desc="POLITICS_FYODOROV_DESC"
 			ideology=nazbol_gang
 			expire="1.1.1.1"
 			id=-1

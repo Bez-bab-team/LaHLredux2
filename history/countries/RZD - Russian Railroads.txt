@@ -77,15 +77,13 @@ set_politics = {
 	ruling_party = neocameralism
 	elections_allowed = no
 }
+
+##CHARACTERS##
+#leaders#
+recruit_character = RZD_oleg_belozyorov
+
 set_popularities = {
 	neocameralism  = 100
 }
 
-create_country_leader = {
-	name = "Oleg Belozyorov"
-	picture = "Portrait_RZD_Oleg_Belozerow.dds"
-	ideology = atlantic_liberalism
-	traits = {
-		
-	}
-}
+

@@ -10,7 +10,7 @@ characters={
 			desc="POLITICS_KAGARLITSKIJ_DESC"
 			ideology=labor_socialism
 			traits={ tribune_of_the_people }
-			expire="1953.3.1.1"
+			expire="2053.3.1.1"
 			id=-1
 		}
 	}

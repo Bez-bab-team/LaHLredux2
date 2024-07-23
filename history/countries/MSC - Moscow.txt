@@ -26,44 +26,13 @@ set_popularities = {
 	ur_fascism = 28
 }
 
-create_country_leader = {
-	name = "Heydar Cahid oglu Camal"
-	picture = "Portrait_MSC_Gejdar_Dzhemal'.dds"
-	expire = "1953.3.1"
-	ideology = religious_millennialism  
-}
-
-create_country_leader = {
-	name = "Aleksandr Dugin"
-	picture = "Portrait_MSC_Aleksandr_Dugin.dds"
-	desc = "POLITICS_DUGIN_DESC"
-	ideology = neo_feudalism 
-	traits = {
-		greatraven
-	}
-}
-
-create_country_leader = {
-	name = "Aleksej Naval'nyj"
-	picture = "Portrait_MSC_Aleksej_Navalnyj.dds"
-	expire = "1953.3.1"
-	ideology = nazbol_gang 
-}
-
-create_country_leader = {
-	name = "Philosopher King"
-	picture = "MOS_Philosopher_King.dds"
-	desc = "Portrait_MSC_Philosopher_King"
-	ideology = ultrahegelianism
-	traits = {	the_kings_two_bodies  }
-}
-
-create_country_leader = {
-	name = "Interregnum"
-	picture = "Portrait_MSC_White_House.dds"
-	expire = "1953.3.1"
-	ideology = nazbol_gang 
-}
+##CHARACTERS##
+#leaders#
+recruit_character = MSC_interregnum
+recruit_character = MSC_heydar_cahid_oglu_camal
+recruit_character = MSC_aleksandr_dugin
+recruit_character = MSC_aleksej_navalnyj
+recruit_character = MSC_philosopher_king
 
 if = {
 	limit = {

@@ -18,19 +18,14 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+##CHARACTERS##
+#leaders#
+recruit_character = RTS_dmitrij_medvedev
+
 set_popularities = {
 	ur_fascism = 67
 	regressionism = 16
 	right_populism = 12
 	neocameralism = 5
-}
-
-create_country_leader = {
-	name = "Dmitrij Medvedev"
-	desc = "POLITICS_MEDVEDEV_DESC"
-	picture = "Portrait_RTS_Dmitrij_Medvedev.dds"
-	ideology = charismatic_dictatorship
-	traits = {
-		scourge_of_god
-	}
 }

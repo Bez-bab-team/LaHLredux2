@@ -1,6 +1,6 @@
 characters={
 	VER_anatoly_chubais={
-		name="Anatoly Chubais"
+		name="Anatolij Chubajs"
 		portraits={
 			civilian={
 				large="gfx/leaders/VER/Portrait_VER_Anatoly_Chubais.dds"

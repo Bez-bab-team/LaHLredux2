@@ -10,6 +10,11 @@ set_technology = {
 	infantry_equipment_2 = 1
 }
 
+##CHARACTERS##
+#leaders#
+recruit_character = KAZ_nursultan_nazarbajev
+recruit_character = KAZ_bakhytzhan_kanapyanov
+
 set_politics = {
 	ruling_party = national_bolshevism
 	elections_allowed = no
@@ -19,17 +24,6 @@ set_popularities = {
 	national_bolshevism = 100
 }
 
-create_country_leader = {
-	name = "Nursultan Nazarbajev"
-	picture = "Portrait_KAZ_Nursultan_Nazarbajev.dds"
-	ideology = nazbol_gang
-}
-
-create_country_leader = {
-	name = "Bakhytzhan Kanapyanov"
-	picture = "Portrait_KAZ_Bakhytzhan_Kanapyanov.dds"
-	ideology = theodemocracy
-}
 
 
 

@@ -18,17 +18,10 @@ set_politics = {
 set_popularities = {
 	left_authoritarianism = 100
 }
+##CHARACTERS##
+#leaders#
+recruit_character = UST_aleksandr_lukashenko
 
-create_country_leader = {
-	name = "Aleksandr Lukashenko"
-	desc = ""
-	picture = "Portrait_UST_Aleksandr_Lukashenko.dds"
-	expire = "1965.1.1"
-	ideology = paternalism 
-	traits = {
-		#
-	}
-}
 # DIPLOMACY
 if = {
 	limit = {

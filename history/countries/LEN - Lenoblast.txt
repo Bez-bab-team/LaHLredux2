@@ -19,12 +19,11 @@ set_politics = {
 	elections_allowed = no
 }
 
+##CHARACTERS##
+#leaders#
+recruit_character = LEN_maksim_surajkin
+
+
 set_popularities = {
 	left_authoritarianism = 100
-}
-
-create_country_leader = {
-	name = "Maksim Surajkin"
-	picture = "Portrait_LEN_Maksim_Surajkin.dds"
-	ideology = soviet_marxism
 }

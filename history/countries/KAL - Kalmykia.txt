@@ -18,6 +18,11 @@ set_politics = {
 	last_election = "1933.7.1"
 	elections_allowed = no
 }
+
+##CHARACTERS##
+#leaders#
+recruit_character = KAL_jangurchi_adzhijev
+
 set_popularities = {
 	ur_fascism = 100
 }
@@ -38,13 +43,4 @@ add_ai_strategy = {
     type = alliance
     id = STR
     value = 200
-}
-
-create_country_leader = {
-	name = "Jangurchi Adzhijev"
-	picture = "Portrait_KAL_Jangurchi_Adzhijev.dds"
-	ideology = charismatic_dictatorship 
-	traits = {
-		
-	}
 }

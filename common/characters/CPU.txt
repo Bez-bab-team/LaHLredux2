@@ -1,13 +1,14 @@
 characters={
 	CPU_constantine_petrov={
-		name=CPU_constantine_petrov
+		name="Constantine Petrov"
 		portraits={
 			civilian={
 				large="gfx/leaders/CPU/Portrait_CPU_Constantine_Petrov.dds"
 			}
 		}
 		country_leader={
-			ideology=ultrahegelianism
+			desc="POLITICS_PETROV_DESC"
+			ideology=leftwing_chauvinism
 			expire="1.1.1.1"
 			id=-1
 		}

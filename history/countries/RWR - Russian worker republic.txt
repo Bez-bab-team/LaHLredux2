@@ -13,19 +13,15 @@ set_politics = {
 	ruling_party = socialism     
 	elections_allowed = no
 }
+
+##CHARACTERS##
+#leaders#
+recruit_character = RWR_boris_kagarlitskij
+
+
 set_popularities = {
 	socialism = 100
 }
 
-create_country_leader = {
-	name = "Boris Kagarlitskij"
-	desc = "POLITICS_KAGARLITSKIJ_DESC"
-	picture = "Portrait_RWR_Boris_Kagarlitskij.dds"
-	expire = "1953.3.1"
-	ideology = labor_socialism 
-	traits = {
-		tribune_of_the_people
-	}
-}
 
 

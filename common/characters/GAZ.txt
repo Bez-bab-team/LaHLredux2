@@ -7,6 +7,7 @@ characters={
 			}
 		}
 		country_leader={
+			desc="POLITICS_FOMENKO_DESC"
 			ideology=ethical_millennialism
 			traits={ }
 			expire="2032.1.1.14"

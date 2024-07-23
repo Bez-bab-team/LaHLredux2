@@ -9,7 +9,7 @@ characters={
 		country_leader={
 			desc="POLITICS_BARKASHOW_DESC"
 			ideology=stratocracy
-			traits={ diligent_officer_without_imagination }
+			traits={ #diligent_officer_without_imagination }
 			expire="1.1.1.1"
 			id=-1
 		}

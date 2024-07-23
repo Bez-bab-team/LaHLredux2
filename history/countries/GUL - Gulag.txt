@@ -79,14 +79,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+##CHARACTERS##
+#leaders#
+recruit_character = GUL_the_uncle
+
 set_popularities = {
 	commendationism = 100
-}
-
-create_country_leader = {
-	name = "The Uncle"
-	desc = "POLITICS_GUL_UNCLE_DESC"
-	picture = "Portrait_GUL_Xi_Jinping.dds"
-	ideology = leftwing_chauvinism
-	traits = { grey_eminence }
 }

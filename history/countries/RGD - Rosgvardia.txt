@@ -25,23 +25,10 @@ set_popularities = {
     ur_fascism = 5
 }
 
-create_country_leader = {
-	name = "Vladimir Putin"
-	desc = "POLITICS_PUTIN_DESC"
-	picture = "Portrait_RGD_Vladimir_Putin.dds"
-	ideology = stratocracy 
-	traits = { possessed
-	}
-}
-
-create_country_leader = {
-	name = "Dmitrij Enteo"
-	desc = "POLITICS_ENTEO_DESC"
-	picture = "Portrait_Dmitrij_Ento.dds"
-	ideology = charismatic_dictatorship 
-	traits = { 
-	}
-}
+##CHARACTERS##
+#leaders#
+recruit_character = RGD_vladimir_putin
+recruit_character = RGD_dmitrij_enteo
 
 if = {
 	limit = {

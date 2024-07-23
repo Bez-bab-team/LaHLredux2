@@ -7,8 +7,9 @@ characters={
 			}
 		}
 		country_leader={
+			desc="POLITICS_LUKASHENKO_DESC"
 			ideology=paternalism
-			expire="1965.1.1.1"
+			expire="2065.1.1.1"
 			id=-1
 		}
 	}

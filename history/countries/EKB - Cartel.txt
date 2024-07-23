@@ -21,7 +21,4 @@ set_popularities = {
 	neocameralism = 50
 }
 
-
-
-
 recruit_character = EKB_andrej_zubov
