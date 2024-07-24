@@ -9,7 +9,7 @@ characters={
 		country_leader={
 			desc="POLITICS_SHOJGU_DESC"
 			ideology=stratocracy
-			traits={ warrior_code }
+			traits={ intendant }
 			expire="1.1.1.1"
 			id=-1
 		}

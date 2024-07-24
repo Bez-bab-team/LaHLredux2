@@ -9,6 +9,7 @@ characters={
 		country_leader={
 			desc="POLITICS_ZHIRINOVSIJ_DESC"
 			ideology=social_conservatism
+			traits={ liberator }
 			expire="2099.3.1.1"
 			id=-1
 		}

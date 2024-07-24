@@ -16,6 +16,7 @@
  NOD_national_bolshevism:0 "National Liberation Government"
  NOD_national_bolshevism_DEF:0 "National Liberation Government"
  ##TRAITS##
+ lone_loyalist:0 "Lone Loyalist"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##

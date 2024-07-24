@@ -37,6 +37,7 @@ characters={
 		country_leader={
 			desc="POLITICS_INTERREGNUM_DESC"
 			ideology=national_conservatism
+			traits={ at_the_crossroads }
 			expire="1953.3.1.1"
 			id=-1
 		}

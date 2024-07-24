@@ -9,6 +9,7 @@ characters={
 		country_leader={
 			desc="POLITICS_TALKOV_DESC"
 			ideology=ethical_millennialism
+			traits={ the_forgotten_voice }
 			expire="1.1.1.1"
 			id=-1
 		}

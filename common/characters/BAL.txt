@@ -22,6 +22,7 @@ characters={
 		country_leader={
 			desc="POLITICS_ALKSNIS_DESC"
 			ideology=soviet_marxism
+			traits={ black_colonel }
 			expire="1.1.1.1"
 			id=-1
 		}

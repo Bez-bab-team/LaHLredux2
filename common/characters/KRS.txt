@@ -9,6 +9,7 @@ characters={
 		country_leader={
 			desc="POLITICS_STRELKOV_DESC"
 			ideology=national_populism
+			traits={ knight_of_honor }
 			expire="1.1.1.1"
 			id=-1
 		}

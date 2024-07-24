@@ -19,14 +19,12 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+##CHARACTERS##
+#leaders#
+recruit_character = NRS_zakhar_prilepin
+
 set_popularities = {
 	national_bolshevism = 100
 }
 
-create_country_leader = {
-	name = "Zakhar Prilepin"
-	picture = "Portrait_NRS_Zakhar_Prilepin.dds"
-	ideology = nazbol_gang 
-	traits = {
-	}
-}

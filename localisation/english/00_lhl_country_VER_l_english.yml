@@ -6,6 +6,7 @@
  VER_neocameralism:0 "Volga Economic Region"
  VER_neocameralism_DEF:0 "Volga Economic Region"
  ##TRAITS##
+ effective_manager:0 "Effective Manager"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##

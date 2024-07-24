@@ -9,6 +9,7 @@ characters={
 		country_leader={
 			desc="POLITICS_BELOZYOROV_DESC"
 			ideology=atlantic_liberalism
+			traits={ conductor }
 			expire="2065.1.1.1"
 			id=-1
 		}

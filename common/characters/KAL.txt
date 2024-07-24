@@ -9,6 +9,7 @@ characters={
 		country_leader={
 			desc="POLITICS_ADZHIJEV_DESC"
 			ideology=charismatic_dictatorship
+			traits={ defender_of_the_steppe }
 			expire="1.1.1.1"
 			id=-1
 		}

@@ -9,6 +9,7 @@ characters={
 		country_leader={
 			desc="POLITICS_SURAJKIN_DESC"
 			ideology=soviet_marxism
+			traits={ stalins_falcon }
 			expire="1.1.1.1"
 			id=-1
 		}

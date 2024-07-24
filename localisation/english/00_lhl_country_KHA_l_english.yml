@@ -22,6 +22,7 @@
  ##TRAITS##
  economic_reformer:0 "Economic Reformer"
  butcher:0 "Butcher"
+ a_vassal_with_no_lord:0 "A Vassal With No Lord"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##

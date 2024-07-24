@@ -52,6 +52,7 @@ characters={
 		}
 		country_leader={
 			ideology=nazbol_gang
+			traits={ a_vassal_with_no_lord }
 			expire="1.1.1.1"
 			id=-1
 		}

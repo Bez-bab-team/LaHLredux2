@@ -9,6 +9,7 @@ characters={
 		country_leader={
 			desc="POLITICS_TKACHYOV_DESC"
 			ideology=charismatic_dictatorship
+			traits={ militant_preacher }
 			expire="1.1.1.1"
 			id=-1
 		}

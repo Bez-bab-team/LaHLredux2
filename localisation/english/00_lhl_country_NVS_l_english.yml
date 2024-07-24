@@ -6,6 +6,7 @@
  NVS_right_populism:0 "Armed Forces of Western Siberia"
  NVS_right_populism_DEF:0 "Armed Forces of Western Siberia"
  ##TRAITS##
+ old_hawk:0 "Old Hawk"
  ##IDEAS##
  ##FOCUS TREES##
  NVS_colonel_turn:0 "Colonel Makes His Turn"

@@ -9,6 +9,7 @@ characters={
 		country_leader={
 			desc="POLITICS_CHUBAIS_DESC"
 			ideology=neo_reaction
+			traits={ effective_manager }
 			expire="1.1.1.1"
 			id=-1
 		}

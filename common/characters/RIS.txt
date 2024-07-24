@@ -9,6 +9,7 @@ characters={
 		country_leader={
 			desc="POLITICS_POKLONSKAJA_DESC"
 			ideology=charismatic_dictatorship
+			traits={ lady_justice }
 			expire="1.1.1.1"
 			id=-1
 		}

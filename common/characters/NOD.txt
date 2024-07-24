@@ -9,6 +9,7 @@ characters={
 		country_leader={
 			desc="POLITICS_FYODOROV_DESC"
 			ideology=nazbol_gang
+			traits={ lone_loyalist }
 			expire="1.1.1.1"
 			id=-1
 		}

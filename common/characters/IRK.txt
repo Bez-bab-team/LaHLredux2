@@ -9,6 +9,7 @@ characters={
 		country_leader={
 			desc="POLITICS_ZHVANIA_DESC"
 			ideology=nazbol_gang
+			traits={ thunderbird }
 			expire="1.1.1.1"
 		}
 	}

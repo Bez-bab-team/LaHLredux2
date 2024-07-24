@@ -9,6 +9,7 @@ characters={
 		country_leader={
 			desc="POLITICS_NIKITIN_DESC"
 			ideology=atlantic_liberalism
+			traits={ chairman_of_the_league }
 			expire="2032.1.1.14"
 			id=-1
 		}

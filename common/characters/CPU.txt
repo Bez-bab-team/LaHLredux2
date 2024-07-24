@@ -1,6 +1,6 @@
 characters={
 	CPU_constantine_petrov={
-		name="Constantine Petrov"
+		name="Constantin Petrov"
 		portraits={
 			civilian={
 				large="gfx/leaders/CPU/Portrait_CPU_Constantine_Petrov.dds"
@@ -9,6 +9,7 @@ characters={
 		country_leader={
 			desc="POLITICS_PETROV_DESC"
 			ideology=leftwing_chauvinism
+			traits={ prometheus }
 			expire="1.1.1.1"
 			id=-1
 		}

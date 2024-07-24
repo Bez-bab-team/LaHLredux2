@@ -1,6 +1,6 @@
 characters={
 	NVS_alexander_lebed={
-		name="Alexandr Lebed"
+		name="Alexandr Lebed'"
 		portraits={
 			civilian={
 				large="gfx/leaders/NVS/Portrait_NVS_Alexander_Lebed'.dds"
@@ -9,6 +9,7 @@ characters={
 		country_leader={
 			desc="POLITICS_LEBED_DESC"
 			ideology=social_conservatism
+			traits={ old_hawk }
 			expire="1.1.1.1"
 			id=-1
 		}

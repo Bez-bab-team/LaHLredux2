@@ -6,6 +6,7 @@
  RZD_neocameralism:0 "Eurasian Railroads"
  RZD_neocameralism_DEF:0 "Eurasian Railroads"
  ##TRAITS##
+ conductor:0 "Conductor"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##

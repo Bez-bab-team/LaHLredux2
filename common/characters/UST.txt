@@ -9,6 +9,7 @@ characters={
 		country_leader={
 			desc="POLITICS_LUKASHENKO_DESC"
 			ideology=paternalism
+			traits={ leviathan }
 			expire="2065.1.1.1"
 			id=-1
 		}

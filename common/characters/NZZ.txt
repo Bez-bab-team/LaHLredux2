@@ -9,6 +9,7 @@ characters={
 		country_leader={
 			desc="POLITICS_ABILOV_DESC"
 			ideology=neo_reaction
+			traits={ schemer }
 			expire="1.1.1.1"
 			id=-1
 		}
