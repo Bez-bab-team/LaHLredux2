@@ -15,7 +15,7 @@ characters={
 	#	}
 	#}
 	NRU_dobroslav={
-		name="Dobroslav"
+		name=NRU_dobroslav
 		portraits={
 			civilian={
 				large="gfx/leaders/NRU/Portrait_NRU_Dobroslav.dds"

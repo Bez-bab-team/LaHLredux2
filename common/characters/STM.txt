@@ -1,6 +1,6 @@
 characters={
 	STM_german_sterligov={
-		name="German Sterligov"
+		name=STM_german_sterligov
 		portraits={
 			civilian={
 				large="gfx/leaders/STM/Portrait_STM_German_Sterligov.dds"

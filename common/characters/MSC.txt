@@ -1,6 +1,6 @@
 characters={
 	MSC_heydar_cahid_oglu_camal={
-		name="Heydar Cahid oglu Camal"
+		name=MSC_heydar_cahid_oglu_camal
 		portraits={
 			civilian={
 				large="gfx/leaders/MSC/Portrait_MSC_Gejdar_Dzhemal'.dds"
@@ -13,7 +13,7 @@ characters={
 		}
 	}
 	MSC_aleksandr_dugin={
-		name="Aleksandr Dugin"
+		name=MSC_aleksandr_dugin
 		portraits={
 			civilian={
 				large="gfx/leaders/MSC/Portrait_MSC_Aleksandr_Dugin.dds"
@@ -28,7 +28,7 @@ characters={
 		}
 	}
 	MSC_interregnum={
-		name="Interregnum"
+		name=MSC_interregnum
 		portraits={
 			civilian={
 				large="gfx/leaders/MSC/Portrait_MSC_White_House.dds"
@@ -43,7 +43,7 @@ characters={
 		}
 	}
 	MSC_aleksej_navalnyj={
-		name="Aleksej Naval'nyj"
+		name=MSC_aleksej_navalnyj
 		portraits={
 			civilian={
 				large="gfx/leaders/MSC/Portrait_MSC_Aleksej_Navalnyj.dds"
@@ -56,7 +56,7 @@ characters={
 		}
 	}
 	MSC_philosopher_king={
-		name="Philosopher King"
+		name=MSC_philosopher_king
 		portraits={
 			civilian={
 				large="gfx/leaders/MSC/MOS_Philosopher_King.dds"

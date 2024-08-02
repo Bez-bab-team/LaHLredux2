@@ -13,7 +13,7 @@ characters={
 		}
 	}
 	BAL_viktor_alksnis={
-		name="Viktor Alksnis"
+		name=BAL_viktor_alksnis
 		portraits={
 			civilian={
 				large="gfx/leaders/BAL/Portrait_BAL_Victor_Alksnis.dds"

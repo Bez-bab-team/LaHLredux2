@@ -1,6 +1,6 @@
 characters={
 	LEN_maksim_surajkin={
-		name="Maksim Surajkin"
+		name=LEN_maksim_surajkin
 		portraits={
 			civilian={
 				large="gfx/leaders/LEN/Portrait_LEN_Maksim_Surajkin.dds"

@@ -1,6 +1,6 @@
 characters={
 	UST_aleksandr_lukashenko={
-		name="Aleksandr Lukashenko"
+		name=UST_aleksandr_lukashenko
 		portraits={
 			civilian={
 				large="gfx/leaders/UST/Portrait_UST_Aleksandr_Lukashenko.dds"

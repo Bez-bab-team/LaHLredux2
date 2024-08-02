@@ -1,6 +1,6 @@
 characters={
 	NSU_dmitrij_puchkov={
-		name="Dmitrij Puchkov"
+		name=NSU_dmitrij_puchkov
 		portraits={
 			civilian={
 				large="gfx/leaders/NSU/Portrait_NSU_Dmitrij_Puchkov.dds"

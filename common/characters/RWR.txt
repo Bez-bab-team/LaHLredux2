@@ -1,6 +1,6 @@
 characters={
 	RWR_boris_kagarlitskij={
-		name="Boris Kagarlitskij"
+		name=RWR_boris_kagarlitskij
 		portraits={
 			civilian={
 				large="gfx/leaders/RWR/Portrait_RWR_Boris_Kagarlitskij.dds"
