@@ -1,6 +1,6 @@
 characters={
 	RZD_oleg_belozyorov={
-		name="Oleg Belozyorov"
+		name=RZD_oleg_belozyorov
 		portraits={
 			civilian={
 				large="gfx/leaders/RZD/Portrait_RZD_Oleg_Belozerow.dds"

@@ -1,6 +1,6 @@
 characters={
 	NVS_alexander_lebed={
-		name="Alexandr Lebed'"
+		name=NVS_alexander_lebed
 		portraits={
 			civilian={
 				large="gfx/leaders/NVS/Portrait_NVS_Alexander_Lebed'.dds"

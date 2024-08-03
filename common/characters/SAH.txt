@@ -1,6 +1,6 @@
 characters={
 	SAH_viktor_tsoj={
-		name="Viktor Tsoj"
+		name=SAH_viktor_tsoj
 		portraits={
 			civilian={
 				large="gfx/leaders/SAH/Portrait_SAH_Viktor_Tsoj.dds"

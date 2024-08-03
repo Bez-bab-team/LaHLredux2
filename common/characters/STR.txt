@@ -1,6 +1,6 @@
 characters={
 	STR_igor_talkov={
-		name="Igor' Tal'kov"
+		name=STR_igor_talkov
 		portraits={
 			civilian={
 				large="gfx/leaders/STR/Portrait_STR_Igor_Talkov.dds"

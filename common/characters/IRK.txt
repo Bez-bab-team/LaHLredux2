@@ -1,6 +1,6 @@
 characters={
 	IRK_dmitry_zhvania={
-		name="Dmitrij Zhvania"
+		name=IRK_dmitry_zhvania
 		portraits={
 			civilian={
 				large="gfx/leaders/IRK/Portrait_IRK_Dmitry_Zhvania.dds"

@@ -1,6 +1,6 @@
 characters={
 	TVA_sergej_shojgu={
-		name="Sergej Shojgu"
+		name=TVA_sergej_shojgu
 		portraits={
 			civilian={
 				large="gfx/leaders/TVA/Portrait_TVA_Sergej_Shojgu.dds"

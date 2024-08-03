@@ -1,6 +1,6 @@
 characters={
 	NOD_yevgeny_fyodorov={
-		name="Jevgenij Fyodorov"
+		name=NOD_yevgeny_fyodorov
 		portraits={
 			civilian={
 				large="gfx/leaders/NOD/Portrait_NOD_Yevgenij_Fyodorov.dds"

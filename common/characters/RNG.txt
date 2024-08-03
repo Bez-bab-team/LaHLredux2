@@ -1,6 +1,6 @@
 characters={
 	RNG_boris_jeltsin={
-		name="Boris Jel'tsin"
+		name=RNG_boris_jeltsin
 		portraits={
 			civilian={
 				large="gfx/leaders/RNG/Portrait_RNG_Boris_Elcyn.dds"

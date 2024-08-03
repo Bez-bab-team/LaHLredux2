@@ -1,6 +1,6 @@
 characters={
 	CPU_constantine_petrov={
-		name="Constantin Petrov"
+		name=CPU_constantine_petrov
 		portraits={
 			civilian={
 				large="gfx/leaders/CPU/Portrait_CPU_Constantine_Petrov.dds"
