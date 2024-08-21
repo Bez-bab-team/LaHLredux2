@@ -1,0 +1,126 @@
+defined_text = {
+	name = GetLondonUniversityName
+	text = {
+		trigger = {
+            has_country_flag = lhl_ess_univesity_UCL_open
+		}
+		localization_key = ESS_UCL_title
+	}
+	
+	text = {
+		trigger = {
+            has_country_flag = lhl_ess_univesity_ICL_open
+		}
+		localization_key = ESS_ICL_title
+	}
+	
+	text = {
+		trigger = {
+            has_country_flag = lhl_ess_univesity_RCL_open
+		}
+		localization_key = ESS_RCL_title
+	}
+	
+	text = {
+		trigger = {
+            has_country_flag = lhl_ess_univesity_brunel_open
+		}
+		localization_key = ESS_brunel_title
+	}
+	
+	text = {
+		trigger = {
+            has_country_flag = lhl_ess_univesity_cambridge_open
+		}
+		localization_key = ESS_cambridge_title
+	}
+	
+	text = {
+		trigger = {
+            has_country_flag = lhl_ess_univesity_oxford_open
+		}
+		localization_key = ESS_oxford_title
+	}
+	
+	text = {
+		trigger = {
+            has_country_flag = lhl_ess_univesity_manchester_open
+		}
+		localization_key = ESS_manchester_title
+	}
+	
+	text = {
+		trigger = {
+            has_country_flag = lhl_ess_univesity_bristol_open
+		}
+		localization_key = ESS_bristol_title
+	}
+}
+
+defined_text = {
+	name = GetLondonUniversityBudget
+	text = {
+		trigger = {
+            has_country_flag = lhl_ess_univesity_UCL_open
+			has_country_flag = lhl_ess_univesity_univesity_of_london_rebuilt
+		}
+		localization_key = ESS_UCL_budget
+	}
+	
+	text = {
+		trigger = {
+            has_country_flag = lhl_ess_univesity_ICL_open
+			has_country_flag = lhl_ess_univesity_univesity_of_london_rebuilt
+		}
+		localization_key = ESS_ICL_budget
+	}
+	
+	text = {
+		trigger = {
+            has_country_flag = lhl_ess_univesity_RCL_open
+			has_country_flag = lhl_ess_univesity_univesity_of_london_rebuilt
+		}
+		localization_key = ESS_RCL_budget
+	}
+	
+	text = {
+		trigger = {
+            has_country_flag = lhl_ess_univesity_brunel_open
+			has_country_flag = lhl_ess_univesity_univesity_of_london_rebuilt
+		}
+		localization_key = ESS_brunel_budget
+	}
+	
+	text = {
+		trigger = {
+            has_country_flag = lhl_ess_univesity_cambridge_open
+			has_country_flag = lhl_ess_univesity_univesity_of_cambridge_rebuilt
+		}
+		localization_key = ESS_cambridge_budget
+	}
+	
+	text = {
+		trigger = {
+            has_country_flag = lhl_ess_univesity_oxford_open
+			has_country_flag = lhl_ess_univesity_univesity_of_oxford_rebuilt
+		}
+		localization_key = ESS_oxford_budget
+	}
+	
+	text = {
+		trigger = {
+            has_country_flag = lhl_ess_univesity_manchester_open
+			has_country_flag = lhl_ess_univesity_univesity_of_manchester_rebuilt
+		}
+		localization_key = ESS_manchester_budget
+	}
+	
+	text = {
+		trigger = {
+            has_country_flag = lhl_ess_univesity_bristol_open
+			has_country_flag = lhl_ess_univesity_univesity_of_bristol_rebuilt
+		}
+		localization_key = ESS_bristol_budget
+	}
+
+}

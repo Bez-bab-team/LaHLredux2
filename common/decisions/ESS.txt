@@ -1292,125 +1292,586 @@ ESS_take_what_is_ours = {
 	}
 	
 ESS_repolish_brilliants = {
-	ESS_aboba = {
-		cost = 20
-		days_remove = 30
-		remove_effect = {
-			
-		}
+
+	ESS_rebuild_university_of_london = {
+		cost = 100
+		days_remove = 25
 		modifier = {
-			production_speed_buildings_factor = 0.15
-			production_lack_of_resource_penalty_factor = -0.15
-			production_factory_efficiency_gain_factor = 0.1
+			civilian_factory_use = 4
 		}
-		complete_effect = {
-			custom_effect_tooltip = ESS_band_loyalty_minus.tt
-			add_to_variable = {
-				var = ESS_north_west_region_loyalty
-				value = -10
+		remove_effect = {
+			ESS = {
+				set_country_flag = lhl_ess_univesity_univesity_of_london_rebuilt
+				add_to_variable = {
+					var = ess_ucl_budget
+					value = 25
+					tooltip = add_25_mil_to_budget
+				}
+				add_to_variable = {
+					var = ess_icl_budget
+					value = 25
+					tooltip = add_25_mil_to_budget
+				}
+				add_to_variable = {
+					var = ess_rcl_budget
+					value = 25
+					tooltip = add_25_mil_to_budget
+				}
+				add_to_variable = {
+					var = ess_brunel_budget
+					value = 25
+					tooltip = add_25_mil_to_budget
+				}
+				add_dynamic_modifier = {
+					modifier = ESS_brunel_university_bonus
+				}
 			}
 		}	
 		ai_will_do = {
 			factor = 100
 		}
-	}
-	ESS_rebuild_oxford = {
-	    available = {
-			1153 = {
-				is_controlled_by = ESS
-			}	
-		}
-		fire_only_once = yes
-		ai_will_do = {
-			factor = 100
-		}
-		highlight_states = {
-			highlight_state_targets = {
-				state = 1153
+		visible = {
+			OR = {
+				has_country_flag = lhl_ess_univesity_UCL_open
+				has_country_flag = lhl_ess_univesity_ICL_open
+				has_country_flag = lhl_ess_univesity_RCL_open
+				has_country_flag = lhl_ess_univesity_brunel_open
 			}
 		}
-		complete_effect = {
-		}
-		days_remove = 50
-		cost = 80
-		remove_effect = {
-		
-		}
-	}
-	ESS_rebuild_cambridge = {
-	    available = {
-			1005 = {
-				is_controlled_by = ESS
-			}	
-		}
 		fire_only_once = yes
+	}
+	
+	##University College London##
+	
+	ESS_test_UCL = {
+		cost = 35
+		days_remove = 21
+		modifier = {
+			civilian_factory_use = 3
+		}
+		complete_effect = {
+			add_political_power = 100
+		}	
 		ai_will_do = {
 			factor = 100
-		}
-		highlight_states = {
-			highlight_state_targets = {
-				state = 1005
-			}
-		}
-		complete_effect = {
-		}
-		days_remove = 50
-		cost = 80
-		remove_effect = {
-		
-		}
-	}
-	ESS_rebuild_republican_college = {
-	    available = {
-			1160 = {
-				is_controlled_by = ESS
-			}	
 		}
 		visible = {
-			1160 = {
-				is_controlled_by = ESS
-			}
-		}
-		fire_only_once = yes
-		ai_will_do = {
-			factor = 100
-		}
-		highlight_states = {
-			highlight_state_targets = {
-				state = 1160
-			}
-		}
-		complete_effect = {
-		}
-		days_remove = 50
-		cost = 80
-		remove_effect = {
-		
+			has_country_flag = lhl_ess_univesity_UCL_open
 		}
 	}
-	ESS_rebuild_bristol = {
-	    available = {
-			1006 = {
-				is_controlled_by = ESS
-			}	
+	
+	##Imperial College London##
+	
+	ESS_test_ICL = {
+		cost = 35
+		days_remove = 21
+		modifier = {
+			civilian_factory_use = 3
 		}
-		
-		fire_only_once = yes
+		complete_effect = {
+			add_political_power = 100
+		}	
 		ai_will_do = {
 			factor = 100
 		}
-		highlight_states = {
-			highlight_state_targets = {
-				state = 1006
-			}
+		visible = {
+			has_country_flag = lhl_ess_univesity_ICL_open
+		}
+	}
+	
+	##Republican College London##
+	
+	ESS_test_RCL = {
+		cost = 35
+		days_remove = 21
+		modifier = {
+			civilian_factory_use = 3
 		}
 		complete_effect = {
+			add_political_power = 100
+		}	
+		ai_will_do = {
+			factor = 100
 		}
-		days_remove = 50
-		cost = 80
+		visible = {
+			has_country_flag = lhl_ess_univesity_RCL_open
+		}
+	}
+	
+	##Brunel University London##
+	
+	ESS_support_students_brunel = {
+		cost = 25
+		days_remove = 25
+		days_re_enable = 100
+		complete_effect = {
+			add_to_variable = {
+					var = ess_brunel_budget
+					value = 25
+				tooltip = add_25_mil_to_budget
+			}
+		}	
+		ai_will_do = {
+			factor = 100
+		}
+		visible = {
+			has_country_flag = lhl_ess_univesity_univesity_of_london_rebuilt
+			has_country_flag = lhl_ess_univesity_brunel_open
+		}
+	}
+	
+	ESS_donate_funds_brunel = {
+		cost = 50
+		days_remove = 25
+		days_re_enable = 125
+		complete_effect = {
+			add_to_variable = {
+					var = ess_brunel_budget
+					value = 50
+				tooltip = add_50_mil_to_budget
+			}
+		}	
+		ai_will_do = {
+			factor = 100
+		}
+		visible = {
+			has_country_flag = lhl_ess_univesity_univesity_of_london_rebuilt
+			has_country_flag = lhl_ess_univesity_brunel_open
+		}
+	}
+	
+	ESS_award_grants_brunel = {
+		cost = 100
+		days_remove = 25
+		days_re_enable = 150
+		complete_effect = {
+			add_to_variable = {
+					var = ess_brunel_budget
+					value = 100
+				tooltip = add_100_mil_to_budget
+			}
+		}	
+		ai_will_do = {
+			factor = 100
+		}
+		visible = {
+			has_country_flag = lhl_ess_univesity_univesity_of_london_rebuilt
+			has_country_flag = lhl_ess_univesity_brunel_open
+		}
+	}
+	
+	ESS_develop_tidal_powerplant_infrastracture_kent = {
+		cost = 20
+		days_remove = 45
+		fire_only_once = yes
+		complete_effect = {
+			add_to_variable = {
+					var = ess_brunel_budget
+					value = -20
+				tooltip = remove_20_mil_to_budget
+			}
+		}	
+		modifier = {
+			research_speed_factor = -0.15
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		visible = {
+			has_country_flag = lhl_ess_univesity_univesity_of_london_rebuilt
+			has_country_flag = lhl_ess_univesity_brunel_open
+			has_completed_focus = ESS_rising_tide
+		}
+		available = {
+			ESS = {
+				controls_state = 1002
+			}
+		}
 		remove_effect = {
-		
+			1002 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_province_modifier = {
+					static_modifiers = { tidal_powerplants_infrastructure }
+					province = {
+						all_provinces = yes
+					}
+				}
+			}
 		}
+	}
+	
+	ESS_develop_tidal_powerplant_infrastracture_somerset = {
+		cost = 20
+		days_remove = 45
+		fire_only_once = yes
+		complete_effect = {
+			add_to_variable = {
+					var = ess_brunel_budget
+					value = -20
+				tooltip = remove_20_mil_to_budget
+			}
+		}	
+		ai_will_do = {
+			factor = 100
+		}
+		modifier = {
+			research_speed_factor = -0.15
+		}
+		visible = {
+			has_country_flag = lhl_ess_univesity_univesity_of_london_rebuilt
+			has_country_flag = lhl_ess_univesity_brunel_open
+			has_completed_focus = ESS_rising_tide
+		}
+		available = {
+			ESS = {
+				controls_state = 1006
+			}
+		}
+		remove_effect = {
+			1006 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_province_modifier = {
+					static_modifiers = { tidal_powerplants_infrastructure }
+					province = {
+						all_provinces = yes
+					}
+				}
+			}
+		}
+	}
+	
+	ESS_develop_tidal_powerplant_infrastracture_liverpool = {
+		cost = 20
+		days_remove = 45
+		fire_only_once = yes
+		complete_effect = {
+			add_to_variable = {
+					var = ess_brunel_budget
+					value = -20
+				tooltip = remove_20_mil_to_budget
+			}
+		}	
+		modifier = {
+			research_speed_factor = -0.15
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		visible = {
+			has_country_flag = lhl_ess_univesity_univesity_of_london_rebuilt
+			has_country_flag = lhl_ess_univesity_brunel_open
+			has_completed_focus = ESS_rising_tide
+		}
+		available = {
+			ESS = {
+				controls_state = 1009
+			}
+		}
+		remove_effect = {
+			1009 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+			add_province_modifier = {
+				static_modifiers = { tidal_powerplants_infrastructure }
+				province = {
+					all_provinces = yes
+				}
+			}
+		}
+		}
+	}
+	
+	ESS_develop_optimised_london_city_planning = {
+		cost = 35
+		days_remove = 75
+		fire_only_once = yes
+		complete_effect = {
+			add_to_variable = {
+					var = ess_brunel_budget
+					value = -75
+				tooltip = remove_75_mil_to_budget
+			}
+		}	
+		ai_will_do = {
+			factor = 100
+		}
+		modifier = {
+			research_speed_factor = -0.1 
+		}
+		visible = {
+			has_country_flag = lhl_ess_univesity_univesity_of_london_rebuilt
+			has_country_flag = lhl_ess_univesity_brunel_open
+			has_completed_focus = ESS_optimised_living_space
+		}
+		available = {
+			ESS = {
+				controls_state = 1160
+			}
+		}
+		remove_effect = {
+			1160 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 4
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = construction_tech
+			}
+		}
+	}
+	
+	ESS_concrete_formula_research = {
+		cost = 30
+		days_remove = 75
+		fire_only_once = yes
+		complete_effect = {
+			add_to_variable = {
+					var = ess_brunel_budget
+					value = -50
+				tooltip = remove_50_mil_to_budget
+			}
+		}	
+		ai_will_do = {
+			factor = 100
+		}
+		modifier = {
+			research_speed_factor = -0.1 
+		}
+		visible = {
+			has_country_flag = lhl_ess_univesity_univesity_of_london_rebuilt
+			has_country_flag = lhl_ess_univesity_brunel_open
+			has_completed_focus = ESS_recycleconomy
+		}
+		remove_effect = {
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 1
+				category = construction_tech
+			}
+		}
+	}
+	
+	ESS_material_recycling_research = {
+		cost = 25
+		days_remove = 50
+		days_re_enable = 150
+		complete_effect = {
+			add_to_variable = {
+					var = ess_brunel_budget
+					value = -20
+				tooltip = remove_20_mil_to_budget
+			}
+		}	
+		ai_will_do = {
+			factor = 100
+		}
+		modifier = {
+			research_speed_factor = -0.1 
+		}
+		visible = {
+			has_country_flag = lhl_ess_univesity_univesity_of_london_rebuilt
+			has_country_flag = lhl_ess_univesity_brunel_open
+			has_completed_focus = ESS_recycleconomy
+		}
+		remove_effect = {
+			add_tech_bonus = {
+				bonus = 0.25
+				uses = 1
+				category = green_industry_category
+			}
+		}
+	}
+	
+	ESS_quarries_recreation_research = {
+		cost = 25
+		days_remove = 50
+		days_re_enable = 150
+		complete_effect = {
+			add_to_variable = {
+					var = ess_brunel_budget
+					value = -20
+				tooltip = remove_20_mil_to_budget
+			}
+		}	
+		ai_will_do = {
+			factor = 100
+		}
+		modifier = {
+			research_speed_factor = -0.1 
+		}
+		visible = {
+			has_country_flag = lhl_ess_univesity_univesity_of_london_rebuilt
+			has_country_flag = lhl_ess_univesity_brunel_open
+			has_completed_focus = ESS_recycleconomy
+		}
+		remove_effect = {
+			add_tech_bonus = {
+				bonus = 0.33
+				uses = 1
+				category = excavation_tech
+			}
+		}
+	}
+	
+	ESS_survaliance_recognition_software_development = {
+		cost = 30
+		days_remove = 75
+		fire_only_once = yes
+		complete_effect = {
+			add_to_variable = {
+					var = ESS_coring_cost
+					value = -20
+				tooltip = EAG_coring_cost_lowered_20_tt
+			}
+			add_to_variable = {
+					var = ess_brunel_budget
+					value = -50
+				tooltip = remove_50_mil_to_budget
+			}
+		}	
+		ai_will_do = {
+			factor = 100
+		}
+		modifier = {
+			research_speed_factor = -0.15
+		}
+		visible = {
+			has_country_flag = lhl_ess_univesity_univesity_of_london_rebuilt
+			has_country_flag = lhl_ess_univesity_brunel_open
+			has_completed_focus = ESS_recycleconomy
+		}
+		remove_effect = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = electronics
+			}
+		}
+	}
+	
+	
+	##University of Cambridge##
+	
+	ESS_rebuild_university_of_cambridge = { 
+		cost = 45
+		days_remove = 21
+		modifier = {
+			civilian_factory_use = 3
+		}
+		complete_effect = {
+			set_country_flag = lhl_ess_univesity_univesity_of_cambridge_rebuilt
+			add_to_variable = {
+				var = ess_cambridge_budget
+				value = 25
+				tooltip = add_25_mil_to_budget
+			}
+		}	
+		ai_will_do = {
+			factor = 100
+		}
+		visible = {
+			has_country_flag = lhl_ess_univesity_cambridge_open
+		}
+		fire_only_once = yes
+	}
+	
+	##University of Oxford##
+	
+	ESS_rebuild_university_of_oxford = { 
+		cost = 45
+		days_remove = 21
+		modifier = {
+			civilian_factory_use = 3
+		}
+		complete_effect = {
+			set_country_flag = lhl_ess_univesity_univesity_of_oxford_rebuilt
+			add_to_variable = {
+				var = ess_oxford_budget
+				value = 25
+				tooltip = add_25_mil_to_budget
+			}
+		}	
+		ai_will_do = {
+			factor = 100
+		}
+		visible = {
+			has_country_flag = lhl_ess_univesity_oxford_open
+		}
+		fire_only_once = yes
+	}
+	
+	##University of Manchester##
+	
+	ESS_rebuild_university_of_manchester = { 
+		cost = 45
+		days_remove = 21
+		modifier = {
+			civilian_factory_use = 3
+		}
+		complete_effect = {
+			set_country_flag = lhl_ess_univesity_univesity_of_manchester_rebuilt
+			add_to_variable = {
+				var = ess_manchester_budget
+				value = 25
+				tooltip = add_25_mil_to_budget
+			}
+		}	
+		ai_will_do = {
+			factor = 100
+		}
+		visible = {
+			has_country_flag = lhl_ess_univesity_manchester_open
+		}
+		fire_only_once = yes
+	}
+	
+	##University of Bristol##
+	
+	ESS_rebuild_university_of_bristol = { 
+		cost = 45
+		days_remove = 21
+		modifier = {
+			civilian_factory_use = 3
+		}
+		complete_effect = {
+			set_country_flag = lhl_ess_univesity_univesity_of_bristol_rebuilt
+			add_to_variable = {
+				var = ess_bristol_budget
+				value = 25
+				tooltip = add_25_mil_to_budget
+			}
+		}	
+		ai_will_do = {
+			factor = 100
+		}
+		visible = {
+			has_country_flag = lhl_ess_univesity_bristol_open
+		}
+		fire_only_once = yes
 	}
 }
 

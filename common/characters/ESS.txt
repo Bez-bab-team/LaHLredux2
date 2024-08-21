@@ -47,6 +47,7 @@ characters={
 			ideology=progressivism
 			expire="1.1.1.1"
 			id=-1
+			desc = ESS_Richard_Dawkins_desc
 		}
 	}
 	ESS_david_pearce={

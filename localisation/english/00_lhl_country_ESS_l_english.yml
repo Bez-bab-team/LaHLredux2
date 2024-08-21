@@ -5,6 +5,7 @@
  DANIEL_RADCLIFFE_DESC:0 "NAZI HARRY POTTER"
  ESS_nick_land:0 "Nick Land"
  ESS_Richard_Dawkins:0 "Richard Dawkins"
+ ESS_Richard_Dawkins_desc:0 "§YClinton Richard Dawkins§!\n\n§YBiography§!: Intellectual, Professor, Curator, and now Leader. That is to say, being a leader is not new to Richard Dawkins, even if his current predicament may be the toughest challenge he faced thus far.\n\nClinton Richard Dawkins was born on March 26th 1941 in Nairobi, the capital of Kenya during British colonial rule, arriving on the home isles in 1949. Despite growing up in the classical Anglican church Richard would grow to question his established reality, eventually growing distant from his faith and embracing the theory of evolution as the new religion.\n\nWith his intellectual mind of pious nature, Richard Dawkins would soon become the assistant professor of zoology at the University of California. He quickly climbed the academic career ladder and in 1995 Dawkins was appointed Simonyi Professor for the Public Understanding of Science at Oxford. Richard made a name for himself in humanitarian and atheist groups slowly growing to prominence being the few to embrace anti-monarchist republican ideals.\n\nWhen the war came, the honorable professor decided not to stand silent to the call of his nation. As the walls fell around him and his college fled to the feeble-minded Eurasian puppets in the north Dawkins stood tall and strong as all respectable men of their nation should when the time comes. Starting as the curator of many humanitarian missions in the ruins of old London with the protection of Mad Max, the professor now stands as the sole leader of the Nationalist London.\n\nWhile the turbulent days of the power-struggle in the capital have passed, only when all of Britain has been saved from ignorance, poverty and war shall peace reign in the mind of Clinton Richard Dawkins. Intellectual, Professor, Curator, and now Leader."
  ESS_david_pearce:0 "David Pearce"
  ESS_nick_srnicek:0 "Nick Srnicek"
  ESS_steve_ignorant:0 "Steve Ignorant"
@@ -889,6 +890,30 @@
  ESS_event.42.a:0 "Cooperate"
  ESS_event.42.b:0 "Force them"
  
+ ##UNIVERSITIES##
+ ESS_repolish_brilliants:0 "Repolished Brilliants"
+ ESS_UNIVERSITY_NAME:0 "[ROOT.GetLondonUniversityName]"
+ ESS_UCL_title:0 "§4University College London§!"
+ ESS_ICL_title:0 "§4Imperial College London§!"
+ ESS_RCL_title:0 "§4Republican College London§!"
+ ESS_brunel_title:0 "§4Brunel University London§!"
+ ESS_cambridge_title:0 "§4University of Cambridge§!"
+ ESS_oxford_title:0 "§4University of Oxford§!"
+ ESS_manchester_title:0 "§4University of Manchester§!"
+ ESS_bristol_title:0 "§4University of Bristol§!"
+ 
+ ESS_UNIVERSITY_BUDGET:0 "[ROOT.GetLondonUniversityBudget]"
+ ESS_UCL_budget:0 "University budget: §7££ [?ess_ucl_budget] millions§!"
+ ESS_ICL_budget:0 "University budget: §7££ [?ess_icl_budget] millions§!"
+ ESS_RCL_budget:0 "University budget: §7££ [?ess_rcl_budget] millions§!"
+ ESS_brunel_budget:0 "University budget: §7££ [?ess_brunel_budget] millions§!"
+ ESS_oxford_budget:0 "University budget: §7££ [?ess_oxford_budget] millions§!"
+ ESS_cambridge_budget:0 "University budget: §7££ [?ess_cambridge_budget] millions§!"
+ ESS_manchester_budget:0 "University budget: §7££ [?ess_manchester_budget] millions§!"
+ ESS_bristol_budget:0 "University budget: §7££ [?ess_bristol_budget] millions§!"
+ 
+ ess_univesity_brunel_button_tt:0 "Brunel University London specialists provide us: \nConstruction Speed: [?ESS_brunel_production_speed_buildings_factor|.1%+] \nMax Factories in a State: [?ESS_brunel_global_building_slots_factor|.1%+] \nResource Gain Efficiency: [?ESS_brunel_local_resources_factor|.1%+]"
+  
  
  
  
@@ -900,18 +925,27 @@
  
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+ ESS_support_students_brunel:0 "Support Students"
+ ESS_donate_funds_brunel:0 "Donate Funds"
+ ESS_award_grants_brunel:0 "Award Grants"
+ ESS_develop_tidal_powerplant_infrastracture_kent:0 "Develop Tidal Powerplant Infrastracture in Kent"
+ ESS_develop_tidal_powerplant_infrastracture_somerset:0 "Develop Tidal Powerplant Infrastracture in Somerset"
+ ESS_develop_tidal_powerplant_infrastracture_liverpool:0 "Develop Tidal Powerplant Infrastracture in Liverpool"
+ ESS_develop_optimised_london_city_planning:0 "Develop optimized city planning for London"
+ ESS_concrete_formula_research:0 "Concrete formula research effort"
+ ESS_material_recycling_research:0 "Material recycling research effort"
+ ESS_survaliance_recognition_software_development:0 "Surveillance facial recognition software development"
+ add_25_mil_to_budget:0 "§Y££25 million§! will be §Gadded§! to the university budget"
+ add_50_mil_to_budget:0 "§Y££50 million§! will be §Gadded§! to the university budget"
+ add_100_mil_to_budget:0 "§Y££100 million§! will be §Gadded§! to the university budget"
+ remove_20_mil_to_budget:0 "§Y££20 million§! will be §Rtaken§! from the university budget"
+ remove_75_mil_to_budget:0 "§Y££75 million§! will be §Rtaken§! from the university budget"
+ remove_50_mil_to_budget:0 "§Y££50 million§! will be §Rtaken§! from the university budget"
+ tidal_powerplants_infrastructure:0 "Tidal Powerplants Infrastracture"
+ ESS_british_diamonds_tt:0 "Our government will have ability to rebuilt universities in Britain through the new §Y"Repolished Brilliants"§! mechanic"
+ ESS_rising_tides_tt:0 "Our government will cooperate with §4Universities§! in the further construction of tidal powerplants"
+ ESS_quarries_recreation_research:0 "Recreation of quarries research effort"
+ ESS_recycleconomy_tt:0 "Our government will cooperate with §4Universities§! to fund the research for environmentally sustainable industry"
  
  
  

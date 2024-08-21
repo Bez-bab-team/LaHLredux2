@@ -100,4 +100,38 @@ on_weekly_ESS = {
 	}
 }
 
+on_weekly_ESS = {
+	effect = {
+		ESS = {
+			set_variable = {
+                var = ESS_brunel_production_speed_buildings_factor
+                value = ess_brunel_budget
+            }
+			divide_variable = {
+                var = ESS_brunel_production_speed_buildings_factor
+                value = 1000
+            }
+			
+			
+			set_variable = {
+                var = ESS_brunel_global_building_slots_factor
+                value = ess_brunel_budget
+            }
+			divide_variable = {
+                var = ESS_brunel_global_building_slots_factor
+                value = 250
+            } 
+			
+			set_variable = {
+                var = ESS_brunel_local_resources_factor
+                value = ess_brunel_budget
+            }
+			divide_variable = {
+                var = ESS_brunel_local_resources_factor
+                value = 250
+            } 
+		}
+	}
+}
+
 }					  

@@ -542,6 +542,13 @@ ESS_superb_british_forces = {
 	air_close_air_support_org_damage_factor = ESS_superb_british_forces_air_close_air_support_org_damage_factor
 }
 
+ESS_brunel_university_bonus  = { 
+	icon = GFX_hui
+	production_speed_buildings_factor = ESS_brunel_production_speed_buildings_factor
+	global_building_slots_factor = ESS_brunel_global_building_slots_factor
+	local_resources_factor = ESS_brunel_local_resources_factor
+}
+
 ##SUS##
 SUS_pillars_wessex = {
 	monthly_population = SUS_pillars_wessex_monthly_population

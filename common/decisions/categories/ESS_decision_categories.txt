@@ -9,6 +9,7 @@ ESS_london_bands = {
 	scripted_gui = lhl_london_bands_screen_body
 	allowed = { original_tag = ESS }
 }
+
 ESS_desperate_measures = {
 	icon = GFX_
 		visible = {
@@ -48,5 +49,6 @@ icon = GFX_
 	    has_completed_focus = ESS_british_diamonds
 	}
 	visible_when_empty = yes
+	scripted_gui = lhl_ess_universities_screen_body
 	allowed = { original_tag = ESS }
 }

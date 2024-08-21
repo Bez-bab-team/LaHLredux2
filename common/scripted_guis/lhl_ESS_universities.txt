@@ -1,0 +1,135 @@
+scripted_gui = {
+	lhl_ess_universities_screen_body = {
+		context_type = decision_category
+		parent_window_token = decision_tab
+		window_name = "lhl_ess_dawkins_universities_screen_full"
+		visible = {
+			tag = ESS
+		}
+		effects = {
+			#UNIVERSITIES BUTTONS#
+			lhl_ess_univesity_UCL_button_click = {
+				set_country_flag = lhl_ess_univesity_UCL_open
+				clr_country_flag = lhl_ess_univesity_ICL_open
+				clr_country_flag = lhl_ess_univesity_RCL_open
+				clr_country_flag = lhl_ess_univesity_brunel_open
+				clr_country_flag = lhl_ess_univesity_cambridge_open
+				clr_country_flag = lhl_ess_univesity_oxford_open
+				clr_country_flag = lhl_ess_univesity_manchester_open
+				clr_country_flag = lhl_ess_univesity_bristol_open
+			}
+			lhl_ess_univesity_ICL_button_click = {
+				set_country_flag = lhl_ess_univesity_ICL_open
+				clr_country_flag = lhl_ess_univesity_UCL_open
+				clr_country_flag = lhl_ess_univesity_RCL_open
+				clr_country_flag = lhl_ess_univesity_brunel_open
+				clr_country_flag = lhl_ess_univesity_cambridge_open
+				clr_country_flag = lhl_ess_univesity_oxford_open
+				clr_country_flag = lhl_ess_univesity_manchester_open
+				clr_country_flag = lhl_ess_univesity_bristol_open
+			}
+			lhl_ess_univesity_RCL_button_click = {
+				set_country_flag = lhl_ess_univesity_RCL_open
+				clr_country_flag = lhl_ess_univesity_ICL_open
+				clr_country_flag = lhl_ess_univesity_UCL_open
+				clr_country_flag = lhl_ess_univesity_brunel_open
+				clr_country_flag = lhl_ess_univesity_cambridge_open
+				clr_country_flag = lhl_ess_univesity_oxford_open
+				clr_country_flag = lhl_ess_univesity_manchester_open
+				clr_country_flag = lhl_ess_univesity_bristol_open
+			}
+			lhl_ess_univesity_brunel_button_click = {
+				set_country_flag = lhl_ess_univesity_brunel_open
+				clr_country_flag = lhl_ess_univesity_RCL_open
+				clr_country_flag = lhl_ess_univesity_ICL_open
+				clr_country_flag = lhl_ess_univesity_UCL_open
+				clr_country_flag = lhl_ess_univesity_cambridge_open
+				clr_country_flag = lhl_ess_univesity_oxford_open
+				clr_country_flag = lhl_ess_univesity_manchester_open
+				clr_country_flag = lhl_ess_univesity_bristol_open
+			}
+			lhl_ess_univesity_cambridge_button_click = {
+				set_country_flag = lhl_ess_univesity_cambridge_open
+				clr_country_flag = lhl_ess_univesity_brunel_open
+				clr_country_flag = lhl_ess_univesity_RCL_open
+				clr_country_flag = lhl_ess_univesity_ICL_open
+				clr_country_flag = lhl_ess_univesity_UCL_open
+				clr_country_flag = lhl_ess_univesity_oxford_open
+				clr_country_flag = lhl_ess_univesity_manchester_open
+				clr_country_flag = lhl_ess_univesity_bristol_open
+			}
+			lhl_ess_univesity_oxford_button_click = {
+				set_country_flag = lhl_ess_univesity_oxford_open
+				clr_country_flag = lhl_ess_univesity_cambridge_open
+				clr_country_flag = lhl_ess_univesity_brunel_open
+				clr_country_flag = lhl_ess_univesity_RCL_open
+				clr_country_flag = lhl_ess_univesity_ICL_open
+				clr_country_flag = lhl_ess_univesity_UCL_open
+				clr_country_flag = lhl_ess_univesity_manchester_open
+				clr_country_flag = lhl_ess_univesity_bristol_open
+			}
+			lhl_ess_univesity_manchester_button_click = {
+				set_country_flag = lhl_ess_univesity_manchester_open
+				clr_country_flag = lhl_ess_univesity_oxford_open
+				clr_country_flag = lhl_ess_univesity_cambridge_open
+				clr_country_flag = lhl_ess_univesity_brunel_open
+				clr_country_flag = lhl_ess_univesity_RCL_open
+				clr_country_flag = lhl_ess_univesity_ICL_open
+				clr_country_flag = lhl_ess_univesity_UCL_open
+				clr_country_flag = lhl_ess_univesity_bristol_open
+			}
+			lhl_ess_univesity_bristol_button_click = {
+				set_country_flag = lhl_ess_univesity_bristol_open
+				clr_country_flag = lhl_ess_univesity_manchester_open
+				clr_country_flag = lhl_ess_univesity_oxford_open
+				clr_country_flag = lhl_ess_univesity_cambridge_open
+				clr_country_flag = lhl_ess_univesity_brunel_open
+				clr_country_flag = lhl_ess_univesity_RCL_open
+				clr_country_flag = lhl_ess_univesity_ICL_open
+				clr_country_flag = lhl_ess_univesity_UCL_open
+			}
+		}
+		triggers = {
+			lhl_ess_univesity_UCL_button_visible = {
+				ESS = {
+					controls_state = 1160
+				}
+			}
+			lhl_ess_univesity_ICL_button_visible = {
+				ESS = {
+					controls_state = 1160
+				}
+			}
+			lhl_ess_univesity_RCL_button_visible = {
+				ESS = {
+					controls_state = 1160
+				}
+			}
+			lhl_ess_univesity_brunel_button_visible = {
+				ESS = {
+					controls_state = 1160
+				}
+			}
+			lhl_ess_univesity_cambridge_button_visible = {
+				ESS = {
+					controls_state = 1005
+				}
+			}
+			lhl_ess_univesity_oxford_button_visible = {
+				ESS = {
+					controls_state = 1153
+				}
+			}
+			lhl_ess_univesity_manchester_button_visible = {
+				ESS = {
+					controls_state = 1009
+				}
+			}
+			lhl_ess_univesity_bristol_button_visible = {
+				ESS = {
+					controls_state = 1006
+				}
+			}
+		}
+	}
+}
