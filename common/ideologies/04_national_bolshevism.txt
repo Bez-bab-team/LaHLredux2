@@ -19,7 +19,7 @@ ideologies = {
 			"FACTION_NAME_national_bolshevism_1"
 		}
 		
-		color = { 150 75 5 }
+		color = { 255 147 33 }
 		
 		war_impact_on_world_tension = 1
 		faction_impact_on_world_tension = 1

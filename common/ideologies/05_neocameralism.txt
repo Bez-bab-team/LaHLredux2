@@ -18,7 +18,7 @@ ideologies = {
 			"FACTION_NAME_neocameralism_1"
 		}
 		
-		color = { 240 240 240 }
+		color = { 223 248 252 }
 		
 		war_impact_on_world_tension = 1
 		faction_impact_on_world_tension = 1

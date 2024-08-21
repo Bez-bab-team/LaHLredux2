@@ -18,7 +18,7 @@ ideologies = {
 			"FACTION_NAME_hegemonism_1"
 		}
 		
-		color = { 90 135 200 }
+		color = { 0 145 224 }
 		
 		war_impact_on_world_tension = 1.95
 		faction_impact_on_world_tension = 1.95
