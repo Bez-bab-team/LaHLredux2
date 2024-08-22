@@ -13,7 +13,7 @@ ideologies = {
 			"FACTION_NAME_commendationism_1"
 		}
 		
-		color = { 254 0 126 }
+		color = { 184 12 40 }
 		
 		war_impact_on_world_tension = 2
 		faction_impact_on_world_tension = 2

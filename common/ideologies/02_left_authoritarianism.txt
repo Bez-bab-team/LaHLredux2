@@ -11,7 +11,7 @@ ideologies = {
 			"FACTION_NAME_left_authoritarianism_1"
 		}
 		
-		color = { 255 36 175 }
+		color = { 218 67 86 }
 		
 		war_impact_on_world_tension = 1
 		faction_impact_on_world_tension = 1

@@ -17,7 +17,7 @@ ideologies = {
 			"FACTION_NAME_socialism_1"
 		}
 		
-		color = { 254 136 163 }
+		color = { 221 140 138 }
 		
 		war_impact_on_world_tension = 1
 		faction_impact_on_world_tension = 1
