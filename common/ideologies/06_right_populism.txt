@@ -16,7 +16,7 @@ ideologies = {
 			"FACTION_NAME_natpop_1"
 		}
 		
-		color = { 0 177 222 }
+		color = { 122 201 221 }
 		
 		war_impact_on_world_tension = 1
 		faction_impact_on_world_tension = 1
