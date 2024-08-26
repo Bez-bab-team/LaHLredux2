@@ -1,0 +1,42 @@
+spriteTypes = {
+	#UNIVERSITIES BUTTONS#
+	spriteType = {
+		name = "GFX_lhl_ESS_university_UCL_coat"
+		textureFile = "gfx/interface/scripted_guis/ESS_universities/ESS_university_UCL_logo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_lhl_ESS_university_ICL_coat"
+		textureFile = "gfx/interface/scripted_guis/ESS_universities/ESS_university_ICL_logo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_lhl_ESS_university_RCL_coat"
+		textureFile = "gfx/interface/scripted_guis/ESS_universities/ESS_university_RCL_logo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_lhl_ESS_university_brunel_coat"
+		textureFile = "gfx/interface/scripted_guis/ESS_universities/ESS_university_brunel_logo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_lhl_ESS_university_cambridge_coat"
+		textureFile = "gfx/interface/scripted_guis/ESS_universities/ESS_university_cambridge_logo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_lhl_ESS_university_oxford_coat"
+		textureFile = "gfx/interface/scripted_guis/ESS_universities/ESS_university_oxford_logo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_lhl_ESS_university_manchester_coat"
+		textureFile = "gfx/interface/scripted_guis/ESS_universities/ESS_university_manchester_logo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_lhl_ESS_university_bristol_coat"
+		textureFile = "gfx/interface/scripted_guis/ESS_universities/ESS_university_bristol_logo.dds"
+	}
+}

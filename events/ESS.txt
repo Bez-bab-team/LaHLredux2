@@ -327,6 +327,7 @@ country_event = { ###Direct Choice###
 		    ESS = {
 				retire_country_leader = yes
 				set_country_flag = ESS_nick_here
+				clr_country_flag = ENG_mosley_here
 				}
 			}
 
@@ -338,6 +339,8 @@ country_event = { ###Direct Choice###
 				set_politics = {
 					ruling_party = socialism
 				}
+				set_country_flag = ESS_dawkins_here
+				clr_country_flag = ENG_mosley_here
 			}
 	}
 		
@@ -1288,7 +1291,92 @@ country_event = {
 	}	
 }		
 	
-	
+
+country_event = { 
+	id = ESS_event.46
+	title = ESS_event.46.t
+	desc = ESS_event.46.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ESS_event.46"}
+	is_triggered_only = yes
+	hidden = yes
+	picture = GFX_
+	option = {
+		name = ESS_event.46.a
+		add_ideas = ESS_employment_rush_research
+		remove_idea = ESS_employment_rush_infrastracture
+		ESS = {
+			country_event = {
+				days = 90
+				id = ESS_event.47
+			}
+		}
+	}	
+}
+
+country_event = { 
+	id = ESS_event.47
+	title = ESS_event.47.t
+	desc = ESS_event.47.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ESS_event.47"}
+	is_triggered_only = yes
+	hidden = yes
+	picture = GFX_
+	option = {
+		name = ESS_event.47.a
+		add_ideas = ESS_employment_rush_civil_production
+		remove_idea = ESS_employment_rush_research
+		ESS = {
+			country_event = {
+				days = 90
+				id = ESS_event.48
+			}
+		}
+	}	
+}		
+
+
+country_event = { 
+	id = ESS_event.48
+	title = ESS_event.48.t
+	desc = ESS_event.48.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ESS_event.48"}
+	is_triggered_only = yes
+	hidden = yes
+	picture = GFX_
+	option = {
+		name = ESS_event.48.a
+		add_ideas = ESS_employment_rush_mil_production
+		remove_idea = ESS_employment_rush_civil_production
+		ESS = {
+			country_event = {
+				days = 90
+				id = ESS_event.48
+			}
+		}
+	}	
+}
+
+country_event = { 
+	id = ESS_event.49
+	title = ESS_event.49.t
+	desc = ESS_event.49.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ESS_event.49"}
+	is_triggered_only = yes
+	hidden = yes
+	picture = GFX_
+	option = {
+		name = ESS_event.49.a
+		add_ideas = ESS_employment_rush_research
+		remove_idea = ESS_employment_rush_mil_production
+		ESS = {
+			country_event = {
+				days = 90
+				id = ESS_event.46
+			}
+		}
+	}	
+}
+
 country_event = {
 	id = ESS_event.666
 	title = ESS_event.666.t

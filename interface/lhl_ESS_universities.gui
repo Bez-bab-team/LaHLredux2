@@ -1,0 +1,87 @@
+guiTypes = {
+	containerWindowType = {
+		name = "lhl_ess_dawkins_universities_screen_full"
+		size = { width = 1000 height = 250 }
+		position = { x = 150 y = 0 }
+		scale = 0.66
+		moveable = no
+		clipping = yes
+	
+	#UNIVERSITIES BUTTONS#
+		buttonType = {
+			name = "lhl_ess_univesity_UCL_button"
+			spriteType = "GFX_lhl_ESS_university_UCL_coat"
+			pdx_tooltip = "ess_univesity_UCL_button_tt"
+			position = { x = 30 y = 65}
+		}
+		
+		buttonType = {
+			name = "lhl_ess_univesity_ICL_button"
+			spriteType = "GFX_lhl_ESS_university_ICL_coat"
+			pdx_tooltip = "ess_univesity_ICL_button_tt"
+			position = { x = 130 y = 65}
+		}
+		
+		buttonType = {
+			name = "lhl_ess_univesity_RCL_button"
+			spriteType = "GFX_lhl_ESS_university_RCL_coat"
+			pdx_tooltip = "ess_univesity_RCL_button_tt"
+			position = { x = 230 y = 65}
+		}
+		
+		buttonType = {
+			name = "lhl_ess_univesity_brunel_button"
+			spriteType = "GFX_lhl_ESS_university_brunel_coat"
+			pdx_tooltip = "ess_univesity_brunel_button_tt"
+			position = { x = 330 y = 65}
+		}
+		
+		buttonType = {
+			name = "lhl_ess_univesity_cambridge_button"
+			spriteType = "GFX_lhl_ESS_university_cambridge_coat"
+			pdx_tooltip = "ess_univesity_cambridge_button_tt"
+			position = { x = 430 y = 65}
+		}
+		
+		buttonType = {
+			name = "lhl_ess_univesity_oxford_button"
+			spriteType = "GFX_lhl_ESS_university_oxford_coat"
+			pdx_tooltip = "ess_univesity_oxford_button_tt"
+			position = { x = 530 y = 65}
+		}
+		
+		buttonType = {
+			name = "lhl_ess_univesity_manchester_button"
+			spriteType = "GFX_lhl_ESS_university_manchester_coat"
+			pdx_tooltip = "ess_univesity_manchester_button_tt"
+			position = { x = 630 y = 65}
+		}
+		
+		buttonType = {
+			name = "lhl_ess_univesity_bristol_button"
+			spriteType = "GFX_lhl_ESS_university_bristol_coat"
+			pdx_tooltip = "ess_univesity_bristol_button_tt"
+			position = { x = 30 y = 185 }
+		}
+		
+		instantTextboxType = {
+			name = "lhl_ess_university_title"
+			position = { x = 0 y = 0 }
+			font = "hoi_36header"
+			text = "ESS_UNIVERSITY_NAME"
+			format = centre
+			maxWidth = 750
+			maxHeight = 56
+		}
+		
+		instantTextboxType = {
+			name = "lhl_ess_university_budget"
+			position = { x = 0 y = 250 }
+			font = "hoi_36header"
+			text = "ESS_UNIVERSITY_BUDGET"
+			format = centre
+			maxWidth = 750
+			maxHeight = 56
+		}
+	}
+}

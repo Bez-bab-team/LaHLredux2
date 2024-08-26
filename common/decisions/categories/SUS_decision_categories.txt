@@ -24,7 +24,7 @@ SUS_socecon = {
 SUS_pillars = {
 	icon = GFX
 	picture = GFX
-	allowed = { original_tag = SUS }
+	allowed = { original_tag = SUS }		
 	visible_when_empty = yes
 	scripted_gui = SUS_labour_pillars_gui
 	visible = {

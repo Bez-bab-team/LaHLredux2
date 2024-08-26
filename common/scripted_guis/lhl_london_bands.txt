@@ -118,18 +118,23 @@ scripted_gui = {
 			##Dawkins##
 			lhl_ess_central_region_dawkins_visible = {
 				has_country_flag = ESS_dawkins_here
+				has_completed_focus = ESS_reopen_thames
 		    }
 			lhl_ess_south_east_region_dawkins_visible = {
 				has_country_flag = ESS_dawkins_here
+				has_completed_focus = ESS_debandify_the_government
 		    }
 			lhl_ess_south_west_region_dawkins_visible = {
 				has_country_flag = ESS_dawkins_here
+				has_completed_focus = ESS_punks_are_dead
 		    }
 			lhl_ess_north_west_region_dawkins_visible = {
 				has_country_flag = ESS_dawkins_here
+				has_completed_focus = ESS_debandify_the_government
 		    }
 			lhl_ess_north_east_region_dawkins_visible = {
 				has_country_flag = ESS_dawkins_here
+				has_completed_focus = ESS_punks_are_dead
 		    }
 			lhl_block_visible = {
 				has_global_flag = ENG_Mosley_is_dead
