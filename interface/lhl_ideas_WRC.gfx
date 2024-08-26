@@ -1,0 +1,41 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_ESS_nick_land"
+		texturefile = "gfx/interface/ideas/ESS/idea_ESS_nick_land.dds"
+	}
+	#Advisors#
+	spriteType = {
+		name = "GFX_idea_ESS_Richard_Dawkins"
+		texturefile = "gfx/interface/ideas/ESS/idea_ESS_Richard_Dawkins.dds"
+	}
+	#trait#
+	spriteType = {
+		name = "GFX_trait_military_specialist"
+		texturefile = "gfx/interface/traits/trait_military_specialist.dds"
+	}
+	#Ideas#	
+	spriteType = {
+		name = "GFX_idea_WRC_beijing_uprising"
+		texturefile = "gfx/interface/ideas/WRC/idea_WRC_beijing_uprising.dds"
+	}
+	#Ideas#	
+	spriteType = {
+		name = "GFX_idea_WRC_long_live_the_sino_soviet_friendship"
+		texturefile = "gfx/interface/ideas/WRC/idea_WRC_long_live_the_sino_soviet_friendship.dds"
+	}
+	#Ideas#	
+	spriteType = {
+		name = "GFX_idea_WRC_the_suspended_rectification_movement"
+		texturefile = "gfx/interface/ideas/WRC/idea_WRC_the_suspended_rectification_movement.dds"
+	}
+	#Ideas#	
+	spriteType = {
+		name = "GFX_idea_WRC_whistleblower_revolution"
+		texturefile = "gfx/interface/ideas/WRC/idea_WRC_whistleblower_revolution.dds"
+	}
+	
+}
+
+
+

@@ -1,0 +1,69 @@
+defined_text = {
+	name = GetPRCGeneralSecretary
+	text = {
+		localization_key = GUD_Li_Yuanchao_desc
+	}
+}
+
+defined_text = {
+	name = GetPRCStateCouncil
+	text = {
+		localization_key = SHA_Pan_Weiming_desc
+	}
+}
+
+defined_text = {
+	name = GetPRCNPCSC
+	text = {
+		localization_key = GUD_Yu_Zhengsheng_desc
+	}
+}
+
+defined_text = {
+	name = GetPRCCPPCC
+	text = {
+		localization_key = SHA_Meng_Jianzhu_desc
+	}
+}
+
+defined_text = {
+	name = GetPRCabinet1
+	text = {
+		localization_key = CHQ_Bo_Xilai_desc
+	}
+}
+
+defined_text = {
+	name = GetPRCabinet1Name
+	text = {
+		localization_key = prc_cabinet_1_name_1_desc
+	}
+}
+
+defined_text = {
+	name = GetPRCabinet1Desc
+	text = {
+		localization_key = prc_cabinet_1_ccdi_desc
+	}
+}
+
+defined_text = {
+	name = GetPRCabinet2
+	text = {
+		localization_key = GUD_Zhu_Jiaming_desc
+	}
+}
+
+defined_text = {
+	name = GetPRCabinet2Name
+	text = {
+		localization_key = prc_cabinet_2_name_1_desc
+	}
+}
+
+defined_text = {
+	name = GetPRCabinet2Desc
+	text = {
+		localization_key = prc_cabinet_2_state_council_vice_desc
+	}
+}

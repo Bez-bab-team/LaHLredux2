@@ -1,0 +1,74 @@
+ideas = {
+
+	country = {
+	
+		WRC_beijing_uprising = {
+			
+			picture = GFX_idea_WRC_beijing_uprising
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.01
+				war_support_factor = -0.1
+				socialism_drift = 0.03
+				left_authoritarianism_drift = 0.01
+			}
+		}
+		
+		WRC_long_live_the_sino_soviet_friendship = {
+			
+			picture = GFX_idea_WRC_long_live_the_sino_soviet_friendship
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+				planning_speed = 0.1
+				war_support_factor = 0.03
+			}
+	}
+	
+		WRC_the_suspended_rectification_movement = {
+			
+			picture = GFX_idea_WRC_the_suspended_rectification_movement
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.4
+				political_power_factor = -0.2
+			}
+	}
+	
+		WRC_whistleblower_revolution = {
+			
+			picture = GFX_idea_WRC_whistleblower_revolution
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.2
+				right_populism_drift = 0.03
+				national_bolshevism_drift = 0.01
+			}
+	}
+}
+	
+	

@@ -1,0 +1,18 @@
+add_namespace = gud
+
+country_event = {
+	id = gud.1
+	title = prctest.1.t
+	desc = prctest.1.d
+    is_triggered_only = yes
+	
+	option = { 
+		name = prctest.1.a
+		GUD = {
+            set_variable = {
+                global.prc_state_council_influence_temp = 5
+            }
+            PRC_influence_state_council = yes
+        }
+    }
+}

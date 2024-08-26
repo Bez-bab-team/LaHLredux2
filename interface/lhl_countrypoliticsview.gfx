@@ -69,4 +69,19 @@ spriteTypes = {
 		name = "GFX_ideology_GOR_left_authoritarianism_group"
 		texturefile = "gfx/interface/ideologies/unique/GOR/gorshok_paternalism.dds"
 	}
+
+	spriteType = {
+		name = "GFX_ideology_WRC_national_bolshevism_group"
+		texturefile = "gfx/interface/ideologies/unique/WRC/national_maoism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_GUD_socialism_group"
+		texturefile = "gfx/interface/ideologies/unique/GUD/yaobang_spirit.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SHA_socialism_group"
+		texturefile = "gfx/interface/ideologies/unique/GUD/yaobang_spirit.dds"
+	}
 }

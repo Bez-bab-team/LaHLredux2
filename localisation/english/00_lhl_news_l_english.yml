@@ -74,7 +74,13 @@
  lhl_news.46.t:0 "Nationalists have fallen!"
  lhl_news.46.d:0 "The nationalist faction of the British Civil War, led by the various gangs has been defeated!"
  lhl_news.46.a:0 "Like father, like son"
- 
+ #
+ lhl_news.47.t:0 "Li Yuanchao Resignation"
+ lhl_news.47.d:0 "On the occasion of the Chinese New Year, President Li Yuanchao announced his resignation as the Chairman of the Huanan Administrative Committee. Shortly thereafter, Premier Pan Weiming also announced his resignation as the Chairman of the Huadong Administrative Committee. This signals their simultaneous withdrawal from the spotlight. However, due to the indefinite postponement of the Central Committee plenary session, both individuals will maintain their responsibilities on the Politburo Standing Committee. Following Pan's resignation, Shanghai promptly elected Han Zheng as the Chairman of Huadong, while Guangzhou has yet to reach a decision. Meanwhile, Bo Xilai, the Chairman of the Xinan Administrative Committee in Chongqing, has not made any response to this matter."
+ #
+ lhl_news.48.t:0 "Workers' Day Escalation in Beijing"
+ lhl_news.48.d:0 "After the deaths of 13 protesters in the Tangshan Massacre, and in response to the Solidary Government's indifferent attitude towards the demands of protesters and its delayed decision-making on handling the Beijing Uprising, the Defend Mao Zedong Thought Headquarters officially formed on Labor Day after uniting all protest groups in the Beijing area. The leftist groups proclaimed that the government had violated Mao Zedong Thought and publicly declared that they would never abandon the opportunity for armed struggle in critical moments, indicating their likely control over militia organizations. Akin to a declaration of war, this announcement heralds the inevitable arrival of a bloody event."
+ lhl_news.48.a:0 "State of emergency, preparing to send the armies"
  #TEMPORARY# 
  ##POLITICAL REGIME#
  political_regime:0 "§YPolitical Regime§!"

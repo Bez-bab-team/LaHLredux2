@@ -1,0 +1,15 @@
+PRC_leaders = {
+	icon = GFX_
+
+	allowed = { 
+        OR = {
+            tag = GUD 
+            tag = SHA 
+            tag = CHQ 
+            tag = XIJ
+        } 
+    }
+
+	scripted_gui = lhl_PRC_leaders_screen_body
+	visible_when_empty = yes
+}

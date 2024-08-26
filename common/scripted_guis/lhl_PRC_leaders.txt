@@ -1,0 +1,12 @@
+scripted_gui = {
+
+	lhl_PRC_leaders_screen_body = {
+		context_type = decision_category
+		window_name = "lhl_PRC_leaders"
+
+		visible = {
+			tag = { GUD SHA CHQ XIJ}
+		}
+	}
+	
+}

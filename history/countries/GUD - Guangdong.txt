@@ -24,6 +24,6 @@ create_country_leader = {
 	name = "Li Yuanchao"
 	picture = "Portrait_GUD_Li_Yuanchao.dds"
 	expire = "1960.1.1"
-	ideology = progressivism
+	ideology = yaobang_spirit
 	traits = {
 }

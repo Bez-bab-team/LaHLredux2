@@ -1,0 +1,30 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_prc_general_secretary_icon"
+		textureFile = "gfx/interface/scripted_guis/PRC_leaders/Portrait_PRC_General_Secretary.dds"
+	}
+	spriteType = {
+		name = "GFX_prc_state_council_icon"
+		textureFile = "gfx/interface/scripted_guis/PRC_leaders/Portrait_PRC_State_Council.dds"
+	}
+	spriteType = {
+		name = "GFX_prc_npcsc_icon"
+		textureFile = "gfx/interface/scripted_guis/PRC_leaders/Portrait_PRC_NPCSC.dds"
+	}
+	spriteType = {
+		name = "GFX_prc_secretariat_icon"
+		textureFile = "gfx/interface/scripted_guis/PRC_leaders/Portrait_PRC_Secretariat.dds"
+	}
+	spriteType = {
+		name = "GFX_prc_cppcc_icon"
+		textureFile = "gfx/interface/scripted_guis/PRC_leaders/Portrait_PRC_CPPCC.dds"
+	}
+    spriteType = {
+		name = "GFX_prc_cabinet_1_icon"
+		textureFile = "gfx/interface/scripted_guis/PRC_leaders/Portrait_PRC_Cabinet_1.dds"
+	}
+    spriteType = {
+		name = "GFX_prc_cabinet_2_icon"
+		textureFile = "gfx/interface/scripted_guis/PRC_leaders/Portrait_PRC_Cabinet_2.dds"
+	}
+}

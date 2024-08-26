@@ -1,0 +1,59 @@
+﻿capital = 415
+
+oob = "WRC_2020"
+
+set_technology = {
+	infantry_equipment = 1
+	
+	
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = national_bolshevism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	millenarism = 4
+	commendationism = 12
+	left_authoritarianism = 10
+	socialism = 2
+	neocameralism = 15
+	national_bolshevism = 43
+	right_populism = 2
+	hegemonism = 6
+	regressionism = 2
+	ur_fascism = 4
+	
+}
+country_event = {
+	id = WRC_event.1  
+	days = 154
+}
+
+##CHARACTERS##
+#leader#
+recruit_character = WRC_kong_qingdong
+recruit_character = WRC_liu_cixin
+recruit_character = WRC_sima_nan
+recruit_character = WRC_zhang_hongliang
+recruit_character = WRC_various
+recruit_character = WRC_ling_jihua
+recruit_character = WRC_guo_wengui
+recruit_character = WRC_aleksandr_averin
+recruit_character = WRC_jia_pingwa
+recruit_character = WRC_jiang_qing
+
+#generals#
+
+#advisers#
+
+add_ideas = {
+	WRC_beijing_uprising
+	WRC_long_live_the_sino_soviet_friendship
+	WRC_the_suspended_rectification_movement
+	WRC_whistleblower_revolution
+}

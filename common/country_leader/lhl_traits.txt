@@ -3250,7 +3250,7 @@ leader_traits = {
 	}
 ##IDEAS_SWEDEN##
 
-##NORTHEAST_CHINA##
+##CHINA##
 ##LEADERS_FALUN_STATE##
     great_enlightener = { #Li_Hongzhi#
 
@@ -3301,6 +3301,14 @@ leader_traits = {
          }
     }
 ##IDEAS_MANCHUKUO##
+
+##LEADERS_WRC###
+    kong_the_monk = { #kong qingdong#
+
+         ai_will_do = {
+             factor = 1
+         }
+    }
 
 ###GENERIC_IDEAS###
 
