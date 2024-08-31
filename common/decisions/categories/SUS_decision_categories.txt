@@ -286,3 +286,11 @@ SUS_king_prestige_game = {
 	}
 	visible_when_empty = yes
 }
+
+SUS_superweapon_blackout = { 
+	icon = GFX_
+
+	allowed = { original_tag = SUS }
+
+	visible_when_empty = no
+}

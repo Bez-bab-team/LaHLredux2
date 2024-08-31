@@ -430,6 +430,86 @@ defined_text = {
 }
 
 defined_text = {
+	name = GetSUSEMission2Stage
+	text = {
+		trigger = {
+			has_country_flag = lhl_SUS_espionage_mission_2_selected
+			NOT = {
+				has_country_flag = SUS_espionage_stage_1_complete
+				has_country_flag = SUS_espionage_stage_2_complete
+				has_country_flag = SUS_espionage_stage_3_complete
+				has_country_flag = SUS_espionage_stage_4_complete
+				has_country_flag = SUS_espionage_stage_5_complete
+			}
+		}
+		localization_key = SUS_espionage_mission_2_stage_0
+	}
+	text = {
+		trigger = {
+			has_country_flag = lhl_SUS_espionage_mission_2_selected
+			has_country_flag = SUS_espionage_stage_1_complete
+			NOT = {
+				has_country_flag = SUS_espionage_stage_2_complete
+				has_country_flag = SUS_espionage_stage_3_complete
+				has_country_flag = SUS_espionage_stage_4_complete
+				has_country_flag = SUS_espionage_stage_5_complete
+			}
+		}
+		localization_key = SUS_espionage_mission_2_stage_1
+	}
+	text = {
+		trigger = {
+			has_country_flag = lhl_SUS_espionage_mission_2_selected
+			has_country_flag = SUS_espionage_stage_1_complete
+			has_country_flag = SUS_espionage_stage_2_complete
+			NOT = {
+				has_country_flag = SUS_espionage_stage_3_complete
+				has_country_flag = SUS_espionage_stage_4_complete
+				has_country_flag = SUS_espionage_stage_5_complete
+			}
+		}
+		localization_key = SUS_espionage_mission_2_stage_2
+	}
+	text = {
+		trigger = {
+			has_country_flag = lhl_SUS_espionage_mission_2_selected
+			has_country_flag = SUS_espionage_stage_1_complete
+			has_country_flag = SUS_espionage_stage_2_complete
+			has_country_flag = SUS_espionage_stage_3_complete
+			NOT = {
+				has_country_flag = SUS_espionage_stage_4_complete
+				has_country_flag = SUS_espionage_stage_5_complete
+			}
+		}
+		localization_key = SUS_espionage_mission_2_stage_3
+	}
+	text = {
+		trigger = {
+			has_country_flag = lhl_SUS_espionage_mission_2_selected
+			has_country_flag = SUS_espionage_stage_1_complete
+			has_country_flag = SUS_espionage_stage_2_complete
+			has_country_flag = SUS_espionage_stage_3_complete
+			has_country_flag = SUS_espionage_stage_4_complete
+			NOT = {
+				has_country_flag = SUS_espionage_stage_5_complete
+			}
+		}
+		localization_key = SUS_espionage_mission_2_stage_4
+	}
+	text = {
+		trigger = {
+			has_country_flag = lhl_SUS_espionage_mission_2_selected
+			has_country_flag = SUS_espionage_stage_1_complete
+			has_country_flag = SUS_espionage_stage_2_complete
+			has_country_flag = SUS_espionage_stage_3_complete
+			has_country_flag = SUS_espionage_stage_4_complete
+			has_country_flag = SUS_espionage_stage_5_complete
+		}
+		localization_key = SUS_espionage_mission_2_stage_5
+	}
+}
+
+defined_text = {
 	name = GetSUSSenateTrust
 	text = {
 		trigger = {

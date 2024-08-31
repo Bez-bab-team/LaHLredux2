@@ -131,6 +131,22 @@ ideas = {
 	}
 
 	country = {
+		SUS_superweapon_blackout_effect = {
+			picture = SUS_blackout
+				
+			allowed = {
+				always = no
+			}
+				
+			removal_cost = -1
+
+			modifier = {
+				army_speed_factor = -1.0
+				planning_speed = -1.5
+				research_speed_factor = -5.0
+				stability_factor = -0.5
+			}
+		}
 		SUS_socecon_production_buff = {
 			modifier = {
 				production_factory_efficiency_gain_factor = 0.25
@@ -1642,6 +1658,7 @@ SUS_land_forces_war_support = {
 			
 		}
 	}
+
 	hidden_ideas = {
 		SUS_initial_push = {
 			allowed = { original_tag = SUS }

@@ -215,3 +215,29 @@ soundeffect = {
 	}
 	volume = 1
 }
+
+soundeffect = {
+	name = "SUS_superweapon_cancelled_sound_1"
+	sounds = {
+		sound = "SUS_superweapon_cancelled_sound"
+	}
+	volume = 1
+}
+
+soundeffect = {
+	name = "SUS_superweapon_target_sound_1"
+	sounds = {
+		sound = "SUS_superweapon_target_sound"
+	}
+	volume = 1
+}
+
+soundeffect = {
+	name = "SUS_superweapon_blackout_sound_1"
+	sounds = {
+		sound = "SUS_superweapon_blackout_sound"
+	}
+	volume = 1
+}
+
+
