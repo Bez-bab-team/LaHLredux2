@@ -1,11 +1,14 @@
 ﻿l_english:
  ##LEADERS##
+ UST_aleksandr_lukashenko:0 "Aleksandr Lukashenko"
+ POLITICS_LUKASHENKO_DESC:0 "§YBiography:§! §WIn 1998 he surrendered the presidency, because they promised him unity. In 2000 they guaranteed he would inherit the new Union State, when the decrepit Limonov lost his power. In 2004 they assured him Letov needed one more term to stabilize the country. In 2008 they swore Medvedev's Viktory was as surprising for them, as it was for him. It kept going.\n\nFalse promises and platitudes of Dugin and his cronies filled the ears of Alexandr Grigor’evich Lukashenko for the last thirty years - each little lie sweeter than the next - and yet Moscow never figured out Alexander stopped believing them decades ago. Behind the backs of Eurasian elites, Lukashenko has been gathering loyal forces within the border of Belarus, biding his time for the next "big promise". When Jegor Letov tragically died in 2019, Lukashenko made his demands to Moscow clear - he was to become the next leader of the nation, just like it was supposed to happen all those years ago. When the Eurasian clique had the audacity to once again refuse him, the former president of Belarus moved his forces towards the capital and only the bravery of Vladimir Putin, director of Rosgvardiya managed to prevent Lukashenko from seizing Moscow.\n\nNow, with the frontlines stagnating and Eurasia continuing to decompose into more rivaling cliques, Alexander Lukashenko once again bides his time, replenishing the losses of the first campaign and planning his next move. When the time comes, the legendary Bat'ka shall move east - dismantling the corrupt Eurasia and uniting its former lands into a new Union State, with him finally riding at the helm.§!"
  ##POLITICAL_PARTIES##
  UST_left_authoritarianism_party:0 "Union Government"
  ##COUNTRY_NAME##
  UST_left_authoritarianism:0 "Union State"
  UST_left_authoritarianism_DEF:0 "The Union State"
  ##TRAITS##
+ leviathan:0 "Leviathan"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##

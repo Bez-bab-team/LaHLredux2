@@ -1,10 +1,13 @@
 ﻿l_english:
  ##LEADERS##
+ IRK_dmitry_zhvania:0 "Dmitrij Zhvania"
+ POLITICS_ZHVANIA_DESC:0 "§YBiography:§! §WOnce thrown around between various groups of revolutionaries, Dmitrij Zhvania has firmly tied his life to the endless struggle in the name of Russia and her people, against the Tsars, against the Party, against the very concept of a modern state that hindered the hidden power of a true Russian man. Though initially a trotskyist, he quickly applied his journalism skills in service of the NBP after their victory in the 1996 elections, directing several communist and ultranationalist newspapers that managed to secure a large portion of Eurasian media space.\n\nHowever, his convictions began to shatter after the duet of Limonov and Letov began to drift apart. Initially praising Letov as a revolutionary figure, the expulsion of Limonov, Aijo, Linderman, and other "revolutionaries" opened his eyes that the Solar Vozhd was nothing but a puppet. In light of this, he quickly abandoned his hardline totalitarianism and decided to return to square one: Anarchism. As the Eurasian Civil War began, Zhvania and the other revolutionary members of NBP moved from Moscow to the Far East to the seemingly ideologically friendly republic under Jevgenij Fedorov. The leader of pro-Letov militias didn't give them a warm welcome - gripped by paranoia and an intent to exterminate all enemies of the late Solar Vozhd - Fyodorov sent a punitive expedition to Irkutsk, aiming to wipe out the anarchists.\n\nThis however, was not to be - as soon as the "Civil Defence" units moved through Irkutsk streets, Zhvaniya in an alliance with the Popular Resistance Association managed to rile up the people, trap and destroy Fyodorov's forces, and secure the area West of Baikal as his personal fiefdom. With Fyodorov's realm in shambles and Eurasia entering into a new stage of civil war, Zhvania can finally realize his hopes of a truly free Russia, devoid of leaderism, corruption, and capitalism.§!"
  ##POLITICAL PARTIES##
  ##COUNTRY NAME##
  IRK_national_bolshevism:0 "Revolutionary Republic of Irkutsk"
  IRK_national_bolshevism_DEF:0 "Revolutionary Republic of Irkutsk"
  ##TRAITS##
+ thunderbird:0 "Thunderbird"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##

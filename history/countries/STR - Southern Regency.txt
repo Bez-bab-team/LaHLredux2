@@ -1,6 +1,6 @@
 ﻿capital = 14
 
-oob = "RST_2020"
+oob = "STR_2020"
 
 set_research_slots = 3
 set_stability = 0.5
@@ -22,6 +22,10 @@ set_popularities = {
 	millenarism  = 100
 }
 
+##CHARACTERS##
+#leaders#
+recruit_character = STR_igor_talkov
+
 add_ai_strategy = {
     type = alliance
     id = COU
@@ -40,12 +44,3 @@ add_ai_strategy = {
     value = 200
 }
 
-create_country_leader = {
-	name = "Igor Tal'kov"
-	desc = ""
-	picture = "Portrait_STR_Igor_Talkov.dds"
-	ideology = ethical_millennialism
-	traits = {
-		
-	}
-}

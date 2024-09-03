@@ -1,5 +1,8 @@
 ﻿l_english:
  ##LEADERS##
+ RGD_vladimir_putin:0 "Vladimir Putin"
+ RGD_dmitrij_enteo:0 "Dmitrij Enteo"
+ POLITICS_PUTIN_DESC:0 "§YBiography:§! §WThe name of Vladimir Vladimirovich Putin is well-known amongst the citizens of Eurasia. A former unremarkable KGB agent, Putin has quickly risen under the national-bolshevik regime, becoming the head of Rosgvardiya - an internal military force of the country. Vladimir Vladimirovich has proven himself to be very useful, dealing with newly annexed territories of the growing Eurasian empire, as well as loyal - when he helped to dismantle the ambitious presidency of Dmitrij Medvedev. Putin's success granted him a vast network of connections in every single sphere of Eurasian society and government - the FSB, the church, the mass media, the military and even some amongst the many ethnic minorities of the Northern Caucasus. Nevertheless, his greatest achievement was yet to come.\n\nWhen Alexandr Lukashenko moved his forces towards Moscow, it was Vladimir Putin and his Rosgvardiya that stopped the usurper from taking over the capital. Just barely was he able to stabilize the frontlines and save the Eurasian state from destruction.\n\nAnd then he just left. For unknown reasons, Vladimir Putin cut off all contact with loyalist forces, led his armies towards Southern Russia and established his own provisional government in the area. Some claim he was disappointed in the never-ending political bickering of the Moscow elites, others call it a temporary retreat to replenish the military force after the battle with Lukashenko. Few claim in hushed whispers that Vladimir Putin was replaced with an identical copy under the control of mysterious powers.\n\nNevertheless, Vladimir Vladimirovich Putin now has most of the Caucuses under his command. Nobody knows what to expect from him, but one thing is certain - the director of Rosgvardiya is capable of anything, when he sets his mind to it.§!"
  ##POLITICAL PARTIES##
  RGD_millenarism_party:0 "Jehovah's Witnesses"
  RGD_commendationism_party_long:0 "Communist Party of the Eurasian Union"
@@ -26,7 +29,7 @@
  RGD_ur_fascism:0 "Ouranopolis"
  RGD_ur_fascism_DEF:0 "Ouranopolis"
  ##TRAITS##
- possessed:0 "Possessed"
+ possessed:0 "Janus"
  ##IDEAS##
  RGD_Konstantin_Sjomin:0 "Konstantin Sjomin"
  ##FOCUS TREES##

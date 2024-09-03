@@ -1,0 +1,16 @@
+state={
+	id=1361
+	name="STATE_1361"
+	provinces={
+		542 2276 3231 3300 5675 8669 9688 11237 11242 21438 21439 21867 21869 
+	}
+	history={
+		owner = COU
+		add_core_of = COU
+
+	}
+	state_category=pastoral
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

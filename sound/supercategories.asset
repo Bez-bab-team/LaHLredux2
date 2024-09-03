@@ -37,6 +37,9 @@ category = {
 	name = "Other Sounds"
 	soundeffects = {
 		SUS_monitor_sound_1
+		SUS_superweapon_cancelled_sound_1
+		SUS_superweapon_target_sound_1
+		SUS_superweapon_blackout_sound_1
 	}
 	compressor = master_compressor
 }

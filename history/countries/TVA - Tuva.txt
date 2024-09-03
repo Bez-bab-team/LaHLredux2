@@ -12,15 +12,12 @@ set_politics = {
 	ruling_party = hegemonism
 	elections_allowed = no
 }
+
+##CHARACTERS##
+#leaders#
+recruit_character = TVA_sergej_shojgu
+
 set_popularities = {
 	hegemonism = 100
 }
 
-create_country_leader = {
-	name = "Sergej Shojgu"
-	picture = "Portrait_TVA_Sergej_Shojgu.dds"
-	ideology = stratocracy 
-	traits = {
-		warrior_code
-	}
-}

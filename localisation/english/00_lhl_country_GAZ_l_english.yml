@@ -1,13 +1,15 @@
 ﻿l_english:
  ##LEADERS##
+ POLITICS_FOMENKO_DESC:0 "§YBiography:§! §WFor Anatolij Timofeevich Fomenko, life has always been about science and its application in the everyday life of mankind. A noted genius since young age, Fomenko grew and developed natural skills in math and geometry, eventually expanding his field of knowledge to the whole of technical sciences. What made him famous, however, was his concept of the "New Chronology" - a theory that the current historical progression has been uprooted and falsified to erase the legacy of the ancient Rus civilization that once spanned throughout the entirety of Eurasia.\n\nThough meeting the collapse of the Union in sound mind, he has convinced many of his colleagues in the scientific community to vote for the fledgling National-Bolsheviks, either out of some awakened passion or in hopes that the young radicals will reward him and elevate his works. The new authorities were quite hesitant, but Jegor Letov nonetheless granted him a leading position in the Eurasian Academy of Sciences. From there, Fomenko came into the possession of unlimited resources and pushed himself to advance Eurasian technological progress.\n\nThe sudden death of Letov and collapse of Eurasia caught Anatolij Fomenko on a geological expedition to Yugra, surrounded on all sides by rapidly deteriorating infrastructure, famine, and anarchy. Cut off from the Eurasian government in the west by the self-proclaimed "Worker's Republic" and with the administration in shambles, the local militias and army remnants quickly placed Fomenko into the helms of power, hoping he will be able to stabilize the situation. Now, with a bright albeit unorthodox mind on top, Russia shall know the true singularity of man and metal, wasteful politics and business subjugated to the will of technology, reasonable calculation and unstoppable progress.§!"
  GAZ_anatolij_fomenko:0 "Anatolij Fomenko"
  ##POLITICAL PARTIES##
  ##COUNTRY NAME##
  GAZ_right_populism:0 "Kingdom of Olenia"
  GAZ_right_populism_DEF:0 "Kingdom of Olenia"
-  GAZ_millenarism:0 "North Autonomous Region"
+ GAZ_millenarism:0 "North Autonomous Region"
  GAZ_millenarism_DEF:0 "North Autonomous Region"
  ##TRAITS##
+ great_watchmaker:0 "Great Watchmaker"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##

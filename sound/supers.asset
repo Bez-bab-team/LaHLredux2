@@ -189,3 +189,24 @@ sound = {
 	volume = 1
 	always_load = yes
 }
+
+sound = {
+	name = "SUS_superweapon_cancelled_sound"
+	file = "menu/SUS_superweapon_cancelled.wav"
+	volume = 1
+	always_load = yes
+}
+
+sound = {
+	name = "SUS_superweapon_target_sound"
+	file = "menu/SUS_superweapon_target.wav"
+	volume = 1
+	always_load = yes
+}
+
+sound = {
+	name = "SUS_superweapon_blackout_sound"
+	file = "menu/SUS_superweapon_blackout.wav"
+	volume = 1
+	always_load = yes
+}

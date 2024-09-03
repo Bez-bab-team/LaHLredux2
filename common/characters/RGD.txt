@@ -1,6 +1,6 @@
 characters={
 	RGD_vladimir_putin={
-		name="Vladimir Putin"
+		name=RGD_vladimir_putin
 		portraits={
 			civilian={
 				large="gfx/leaders/RGD/Portrait_RGD_Vladimir_Putin.dds"
@@ -15,7 +15,7 @@ characters={
 		}
 	}
 	RGD_dmitrij_enteo={
-		name="Dmitrij Enteo"
+		name=RGD_dmitrij_enteo
 		portraits={
 			civilian={
 				large="gfx/leaders/RGD/Portrait_Dmitrij_Ento.dds"

@@ -1,10 +1,13 @@
 ﻿l_english:
  ##LEADERS##
+ UFC_andrej_nikitin:0 "Andrej Nikitin"
+ POLITICS_NIKITIN_DESC:0 "§YBiography:§! §WAmong the various passionate individuals vying for the control of Western Eurasia, Andrej Sergeevich Nikitin feels like an anomaly. The governor of Novgorodskaja Oblast’ doesn’t have any particular ideological views, aside from the general technocratic approach towards governance countless state officials possess worldwide. His decision to form the “League of Free Cities" of Tver and Staraya Russa came out of necessity and not any particular “Will to Power”. When the right-wing elements of Russian National Unity barged into Sergijev Posad and the north was seized by the revolutionary forces of Maksim Surajkin, the region was mostly cut off from the Eurasian loyalists in Moscow and Nikitin’s decision saved the local population from anarchy.\n\nNow, however, Andrei Nikitin wonders. Currently there are countless warlords fighting for the withering corpse of the Eurasian Union, why would he be any different? Perhaps through trade, diplomacy and subterfuge he would soon find himself as the unifier of Western Russia. Perhaps he would then move East - annihilating all those who stand in his way. Perhaps he would save the country and later create a true confederation of Free Cities - making the people of former Eurasia richer and better off than they ever were before. Perhaps in 100 years, the name of Andrej Nikitin will be cherished as one of Russia’s greatest - one on the same level as Alexander II, Peter the Great, and Jegor Letov.\n\nOr perhaps Nikitin will just surrender his little league to the first person who brings a semblance of stability to the surrounding countryside. Who knows?§!"
  ##POLITICAL PARTIES##
  ##COUNTRY NAME##
  UFC_neocameralism:0 "League of Free Cities"
  UFC_neocameralism_DEF:0 "League of Free Cities"
  ##TRAITS##
+ chairman_of_the_league:0 "Chairman Of The League"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##

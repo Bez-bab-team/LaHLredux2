@@ -1,13 +1,13 @@
 characters={
 	RNG_boris_jeltsin={
-		name="Boris Jel'tsin"
+		name=RNG_boris_jeltsin
 		portraits={
 			civilian={
 				large="gfx/leaders/RNG/Portrait_RNG_Boris_Elcyn.dds"
 			}
 		}
 		country_leader={
-			desc="POLITICS_Boris_DESC"
+			desc="POLITICS_JELTSIN_DESC"
 			ideology=national_populism
 			traits={ icehaired }
 			expire="1.1.1.1"

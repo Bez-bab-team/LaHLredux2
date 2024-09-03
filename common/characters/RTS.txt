@@ -1,6 +1,6 @@
 characters={
 	RTS_dmitrij_medvedev={
-		name="Dmitrij Medvedev"
+		name=RTS_dmitrij_medvedev
 		portraits={
 			civilian={
 				large="gfx/leaders/RTS/Portrait_RTS_Dmitrij_Medvedev.dds"

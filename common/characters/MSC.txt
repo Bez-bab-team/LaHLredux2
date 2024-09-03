@@ -1,6 +1,6 @@
 characters={
 	MSC_heydar_cahid_oglu_camal={
-		name="Heydar Cahid oglu Camal"
+		name=MSC_heydar_cahid_oglu_camal
 		portraits={
 			civilian={
 				large="gfx/leaders/MSC/Portrait_MSC_Gejdar_Dzhemal'.dds"
@@ -13,7 +13,7 @@ characters={
 		}
 	}
 	MSC_aleksandr_dugin={
-		name="Aleksandr Dugin"
+		name=MSC_aleksandr_dugin
 		portraits={
 			civilian={
 				large="gfx/leaders/MSC/Portrait_MSC_Aleksandr_Dugin.dds"
@@ -27,8 +27,23 @@ characters={
 			id=-1
 		}
 	}
+	MSC_interregnum={
+		name=MSC_interregnum
+		portraits={
+			civilian={
+				large="gfx/leaders/MSC/Portrait_MSC_White_House.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_INTERREGNUM_DESC"
+			ideology=national_conservatism
+			traits={ at_the_crossroads }
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
 	MSC_aleksej_navalnyj={
-		name="Aleksej Naval'nyj"
+		name=MSC_aleksej_navalnyj
 		portraits={
 			civilian={
 				large="gfx/leaders/MSC/Portrait_MSC_Aleksej_Navalnyj.dds"
@@ -41,7 +56,7 @@ characters={
 		}
 	}
 	MSC_philosopher_king={
-		name="Philosopher King"
+		name=MSC_philosopher_king
 		portraits={
 			civilian={
 				large="gfx/leaders/MSC/MOS_Philosopher_King.dds"
@@ -52,19 +67,6 @@ characters={
 			ideology=ultrahegelianism
 			traits={ the_kings_two_bodies }
 			expire="1.1.1.1"
-			id=-1
-		}
-	}
-	MSC_interregnum={
-		name="Interregnum"
-		portraits={
-			civilian={
-				large="gfx/leaders/MSC/Portrait_MSC_White_House.dds"
-			}
-		}
-		country_leader={
-			ideology=nazbol_gang
-			expire="1953.3.1.1"
 			id=-1
 		}
 	}

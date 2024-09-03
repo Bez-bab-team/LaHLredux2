@@ -16,16 +16,12 @@ set_politics = {
 	ruling_party = right_populism
 	elections_allowed = no
 }
+
+##CHARACTERS##
+#leaders#
+recruit_character = KRS_igor_strelkov
+
+
 set_popularities = {
 	right_populism  = 100
-}
-
-create_country_leader = {
-	name = "Igor Strelkov"
-	desc = ""
-	picture = "Portrait_KRS_Igor'_Strelkov.dds"
-	ideology = national_populism
-	traits = {
-		
-	}
 }

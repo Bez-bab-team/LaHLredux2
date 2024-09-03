@@ -1,15 +1,19 @@
+
 state={
 	id=125
 	name="STATE_125"
+
+	history={
+		owner = GEO
+		add_core_of = GEO
+
+	}
+
 	provinces={
 		6038 
 	}
 	manpower=1988506
-	
 	buildings_max_level_factor=1.000
-    state_category=pastoral
-	history={
-		owner = GEO
-		add_core_of = GEO
-	}		
+	state_category=pastoral
+	local_supplies=0.000
 }

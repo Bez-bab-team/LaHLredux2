@@ -1,11 +1,13 @@
 ﻿l_english:
  ##LEADERS##
- CMD_vladimir_zhirinovsky:0 "Vladimir Zhirinovsky"
+ CMD_vladimir_zhirinovsky:0 "Vladimir Zhirinovskij"
+ POLITICS_ZHIRINOVSIJ_DESC:0 "§YBiography:§! §WEverybody knows Vladimir Zhirinovskij. How couldn't you? The well-spoken, charismatic and very straightforward spokesman for Russia, Russian people and all things Russian. Zhirinovskij started his political career in 1990, establishing the Liberal Democratic Party of the Soviet Union, the second registered party in the USSR. During the event of "Black October" Zhirinovskij took a neutral stance, but later aligned his party with the NBP and was instrumental during the re-integration of Kazakhstan in 2003.\n\nIn time however, Zhirinovskij's trust in the national-bolsheviks began to waver. With each passing year, Eurasia slowly moved away from being a stronghold of Russian interests to turning into an ideological field of experiments for Alexandr Dugin and his allies. The unlawful coup against President Medvedev in 2010, the surrender of Kaliningrad and Kuril Islands and plans to relocate the capital away from Moscow became the final straw and Zhirinovskij moved into opposing NBP, turning his gaze to a former rival - the ex-president Boris Jel'tsin. The latter has been forging his own political force of dissatisfied Russian nationalists and liberals for decades and Vladimir fitted right in.\n\nWith the beginning of the Eurasian Civil War and the establishment of the "Russian National State'', Jel'tsin appointed Zhirinovskij as the commandant of Kazakhstan. Trouble struck however, when rebel forces under the command of Nursultan Nazarbayev proclaimed an independent Republic of Kazakhstan and seized the southern portion of the country. Zhirinovskij now only controls Alma-Ata, his hometown and a limited expeditionary force provided by Jel'tsin's government.\n\nNone of that, however bothers Vladimir Vol’fovich. He already conquered this land once in 2003. He can do that again even if it's the last thing he will ever do on this Earth.§!"
  ##POLITICAL PARTIES##
  ##COUNTRY NAME##
  CMD_right_populism:0 "Central Military District"
  CMD_right_populism_DEF:0 "Central Military District"
  ##TRAITS##
+ liberator:0 "Liberator"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##

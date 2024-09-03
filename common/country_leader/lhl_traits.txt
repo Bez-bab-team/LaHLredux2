@@ -21,6 +21,17 @@ leader_traits = {
 			factor = 1
 		}
     }
+	at_the_crossroads = { #Interregnum#
+		random = no
+		war_support_factor = -0.35
+		stability_factor = -0.35
+		surrender_limit = -0.15
+		army_morale_factor = -0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+    }
 	
 ##IDEAS_EURASIA##
 	renaissance_man = { #Evgenij Pchelov#
@@ -48,7 +59,16 @@ leader_traits = {
 	}
 
 ###ANARCHY_STATE### #GOR#
-##LEADERS_ANARCHY_STATE##
+##LEADERS_ANARCHY_STATE##|
+	jester = { #Mikhail Gorshenyov#
+		random = no
+		stability_factor = -0.1
+		command_power_gain = 0.25
+		weekly_manpower = 100
+		ai_will_do = {
+			factor = 1
+		}
+	}
 ##IDEAS_ANARCHY_STATE##
 	dark_prince = { #Andrej_Knjazev#
 		random = no
@@ -229,206 +249,329 @@ leader_traits = {
 			factor = 1
 		}
 	}
+###EURASIAN_RAILROADS### #RZD#
+##LEADERS_EURASIAN_RAILROADS##
+	conductor = { #Oleg Belozyorov#
+		random = no
+		political_power_factor = 0.05
 
-###ROYALISTS/WESSEX### #WES#
-##LEADERS_ROYALISTS/WESSEX##
-	fisher_king = { #George VII#
-		random = no
-		political_power_gain = -0.1
-		stability_factor = -0.10
-		war_support_factor = -0.5
-		
 		ai_will_do = {
 			factor = 1
 		}
-	}
-	new_pendragon = { #George VII_but_based#
+    }
+##IDEAS_EURASIAN_RAILROADS##
+
+###SAKHALIN### #SAH#
+##LEADERS_SAKHALIN##
+	the_last_hero = { #Viktor Tsoj#
 		random = no
-		political_power_gain = 0.1
-        political_advisor_cost_factor = -0.25
-		trade_opinion_factor = 0.25
-		stability_factor = 0.2
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	total_anarchy = { #Total Anarchy#
-		random = no
-		political_power_gain = -20.0
-		stability_factor = -0.5
-	    industrial_capacity_factory = -0.5
-		army_morale_factor = -0.5
-		surrender_limit = -0.5
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	patron_of_medicine = {
-		random = no
-		research_speed_factor = 0.1
-		army_morale_factor = 0.1
-		army_org_factor = 0.1
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	chief_of_raf = {
-		random = no
-		air_attack_factor = 0.1
-		air_defence_factor = 0.1
-		air_home_defence_factor = 0.1
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	spiritual_leader_g = {
-		random = no
-		stability_factor = 0.1
+		army_morale_factor = 0.15
 		war_support_factor = 0.1
-		political_power_factor = 0.25
+		stability_factor = 0.1
+
 		ai_will_do = {
 			factor = 1
 		}
-	}
-	
-	new_classical_connoisseur = {
+    }
+##IDEAS_SAKHALIN##
+
+###HOLY_JUST_SYNODIC_RUSSIA### #CPU#
+##LEADERS_HOLY_JUST_SYNODIC_RUSSIA##
+	prometheus = { #Constantin Petrov#
 		random = no
-		production_speed_buildings_factor = 0.05
-		consumer_goods_factor = -0.1
+		research_speed_factor = 0.05
+		stability_factor = -0.15
+		war_support_factor = 0.05
+
 		ai_will_do = {
 			factor = 1
 		}
-	}
-	
-	enlightened = {
+    }
+##IDEAS_HOLY_JUST_SYNODIC_RUSSIA##
+
+###CENTRAL_MILITARY_DISTRICT### #CMD#
+##LEADERS_CENTRAL_MILITARY_DISTRICT##
+	liberator = { #Vladimir Zhirinovskij#
+		random = no
+		resistance_growth = -0.15
+		targeted_modifier = {
+			tag = KAZ
+			attack_bonus_against = 0.15
+		}
+		ai_will_do = {
+			factor = 1
+		}
+    }
+##IDEAS_CENTRAL_MILITARY_DISTRICT##
+
+###RUSSIAN_STATE### #RIS#
+##LEADERS_RUSSIAN_STATE##
+	lady_justice = { #Natal'ja Poklonskaya#
+		random = no
+		stability_factor = 0.2
+		political_advisor_cost_factor = -0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+    }
+##IDEAS_RUSSIAN_STATE##
+
+###SOUTHERN_REGENCY### #STR#
+##LEADERS_SOUTHERN_REGENCY##
+	the_forgotten_voice = { #Igor' Tal'kov#
+		random = no
+		political_power_factor = -0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+    }
+##IDEAS_SOUTHERN_REGENCY##
+
+###DIOCESE_OF_JEKATERINODAR### #COU#
+##LEADERS_DIOCESE_OF_JEKATERINODAR##
+	militant_preacher = { #Andrej Tkachyov#
+		random = no
+		war_support_factor = 0.15
+		stability_factor = -0.15
+		army_attack_factor = 0.02
+		
+		ai_will_do = {
+			factor = 1
+		}
+    }
+##IDEAS_DIOCESE_OF_JEKATERINODAR##
+
+###REPUBLIC_OF_KAZAKHSTAN### #KAZ#
+##LEADERS_REPUBLIC_OF_KAZAKHSTAN##
+	elbasy = { #Nursultan Nazarbajev#
+		random = no
+		army_core_attack_factor = 0.15
+		army_core_defence_factor = 0.15
+		supply_combat_penalties_on_core_factor = -0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+    }
+##IDEAS_REPUBLIC_OF_KAZAKHSTAN##
+
+###REPUBLIC_OF_KAZAKHSTAN### #KAZ#
+##LEADERS_REPUBLIC_OF_KAZAKHSTAN##
+	elbasy = { #Nursultan Nazarbajev#
+		random = no
+		army_core_attack_factor = 0.1
+		army_core_defence_factor = 0.1
+		supply_combat_penalties_on_core_factor = -0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+    }
+##IDEAS_REPUBLIC_OF_KAZAKHSTAN##
+
+###REVOLUTIONARY_REPUBLIC_OF_IRKUTSK### #IRK#
+##LEADERS_REVOLUTIONARY_REPUBLIC_OF_IRKUTSK##
+	thunderbird = { #Dmitrij Zhvania#
+		random = no
+		war_support_factor = 0.1
+		political_power_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+    }
+##IDEAS_REVOLUTIONARY_REPUBLIC_OF_IRKUTSK##
+
+###ALTAI_TUVA_ARMY### #TVA#
+##LEADERS_ALTAI_TUVA_ARMY##
+	intendant = { #Sergej Shojgu#
+		random = no
+		supply_factor = 0.15
+		out_of_supply_factor = -0.15
+		army_org_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+    }
+##IDEAS_ALTAI_TUVA_ARMY##
+
+###EASTERN_SEPARATE_ARMY### #KRS#
+##LEADERS_EASTERN_SEPARATE_ARMY##
+	knight_of_honor = { #Igor’ Strelkov#
+		random = no
+		field_officer_promotion_penalty = -0.1
+		grant_medal_cost_factor = -0.1
+		experience_gain_army_factor = 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+    }
+##IDEAS_EASTERN_SEPARATE_ARMY##
+
+###DON_HOST### #KRS#
+##LEADERS_DON_HOST##
+	all_russian_ataman = { #Nikolaj Kozitsyn#
+		random = no
+		cavalry_attack_factor = 0.15
+		army_speed_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+    }
+##IDEAS_DON_HOST##
+
+###LENINGRAD_SOVIET_REPUBLIC### #LEN#
+##LEADERS_LENINGRAD_SOVIET_REPUBLIC##
+	stalins_falcon = { #Maksim Surajkin#
+		random = no
+		production_speed_buildings_factor = 0.15
+		army_armor_attack_factor = 0.05
+		army_org_factor = -0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+    }
+##IDEAS_LENINGRAD_SOVIET_REPUBLIC##
+
+###VOLGA_ECONOMIC_REGION### #VER#
+##LEADERS_VOLGA_ECONOMIC_REGION##
+	effective_manager = { #Anatolij Chubajs#
+		random = no
+		production_speed_buildings_factor = 0.1
+		research_speed_factor = 0.1
+		trade_opinion_factor = 0.3
+		
+		ai_will_do = {
+			factor = 1
+		}
+    }
+##IDEAS_VOLGA_ECONOMIC_REGION##
+
+###ARMED_FORCES_OF_WESTERN_SIBERIA### #NVS#
+##LEADERS_ARMED_FORCES_OF_WESTERN_SIBERIA##
+	old_hawk = { #Alexandr Lebed#
+		random = no
+		experience_gain_army_unit_factor = -0.25
+		army_attack_factor = 0.05
+		army_defence_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+    }
+##IDEAS_ARMED_FORCES_OF_WESTERN_SIBERIA##
+
+###NORTH_AUTONOMOUS_REGION### #GAZ#
+##LEADERS_NORTH_AUTONOMOUS_REGION##
+	great_watchmaker = { #Anatolij Fomenko#
+		random = no
+		consumer_goods_factor = -0.08
+		research_speed_factor = 0.15
+		production_speed_infrastructure_factor = 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+    }
+##IDEAS_NORTH_AUTONOMOUS_REGION##
+
+###LEAGUE_OF_FREE_CITIES### #UFC#
+##LEADERS_LEAGUE_OF_FREE_CITIES##
+	chairman_of_the_league = { #Andrej Nikitin#
+		random = no
+		trade_opinion_factor = 0.5
+		consumer_goods_factor = -0.1
+		army_attack_factor = -0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+    }
+##IDEAS_LEAGUE_OF_FREE_CITIES##
+
+###NOGAI_HORDE### #KAL#
+##LEADERS_NOGAI_HORDE##
+	defender_of_the_steppe = { #Jangurchi Adzhijev#
+		random = no
+		army_core_attack_factor = 0.1
+		army_core_defence_factor = 0.1
+		production_speed_bunker_factor = 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+    }
+##IDEAS_NOGAI_HORDE##
+
+###NEUTRAL_ZHUZ### #NZZ#
+##LEADERS_NEUTRAL_ZHUZ##
+	schemer = { #Bulat Abilov#
 		random = no
 		political_power_factor = 0.1
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-##IDEAS_ROYALISTS/WESSEX##
-	Black_bird = { #Roger Scruton#
-		random = no
 		
 		ai_will_do = {
 			factor = 1
 		}
-	}
-	Aristocrat_intellectual = { #Nikolai Tolstoy#
+    }
+##IDEAS_NEUTRAL_ZHUZ##
+
+###UNION_STATE### #UST#
+##LEADERS_UNION_STATE##
+	leviathan = { #Aleksandr Lukashenko#
 		random = no
+		army_attack_factor = 0.1
+		army_attack_speed_factor = 0.1
+		targeted_modifier = {
+			tag = MSC
+			attack_bonus_against = 0.15
+		}		
 		
 		ai_will_do = {
 			factor = 1
 		}
-	}
-	Orthodox_scholastic = { #Alister McGrath#
-		random = no
+    }
+##IDEAS_UNION_STATE##
+
+###NATIONAL_LIBERATION_GOVERNMENT### #NOD#
+##LEADERS_NATIONAL_LIBERATION_GOVERNMENT##
+	lone_loyalist = { #Jevgenij Fyodorov#
+		random = no	
+		political_power_factor = 0.25
+		war_support_factor = -0.1
+		stability_factor = -0.1
 		
 		ai_will_do = {
 			factor = 1
 		}
-	}
-	treasurer = { #Andrew Brownsword#
-		random = no
+    }
+##IDEAS_NATIONAL_LIBERATION_GOVERNMENT##
+
+###JEKATERINBURG_GOVERNORATE### #EKB#
+##LEADERS_JEKATERINBURG_GOVERNORATE##
+	orthodox_humanist = { #Andrej Zubov#
+		random = no	
+		stability_factor = 0.15
+		consumer_goods_factor = -0.15
 		
 		ai_will_do = {
 			factor = 1
 		}
-	}
-	Old_Guard = { #Christopher Chope#
-		random = no
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	hospitaller = { #John Hayes#
-		random = no
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	Knight_Bachelor = { #John Hayes#
-		random = no
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	england_metropolitan = { #Kallistos Ware#
-		random = no
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	protectionist = { #Laurence Robertson#
-		random = no
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	Herald = { #Melanie Phillips#
-		random = no
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	goodwill_ambassador = { #Fiona Bruce#
-		random = no
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	Follower_of_Burke = { #Peter Hitchens#
-		random = no
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	Social_Crusader = { #Simon Heffer#
-		random = no
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	Social_Crusader = { #Simon Heffer#
-		random = no
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
+    }
+##IDEAS_JEKATERINBURG_GOVERNORATE##
+
 ###IMPERIAL_THRONE### #IMT#
 ##LEADERS_IMPERIAL_THRONE##
 	eccentric_billionaire = { #Anton_Bakov#
 		random = no
-		political_power_gain = 0.1
-        political_advisor_cost_factor = -0.25
-		trade_opinion_factor = 0.25
-		stability_factor = -0.2
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	patron_of_cybernetics = { #Anton_Bakov#
-		random = no
-		research_speed_factor = 0.2
+		research_speed_factor = 0.15
+        political_advisor_cost_factor = 0.1
+		stability_factor = -0.15
 		
 		ai_will_do = {
 			factor = 1
@@ -963,6 +1106,365 @@ leader_traits = {
 		}
 	}
 ##IDEAS_FREE_STATE##
+
+###RUSSIAN_NATIONAL_STATE### #RNG#
+##LEADERS_RUSSIAN_NATIONAL_STATE##
+	icehaired = { #Boris_Jel'tsin#
+		random = no
+		political_power_factor = 0.05
+		army_attack_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+##IDEAS_RUSSIAN_NATIONAL_STATE##
+	vatoadmin = { #Vasilij Topolev#
+		production_factory_max_efficiency_factor = 0.10
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	spider = { #Anatolij Mizzengendler#
+		political_power_factor = -0.05
+		consumer_goods_factor = -0.2
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+###RUSSIAN_PEASANT_REPUBLIC### #RPR#
+##LEADERS_RUSSIAN_PEASANT_REPUBLIC##
+	leftwing_intellectual = { #Sergej_Kara-Murza#
+		random = no
+		political_power_factor = 0.05
+		research_speed_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+##IDEAS_RUSSIAN_PEASANT_REPUBLIC##
+
+###RUSSIAN_NATIONALIST_REPUBLIC### #RNE#
+##LEADERS_RUSSIAN_NATIONALIST_REPUBLIC##
+	diligent_officer_without_imagination = { #Aleksandr_Barkashov#
+		random = no
+		political_power_factor = -0.1
+		army_org_factor = 0.08
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+##IDEAS_RUSSIAN_NATIONALIST_REPUBLIC##
+
+###CHUVASHIA### #CHS#
+##LEADERS_CHUVASHIA##
+	red_horse = { #Uldin_Stan'jal#
+		random = no
+		cavalry_attack_factor = 0.15
+		army_morale_factor = 0.04
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+##IDEAS_CHUVASHIA##
+
+###BASHKORTOSTAN### #BSK#
+##LEADERS_BASHKORTOSTAN##
+	moderate_technocrat = { #Radij_Khabirov#
+		random = no
+		political_power_factor = 0.10
+		stability_factor = 0.10
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+##IDEAS_BASHKORTOSTAN##
+
+###TATARSTAN## #TAT#
+##LEADERS_TATARSTAN##
+	old_boar = { #Mintimer_Shaimiev#
+		random = no
+		political_power_factor = 0.15
+		consumer_goods_factor = 0.05
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+##IDEAS_TATARSTAN##
+
+###RUSSIAN_WORKER_REPUBLIC### #RWR#
+##LEADERS_RUSSIAN_WORKER_REPUBLIC##
+	tribune_of_the_people = { #Boris_Kagarlitskij#
+		random = no
+		production_speed_industrial_complex_factor = 0.1
+		stability_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+##IDEAS_RUSSIAN_WORKER_REPUBLIC##
+
+###BALTICA### #BAL#
+##LEADERS_BALTICA##
+	#black_lenin = { #Beness_Aijo#
+	#	random = no
+	#	war_support_factor = 0.05
+	#	political_power_factor = 0.05
+	#
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
+	black_colonel = { #Viktor Alksnis#
+		random = no
+		resistance_growth = -0.15
+		political_power_factor = 0.05
+		stability_factor = -0.10
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+##IDEAS_BALTICA##
+
+###ROSGVARDIA### #RGD#
+##LEADERS_ROSGVARDIA##
+	possessed = { #Vladimir_Putin_start#
+		random = no
+		stability_factor = -0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+##IDEAS_ROSGVARDIA##
+
+###GULAG### #GUL#
+##LEADERS_GULAG##
+	grey_eminence = { #The Uncle/Xi Jinping#
+		random = no
+		political_power_factor = 0.5
+		attrition = -0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shaman_king = { #Alexander Gabishiev#
+		random = no
+		political_power_factor = 0.15
+		army_morale_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+##IDEAS_GULAG##
+
+###DJIBOUTI### #DJI#
+##LEADERS_DJIBOUTI##
+	big_boss = { #Eduard_Limonov#
+		random = no
+		army_morale_Factor = 0.20
+		attrition = -0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+##IDEAS_DJIBOUTI##
+
+###ROYALISTS/WESSEX### #WES#
+##LEADERS_ROYALISTS/WESSEX##
+	fisher_king = { #George VII#
+		random = no
+		political_power_gain = -0.1
+		stability_factor = -0.10
+		war_support_factor = -0.5
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	new_pendragon = { #George VII_but_based#
+		random = no
+		political_power_gain = 0.1
+        political_advisor_cost_factor = -0.25
+		trade_opinion_factor = 0.25
+		stability_factor = 0.2
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	total_anarchy = { #Total Anarchy#
+		random = no
+		political_power_gain = -20.0
+		stability_factor = -0.5
+	    industrial_capacity_factory = -0.5
+		army_morale_factor = -0.5
+		surrender_limit = -0.5
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	patron_of_medicine = {
+		random = no
+		research_speed_factor = 0.1
+		army_morale_factor = 0.1
+		army_org_factor = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	chief_of_raf = {
+		random = no
+		air_attack_factor = 0.1
+		air_defence_factor = 0.1
+		air_home_defence_factor = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	spiritual_leader_g = {
+		random = no
+		stability_factor = 0.1
+		war_support_factor = 0.1
+		political_power_factor = 0.25
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	new_classical_connoisseur = {
+		random = no
+		production_speed_buildings_factor = 0.05
+		consumer_goods_factor = -0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	enlightened = {
+		random = no
+		political_power_factor = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+##IDEAS_ROYALISTS/WESSEX##
+	Black_bird = { #Roger Scruton#
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Aristocrat_intellectual = { #Nikolai Tolstoy#
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Orthodox_scholastic = { #Alister McGrath#
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	treasurer = { #Andrew Brownsword#
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Old_Guard = { #Christopher Chope#
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	hospitaller = { #John Hayes#
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Knight_Bachelor = { #John Hayes#
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	england_metropolitan = { #Kallistos Ware#
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	protectionist = { #Laurence Robertson#
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Herald = { #Melanie Phillips#
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	goodwill_ambassador = { #Fiona Bruce#
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Follower_of_Burke = { #Peter Hitchens#
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Social_Crusader = { #Simon Heffer#
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Social_Crusader = { #Simon Heffer#
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 
 ###NAVARRO### #NAV#
 ##LEADERS_NAVARRO##
@@ -2594,116 +3096,17 @@ leader_traits = {
 
 #################################ENGLAND#######################################
 
-
-###RUSSIAN_NATIONAL_STATE### #RNG#
-##LEADERS_RUSSIAN_NATIONAL_STATE##
-	icehaired = { #Boris_Jel'tsin#
-		random = no
-		political_power_factor = 0.05
-		army_attack_factor = 0.05
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-##IDEAS_RUSSIAN_NATIONAL_STATE##
-	vatoadmin = { #Vasilij Topolev#
-		production_factory_max_efficiency_factor = 0.10
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	spider = { #Anatolij Mizzengendler#
-		political_power_factor = -0.05
-		consumer_goods_factor = -0.2
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-###RUSSIAN_PEASANT_REPUBLIC### #RPR#
-##LEADERS_RUSSIAN_PEASANT_REPUBLIC##
-	leftwing_intellectual = { #Sergej_Kara-Murza#
-		random = no
-		political_power_factor = 0.05
-		research_speed_factor = 0.1
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-##IDEAS_RUSSIAN_PEASANT_REPUBLIC##
-
-###RUSSIAN_NATIONALIST_REPUBLIC### #RNE#
-##LEADERS_RUSSIAN_NATIONALIST_REPUBLIC##
-	diligent_officer_without_imagination = { #Aleksandr_Barkashov#
-		random = no
-		political_power_factor = -0.20
-		army_org_factor = 0.04
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-##IDEAS_RUSSIAN_NATIONALIST_REPUBLIC##
-
-###CHUVASHIA### #CHS#
-##LEADERS_CHUVASHIA##
-	red_horse = { #Uldin_Stan'jal#
-		random = no
-		cavalry_attack_factor = 0.15
-		army_morale_factor = 0.04
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-##IDEAS_CHUVASHIA##
-
-###BASHKORTOSTAN### #BSK#
-##LEADERS_BASHKORTOSTAN##
-	moderate_technocrat = { #Radij_Khabirov#
-		random = no
-		political_power_factor = 0.10
-		stability_factor = 0.10
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-##IDEAS_BASHKORTOSTAN##
-
-###TATARSTAN## #TAT#
-##LEADERS_TATARSTAN##
-	old_boar = { #Mintimer_Shaimiev#
-		random = no
-		political_power_factor = 0.15
-		consumer_goods_factor = 0.05
-
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-##IDEAS_TATARSTAN##
-
-###RUSSIAN_WORKER_REPUBLIC### #RWR#
-##LEADERS_RUSSIAN_WORKER_REPUBLIC##
-	tribune_of_the_people = { #Boris_Kagarlitskij#
-		random = no
-		production_speed_industrial_complex_factor = 0.1
-		stability_factor = 0.1
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-##IDEAS_RUSSIAN_WORKER_REPUBLIC##
-
 ###MALOROSSIYA_PROTECTORATE### #KHA#
 ##LEADERS_MALOROSSIYA_PROTECTORATE##
+	a_vassal_with_no_lord = { #Dmitrij Korchinskij#
+		random = no
+		stability_factor = -0.15
+		political_power_factor = -0.08
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	inexperienced_enthusiast = { #Vladimir_Zelenskij#
 		random = no
 		stability_factor = 0.1
@@ -2764,13 +3167,26 @@ leader_traits = {
 	barking_buffoon = { #Oljeg_Ljashko#
 		random = no
 		political_power_factor = 0.05
-		army_morale_Factor = -0.05
+		army_morale_factor = -0.05
 
 		ai_will_do = {
 			factor = 1
 		}
 	}
 ##IDEAS_UKRANIAN_PEASANT_REPUBLIC##
+
+###NOVORUSSIAN_GOVERNORATE### #NRS#
+##LEADERS_NOVORUSSIAN_GOVERNORATE###
+	horn_of_the_party = { #Horn Of The Party#
+		random = no
+		political_power_factor = 0.1
+		army_morale_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+##IDEAS_NOVORUSSIAN_GOVERNORATE##
 
 ###GARDARIKI### #NRU#
 ##LEADERS_GARDARIKI##
@@ -2819,65 +3235,6 @@ leader_traits = {
 		}
 	}
 ##IDEAS_TURKEY##
-
-###BALTICA### #BAL#
-##LEADERS_BALTICA##
-	black_lenin = { #Beness_Aijo#
-		random = no
-		war_support_factor = 0.05
-		political_power_factor = 0.05
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-##IDEAS_BALTICA##
-
-###ROSGVARDIA### #RGD#
-##LEADERS_ROSGVARDIA##
-	possessed = { #Vladimir_Putin_start#
-		random = no
-		stability_factor = -0.25
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-##IDEAS_ROSGVARDIA##
-
-###GULAG### #GUL#
-##LEADERS_GULAG##
-	grey_eminence = { #The Uncle/Xi Jinping#
-		random = no
-		political_power_factor = 0.5
-		attrition = -0.1
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	shaman_king = { #Alexander Gabishiev#
-		random = no
-		political_power_factor = 0.15
-		army_morale_factor = 0.1
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-##IDEAS_GULAG##
-
-###DJIBOUTI### #DJI#
-##LEADERS_DJIBOUTI##
-	big_boss = { #Eduard_Limonov#
-		random = no
-		army_morale_Factor = 0.20
-		attrition = -0.1
-		ai_will_do = {
-			factor = 1
-		}
-	}
-##IDEAS_DJIBOUTI##
 
 ###SWEDEN### #SWE#
 ##LEADERS_SWEDEN##

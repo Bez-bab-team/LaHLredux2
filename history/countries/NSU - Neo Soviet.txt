@@ -28,6 +28,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+##CHARACTERS##
+#leaders#
+recruit_character = NSU_dmitrij_puchkov
+
 set_popularities = {
 	commendationism = 35
     left_authoritarianism = 15
@@ -37,10 +41,3 @@ set_popularities = {
     hegemonism = 20
 }
 
-create_country_leader = {
-	name = "Dmitrij Puchkov"
-	desc = "POLITICS_PUCHKOV_DESC"
-	picture = "Portrait_NSU_Dmitrij_Puchkov.dds"
-	ideology = ultrahegelianism
-	traits = {	lead_investigator  }
-}

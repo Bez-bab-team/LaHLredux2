@@ -4,13 +4,13 @@ state={
 	name="STATE_11"
 
 	history={
-		owner = RGD
-		add_core_of = RGD
+		owner = RNE
+		add_core_of = RNE
 
 	}
 
 	provinces={
-		2837 11596 11603 18233 19000 21422 
+		10298 21892 21893 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

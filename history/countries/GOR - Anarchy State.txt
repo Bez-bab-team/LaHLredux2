@@ -1,4 +1,4 @@
-﻿capital = 1642
+﻿capital = 155
 
 oob = "GOR_2020"
 
@@ -19,20 +19,14 @@ set_politics = {
 	ruling_party = left_authoritarianism
 	elections_allowed = no
 }
+
+##CHARACTERS##
+#leaders#
+recruit_character = GOR_mikhail_gorshenjev
 set_popularities = {
 	left_authoritarianism  = 45
 	hegemonism = 7
 	neocameralism = 9
 	national_bolshevism = 7
 	socialism = 32
-}
-
-create_country_leader = {
-	name = "Mikhail Gorshenjev"
-	desc = ""
-	picture = "Portrait_GOR_Gorshok.dds"
-	ideology = paternalism
-	traits = {
-		
-	}
 }

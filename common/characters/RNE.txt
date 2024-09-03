@@ -1,6 +1,6 @@
 characters={
 	RNE_aleksandr_barkashov={
-		name="Aleksandr Barkashov"
+		name=RNE_aleksandr_barkashov
 		portraits={
 			civilian={
 				large="gfx/leaders/RNE/Portrait_RNE_Alexander_Barkashow.dds"
@@ -15,7 +15,7 @@ characters={
 		}
 	}
 	RNE_vasilij_bojkovelikij={
-		name="Vasilij Bojko-Velikij"
+		name=RNE_vasilij_bojkovelikij
 		portraits={
 			civilian={
 				large="gfx/leaders/RNE/Portrait_RNE_Vasilij_Bojko_Velikij.dds"

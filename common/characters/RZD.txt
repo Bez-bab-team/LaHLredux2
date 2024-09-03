@@ -1,14 +1,16 @@
 characters={
 	RZD_oleg_belozyorov={
-		name="Oleg Belozyorov"
+		name=RZD_oleg_belozyorov
 		portraits={
 			civilian={
 				large="gfx/leaders/RZD/Portrait_RZD_Oleg_Belozerow.dds"
 			}
 		}
 		country_leader={
+			desc="POLITICS_BELOZYOROV_DESC"
 			ideology=atlantic_liberalism
-			expire="1.1.1.1"
+			traits={ conductor }
+			expire="2065.1.1.1"
 			id=-1
 		}
 	}

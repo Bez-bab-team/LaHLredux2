@@ -1,6 +1,6 @@
 characters={
 	NZZ_bulat_abilov={
-		name="Bulat Abilov"
+		name=NZZ_bulat_abilov
 		portraits={
 			civilian={
 				large="gfx/leaders/NZZ/Portrait_NZZ_Bulat_Abilov.dds"
@@ -9,6 +9,7 @@ characters={
 		country_leader={
 			desc="POLITICS_ABILOV_DESC"
 			ideology=neo_reaction
+			traits={ schemer }
 			expire="1.1.1.1"
 			id=-1
 		}

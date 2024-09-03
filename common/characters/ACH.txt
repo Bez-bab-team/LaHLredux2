@@ -7,8 +7,9 @@ characters={
 			}
 		}
 		country_leader={
-			desc="POLITICS_KOS_DESC"
+			desc="POLITICS_KOZITSYN_DESC"
 			ideology=stratocracy
+			traits={ all_russian_ataman }
 			expire="1953.3.1.1"
 			id=-1
 		}

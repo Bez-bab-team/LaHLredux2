@@ -4,16 +4,15 @@ state={
 	name="STATE_453"
 
 	history={
-		owner = NVS
-		add_core_of = NVS
+		owner = IMT
+		add_core_of = IMT
 
 	}
 
 	provinces={
-		21073 
+		2448 3194 17328 19570 19636 19644 19651 19698 19711 19716 19728 19736 19742 19782 19785 19814 19837 19846 19847 19882 19892 19948 19963 19972 19981 
 	}
 	manpower=1
-	impassable = yes
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

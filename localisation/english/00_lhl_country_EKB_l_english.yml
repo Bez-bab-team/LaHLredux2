@@ -1,5 +1,6 @@
 ﻿l_english:
  ##LEADERS##
+ POLITICS_ZUBOV_DESC:0 "§YBiography:§! §WAndrej Borisovich Zubov started his career as a man more interested in the history and religion of the East, rather than the politics of his own country, being a principal in the Moscow Theological Academy, abstaining from the chaos of the '90s and the rapid geopolitical perturbations of the early '00s. And yet as the National-Bolshevik Party under Jegor Letov grew more and more radicalized with each passing year, restoring the old Soviet Empire in brown coating, Zubov's opinions started to shift rapidly.\n\nAs Dmitrij Medvedev mercilessly carved up Georgia, Zubov organized a few protest rallies of the remaining liberals which were brutally suppressed. Though being forced underground, Zubov’s bold defiance of NBP has earned him respect in many circles of the opposition. The window of opportunity grew as the old Solar Vozhd was forcibly placed back on the Eurasian throne in 2010, engaging in an ever greater debauchery, discrediting his party and regime in the process.\n\nWhen the Eurasian Empire fell, It didn't take long for Zubov's men to rally and secure power in his home city of Ekaterinburg. Initially in league with the resurgent Boris Jel'tsin, Zubov quickly renounced his axis of support, after the former president dropped the mask and embraced Russian chauvinism. Now confined to the city of Catherine and the Ural mountains, Andrei Borisovich Zubov gathers a wide coalition of moderate monarchists, liberals, solidarists, and conservatives to bury the Red Menace forever and like Peter the Great once did, open the window to Europe.§!"
  EKB_andrej_zubov:0 "Andrej Zubov"
  ##POLITICAL PARTIES##
  ##COUNTRY NAME##
@@ -7,6 +8,7 @@
  EKB_DEF:0 "Jekaterinburg Governorate"
  EKB_ADJ:0 "Jekaterinburg"
  ##TRAITS##
+ orthodox_humanist:0 "Orthodox Humanist"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##

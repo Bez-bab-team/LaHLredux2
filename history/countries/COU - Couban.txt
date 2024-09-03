@@ -20,6 +20,11 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+##CHARACTERS##
+#leaders#
+recruit_character = COU_andrej_tkachyov
+
 set_popularities = {
 	ur_fascism = 100
 }
@@ -40,16 +45,6 @@ add_ai_strategy = {
     type = alliance
     id = STR
     value = 200
-}
-
-create_country_leader = {
-	name = "Andrej Tkachyov"
-	desc = "POLITICS_TKACHYOV_DESC"
-	picture = "Portrait_COU_Andrej_Tkachyov.dds"
-	ideology = charismatic_dictatorship 
-	traits = {
-		
-	}
 }
 
 create_faction = sanitary_cordon

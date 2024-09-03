@@ -1,13 +1,15 @@
 characters={
 	LEN_maksim_surajkin={
-		name="Maksim Surajkin"
+		name=LEN_maksim_surajkin
 		portraits={
 			civilian={
 				large="gfx/leaders/LEN/Portrait_LEN_Maksim_Surajkin.dds"
 			}
 		}
 		country_leader={
+			desc="POLITICS_SURAJKIN_DESC"
 			ideology=soviet_marxism
+			traits={ stalins_falcon }
 			expire="1.1.1.1"
 			id=-1
 		}

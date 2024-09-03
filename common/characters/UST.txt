@@ -1,14 +1,16 @@
 characters={
 	UST_aleksandr_lukashenko={
-		name="Aleksandr Lukashenko"
+		name=UST_aleksandr_lukashenko
 		portraits={
 			civilian={
 				large="gfx/leaders/UST/Portrait_UST_Aleksandr_Lukashenko.dds"
 			}
 		}
 		country_leader={
+			desc="POLITICS_LUKASHENKO_DESC"
 			ideology=paternalism
-			expire="1965.1.1.1"
+			traits={ leviathan }
+			expire="2065.1.1.1"
 			id=-1
 		}
 	}

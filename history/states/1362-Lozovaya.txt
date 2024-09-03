@@ -1,0 +1,16 @@
+state={
+	id=1362
+	name="STATE_1362"
+	provinces={
+		390 4726 5239 7212 9144 9308 10821 10896 10906 10907 10935 20513 20813 21015 21580 
+	}
+	history={
+		owner = NRS
+		add_core_of = NRS
+
+	}
+	state_category=pastoral
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

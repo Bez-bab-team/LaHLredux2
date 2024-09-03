@@ -1,13 +1,15 @@
 characters={
 	SAH_viktor_tsoj={
-		name="Viktor Tsoj"
+		name=SAH_viktor_tsoj
 		portraits={
 			civilian={
 				large="gfx/leaders/SAH/Portrait_SAH_Viktor_Tsoj.dds"
 			}
 		}
 		country_leader={
+			desc="POLITICS_TSOJ_DESC"
 			ideology=nazbol_gang
+			traits={ the_last_hero }
 			expire="1965.1.1.1"
 			id=-1
 		}

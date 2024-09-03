@@ -14,15 +14,13 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+##CHARACTERS##
+#leaders#
+recruit_character = STM_german_sterligov
+
 set_popularities = {
 	regressionism = 100
 }
 
-create_country_leader = {
-	name = "German Sterligov"
-	desc = "POLITICS_STERLIGOV_DESC"
-	picture = "Portrait_STM_German_Sterligov.dds"
-	ideology = neo_feudalism 
-	traits = { chevalier_of_fortune	}
-}
 

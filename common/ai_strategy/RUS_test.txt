@@ -1,0 +1,364 @@
+RIS_civil_war_stage_1 = {
+	allowed = {
+		tag = RIS
+	}
+	enable = { always = yes }
+	abort = { always = no }
+	ai_strategy = {
+		type = front_control
+		tag = CPU
+
+		priority = 100
+		execution_type = rush
+		execute_order = yes
+	}
+    ai_strategy = {
+        type = prepare_for_war
+        id = CPU
+        value = 100
+    }
+	ai_strategy = {
+		type = front_control
+		tag = NOD
+
+		priority = 100
+		execution_type = rush
+		execute_order = yes
+	}
+    ai_strategy = {
+        type = prepare_for_war
+        id = NOD
+        value = 100
+    }
+	ai_strategy = {
+		type = front_control
+		tag = RZD
+
+		priority = 100
+		execution_type = rush
+		execute_order = yes
+	}
+    ai_strategy = {
+        type = prepare_for_war
+        id = RZD
+        value = 100
+    }
+	ai_strategy = {
+		type = front_control
+		tag = IRK
+
+		priority = 100
+		execution_type = rush
+		execute_order = yes
+	}
+    ai_strategy = {
+        type = prepare_for_war
+        id = IRK
+        value = 100
+    }
+	ai_strategy = {
+		type = front_control
+		tag = GUL
+
+		priority = 100
+		execution_type = rush
+		execute_order = yes
+	}
+    ai_strategy = {
+        type = prepare_for_war
+        id = GUL
+        value = 100
+    }
+}
+
+GUL_civil_war_stage_1 = {
+	allowed = {
+		tag = RIS
+	}
+	enable = { always = yes }
+	abort = { always = no }
+	ai_strategy = {
+		type = front_control
+		tag = CPU
+
+		priority = 100
+		execution_type = rush
+		execute_order = yes
+	}
+    ai_strategy = {
+        type = prepare_for_war
+        id = CPU
+        value = 100
+    }
+	ai_strategy = {
+		type = front_control
+		tag = NOD
+
+		priority = 100
+		execution_type = rush
+		execute_order = yes
+	}
+    ai_strategy = {
+        type = prepare_for_war
+        id = NOD
+        value = 100
+    }
+	ai_strategy = {
+		type = front_control
+		tag = RZD
+
+		priority = 100
+		execution_type = rush
+		execute_order = yes
+	}
+    ai_strategy = {
+        type = prepare_for_war
+        id = RZD
+        value = 100
+    }
+	ai_strategy = {
+		type = front_control
+		tag = IRK
+
+		priority = 100
+		execution_type = rush
+		execute_order = yes
+	}
+    ai_strategy = {
+        type = prepare_for_war
+        id = IRK
+        value = 100
+    }
+	ai_strategy = {
+		type = front_control
+		tag = RIS
+
+		priority = 100
+		execution_type = rush
+		execute_order = yes
+	}
+    ai_strategy = {
+        type = prepare_for_war
+        id = RIS
+        value = 100
+    }
+}
+
+NOD_civil_war_stage_1 = {
+	allowed = {
+		tag = RIS
+	}
+	enable = { always = yes }
+	abort = { always = no }
+	ai_strategy = {
+		type = front_control
+		tag = CPU
+
+		priority = 100
+		execution_type = rush
+		execute_order = yes
+	}
+    ai_strategy = {
+        type = prepare_for_war
+        id = CPU
+        value = 100
+    }
+	ai_strategy = {
+		type = front_control
+		tag = RIS
+
+		priority = 100
+		execution_type = rush
+		execute_order = yes
+	}
+    ai_strategy = {
+        type = prepare_for_war
+        id = RIS
+        value = 100
+    }
+	ai_strategy = {
+		type = front_control
+		tag = RZD
+
+		priority = 100
+		execution_type = rush
+		execute_order = yes
+	}
+    ai_strategy = {
+        type = prepare_for_war
+        id = RZD
+        value = 100
+    }
+	ai_strategy = {
+		type = front_control
+		tag = IRK
+
+		priority = 100
+		execution_type = rush
+		execute_order = yes
+	}
+    ai_strategy = {
+        type = prepare_for_war
+        id = IRK
+        value = 100
+    }
+	ai_strategy = {
+		type = front_control
+		tag = GUL
+
+		priority = 100
+		execution_type = rush
+		execute_order = yes
+	}
+    ai_strategy = {
+        type = prepare_for_war
+        id = GUL
+        value = 100
+    }
+}
+
+RZD_civil_war_stage_1 = {
+	allowed = {
+		tag = RIS
+	}
+	enable = { always = yes }
+	abort = { always = no }
+	ai_strategy = {
+		type = front_control
+		tag = CPU
+
+		priority = 100
+		execution_type = rush
+		execute_order = yes
+	}
+    ai_strategy = {
+        type = prepare_for_war
+        id = CPU
+        value = 100
+    }
+	ai_strategy = {
+		type = front_control
+		tag = NOD
+
+		priority = 100
+		execution_type = rush
+		execute_order = yes
+	}
+    ai_strategy = {
+        type = prepare_for_war
+        id = NOD
+        value = 100
+    }
+	ai_strategy = {
+		type = front_control
+		tag = RIS
+
+		priority = 100
+		execution_type = rush
+		execute_order = yes
+	}
+    ai_strategy = {
+        type = prepare_for_war
+        id = RIS
+        value = 100
+    }
+	ai_strategy = {
+		type = front_control
+		tag = IRK
+
+		priority = 100
+		execution_type = rush
+		execute_order = yes
+	}
+    ai_strategy = {
+        type = prepare_for_war
+        id = IRK
+        value = 100
+    }
+	ai_strategy = {
+		type = front_control
+		tag = GUL
+
+		priority = 100
+		execution_type = rush
+		execute_order = yes
+	}
+    ai_strategy = {
+        type = prepare_for_war
+        id = GUL
+        value = 100
+    }
+}
+
+IRK_civil_war_stage_1 = {
+	allowed = {
+		tag = RIS
+	}
+	enable = { always = yes }
+	abort = { always = no }
+	ai_strategy = {
+		type = front_control
+		tag = CPU
+
+		priority = 100
+		execution_type = rush
+		execute_order = yes
+	}
+    ai_strategy = {
+        type = prepare_for_war
+        id = CPU
+        value = 100
+    }
+	ai_strategy = {
+		type = front_control
+		tag = NOD
+
+		priority = 100
+		execution_type = rush
+		execute_order = yes
+	}
+    ai_strategy = {
+        type = prepare_for_war
+        id = NOD
+        value = 100
+    }
+	ai_strategy = {
+		type = front_control
+		tag = RZD
+
+		priority = 100
+		execution_type = rush
+		execute_order = yes
+	}
+    ai_strategy = {
+        type = prepare_for_war
+        id = RZD
+        value = 100
+    }
+	ai_strategy = {
+		type = front_control
+		tag = RIS
+
+		priority = 100
+		execution_type = rush
+		execute_order = yes
+	}
+    ai_strategy = {
+        type = prepare_for_war
+        id = RIS
+        value = 100
+    }
+	ai_strategy = {
+		type = front_control
+		tag = GUL
+
+		priority = 100
+		execution_type = rush
+		execute_order = yes
+	}
+    ai_strategy = {
+        type = prepare_for_war
+        id = GUL
+        value = 100
+    }
+}

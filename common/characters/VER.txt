@@ -1,6 +1,6 @@
 characters={
 	VER_anatoly_chubais={
-		name="Anatoly Chubais"
+		name=VER_anatoly_chubais
 		portraits={
 			civilian={
 				large="gfx/leaders/VER/Portrait_VER_Anatoly_Chubais.dds"
@@ -9,6 +9,7 @@ characters={
 		country_leader={
 			desc="POLITICS_CHUBAIS_DESC"
 			ideology=neo_reaction
+			traits={ effective_manager }
 			expire="1.1.1.1"
 			id=-1
 		}

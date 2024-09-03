@@ -23,13 +23,9 @@ set_popularities = {
 	right_populism = 100
 }
 
-create_country_leader = {
-	name = "Boris Jel'tsin"
-	desc = "POLITICS_Boris_DESC"
-	picture = "Portrait_RNG_Boris_Elcyn.dds"
-	ideology = national_populism
-	traits = { icehaired }
-}
+##CHARACTERS##
+#leaders#
+recruit_character = RNG_boris_jeltsin
 
 if = {
 	limit = {

@@ -14,15 +14,13 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+##CHARACTERS##
+#leaders#
+recruit_character = FRS_mikhail_svetov
+
 set_popularities = {
 	national_bolshevism = 100
 }
 
-create_country_leader = {
-	name = "Mikhail Svetov"
-	desc = "POLITICS_SVETOV_DESC"
-	picture = "Portrait_FRS_Mikhail_Sovetov.dds"
-	ideology = national_anarchism 
-	traits = { great_lustrator }
-}
 

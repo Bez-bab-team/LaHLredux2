@@ -1,5 +1,6 @@
 ﻿l_english:
  ##LEADERS##
+ POLITICS_NAZARBAJEV_DESC:0 "§YBiography:§! §WWhen the "prison of nations'' collapsed in 1991, Nursultan Abishevich Nazarbajev had everything. The national elites have finally escaped from the watchful eye of Moscow and were able to do as they pleased. The first president of Kazakhstan immediately set to work - trying to keep the country stable in the chaos of the 90's. while not forgetting to extend his presidential powers. It seemed like smooth sailing from that point - Kazakhstan would become Nazarbajev's kingdom, free to maneuver between the Russian, European and Chinese interests, while enriching itself with each passing year.\n\nIt all ended less than a decade later.\n\nIn 2002, the national-bolshevik clique in charge of Russia and their lackey Zhirinovskij approached Nazarbajev with an ultimatum - Kazakhstan were to be incorporated into the new Russian "Union State", the same way Belarus did two years prior. With the Americans fully isolating themselves in their own sphere and NATO being incapable of swift action, Nursultan had no other choice, but to surrender to Moscow. As a consolation prize he was put in charge of the "Kazakh Autonomy'', a rump state, consisting of sparsely-populated territories of southern Kazakhstan, while the north was annexed into Russia directly. For the next 18 years, Nazarbajev Toiled for his Russian overlords, possessing considerably less wealth than he did before.\n\nAll of that changed just a couple of months ago. The once mighty Eurasia fell into chaos after the death of its beloved leader - Jegor Letov. Unfortunately for Nazarbajev, bad luck continued to torment him and most of Kazakhstan was seized by Boris Jel'tsin and his nationalist forces. Nevertheless, Nursultan was able to quickly mobilize the remaining Kazakh population and declare independence from Eurasia. To his misfortune, Nazarbajev's arch-rival - Vladimir Zhirinovskij was sent to quell the rebellion and the fate of Nursultan's country once again hangs in the balance. This time however, there would be no quarter, no surrender. Kazakhstan will win or perish.\n\nAnd after the threat of Russian nationalism is gone from the kazakh lands, Nazarbajev may have to think bigger. Moscow has forgotten that their dear Eurasianism comes from the abundant love Lev Gumilyov had for the steppe. Perhaps it is time he reminds them of that fact.§!"
  KAZ_nursultan_nazarbajev:0 "Nursultan Nazarbajev"
  KAZ_bakhytzhan_kanapyanov:0 "Bakhytzhan Kanapyanov"
  ##POLITICAL PARTIES##
@@ -8,6 +9,7 @@
  KAZ_DEF:0 "Republic of Kazakhstan"
  KAZ_ADJ:0 "Kazakhstani"
  ##TRAITS##
+ elbasy:0 "Elbasy"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##

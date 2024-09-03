@@ -4,13 +4,13 @@ state={
 	name="STATE_361"
 
 	history={
-		owner = UZB
-		add_core_of = UZB
+		owner = NRU
+		add_core_of = NRU
 
 	}
 
 	provinces={
-		2147 4723 8601 9172 20974 21827 21829 
+		158 7304 10068 10072 10093 10120 11959 17234 17247 17302 17303 17307 18425 18432 18440 18450 18466 18468 18477 18479 18486 18490 18497 18511 18522 18524 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

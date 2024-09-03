@@ -1,0 +1,23 @@
+state={
+	id=1333
+	name="STATE_1333"
+	provinces={
+		404 568 665 1176 1222 1715 1752 2411 3800 4209 6175 6423 7541 8044 8816 9415 10527 10580 10586 10676 
+	}
+	history={
+		owner = RZD
+		add_core_of = RZD
+		victory_points = {
+			10586 3
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 2
+		}
+	}
+	manpower=1988506
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

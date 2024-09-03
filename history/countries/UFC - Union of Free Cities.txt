@@ -18,14 +18,11 @@ set_politics = {
 	elections_allowed = no
 }
 
+##CHARACTERS##
+#leaders#
+recruit_character = UFC_andrej_nikitin
+
 set_popularities = {
 	neocameralism  = 100
 }
 
-create_country_leader = {
-	name = "Vlasov"
-	picture = "Portrait_UFC_Vlasov.dds"
-	ideology = atlantic_liberalism
-	traits = {
-	}
-}

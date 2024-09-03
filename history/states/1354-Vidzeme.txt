@@ -1,0 +1,16 @@
+state={
+	id=1354
+	name="STATE_1354"
+	provinces={
+		1645 3004 4231 18203 18206 18216 18219 18224 18226 
+	}
+	history={
+		owner = BAL
+		add_core_of = BLA
+
+	}
+	state_category=pastoral
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

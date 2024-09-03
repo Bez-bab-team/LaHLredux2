@@ -1,10 +1,13 @@
 ﻿l_english:
  ##LEADERS##
+ NVS_alexander_lebed:0 "Alexandr Lebed'"
+ POLITICS_LEBED_DESC:0 "§YBiography:§! §WA Modern Suvorov, Alexandr Ivanovich Lebed’ has never been shy of such remarks, for what other glory a man who brought down Kiev, liberated Riga, leveled Tbilisi and paraded through Astana deserve? A notable commander in the Soviet Army, Lebed’'s ambitions were always greater than those of his contemporaries. He never dreamed of yachts and dachas, he dreamed of respect, love, and fear.\n\nAll three of those things were brought to him on the Manchurian front, where the rejuvenated Eurasian combined arms army absolutely wiped the floor with the collapsing PLA, leading to a parade in Beijing where he personally participated on a white horse, waving to millions of awed Chinese civilians and Eurasian soldiers. Perhaps this was the peak of his glory. Until the crooks in Moscow decided to screw everything up.\n\nAs Alexandr returned to Krasnoyarsk with his men, he quickly discovered that his old friend Lev Rokhlin was found slain. And who could be behind it? The treacherous screw-up and a worthless upstart - Shojgu and Strelkov. Quickly moving his forces to Krasnoyarsk, Lebed’ now prepares to make them and the whole world pay for obstructing Russian glory for so long…§!"
  ##POLITICAL PARTIES##
  ##COUNTRY NAME##
  NVS_right_populism:0 "Armed Forces of Western Siberia"
  NVS_right_populism_DEF:0 "Armed Forces of Western Siberia"
  ##TRAITS##
+ old_hawk:0 "Old Hawk"
  ##IDEAS##
  ##FOCUS TREES##
  NVS_colonel_turn:0 "Colonel Makes His Turn"

@@ -13012,3 +13012,53 @@ SUS_king_prestige_game = {
 		}
 	}
 }
+
+###SUPERWEAPONS###
+SUS_superweapon_blackout = { 
+	SUS_superweapon_blackout_launch = {
+		visible = {
+			SUS = {
+				has_country_flag = lhl_SUS_espionage_superweapon_2_selected
+			}
+		}
+		state_target = yes
+        target_trigger = {
+            FROM = {
+                is_capital = yes
+            }
+        }
+		on_map_mode = map_only
+		icon = GFX_SUS_superweapon_blackout_frames
+		complete_effect = {
+			hidden_effect = {
+				sound_effect = "SUS_superweapon_blackout_sound_1"
+				clr_country_flag = lhl_SUS_espionage_superweapon_2_selected
+				FROM = {
+					owner = {
+						add_ideas = SUS_superweapon_blackout_effect
+						set_cosmetic_tag = SUS_BLACKOUT
+						every_core_state = {
+							set_state_name = "RADIO SILENCE"
+						}
+						set_country_flag = SUS_superweapon_blackout_activated
+					}
+				}
+			}
+		}
+		remove_effect = {
+			hidden_effect = {
+				FROM = {
+					owner = {
+						remove_ideas = SUS_superweapon_blackout_effect
+						drop_cosmetic_tag = yes
+						every_core_state = {
+							reset_state_name = yes
+						}
+						clr_country_flag = SUS_superweapon_blackout_activated
+					}
+				}
+			}
+		}
+		days_remove = 30
+	}
+}

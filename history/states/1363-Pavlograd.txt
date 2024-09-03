@@ -1,0 +1,16 @@
+state={
+	id=1363
+	name="STATE_1363"
+	provinces={
+		1130 5036 10974 11014 11047 11069 
+	}
+	history={
+		owner = NRS
+		add_core_of = NRS
+
+	}
+	state_category=pastoral
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

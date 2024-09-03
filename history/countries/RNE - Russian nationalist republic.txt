@@ -17,29 +17,16 @@ set_politics = {
 	ruling_party = hegemonism     
 	elections_allowed = no
 }
+
+##CHARACTERS##
+#leaders#
+recruit_character = RNE_aleksandr_barkashov
+recruit_character = RNE_vasilij_bojkovelikij
+
 set_popularities = {
 	hegemonism = 100
 }
 
-create_country_leader = {
-	name = "Aleksandr Barkashov"
-	desc = "POLITICS_BARKASHOW_DESC"
-	picture = "Portrait_RNE_Alexander_Barkashow.dds"
-	ideology = stratocracy 
-	traits = {
-		diligent_officer_without_imagination
-	}
-}
-
-create_country_leader = {
-	name = "Vasilij Bojko-Velikij"
-	desc = "POLITICS_Vasilij_Bojko_Velikij_DESC"
-	picture = "Portrait_RNE_Vasilij_Bojko_Velikij.dds"
-	ideology = charismatic_dictatorship 
-	traits = {
-		diligent_officer_without_imagination
-	}
-}
 
 
 

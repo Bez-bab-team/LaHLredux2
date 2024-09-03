@@ -20,16 +20,11 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+##CHARACTERS##
+#leaders#
+recruit_character = NRU_dobroslav
+
 set_popularities = {
 	regressionism = 100
-}
-
-
-create_country_leader = {
-	name = "Dobroslav"
-	desc = "POLITICS_DOBROSLAV_DESC"
-	picture = "Portrait_NRU_Dobroslav.dds"
-	ideology = paleo_revolutionism 
-	traits = { gestumblindi	
-	}
 }

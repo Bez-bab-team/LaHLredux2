@@ -4,13 +4,13 @@ state={
 	name="STATE_152"
 
 	history={
-		owner = BAL
-		add_core_of = BAL
+		owner = EST
+		add_core_of = EST
 
 	}
 
 	provinces={
-		7256 18222 
+		7973 15015 18266 18273 18274 18287 18292 18297 18298 18308 18317 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

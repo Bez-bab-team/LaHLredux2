@@ -1,0 +1,26 @@
+state={
+	id=1330
+	name="STATE_1330"
+	provinces={
+		82 222 254 528 559 768 1377 2912 2970 3311 3314 3648 3758 3839 4683 4701 4732 5543 5591 6189 6216 6400 6462 6746 7389 8008 8029 8146 8387 8438 8802 9116 9151 9766 9927 10023 10076 10098 11317 11336 11364 11368 18785 20058 20138 20213 20355 20392 20477 21903 21904 21905 
+	}
+	history={
+		owner = NOD
+		add_core_of = NOD
+		victory_points = {
+			11364 3
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 2
+			11364 = {
+				supply_node = 1
+			}
+		}
+	}
+	manpower=1988506
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

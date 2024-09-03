@@ -7,8 +7,9 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=christian_democracy
-			
+			desc="POLITICS_ZUBOV_DESC"
+			ideology=christian_democracy	
+			traits={ orthodox_humanist }
 			id=-1
 		}
 	}

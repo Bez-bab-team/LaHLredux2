@@ -1,6 +1,6 @@
 characters={
 	RIS_natalia_poklonskaja={
-		name="Natalia Poklonskaja"
+		name=RIS_natalia_poklonskaja
 		portraits={
 			civilian={
 				large="gfx/leaders/RIS/Portrait_RIS_Natalia_Poklonskaja.dds"
@@ -9,6 +9,7 @@ characters={
 		country_leader={
 			desc="POLITICS_POKLONSKAJA_DESC"
 			ideology=charismatic_dictatorship
+			traits={ lady_justice }
 			expire="1.1.1.1"
 			id=-1
 		}

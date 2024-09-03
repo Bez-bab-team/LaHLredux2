@@ -12,13 +12,11 @@ set_politics = {
 	ruling_party = neocameralism
 	elections_allowed = no
 }
+
+##CHARACTERS##
+#leaders#
+recruit_character = NZZ_bulat_abilov
+
 set_popularities = {
 	neocameralism = 100
-}
-
-create_country_leader = {
-	name = "Bulat Abilov"
-	desc = "POLITICS_ABILOV_DESC"
-	picture = "Portrait_NZZ_Bulat_Abilov.dds"
-	ideology = neo_reaction
 }

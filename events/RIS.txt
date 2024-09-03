@@ -1,0 +1,102 @@
+add_namespace = RIS_event 
+
+country_event = {
+	id = RIS_event.1
+	title = RIS_event.1.t
+	desc = RIS_event.1.d
+    is_triggered_only = yes
+    fire_only_once = yes
+	option = { 
+		name = RIS_event.1.a
+		RIS = {
+			declare_war_on = {
+				target = CPU
+				type = annex_everything
+			}
+		}
+		RIS = {
+			declare_war_on = {
+				target = RZD
+				type = annex_everything
+			}
+		}
+		RIS = {
+			declare_war_on = {
+				target = IRK
+				type = annex_everything
+			}
+		}
+		RIS = {
+			declare_war_on = {
+				target = NOD
+				type = annex_everything
+			}
+		}
+		RIS = {
+			declare_war_on = {
+				target = GUL
+				type = annex_everything
+			}
+		}
+		CPU = {
+			declare_war_on = {
+				target = RZD
+				type = annex_everything
+			}
+		}
+		CPU = {
+			declare_war_on = {
+				target = IRK
+				type = annex_everything
+			}
+		}
+		CPU = {
+			declare_war_on = {
+				target = NOD
+				type = annex_everything
+			}
+		}
+		CPU = {
+			declare_war_on = {
+				target = GUL
+				type = annex_everything
+			}
+		}
+		RZD = {
+			declare_war_on = {
+				target = IRK
+				type = annex_everything
+			}
+		}
+		RZD = {
+			declare_war_on = {
+				target = NOD
+				type = annex_everything
+			}
+		}
+		RZD = {
+			declare_war_on = {
+				target = GUL
+				type = annex_everything
+			}
+		}
+		IRK = {
+			declare_war_on = {
+				target = NOD
+				type = annex_everything
+			}
+		}
+		IRK = {
+			declare_war_on = {
+				target = GUL
+				type = annex_everything
+			}
+		}
+		NOD = {
+			declare_war_on = {
+				target = GUL
+				type = annex_everything
+			}
+		}
+	}
+}

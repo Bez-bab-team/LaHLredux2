@@ -7,7 +7,9 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=ultrahegelianism
+			desc="POLITICS_PETROV_DESC"
+			ideology=leftwing_chauvinism
+			traits={ prometheus }
 			expire="1.1.1.1"
 			id=-1
 		}

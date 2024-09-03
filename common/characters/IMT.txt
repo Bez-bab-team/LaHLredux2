@@ -9,7 +9,7 @@ characters={
 		country_leader={
 			desc="POLITICS_BAKOV_DESC"
 			ideology=accelerationism
-			traits={ patron_of_cybernetics eccentric_billionaire }
+			traits={ eccentric_billionaire }
 			expire="1.1.1.1"
 			id=-1
 		}

@@ -1,11 +1,14 @@
 ﻿l_english:
  ##LEADERS##
+ LEN_maksim_surajkin:0 "Maksim Surajkin"
+ POLITICS_SURAJKIN_DESC:0 "§YBiography:§! §W"Without me, you are like blind kittens", such were the words of comrade Stalin to the party shortly before his death. And looking at what happened with the Soviet Union, he was not wrong. However, even after the collapse of the USSR, there were plenty who had dreams of returning to the old ways. Amongst them stood Maksim Aleksandrovich Surajkin.\n\nA simple pencil-pusher in the CPRF, his power grew to the governor of Leningrad oblast in the year 2000, following Sobchak's exposure in a major corruption scandal. As the former governor and his cronies were removed from power the socialists firmly cemented their control of Northern Russia by a wide margin of electoral votes. After gaining power Surajkin developed close connections with Petersburg's Police Chief Dmitrij Puchkov. Even his separation from Zjuganov's CPEF due to their abandonment of communism in favor of red patriotism could not darken the celebrations of socialist return.\n\nAlas, it all went crashing down just as swiftly as it got better. First, the civil war shattered all hopes of a peaceful return to socialism, second, came the grueling first months and uprisings in Novgorod. And yet, the biggest strike came after Puchkov tore off his mask, revealing what he has done to the northern capital - turning city of Lenin into a bastion of red fascism, the bulwark of crude barrack communism, the very real Orwellian totalitarianism that McCarthy once rambled about. As blockade once again befell on the northern capital, Surajkin was left alone, and yet, the spark of stalinism will never be extinguished, no matter how hard reactionaries and crypto-fascists try§!"
  ##POLITICAL PARTIES##
  LEN_left_authoritarianism_party:0 "Communists of Petersburg and Leningrad Region"
  ##COUNTRY NAME##
  LEN_left_authoritarianism:0 "Leningrad Soviet Republic"
  LEN_left_authoritarianism_DEF:0 "Soviet Socialist Republic of Leningrad Region"
  ##TRAITS##
+ stalins_falcon:0 "Stalin's Falcon"
  ##IDEAS##
  LEN_Nikolaj_Platoshkin:0 "Nikolaj Platoshkin"
  LEN_Pavel_Grudinin:0 "Pavel Grudinin"

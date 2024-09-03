@@ -10,9 +10,10 @@ state={
 	}
 
 	provinces={
-		5584 10863 
+		1830 5584 10863 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
-    state_category=pastoral
+	state_category=pastoral
+	local_supplies=0.000
 }

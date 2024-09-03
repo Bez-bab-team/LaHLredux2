@@ -1,5 +1,6 @@
 ﻿l_english:
  ##LEADERS##
+ POLITICS_TKACHYOV_DESC:0 "§YBiography:§! §WRussia has always been a deeply religious country, priests and monks can be found in almost every corner of her vast plains. Andrej Jur'evich Tkachyov is one of them. Starting his religious path as deacon in the Ukrainian city of L'vov, Tkachyov moved to the eastern part of the country after the Orange Revolution of 2004 and later aligned himself with Russia during its intervention into the country. The priest's active support for the NBP and its geopolitical adventurism gained him a lot of favors in Eurasia - Tkachyov started appearing on television and radio. His rhetoric was drastically different from other orthodox clergymen, Andrei vigorously advocated for death penalties, mutilation of criminals and a militant struggle against the enemies of Christianity.\n\nAll of that was in the past - now Andrei Tkachyov and a group of his loyalists hold the city of Krasnodar as their own orthodox fiefdom. After the battle between Alexnadr Lukashenko and Vladimir Putin near Moscow and the subsequent retreat the director of Rosgvardiya took towards Caucuses Tkachyov and certain other passionary leaders were able to seize parts of Southern Russia, declaring themselves the "Sanitary Cordon" - a temporary alliance that claims to be fighting against the "tyranny" of Vladimir Putin. For now, Andrej and his allies prepare - arming themselves and closely watching the border with Rosgvardija.\n\nWhen all of this ends, and the southern menace, stops threatening his power, Andrei Tkachyov might have to think bigger. He never intended to become the leader of Russia, but the holy land of Rus' has been missing something for the last 100 years. Perhaps if Tkachyov finds her a proper christian monarch, the Motherland would finally be saved from all the troubles of the past and current century.§!"
  COU_andrej_tkachyov:0 "Andrej Tkachyov"
  ##POLITICAL PARTIES##
  COU_ur_fascism_party:0 "Russian Orthodox Church"
@@ -7,6 +8,7 @@
  COU_ur_fascism:0 "Diocese of Jekaterinodar"
  COU_ur_fascism_DEF:0 "Diocese of Jekaterinodar"
  ##TRAITS##
+ militant_preacher:0 "Militant Preacher"
  ##IDEAS##
  ##FOCUS TREES##
  COU_in_god_we_trust:0 "In God We Trust"

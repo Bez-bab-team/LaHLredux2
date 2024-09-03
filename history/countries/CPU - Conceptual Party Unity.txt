@@ -7,8 +7,69 @@ set_stability = 0.5
 set_war_support = 0.8
 # Starting tech
 set_technology = {
+	basic_machine_tools = 1
+	automatization_overall = 1
+	automatization_overall_dummy = 1
+	obsolete_main_battle_tank = 1
+	outdated_main_battle_tank = 1
+	support_weapons1 = 1
 	infantry_equipment = 1
 	infantry_equipment_2 = 1
+	infantry_weapons_1 = 1
+	outdated_armoured_personnel_carrier = 1
+	outdated_infantry_fighting_vehicle = 1
+	obsolete_armored_car = 1
+	obsolete_armored_car = 1
+	motorised_infantry = 1
+	ww2_fighter = 1
+	cas_1 = 1
+	fighter_1 = 1
+	tactical_1 = 1
+	ww2_bomber = 1
+	bomber_1 = 1
+	jet_engines = 1
+	support_weapons = 1
+	light_anti_air = 1
+	anti_tank_weapon1 = 1
+	night_vision1 = 1
+	tech_mountaineers = 1
+	tech_special_forces = 1
+	marines = 1
+	paratroopers = 1
+	urban_special_forces = 1
+	tech_support = 1
+	tech_uav = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_maintenance_company = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_signal_company = 1
+	tech_uav_company = 1
+	tech_transport_helicopters_company = 1
+	tech_assault_helicopters_company = 1
+	tech_military_police = 1
+	outdated_anti_air = 1
+	outdated_anti_air_gun = 1
+	outdated_anti_air_radar = 1
+	obsolete_howitzer = 1
+	outdated_howitzer = 1
+	outdated_howitzer_gun = 1
+	outdated_howitzer_radar = 1
+	outdated_anti_tank = 1
+	outdated_anti_tank_gun = 1
+	outdated_anti_tank_radar = 1
+	outdated_mlrs = 1
+	outdated_mlrs_gun = 1
+	outdated_mlrs_radar = 1
+	helicopter_engines = 1
+	prototype_helicopter = 1
+	tech_transport_helicopters = 1
+	tech_assault_helicopters = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	atomic_research = 1
+	basic_train = 1
 }
 set_convoys = 50
 
@@ -16,16 +77,11 @@ set_politics = {
 	ruling_party = commendationism 
 	elections_allowed = no
 }
+
+##CHARACTERS##
+#leaders#
+recruit_character = CPU_constantine_petrov
+
 set_popularities = {
 	commendationism  = 100
-}
-
-create_country_leader = {
-	name = "Constantine Petrov"
-	desc = ""
-	picture = "Portrait_CPU_Constantine_Petrov.dds"
-	ideology = ultrahegelianism
-	traits = {
-		
-	}
 }

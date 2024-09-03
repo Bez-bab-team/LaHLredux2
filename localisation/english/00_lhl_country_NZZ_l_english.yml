@@ -1,10 +1,13 @@
 ﻿l_english:
  ##LEADERS##
+ NZZ_bulat_abilov:0 "Bulat Abilov"
+ POLITICS_ABILOV_DESC:0 "§YBiography:§! §WBulat Mukishevich Abilov is a man of many talents. He used to be a political advisor, a successful businessman, an owner of a football club, a TV show host, a philanthropist and an opposition leader. Now Bulat Abilov is a leader of the glorious Neutral Zhuz - the Kazakh province of Aktau, cut off both from the independence movement of Nursultan Nazarbajev and the Russian National State of Boris Jel'tsin.\n\nWhen the civil war began, Abilov quickly seized control of Aktau and nominally supported the newly established Republic of Kazakhstan, however he almost always refused to commit manpower or any resources ro Kyzylorda, coming up with different excuses each time. The former businessman also wasn’t in a hurry to engage Jel'tsin’s troops directly, preferring to watch the conflict unfold from afar.\n\nThe charade continued for a few months, until Aktau was completely cut off from both warring parties by the ravaging hordes of Mikhail Groshinev. Abilov instantly declared the territories under his control a neutral party in the conflict and stopped any communications with Nazarbajev. Now the newly established Neutral Zhuz (name subject to change) will attempt to maneuver itself in this new dangerous world. Maybe Bulat Mukishevich Abilov will finally find his true calling in life as a leader and savior of the free people of Aktau.§!"
  ##POLITICAL PARTIES##
  ##COUNTRY NAME##
  NZZ_neocameralism:0 "Neutral Zhuz"
  NZZ_neocameralism_DEF:0 "Neutral Zhuz"
  ##TRAITS##
+ schemer:0 "Schemer"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##

@@ -20,24 +20,7 @@ set_popularities = {
 	national_bolshevism = 100
 }
 
-create_country_leader = {
-	name = "Viktor Tsoj"
-	desc = ""
-	picture = "Portrait_SAH_Viktor_Tsoj.dds"
-	expire = "1965.1.1"
-	ideology = nazbol_gang
-	traits = {
-		#
-	}
-}
-
-create_corps_commander = {
-	name = "Hideo Kojima"
-		picture = "Portrait_SAH_Hideo_Kojima.dds"
-	traits = { trickster commando guerilla_fighter }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 4
-}
+##CHARACTERS##
+#leaders#
+recruit_character = SAH_viktor_tsoj
+recruit_character = SAH_hideo_kojima

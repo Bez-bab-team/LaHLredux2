@@ -12,6 +12,21 @@ characters={
 			id=-1
 		}
 	}
+	BAL_viktor_alksnis={
+		name=BAL_viktor_alksnis
+		portraits={
+			civilian={
+				large="gfx/leaders/BAL/Portrait_BAL_Victor_Alksnis.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ALKSNIS_DESC"
+			ideology=soviet_marxism
+			traits={ black_colonel }
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
 	BAL_jim_roberts={
 		name="Jim Roberts"
 		portraits={
@@ -37,19 +52,6 @@ characters={
 			ideology=ultrahegelianism
 			traits={ fortification_engineer }
 			expire="2030.1.1.14"
-			id=-1
-		}
-	}
-	BAL_viktor_alksnis={
-		name="Viktor Alksnis"
-		portraits={
-			civilian={
-				large="gfx/leaders/BAL/Portrait_BAL_Viktor_Alksnis.dds"
-			}
-		}
-		country_leader={
-			ideology=soviet_marxism
-			expire="1.1.1.1"
 			id=-1
 		}
 	}

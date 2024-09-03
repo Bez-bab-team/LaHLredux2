@@ -8,6 +8,7 @@ characters={
 		}
 		country_leader={
 			ideology=nazbol_gang
+			traits={ horn_of_the_party }
 			expire="1.1.1.1"
 			id=-1
 		}

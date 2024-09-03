@@ -1,21 +1,21 @@
 characters={
-	NRU_louis_cachet={
-		name="Louis Cachet"
-		portraits={
-			civilian={
-				large="gfx/leaders/NRU/Portrait_NRU_Louis_Cachet.dds"
-			}
-		}
-		country_leader={
-			desc="POLITICS_LOUIS_CACHET_DESC"
-			ideology=paleo_revolutionism
-			traits={ han_som_reiste }
-			expire="1.1.1.1"
-			id=-1
-		}
-	}
+	###NRU_louis_cachet={
+	#	name="Louis Cachet"
+	#	portraits={
+	#		civilian={
+	#			large="gfx/leaders/NRU/Portrait_NRU_Louis_Cachet.dds"
+	#		}
+	#	}
+	#	country_leader={
+	#		desc="POLITICS_LOUIS_CACHET_DESC"
+	#		ideology=paleo_revolutionism
+	#		traits={ han_som_reiste }
+	#		expire="1.1.1.1"
+	#		id=-1
+	#	}
+	#}
 	NRU_dobroslav={
-		name="Dobroslav"
+		name=NRU_dobroslav
 		portraits={
 			civilian={
 				large="gfx/leaders/NRU/Portrait_NRU_Dobroslav.dds"
@@ -23,7 +23,7 @@ characters={
 		}
 		country_leader={
 			desc="POLITICS_DOBROSLAV_DESC"
-			ideology=religious_millennialism
+			ideology=paleo_revolutionism
 			traits={ gestumblindi }
 			expire="1.1.1.1"
 			id=-1

@@ -106,6 +106,12 @@ scripted_gui = {
 					has_country_flag = lhl_SUS_espionage_mission_1_selected
 				}				
 			}
+			lhl_SUS_circle_active_mission_1_inactive_visible = {
+				has_country_flag = lhl_SUS_espionage_mission_selected
+				NOT = {
+					has_country_flag = lhl_SUS_espionage_mission_1_selected
+				}
+			}
 			#Mission 2#
 			lhl_SUS_circle_active_mission_2_visible = {
 				NOT = {
@@ -129,6 +135,9 @@ scripted_gui = {
 			}
 			lhl_SUS_circle_active_mission_2_inactive_visible = {
 				has_country_flag = lhl_SUS_espionage_mission_selected
+				NOT = {
+					has_country_flag = lhl_SUS_espionage_mission_2_selected
+				}
 			}
 			#Mission 3#
 			lhl_SUS_circle_active_mission_3_visible = {
@@ -147,40 +156,173 @@ scripted_gui = {
 			lhl_SUS_circle_active_mission_4_inactive_visible = {
 				has_country_flag = lhl_SUS_espionage_mission_selected
 			}
+			#LEADER#
+			lhl_SUS_espionage_head_title_visible = {
+				has_country_flag = lhl_SUS_espionage_screen_map
+			}
+			lhl_SUS_espionage_agents_title_visible = {
+				has_country_flag = lhl_SUS_espionage_screen_map
+			}
+			lhl_SUS_espionage_agents_number_visible = {
+				has_country_flag = lhl_SUS_espionage_screen_map
+			}
+			lhl_SUS_agent_icon_big_visible = {
+				has_country_flag = lhl_SUS_espionage_screen_map
+			}
+			lhl_SUS_espionage_leader_1_visible = {
+				has_country_flag = lhl_SUS_espionage_screen_map
+			}
+			lhl_SUS_espionage_leader_2_visible = {
+				has_country_flag = lhl_SUS_espionage_leader_2
+			}
 			#Artifacts#
-			lhl_SUS_espionage_artifact_1_visible = {
+			lhl_SUS_espionage_artifact_title_visible = {
 				has_country_flag = lhl_SUS_espionage_screen_map
 			}
-			lhl_SUS_espionage_artifact_2_visible = {
+			lhl_SUS_espionage_artifact_1_pedestal_visible = {
 				has_country_flag = lhl_SUS_espionage_screen_map
 			}
-			lhl_SUS_espionage_artifact_3_visible = {
+			lhl_SUS_espionage_artifact_2_pedestal_visible = {
 				has_country_flag = lhl_SUS_espionage_screen_map
 			}
-			lhl_SUS_espionage_artifact_4_visible = {
+			lhl_SUS_espionage_artifact_3_pedestal_visible = {
 				has_country_flag = lhl_SUS_espionage_screen_map
 			}
-			lhl_SUS_espionage_artifact_5_visible = {
+			lhl_SUS_espionage_artifact_4_pedestal_visible = {
 				has_country_flag = lhl_SUS_espionage_screen_map
 			}
-			lhl_SUS_espionage_artifact_6_visible = {
+			lhl_SUS_espionage_artifact_5_pedestal_visible = {
 				has_country_flag = lhl_SUS_espionage_screen_map
 			}
-			lhl_SUS_espionage_artifact_7_visible = {
+			lhl_SUS_espionage_artifact_1_placeholder_visible = {
+				NOT = {
+					has_country_flag = lhl_SUS_espionage_superweapon_1_active
+				}
 				has_country_flag = lhl_SUS_espionage_screen_map
 			}
-			lhl_SUS_espionage_artifact_8_visible = {
+			lhl_SUS_espionage_artifact_2_placeholder_visible = {
+				NOT = {
+					has_country_flag = lhl_SUS_espionage_superweapon_2_active
+				}
 				has_country_flag = lhl_SUS_espionage_screen_map
 			}
-			lhl_SUS_espionage_artifact_9_visible = {
+			lhl_SUS_espionage_artifact_3_placeholder_visible = {
+				NOT = {
+					has_country_flag = lhl_SUS_espionage_superweapon_3_active
+				}
 				has_country_flag = lhl_SUS_espionage_screen_map
 			}
-			lhl_SUS_espionage_artifact_10_visible = {
+			lhl_SUS_espionage_artifact_4_placeholder_visible = {
+				NOT = {
+					has_country_flag = lhl_SUS_espionage_superweapon_4_active
+				}
 				has_country_flag = lhl_SUS_espionage_screen_map
+			}
+			lhl_SUS_espionage_artifact_5_placeholder_visible = {
+				NOT = {
+					has_country_flag = lhl_SUS_espionage_superweapon_5_active
+				}
+				has_country_flag = lhl_SUS_espionage_screen_map
+			}
+			#
+			lhl_SUS_superweapon_1_button_visible = {
+				has_country_flag = lhl_SUS_espionage_screen_map
+				has_country_flag = lhl_SUS_espionage_superweapon_1_active
+				NOT = {
+					has_country_flag = lhl_SUS_espionage_superweapon_1_selected
+				}
+			}
+			lhl_SUS_superweapon_2_button_visible = {
+				has_country_flag = lhl_SUS_espionage_screen_map
+				has_country_flag = lhl_SUS_espionage_superweapon_2_active
+				NOT = {
+					has_country_flag = lhl_SUS_espionage_superweapon_2_selected
+				}
+			}
+			lhl_SUS_superweapon_3_button_visible = {
+				has_country_flag = lhl_SUS_espionage_screen_map
+				has_country_flag = lhl_SUS_espionage_superweapon_3_active
+				NOT = {
+					has_country_flag = lhl_SUS_espionage_superweapon_3_selected
+				}
+			}
+			lhl_SUS_superweapon_4_button_visible = {
+				has_country_flag = lhl_SUS_espionage_screen_map
+				has_country_flag = lhl_SUS_espionage_superweapon_4_active
+				NOT = {
+					has_country_flag = lhl_SUS_espionage_superweapon_4_selected
+				}
+			}
+			lhl_SUS_superweapon_5_button_visible = {
+				has_country_flag = lhl_SUS_espionage_screen_map
+				has_country_flag = lhl_SUS_espionage_superweapon_5_active
+				NOT = {
+					has_country_flag = lhl_SUS_espionage_superweapon_5_selected
+				}
+			}
+			#
+			lhl_SUS_superweapon_1_button_fake_visible = {
+				has_country_flag = lhl_SUS_espionage_screen_map
+				has_country_flag = lhl_SUS_espionage_superweapon_1_active
+				has_country_flag = lhl_SUS_espionage_superweapon_1_selected
+			}
+			lhl_SUS_superweapon_2_button_fake_visible = {
+				has_country_flag = lhl_SUS_espionage_screen_map
+				has_country_flag = lhl_SUS_espionage_superweapon_2_active
+				has_country_flag = lhl_SUS_espionage_superweapon_2_selected
+			}
+			lhl_SUS_superweapon_3_button_fake_visible = {
+				has_country_flag = lhl_SUS_espionage_screen_map
+				has_country_flag = lhl_SUS_espionage_superweapon_3_active
+				has_country_flag = lhl_SUS_espionage_superweapon_3_selected
+			}
+			lhl_SUS_superweapon_4_button_fake_visible = {
+				has_country_flag = lhl_SUS_espionage_screen_map
+				has_country_flag = lhl_SUS_espionage_superweapon_4_active
+				has_country_flag = lhl_SUS_espionage_superweapon_4_selected
+			}
+			lhl_SUS_superweapon_5_button_fake_visible = {
+				has_country_flag = lhl_SUS_espionage_screen_map
+				has_country_flag = lhl_SUS_espionage_superweapon_5_active
+				has_country_flag = lhl_SUS_espionage_superweapon_5_selected
 			}
 			lhl_SUS_espionage_artifact_chemical_weapon_visible = {
 				has_country_flag = lhl_SUS_espionage_screen_map
 				has_country_flag = SUS_mission_1_superweapon
+			}
+		}
+		effects = {
+			#
+			lhl_SUS_superweapon_1_button_click = {
+				set_country_flag = lhl_SUS_espionage_superweapon_1_selected
+			}
+			lhl_SUS_superweapon_2_button_click = {
+				set_country_flag = lhl_SUS_espionage_superweapon_2_selected
+			}
+			lhl_SUS_superweapon_3_button_click = {
+				set_country_flag = lhl_SUS_espionage_superweapon_3_selected
+			}
+			lhl_SUS_superweapon_4_button_click = {
+				set_country_flag = lhl_SUS_espionage_superweapon_4_selected
+			}
+			lhl_SUS_superweapon_5_button_click = {
+				set_country_flag = lhl_SUS_espionage_superweapon_5_selected
+			}
+			#
+			lhl_SUS_superweapon_1_button_fake_click = {
+				clr_country_flag = lhl_SUS_espionage_superweapon_1_selected
+			}
+			lhl_SUS_superweapon_2_button_fake_click = {
+				clr_country_flag = lhl_SUS_espionage_superweapon_2_selected
+			}
+			lhl_SUS_superweapon_3_button_fake_click = {
+				clr_country_flag = lhl_SUS_espionage_superweapon_3_selected
+			}
+			lhl_SUS_superweapon_4_button_fake_click = {
+				clr_country_flag = lhl_SUS_espionage_superweapon_4_selected
+			}
+			lhl_SUS_superweapon_5_button_fake_click = {
+				clr_country_flag = lhl_SUS_espionage_superweapon_5_selected
 			}
 		}
 	}
@@ -217,12 +359,16 @@ scripted_gui = {
 					has_country_flag = lhl_SUS_espionage_mission_selected
 				}
 			}
-			lhl_SUS_espionage_leader_1_visible = {
-				has_country_flag = lhl_SUS_espionage_leader_1
-			}
-			lhl_SUS_espionage_leader_2_visible = {
-				has_country_flag = lhl_SUS_espionage_leader_2
-			}
+		}
+	}
+	###Blackout###
+	lhl_SUS_espionage_blackout_screen_body = {
+		context_type = selected_country_context
+		parent_window_token = selected_country_view
+		window_name = "lhl_SUS_espionage_blackout_full"
+
+		visible = {
+			has_country_flag = SUS_superweapon_blackout_activated
 		}
 	}
 }
