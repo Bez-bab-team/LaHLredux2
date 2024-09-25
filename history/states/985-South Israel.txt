@@ -6,8 +6,8 @@ state={
 		1196 2326 3160 4154 4364 5554 5650 6880 12992 13047 17458 
 	}
 	history={
-		owner = EGY
-		add_core_of = EGY
+		owner = PAL
+		add_core_of = PAL
 	}	
 	manpower=1988506
 	buildings_max_level_factor=1.000

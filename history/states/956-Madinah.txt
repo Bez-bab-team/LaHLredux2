@@ -5,7 +5,8 @@ state={
 		818 2003 2548 3062 3252 3637 4005 6181 6491 6602 7158 7530 7606 8163 8625 8789 9152 9516 13666 13696 13736 13743 13838 
 	}
 	history={
-		owner = BHR
+		owner = HAR
+		add_core_of = HAR
 		add_core_of = BHR
 	}	
 	manpower=1988506

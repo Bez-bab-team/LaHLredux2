@@ -1,14 +1,19 @@
+
 state={
 	id=238
 	name="STATE_238"
-	provinces={
-		725 1188 2797 7395 8557 8914 11182 11206 15085  
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = HUN
 		add_core_of = HUN
+
 	}
+
+	provinces={
+		725 1188 2797 7395 8557 8914 11182 11206 15085 21384 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

@@ -6,7 +6,8 @@ state={
 		425 449 644 1558 1852 2031 2153 2316 2483 3247 3270 3275 4328 4501 5007 5321 7190 7773 8623 12934 13069 13199 13209 
 	}
 	history={
-		owner = BHR
+		owner = IRQ
+		add_core_of = IRQ
 		add_core_of = BHR
 	}	
 	manpower=1988506

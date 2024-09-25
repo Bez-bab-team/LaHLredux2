@@ -2,13 +2,7 @@
 state={
 	id=203
 	name="STATE_203"
-	provinces={
-		330 722 2127 3044 4136 4479 5562 5992 6131 6874 7534 7569 7731 8127 8144 8446 8906 9533 9887 10893 10942 10955 10958 10981 10994 10998 10999 11004 11020 11022 11062 11082 11090 11106 11119 
-	}
-	buildings_max_level_factor=1.000
-    state_category=large_city
-	manpower=7003827
-	
+
 	history={
 		owner = GER
 		add_core_of = GER
@@ -16,6 +10,16 @@ state={
 			infrastructure = 3
 			industrial_complex = 4
 			arms_factory = 3
+
 		}
+
 	}
+
+	provinces={
+		330 722 2127 3044 4136 4479 5562 5992 6131 6874 7534 7569 7731 8127 8144 8446 8906 9533 9887 10893 10942 10955 10958 10981 10994 10998 10999 11004 11020 11022 11062 11082 11090 11106 11119 21256 
+	}
+	manpower=7003827
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
 }

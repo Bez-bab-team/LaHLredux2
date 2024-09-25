@@ -1,0 +1,16 @@
+state={
+	id=1364
+	name="STATE_1364"
+	provinces={
+		13473 21235 21333 21743 
+	}
+	history={
+		owner = ISR
+		add_core_of = ISR
+
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

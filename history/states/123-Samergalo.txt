@@ -10,13 +10,16 @@ state={
 			infrastructure = 4
 			industrial_complex = 4
 			arms_factory = 4
+
 		}
+
 	}
 
 	provinces={
-		6162 6917 7750 7887 8573 8968 11493 11539 11544 11551 11586 15119 
+		3539 6162 6917 7750 7887 8573 8968 11493 11539 11544 11551 11586 11630 15119 
 	}
 	manpower=1303192
 	buildings_max_level_factor=1.000
-    state_category=technoparadise
+	state_category=technoparadise
+	local_supplies=0.000
 }
