@@ -120,4 +120,9 @@ spriteTypes = {
 		name = "GFX_SUS_5_history_lesson_event"
 		texturefile = "gfx/event_pictures/SUS_5_history_lesson.dds"
 	}
+	##NTH##
+	spriteType = {
+		name = "GFX_NTH_galloway_dismissed_event"
+		texturefile = "gfx/event_pictures/NTH_galloway_dismissed.dds"
+	}
 }
