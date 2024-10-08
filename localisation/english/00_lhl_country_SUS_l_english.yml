@@ -1936,11 +1936,32 @@
  SUS_pillars_75_percent_desc:0 "One of the Council faction is fully in control of the Congress. The other leftist forces are clearly unsatisfied with this state of affairs and seem to be planning something. If we do not act fast, they may sabotage the fabric of the state itself, just so to make the dominante faction lose its power. We have to decrease the power of the dominant faction if we want to avoid negative consequences."
  ###ESPIONAGE###
  ##SUPERWEAPON##
+ SUS_BLUE_STATE:0 "Blue Front"
+ SUS_BLUE_STATE_ADJ:0 "Blue Front"
+ SUS_BLUE_STATE_DEF:0 "The Blue Front"
+ SUS_defence_council:0 "Defence Council"
+ #
  SUS_BLACKOUT:0 "Radio Silence"
  SUS_superweapon_blackout_name:0 "RADIO SILENCE"
  SUS_superweapon_blackout_effect:0 "§R"Blackout"§! Device Activated"
- SUS_SPY_ARTIFACT_2:0 "§R"Blackout"§! Device\n\nA powerful electro-magnetic weapon, obtained during our operation in Germany, the §R"Blackout"§! device is capable of temporarily disabling the entire powergrid of a selected nation."
+ SUS_SPY_ARTIFACT_1:0 "Operation §C"Blue State"§!\n\nA deep infiltration operation that will establish a rival "resistance" government within the enemy's territory, once we go to war with each other. May or may not utilize experimental brainwashing technology retrieved from the Island of Man.\n\n[GetSUSSuperweaponCountdownBlueState]"
+ SUS_SPY_ARTIFACT_2:0 "§R"Blackout"§! Device\n\nA powerful electro-magnetic weapon, obtained during our operation in Germany, the §R"Blackout"§! device is capable of temporarily disabling the entire powergrid of a selected nation.\n\n[GetSUSSuperweaponCountdownBlackout]"
+ SUS_SPY_ARTIFACT_3:0 ""§gWeather Storm"§! Superweapon\n\nA powerful weather manipulation device smuggled out of the Middle East during one of our operations. Can we used to summon hectic weather conditions towards a foreign nation.\n\n[GetSUSSuperweaponCountdownWeather]"
+ SUS_SPY_ARTIFACT_4:0 "§0Kinetic Bombardment§!\n\nAn experimenatal sattelite technology capable of launching high-velocity tungsten rods towards a particular state, devastating everything in its wake. The device was captured during our operation in outer space.\n\n[GetSUSSuperweaponCountdownKinetic]"
  SUS_superweapon_blackout_launch:0 "Use The §R"Blackout"§! Device against [FROM.owner.GetName]"
+ SUS_superweapon_blue_state_launch:0 "Conduct Operation §C"Blue State"§! against [FROM.owner.GetName]"
+ SUS_superweapon_weather_device_launch:0 "Summon a §gWeather Storm"§! against [FROM.owner.GetName]"
+ SUS_superweapon_kinetic_bombardment_launch:0 "Unleash §0Kinetic Bombardment§! against [FROM.GetName]"
+ #
+ SUS_blue_state_countdown_start:0 "§G==READY FOR DEPLOYMENT==§!"
+ SUS_blackout_countdown_start:0 "§G==READY FOR DEPLOYMENT==§!"
+ SUS_weather_device_countdown_start:0 "§G==READY FOR DEPLOYMENT==§!"
+ SUS_kinetic_bombardment_countdown_start:0 "§G==READY FOR DEPLOYMENT==§!"
+ #
+ SUS_blue_state_countdown_timeout:0 "§ROPERATION CURRENTLY IN PROGRESS§!"
+ SUS_blackout_countdown_timeout:0 "§RThe Device will be available in [?SUS_superweapon_blackout_variable] days§!"
+ SUS_weather_device_countdown_timeout:0 "§RThe Device will be available in [?SUS_superweapon_weather_device_variable] days§!"
+ SUS_kinetic_bombardment_countdown_timeout:0 "§RThe Device will be available in [?SUS_superweapon_kinetic_bombardment_variable] days§!"
  #Agency Leader#
  SUS_AGENCY_AGENTS_TITLE:0 "Available Agents"
  #

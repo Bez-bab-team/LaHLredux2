@@ -240,4 +240,28 @@ soundeffect = {
 	volume = 1
 }
 
+soundeffect = {
+	name = "SUS_superweapon_blue_state_sound_1"
+	sounds = {
+		sound = "SUS_superweapon_blue_state_sound"
+	}
+	volume = 1
+}
+
+soundeffect = {
+	name = "SUS_superweapon_weather_device_sound_1"
+	sounds = {
+		sound = "SUS_superweapon_weather_device_sound"
+	}
+	volume = 1
+}
+
+soundeffect = {
+	name = "SUS_superweapon_kinetic_bombardment_sound_1"
+	sounds = {
+		sound = "SUS_superweapon_kinetic_bombardment_sound"
+	}
+	volume = 1
+}
+
 

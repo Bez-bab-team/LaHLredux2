@@ -620,3 +620,12 @@ SUS_planned_offensive = {
 	local_org_regain = 0.3
 }
 
+SUS_weather_device_modifier = {
+	icon = GFX_SUS_weather_device_dynamic_modifier
+	local_org_regain = -1.0
+	attrition = 1.0
+	planning_speed = -3.0
+	max_dig_in_factor = -1.0
+	state_production_speed_buildings_factor = -3.0
+}
+

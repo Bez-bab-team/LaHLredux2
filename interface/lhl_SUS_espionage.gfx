@@ -101,10 +101,19 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SUS_espionage_leader_1"
 		textureFile = "gfx/interface/scripted_guis/SUS_espionage/SUS_espionage_leader_1.dds"
-	}	spriteType = {
+	}	
+	spriteType = {
 		name = "GFX_SUS_espionage_leader_2"
 		textureFile = "gfx/interface/scripted_guis/SUS_espionage/SUS_espionage_leader_2.dds"
-	}	
+	}
+	spriteType = {
+		name = "GFX_SUS_defence_council"
+		textureFile = "gfx/leaders/SUS/SUS_defence_council.dds"
+	}
+	spriteType = {
+		name = "GFX_SUS_weather_device_dynamic_modifier"
+		textureFile = "gfx/interface/scripted_guis/SUS_espionage/SUS_modifiers_flooded_icon.dds"
+	}		
 	###SUPERWEAPON EFFECTS###
 	#ICON#
 	frameAnimatedSpriteType = {

@@ -808,3 +808,72 @@ defined_text = {
 		localization_key = SUS_socecon_loyalty_0_tt
 	}
 }
+###SUS Superweapons###
+defined_text = {
+	name = GetSUSSuperweaponCountdownBlueState
+	text = {
+		trigger = {
+			NOT = {
+				has_global_flag = SUS_superweapon_blue_state_activated_true
+			}
+		}
+		localization_key = SUS_blue_state_countdown_start
+	}
+	text = {
+		trigger = {
+			has_global_flag = SUS_superweapon_blue_state_activated_true
+		}
+		localization_key = SUS_blue_state_countdown_timeout
+	}
+}
+defined_text = {
+	name = GetSUSSuperweaponCountdownBlackout
+	text = {
+		trigger = {
+			NOT = {
+				has_global_flag = SUS_superweapon_blackout_activated_true
+			}
+		}
+		localization_key = SUS_blackout_countdown_start
+	}
+	text = {
+		trigger = {
+			has_global_flag = SUS_superweapon_blackout_activated_true
+		}
+		localization_key = SUS_blackout_countdown_timeout
+	}
+}
+defined_text = {
+	name = GetSUSSuperweaponCountdownWeather
+	text = {
+		trigger = {
+			NOT = {
+				has_global_flag = SUS_superweapon_weather_device_activated_true
+			}
+		}
+		localization_key = SUS_weather_device_countdown_start
+	}
+	text = {
+		trigger = {
+			has_global_flag = SUS_superweapon_weather_device_activated_true
+		}
+		localization_key = SUS_weather_device_countdown_timeout
+	}
+}
+defined_text = {
+	name = GetSUSSuperweaponCountdownKinetic
+	text = {
+		trigger = {
+			NOT = {
+				has_global_flag = SUS_superweapon_kinetic_bombardment_activated_true
+			}
+		}
+		localization_key = SUS_kinetic_bombardment_countdown_start
+	}
+	text = {
+		trigger = {
+			has_global_flag = SUS_superweapon_kinetic_bombardment_activated_true
+		}
+		localization_key = SUS_kinetic_bombardment_countdown_timeout
+	}
+}

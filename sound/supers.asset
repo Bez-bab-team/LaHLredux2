@@ -210,3 +210,24 @@ sound = {
 	volume = 1
 	always_load = yes
 }
+
+sound = {
+	name = "SUS_superweapon_blue_state_sound"
+	file = "menu/SUS_superweapon_blue_state.wav"
+	volume = 1
+	always_load = yes
+}
+
+sound = {
+	name = "SUS_superweapon_weather_device_sound"
+	file = "menu/SUS_superweapon_weather_device.wav"
+	volume = 1
+	always_load = yes
+}
+
+sound = {
+	name = "SUS_superweapon_kinetic_bombardment_sound"
+	file = "menu/SUS_superweapon_kinetic_bombardment.wav"
+	volume = 1
+	always_load = yes
+}

@@ -1,4 +1,166 @@
 on_actions = {
+	##SUS Superweapons##
+	on_declare_war = {
+		effect = {
+			if = {
+				limit = {
+					tag = SUS
+					FROM = {
+						has_country_flag = SUS_superweapon_blue_state_activated
+					}
+				}
+				SUS_defence_council = {
+				}
+				FROM = {
+					start_civil_war = {
+						ideology = neocameralism
+						size = 0.1
+						army_ratio = 0.1
+						navy_ratio = 0.1
+						air_ratio = 0.1
+						states_filter = {
+							is_capital = yes
+						}
+						set_country_flag = SUS_british_blue_state
+						set_country_leader_portrait = {
+							portrait = GFX_SUS_defence_council
+						}
+						set_country_leader_name = {
+							name = SUS_defence_council
+						}	
+						keep_all_characters = yes				
+						set_cosmetic_tag = SUS_BLUE_STATE
+						save_global_event_target_as = SUS_british_blue_state_event
+					}
+				}
+			}
+		}
+	}
+	on_civil_war_end = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = {
+						has_country_flag = SUS_british_blue_state
+					}
+					FROM = {
+						has_country_flag = SUS_superweapon_blue_state_activated
+					}
+				}
+				clr_global_flag = SUS_superweapon_blue_state_activated_true
+				ROOT = {
+					clr_country_flag = SUS_british_blue_state
+				}
+				FROM = {
+					clr_country_flag = SUS_superweapon_blue_state_activated
+				}
+				SUS = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}	
+				}
+			}
+		}
+	}
+	on_civil_war_end = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = {
+						has_country_flag = SUS_superweapon_blue_state_activated
+					}
+					FROM = {
+						has_country_flag = SUS_british_blue_state
+					}
+				}
+				clr_global_flag = SUS_superweapon_blue_state_activated_true
+				ROOT = {
+					clr_country_flag = SUS_british_blue_state
+				}
+				FROM = {
+					clr_country_flag = SUS_superweapon_blue_state_activated
+				}
+			}
+		}
+	}
+    on_capitulation = {
+	    effect = {
+		    if = {
+			    limit = {
+			        ROOT = { tag = SUS }
+				}
+				clr_global_flag = SUS_superweapon_blue_state_activated_true
+				every_country = {
+					limit = {
+						has_country_flag = SUS_superweapon_blue_state_activated
+					}
+					clr_country_flag = SUS_superweapon_blue_state_activated
+					annex_country = {
+						target = event_target:SUS_british_blue_state_event
+						transfer_troops = no
+					}
+				}
+			}
+		}
+	}
+    on_capitulation = {
+	    effect = {
+		    if = {
+			    limit = {
+			        ROOT = { 
+						has_country_flag = SUS_superweapon_blackout_activated
+					}
+				}
+				ROOT = {
+					drop_cosmetic_tag = yes
+					every_core_state = {
+						reset_state_name = yes
+					}
+				}
+			}
+		}
+	}
+	on_daily_SUS = {
+		effect = {  
+			if = {
+				limit = { 
+					has_global_flag = SUS_superweapon_blackout_activated_true
+				}
+				subtract_from_variable = {
+					var = SUS_superweapon_blackout_variable
+					value = 1
+				}
+			}
+		}
+	}
+	on_daily_SUS = {
+		effect = {  
+			if = {
+				limit = { 
+					has_global_flag = SUS_superweapon_weather_device_activated_true
+				}
+				subtract_from_variable = {
+					var = SUS_superweapon_weather_device_variable
+					value = 1
+				}
+			}
+		}
+	}
+	on_daily_SUS = {
+		effect = {  
+			if = {
+				limit = { 
+					has_global_flag = SUS_superweapon_kinetic_bombardment_activated_true
+				}
+				subtract_from_variable = {
+					var = SUS_superweapon_kinetic_bombardment_variable
+					value = 1
+				}
+			}
+		}
+	}
+	##SUS Superweapons End##
     on_capitulation = {
 	    effect = {
 		    if = {

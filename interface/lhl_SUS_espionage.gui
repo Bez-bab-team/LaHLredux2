@@ -180,66 +180,53 @@ guiTypes = {
 		}
 		iconType = {
 			name = "lhl_SUS_espionage_artifact_1_pedestal"
-			position = { x = 65 y = 600 }
+			position = { x = 95 y = 600 }
 			spriteType = "GFX_lhl_SUS_espionage_artifact_title"
 			alwaystransparent = yes
 		}
 		iconType = {
 			name = "lhl_SUS_espionage_artifact_2_pedestal"
-			position = { x = 265 y = 600 }
+			position = { x = 345 y = 600 }
 			spriteType = "GFX_lhl_SUS_espionage_artifact_title"
 			alwaystransparent = yes
 		}
 		iconType = {
 			name = "lhl_SUS_espionage_artifact_3_pedestal"
-			position = { x = 465 y = 600 }
+			position = { x = 595 y = 600 }
 			spriteType = "GFX_lhl_SUS_espionage_artifact_title"
 			alwaystransparent = yes
 		}
 		iconType = {
 			name = "lhl_SUS_espionage_artifact_4_pedestal"
-			position = { x = 665 y = 600 }
-			spriteType = "GFX_lhl_SUS_espionage_artifact_title"
-			alwaystransparent = yes
-		}
-		iconType = {
-			name = "lhl_SUS_espionage_artifact_5_pedestal"
-			position = { x = 865 y = 600 }
+			position = { x = 845 y = 600 }
 			spriteType = "GFX_lhl_SUS_espionage_artifact_title"
 			alwaystransparent = yes
 		}
 		#
 		iconType = {
 			name = "lhl_SUS_espionage_artifact_1_placeholder"
-			position = { x = 110 y = 545 }
+			position = { x = 140 y = 545 }
 			spriteType = "GFX_lhl_SUS_espionage_artifact_placeholder"
 			pdx_tooltip = "SUS_SPY_ARTIFACT_PLACEHOLDER"
 			alwaystransparent = yes
 		}
 		iconType = {
 			name = "lhl_SUS_espionage_artifact_2_placeholder"
-			position = { x = 310 y = 545 }
+			position = { x = 390 y = 545 }
 			spriteType = "GFX_lhl_SUS_espionage_artifact_placeholder"
 			pdx_tooltip = "SUS_SPY_ARTIFACT_PLACEHOLDER"
 			alwaystransparent = yes
 		}
 		iconType = {
 			name = "lhl_SUS_espionage_artifact_3_placeholder"
-			position = { x = 510 y = 545 }
+			position = { x = 640 y = 545 }
 			spriteType = "GFX_lhl_SUS_espionage_artifact_placeholder"
 			pdx_tooltip = "SUS_SPY_ARTIFACT_PLACEHOLDER"
 			alwaystransparent = yes
 		}
 		iconType = {
 			name = "lhl_SUS_espionage_artifact_4_placeholder"
-			position = { x = 710 y = 545 }
-			spriteType = "GFX_lhl_SUS_espionage_artifact_placeholder"
-			pdx_tooltip = "SUS_SPY_ARTIFACT_PLACEHOLDER"
-			alwaystransparent = yes
-		}
-		iconType = {
-			name = "lhl_SUS_espionage_artifact_5_placeholder"
-			position = { x = 910 y = 545 }
+			position = { x = 890 y = 545 }
 			spriteType = "GFX_lhl_SUS_espionage_artifact_placeholder"
 			pdx_tooltip = "SUS_SPY_ARTIFACT_PLACEHOLDER"
 			alwaystransparent = yes
@@ -247,73 +234,60 @@ guiTypes = {
 		#
 		buttonType = {
 			name = "lhl_SUS_superweapon_1_button"
-			position = { x = 110 y = 545 }
+			position = { x = 140 y = 545 }
 			spriteType = "GFX_lhl_SUS_superweapon_1"
 			pdx_tooltip = "SUS_SPY_ARTIFACT_1"
+			clicksound = "SUS_superweapon_target_sound_1"
 		}
 		buttonType = {
 			name = "lhl_SUS_superweapon_2_button"
-			position = { x = 310 y = 545 }
+			position = { x = 390 y = 545 }
 			spriteType = "GFX_lhl_SUS_superweapon_2"
 			pdx_tooltip = "SUS_SPY_ARTIFACT_2"
 			clicksound = "SUS_superweapon_target_sound_1"
 		}
 		buttonType = {
 			name = "lhl_SUS_superweapon_3_button"
-			position = { x = 510 y = 545 }
+			position = { x = 640 y = 545 }
 			spriteType = "GFX_lhl_SUS_superweapon_3"
 			pdx_tooltip = "SUS_SPY_ARTIFACT_3"
+			clicksound = "SUS_superweapon_target_sound_1"
 		}
 		buttonType = {
 			name = "lhl_SUS_superweapon_4_button"
-			position = { x = 710 y = 545 }
+			position = { x = 890 y = 545 }
 			spriteType = "GFX_lhl_SUS_superweapon_4"
 			pdx_tooltip = "SUS_SPY_ARTIFACT_4"
-		}
-		buttonType = {
-			name = "lhl_SUS_superweapon_5_button"
-			position = { x = 910 y = 545 }
-			spriteType = "GFX_lhl_SUS_superweapon_5"
-			pdx_tooltip = "SUS_SPY_ARTIFACT_5"
+			clicksound = "SUS_superweapon_target_sound_1"
 		}
 		#
 		buttonType = {
 			name = "lhl_SUS_superweapon_1_button_fake"
-			position = { x = 110 y = 545 }
+			position = { x = 140 y = 545 }
 			spriteType = "GFX_lhl_SUS_superweapon_1"
 			pdx_tooltip = "SUS_SPY_ARTIFACT_1"
+			clicksound = "SUS_superweapon_cancelled_sound_1"
 		}
 		buttonType = {
 			name = "lhl_SUS_superweapon_2_button_fake"
-			position = { x = 310 y = 545 }
+			position = { x = 390 y = 545 }
 			spriteType = "GFX_lhl_SUS_superweapon_2"
 			pdx_tooltip = "SUS_SPY_ARTIFACT_2"
 			clicksound = "SUS_superweapon_cancelled_sound_1"
 		}
 		buttonType = {
 			name = "lhl_SUS_superweapon_3_button_fake"
-			position = { x = 510 y = 545 }
+			position = { x = 640 y = 545 }
 			spriteType = "GFX_lhl_SUS_superweapon_3"
 			pdx_tooltip = "SUS_SPY_ARTIFACT_3"
+			clicksound = "SUS_superweapon_cancelled_sound_1"
 		}
 		buttonType = {
 			name = "lhl_SUS_superweapon_4_button_fake"
-			position = { x = 710 y = 545 }
+			position = { x = 890 y = 545 }
 			spriteType = "GFX_lhl_SUS_superweapon_4"
 			pdx_tooltip = "SUS_SPY_ARTIFACT_4"
-		}
-		buttonType = {
-			name = "lhl_SUS_superweapon_5_button_fake"
-			position = { x = 910 y = 545 }
-			spriteType = "GFX_lhl_SUS_superweapon_5"
-			pdx_tooltip = "SUS_SPY_ARTIFACT_5"
-		}
-		#
-		iconType = {
-			name = "lhl_SUS_espionage_artifact_chemical_weapon"
-			position = { x = 72 y = 150 }
-			spriteType = "GFX_lhl_SUS_espionage_artifact_chemical_weapon"
-			pdx_tooltip = "SUS_ARTIFACT_CHEMICAL_WEAPON"
+			clicksound = "SUS_superweapon_cancelled_sound_1"
 		}
 	}
 	###BLACKOUT##
