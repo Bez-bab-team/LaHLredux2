@@ -188,6 +188,7 @@ SBT = "countries/Sabbat Romania.txt"
 ###Arabia###
 BHR = "countries/Bahrain.txt" ###Actually Saudi Arabia
 BAH = "countries/Real Bahrain.txt" ###Actually Saudi Arabia
+NJD = "countries/Najd.txt"
 HAR = "countries/Hashemite Arabia.txt"
 OMA = "countries/Oman.txt"
 YEM = "countries/Yemen.txt"

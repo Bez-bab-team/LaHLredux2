@@ -1,14 +1,19 @@
+
 state={
 	id=177
 	name="STATE_177"
-	provinces={
-		798 2318 3502 4058 4166 4513 5174 5639 6234 8075 9419 9719 10505 10522 10562 10584 10599 10626 10643 10670 10678 10695 10709 
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = POL
 		add_core_of = POL
+
 	}
+
+	provinces={
+		798 2318 3502 4058 4166 4513 5174 5639 6234 8075 9419 9719 10505 10522 10562 10584 10599 10626 10643 10670 10678 10695 10709 21124 21174 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

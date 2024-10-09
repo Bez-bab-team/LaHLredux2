@@ -1,0 +1,16 @@
+state={
+	id=1365
+	name="STATE_1365"
+	provinces={
+		536 993 1846 1991 3464 3482 6795 7056 8343 8543 9425 13633 13705 13789 
+	}
+	history={
+		owner = NJD
+		add_core_of = NJD
+
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

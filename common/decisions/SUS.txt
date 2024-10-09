@@ -13012,3 +13012,359 @@ SUS_king_prestige_game = {
 		}
 	}
 }
+
+###SUPERWEAPONS###
+SUS_superweapon_blackout = { 
+	SUS_superweapon_blue_state_launch = {
+		visible = {
+			SUS = {
+				has_country_flag = lhl_SUS_espionage_superweapon_1_selected
+			}
+		}
+		state_target = yes
+        target_trigger = {
+            FROM = {
+                is_capital = yes
+            }
+        }
+		on_map_mode = map_only
+		icon = GFX_SUS_superweapon_blue_state_frames
+		complete_effect = {
+			hidden_effect = {
+				set_global_flag = SUS_superweapon_blue_state_activated_true
+				sound_effect = "SUS_superweapon_blue_state_sound_1"
+				clr_country_flag = lhl_SUS_espionage_superweapon_1_selected
+				FROM = {
+					owner = {
+						add_ideas = SUS_superweapon_blue_state_effect
+						set_country_flag = SUS_superweapon_blue_state_activated
+					}
+				}
+			}
+		}
+		remove_effect = {
+		}
+		days_remove = 30
+	}
+	SUS_superweapon_blackout_launch = {
+		visible = {
+			SUS = {
+				has_country_flag = lhl_SUS_espionage_superweapon_2_selected
+			}
+		}
+		state_target = yes
+        target_trigger = {
+            FROM = {
+                is_capital = yes
+            }
+        }
+		on_map_mode = map_only
+		icon = GFX_SUS_superweapon_blackout_frames
+		complete_effect = {
+			hidden_effect = {
+				set_variable = { SUS_superweapon_blackout_variable = 200 }
+				set_global_flag = SUS_superweapon_blackout_activated_true
+				sound_effect = "SUS_superweapon_blackout_sound_1"
+				clr_country_flag = lhl_SUS_espionage_superweapon_2_selected
+				SUS = {
+					country_event = {
+						days = 200
+						id = SUS_event.104
+					}
+				}
+				FROM = {
+					owner = {
+						add_ideas = SUS_superweapon_blackout_effect
+						set_cosmetic_tag = SUS_BLACKOUT
+						every_core_state = {
+							set_state_name = "RADIO SILENCE"
+						}
+						set_country_flag = SUS_superweapon_blackout_activated
+					}
+				}
+			}
+		}
+		remove_effect = {
+			hidden_effect = {
+				FROM = {
+					owner = {
+						remove_ideas = SUS_superweapon_blackout_effect
+						drop_cosmetic_tag = yes
+						every_core_state = {
+							reset_state_name = yes
+						}
+						clr_country_flag = SUS_superweapon_blackout_activated
+					}
+				}
+			}
+		}
+		days_remove = 30
+	}
+	SUS_superweapon_weather_device_launch = {
+		visible = {
+			SUS = {
+				has_country_flag = lhl_SUS_espionage_superweapon_3_selected
+			}
+		}
+		state_target = yes
+        target_trigger = {
+            FROM = {
+                is_capital = yes
+            }
+        }
+		on_map_mode = map_only
+		icon = GFX_SUS_superweapon_weather_device_frames
+		complete_effect = {
+			hidden_effect = {
+				set_variable = { SUS_superweapon_weather_device_variable = 200 }
+				set_global_flag = SUS_superweapon_weather_device_activated_true
+				sound_effect = "SUS_superweapon_weather_device_sound_1"
+				clr_country_flag = lhl_SUS_espionage_superweapon_3_selected
+				SUS = {
+					country_event = {
+						days = 200
+						id = SUS_event.105
+					}
+				}
+				FROM = {
+					owner = {
+						set_country_flag = SUS_superweapon_weather_device_activated
+						add_ideas = SUS_weather_device_activated_idea
+					}
+				}
+				every_country = {
+					limit = {
+						has_country_flag = SUS_superweapon_weather_device_activated
+					}
+					every_controlled_state = {
+						add_dynamic_modifier = {
+							modifier = SUS_weather_device_modifier
+						}
+					}
+					capital_scope = {
+						limit = {
+							NOT = {
+								has_state_flag = SUS_superweapon_weather_device_active_2
+								has_state_flag = SUS_superweapon_weather_device_active_3
+								has_state_flag = SUS_superweapon_weather_device_active_4
+								has_state_flag = SUS_superweapon_weather_device_active_5
+							}
+						}
+						set_state_flag = SUS_superweapon_weather_device_active_1
+						create_entity = {
+							entity = sandstorm_entity
+							id = 0001
+							rotation = 1.2
+							state = THIS
+							scale = 10.0
+							min_zoom = 100.0
+						}
+					}
+					random_owned_state = {
+						limit = {
+							NOT = {
+								has_state_flag = SUS_superweapon_weather_device_active_1
+								has_state_flag = SUS_superweapon_weather_device_active_3
+								has_state_flag = SUS_superweapon_weather_device_active_4
+								has_state_flag = SUS_superweapon_weather_device_active_5
+							}
+						}
+						set_state_flag = SUS_superweapon_weather_device_active_2
+						create_entity = {
+							entity = sandstorm_entity
+							id = 0002
+							rotation = 1.2
+							state = THIS
+							scale = 10.0
+							min_zoom = 100.0
+						}
+					}
+					random_owned_state = {
+						limit = {
+							NOT = {
+								has_state_flag = SUS_superweapon_weather_device_active_1
+								has_state_flag = SUS_superweapon_weather_device_active_2
+								has_state_flag = SUS_superweapon_weather_device_active_4
+								has_state_flag = SUS_superweapon_weather_device_active_5
+							}
+						}
+						set_state_flag = SUS_superweapon_weather_device_active_3
+						create_entity = {
+							entity = sandstorm_entity
+							id = 0003
+							rotation = 1.2
+							state = THIS
+							scale = 10.0
+							min_zoom = 100.0
+						}
+					}
+					random_owned_state = {
+						limit = {
+							NOT = {
+								has_state_flag = SUS_superweapon_weather_device_active_1
+								has_state_flag = SUS_superweapon_weather_device_active_2
+								has_state_flag = SUS_superweapon_weather_device_active_3
+								has_state_flag = SUS_superweapon_weather_device_active_5
+							}
+						}
+						set_state_flag = SUS_superweapon_weather_device_active_4
+						create_entity = {
+							entity = sandstorm_entity
+							id = 0004
+							rotation = 1.2
+							state = THIS
+							scale = 10.0
+							min_zoom = 100.0
+						}
+					}
+					random_owned_state = {
+						limit = {
+							NOT = {
+								has_state_flag = SUS_superweapon_weather_device_active_1
+								has_state_flag = SUS_superweapon_weather_device_active_2
+								has_state_flag = SUS_superweapon_weather_device_active_3
+								has_state_flag = SUS_superweapon_weather_device_active_4
+							}
+						}
+						set_state_flag = SUS_superweapon_weather_device_active_5
+						create_entity = {
+							entity = sandstorm_entity
+							id = 0005
+							rotation = 1.2
+							state = THIS
+							scale = 10.0
+							min_zoom = 100.0
+						}
+					}
+				}
+			}
+		}
+		remove_effect = {
+			hidden_effect = {
+				FROM = {
+					owner = {
+						clr_country_flag = SUS_superweapon_weather_device_activated
+						remove_ideas = SUS_weather_device_activated_idea
+						every_controlled_state = {
+							remove_dynamic_modifier = {
+								modifier = SUS_weather_device_modifier
+							}
+						}
+					}
+				}
+				every_state = {
+					clr_state_flag = SUS_superweapon_weather_device_active_1
+					clr_state_flag = SUS_superweapon_weather_device_active_2
+					clr_state_flag = SUS_superweapon_weather_device_active_3
+					clr_state_flag = SUS_superweapon_weather_device_active_4
+					clr_state_flag = SUS_superweapon_weather_device_active_5
+				}
+				destroy_entity = 0001
+				destroy_entity = 0002
+				destroy_entity = 0003
+				destroy_entity = 0004
+				destroy_entity = 0005
+			}
+		}
+		days_remove = 30
+	}
+	SUS_superweapon_kinetic_bombardment_launch = {
+		visible = {
+			SUS = {
+				has_country_flag = lhl_SUS_espionage_superweapon_4_selected
+			}
+		}
+		state_target = yes
+		on_map_mode = map_only
+		icon = GFX_SUS_superweapon_blue_state_frames
+		complete_effect = {
+			hidden_effect = {
+				set_variable = { SUS_superweapon_kinetic_bombardment_variable = 200 }
+				set_global_flag = SUS_superweapon_kinetic_bombardment_activated_true
+				sound_effect = "SUS_superweapon_kinetic_bombardment_sound_1"
+				clr_country_flag = lhl_SUS_espionage_superweapon_4_selected
+				FROM = {
+					owner = {
+						launch_nuke = {
+							state = PREV
+							use_nuke = no
+						}
+					}
+					damage_building = {
+						type = infrastructure
+						damage = 5
+					}
+					damage_building = {
+						type = arms_factory
+						damage = 5
+					}
+					damage_building = {
+						type = industrial_complex
+						damage = 5
+					}
+					damage_building = {
+						type = air_base
+						damage = 5
+					}
+					damage_building = {
+						type = supply_node
+						damage = 5
+					}
+					damage_building = {
+						type = rail_way
+						damage = 5
+					}
+					damage_building = {
+						type = naval_base
+						damage = 5
+					}
+					damage_building = {
+						type = bunker
+						damage = 10
+					}
+					damage_building = {
+						type = coastal_bunker
+						damage = 10
+					}
+					damage_building = {
+						type = dockyard
+						damage = 5
+					}
+					damage_building = {
+						type = anti_air_buildin
+						damage = 5
+					}
+					damage_building = {
+						type = synthetic_refinery
+						damage = 5
+					}
+					damage_building = {
+						type = fuel_silo
+						damage = 5
+					}
+					damage_building = {
+						type = radar_station
+						damage = 5
+					}
+					damage_building = {
+						type = rocket_site 
+						damage = 5
+					}
+					damage_building = {
+						type = nuclear_reactor
+						damage = 5
+					}
+				}
+				SUS = {
+					country_event = {
+						days = 200
+						id = SUS_event.106
+					}
+				}
+			}
+		}
+		remove_effect = {
+		}
+		days_remove = 30
+	}
+}

@@ -1,21 +1,26 @@
+
 state={
 	id=213
 	name="STATE_213"
-	provinces={
-		11559 4386 11541 9068  
-	}
-	manpower=301204
-	buildings_max_level_factor=1.000
-    state_category=town
-	
+
 	history={
 		owner = BOS
 		add_core_of = BOS
 		add_core_of = YUG
 		buildings = {
-		infrastructure = 2
-		industrial_complex = 1
-		arms_factory = 1
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+
 		}
-	}	
+
+	}
+
+	provinces={
+		4386 9068 11541 11559 
+	}
+	manpower=301204
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

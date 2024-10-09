@@ -2,14 +2,18 @@
 state={
 	id=253
 	name="STATE_253"
-	provinces={
-		4198 5315 6185 7480 9732 11654 11670 11689 11718 11751 11789 11846 11856 
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = ALB
 		add_core_of = ALB
+
 	}
+
+	provinces={
+		4198 5315 6185 7480 9732 11654 11670 11689 11718 11751 11789 11846 11856 17390 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

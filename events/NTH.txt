@@ -450,3 +450,22 @@ country_event = { #Sussex sabotaged us
 		custom_effect_tooltip = ENG_sussex_sabotage_tt
 	}
 }
+
+country_event = {
+	id = albion.42
+	title = albion.42.t
+	desc = albion.42.d
+	picture = GFX_NTH_galloway_dismissed_event
+	
+	immediate = {
+	}
+	trigger = {
+	}
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = albion.42.a
+	}
+}

@@ -57,8 +57,41 @@ spriteTypes = {
 	}
 	#Artifacts#
 	spriteType = {
+		name = "GFX_lhl_SUS_agent_icon_big"
+		textureFile = "gfx/interface/scripted_guis/SUS_espionage/SUS_agent_icon_big.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_SUS_agent_icon_big_11"
+		textureFile = "gfx/interface/scripted_guis/SUS_espionage/SUS_screen_logo_1.dds"
+	}
+	#
+	spriteType = {
 		name = "GFX_lhl_SUS_espionage_artifact_title"
 		textureFile = "gfx/interface/scripted_guis/SUS_espionage/SUS_artifact_title.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_SUS_espionage_artifact_placeholder"
+		textureFile = "gfx/interface/scripted_guis/SUS_espionage/SUS_placeholder_artifact.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_SUS_superweapon_1"
+		textureFile = "gfx/interface/scripted_guis/SUS_espionage/SUS_superweapon_1.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_SUS_superweapon_2"
+		textureFile = "gfx/interface/scripted_guis/SUS_espionage/SUS_superweapon_2.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_SUS_superweapon_3"
+		textureFile = "gfx/interface/scripted_guis/SUS_espionage/SUS_superweapon_3.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_SUS_superweapon_4"
+		textureFile = "gfx/interface/scripted_guis/SUS_espionage/SUS_superweapon_4.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_SUS_superweapon_5"
+		textureFile = "gfx/interface/scripted_guis/SUS_espionage/SUS_superweapon_5.dds"
 	}
 	spriteType = {
 		name = "GFX_lhl_SUS_espionage_artifact_chemical_weapon"
@@ -68,8 +101,42 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SUS_espionage_leader_1"
 		textureFile = "gfx/interface/scripted_guis/SUS_espionage/SUS_espionage_leader_1.dds"
-	}	spriteType = {
+	}	
+	spriteType = {
 		name = "GFX_SUS_espionage_leader_2"
 		textureFile = "gfx/interface/scripted_guis/SUS_espionage/SUS_espionage_leader_2.dds"
-	}	
+	}
+	spriteType = {
+		name = "GFX_SUS_defence_council"
+		textureFile = "gfx/leaders/SUS/SUS_defence_council.dds"
+	}
+	spriteType = {
+		name = "GFX_SUS_weather_device_dynamic_modifier"
+		textureFile = "gfx/interface/scripted_guis/SUS_espionage/SUS_modifiers_flooded_icon.dds"
+	}		
+	###SUPERWEAPON EFFECTS###
+	#ICON#
+	frameAnimatedSpriteType = {
+		name = "GFX_SUS_superweapon_blackout_frames"
+		textureFile = "gfx/interface/scripted_guis/SUS_espionage/SUS_superweapon_blackout_frames.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+		alwaystransparent = no
+		animation_rate_fps = 3
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	#FLAG#
+	frameAnimatedSpriteType = {
+		name = "GFX_SUS_superweapon_blackout_banner"
+		textureFile = "gfx/interface/scripted_guis/SUS_espionage/SUS_superweapon_blackout_banner.dds"
+		noOfFrames = 4
+		loadType = "INGAME"
+		alwaystransparent = no
+		animation_rate_fps = 4
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
 }

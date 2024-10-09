@@ -542,6 +542,13 @@ ESS_superb_british_forces = {
 	air_close_air_support_org_damage_factor = ESS_superb_british_forces_air_close_air_support_org_damage_factor
 }
 
+ESS_brunel_university_bonus  = { 
+	icon = GFX_hui
+	production_speed_buildings_factor = ESS_brunel_production_speed_buildings_factor
+	global_building_slots_factor = ESS_brunel_global_building_slots_factor
+	local_resources_factor = ESS_brunel_local_resources_factor
+}
+
 ##SUS##
 SUS_pillars_wessex = {
 	monthly_population = SUS_pillars_wessex_monthly_population
@@ -611,5 +618,14 @@ SUS_planned_offensive = {
 	army_speed_factor = 0.2
 	ground_attack_factor = 0.2
 	local_org_regain = 0.3
+}
+
+SUS_weather_device_modifier = {
+	icon = GFX_SUS_weather_device_dynamic_modifier
+	local_org_regain = -1.0
+	attrition = 1.0
+	planning_speed = -3.0
+	max_dig_in_factor = -1.0
+	state_production_speed_buildings_factor = -3.0
 }
 

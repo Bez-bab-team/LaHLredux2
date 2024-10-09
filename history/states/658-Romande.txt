@@ -1,17 +1,19 @@
+
 state={
 	id=658
 	name="STATE_658"
-	provinces={
-		8050 9447 11202 11270 
-	}
-buildings_max_level_factor=1.000
-    state_category=pastoral
-	manpower=1988506
-	
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = SWI
 		add_core_of = SWI
+
 	}
+
+	provinces={
+		8050 9447 11202 11270 17381 21400 
+	}
+	manpower=1988506
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }
