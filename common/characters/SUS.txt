@@ -1680,4 +1680,19 @@ characters={
 	    }
 	}
 	
+	###British Blue State###
+	SUS_defence_council={
+		name=SUS_defence_council
+		portraits={
+			civilian={
+				large="gfx/leaders/SUS/SUS_defence_council.dds"
+			}
+		}
+		country_leader={
+			ideology=neoreaction
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
 }

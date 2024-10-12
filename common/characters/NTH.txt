@@ -11,6 +11,7 @@ characters={
 			}
 		}
 		country_leader={
+			desc="POLITICS_YAQOOB_DESC"
 			ideology=ethical_millennialism
 			expire="1.1.1.1"
 			id=-1
@@ -41,6 +42,7 @@ characters={
 			}
 		}
 		country_leader={
+			desc="POLITICS_FOX_DESC"
 			ideology=paternalism
 			expire="1.1.1.1"
 			id=-1
@@ -59,6 +61,118 @@ characters={
 				factor  = 1.000
 			}
 	    }
+	}
+	NTH_george_galloway={
+		name="George Galloway"
+		portraits={
+			civilian={
+				large="gfx/leaders/NTH/Portrait_NTH_George_Galloway.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_GALLOWAY_DESC"
+			ideology=nazbol_gang
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NTH_soviet={
+		name="Council of Ministers"
+		portraits={
+			civilian={
+				large="gfx/leaders/NTH/Portrait_NTH_Soviet.dds"
+			}
+		}
+		country_leader={
+			ideology=nazbol_gang
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NTH_lee_anderson ={
+		name="Lee Anderson"
+		portraits={
+			civilian={
+				large="gfx/leaders/NTH/Portrait_NTH_Lee_Anderson.dds"
+			}
+			civilian={
+				small="gfx/interface/ideas/NTH/idea_NTH_lee_anderson.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ANDERSON_DESC"
+			ideology=ultrahegelianism
+			expire="1.1.1.1"
+			id=-1
+		}
+		advisor = {
+			cost = 120
+			slot = head_of_government
+			idea_token = NTH_Lee_Anderson
+			traits = {
+
+			}
+			allowed = {
+				original_tag = NTH
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+	    }
+	}
+	NTH_andrew_murray={
+		name="Andrew Murray"
+		portraits={
+			civilian={
+				large="gfx/leaders/NTH/Portrait_NTH_Andrew_Murray.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_MURRAY_DESC"
+			ideology=nazbol_gang
+			expire="1.1.1.1"
+			id=-1
+		}
+		advisor = {
+			cost = 120
+			slot = head_of_government
+			idea_token = NTH_andrew_murray
+			traits = {
+
+			}
+			allowed = {
+				original_tag = NTH
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+	    }
+	}
+	NTH_dan_jarvis={
+		name="Dan Jarvis"
+		portraits={
+			army={
+				small="gfx/interface/ideas/NTH/idea_NTH_dan_jarvis.dds"
+			}
+			army={
+				large="gfx/leaders/NTH/Portrait_NTH_Dan_Jarvis.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JARVIS_DESC"
+			ideology=labor_socialism
+			expire="1.1.1.1"
+			id=-1
+		}
+		corps_commander={
+			traits={ paratrooper disgruntled }
+			skill=3
+			attack_skill=1
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
 	}
 	NTH_andrew_wakefield={
 		name="Andrew Wakefield"
@@ -86,37 +200,6 @@ characters={
 			id=-1
 		}
 	}
-	NTH_Lee_Anderson ={
-		name="Lee Anderson"
-		portraits={
-			civilian={
-				large="gfx/leaders/NTH/Portrait_NTH_Lee_Anderson.dds"
-			}
-			civilian={
-				small="gfx/interface/ideas/NTH/idea_NTH_lee_anderson.dds"
-			}
-		}
-		country_leader={
-			ideology=ultrahegelianism
-			expire="1.1.1.1"
-			id=-1
-		}
-		advisor = {
-			cost = 120
-			slot = head_of_government
-			idea_token = NTH_Lee_Anderson
-			traits = {
-
-			}
-			allowed = {
-				original_tag = NTH
-			}
-			ai_will_do  = {
-				factor  = 1.000
-			}
-	    }
-	}
-	
 	
 	
 	NTH_parmjit_dhanda={
@@ -184,47 +267,7 @@ characters={
 			id=-1
 		}
 	}
-	NTH_george_galloway={
-		name="George Galloway"
-		portraits={
-			civilian={
-				large="gfx/leaders/NTH/Portrait_NTH_George_Galloway.dds"
-			}
-		}
-		country_leader={
-			ideology=nazbol_gang
-			expire="1.1.1.1"
-			id=-1
-		}
-	}
-	
-	NTH_andrew_murray={
-		name="Andrew Murray"
-		portraits={
-			civilian={
-				large="gfx/leaders/NTH/Portrait_NTH_Andrew_Murray.dds"
-			}
-		}
-		country_leader={
-			ideology=nazbol_gang
-			expire="1.1.1.1"
-			id=-1
-		}
-		advisor = {
-			cost = 120
-			slot = head_of_government
-			idea_token = NTH_andrew_murray
-			traits = {
 
-			}
-			allowed = {
-				original_tag = NTH
-			}
-			ai_will_do  = {
-				factor  = 1.000
-			}
-	    }
-	}
 	#GENERALS#
 	NTH_peter_wall={
 		name="Peter Wall"

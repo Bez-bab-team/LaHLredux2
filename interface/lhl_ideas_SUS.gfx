@@ -12,6 +12,11 @@ spriteTypes = {
 	}	
 	
 	spriteType = {
+		name = "GFX_idea_SUS_blackout"
+		texturefile = "gfx/interface/ideas/SUS/idea_SUS_blackout.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_idea_SUS_state_anglicanism"
 		texturefile = "gfx/interface/ideas/SUS/idea_SUS_state_anglicanism.dds"
 	}

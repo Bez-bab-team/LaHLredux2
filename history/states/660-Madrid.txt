@@ -1,14 +1,19 @@
+
 state={
 	id=660
 	name="STATE_660"
-	provinces={
-		2925 6673 6935 11840 
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = SPA
 		add_core_of = SPA
+
 	}
+
+	provinces={
+		2925 6221 6673 6935 11840 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }
