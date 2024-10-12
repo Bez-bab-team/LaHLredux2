@@ -1,10 +1,17 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
-
+ XIJ_commendationism_party:0 "XMDGS"
+ XIJ_commendationism_party_long:0 "General Staff of the Xinjiang Military District"
+ XIJ_left_authoritarianism_party:0 "XPCC"
+ XIJ_left_authoritarianism_party_long:0 "Xinjiang Production and Construction Corps"
+ XIJ_socialism_party:0 "XUARC"
+ XIJ_socialism_party_long:0 "Xinjiang Uygur Autonomous Regional Committee"
+ XIJ_hegemonism_party:0 "Poly Group"
+ XIJ_hegemonism_party_long:0 "China Poly Group Corporation"
  ##COUNTRY NAME##
- XIJ_vanguardism:0 "Xinjiang Military District"
- XIJ_vanguardism_DEF:0 "the Xinjiang Military District"
+ XIJ_left_authoritarianism:0 "Xinjiang Military District"
+ XIJ_left_authoritarianism_DEF:0 "the Xinjiang Military District"
  XIJ_commendationism:0 "Xinjiang Military District"
  XIJ_commendationism_DEF:0 "the Xinjiang Military District"
  ##TRAITS##

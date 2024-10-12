@@ -19,9 +19,9 @@ set_politics = {
 set_popularities = {
 	commendationism = 30
 	left_authoritarianism = 35
-	socialism = 12
+	socialism = 18
 	right_populism = 3
-	hegemonism = 20
+	hegemonism = 14
 }
 
 ##CHARACTERS##
