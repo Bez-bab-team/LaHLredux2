@@ -17,11 +17,11 @@ characters={
 			id=-1
 		}
 	}
-	XIJ_wang_jingyang={
-		name="Wang Jingyang"
+	XIJ_li_shenming={
+		name="Li Shenming"
 		portraits={
 			civilian={
-				large="gfx/leaders/XIJ/Portrait_XIJ_Wang_Jingyang.dds"
+				large="gfx/leaders/XIJ/Portrait_XIJ_Li_Shenming.dds"
 			}
 		}
 		country_leader={

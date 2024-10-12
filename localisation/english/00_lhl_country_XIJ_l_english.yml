@@ -3,10 +3,10 @@
  ##POLITICAL PARTIES##
 
  ##COUNTRY NAME##
- XIJ_commendationism:0 "Han Garrison"
- XIJ_commendationism_DEF:0 "the Han Garrison of Xinjiang"
- XIJ_millenarism:0 "Han Garrison"
- XIJ_millenarism_DEF:0 "the Han Garrison of Xinjiang"
+ XIJ_vanguardism:0 "Xinjiang Military District"
+ XIJ_vanguardism_DEF:0 "the Xinjiang Military District"
+ XIJ_commendationism:0 "Xinjiang Military District"
+ XIJ_commendationism_DEF:0 "the Xinjiang Military District"
  ##TRAITS##
  ##IDEAS##
  ##FOCUS TREES##
