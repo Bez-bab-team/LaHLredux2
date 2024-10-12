@@ -17,26 +17,15 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	commendationism = 80
-	millenarism = 20
+	commendationism = 30
+	left_authoritarianism = 35
+	socialism = 12
+	right_populism = 3
+	hegemonism = 20
 }
 
-create_country_leader = {
-	name = "Zhu Chenghu"
-	picture = "Portrait_XIJ_Zhu_Chenghu.dds"
-	expire = "1960.1.1"
-	ideology = leftwing_chauvinism
-	traits = {
-    }
-}
-
-create_country_leader = {
-	name = "Li Shenming"
-	picture = "Portrait_XIJ_Li_Shenming.dds"
-	expire = "1960.1.1"
-	ideology = ultrahegelianism
-	traits = {
-    }
-}
+##CHARACTERS##
+#leader#
+recruit_character = XIJ_li_shenming
 
 

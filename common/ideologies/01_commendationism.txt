@@ -6,7 +6,9 @@ ideologies = {
 			ultrahegelianism = {
 			}	
 			leftwing_chauvinism = {
-			}				
+			}
+			songun = {
+			}
 		}
 		
 		dynamic_faction_names = {

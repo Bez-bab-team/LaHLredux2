@@ -84,4 +84,9 @@ spriteTypes = {
 		name = "GFX_ideology_SHA_socialism_group"
 		texturefile = "gfx/interface/ideologies/unique/GUD/yaobang_spirit.dds"
 	}
+	
+		spriteType = {
+		name = "GFX_ideology_XIJ_commendationism_group"
+		texturefile = "gfx/interface/ideologies/unique/XIJ/songun.dds"
+	}
 }
