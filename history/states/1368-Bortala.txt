@@ -1,0 +1,14 @@
+state={
+	id=1368
+	name="STATE_1368"
+	provinces={
+		168 2389 3679 4458 6984 6996 8905 11373 17386 
+	}
+	history={
+		owner = ETK
+		add_core_of = ETK
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

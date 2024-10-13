@@ -1,17 +1,22 @@
+
 state={
 	id=1253
 	name="STATE_1253"
-	provinces={
-		393 651 841 1957 2156 2314 2860 3098 3242 4302 4596 5667 6126 6330 6612 7346 7997 9178 11075 11136 11252 11391 11395 
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
-    state_category=pastoral
+
 	history={
 		owner = ETK
 		add_core_of = ETK
 		victory_points = {
-			393 5
-        }
-    }
+			393 5 
+		}
+
+	}
+
+	provinces={
+		393 651 841 1957 2156 2314 2860 3098 3242 4302 4596 5667 6126 6330 6612 7346 7997 9178 11075 11136 11252 11391 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

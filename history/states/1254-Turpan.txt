@@ -1,16 +1,22 @@
+
 state={
 	id=1254
 	name="STATE_1254"
-	provinces={
-		110 917 1089 2002 2250 2420 2806 3657 4675 4865 5335 5571 7157 7382 7633 7991 8023 8249 8895 9032 9762 11413 11501 11585 11619 11658 11659 11763 
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
-    state_category=pastoral
-		history={
+
+	history={
 		owner = XIJ
 		add_core_of = XIJ
 		victory_points = {
-			110 5
+			110 5 
 		}
+
+	}
+
+	provinces={
+		564 917 1089 2002 2250 3657 5571 7382 8023 8249 9032 11619 11658 11659 11763 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

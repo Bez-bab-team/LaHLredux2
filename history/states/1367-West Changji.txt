@@ -1,22 +1,21 @@
 
 state={
-	id=427
-	name="STATE_427"
+	id=1367
+	name="STATE_1367"
 
 	history={
 		owner = XIJ
 		add_core_of = XIJ
 		victory_points = {
-			242 5 
+			1180 5 
 		}
 
 	}
 
 	provinces={
-		242 788 1236 1261 1706 2047 2888 3075 3479 5473 6068 8150 8226 11534 11571 11696 11729 11775 
+		36 1180 6085 8169 11395 11467 11473 11499 11506 11554 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
-	state_category=pastoral
 	local_supplies=0.000
 }
