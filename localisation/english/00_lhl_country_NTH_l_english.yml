@@ -52,7 +52,12 @@
  NTH_REUNIFIED2:0 "Albion Republic"
  NTH_REUNIFIED3:0 "United Republic"
  ##TRAITS##
- ##IDEAS##
+ ##CHARACTERS##
+ NTH_george_galloway:0 "George Galloway"
+ NTH_soviet:0 "Council of Ministers"
+ NTH_lee_anderson:0 "Lee Anderson"
+ NTH_andrew_murray:0 "Andrew Murray"
+ NTH_dan_jarvis:0 "Dan Jarvis"
  NTH_Arthur_Scargill:0 "Arthur Scargill"
  NTH_Munira_Mirza:0 "Munira Mirza"
  NTH_Salma_Yaqoob:0 "Salma Yaqoob"

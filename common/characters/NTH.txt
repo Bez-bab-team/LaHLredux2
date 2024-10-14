@@ -1,7 +1,7 @@
 characters={
 	#COUNTRY LEADERS#
 	NTH_Salma_Yaqoob={
-		name="Salma Yaqoob"
+		name=NTH_Salma_Yaqoob
 		portraits={
 			civilian={
 				large="gfx/leaders/NTH/Portrait_NTH_Salma_Yaqoob.dds"
@@ -32,7 +32,7 @@ characters={
 	    }
 	}
 	NTH_Claire_Fox={
-		name="Claire Fox"
+		name=NTH_Claire_Fox
 		portraits={
 			civilian={
 				large="gfx/leaders/NTH/Portrait_NTH_Claire_Fox.dds"
@@ -63,7 +63,7 @@ characters={
 	    }
 	}
 	NTH_george_galloway={
-		name="George Galloway"
+		name=NTH_george_galloway
 		portraits={
 			civilian={
 				large="gfx/leaders/NTH/Portrait_NTH_George_Galloway.dds"
@@ -77,7 +77,7 @@ characters={
 		}
 	}
 	NTH_soviet={
-		name="Council of Ministers"
+		name=NTH_soviet
 		portraits={
 			civilian={
 				large="gfx/leaders/NTH/Portrait_NTH_Soviet.dds"
@@ -90,7 +90,7 @@ characters={
 		}
 	}
 	NTH_lee_anderson ={
-		name="Lee Anderson"
+		name=NTH_lee_anderson
 		portraits={
 			civilian={
 				large="gfx/leaders/NTH/Portrait_NTH_Lee_Anderson.dds"
@@ -121,7 +121,7 @@ characters={
 	    }
 	}
 	NTH_andrew_murray={
-		name="Andrew Murray"
+		name=NTH_andrew_murray
 		portraits={
 			civilian={
 				large="gfx/leaders/NTH/Portrait_NTH_Andrew_Murray.dds"
@@ -149,7 +149,7 @@ characters={
 	    }
 	}
 	NTH_dan_jarvis={
-		name="Dan Jarvis"
+		name=NTH_dan_jarvis
 		portraits={
 			army={
 				small="gfx/interface/ideas/NTH/idea_NTH_dan_jarvis.dds"
