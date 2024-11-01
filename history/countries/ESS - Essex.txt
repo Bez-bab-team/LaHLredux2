@@ -125,6 +125,7 @@ recruit_character = ESS_carl_benjamin
 recruit_character = ESS_tim_collins
 recruit_character = ESS_moira_cameron
 recruit_character = ESS_nick_land
+recruit_character = ESS_mark_fisher
 #generals#
 #recruit_character = ESS_bob_stewart
 recruit_character = ESS_philip_hollobone

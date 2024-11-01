@@ -954,12 +954,12 @@
 			add_ideas = ESS_interlude
 		}
 		available = {
-		ESS = {
-			NOT = {
-				has_war_with = EAG
+			ESS = {
+				NOT = {
+					has_war_with = EAG
+				}
 			}
 		}
-	}
 		
 	} 
 	
@@ -1111,6 +1111,98 @@
 		x = 7
 		y = 9
 	} 
+	
+	###Land Interregnum###
+	shared_focus = {
+		id = ESS_the_republic_triumphant
+		icon = GFX_goal_ESS_the_republic_triumphant
+		cost = 1
+		completion_reward = {
+		}
+		x = 7
+		y = 10	
+	}
+	shared_focus = {
+		id = ESS_londons_underbelly
+		icon = GFX_goal_ESS_londons_underbelly
+		cost = 1
+		prerequisite = {
+			focus = ESS_the_republic_triumphant
+		}
+		completion_reward = {
+		}
+		x = 7
+		y = 11
+	}
+	shared_focus = {
+		id = ESS_woe_to_the_vanquished
+		icon = GFX_goal_ESS_woe_to_the_vanquished
+		cost = 1
+		prerequisite = {
+			focus = ESS_the_republic_triumphant
+		}
+		completion_reward = {
+		}
+		x = 5
+		y = 11
+	}
+	shared_focus = {
+		id = ESS_economic_populism
+		icon = GFX_goal_ESS_economic_populism
+		cost = 1
+		prerequisite = {
+			focus = ESS_the_republic_triumphant
+		}
+		completion_reward = {
+		}
+		x = 9
+		y = 11
+	}
+	shared_focus = {
+		id = ESS_placate_the_masses
+		icon = GFX_goal_ESS_placate_the_masses
+		cost = 1
+		prerequisite = {
+			focus = ESS_woe_to_the_vanquished
+		}
+		prerequisite = {
+			focus = ESS_londons_underbelly
+		}
+		completion_reward = {
+		}
+		x = 6
+		y = 12
+	}
+	shared_focus = {
+		id = ESS_fate_of_the_favorites
+		icon = GFX_goal_ESS_fate_of_the_favorites
+		cost = 1
+		prerequisite = {
+			focus = ESS_economic_populism
+		}
+		prerequisite = {
+			focus = ESS_londons_underbelly
+		}
+		completion_reward = {
+		}
+		x = 8
+		y = 12
+	}
+	shared_focus = {
+		id = ESS_stability_returns
+		icon = GFX_goal_ESS_stability_returns
+		cost = 1
+		prerequisite = {
+			focus = ESS_placate_the_masses
+		}
+		prerequisite = {
+			focus = ESS_fate_of_the_favorites
+		}
+		completion_reward = {
+		}
+		x = 7
+		y = 13
+	}
 	
 
 	###Dawkins Post Mosley###

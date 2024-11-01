@@ -1679,6 +1679,16 @@ leader_traits = {
 ##LEADERS_NATIONALISTS/ESSEX##
 	the_father_of_accelerationism = { #Nick Land#
 		random = no
+		research_speed_factor = 0.1
+		stability_factor = -0.12
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	k_punk = { #Mark Fisher#
+		random = no
+		political_power_factor = -0.05
+		stability_factor = 0.05
 		ai_will_do = {
 			factor = 1
 		}

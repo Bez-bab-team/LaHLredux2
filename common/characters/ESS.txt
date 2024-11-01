@@ -10,7 +10,7 @@ characters={
 		advisor = {
 			cost = 150
 			slot = head_of_government
-			idea_token = nick_land
+			idea_token = ESS_nick_land
 			allowed = {
 				original_tag = ESS
 			}
@@ -22,6 +22,10 @@ characters={
 			ideology=accelerationism
 			expire="1.1.1.1"
 			id=-1
+			traits = {
+				the_father_of_accelerationism 
+			}
+			desc = ESS_Nick_Land_desc
 		}
 	}
 	ESS_Richard_Dawkins={
@@ -50,6 +54,72 @@ characters={
 			desc = ESS_Richard_Dawkins_desc
 		}
 	}
+	ESS_Mark_Fisher={
+		name=ESS_Mark_Fisher
+		portraits={
+			civilian={
+				large="gfx/leaders/ESS/Portrait_ESS_Mark_Fisher.dds"
+				small = "gfx/interface/ideas/ESS/idea_ESS_Mark_Fisher.dds"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = head_of_government
+			idea_token = ESS_Mark_Fisher
+			allowed = {
+				original_tag = ESS
+			}
+			traits = {
+				k_punk
+			}
+		}
+		country_leader={
+			ideology=ultrahegelianism
+			expire="1.1.1.1"
+			id=-1
+			traits = {
+				k_punk
+			}
+			desc = ESS_Mark_Fisher_desc
+		}
+	}
+	ESS_curtis_yarvin  = {
+		name = ESS_curtis_yarvin
+		portraits = {
+			civilian={
+				large="gfx/leaders/ESS/Portrait_ESS_Curtis_Yarvin.dds"
+				small = "gfx/interface/ideas/ESS/idea_ESS_curtis_yarvin.dds"
+			}
+		}
+		advisor = {
+			cost = 120
+			slot = political_advisor
+			idea_token = ESS_curtis_yarvin
+			traits = {
+				american_moldbug
+			}
+			allowed = {
+				original_tag = ESS
+			}
+			available = {
+				hidden_trigger = {
+					has_country_flag = ESS_nick_here 
+				}
+			}
+			visible = {
+				has_country_flag = ESS_nick_here 
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+	    }
+		country_leader={
+			ideology=neoreaction
+			expire="1.1.1.1"
+			id=-1
+			desc = ESS_Curtis_Yarvin_desc
+		}
+	}
 	ESS_david_pearce={
 		name=ESS_david_pearce
 		portraits={
@@ -63,19 +133,6 @@ characters={
 			id=-1
 		}
 	}
-	ESS_nick_srnicek={
-		name=ESS_nick_srnicek
-		portraits={
-			civilian={
-				large="gfx/leaders/ESS/Portrait_ESS_Nick_Srnicek.dds"
-			}
-		}
-		country_leader={
-			ideology=ultrahegelianism
-			expire="1.1.1.1"
-			id=-1
-		}
-	}
 	ESS_steve_ignorant={
 		name=ESS_steve_ignorant
 		portraits={
@@ -85,6 +142,19 @@ characters={
 		}
 		country_leader={
 			ideology=soviet_marxism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ESS_nick_srnicek={
+		name=ESS_nick_srnicek
+		portraits={
+			civilian={
+				large="gfx/leaders/ESS/Portrait_ESS_Nick_Srnicek.dds"
+			}
+		}
+		country_leader={
+			ideology=ultrahegelianism
 			expire="1.1.1.1"
 			id=-1
 		}
@@ -646,36 +716,6 @@ characters={
 			idea_token = ESS_reza_negarestani
 			traits = {
 				shadow_hand
-			}
-			allowed = {
-				original_tag = ESS
-			}
-			available = {
-				hidden_trigger = {
-					has_country_flag = ESS_nick_here 
-				}
-			}
-			visible = {
-				has_country_flag = ESS_nick_here 
-			}
-			ai_will_do  = {
-				factor  = 1.000
-			}
-	    }
-	}
-	ESS_curtis_yarvin  = {
-		name = ESS_curtis_yarvin
-		portraits = {
-			civilian={
-				small = "gfx/interface/ideas/ESS/idea_ESS_curtis_yarvin.dds"
-			}
-		}
-		advisor = {
-			cost = 120
-			slot = political_advisor
-			idea_token = ESS_curtis_yarvin
-			traits = {
-				american_moldbug
 			}
 			allowed = {
 				original_tag = ESS

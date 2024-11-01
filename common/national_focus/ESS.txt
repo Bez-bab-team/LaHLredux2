@@ -38,8 +38,9 @@ focus_tree = {
         shared_focus = ESS_luciferoverlondon
 		shared_focus = ESS_national_revolutionary_army
 		shared_focus = ESS_interregnum
-		shared_focus = ESS_deadly_race
-		shared_focus = ESS_technological_revival_l
+		shared_focus = ESS_the_republic_triumphant
+		#shared_focus = ESS_deadly_race
+		#shared_focus = ESS_technological_revival_l
 		
 	country = {
 		factor = 0
