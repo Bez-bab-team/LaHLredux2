@@ -1693,6 +1693,16 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	dark_enlightener = { #Curtis Yarvin#
+		random = no
+		production_factory_efficiency_gain_factor = 0.02
+		production_speed_building_factor = 0.02
+		research_speed_factor = 0.02
+		stability_factor = -0.08
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	militant_atheist = { #Richard Dawkins#
 		random = no
 		ai_will_do = {

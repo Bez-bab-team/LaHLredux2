@@ -117,6 +117,9 @@ characters={
 			ideology=neoreaction
 			expire="1.1.1.1"
 			id=-1
+			traits = {
+				dark_enlightener
+			}
 			desc = ESS_Curtis_Yarvin_desc
 		}
 	}
