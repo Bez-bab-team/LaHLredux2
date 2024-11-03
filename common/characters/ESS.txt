@@ -1480,6 +1480,7 @@ characters={
 			}
 	    }
 	}
+
 	ESS_stephen_metcalf = {
 		name=ESS_stephen_metcalf
 		portraits={
@@ -1489,13 +1490,16 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = 
             available = {
-                if = {
-				}
+                if = { 
+			has_country_leader = {
+			character = ESS_nick_land
+			ruling_only = yes
+			}
+		}
             }
 			allowed  = {
-				original_ESS  = 
+				original_tag  = ESS
 			}
 			traits  = {
 				CCRU_workhorse
@@ -1511,13 +1515,16 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = 
             available = {
-                if = {
-				}
+                if = { 
+			has_country_leader = {
+			character = ESS_nick_land
+			ruling_only = yes
+			}
+		}
             }
 			allowed  = {
-				original_ESS  = 
+				original_tag  = ESS
 			}
 			traits  = {
 				lands_fan
@@ -1532,14 +1539,17 @@ characters={
 			}
 		}
 		advisor={
-			slot = political_advisor
-			idea_token = 
+			slot = political_advisor	
             available = {
-                if = {
-				}
+                if = { 
+			has_country_leader = {
+			character = ESS_nick_land
+			ruling_only = yes
+			}
+		}
             }
 			allowed  = {
-				original_ESS  = 
+				original_tag  = ESS
 			}
 			traits  = {
 				transcendental_nihilist
@@ -1556,13 +1566,16 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = 
             available = {
-                if = {
-				}
+                if = { 
+			has_country_leader = {
+			character = ESS_nick_land
+			ruling_only = yes
+			}
+		}
             }
 			allowed  = {
-				original_ESS  = 
+				original_tag  = ESS
 			}
 			traits  = {
 				neorationalist
@@ -1578,13 +1591,17 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = 
+			
             available = {
-                if = {
-				}
+                if = { 
+			has_country_leader = {
+			character = ESS_nick_land
+			ruling_only = yes
+			}
+		}
             }
 			allowed  = {
-				original_ESS  = 
+				original_tag  = ESS
 			}
 			traits  = {
 				dubstep_king
@@ -1600,13 +1617,17 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = 
+			
             available = {
-                if = {
-				}
+                if = { 
+			has_country_leader = {
+			character = ESS_nick_land
+			ruling_only = yes
+			}
+		}
             }
 			allowed  = {
-				original_ESS  = 
+				original_tag  = ESS
 			}
 			traits  = {
 				cuts_corners
@@ -1623,13 +1644,17 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = 
+			
             available = {
-                if = {
-				}
+                if = { 
+			has_country_leader = {
+			character = ESS_nick_land
+			ruling_only = yes
+			}
+		}
             }
 			allowed  = {
-				original_ESS  = 
+				original_tag  = ESS
 			}
 			traits  = {
 				transcendental_nihilist
@@ -1648,13 +1673,17 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = 
+			
             available = {
-                if = {
-				}
+                if = { 
+			has_country_leader = {
+			character = ESS_Mark_Fisher
+			ruling_only = yes
+			}
+		}
             }
 			allowed  = {
-				original_ESS  = 
+				original_tag  = ESS
 			}
 			traits  = {
 				afrofuturist
@@ -1670,13 +1699,17 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = 
+			
             available = {
-                if = {
-				}
+                if = { 
+			has_country_leader = {
+			character = ESS_Mark_Fisher
+			ruling_only = yes
+			}
+		}
             }
 			allowed  = {
-				original_ESS  = 
+				original_tag  = ESS
 			}
 			traits  = {
 				cybernetic_realist
@@ -1692,13 +1725,17 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = 
+			
             available = {
-                if = {
-				}
+                if = { 
+			has_country_leader = {
+			character = ESS_Mark_Fisher
+			ruling_only = yes
+			}
+		}
             }
 			allowed  = {
-				original_ESS  = 
+				original_tag  = ESS
 			}
 			traits  = {
 				xenofeminist_army
@@ -1714,13 +1751,17 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = 
+			
             available = {
-                if = {
-				}
+                if = { 
+			has_country_leader = {
+			character = ESS_Mark_Fisher
+			ruling_only = yes
+			}
+		}
             }
 			allowed  = {
-				original_ESS  = 
+				original_tag  = ESS
 			}
 			traits  = {
 				xenofeminist_econ
@@ -1736,13 +1777,17 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = 
+			
             available = {
-                if = {
-				}
+                if = { 
+			has_country_leader = {
+			character = ESS_nick_land
+			ruling_only = yes
+			}
+		}
             }
 			allowed  = {
-				original_ESS  = 
+				original_tag  = 
 			}
 			traits  = {
 				CCRU_workhorse_1
@@ -1758,13 +1803,17 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = 
+			
             available = {
-                if = {
-				}
+                if = { 
+			has_country_leader = {
+			character = ESS_Mark_Fisher
+			ruling_only = yes
+			}
+		}
             }
 			allowed  = {
-				original_ESS  = 
+				original_tag  = ESS
 			}
 			traits  = {
 				left_accel
@@ -1781,13 +1830,17 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = 
+			
             available = {
-                if = {
-				}
+                if = { 
+			has_country_leader = {
+			character = ESS_Mark_Fisher
+			ruling_only = yes
+			}
+		}
             }
 			allowed  = {
-				original_ESS  = 
+				original_tag  = ESS
 			}
 			traits  = {
 				mystical_cybernetic
@@ -1803,13 +1856,17 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = 
+			
             available = {
-                if = {
-				}
+                if = { 
+			has_country_leader = {
+			character = ESS_Mark_Fisher
+			ruling_only = yes
+			}
+		}
             }
 			allowed  = {
-				original_ESS  = 
+				original_tag  = ESS
 			}
 			traits  = {
 				cute_accel
@@ -1825,13 +1882,17 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = 
+			
             available = {
-                if = {
-				}
+                if = { 
+			has_country_leader = {
+			character = ESS_Mark_Fisher
+			ruling_only = yes
+			}
+		}
             }
 			allowed  = {
-				original_ESS  = 
+				original_tag  = ESS
 			}
 			traits  = {
 				left_accel
@@ -1850,13 +1911,17 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = 
+			
             available = {
-                if = {
-				}
+                if = { 
+			has_country_leader = {
+			character = ESS_nick_land
+			ruling_only = yes
+			}
+		}
             }
 			allowed  = {
-				original_ESS  = 
+				original_tag  = ESS
 			}
 			traits  = {
 				linguist_futurist
@@ -1873,13 +1938,17 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = 
+			
             available = {
-                if = {
-				}
+                if = { 
+			has_country_leader = {
+			character = ESS_curtis_yarvin
+			ruling_only = yes
+			}
+		}
             }
 			allowed  = {
-				original_ESS  = 
+				original_tag  = ESS
 			}
 			traits  = {
 				ideological_crusader
@@ -1895,13 +1964,17 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = 
+			
             available = {
-                if = {
-				}
+                if = { 
+			has_country_leader = {
+			character = ESS_curtis_yarvin
+			ruling_only = yes
+			}
+		}
             }
 			allowed  = {
-				original_ESS  = 
+				original_tag  = ESS
 			}
 			traits  = {
 				geotrauma_theorist
