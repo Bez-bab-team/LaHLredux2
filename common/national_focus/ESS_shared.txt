@@ -2239,6 +2239,22 @@
 			add_dynamic_modifier = {
 				modifier = ESS_superb_british_forces
 			}
+			add_ideas = ESS_gang_reforms
+			if = {
+				has_idea = ESS_mil_purge
+				swap_ideas = {
+					remove_idea = ESS_mil_purge
+					add_idea = ESS_mil_purge_3
+				}
+				
+			}
+			else_if = {
+				has_idea = ESS_mil_purge_2
+				swap_ideas = {
+					remove_idea = ESS_mil_purge_2
+					add_idea = ESS_mil_purge_4
+				}
+			}
 		}
 		relative_position_id = ESS_constructing_utopia
 		prerequisite = {
@@ -2382,6 +2398,8 @@
 		cost = 3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_precise_manufacturing"
+			random_military_industrial_organization = { add_mio_funds = 1000 }
+			random_military_industrial_organization = { add_mio_funds = 1000 }
 		}
 		relative_position_id = ESS_reform_the_gang_military
 		prerequisite = {
@@ -2398,6 +2416,7 @@
 		cost = 3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_advanced_small_arms"
+			add_ideas = ESS_advanced_small_arms
 		}
 		relative_position_id = ESS_reform_the_gang_military
 		prerequisite = {

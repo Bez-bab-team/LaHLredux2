@@ -1,4 +1,4 @@
-capital = 947
+capital = 955
 oob = HAR_2020
 
 set_research_slots = 3

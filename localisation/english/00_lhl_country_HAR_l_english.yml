@@ -2,10 +2,10 @@
  ##LEADERS##
  HAR_abdullah_ii:0 "Abdullah II"
  ##POLITICAL PARTIES##
- HAR_right_populism_party:0 "Hashemite Dynasty"
+ HAR_hegemonism_party:0 "Hashemite Dynasty"
  ##COUNTRY NAME##
- HAR_hegemonism:0 "Jordan"
- HAR_hegemonism_DEF:0 "Hashemite Kingdom of Jordan"
+ HAR_hegemonism:0 "Hejaz"
+ HAR_hegemonism_DEF:0 "Hashemite Kingdom of Hejaz"
  ##TRAITS##
  fallen_king:0 "Fallen King"
  ##IDEAS##

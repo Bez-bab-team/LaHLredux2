@@ -214,7 +214,9 @@
  ESS_anti_gangs_riots:0 "Anti-Gangs Riots"
  ESS_gov_purge:0 "Purges in the Government"
  ESS_mil_purge:0 "Purges in the High Command"
- ESSS_mil_purges_2:0 "All-Army Purges"
+ ESS_mil_purge_3:0 "Purges in the High Command"
+ ESS_mil_purge_2:0 "All-Army Purges"
+ ESS_mil_purge_4:0 "All-Army Purges"
  ESS_spoils_of_kent:0 "Spoils Of Kent"
  ESS_spoils_of_kent_desc:0 "After the 'Unexpected' backstab in our dear King's little kingdom, most of the George's domain was left unguarded and undefended for our enterprising and adventurous militas to profit on. Sadly, due to our indolence and rapid strengthening of our enemies, the only territory where we can have our milita's permanent presence is Kent's borderzone. And with increased fear of future attack from our northern neighbours, more and more field commanders flee form this zone. Arms crates, cars, TVs, jewelry and other valuables are also rapidly fleeing from locals pockets."
  ESS_temporary_serfdom:0 "Temporary Serfdom"
@@ -223,6 +225,7 @@
  ESS_mild_case_of_distributism:0 "Mild Case of Distributism"
  ESS_mild_case_of_distributism_desc:0 "Among the most counterrevolutionary elements within our city are the distributists, a group of fanatic Christians(but even that is questionable) believing in the supremacy of God, and other bullcrap that's out of date by at least 3 centuries. Still, they are armed, they are fortified, and hold part of the city that should belong solely to us!"
  ESS_employment_rush_tt:0 "This national idea switches every 90 days due to change in job conditions."
+ ESS_gang_reforms:0 "Reformed Gang Military"
  ##Interlude##
  ESS_interlude:0 "Interlude"
  ESS_interlude:0 "Interlude"
