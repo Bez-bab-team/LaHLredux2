@@ -2433,6 +2433,7 @@
 		cost = 3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_interlinked_battle_systems"
+			add_ideas = ESS_interlink
 		}
 		relative_position_id = ESS_reform_the_gang_military
 		prerequisite = {
@@ -2452,6 +2453,24 @@
 		cost = 3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_reshuffle_the_deck"
+			every_unit_leader = {
+				limit = {
+					has_trait = loyalist
+				}
+				remove_unit_leader_role = yes
+			}
+			every_unit_leader = {
+				limit = {
+					has_trait = militiaman
+				}
+				remove_unit_leader_role = yes
+			}
+			every_unit_leader = {
+				limit = {
+					has_trait = military_specialist
+				}
+				gain_xp = 5
+			}
 		}
 		relative_position_id = ESS_reform_the_gang_military
 		prerequisite = {
@@ -2468,6 +2487,7 @@
 		cost = 3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_democratisation_of_military_command"
+			add_ideas = ESS_command_democratisation
 		}
 		relative_position_id = ESS_reform_the_gang_military
 		prerequisite = {
@@ -2484,6 +2504,7 @@
 		cost = 3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_middle_command_primacy"
+			add_ideas = ESS_middle_command_primacy
 		}
 		relative_position_id = ESS_reform_the_gang_military
 		prerequisite = {
@@ -2551,6 +2572,7 @@
 		cost = 3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_chobham_carapace"
+			add_ideas = ESS_restarted_mechanization
 		}
 		relative_position_id = ESS_reform_the_gang_military
 		prerequisite = {
@@ -2567,6 +2589,7 @@
 		cost = 3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_eyes_of_nvt"
+			add_ideas = ESS_eyes_of_nvt
 		}
 		relative_position_id = ESS_reform_the_gang_military
 		prerequisite = {
@@ -2651,6 +2674,9 @@
 		cost = 3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_mule_integration"
+			set_technology = {
+				evangelion = 1
+			}
 		}
 		relative_position_id = ESS_reform_the_gang_military
 		prerequisite = {
@@ -2670,6 +2696,12 @@
 		cost = 3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_peacekeepers_of_england"
+			add_ideas = ESS_peacekeepers_of_england
+			add_to_variable = {
+				var = ESS_coring_cost
+				value = -20
+			}
+			custom_effect_tooltip = EAG_coring_cost_lowered_20_tt
 		}
 		relative_position_id = ESS_reform_the_gang_military
 		prerequisite = {
