@@ -4705,22 +4705,3 @@
 
 	}
 	
-###Moldbug###
-
-	shared_focus = { 
-		id = ESS_found_the_british_company
-		icon = GFX_goal_ESS_found_the_british_company
-		cost = 3
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ESS_found_the_british_company"
-			custom_effect_tooltip = ESS_british_diamonds_tt
-		}
-		relative_position_id = ESS_stability_returns
-		prerequisite = {
-			focus = ESS_stability_returns
-			}
-		x = -10
-		y = 1
-		}
-	}
-	
