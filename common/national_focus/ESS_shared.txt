@@ -2275,7 +2275,7 @@
 				add_to_variable = {
 					var = ESS_superb_british_forces_mobilization_laws_cost_factor
 					value = 2.0
-				
+				}
 				add_to_variable = {
 					var = ESS_superb_british_forces_conscription_factor
 					value = 0.15
@@ -4721,6 +4721,5 @@
 			}
 		x = -10
 		y = 1
-		}
 	}
 	
