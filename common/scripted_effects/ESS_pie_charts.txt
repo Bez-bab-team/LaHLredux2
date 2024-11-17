@@ -1,0 +1,40 @@
+###Piechart scripted effects. Big thanks to Yard1 and his "HoI4-Scripted-GUI-Pie-Chart" example mod###
+lhl_ESS_create_pie_chart = {
+	clear_array = lhl_ESS_pie_chart
+	resize_array = {
+		array = lhl_ESS_pie_chart
+		value = 1 # 1 is value for neutrality frame, so we don't have to make a loop for it
+		size = 100 # 100 pieces, each percent is one piece
+	}
+	set_temp_variable = { ESS_corpo_state_temp = ESS_corpo_state }
+
+	set_temp_variable = { ESS_corpo_healthcare_temp = ESS_corpo_healthcare }
+	set_variable = { ROOT.last_idx = ESS_corpo_state_temp }
+	add_to_temp_variable = { ESS_corpo_healthcare_temp = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = ESS_corpo_healthcare_temp
+		set_variable = { lhl_ESS_pie_chart^v = 2 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+
+	set_temp_variable = { ESS_corpo_construction_temp = ESS_corpo_construction }
+	add_to_temp_variable = { ESS_corpo_construction_temp = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = ESS_corpo_construction_temp
+		set_variable = { lhl_ESS_pie_chart^v = 3 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+
+	set_temp_variable = { ESS_corpo_farming_temp = ESS_corpo_farming }
+	add_to_temp_variable = { ESS_corpo_farming_temp = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = ESS_corpo_farming_temp
+		set_variable = { lhl_ESS_pie_chart^v = 4 }
+	}
+
+	clear_variable = ROOT.last_idx
+	add_to_variable = { lhl_ESS_pie_chart_dirty = 1 }
+}

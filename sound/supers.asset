@@ -231,3 +231,17 @@ sound = {
 	volume = 1
 	always_load = yes
 }
+
+sound = {
+	name = "ESS_slip_print_sound"
+	file = "menu/ESS_slip_print.wav"
+	volume = 1
+	always_load = yes
+}
+
+sound = {
+	name = "ESS_wrong_code_sound"
+	file = "menu/ESS_wrong_code.wav"
+	volume = 1
+	always_load = yes
+}

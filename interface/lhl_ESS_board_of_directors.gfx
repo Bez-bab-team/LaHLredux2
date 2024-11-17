@@ -1,0 +1,75 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_ESS_board_of_directors_business"
+		texturefile = "gfx/interface/scripted_guis/ESS_board_of_directors/ESS_board_of_directors_business.dds"
+	}
+	spriteType = {
+		name = "GFX_ESS_board_of_directors_military"
+		texturefile = "gfx/interface/scripted_guis/ESS_board_of_directors/ESS_board_of_directors_military.dds"
+	}
+	spriteType = {
+		name = "GFX_ESS_board_of_directors_police"
+		texturefile = "gfx/interface/scripted_guis/ESS_board_of_directors/ESS_board_of_directors_police.dds"
+	}
+	spriteType = {
+		name = "GFX_ESS_board_of_directors_science"
+		texturefile = "gfx/interface/scripted_guis/ESS_board_of_directors/ESS_board_of_directors_science.dds"
+	}
+	spriteType = {
+		name = "GFX_ESS_board_of_directors_singers"
+		texturefile = "gfx/interface/scripted_guis/ESS_board_of_directors/ESS_board_of_directors_singers.dds"
+	}
+	spriteType = {
+		name = "GFX_ESS_board_of_directors_code_down"
+		texturefile = "gfx/interface/scripted_guis/ESS_board_of_directors/ESS_board_of_directors_code_down.dds"
+	}
+	spriteType = {
+		name = "GFX_ESS_board_of_directors_code_up"
+		texturefile = "gfx/interface/scripted_guis/ESS_board_of_directors/ESS_board_of_directors_code_up.dds"
+	}
+	spriteType = {
+		name = "GFX_ESS_board_of_directors_code_message"
+		texturefile = "gfx/interface/scripted_guis/ESS_board_of_directors/ESS_board_of_directors_code_message.dds"
+	}
+	spriteType = {
+		name = "GFX_ESS_board_of_directors_code_node"
+		texturefile = "gfx/interface/scripted_guis/ESS_board_of_directors/ESS_board_of_directors_code_node.dds"
+	}
+	spriteType = {
+		name = "GFX_ESS_board_of_directors_message_button"
+		texturefile = "gfx/interface/scripted_guis/ESS_board_of_directors/ESS_board_of_directors_message_button.dds"
+	}
+	spriteType = {
+		name = "GFX_ESS_board_of_directors_password_button"
+		texturefile = "gfx/interface/scripted_guis/ESS_board_of_directors/ESS_board_of_directors_password_button.dds"
+	}
+	spriteType = {
+		name = "GFX_ESS_board_of_directors_password_button_active"
+		texturefile = "gfx/interface/scripted_guis/ESS_board_of_directors/ESS_board_of_directors_password_button_active.dds"
+	}
+	spriteType = {
+		name = "GFX_ESS_board_of_directors_password_fail"
+		texturefile = "gfx/interface/scripted_guis/ESS_board_of_directors/ESS_board_of_directors_password_fail.dds"
+	}
+	spriteType = {
+		name = "GFX_ESS_board_of_directors_password_fail_active"
+		texturefile = "gfx/interface/scripted_guis/ESS_board_of_directors/ESS_board_of_directors_password_fail_active.dds"
+	}
+	spriteType = {
+		name = "GFX_ESS_board_of_directors_professions_background"
+		texturefile = "gfx/interface/scripted_guis/ESS_board_of_directors/ESS_board_of_directors_professions_background.dds"
+	}
+	spriteType = {
+		name = "GFX_ESS_board_of_direcotrs_code_button_icon"
+		texturefile = "gfx/interface/scripted_guis/ESS_board_of_directors/ESS_board_of_directors_code_button.dds"
+	}
+	spriteType = {
+		name = "GFX_ESS_board_of_directors_code_background"
+		texturefile = "gfx/interface/scripted_guis/ESS_board_of_directors/ESS_board_of_directors_code_background.dds"
+	}
+	spriteType = {
+		name = "GFX_ESS_board_of_directors_piechart_frames"
+		texturefile = "gfx/interface/scripted_guis/ESS_board_of_directors/ESS_board_of_directors_piechart_frames.dds"
+		noOfFrames = 4
+	}
+}

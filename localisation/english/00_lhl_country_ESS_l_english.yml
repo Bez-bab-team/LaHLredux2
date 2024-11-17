@@ -981,20 +981,7 @@
  
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-  ###LEGACY BULLSHIT###
+ ###LEGACY BULLSHIT###
  ESS_utopia_under_protection:0 "Utopia under Protection"
  ESS_utopia_under_protection_desc:0 "Utopia under Protection"
  
@@ -1364,9 +1351,18 @@
  
  ESS_eternal_acceleration:0 "Eternal Acceleration"
  ESS_eternal_acceleration_desc:0 "Eternal Acceleration"  
- ###/LEGACY BULLSHIT###
- 
- 
- 
- 
- 
+ ###Curtis Yarvin Board of Directors###
+ ESS_board_of_directors_code_1_tt:0 "[?ESS_code_1_decisions]"
+ ESS_board_of_directors_code_2_tt:0 "[?ESS_code_2_decisions]"
+ ESS_board_of_directors_code_3_tt:0 "[?ESS_code_3_decisions]"
+ ESS_board_of_directors_code_4_tt:0 "[?ESS_code_4_decisions]"
+ ESS_board_of_directors_code_5_tt:0 "[?ESS_code_5_decisions]"
+ #
+ ESS_board_of_directors_code_slip_1_tt:0 "[?ESS_code_slip_1_decisions]"
+ ESS_board_of_directors_code_slip_2_tt:0 "[?ESS_code_slip_2_decisions]"
+ ESS_board_of_directors_code_slip_3_tt:0 "[?ESS_code_slip_3_decisions]"
+ ESS_board_of_directors_code_slip_4_tt:0 "[?ESS_code_slip_4_decisions]"
+ ESS_board_of_directors_code_slip_5_tt:0 "[?ESS_code_slip_5_decisions]"
+ #
+ ESS_board_of_directors_title:0 "The CEO State"
+ ESS_board_of_directors_money:0 "Our daily income: ££[?ESS_board_of_directors_income]\n\nOur current budget: ££[?ESS_board_of_directors_budget]"
