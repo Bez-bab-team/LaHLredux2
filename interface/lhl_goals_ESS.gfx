@@ -583,4 +583,32 @@ spriteTypes = {
 		name = "GFX_goal_ESS_happy_new_britain"
 		texturefile = "gfx/interface/goals/ESS/goal_ESS_happy_new_britain.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_ESS_the_republic_triumphant"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_the_republic_triumphant.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_londons_underbelly"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_londons_underbelly.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_woe_to_the_vanquished"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_woe_to_the_vanquished.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_economic_populism"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_economic_populism.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_placate_the_masses"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_placate_the_masses.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_fate_of_the_favorites"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_fate_of_the_favorites.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_stability_returns"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_stability_returns.dds"
+	}
 }

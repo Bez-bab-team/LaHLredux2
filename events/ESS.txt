@@ -1377,6 +1377,50 @@ country_event = {
 	}	
 }
 
+country_event = { 
+	id = ESS_event.50
+	title = ESS_event.50.t
+	desc = ESS_event.50.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ESS_event.50"}
+	is_triggered_only = yes
+	picture = GFX_ESS_moldbug_arrival
+	option = {
+		name = ESS_event.50.a
+	}	
+}
+
+country_event = { 
+	id = ESS_event.60
+	title = ESS_event.60.t
+	desc = ESS_event.60.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ESS_event.60"}
+	is_triggered_only = yes
+	picture = GFX_ESS_republic_proclamation
+	option = {
+		name = ESS_event.60.a
+	}	
+}
+
+country_event = { 
+	id = ESS_event.61
+	title = ESS_event.61.t
+	desc = ESS_event.61.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ESS_event.61"}
+	is_triggered_only = yes
+	picture = GFX_ESS_german_POWs
+	option = {
+		name = ESS_event.61.a
+	}	
+	option = {
+		name = ESS_event.61.b
+	}
+	option = {
+		name = ESS_event.61.c
+	}
+}
+
+
+
 country_event = {
 	id = ESS_event.666
 	title = ESS_event.666.t
@@ -1402,5 +1446,37 @@ country_event = {
 	        }
 		}
 
+	}
+}
+
+country_event = { 
+	id = ESS_event.1488
+	title = ESS_event.1488.t
+	desc = ESS_event.1488.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ESS_event.1488"}
+	is_triggered_only = yes
+	picture = GFX_
+	option = {
+		name = ESS_event.1488.a
+		ESS = {
+				retire_country_leader = yes
+				promote_character = {
+					character = ESS_curtis_yarvin
+					ideology = neo_reaction
+				}
+		}
+	}	
+	option = {
+		name = ESS_event.1488.b
+			ESS = {
+				retire_country_leader = yes
+				set_politics = {
+					ruling_party = commendationism
+				}
+				promote_character = {
+					character = ESS_Mark_Fisher
+					ideology = ultrahegelianism
+				}
+		}
 	}
 }

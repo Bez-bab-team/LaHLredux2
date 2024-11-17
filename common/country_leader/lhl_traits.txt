@@ -1679,6 +1679,26 @@ leader_traits = {
 ##LEADERS_NATIONALISTS/ESSEX##
 	the_father_of_accelerationism = { #Nick Land#
 		random = no
+		research_speed_factor = 0.1
+		stability_factor = -0.12
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	k_punk = { #Mark Fisher#
+		random = no
+		political_power_factor = -0.05
+		stability_factor = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	dark_enlightener = { #Curtis Yarvin#
+		random = no
+		production_factory_efficiency_gain_factor = 0.02
+		production_speed_building_factor = 0.02
+		research_speed_factor = 0.02
+		stability_factor = -0.08
 		ai_will_do = {
 			factor = 1
 		}
@@ -1974,6 +1994,184 @@ leader_traits = {
 		ai_will_do = {
 			factor = 1
 		}
+	}
+    transcendental_nihilist = { #Трансцендентальный нигилист
+        random = no
+        sprite = 1
+		surrender_limit = -0.05
+		political_power_gain = 0.2
+		war_stability_factor = -0.1
+		stability_factor = 0.01
+        ai_will_do = {
+            base = #
+        }
+        command_cap = 0
+    }
+    neorationalist = { #Кибернетический Неорационалист
+        random = no
+        sprite = 1
+		political_power_cost = -0.1
+		war_support_factor = 0.2
+		offensive_war_stability_factor = -0.2
+        ai_will_do = {
+            base = #
+        }
+        command_cap = 0
+    }
+    dubstep_king = { #Король Дабстепа
+        random = no
+        sprite = 1
+		party_popularity_stability_factor = 0.3
+		political_power_cost = -0.1
+		stability_weekly = 0.01
+        ai_will_do = {
+            base = #
+        }
+        command_cap = 0
+    }
+	eco_activist = { #Эко-активист
+        random = no
+        sprite = 1
+		production_factory_efficiency_gain_factor = -0.05
+		production_factory_max_efficiency_factor = -0.05
+		fuel_gain_factor = -0.08
+		consumer_goods_factor = -0.15
+        ai_will_do = {
+            base = #
+        }
+        command_cap = 0
+	}
+	CCRU_workhorse = { #Рабочая лошадка CCRU
+        random = no
+        sprite = 1
+		research_speed_factor = 0.2
+		political_power_factor = 0.12
+        ai_will_do = {
+            base = #
+        }
+        command_cap = 0
+	}
+	lands_disciple = { #Ученик Ланда
+        random = no
+        sprite = 1
+		master_ideology_drift = 0.02
+		drift_defence_factor = 0.3
+		production_lack_of_resource_penalty_factor = -0.1
+        ai_will_do = {
+            base = #
+        }
+        command_cap = 0
+	}
+	
+	afrofuturist = { #Афрофутурист
+        random = no
+        sprite = 1
+		stability_weekly_factor = 0.2
+		opinion_gain_monthly_same_ideology = 5
+        ai_will_do = {
+            base = #
+        }
+        command_cap = 0
+	}
+	cybernetic_realist = { #Кибернетический Реалист
+        random = no
+        sprite = 1
+		research_speed_factor = 0.2
+		political_power_factor = 0.05
+        ai_will_do = {
+            base = #
+        }
+        command_cap = 0
+	}
+	xenofeminist_army = { #Ксенофеминист, название трейта совпадает со следующим, так и надо.
+        random = no
+        sprite = 1
+		female_random_operative_chance = 0.2
+		female_random_army_leader_chance = 0.2
+		female_random_admiral_chance = 0.2
+		female_divisional_commander_chance = 0.2
+		offensive_war_stability_factor = -0.1
+		stability_factor = 0.01
+        ai_will_do = {
+            base = #
+        }
+        command_cap = 0
+	}
+	xenofeminist_econ = { #Ксенофеминист, название трейта совпадает со предыдущим, так и надо.
+        random = no
+        sprite = 1
+		female_random_country_leader_chance = 0.2
+		consumer_goods_factor = -0.1
+		industry_repair_factor = 0.3
+        ai_will_do = {
+            base = #
+        }
+        command_cap = 0
+	}
+	CCRU_workhorse_1 = { #Рабочая лошадка CCRU, мне лень придумывать Нойсу другой трейт
+        random = no
+        sprite = 1
+		research_speed_factor = 0.2
+		political_power_factor = 0.1
+        ai_will_do = {
+            base = #
+        }
+        command_cap = 0
+	}
+	left_accel = { #Один из левых асклерационистов
+        random = no
+        sprite = 1
+		drift_defence_factor = 0.2
+		political_power_cost = -0.1
+		stability_weekly = 0.01
+        ai_will_do = {
+            base = #
+        }
+        command_cap = 0
+	}
+	mystical_cybernetic = { #Мистический Кибернетик
+        random = no
+        sprite = 1
+		war_support_factor = 0.2
+		offensive_war_stability_factor = -0.2
+		political_power_gain = 0.2
+		production_lack_of_resource_penalty_factor = -0.1
+        ai_will_do = {
+            base = #
+        }
+        command_cap = 0
+	}
+	cute_accel = { #Автор Cute Accelerationism
+        random = no
+        sprite = 1
+		drift_defence_factor = 0.1
+		master_ideology_drift = 0.02
+        ai_will_do = {
+            base = #
+        }
+        command_cap = 0
+	}
+	
+	linguist_futurist = { #Лингвист-Футурист
+        random = no
+        sprite = 1
+		research_speed_factor = 0.15
+        ai_will_do = {
+            base = #
+        }
+        command_cap = 0
+	}
+	geotrauma_theorist = { #Теоретик Геотравмы
+        random = no
+        sprite = 1
+		war_support_factor = 0.2
+		offensive_war_stability_factor = -0.2
+		political_power_gain = 0.2
+		production_lack_of_resource_penalty_factor = -0.1
+        ai_will_do = {
+            base = #
+        }
+        command_cap = 0
 	}
 	
 ###CONSERVATIVES/KENT### #KNT#

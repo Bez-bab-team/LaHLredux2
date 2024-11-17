@@ -1,9 +1,9 @@
 characters={
-	VIE_phùng_quang_thanh={
-		name="Phùng Quang Thanh"
+	VIE_nguyen_khoa_diem={
+		name="Nguyen Khoa Diem"
 		portraits={
 			civilian={
-				large="gfx/leaders/VIE/Portrait_VIE_Phùng_Quang_Thanh.dds"
+				large="gfx/leaders/VIE/Portrait_VIE_Nguyen_Khoa_Diem.dds"
 			}
 		}
 		country_leader={

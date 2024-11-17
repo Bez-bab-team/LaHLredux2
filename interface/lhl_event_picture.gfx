@@ -60,6 +60,18 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/ESS_geedy_monasteries.dds"
 	}	
 	spriteType = {
+		name = "GFX_ESS_moldbug_arrival"
+		texturefile = "gfx/event_pictures/ESS_moldbug_arrival.dds"
+	}	
+	spriteType = {
+		name = "GFX_ESS_republic_proclamation"
+		texturefile = "gfx/event_pictures/ESS_republic_proclamation.dds"
+	}	
+	spriteType = {
+		name = "GFX_ESS_german_POWs"
+		texturefile = "gfx/event_pictures/ESS_german_POWs.dds"
+	}	
+	spriteType = {
 		name = "GFX_EAG_german_soldiers"
 		texturefile = "gfx/event_pictures/EAG_german_soldiers.dds"
 	}
