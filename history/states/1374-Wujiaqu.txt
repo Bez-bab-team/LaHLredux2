@@ -1,0 +1,16 @@
+state={
+	id=1374
+	name="STATE_1374"
+	provinces={
+		11467 
+	}
+
+	history={
+		owner = XIJ
+		add_core_of = XIJ
+
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
