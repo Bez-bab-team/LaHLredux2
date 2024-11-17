@@ -27,6 +27,13 @@ ESS_debug = {
 		    load_focus_tree = ESS_collins_1
 		}
 	}
+	ESS_moldbug_1 = {
+		cost = 0
+		days_remove = 1
+        complete_effect = { 
+		    load_focus_tree = ESS_moldbug_1
+		}
+	}
 }
 
 ###LONDON###

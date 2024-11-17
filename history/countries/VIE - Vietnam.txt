@@ -1,4 +1,4 @@
-﻿capital = 761
+﻿capital = 766
 
 oob = "VIE_2020"
 
@@ -24,7 +24,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Phùng Quang Thanh"
-	picture = "Portrait_VIE_Phùng_Quang_Thanh.dds"
+	name = "Nguyen Khoa Diem"
+	picture = "Portrait_VIE_Nguyen_Khoa_Diem.dds"
 	ideology = soviet_marxism
 }

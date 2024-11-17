@@ -10,7 +10,7 @@ characters={
 		advisor = {
 			cost = 150
 			slot = head_of_government
-			idea_token = nick_land
+			idea_token = ESS_nick_land
 			allowed = {
 				original_tag = ESS
 			}
@@ -22,6 +22,10 @@ characters={
 			ideology=accelerationism
 			expire="1.1.1.1"
 			id=-1
+			traits = {
+				the_father_of_accelerationism 
+			}
+			desc = ESS_Nick_Land_desc
 		}
 	}
 	ESS_Richard_Dawkins={
@@ -50,6 +54,75 @@ characters={
 			desc = ESS_Richard_Dawkins_desc
 		}
 	}
+	ESS_Mark_Fisher={
+		name=ESS_Mark_Fisher
+		portraits={
+			civilian={
+				large="gfx/leaders/ESS/Portrait_ESS_Mark_Fisher.dds"
+				small = "gfx/interface/ideas/ESS/idea_ESS_Mark_Fisher.dds"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = head_of_government
+			idea_token = ESS_Mark_Fisher
+			allowed = {
+				original_tag = ESS
+			}
+			traits = {
+				k_punk
+			}
+		}
+		country_leader={
+			ideology=ultrahegelianism
+			expire="1.1.1.1"
+			id=-1
+			traits = {
+				k_punk
+			}
+			desc = ESS_Mark_Fisher_desc
+		}
+	}
+	ESS_curtis_yarvin  = {
+		name = ESS_curtis_yarvin
+		portraits = {
+			civilian={
+				large="gfx/leaders/ESS/Portrait_ESS_Curtis_Yarvin.dds"
+				small = "gfx/interface/ideas/ESS/idea_ESS_curtis_yarvin.dds"
+			}
+		}
+		advisor = {
+			cost = 120
+			slot = political_advisor
+			idea_token = ESS_curtis_yarvin
+			traits = {
+				american_moldbug
+			}
+			allowed = {
+				original_tag = ESS
+			}
+			available = {
+				hidden_trigger = {
+					has_country_flag = ESS_nick_here 
+				}
+			}
+			visible = {
+				has_country_flag = ESS_nick_here 
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+	    }
+		country_leader={
+			ideology=neo_reaction
+			expire="1.1.1.1"
+			id=-1
+			traits = {
+				dark_enlightener
+			}
+			desc = ESS_Curtis_Yarvin_desc
+		}
+	}
 	ESS_david_pearce={
 		name=ESS_david_pearce
 		portraits={
@@ -63,19 +136,6 @@ characters={
 			id=-1
 		}
 	}
-	ESS_nick_srnicek={
-		name=ESS_nick_srnicek
-		portraits={
-			civilian={
-				large="gfx/leaders/ESS/Portrait_ESS_Nick_Srnicek.dds"
-			}
-		}
-		country_leader={
-			ideology=ultrahegelianism
-			expire="1.1.1.1"
-			id=-1
-		}
-	}
 	ESS_steve_ignorant={
 		name=ESS_steve_ignorant
 		portraits={
@@ -85,6 +145,19 @@ characters={
 		}
 		country_leader={
 			ideology=soviet_marxism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ESS_nick_srnicek={
+		name=ESS_nick_srnicek
+		portraits={
+			civilian={
+				large="gfx/leaders/ESS/Portrait_ESS_Nick_Srnicek.dds"
+			}
+		}
+		country_leader={
+			ideology=ultrahegelianism
 			expire="1.1.1.1"
 			id=-1
 		}
@@ -646,36 +719,6 @@ characters={
 			idea_token = ESS_reza_negarestani
 			traits = {
 				shadow_hand
-			}
-			allowed = {
-				original_tag = ESS
-			}
-			available = {
-				hidden_trigger = {
-					has_country_flag = ESS_nick_here 
-				}
-			}
-			visible = {
-				has_country_flag = ESS_nick_here 
-			}
-			ai_will_do  = {
-				factor  = 1.000
-			}
-	    }
-	}
-	ESS_curtis_yarvin  = {
-		name = ESS_curtis_yarvin
-		portraits = {
-			civilian={
-				small = "gfx/interface/ideas/ESS/idea_ESS_curtis_yarvin.dds"
-			}
-		}
-		advisor = {
-			cost = 120
-			slot = political_advisor
-			idea_token = ESS_curtis_yarvin
-			traits = {
-				american_moldbug
 			}
 			allowed = {
 				original_tag = ESS
@@ -1436,6 +1479,507 @@ characters={
 				factor  = 2.000
 			}
 	    }
+	}
+
+	ESS_stephen_metcalf = {
+		name=ESS_stephen_metcalf
+		portraits={
+			civilian={
+				large=GFX_portrait_ESS_stephen_metcalf
+			}
+		}
+		advisor={
+			slot = political_advisor
+            available = {
+                if = { 
+			has_country_leader = {
+			character = ESS_nick_land
+			ruling_only = yes
+			}
+		}
+            }
+			allowed  = {
+				original_tag  = ESS
+			}
+			traits  = {
+				CCRU_workhorse
+			}
+		}
+	}
+	ESS_edmund_berger = {
+		name = ESS_edmund_berger
+		portraits={
+			civilian={
+				large = GFX_portrait_ESS_edmund_berger
+			}
+		}
+		advisor={
+			slot = political_advisor
+            available = {
+                if = { 
+			has_country_leader = {
+			character = ESS_nick_land
+			ruling_only = yes
+			}
+		}
+            }
+			allowed  = {
+				original_tag  = ESS
+			}
+			traits  = {
+				lands_fan
+			}
+		}
+	}
+	ESS_raymond_brassier = {
+		name = ESS_raymond_brassier
+		portraits={
+			civilian={
+				large = GFX_portrait_ESS_raymond_brassier
+			}
+		}
+		advisor={
+			slot = political_advisor	
+            available = {
+                if = { 
+			has_country_leader = {
+			character = ESS_nick_land
+			ruling_only = yes
+			}
+		}
+            }
+			allowed  = {
+				original_tag  = ESS
+			}
+			traits  = {
+				transcendental_nihilist
+				editor
+			}
+		}
+	}
+	ESS_reza_negarestani = {
+		name = ESS_reza_negarestani
+		portraits={
+			civilian={
+				large = GFX_portrait_ESS_reza_negarestani
+			}
+		}
+		advisor={
+			slot = political_advisor
+            available = {
+                if = { 
+			has_country_leader = {
+			character = ESS_nick_land
+			ruling_only = yes
+			}
+		}
+            }
+			allowed  = {
+				original_tag  = ESS
+			}
+			traits  = {
+				neorationalist
+			}
+		}
+	}
+	ESS_steve_goodman = {
+		name = ESS_steve_goodman
+		portraits={
+			civilian={
+				large = GFX_portrait_ESS_steve_goodman
+			}
+		}
+		advisor={
+			slot = political_advisor
+			
+            available = {
+                if = { 
+			has_country_leader = {
+			character = ESS_nick_land
+			ruling_only = yes
+			}
+		}
+            }
+			allowed  = {
+				original_tag  = ESS
+			}
+			traits  = {
+				dubstep_king
+			}
+		}
+	}
+	ESS_timothy_morton = {
+		name = ESS_steve_goodman
+		portraits={
+			civilian={
+				large = GFX_portrait_ESS_steve_goodman
+			}
+		}
+		advisor={
+			slot = political_advisor
+			
+            available = {
+                if = { 
+			has_country_leader = {
+			character = ESS_nick_land
+			ruling_only = yes
+			}
+		}
+            }
+			allowed  = {
+				original_tag  = ESS
+			}
+			traits  = {
+				cuts_corners
+				eco_activist
+			}
+		}
+	}
+	ESS_matt_rozen = {
+		name = ESS_matt_rozen
+		portraits={
+			civilian={
+				large = GFX_portrait_ESS_matt_rozen
+			}
+		}
+		advisor={
+			slot = political_advisor
+			
+            available = {
+                if = { 
+			has_country_leader = {
+			character = ESS_nick_land
+			ruling_only = yes
+			}
+		}
+            }
+			allowed  = {
+				original_tag  = ESS
+			}
+			traits  = {
+				transcendental_nihilist
+				prince_of_terror
+			}
+		}
+	}
+	
+	
+	ESS_kodwo_eshun = {
+		name = ESS_kodwo_eshun
+		portraits={
+			civilian={
+				large = GFX_portrait_ESS_kodwo_eshun
+			}
+		}
+		advisor={
+			slot = political_advisor
+			
+            available = {
+                if = { 
+			has_country_leader = {
+			character = ESS_Mark_Fisher
+			ruling_only = yes
+			}
+		}
+            }
+			allowed  = {
+				original_tag  = ESS
+			}
+			traits  = {
+				afrofuturist
+			}
+		}
+	}
+	ESS_ian_hamilton_grant = {
+		name = ESS_ian_hamilton_grant
+		portraits={
+			civilian={
+				large = GFX_portrait_ESS_ian_hamilton_grant
+			}
+		}
+		advisor={
+			slot = political_advisor
+			
+            available = {
+                if = { 
+			has_country_leader = {
+			character = ESS_Mark_Fisher
+			ruling_only = yes
+			}
+		}
+            }
+			allowed  = {
+				original_tag  = ESS
+			}
+			traits  = {
+				cybernetic_realist
+			}
+		}
+	}
+	ESS_amy_ireland = {
+		name = ESS_amy_ireland
+		portraits={
+			civilian={
+				large = GFX_portrait_ESS_amy_ireland
+			}
+		}
+		advisor={
+			slot = political_advisor
+			
+            available = {
+                if = { 
+			has_country_leader = {
+			character = ESS_Mark_Fisher
+			ruling_only = yes
+			}
+		}
+            }
+			allowed  = {
+				original_tag  = ESS
+			}
+			traits  = {
+				xenofeminist_army
+			}
+		}
+	}
+	ESS_suzanne_livingston = {
+		name = ESS_suzanne_livingston
+		portraits={
+			civilian={
+				large = GFX_portrait_ESS_suzanne_livingston
+			}
+		}
+		advisor={
+			slot = political_advisor
+			
+            available = {
+                if = { 
+			has_country_leader = {
+			character = ESS_Mark_Fisher
+			ruling_only = yes
+			}
+		}
+            }
+			allowed  = {
+				original_tag  = ESS
+			}
+			traits  = {
+				xenofeminist_econ
+			}
+		}
+	}
+	ESS_benjamin_noys = {
+		name = ESS_benjamin_noys
+		portraits={
+			civilian={
+				large = GFX_portrait_ESS_benjamin_noys
+			}
+		}
+		advisor={
+			slot = political_advisor
+			
+            available = {
+                if = { 
+			has_country_leader = {
+			character = ESS_nick_land
+			ruling_only = yes
+			}
+		}
+            }
+			allowed  = {
+				original_tag  = 
+			}
+			traits  = {
+				CCRU_workhorse_1
+			}
+		}
+	}
+	ESS_pete_wolfendale = {
+		name = ESS_pete_wolfendale
+		portraits={
+			civilian={
+				large = GFX_portrait_ESS_pete_wolfendale
+			}
+		}
+		advisor={
+			slot = political_advisor
+			
+            available = {
+                if = { 
+			has_country_leader = {
+			character = ESS_Mark_Fisher
+			ruling_only = yes
+			}
+		}
+            }
+			allowed  = {
+				original_tag  = ESS
+			}
+			traits  = {
+				left_accel
+				captain_of_industry
+			}
+		}
+	}
+	ESS_hari_kunzru = {
+		name = ESS_hari_kunzru
+		portraits={
+			civilian={
+				large = GFX_portrait_ESS_hari_kunzru
+			}
+		}
+		advisor={
+			slot = political_advisor
+			
+            available = {
+                if = { 
+			has_country_leader = {
+			character = ESS_Mark_Fisher
+			ruling_only = yes
+			}
+		}
+            }
+			allowed  = {
+				original_tag  = ESS
+			}
+			traits  = {
+				mystical_cybernetic
+			}
+		}
+	}
+	ESS_maya_cronic = {
+		name = ESS_maya_cronic
+		portraits={
+			civilian={
+				large = GFX_portrait_ESS_maya_cronic
+			}
+		}
+		advisor={
+			slot = political_advisor
+			
+            available = {
+                if = { 
+			has_country_leader = {
+			character = ESS_Mark_Fisher
+			ruling_only = yes
+			}
+		}
+            }
+			allowed  = {
+				original_tag  = ESS
+			}
+			traits  = {
+				cute_accel
+			}
+		}
+	}
+	ESS_alex_williams = {
+		name = ESS_maya_cronic
+		portraits={
+			civilian={
+				large = GFX_portrait_ESS_maya_cronic
+			}
+		}
+		advisor={
+			slot = political_advisor
+			
+            available = {
+                if = { 
+			has_country_leader = {
+			character = ESS_Mark_Fisher
+			ruling_only = yes
+			}
+		}
+            }
+			allowed  = {
+				original_tag  = ESS
+			}
+			traits  = {
+				left_accel
+				editor
+			}
+		}
+	}
+	
+	
+	ESS_vincent_garton = {
+		name = ESS_vincent_garton
+		portraits={
+			civilian={
+				large = GFX_portrait_ESS_vincent_garton
+			}
+		}
+		advisor={
+			slot = political_advisor
+			
+            available = {
+                if = { 
+			has_country_leader = {
+			character = ESS_nick_land
+			ruling_only = yes
+			}
+		}
+            }
+			allowed  = {
+				original_tag  = ESS
+			}
+			traits  = {
+				linguist_futurist
+				compassionate_commoner
+			}
+		}
+	}
+	ESS_adam_fitchett = {
+		name = ESS_adam_fitchett
+		portraits={
+			civilian={
+				large = GFX_portrait_ESS_adam_fitchett
+			}
+		}
+		advisor={
+			slot = political_advisor
+			
+            available = {
+                if = { 
+			has_country_leader = {
+			character = ESS_curtis_yarvin
+			ruling_only = yes
+			}
+		}
+            }
+			allowed  = {
+				original_tag  = ESS
+			}
+			traits  = {
+				ideological_crusader
+			}
+		}
+	}
+	ESS_daniel_charles_barker = {
+		name = ESS_daniel_charles_barker
+		portraits={
+			civilian={
+				large = GFX_portrait_ESS_daniel_charles_barker
+			}
+		}
+		advisor={
+			slot = political_advisor
+			
+            available = {
+                if = { 
+			has_country_leader = {
+			character = ESS_curtis_yarvin
+			ruling_only = yes
+			}
+		}
+            }
+			allowed  = {
+				original_tag  = ESS
+			}
+			traits  = {
+				geotrauma_theorist
+			}
+		}
 	}
 
 }

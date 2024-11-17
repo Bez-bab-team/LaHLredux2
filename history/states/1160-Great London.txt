@@ -31,6 +31,14 @@ state={
 			infrastructure = 2
 			industrial_complex = 4
 			arms_factory = 3
+			17539 = { 
+			    landmark_big_ben = {
+			        allowed = {
+			            has_dlc = "Gotterdammerung"
+			        }
+			        level = 1
+			    }
+			}
 		}
 		add_province_modifier = {
 			static_modifiers = { minor_anarchist_presence }

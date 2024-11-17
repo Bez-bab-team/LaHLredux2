@@ -954,12 +954,12 @@
 			add_ideas = ESS_interlude
 		}
 		available = {
-		ESS = {
-			NOT = {
-				has_war_with = EAG
+			ESS = {
+				NOT = {
+					has_war_with = EAG
+				}
 			}
 		}
-	}
 		
 	} 
 	
@@ -1111,6 +1111,98 @@
 		x = 7
 		y = 9
 	} 
+	
+	###Land Interregnum###
+	shared_focus = {
+		id = ESS_the_republic_triumphant
+		icon = GFX_goal_ESS_the_republic_triumphant
+		cost = 1
+		completion_reward = {
+		}
+		x = 7
+		y = 10	
+	}
+	shared_focus = {
+		id = ESS_londons_underbelly
+		icon = GFX_goal_ESS_londons_underbelly
+		cost = 1
+		prerequisite = {
+			focus = ESS_the_republic_triumphant
+		}
+		completion_reward = {
+		}
+		x = 7
+		y = 11
+	}
+	shared_focus = {
+		id = ESS_woe_to_the_vanquished
+		icon = GFX_goal_ESS_woe_to_the_vanquished
+		cost = 1
+		prerequisite = {
+			focus = ESS_the_republic_triumphant
+		}
+		completion_reward = {
+		}
+		x = 5
+		y = 11
+	}
+	shared_focus = {
+		id = ESS_economic_populism
+		icon = GFX_goal_ESS_economic_populism
+		cost = 1
+		prerequisite = {
+			focus = ESS_the_republic_triumphant
+		}
+		completion_reward = {
+		}
+		x = 9
+		y = 11
+	}
+	shared_focus = {
+		id = ESS_placate_the_masses
+		icon = GFX_goal_ESS_placate_the_masses
+		cost = 1
+		prerequisite = {
+			focus = ESS_woe_to_the_vanquished
+		}
+		prerequisite = {
+			focus = ESS_londons_underbelly
+		}
+		completion_reward = {
+		}
+		x = 6
+		y = 12
+	}
+	shared_focus = {
+		id = ESS_fate_of_the_favorites
+		icon = GFX_goal_ESS_fate_of_the_favorites
+		cost = 1
+		prerequisite = {
+			focus = ESS_economic_populism
+		}
+		prerequisite = {
+			focus = ESS_londons_underbelly
+		}
+		completion_reward = {
+		}
+		x = 8
+		y = 12
+	}
+	shared_focus = {
+		id = ESS_stability_returns
+		icon = GFX_goal_ESS_stability_returns
+		cost = 1
+		prerequisite = {
+			focus = ESS_placate_the_masses
+		}
+		prerequisite = {
+			focus = ESS_fate_of_the_favorites
+		}
+		completion_reward = {
+		}
+		x = 7
+		y = 13
+	}
 	
 
 	###Dawkins Post Mosley###
@@ -2147,6 +2239,22 @@
 			add_dynamic_modifier = {
 				modifier = ESS_superb_british_forces
 			}
+			add_ideas = ESS_gang_reforms
+			if = {
+				has_idea = ESS_mil_purge
+				swap_ideas = {
+					remove_idea = ESS_mil_purge
+					add_idea = ESS_mil_purge_3
+				}
+				
+			}
+			else_if = {
+				has_idea = ESS_mil_purge_2
+				swap_ideas = {
+					remove_idea = ESS_mil_purge_2
+					add_idea = ESS_mil_purge_4
+				}
+			}
 		}
 		relative_position_id = ESS_constructing_utopia
 		prerequisite = {
@@ -2167,7 +2275,7 @@
 				add_to_variable = {
 					var = ESS_superb_british_forces_mobilization_laws_cost_factor
 					value = 2.0
-				
+				}
 				add_to_variable = {
 					var = ESS_superb_british_forces_conscription_factor
 					value = 0.15
@@ -2290,6 +2398,8 @@
 		cost = 3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_precise_manufacturing"
+			random_military_industrial_organization = { add_mio_funds = 1000 }
+			random_military_industrial_organization = { add_mio_funds = 1000 }
 		}
 		relative_position_id = ESS_reform_the_gang_military
 		prerequisite = {
@@ -2306,6 +2416,7 @@
 		cost = 3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_advanced_small_arms"
+			add_ideas = ESS_advanced_small_arms
 		}
 		relative_position_id = ESS_reform_the_gang_military
 		prerequisite = {
@@ -2322,6 +2433,7 @@
 		cost = 3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_interlinked_battle_systems"
+			add_ideas = ESS_interlink
 		}
 		relative_position_id = ESS_reform_the_gang_military
 		prerequisite = {
@@ -2341,6 +2453,24 @@
 		cost = 3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_reshuffle_the_deck"
+			every_unit_leader = {
+				limit = {
+					has_trait = loyalist
+				}
+				remove_unit_leader_role = yes
+			}
+			every_unit_leader = {
+				limit = {
+					has_trait = militiaman
+				}
+				remove_unit_leader_role = yes
+			}
+			every_unit_leader = {
+				limit = {
+					has_trait = military_specialist
+				}
+				gain_xp = 5
+			}
 		}
 		relative_position_id = ESS_reform_the_gang_military
 		prerequisite = {
@@ -2357,6 +2487,7 @@
 		cost = 3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_democratisation_of_military_command"
+			add_ideas = ESS_command_democratisation
 		}
 		relative_position_id = ESS_reform_the_gang_military
 		prerequisite = {
@@ -2373,6 +2504,7 @@
 		cost = 3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_middle_command_primacy"
+			add_ideas = ESS_middle_command_primacy
 		}
 		relative_position_id = ESS_reform_the_gang_military
 		prerequisite = {
@@ -2440,6 +2572,7 @@
 		cost = 3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_chobham_carapace"
+			add_ideas = ESS_restarted_mechanization
 		}
 		relative_position_id = ESS_reform_the_gang_military
 		prerequisite = {
@@ -2456,6 +2589,7 @@
 		cost = 3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_eyes_of_nvt"
+			add_ideas = ESS_eyes_of_nvt
 		}
 		relative_position_id = ESS_reform_the_gang_military
 		prerequisite = {
@@ -2540,6 +2674,9 @@
 		cost = 3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_mule_integration"
+			set_technology = {
+				evangelion = 1
+			}
 		}
 		relative_position_id = ESS_reform_the_gang_military
 		prerequisite = {
@@ -2559,6 +2696,12 @@
 		cost = 3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_peacekeepers_of_england"
+			add_ideas = ESS_peacekeepers_of_england
+			add_to_variable = {
+				var = ESS_coring_cost
+				value = -20
+			}
+			custom_effect_tooltip = EAG_coring_cost_lowered_20_tt
 		}
 		relative_position_id = ESS_reform_the_gang_military
 		prerequisite = {
@@ -4560,5 +4703,23 @@
 		x = 0
 		y = 3
 
+	}
+	
+###Moldbug###
+
+	shared_focus = { 
+		id = ESS_found_the_british_company
+		icon = GFX_goal_ESS_found_the_british_company
+		cost = 3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_found_the_british_company"
+			custom_effect_tooltip = ESS_british_diamonds_tt
+		}
+		relative_position_id = ESS_stability_returns
+		prerequisite = {
+			focus = ESS_stability_returns
+			}
+		x = -10
+		y = 1
 	}
 	
