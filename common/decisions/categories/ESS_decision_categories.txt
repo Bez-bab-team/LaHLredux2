@@ -52,3 +52,10 @@ icon = GFX_
 	scripted_gui = lhl_ess_universities_screen_body
 	allowed = { original_tag = ESS }
 }
+###Curtis Yarvin###
+ESS_board_of_directors = {
+	icon = GFX_
+	visible_when_empty = yes
+	scripted_gui = lhl_ESS_board_of_directors_screen_body
+	allowed = { original_tag = ESS }
+}

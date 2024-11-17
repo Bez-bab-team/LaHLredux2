@@ -38,6 +38,9 @@ ESS_debug = {
 
 ###LONDON###
 
+ESS_board_of_directors = {
+}
+
 ESS_london_bands = {
 
 ###ESS_central_region_decisions###

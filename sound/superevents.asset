@@ -264,4 +264,20 @@ soundeffect = {
 	volume = 1
 }
 
+soundeffect = {
+	name = "ESS_slip_print_sound_1"
+	sounds = {
+		sound = "ESS_slip_print_sound"
+	}
+	volume = 1
+}
+
+soundeffect = {
+	name = "ESS_wrong_code_sound_1"
+	sounds = {
+		sound = "ESS_wrong_code_sound"
+	}
+	volume = 1
+}
+
 
