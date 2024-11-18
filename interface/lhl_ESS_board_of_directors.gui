@@ -285,8 +285,7 @@ guiTypes = {
 			clipping = no
 			Orientation = center
 			origo = center
-			scale = 0.165
-			
+			scale = 0.82
 
 			iconType = {
 				name = "pie0"
@@ -1185,6 +1184,12 @@ guiTypes = {
 				alwaystransparent = yes
 				rotation = 6.2203534541
 			}
+			iconType = {
+				name = "ESS_board_of_directors_piechart_overlay"
+				quadTextureSprite = "GFX_ESS_board_of_directors_piechart_overlay"
+				position = { x=0	y=0 } 
+				pdx_tooltip = "ESS_piechart_tooltip"
+			}	
 
 		}	
 		###INTRO###

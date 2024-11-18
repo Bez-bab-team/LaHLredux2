@@ -1366,3 +1366,13 @@
  #
  ESS_board_of_directors_title:0 "The CEO State"
  ESS_board_of_directors_money:0 "Our daily income: ££[?ESS_board_of_directors_income]\n\nOur current budget: ££[?ESS_board_of_directors_budget]"
+ #
+ ESS_piechart_tooltip:0 "Based Z"
+ ESS_pie_chart_state_tt:0 "Corporation 1"
+ ESS_pie_chart_healthcare_tt:0 "Corporation 2"
+ ESS_pie_chart_construction_tt:0 "Corporation 3"
+ ESS_pie_chart_pmc_tt:0 "Corporation 4"
+ ESS_pie_chart_spy_tt:0 "Corporation 5"
+ ESS_pie_chart_media_tt:0 "Corporation 6"
+ ESS_pie_chart_tourism_tt:0 "Corporation 7"
+ ESS_pie_chart_farming_tt:0 "Corporation 8"

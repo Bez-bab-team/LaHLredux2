@@ -26,13 +26,49 @@ lhl_ESS_create_pie_chart = {
 		set_variable = { lhl_ESS_pie_chart^v = 3 }
 		add_to_variable = { ROOT.last_idx = 1 }
 	}
+	
+	set_temp_variable = { ESS_corpo_pmc_temp = ESS_corpo_pmc }
+	add_to_temp_variable = { ESS_corpo_pmc_temp = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = ESS_corpo_pmc_temp
+		set_variable = { lhl_ESS_pie_chart^v = 4 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+	
+	set_temp_variable = { ESS_corpo_spy_temp = ESS_corpo_spy }
+	add_to_temp_variable = { ESS_corpo_spy_temp = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = ESS_corpo_spy_temp
+		set_variable = { lhl_ESS_pie_chart^v = 5 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+	
+	set_temp_variable = { ESS_corpo_media_temp = ESS_corpo_media }
+	add_to_temp_variable = { ESS_corpo_media_temp = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = ESS_corpo_media_temp
+		set_variable = { lhl_ESS_pie_chart^v = 6 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+	
+	set_temp_variable = { ESS_corpo_tourism_temp = ESS_corpo_tourism }
+	add_to_temp_variable = { ESS_corpo_tourism_temp = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = ESS_corpo_tourism_temp
+		set_variable = { lhl_ESS_pie_chart^v = 7 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
 
 	set_temp_variable = { ESS_corpo_farming_temp = ESS_corpo_farming }
 	add_to_temp_variable = { ESS_corpo_farming_temp = ROOT.last_idx }
 	for_loop_effect = {
 		start = ROOT.last_idx
 		end = ESS_corpo_farming_temp
-		set_variable = { lhl_ESS_pie_chart^v = 4 }
+		set_variable = { lhl_ESS_pie_chart^v = 8 }
 	}
 
 	clear_variable = ROOT.last_idx

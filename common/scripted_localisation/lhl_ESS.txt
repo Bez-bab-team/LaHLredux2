@@ -124,3 +124,55 @@ defined_text = {
 	}
 
 }
+
+defined_text = {
+	name = GetESSPiechartGui
+	text = {
+		trigger = {
+            check_variable = { lhl_ESS_pie_chart^v = 1 }
+		}
+		localization_key = ESS_pie_chart_state_tt
+	}
+	text = {
+		trigger = {
+            check_variable = { lhl_ESS_pie_chart^v = 2 }
+		}
+		localization_key = ESS_pie_chart_healthcare_tt
+	}
+	text = {
+		trigger = {
+            check_variable = { lhl_ESS_pie_chart^v = 3 }
+		}
+		localization_key = ESS_pie_chart_construction_tt
+	}
+	text = {
+		trigger = {
+            check_variable = { lhl_ESS_pie_chart^v = 4 }
+		}
+		localization_key = ESS_pie_chart_pmc_tt
+	}
+	text = {
+		trigger = {
+            check_variable = { lhl_ESS_pie_chart^v = 5 }
+		}
+		localization_key = ESS_pie_chart_spy_tt
+	}
+	text = {
+		trigger = {
+            check_variable = { lhl_ESS_pie_chart^v = 6 }
+		}
+		localization_key = ESS_pie_chart_media_tt
+	}
+	text = {
+		trigger = {
+            check_variable = { lhl_ESS_pie_chart^v = 7 }
+		}
+		localization_key = ESS_pie_chart_tourism_tt
+	}
+	text = {
+		trigger = {
+            check_variable = { lhl_ESS_pie_chart^v = 8 }
+		}
+		localization_key = ESS_pie_chart_farming_tt
+	}
+}

@@ -68,8 +68,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/scripted_guis/ESS_board_of_directors/ESS_board_of_directors_code_background.dds"
 	}
 	spriteType = {
+		name = "GFX_ESS_board_of_directors_piechart_overlay"
+		texturefile = "gfx/interface/scripted_guis/ESS_board_of_directors/ESS_board_of_directors_piechart_overlay.dds"
+	}
+	spriteType = {
 		name = "GFX_ESS_board_of_directors_piechart_frames"
 		texturefile = "gfx/interface/scripted_guis/ESS_board_of_directors/ESS_board_of_directors_piechart_frames.dds"
-		noOfFrames = 4
+		noOfFrames = 8
 	}
 }

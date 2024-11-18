@@ -1,9 +1,8 @@
 ﻿l_english:
 
  # Decisions
-  EAG_klumb_parliament_gui_decision:0 "New British Parliament"
-  EAG_klumb_parliament_gui_decision_desc:0 "Josef Maria Klumb attempts to create a functioning democracy in the hellhole that is England. Several political parties have been formed in our state since the capitulation of London. While the elections were postponed till the complete unification of the Kingdom, parties will attempt to garner influence right now. Some parties will also propose various projects we can reject or accept."
-
+ EAG_klumb_parliament_gui_decision:0 "New British Parliament"
+ EAG_klumb_parliament_gui_decision_desc:0 "Josef Maria Klumb attempts to create a functioning democracy in the hellhole that is England. Several political parties have been formed in our state since the capitulation of London. While the elections were postponed till the complete unification of the Kingdom, parties will attempt to garner influence right now. Some parties will also propose various projects we can reject or accept."
  # Scripted GUIs
  klumb_parliament_gui_title:0 "Grid Parliament"
  klumb_parliament_member_text:0 "[GetKlumbParliamentPartyName] holds §Y[?klumb_parliament_seat_array^klumb_parliament_member_index]§! seats"

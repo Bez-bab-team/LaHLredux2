@@ -1479,11 +1479,11 @@ country_event = { #Set corpo popularity
 		lhl_ESS_create_pie_chart = yes
 		set_variable = {
 			var = ESS_corpo_state
-			value = 50
+			value = 20
 		}
 		set_variable = {
 			var = ESS_corpo_healthcare
-			value = 30
+			value = 10
 		}
 		set_variable = {
 			var = ESS_corpo_construction
@@ -1491,6 +1491,22 @@ country_event = { #Set corpo popularity
 		}
 		set_variable = {
 			var = ESS_corpo_farming
+			value = 10
+		}
+		set_variable = {
+			var = ESS_corpo_pmc
+			value = 10
+		}
+		set_variable = {
+			var = ESS_corpo_spy
+			value = 10
+		}
+		set_variable = {
+			var = ESS_corpo_media
+			value = 10
+		}
+		set_variable = {
+			var = ESS_corpo_tourism
 			value = 10
 		}
 	}	
