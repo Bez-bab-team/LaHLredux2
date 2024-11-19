@@ -1,6 +1,17 @@
 music_station = "radio_uk"
 
 music = {
+	song = "hoi4mainthemeallies"
+	chance = {
+		factor = 1
+        modifier = {
+            factor = 0
+            has_war = yes
+        }
+	}
+}
+
+music = {
 	song = "spirit_of_a_man"
 	chance = {
 		factor = 1
