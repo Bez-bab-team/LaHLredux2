@@ -5,8 +5,8 @@ state={
 		168 2389 3679 4458 6984 6996 8905 11373 17386 
 	}
 	history={
-		owner = ETK
-		add_core_of = ETK
+		owner = XIJ
+		add_core_of = XIJ
     }
 	manpower=0
 	buildings_max_level_factor=1.000

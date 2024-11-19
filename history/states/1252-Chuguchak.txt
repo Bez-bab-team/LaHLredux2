@@ -4,8 +4,8 @@ state={
 	name="Chuguchak"
 
 	history={
-		owner = ETK
-		add_core_of = ETK
+		owner = XIJ
+		add_core_of = XIJ
 
 	}
 

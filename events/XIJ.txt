@@ -1,0 +1,33 @@
+﻿add_namespace = XIJ_event
+
+country_event = {
+	id = XIJ_event.200
+	title = XIJ_event.200.t
+	desc = XIJ_event.200.d
+    is_triggered_only = yes
+
+    option = {
+        name = "XIJ_event.200.a"
+        1371 = {
+            add_dynamic_modifier = {
+            modifier = integration_of_division_and_city
+			}
+		}
+		1372 = {
+            add_dynamic_modifier = {
+            modifier = integration_of_division_and_city
+			}
+		}
+		1373 = {
+            add_dynamic_modifier = {
+            modifier = integration_of_division_and_city
+			}
+		}
+		1374 = {
+            add_dynamic_modifier = {
+            modifier = integration_of_division_and_city
+			}
+		}
+	}
+}
+

@@ -629,3 +629,12 @@ SUS_weather_device_modifier = {
 	state_production_speed_buildings_factor = -3.0
 }
 
+##XIJ##
+integration_of_division_and_city = { #State Modifier
+	icon = GFX_integration_of_division_and_city
+	enable = { always = yes }
+	
+    state_production_speed_bunker_factor = 0.15
+	state_production_speed_infrastructure_factor = 0.15
+	local_manpower = 0.1
+}
