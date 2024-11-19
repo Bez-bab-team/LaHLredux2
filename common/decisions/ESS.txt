@@ -39,6 +39,65 @@ ESS_debug = {
 ###LONDON###
 
 ESS_board_of_directors = {
+	ESS_interact_with_CEO = {
+		complete_effect = {
+			if = {
+				limit = {
+					NOT = {
+						ESS = {
+							has_country_flag = ESS_interact_with_CEO_active
+						}
+					}
+				}
+				ESS = {
+					set_country_flag = ESS_interact_with_CEO_active
+				}
+			}
+			else = {
+				ESS = {
+					clr_country_flag = ESS_interact_with_CEO_active
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ESS_hire_a_CEO = {
+		target_array = ESS.core_states	
+		on_map_mode = map_only
+	    visible = {
+			ESS = {
+				has_country_flag = ESS_interact_with_CEO_active
+			}
+        } 
+		days_remove = 30
+		icon = my_icon
+		state_target = yes
+		cost = 25
+		complete_effect = {
+			FROM = {
+				add_dynamic_modifier = {
+					modifier = ESS_local_CEO_modifier
+				}
+				set_variable_to_random = {
+					var = FROM.ess_local_ceo_power
+					max = 10
+					min = 1
+				}
+				set_variable_to_random = {
+					var = FROM.ess_local_ceo_corruption
+					max = 10
+					min = 1
+				}
+			}
+		}
+		remove_effect = {
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
 }
 
 ESS_london_bands = {

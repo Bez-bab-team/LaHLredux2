@@ -1184,12 +1184,6 @@ guiTypes = {
 				alwaystransparent = yes
 				rotation = 6.2203534541
 			}
-			iconType = {
-				name = "ESS_board_of_directors_piechart_overlay"
-				quadTextureSprite = "GFX_ESS_board_of_directors_piechart_overlay"
-				position = { x=0	y=0 } 
-				pdx_tooltip = "ESS_piechart_tooltip"
-			}	
 
 		}	
 		###INTRO###
@@ -1201,6 +1195,12 @@ guiTypes = {
 			format = center
 			maxHeight = 0
 			maxWidth = 300
+		}
+		iconType = {
+			name ="ESS_board_of_directors_income_item"
+			spriteType = "GFX_ESS_board_of_directors_income_item"
+			pdx_tooltip = "ESS_board_of_directors_income_source"
+			position = { x = 100 y = -10 }
 		}
 		###Money Number###
 		instantTextBoxType = {
@@ -1226,39 +1226,47 @@ guiTypes = {
 		}
 		#Directors#
 		iconType = {
-			name ="ESS_board_of_directors_business_icon"
+			name ="ESS_board_of_directors_landlords_icon"
 			spriteType = "GFX_ESS_board_of_directors_business"
 			position = { x=50	y=375 } 
 			scale = 0.6
-			pdx_tooltip = ESS_board_of_directors_vacant_seat_tt
+			pdx_tooltip = "ESS_board_of_directors_landlords_tt"
 		}	
 		iconType = {
-			name ="ESS_board_of_directors_military_icon"
+			name ="ESS_board_of_directors_magnates_icon"
 			spriteType = "GFX_ESS_board_of_directors_military"
 			position = { x=225	y=375 } 
 			scale = 0.6
-			pdx_tooltip = ESS_board_of_directors_military_tt
+			pdx_tooltip = "ESS_board_of_directors_magnates_tt"
 		}	
 		iconType = {
 			name ="ESS_board_of_directors_police_icon"
 			spriteType = "GFX_ESS_board_of_directors_police"
 			position = { x=400	y=375 } 
 			scale = 0.6
-			pdx_tooltip = ESS_board_of_directors_police_tt
+			pdx_tooltip = "ESS_board_of_directors_police_tt"
 		}	
 		iconType = {
-			name ="ESS_board_of_directors_science_icon"
+			name ="ESS_board_of_directors_doctors_icon"
 			spriteType = "GFX_ESS_board_of_directors_science"
 			position = { x=137	y=450 }
 			scale = 0.6
-			pdx_tooltip = ESS_board_of_directors_science_tt			
+			pdx_tooltip = "ESS_board_of_directors_doctors_tt"			
 		}	
 		iconType = {
-			name ="ESS_board_of_directors_singers_icon"
-			spriteType = "GFX_ESS_board_of_directors_singers"
+			name ="ESS_board_of_directors_military_icon"
+			spriteType = "GFX_ESS_board_of_directors_military"
 			position = { x=312	y=450 } 
 			scale = 0.6
-			pdx_tooltip = ESS_board_of_directors_singers_tt	
-		}			
+			pdx_tooltip = "ESS_board_of_directors_military_tt"	
+		}
+		#
+		iconType = {
+			name = "ESS_board_of_directors_piechart_overlay"
+			quadTextureSprite = "GFX_ESS_board_of_directors_piechart_overlay"
+			position = { x=165	y=37 } 
+			scale = 0.992
+			pdx_tooltip = "ESS_piechart_tooltip"
+		}	
 	}
 }

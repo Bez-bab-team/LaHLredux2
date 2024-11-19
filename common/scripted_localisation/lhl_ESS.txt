@@ -126,53 +126,110 @@ defined_text = {
 }
 
 defined_text = {
-	name = GetESSPiechartGui
+	name = GetESSPiechartState
 	text = {
 		trigger = {
-            check_variable = { lhl_ESS_pie_chart^v = 1 }
+			check_variable = { ESS_pie_chart_state_active = 1 }
 		}
-		localization_key = ESS_pie_chart_state_tt
+		localization_key = ESS_pie_chart_state_active_tt
 	}
+}
+defined_text = {
+	name = GetESSPiechartConstruction
 	text = {
 		trigger = {
-            check_variable = { lhl_ESS_pie_chart^v = 2 }
+			check_variable = { ESS_pie_chart_construction_active = 1 }
 		}
-		localization_key = ESS_pie_chart_healthcare_tt
+		localization_key = ESS_pie_chart_construction_active_tt
 	}
+}
+defined_text = {
+	name = GetESSPiechartPmc
 	text = {
 		trigger = {
-            check_variable = { lhl_ESS_pie_chart^v = 3 }
+			check_variable = { ESS_pie_chart_pmc_active = 1 }
 		}
-		localization_key = ESS_pie_chart_construction_tt
+		localization_key = ESS_pie_chart_pmc_active_tt
 	}
+}
+defined_text = {
+	name = GetESSPiechartSpy
 	text = {
 		trigger = {
-            check_variable = { lhl_ESS_pie_chart^v = 4 }
+			check_variable = { ESS_pie_chart_spy_active = 1 }
 		}
-		localization_key = ESS_pie_chart_pmc_tt
+		localization_key = ESS_pie_chart_spy_active_tt
 	}
+}
+defined_text = {
+	name = GetESSPiechartMedia
 	text = {
 		trigger = {
-            check_variable = { lhl_ESS_pie_chart^v = 5 }
+			check_variable = { ESS_pie_chart_media_active = 1 }
 		}
-		localization_key = ESS_pie_chart_spy_tt
+		localization_key = ESS_pie_chart_media_active_tt
 	}
+}
+defined_text = {
+	name = GetESSPiechartTourism
 	text = {
 		trigger = {
-            check_variable = { lhl_ESS_pie_chart^v = 6 }
+			check_variable = { ESS_pie_chart_tourism_active = 1 }
 		}
-		localization_key = ESS_pie_chart_media_tt
+		localization_key = ESS_pie_chart_tourism_active_tt
 	}
+}
+defined_text = {
+	name = GetESSPiechartFarming
 	text = {
 		trigger = {
-            check_variable = { lhl_ESS_pie_chart^v = 7 }
+			check_variable = { ESS_pie_chart_farming_active = 1 }
 		}
-		localization_key = ESS_pie_chart_tourism_tt
+		localization_key = ESS_pie_chart_farming_active_tt
 	}
+}
+defined_text = {
+	name = GetESSPiechartHealthcare
 	text = {
 		trigger = {
-            check_variable = { lhl_ESS_pie_chart^v = 8 }
+			check_variable = { ESS_pie_chart_healthcare_active = 1 }
 		}
-		localization_key = ESS_pie_chart_farming_tt
+		localization_key = ESS_pie_chart_healthcare_active_tt
+	}
+}
+#
+defined_text = {
+	name = GetLocalCeoName
+	text = {
+        random_list = {
+            10 = { localization_key = ESS_local_ceo_name_1 }
+            10 = { localization_key = ESS_local_ceo_name_2 }
+            10 = { localization_key = ESS_local_ceo_name_3 }
+            10 = { localization_key = ESS_local_ceo_name_4 }
+            10 = { localization_key = ESS_local_ceo_name_5 }
+            10 = { localization_key = ESS_local_ceo_name_6 }
+            10 = { localization_key = ESS_local_ceo_name_7 }
+            10 = { localization_key = ESS_local_ceo_name_8 }
+            10 = { localization_key = ESS_local_ceo_name_9 }
+            10 = { localization_key = ESS_local_ceo_name_10 }
+        }
+	}
+}
+#
+defined_text = {
+	name = GetLocalCeoSurname
+	text = {
+        random_list = {
+            10 = { localization_key = ESS_local_ceo_surname_1 }
+            10 = { localization_key = ESS_local_ceo_surname_2 }
+            10 = { localization_key = ESS_local_ceo_surname_3 }
+            10 = { localization_key = ESS_local_ceo_surname_4 }
+            10 = { localization_key = ESS_local_ceo_surname_5 }
+            10 = { localization_key = ESS_local_ceo_surname_6 }
+            10 = { localization_key = ESS_local_ceo_surname_7 }
+            10 = { localization_key = ESS_local_ceo_surname_8 }
+            10 = { localization_key = ESS_local_ceo_surname_9 }
+            10 = { localization_key = ESS_local_ceo_surname_10 }
+        }
 	}
 }
