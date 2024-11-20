@@ -206,8 +206,9 @@ guiTypes = {
 	containerWindowType = {
 		name = "lhl_ESS_board_of_directors_code_slip"
 		size = { width = 0 height = 0 }
-		position = { x=700 y=1600 }
-		show_position = { x=700 y=1200 }
+		orientation = lower_left
+		position = { x=300 y=0 }
+		show_position = { x=300 y=-220 }
 		hide_animation_type = accelerated
 		clipping = no
 		show_animation_type = linear
