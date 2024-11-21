@@ -197,39 +197,3 @@ defined_text = {
 		localization_key = ESS_pie_chart_healthcare_active_tt
 	}
 }
-#
-defined_text = {
-	name = GetLocalCeoName
-	text = {
-        random_list = {
-            10 = { localization_key = ESS_local_ceo_name_1 }
-            10 = { localization_key = ESS_local_ceo_name_2 }
-            10 = { localization_key = ESS_local_ceo_name_3 }
-            10 = { localization_key = ESS_local_ceo_name_4 }
-            10 = { localization_key = ESS_local_ceo_name_5 }
-            10 = { localization_key = ESS_local_ceo_name_6 }
-            10 = { localization_key = ESS_local_ceo_name_7 }
-            10 = { localization_key = ESS_local_ceo_name_8 }
-            10 = { localization_key = ESS_local_ceo_name_9 }
-            10 = { localization_key = ESS_local_ceo_name_10 }
-        }
-	}
-}
-#
-defined_text = {
-	name = GetLocalCeoSurname
-	text = {
-        random_list = {
-            10 = { localization_key = ESS_local_ceo_surname_1 }
-            10 = { localization_key = ESS_local_ceo_surname_2 }
-            10 = { localization_key = ESS_local_ceo_surname_3 }
-            10 = { localization_key = ESS_local_ceo_surname_4 }
-            10 = { localization_key = ESS_local_ceo_surname_5 }
-            10 = { localization_key = ESS_local_ceo_surname_6 }
-            10 = { localization_key = ESS_local_ceo_surname_7 }
-            10 = { localization_key = ESS_local_ceo_surname_8 }
-            10 = { localization_key = ESS_local_ceo_surname_9 }
-            10 = { localization_key = ESS_local_ceo_surname_10 }
-        }
-	}
-}

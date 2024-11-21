@@ -74,3 +74,6 @@ lhl_ESS_create_pie_chart = {
 	clear_variable = ROOT.last_idx
 	add_to_variable = { lhl_ESS_pie_chart_dirty = 1 }
 }
+
+lhl_ESS_income_calculation = {
+}

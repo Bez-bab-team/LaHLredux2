@@ -80,16 +80,20 @@ ESS_board_of_directors = {
 				add_dynamic_modifier = {
 					modifier = ESS_local_CEO_modifier
 				}
-				set_variable_to_random = {
-					var = FROM.ess_local_ceo_power
-					max = 10
-					min = 1
-				}
-				set_variable_to_random = {
-					var = FROM.ess_local_ceo_corruption
-					max = 10
-					min = 1
-				}
+				set_state_flag = ESS_local_ceo_name
+			}
+			set_variable = { ESS_ceo_state_save = FROM }
+			set_variable_to_random = {
+				var = FROM.ess_local_ceo_power
+				max = 10
+				min = 1
+				integer = yes
+			}
+			set_variable_to_random = {
+				var = FROM.ess_local_ceo_corruption
+				max = 10
+				min = 1
+				integer = yes			
 			}
 		}
 		remove_effect = {
