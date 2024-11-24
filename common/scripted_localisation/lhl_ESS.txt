@@ -197,3 +197,125 @@ defined_text = {
 		localization_key = ESS_pie_chart_healthcare_active_tt
 	}
 }
+###ESS MOLDBUG INCOME###
+defined_text = {
+	name = GetESSPiechartMilIncome
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_crack_down_on_unions
+			}
+		}
+		localization_key = ESS_mil_income_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartDubaiIncome
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_dubai_london
+			}
+		}
+		localization_key = ESS_dubai_income_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartResourcesIncome
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_revitalize_mining_indudstry
+			}
+		}
+		localization_key = ESS_resources_income_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartPrisonsIncome
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_private_prisons_active
+			}
+		}
+		localization_key = ESS_prisons_income_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartFairGroundsIncome
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_fair_grounds_active
+			}
+		}
+		localization_key = ESS_fair_grounds_income_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartInvestmentIncome
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_investment_active
+			}
+		}
+		localization_key = ESS_investment_income_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartBankingIncome
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_banking_active
+			}
+		}
+		localization_key = ESS_banking_income_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartSoftwareIncome
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_software_active
+			}
+		}
+		localization_key = ESS_software_income_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartSpaceTourismIncome
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_space_tourism_active
+			}
+		}
+		localization_key = ESS_space_tourism_income_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartFeudalismIncome
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_feudal_lords_active
+			}
+		}
+		localization_key = ESS_feudal_lords_income_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartBioreactorIncome
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_bioreactor_active
+			}
+		}
+		localization_key = ESS_bioreactor_income_tt
+	}
+}

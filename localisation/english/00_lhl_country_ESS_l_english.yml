@@ -1365,7 +1365,7 @@
  ESS_board_of_directors_code_slip_5_tt:0 "[?ESS_code_slip_5_decisions]"
  #
  ESS_board_of_directors_title:0 "The CEO State"
- ESS_board_of_directors_money:0 "Our daily income: ££[?ESS_board_of_directors_income]\n\nOur current budget: ££[?ESS_board_of_directors_budget]"
+ ESS_board_of_directors_money:0 "Our daily income: ££§Y[?ESS_board_of_directors_income|.1]§!\n\nOur current budget: ££§Y[?ESS_board_of_directors_budget|.1]§!"
  #
  ESS_piechart_tooltip:0 "Corporation Piechart[GetESSPiechartState][GetESSPiechartHealthcare][GetESSPiechartConstruction][GetESSPiechartPmc][GetESSPiechartSpy][GetESSPiechartMedia][GetESSPiechartTourism][GetESSPiechartFarming]"
  ESS_pie_chart_state_active_tt:0 "\n§0State Corporation: [?ESS_corpo_state]%§!"
@@ -1383,8 +1383,20 @@
  ESS_board_of_directors_doctors_tt:0 "§YDoctors§!"
  ESS_board_of_directors_military_tt:0 "§YMilitary§!"
  #
- ESS_board_of_directors_income_source:0 "Based Z"
+ ESS_board_of_directors_income_source:0 "Our total income:\n\n§YCivilian Factories:§! §G££[?ESS_civ_income_temp_loc]§![GetESSPiechartMilIncome][GetESSPiechartDubaiIncome][GetESSPiechartResourcesIncome][GetESSPiechartPrisonsIncome][GetESSPiechartFairGroundsIncome][GetESSPiechartInvestmentIncome][GetESSPiechartBankingIncome][GetESSPiechartSoftwareIncome][GetESSPiechartSpaceTourismIncome][GetESSPiechartFeudalismIncome][GetESSPiechartBioreactorIncome]\n§YOur total losses from local corruption:§! §R££-[?ESS_corruption_income_temp]§!\n§YOur additional income from local expertise:§! §G££-[?ESS_power_income_temp]§!"
  #Decisions#
+ ESS_mil_income_tt:0 "\n§YMilitary Factories:§! §G££[?ESS_mil_income_temp_loc]§!"
+ ESS_dubai_income_tt:0 "\n§YAirport & Port:§! §G££[?ESS_dubai_income_temp_loc]§!"
+ ESS_resources_income_tt:0 "\n§YResources:§! §G££[?ESS_resource_income_temp_loc]§!"
+ ESS_prisons_income_tt:0 "\n§YPrivate Prisons:§! §G££[?ESS_prisons_income_temp_loc]§!"
+ ESS_fair_grounds_income_tt:0 "\n§YFair Grounds:§! §G££[?ESS_fair_grounds_income_temp_loc]§!"
+ ESS_investment_income_tt:0 "\n§YForeign Investment:§! §G££[?ESS_investment_income_temp_loc]§!"
+ ESS_banking_income_tt:0 "\n§YBanking:§! §G££[?ESS_banking_income_temp_loc]§!"
+ ESS_software_income_tt:0 "\n§YSoftware Sales:§! §G££[?ESS_software_income_temp_loc]§!"
+ ESS_space_tourism_income_tt:0 "\n§YSpace Tourism:§! §G££[?ESS_space_tourism_income_temp_loc]§!"
+ ESS_feudal_lords_income_tt:0 "\n§YFeudal Income:§! §G££[?ESS_feudal_lords_income_temp_loc]§!"
+ ESS_bioreactor_income_tt:0 "\n§YBioreactor:§! §G££[?ESS_bioreactor_income_temp_loc]§!"
+ #
  ESS_interact_with_CEO:0 "§YInteract with local CEOs§!"
  ESS_hire_a_CEO:0 "Hire a new local CEO"
  ESS_local_CEO_modifier:0 "CEO"

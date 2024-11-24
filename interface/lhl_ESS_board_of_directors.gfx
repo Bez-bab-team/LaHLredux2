@@ -68,6 +68,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/scripted_guis/ESS_board_of_directors/ESS_board_of_directors_code_background.dds"
 	}
 	spriteType = {
+		name = "GFX_ESS_board_of_directors_code_background"
+		texturefile = "gfx/interface/scripted_guis/ESS_board_of_directors/ESS_board_of_directors_code_background.dds"
+	}
+	spriteType = {
+		name = "GFX_ESS_board_of_directors_income_info"
+		texturefile = "gfx/interface/scripted_guis/ESS_board_of_directors/ESS_board_of_directors_income_info.dds"
+	}
+	spriteType = {
 		name = "GFX_ESS_board_of_directors_piechart_overlay"
 		texturefile = "gfx/interface/scripted_guis/ESS_board_of_directors/ESS_board_of_directors_piechart_overlay.dds"
 	}

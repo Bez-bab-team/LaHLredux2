@@ -1547,6 +1547,36 @@ country_event = { #Set corpo popularity #1
 	}
 }
 
+country_event = { #Test income
+	id = ESS_event.65
+	title = ESS_event.65.t
+	desc = ESS_event.65.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ESS_event.65"}
+	is_triggered_only = yes
+	picture = GFX_ESS_german_POWs
+	option = {
+		name = ESS_event.65.a
+		lhl_ESS_income_calculation = yes
+	}
+	option = {
+		name = ESS_event.65.b
+		ESS = {
+			set_country_flag = ESS_crack_down_on_unions
+			set_country_flag = ESS_dubai_london
+			set_country_flag = ESS_revitalize_mining_indudstry
+			set_country_flag = ESS_private_prisons_active
+			set_country_flag = ESS_fair_grounds_active
+			set_country_flag = ESS_investment_active
+			set_country_flag = ESS_banking_active
+			set_country_flag = ESS_software_active
+			set_country_flag = ESS_space_tourism_active
+			set_country_flag = ESS_feudal_lords_active
+			set_country_flag = ESS_bioreactor_active
+		}
+	}
+}
+
+
 
 
 country_event = {
