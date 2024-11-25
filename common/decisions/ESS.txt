@@ -102,6 +102,56 @@ ESS_board_of_directors = {
 			base = 100
 		}
 	}
+	###REQUESTS###
+	ESS_quarter_request = {
+		activation = {
+			always = no
+		}
+		available = {
+			always = no
+		}
+		complete_effect = {
+			always = no
+		}
+		is_good = yes
+		days_mission_timeout = 120
+		timeout_effect = {
+			if = {
+				limit = {
+					check_variable = {
+						var = ESS_board_of_directors_income
+						value = ESS_board_of_directors_income_new
+						compare = greater_than_or_equals
+					}
+				}
+				ESS = {
+					country_event = {
+						days = 0
+						id = ESS_event.67
+					}
+				}
+				set_variable = { ESS_board_of_directors_income_new = 0 }
+				custom_effect_tooltip = ESS_quarter_request_tt
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = ESS_board_of_directors_income
+						value = ESS_board_of_directors_income_new
+						compare = less_than
+					}
+				}
+				ESS = {
+					country_event = {
+						days = 0
+						id = ESS_event.68
+					}
+				}
+				set_variable = { ESS_board_of_directors_income_new = 0 }
+				custom_effect_tooltip = ESS_quarter_request_tt
+			}
+		}
+	}
 }
 
 ESS_london_bands = {

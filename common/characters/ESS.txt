@@ -1,4 +1,5 @@
 characters={
+	###
 	ESS_nick_land = {
 		name=ESS_nick_land
 		portraits = {
@@ -201,6 +202,75 @@ characters={
 			ideology=social_conservatism
 			expire="1.1.1.1"
 			id=-1
+		}
+	}
+	###CEOs###
+	ESS_emma_walmsley = {
+		name=ESS_emma_walmsley
+		portraits = {
+			civilian={
+				large="gfx/leaders/ESS/Portrait_ESS_Emma_Walmsley.dds"
+				small = "gfx/interface/ideas/ESS/idea_ESS_emma_walmsley.dds"
+			}
+		}
+		country_leader={
+			ideology=accelerationism
+			expire="1.1.1.1"
+			id=-1
+			traits = {
+			}
+			desc = ESS_Emma_Walmsley_desc
+		}
+	}
+	ESS_clive_palmer = {
+		name=ESS_clive_palmer
+		portraits = {
+			civilian={
+				large="gfx/leaders/ESS/Portrait_ESS_Clive_Palmer.dds"
+				small = "gfx/interface/ideas/ESS/idea_ESS_clive_palmer.dds"
+			}
+		}
+		country_leader={
+			ideology=accelerationism
+			expire="1.1.1.1"
+			id=-1
+			traits = {
+			}
+			desc = ESS_clive_palmer_desc
+		}
+	}
+	ESS_peter_thiel = {
+		name=ESS_peter_thiel
+		portraits = {
+			civilian={
+				large="gfx/leaders/ESS/Portrait_ESS_Peter_Thiel.dds"
+				small = "gfx/interface/ideas/ESS/idea_ESS_peter_thiel.dds"
+			}
+		}
+		country_leader={
+			ideology=accelerationism
+			expire="1.1.1.1"
+			id=-1
+			traits = {
+			}
+			desc = ESS_peter_thiel_desc
+		}
+	}
+	ESS_alois = {
+		name=ESS_alois
+		portraits = {
+			civilian={
+				large="gfx/leaders/ESS/Portrait_ESS_Alois.dds"
+				small = "gfx/interface/ideas/ESS/idea_ESS_alois.dds"
+			}
+		}
+		country_leader={
+			ideology=accelerationism
+			expire="1.1.1.1"
+			id=-1
+			traits = {
+			}
+			desc = ESS_alois_desc
 		}
 	}
 	ESS_tim_collins={
