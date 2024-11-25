@@ -319,3 +319,27 @@ defined_text = {
 		localization_key = ESS_bioreactor_income_tt
 	}
 }
+####
+defined_text = {
+	name = GetESSQuarterRequestLoc
+	text = {
+		trigger = {
+			check_variable = {
+				var = ESS_board_of_directors_income
+				value = ESS_board_of_directors_income_new
+				compare = less_than
+			}
+		}
+		localization_key = ESS_quarter_request_failing
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ESS_board_of_directors_income
+				value = ESS_board_of_directors_income_new
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = ESS_quarter_request_success
+	}
+}

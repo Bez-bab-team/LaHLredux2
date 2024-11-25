@@ -1576,6 +1576,457 @@ country_event = { #Test income
 	}
 }
 
+country_event = { #Monthly Request Main
+	id = ESS_event.66
+	title = ESS_event.66.t
+	desc = ESS_event.66.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ESS_event.66"}
+	is_triggered_only = yes
+	picture = GFX_
+	option = {
+		name = ESS_event.66.a
+		hidden_effect = {
+			random_list = {
+				100 = {
+					set_variable = { ESS_board_of_directors_income_new = ESS_board_of_directors_income }
+					multiply_variable = { ESS_board_of_directors_income_new = 1.25 }
+					activate_mission = ESS_quarter_request
+				}
+				100 = {
+					set_variable = { ESS_board_of_directors_income_new = ESS_board_of_directors_income }
+					multiply_variable = { ESS_board_of_directors_income_new = 1.5 }
+					activate_mission = ESS_quarter_request
+				}
+				100 = {
+					set_variable = { ESS_board_of_directors_income_new = ESS_board_of_directors_income }
+					multiply_variable = { ESS_board_of_directors_income_new = 2 }
+					activate_mission = ESS_quarter_request
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Monthly Request Main #Success
+	id = ESS_event.67
+	title = ESS_event.67.t
+	desc = ESS_event.67.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ESS_event.67"}
+	is_triggered_only = yes
+	picture = GFX_
+	option = {
+		name = ESS_event.67.a
+		add_political_power = 150
+		ESS = {
+			set_variable_to_random = {
+				var = ESS_code_slip_1_decisions
+				min = 0
+				max = 9
+				integer = yes
+			}
+			set_variable_to_random = {
+				var = ESS_code_slip_2_decisions
+				min = 0
+				max = 9
+				integer = yes
+			}
+			set_variable_to_random = {
+				var = ESS_code_slip_3_decisions
+				min = 0
+				max = 9
+				integer = yes
+			}
+			set_variable_to_random = {
+				var = ESS_code_slip_4_decisions
+				min = 0
+				max = 9
+				integer = yes
+			}
+			set_variable_to_random = {
+				var = ESS_code_slip_5_decisions
+				min = 0
+				max = 9
+				integer = yes
+			}
+			set_country_flag = ESS_board_of_directors_slip_active
+		}		
+		hidden_effect = {
+			random_list = {
+				100 = {
+					set_variable = { ESS_board_of_directors_income_new = ESS_board_of_directors_income }
+					multiply_variable = { ESS_board_of_directors_income_new = 1.25 }
+					activate_mission = ESS_quarter_request
+				}
+				100 = {
+					set_variable = { ESS_board_of_directors_income_new = ESS_board_of_directors_income }
+					multiply_variable = { ESS_board_of_directors_income_new = 1.5 }
+					activate_mission = ESS_quarter_request
+				}
+				100 = {
+					set_variable = { ESS_board_of_directors_income_new = ESS_board_of_directors_income }
+					multiply_variable = { ESS_board_of_directors_income_new = 2 }
+					activate_mission = ESS_quarter_request
+				}
+			}
+			ESS = {
+				country_event = {
+					days = 1
+					id = ESS_event.66
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Monthly Request Main #Failure
+	id = ESS_event.68
+	title = ESS_event.68.t
+	desc = ESS_event.68.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ESS_event.68"}
+	is_triggered_only = yes
+	picture = GFX_
+	option = {
+		name = ESS_event.68.a #Change CEO
+		trigger = {
+			NOT = {
+				ESS = {
+					has_country_flag = ESS_board_of_directors_strike_3
+				}
+			}
+		}
+		ESS = {
+			country_event = {
+				days = 0
+				id = ESS_event.70
+			}
+		}
+		hidden_effect = {
+			random_list = {
+				100 = {
+					set_variable = { ESS_board_of_directors_income_new = ESS_board_of_directors_income }
+					multiply_variable = { ESS_board_of_directors_income_new = 1.25 }
+					activate_mission = ESS_quarter_request
+				}
+				100 = {
+					set_variable = { ESS_board_of_directors_income_new = ESS_board_of_directors_income }
+					multiply_variable = { ESS_board_of_directors_income_new = 1.5 }
+					activate_mission = ESS_quarter_request
+				}
+				100 = {
+					set_variable = { ESS_board_of_directors_income_new = ESS_board_of_directors_income }
+					multiply_variable = { ESS_board_of_directors_income_new = 2 }
+					activate_mission = ESS_quarter_request
+				}
+			}
+			ESS = {
+				every_character = { 
+					limit = { 
+						is_country_leader = yes 
+					}
+					set_character_flag = ESS_failed_ceo
+				}
+			}
+		}
+	}
+	option = {
+		name = ESS_event.68.b #Give me a chance!
+		trigger = {
+			NOT = {
+				ESS = {
+					has_country_flag = ESS_board_of_directors_strike_3
+				}
+			}
+		}
+		ESS = {
+			country_event = {
+				days = 1
+				id = ESS_event.66
+			}
+		}
+		ESS = {
+			every_character = { 
+				limit = { 
+					is_country_leader = yes 
+				}
+				set_character_flag = ESS_failed_ceo
+			}
+		}
+		hidden_effect = {
+			random_list = {
+				100 = {
+					set_variable = { ESS_board_of_directors_income_new = ESS_board_of_directors_income }
+					multiply_variable = { ESS_board_of_directors_income_new = 1.25 }
+					activate_mission = ESS_quarter_request
+				}
+				100 = {
+					set_variable = { ESS_board_of_directors_income_new = ESS_board_of_directors_income }
+					multiply_variable = { ESS_board_of_directors_income_new = 1.5 }
+					activate_mission = ESS_quarter_request
+				}
+				100 = {
+					set_variable = { ESS_board_of_directors_income_new = ESS_board_of_directors_income }
+					multiply_variable = { ESS_board_of_directors_income_new = 2 }
+					activate_mission = ESS_quarter_request
+				}
+			}
+			set_country_flag = ESS_board_of_directors_code_menu_active
+		}
+		if = {
+			limit = {
+				NOT = {
+					ESS = {
+						OR = {
+							has_country_flag = ESS_board_of_directors_strike_1
+							has_country_flag = ESS_board_of_directors_strike_2
+							has_country_flag = ESS_board_of_directors_strike_3
+						}
+					}
+				}
+			}
+			ESS = {
+				set_country_flag = ESS_board_of_directors_strike_1
+				sound_effect = "ESS_wrong_code_sound_1"
+			}
+		}
+		if = {
+			limit = {
+				ESS = {
+					has_country_flag = ESS_board_of_directors_strike_1	
+				}
+				NOT = {
+					ESS = {
+						OR = {
+							has_country_flag = ESS_board_of_directors_strike_2
+							has_country_flag = ESS_board_of_directors_strike_3
+						}
+					}
+				}
+			}
+			ESS = {
+				set_country_flag = ESS_board_of_directors_strike_2
+				sound_effect = "ESS_wrong_code_sound_1"
+			}
+		}
+		if = {
+			limit = {
+				ESS = {
+					has_country_flag = ESS_board_of_directors_strike_1
+					has_country_flag = ESS_board_of_directors_strike_2
+				}
+				NOT = {
+					ESS = {
+						has_country_flag = ESS_board_of_directors_strike_3
+					}
+				}
+			}
+			ESS = {
+				set_country_flag = ESS_board_of_directors_strike_3
+				sound_effect = "ESS_wrong_code_sound_1"
+			}
+		}
+	}
+	option = {
+		name = ESS_event.68.c #No more chances!
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_board_of_directors_strike_3
+			}
+		}
+		ESS = {
+			country_event = {
+				days = 0
+				id = ESS_event.70
+			}
+		}
+		hidden_effect = {
+			random_list = {
+				100 = {
+					set_variable = { ESS_board_of_directors_income_new = ESS_board_of_directors_income }
+					multiply_variable = { ESS_board_of_directors_income_new = 1.25 }
+					activate_mission = ESS_quarter_request
+				}
+				100 = {
+					set_variable = { ESS_board_of_directors_income_new = ESS_board_of_directors_income }
+					multiply_variable = { ESS_board_of_directors_income_new = 1.5 }
+					activate_mission = ESS_quarter_request
+				}
+				100 = {
+					set_variable = { ESS_board_of_directors_income_new = ESS_board_of_directors_income }
+					multiply_variable = { ESS_board_of_directors_income_new = 2 }
+					activate_mission = ESS_quarter_request
+				}
+			}
+			ESS = {
+				every_character = { 
+					limit = { 
+						is_country_leader = yes 
+					}
+					set_character_flag = ESS_failed_ceo
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Acvtivate Piechart
+	id = ESS_event.69
+	title = ESS_event.69.t
+	desc = ESS_event.69.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ESS_event.69"}
+	is_triggered_only = yes
+	picture = GFX_
+	option = {
+		name = ESS_event.69.a
+		ESS = {
+			set_country_flag = ESS_board_of_directors_activated
+		}
+	}
+}
+
+country_event = { #Choose CEO
+	id = ESS_event.70
+	title = ESS_event.70.t
+	desc = ESS_event.70.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ESS_event.70"}
+	is_triggered_only = yes
+	picture = GFX_
+	option = {
+		name = ESS_event.70.a
+		trigger = {
+			NOT = {
+				ESS_emma_walmsley = {
+					has_character_flag = ESS_failed_ceo
+				}
+			}
+		}
+		ESS_emma_walmsley = {
+			promote_character = yes
+		}
+		ESS = {
+			country_event = {
+				days = 1
+				id = ESS_event.66
+			}
+		}
+		clr_country_flag = ESS_board_of_directors_strike_1
+		clr_country_flag = ESS_board_of_directors_strike_2
+		clr_country_flag = ESS_board_of_directors_strike_3
+	}
+	option = {
+		name = ESS_event.70.b
+		trigger = {
+			NOT = {
+				ESS_clive_palmer = {
+					has_character_flag = ESS_failed_ceo
+				}
+			}
+		}
+		ESS_clive_palmer = {
+			promote_character = yes
+		}
+		ESS = {
+			country_event = {
+				days = 1
+				id = ESS_event.66
+			}
+		}
+		clr_country_flag = ESS_board_of_directors_strike_1
+		clr_country_flag = ESS_board_of_directors_strike_2
+		clr_country_flag = ESS_board_of_directors_strike_3
+	}
+	option = {
+		name = ESS_event.70.c
+		trigger = {
+			NOT = {
+				ESS_peter_thiel = {
+					has_character_flag = ESS_failed_ceo
+				}
+			}
+		}
+		ESS_peter_thiel = {
+			promote_character = yes
+		}
+		ESS = {
+			country_event = {
+				days = 1
+				id = ESS_event.66
+			}
+		}
+		clr_country_flag = ESS_board_of_directors_strike_1
+		clr_country_flag = ESS_board_of_directors_strike_2
+		clr_country_flag = ESS_board_of_directors_strike_3
+	}
+	option = {
+		name = ESS_event.70.e
+		trigger = {
+			NOT = {
+				country_exists = SUS
+				SUS_tim_spicer = {
+					has_character_flag = ESS_failed_ceo
+				}
+			}
+		}
+		every_possible_country = {
+			limit = { has_character = SUS_tim_spicer }
+			random_character = {
+				limit = { is_character = SUS_tim_spicer }
+				set_nationality = ESS
+			}
+		}
+		add_country_leader_role = {
+			character = SUS_tim_spicer
+			promote_leader = yes
+			country_leader = {
+				ideology = accelerationism
+			}
+		}
+		ESS = {
+			country_event = {
+				days = 1
+				id = ESS_event.66
+			}
+		}
+		clr_country_flag = ESS_board_of_directors_strike_1
+		clr_country_flag = ESS_board_of_directors_strike_2
+		clr_country_flag = ESS_board_of_directors_strike_3
+	}
+	option = {
+		name = ESS_event.70.f
+		trigger = {
+			ESS_emma_walmsley = {
+				has_character_flag = ESS_failed_ceo
+			}
+			ESS_clive_palmer = {
+				has_character_flag = ESS_failed_ceo
+			}
+			ESS_peter_thiel = {
+				has_character_flag = ESS_failed_ceo
+			}
+			if = {
+				limit = {
+					ESS = {
+						has_character = SUS_tim_spicer 
+					}
+				}
+				SUS_tim_spicer = {
+					has_character_flag = ESS_failed_ceo
+				}
+			}
+			NOT = {
+				ESS_alois = {
+					has_character_flag = ESS_failed_ceo
+				}
+			}
+		}
+		ESS_alois = {
+			promote_character = yes
+		}
+		clr_country_flag = ESS_board_of_directors_strike_1
+		clr_country_flag = ESS_board_of_directors_strike_2
+		clr_country_flag = ESS_board_of_directors_strike_3
+	}
+}
+
 
 
 

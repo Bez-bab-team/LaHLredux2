@@ -126,6 +126,11 @@ recruit_character = ESS_tim_collins
 recruit_character = ESS_moira_cameron
 recruit_character = ESS_nick_land
 recruit_character = ESS_mark_fisher
+#CEOs#
+recruit_character = ESS_emma_walmsley
+recruit_character = ESS_clive_palmer
+recruit_character = ESS_peter_thiel
+recruit_character = ESS_alois
 #generals#
 #recruit_character = ESS_bob_stewart
 recruit_character = ESS_philip_hollobone

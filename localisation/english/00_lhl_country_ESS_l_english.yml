@@ -920,7 +920,29 @@
  ESS_event.61.a:0 "Yarvin manages to assert his position"
  ESS_event.61.b:0 "Land’s rhetoric seduces the Council"
  ESS_event.61.c:0 "Fisher’s words ring with common sense"
- 
+ #
+ ESS_event.66.t:0 "Your quota has arrived!"
+ ESS_event.66.d:0 "Increase our profits or die, CEO!"
+ ESS_event.66.a:0 "Alright..."
+ #
+ ESS_event.67.t:0 "The quota is complete!"
+ ESS_event.67.d:0 "You did it CEO! Now do it again..."
+ ESS_event.67.a:0 "Alright..."
+ #
+ ESS_event.68.t:0 "The quota is NOT complete!"
+ ESS_event.68.d:0 "You failed to meet the quota. You have these options."
+ ESS_event.68.a:0 "I will resign in shame"
+ ESS_event.68.b:0 "Give me another chance!"
+ ESS_event.68.c:0 "You have failed too much. You are removed from the position of a CEO!"
+ #
+ ESS_event.70.t:0 "Time to choose a CEO"
+ ESS_event.70.d:0 "Here are some options for our CEO pick."
+ ESS_event.70.a:0 "Emma Walmsley is a great choice"
+ ESS_event.70.b:0 "Clive Palmer is a great choice"
+ ESS_event.70.c:0 "Peter Thiel is a great choice"
+ ESS_event.70.e:0 "Tim Spicer is a great choice"
+ ESS_event.70.f:0 "You are all useless, a true monarch takes the wheel!"
+ #
  ##UNIVERSITIES##
  ESS_repolish_brilliants:0 "Repolished Brilliants"
  ESS_UNIVERSITY_NAME:0 "[ROOT.GetLondonUniversityName]"
@@ -944,18 +966,7 @@
  ESS_bristol_budget:0 "University budget: §7££ [?ess_bristol_budget] millions§!"
  
  ess_univesity_brunel_button_tt:0 "Brunel University London specialists provide us: \nConstruction Speed: [?ESS_brunel_production_speed_buildings_factor|.1%+] \nMax Factories in a State: [?ESS_brunel_global_building_slots_factor|.1%+] \nResource Gain Efficiency: [?ESS_brunel_local_resources_factor|.1%+]"
-  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+ #
  ESS_support_students_brunel:0 "Support Students"
  ESS_donate_funds_brunel:0 "Donate Funds"
  ESS_award_grants_brunel:0 "Award Grants"
@@ -977,10 +988,7 @@
  ESS_rising_tides_tt:0 "Our government will cooperate with §4Universities§! in the further construction of tidal powerplants"
  ESS_quarries_recreation_research:0 "Recreation of quarries research effort"
  ESS_recycleconomy_tt:0 "Our government will cooperate with §4Universities§! to fund the research for environmentally sustainable industry"
- 
- 
- 
- 
+ #
  ###LEGACY BULLSHIT###
  ESS_utopia_under_protection:0 "Utopia under Protection"
  ESS_utopia_under_protection_desc:0 "Utopia under Protection"
@@ -1365,7 +1373,7 @@
  ESS_board_of_directors_code_slip_5_tt:0 "[?ESS_code_slip_5_decisions]"
  #
  ESS_board_of_directors_title:0 "The CEO State"
- ESS_board_of_directors_money:0 "Our daily income: ££§Y[?ESS_board_of_directors_income|.1]§!\n\nOur current budget: ££§Y[?ESS_board_of_directors_budget|.1]§!"
+ ESS_board_of_directors_money:0 "Our monthly income: §Y££[?ESS_board_of_directors_income|.0] million§!\n\nOur current budget: §Y££[?ESS_board_of_directors_budget|.0] million§!"
  #
  ESS_piechart_tooltip:0 "Corporation Piechart[GetESSPiechartState][GetESSPiechartHealthcare][GetESSPiechartConstruction][GetESSPiechartPmc][GetESSPiechartSpy][GetESSPiechartMedia][GetESSPiechartTourism][GetESSPiechartFarming]"
  ESS_pie_chart_state_active_tt:0 "\n§0State Corporation: [?ESS_corpo_state]%§!"
@@ -1401,4 +1409,9 @@
  ESS_hire_a_CEO:0 "Hire a new local CEO"
  ESS_local_CEO_modifier:0 "CEO"
  ESS_local_CEO_modifier_desc:0 "§GLocal power: [?ESS_ceo_state_save:ess_local_ceo_power]§!\n§RLocal corruption: [?ESS_ceo_state_save:ess_local_ceo_corruption]§!"
+ #
+ ESS_quarter_request_tt:0 "[GetESSQuarterRequestLoc]"
+ ESS_quarter_request_failing:0 "We need to raise or monthly income to §R££[?ESS_board_of_directors_income_new|.1] million§!\nOur current income is §Y££[?ESS_board_of_directors_income|.1] million§!\n§RWe are not meeting the quota!§!"
+ ESS_quarter_request_success:0 "We need to raise or monthly income to §G££[?ESS_board_of_directors_income_new|.1] million§!\nOur current income is §Y££[?ESS_board_of_directors_income|.1] million§!\n§GWe have met the quota!§!"
+ ESS_quarter_request:0 "The Quarter Request"
  
