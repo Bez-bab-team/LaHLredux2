@@ -27,11 +27,53 @@ ESS_debug = {
 		    load_focus_tree = ESS_collins_1
 		}
 	}
-	ESS_moldbug_1 = {
+	ESS_land_interregnum = {
 		cost = 0
 		days_remove = 1
         complete_effect = { 
 		    load_focus_tree = ESS_moldbug_1
+		}
+	}
+	ESS_moldbug_main = {
+		cost = 0
+		days_remove = 1
+        complete_effect = { 
+		    load_focus_tree = ESS_moldbug_1_main
+		}
+	}
+	ESS_moldbug_walmsley = {
+		cost = 0
+		days_remove = 1
+        complete_effect = { 
+		    load_focus_tree = ESS_moldbug_1_walmsley
+		}
+	}
+	ESS_moldbug_palmer = {
+		cost = 0
+		days_remove = 1
+        complete_effect = { 
+		    load_focus_tree = ESS_moldbug_1_palmer
+		}
+	}
+	ESS_moldbug_monarchy = {
+		cost = 0
+		days_remove = 1
+        complete_effect = { 
+		    load_focus_tree = ESS_moldbug_1_monarchy
+		}
+	}
+	ESS_moldbug_thiel = {
+		cost = 0
+		days_remove = 1
+        complete_effect = { 
+		    load_focus_tree = ESS_moldbug_1_thiel
+		}
+	}
+	ESS_moldbug_spicer= {
+		cost = 0
+		days_remove = 1
+        complete_effect = { 
+		    load_focus_tree = ESS_moldbug_1_spicer
 		}
 	}
 }
