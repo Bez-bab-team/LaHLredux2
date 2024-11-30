@@ -1,0 +1,11 @@
+﻿l_english:
+##Buildings###
+ nuclear_reactor:0 "Nuclear Reactor"
+ nuclear_reactor_plural:0 "Nuclear Reactors"
+ nuclear_reactor_desc:0 "This building provides electricity and work opportunities for our population."
+ landmark_big_ben: "Big Ben"
+ landmark_big_ben_plural: "$landmark_big_ben$"
+ landmark_big_ben_desc: "The Big Ben, also known as a Westminster Clock Tower, is more than just the World's most known landmark. With the emergence of the civil war it went from a symbol of the  rusted British parliamentarism into a symbol of the independent and unbowed spirit of Englishmen. Freed from the chains of the old neoliberal order and ready to stand against any occupiers. Only one thing comes to mind when you hear the Westminster Chimes in the city of free: This is England."
+ landmark_big_ben_whoreminster_tower: "'Big' Ben"
+ landmark_big_ben_whoreminster_tower_plural: "$landmark_big_ben$"
+ landmark_big_ben_whoreminster_tower_desc: "The Westminster Limitless Entertainment Complex serves any needs to the guests of the City who would like to spice up their visit. All sorts of drinks, dishes and women are here for the pleasure of any man with a good sum of cash on their hands. The opening of the Complex in "[?global.date.GetDateStringShortMonth]"gave a new life to the barely maintained Westminster Clock Tower and now it's not only some relic of the past that entertains common onlookers for free but the biggest hot spot for the richest hedonists of Europe. Such reconstruction is a good reminder to others who is the boss here after all."
