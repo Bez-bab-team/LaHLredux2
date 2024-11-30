@@ -1683,3 +1683,8 @@
  EAG_and_the_winner_is:0 "And the Winner is..."
  ##Tooltip##
  EAG_klumb_integration_completed_tt:0 "§YWe have integrated all provinces of Britain§!"
+ 
+
+ EAG_event.249.t:0 "Letter from the thankful people of Britain"
+ EAG_event.249.d:0 "Funny text about everyone except few intellectuals hating this iron-deficite bitch"
+ EAG_event.249.a:0 "Eeh, good?"

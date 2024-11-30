@@ -5593,11 +5593,17 @@ country_event = {
 	option = {
 		name = EAG_event.107.a	
 		1160 = {
-			add_province_modifier = {
-				static_modifiers = { henry_v_statue }
-				province = {
-					id = 17539
-				}
+	#		add_province_modifier = {
+	#			static_modifiers = { henry_v_statue }
+	#			province = {
+	#				id = 17539
+	#			}
+	#		}
+			add_building_construction = {
+				type = landmark_william_the_conqueror_statue
+				level = 1
+				instant_build = yes
+				province = 14972
 			}
 		}
     }
@@ -5611,11 +5617,17 @@ country_event = {
 	option = {
 		name = EAG_event.108.a
 		1160 = {
-			add_province_modifier = {
-				static_modifiers = { william_the_conqueror_statue }
-				province = {
-					id = 17539
-				}
+	#		add_province_modifier = {
+	#			static_modifiers = { william_the_conqueror_statue }
+	#			province = {
+	#				id = 17539
+	#			}
+	#		}
+			add_building_construction = {
+				type = landmark_william_the_conqueror_statue
+				level = 1
+				instant_build = yes
+				province = 14972
 			}
 		}
     }
@@ -5629,11 +5641,17 @@ country_event = {
 	option = {
 		name = EAG_event.109.a
 		1160 = {
-			add_province_modifier = {
-				static_modifiers = { margaret_thatcher_statue }
-				province = {
-					id = 17539
-				}
+	#		add_province_modifier = {
+	#			static_modifiers = { margaret_thatcher_statue }
+	#			province = {
+	#				id = 17539
+	#			}
+	#		}
+			add_building_construction = {
+				type = landmark_margaret_thatcher_public_latrine
+				level = 1
+				instant_build = yes
+				province = 14972
 			}
 		}
     }
@@ -5647,11 +5665,17 @@ country_event = {
 	option = {
 		name = EAG_event.110.a
 		1160 = {
-			add_province_modifier = {
-				static_modifiers = { gunzel_statue }
-				province = {
-					id = 17539
-				}
+	#		add_province_modifier = {
+	#			static_modifiers = { gunzel_statue }
+	#			province = {
+	#				id = 17539
+	#			}
+	#		}
+			add_building_construction = {
+				type = landmark_gunzel_statue
+				level = 1
+				instant_build = yes
+				province = 14972
 			}
 		}
     }
@@ -8623,6 +8647,17 @@ country_event = { #We have been sabotaged! (Sussex is to blame)
 	option = {
 		name = EAG_event.248.a
 		custom_effect_tooltip = ENG_sussex_sabotage_tt
+    }
+}
+
+country_event = { #To someone who dare to bomb Thatcher's statue
+	id = EAG_event.249
+	title = EAG_event.249.t
+	desc = EAG_event.249.d
+	is_triggered_only = yes	
+	option = {
+		name = EAG_event.249.a
+		add_political_power = 10
     }
 }
 
