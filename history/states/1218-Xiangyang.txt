@@ -4,8 +4,8 @@ state={
 	name="STATE_1218"
 
 	history={
-		owner = HUB
-		add_core_of = HUB
+		owner = WRC
+		add_core_of = WRC
 		victory_points = {
 			465 5 
 		}

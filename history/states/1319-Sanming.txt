@@ -2,8 +2,8 @@ state={
 	id=1319
 	name="STATE_1319"
 	history={
-		owner = HOK
-		add_core_of = HOK
+		owner = SHA
+		add_core_of = SHA
 		victory_points = {
 			8033 5 
 		}

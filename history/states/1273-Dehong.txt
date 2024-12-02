@@ -8,8 +8,8 @@ state={
 	buildings_max_level_factor=1.000
     state_category=pastoral
 		history={
-		owner = YUN
-		add_core_of = YUN
+		owner = CHQ
+		add_core_of = CHQ
 		victory_points = {
 			6015 5
 		}
