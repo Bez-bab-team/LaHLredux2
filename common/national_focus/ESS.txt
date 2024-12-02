@@ -130,7 +130,7 @@ focus_tree = {
 	id = ESS_moldbug_1_walmsley
 	default = no
 	continuous_focus_position = { x = 20 y = 4000 }
-		shared_focus = ESS_emma_walmsley
+		shared_focus = ESS_emma_walmsley_leader
 		shared_focus = ESS_luciferoverlondon
         shared_focus = ESS_found_the_british_company
 		shared_focus = ESS_national_revolutionary_army
@@ -149,7 +149,7 @@ focus_tree = {
 	id = ESS_moldbug_1_palmer
 	default = no
 	continuous_focus_position = { x = 20 y = 4000 }
-		shared_focus = ESS_clive_palmer
+		shared_focus = ESS_clive_palmer_leader
 		shared_focus = ESS_luciferoverlondon
         shared_focus = ESS_found_the_british_company
 		shared_focus = ESS_national_revolutionary_army
@@ -168,7 +168,7 @@ focus_tree = {
 	id = ESS_moldbug_1_monarchy
 	default = no
 	continuous_focus_position = { x = 20 y = 4000 }
-		shared_focus = ESS_moldbug_monarchy
+		shared_focus = ESS_moldbug_monarchy_leader
 		shared_focus = ESS_luciferoverlondon
         shared_focus = ESS_found_the_british_company
 		shared_focus = ESS_national_revolutionary_army
@@ -187,7 +187,7 @@ focus_tree = {
 	id = ESS_moldbug_1_thiel
 	default = no
 	continuous_focus_position = { x = 20 y = 4000 }
-		shared_focus = ESS_peter_thiel
+		shared_focus = ESS_peter_thiel_leader
 		shared_focus = ESS_luciferoverlondon
         shared_focus = ESS_found_the_british_company
 		shared_focus = ESS_national_revolutionary_army
@@ -206,7 +206,7 @@ focus_tree = {
 	id = ESS_moldbug_1_spicer
 	default = no
 	continuous_focus_position = { x = 20 y = 4000 }
-		shared_focus = ESS_timothy_simon_spicer
+		shared_focus = ESS_timothy_simon_spicer_leader
 		shared_focus = ESS_luciferoverlondon
         shared_focus = ESS_found_the_british_company
 		shared_focus = ESS_national_revolutionary_army

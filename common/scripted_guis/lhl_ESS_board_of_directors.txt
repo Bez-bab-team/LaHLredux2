@@ -15,11 +15,14 @@ scripted_gui = {
 			ESS_board_of_directors_password_fail_active_2_visible = {
 				ESS = {
 					has_country_flag = ESS_board_of_directors_strike_2
+					has_country_flag = ESS_board_of_directors_strike_1
 				}
 			}
 			ESS_board_of_directors_password_fail_active_3_visible = {
 				ESS = {
 					has_country_flag = ESS_board_of_directors_strike_3
+					has_country_flag = ESS_board_of_directors_strike_2
+					has_country_flag = ESS_board_of_directors_strike_1
 				}
 			}
 		}

@@ -1419,7 +1419,7 @@ country_event = {
 	}
 }
 
-country_event = { #New Code
+country_event = { #Corporations Part 1
 	id = ESS_event.62
 	title = ESS_event.62.t
 	desc = ESS_event.62.d
@@ -1428,42 +1428,6 @@ country_event = { #New Code
 	picture = GFX_ESS_german_POWs
 	option = {
 		name = ESS_event.62.a
-		ESS = {
-			set_variable_to_random = {
-				var = ESS_code_slip_1_decisions
-				min = 0
-				max = 9
-				integer = yes
-			}
-			set_variable_to_random = {
-				var = ESS_code_slip_2_decisions
-				min = 0
-				max = 9
-				integer = yes
-			}
-			set_variable_to_random = {
-				var = ESS_code_slip_3_decisions
-				min = 0
-				max = 9
-				integer = yes
-			}
-			set_variable_to_random = {
-				var = ESS_code_slip_4_decisions
-				min = 0
-				max = 9
-				integer = yes
-			}
-			set_variable_to_random = {
-				var = ESS_code_slip_5_decisions
-				min = 0
-				max = 9
-				integer = yes
-			}
-			set_country_flag = ESS_board_of_directors_slip_active
-			clr_country_flag = ESS_board_of_directors_strike_1
-			clr_country_flag = ESS_board_of_directors_strike_2
-			clr_country_flag = ESS_board_of_directors_strike_3
-		}
 	}	
 }
 
@@ -1788,13 +1752,11 @@ country_event = { #Monthly Request Main #Failure
 				sound_effect = "ESS_wrong_code_sound_1"
 			}
 		}
-		if = {
+		else_if = {
 			limit = {
-				ESS = {
-					has_country_flag = ESS_board_of_directors_strike_1	
-				}
 				NOT = {
 					ESS = {
+						has_country_flag = ESS_board_of_directors_strike_1
 						OR = {
 							has_country_flag = ESS_board_of_directors_strike_2
 							has_country_flag = ESS_board_of_directors_strike_3
@@ -1807,15 +1769,15 @@ country_event = { #Monthly Request Main #Failure
 				sound_effect = "ESS_wrong_code_sound_1"
 			}
 		}
-		if = {
+		else_if = {
 			limit = {
-				ESS = {
-					has_country_flag = ESS_board_of_directors_strike_1
-					has_country_flag = ESS_board_of_directors_strike_2
-				}
 				NOT = {
 					ESS = {
-						has_country_flag = ESS_board_of_directors_strike_3
+						has_country_flag = ESS_board_of_directors_strike_1
+						has_country_flag = ESS_board_of_directors_strike_2
+						OR = {
+							has_country_flag = ESS_board_of_directors_strike_3
+						}
 					}
 				}
 			}

@@ -5567,11 +5567,11 @@
 	}
 	###Emma Walmsley###
 	shared_focus = { 
-		id = ESS_emma_walmsley
-		icon = GFX_goal_ESS_emma_walmsley
+		id = ESS_emma_walmsley_leader
+		icon = GFX_goal_ESS_emma_walmsley_leader
 		cost = 4.3
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ESS_emma_walmsley"
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_emma_walmsley_leader"
 		}
 		x = 16
 		y = 22
@@ -5584,7 +5584,7 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_credit_score_system"
 		}
 		prerequisite = {
-			focus = ESS_emma_walmsley
+			focus = ESS_emma_walmsley_leader
 		}
 		x = 15
 		y = 23
@@ -5597,7 +5597,7 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_decentralization"
 		}
 		prerequisite = {
-			focus = ESS_emma_walmsley
+			focus = ESS_emma_walmsley_leader
 		}
 		x = 17
 		y = 23
@@ -5694,11 +5694,11 @@
 	}
 	###Clive Palmer###
 	shared_focus = { 
-		id = ESS_clive_palmer
-		icon = GFX_goal_ESS_clive_palmer
+		id = ESS_clive_palmer_leader
+		icon = GFX_goal_ESS_clive_palmer_leader
 		cost = 4.3
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ESS_clive_palmer"
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_clive_palmer_leader"
 		}
 		x = 16
 		y = 22
@@ -5711,7 +5711,7 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_revitalize_mining_industry"
 		}
 		prerequisite = {
-			focus = ESS_clive_palmer
+			focus = ESS_clive_palmer_leader
 		}
 		x = 15
 		y = 23
@@ -5724,7 +5724,7 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_peoples_entertainment"
 		}
 		prerequisite = {
-			focus = ESS_clive_palmer
+			focus = ESS_clive_palmer_leader
 		}
 		x = 17
 		y = 23
@@ -5821,11 +5821,11 @@
 	}
 	###Monarchy###
 	shared_focus = { 
-		id = ESS_moldbug_monarchy
-		icon = GFX_goal_ESS_moldbug_monarchy
+		id = ESS_moldbug_monarchy_leader
+		icon = GFX_goal_ESS_moldbug_monarchy_leader
 		cost = 4.3
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ESS_moldbug_monarchy"
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_moldbug_monarchy_leader"
 		}
 		x = 16
 		y = 22
@@ -5838,7 +5838,7 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_the_new_law"
 		}
 		prerequisite = {
-			focus = ESS_moldbug_monarchy
+			focus = ESS_moldbug_monarchy_leader
 		}
 		x = 15
 		y = 23
@@ -5851,7 +5851,7 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_the_kings_bank"
 		}
 		prerequisite = {
-			focus = ESS_moldbug_monarchy
+			focus = ESS_moldbug_monarchy_leader
 		}
 		x = 17
 		y = 23
@@ -5948,11 +5948,11 @@
 	}
 	###Peter Thiel###
 	shared_focus = { 
-		id = ESS_peter_thiel
-		icon = GFX_goal_ESS_peter_thiel
+		id = ESS_peter_thiel_leader
+		icon = GFX_goal_ESS_peter_thiel_leader
 		cost = 4.3
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ESS_peter_thiel"
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_peter_thiel_leader"
 		}
 		x = 16
 		y = 22
@@ -5965,7 +5965,7 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_software_of_the_future"
 		}
 		prerequisite = {
-			focus = ESS_peter_thiel
+			focus = ESS_peter_thiel_leader
 		}
 		x = 15
 		y = 23
@@ -5978,7 +5978,7 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_old_friends"
 		}
 		prerequisite = {
-			focus = ESS_peter_thiel
+			focus = ESS_peter_thiel_leader
 		}
 		x = 17
 		y = 23
@@ -6075,11 +6075,11 @@
 	}
 	###Timothy Simon Spicer###
 	shared_focus = { 
-		id = ESS_timothy_simon_spicer
-		icon = GFX_goal_ESS_timothy_simon_spicer
+		id = ESS_timothy_simon_spicer_leader
+		icon = GFX_goal_ESS_timothy_simon_spicer_leader
 		cost = 4.3
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ESS_timothy_simon_spicer"
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_timothy_simon_spicer_leader"
 		}
 		x = 16
 		y = 22
@@ -6092,7 +6092,7 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_raise_military_budget"
 		}
 		prerequisite = {
-			focus = ESS_timothy_simon_spicer
+			focus = ESS_timothy_simon_spicer_leader
 		}
 		x = 15
 		y = 23
@@ -6105,7 +6105,7 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_jungle_work"
 		}
 		prerequisite = {
-			focus = ESS_timothy_simon_spicer
+			focus = ESS_timothy_simon_spicer_leader
 		}
 		x = 17
 		y = 23

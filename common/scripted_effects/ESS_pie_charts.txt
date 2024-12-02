@@ -69,6 +69,24 @@ lhl_ESS_create_pie_chart = {
 		start = ROOT.last_idx
 		end = ESS_corpo_farming_temp
 		set_variable = { lhl_ESS_pie_chart^v = 8 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+	
+	set_temp_variable = { ESS_corpo_small_companies_temp = ESS_corpo_small_companies }
+	add_to_temp_variable = { ESS_corpo_small_companies_temp = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = ESS_corpo_small_companies_temp
+		set_variable = { lhl_ESS_pie_chart^v = 9 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+	
+	set_temp_variable = { ESS_corpo_people_shares_temp = ESS_corpo_people_shares }
+	add_to_temp_variable = { ESS_corpo_people_shares_temp = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = ESS_corpo_people_shares_temp
+		set_variable = { lhl_ESS_pie_chart^v = 10 }
 	}
 
 	clear_variable = ROOT.last_idx

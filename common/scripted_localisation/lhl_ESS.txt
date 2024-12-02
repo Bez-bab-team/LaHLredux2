@@ -197,6 +197,24 @@ defined_text = {
 		localization_key = ESS_pie_chart_healthcare_active_tt
 	}
 }
+defined_text = {
+	name = GetESSPiechartPeople
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_people_shares_active = 1 }
+		}
+		localization_key = ESS_pie_chart_people_shares_active_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartSmallCompanies
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+		}
+		localization_key = ESS_pie_chart_small_companies_active_tt
+	}
+}
 ###ESS MOLDBUG INCOME###
 defined_text = {
 	name = GetESSPiechartMilIncome
