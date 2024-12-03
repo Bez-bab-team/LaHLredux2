@@ -1118,6 +1118,30 @@
 		icon = GFX_goal_ESS_the_republic_triumphant
 		cost = 1
 		completion_reward = {
+			ESS = {
+				country_event = {
+					days = 1
+					id = ESS_event.60
+				}
+			}
+			swap_ideas = {
+				remove_idea = ESS_interlude
+				add_idea = ESS_interlude_1
+			} 
+			add_political_power = 100
+			set_variable = {
+				var = ess_land_power
+				value = 0
+			}
+			set_variable = {
+				var = ess_fisher_power
+				value = 0
+			}
+			set_variable = {
+				var = ess_moldbug_power
+				value = 0
+			}
+			
 		}
 		x = 7
 		y = 10	
@@ -1130,6 +1154,10 @@
 			focus = ESS_the_republic_triumphant
 		}
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = ESS_broken_hierarchy
+				add_idea = ESS_broken_hierarchy_1
+			}
 		}
 		x = 7
 		y = 11
@@ -1142,6 +1170,23 @@
 			focus = ESS_the_republic_triumphant
 		}
 		completion_reward = {
+			custom_effect_tooltip = ESS_woe_to_the_vanquished_tt
+			ESS = {
+				country_event = {
+					days = 1
+					id = ESS_event.89
+				}
+			}
+			if = {
+				limit = {
+					ESS = {
+						has_country_flag = essex_fisher_option
+					}
+				}
+				add_manpower = 6600
+				add_stability = 0.03
+				
+			}
 		}
 		x = 5
 		y = 11
@@ -1154,6 +1199,10 @@
 			focus = ESS_the_republic_triumphant
 		}
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = ESS_london_in_flames
+				add_idea = ESS_london_in_flames_1
+			}
 		}
 		x = 9
 		y = 11
@@ -1169,6 +1218,10 @@
 			focus = ESS_londons_underbelly
 		}
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = ESS_london_in_flames_1
+				add_idea = ESS_london_in_flames_2
+			}
 		}
 		x = 6
 		y = 12
@@ -1179,6 +1232,10 @@
 		cost = 1
 		prerequisite = {
 			focus = ESS_economic_populism
+			swap_ideas = {
+				remove_idea = ESS_empty_throne
+				add_idea = ESS_empty_throne_1
+			} 
 		}
 		prerequisite = {
 			focus = ESS_londons_underbelly
@@ -1199,6 +1256,10 @@
 			focus = ESS_fate_of_the_favorites
 		}
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = ESS_london_in_flames_2
+				add_idea = ESS_london_in_flames_3
+			}
 		}
 		x = 7
 		y = 13

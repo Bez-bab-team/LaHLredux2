@@ -1608,3 +1608,63 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = ESS_event.89
+	title = ESS_event.89.t
+	desc = ESS_event.89.d 
+	
+    fire_only_once = yes	
+	is_triggered_only = yes
+	hidden = yes
+    option = {
+		name = ESS_event.89.a 
+		clr_country_flag = essex_fisher_option
+		clr_country_flag = essex_land_option
+		clr_country_flag = essex_moldbug_option
+	}
+}
+
+country_event = { #TRIAL GERMANS#
+	id = ESS_event.90
+	title = ESS_event.90.t
+	desc = ESS_event.90.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ESS_event.90"}
+	trigger = {
+		ESS = {
+			focus_progress = {
+				focus = ESS_woe_to_the_vanquished
+				progress > 0.28
+			}
+		}
+		original_tag = ESS
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	picture = 
+	option = {
+		name = ESS_event.90.a
+		set_country_flag = essex_fisher_option
+		add_to_variable = {
+			var = ess_fisher_power
+			value = 1
+		}
+	}
+	option = {
+		name = ESS_event.90.b
+		set_country_flag = essex_land_option
+		add_to_variable = {
+			var = ess_land_power
+			value = 1
+		}
+	}
+	option = {
+		name = ESS_event.90.c
+		set_country_flag = essex_moldbug_option
+		add_to_variable = {
+			var = ess_moldbug_power
+			value = 1
+		}
+	}
+}

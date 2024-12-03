@@ -549,6 +549,8 @@ ESS_brunel_university_bonus  = {
 	local_resources_factor = ESS_brunel_local_resources_factor
 }
 
+
+
 ##SUS##
 SUS_pillars_wessex = {
 	monthly_population = SUS_pillars_wessex_monthly_population
