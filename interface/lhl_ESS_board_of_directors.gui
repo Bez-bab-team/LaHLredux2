@@ -2,14 +2,15 @@ guiTypes = {
 	containerWindowType = {
 		name = "lhl_ESS_board_of_directors_code_window"
 		size = { width = 100% height = 100% }
-		position = { x = 1350 y = -600 }
-		hide_position = { x = 1350 y = -600 }
-		show_position = { x=1350 y=0 }
+		position = { x = -1200 y = -600 }
+		hide_position = { x = -1200 y = -600 }
+		show_position = { x = -1200 y = 0 }
 		moveable = no
 		clipping = no
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300
+		orientation = upper_right
 		###Code Background###	
 		iconType = {
 			name = "ESS_board_of_directors_code_background_icon"
@@ -206,8 +207,9 @@ guiTypes = {
 	containerWindowType = {
 		name = "lhl_ESS_board_of_directors_code_slip"
 		size = { width = 0 height = 0 }
-		position = { x=700 y=1600 }
-		show_position = { x=700 y=1200 }
+		orientation = lower_left
+		position = { x=300 y=0 }
+		show_position = { x=300 y=-220 }
 		hide_animation_type = accelerated
 		clipping = no
 		show_animation_type = linear
@@ -1197,10 +1199,10 @@ guiTypes = {
 			maxWidth = 300
 		}
 		iconType = {
-			name ="ESS_board_of_directors_income_item"
-			spriteType = "GFX_ESS_board_of_directors_income_item"
+			name ="ESS_board_of_directors_income_info"
+			spriteType = "GFX_ESS_board_of_directors_income_info"
 			pdx_tooltip = "ESS_board_of_directors_income_source"
-			position = { x = 100 y = -10 }
+			position = { x = 400 y = 270 }
 		}
 		###Money Number###
 		instantTextBoxType = {

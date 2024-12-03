@@ -27,11 +27,53 @@ ESS_debug = {
 		    load_focus_tree = ESS_collins_1
 		}
 	}
-	ESS_moldbug_1 = {
+	ESS_land_interregnum = {
 		cost = 0
 		days_remove = 1
         complete_effect = { 
 		    load_focus_tree = ESS_moldbug_1
+		}
+	}
+	ESS_moldbug_main = {
+		cost = 0
+		days_remove = 1
+        complete_effect = { 
+		    load_focus_tree = ESS_moldbug_1_main
+		}
+	}
+	ESS_moldbug_walmsley = {
+		cost = 0
+		days_remove = 1
+        complete_effect = { 
+		    load_focus_tree = ESS_moldbug_1_walmsley
+		}
+	}
+	ESS_moldbug_palmer = {
+		cost = 0
+		days_remove = 1
+        complete_effect = { 
+		    load_focus_tree = ESS_moldbug_1_palmer
+		}
+	}
+	ESS_moldbug_monarchy = {
+		cost = 0
+		days_remove = 1
+        complete_effect = { 
+		    load_focus_tree = ESS_moldbug_1_monarchy
+		}
+	}
+	ESS_moldbug_thiel = {
+		cost = 0
+		days_remove = 1
+        complete_effect = { 
+		    load_focus_tree = ESS_moldbug_1_thiel
+		}
+	}
+	ESS_moldbug_spicer= {
+		cost = 0
+		days_remove = 1
+        complete_effect = { 
+		    load_focus_tree = ESS_moldbug_1_spicer
 		}
 	}
 }
@@ -80,22 +122,76 @@ ESS_board_of_directors = {
 				add_dynamic_modifier = {
 					modifier = ESS_local_CEO_modifier
 				}
-				set_variable_to_random = {
-					var = FROM.ess_local_ceo_power
-					max = 10
-					min = 1
-				}
-				set_variable_to_random = {
-					var = FROM.ess_local_ceo_corruption
-					max = 10
-					min = 1
-				}
+				set_state_flag = ESS_local_ceo_name
+			}
+			set_variable = { ESS_ceo_state_save = FROM }
+			set_variable_to_random = {
+				var = FROM.ess_local_ceo_power
+				max = 10
+				min = 1
+				integer = yes
+			}
+			set_variable_to_random = {
+				var = FROM.ess_local_ceo_corruption
+				max = 10
+				min = 1
+				integer = yes			
 			}
 		}
 		remove_effect = {
 		}
 		ai_will_do = {
 			base = 100
+		}
+	}
+	###REQUESTS###
+	ESS_quarter_request = {
+		activation = {
+			always = no
+		}
+		available = {
+			always = no
+		}
+		complete_effect = {
+			always = no
+		}
+		is_good = yes
+		days_mission_timeout = 120
+		timeout_effect = {
+			if = {
+				limit = {
+					check_variable = {
+						var = ESS_board_of_directors_income
+						value = ESS_board_of_directors_income_new
+						compare = greater_than_or_equals
+					}
+				}
+				ESS = {
+					country_event = {
+						days = 0
+						id = ESS_event.67
+					}
+				}
+				set_variable = { ESS_board_of_directors_income_new = 0 }
+				custom_effect_tooltip = ESS_quarter_request_tt
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = ESS_board_of_directors_income
+						value = ESS_board_of_directors_income_new
+						compare = less_than
+					}
+				}
+				ESS = {
+					country_event = {
+						days = 0
+						id = ESS_event.68
+					}
+				}
+				set_variable = { ESS_board_of_directors_income_new = 0 }
+				custom_effect_tooltip = ESS_quarter_request_tt
+			}
 		}
 	}
 }

@@ -633,6 +633,5 @@ SUS_weather_device_modifier = {
 
 ESS_local_CEO_modifier = {
 	icon = GFX_based
-	state_production_speed_buildings_factor = 0.05
 }
 

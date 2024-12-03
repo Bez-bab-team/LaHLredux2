@@ -577,8 +577,7 @@
  ESS_emergency_dictatorship:0 "Emergency Dictatorship"
  ESS_emergency_dictatorship_desc:0 "Revival of Formula One"
  
-  ##Collins##
-   
+ ##Collins##  
  ESS_summon_the_congress:0 "Summon The Congress"
  ESS_summon_the_congress_desc:0 "Revival of Formula One"
   
@@ -785,9 +784,121 @@
  
  ESS_towards_golden_30s:0 "Towards Golden 30's"
  ESS_towards_golden_30s_desc:0 "Revival of Formula One"
+ ###Moldbug###
+ ##Moldbug Intro##
+ ESS_found_the_british_company:0 "Britain LLC"
+ ESS_reintegration_of_offenders:0 "Reintegrate The Offenders"
+ ESS_pound_restructurization:0 "Restructure The Pound"
+ ESS_franchise_governance:0 "Franchise Governance"
+ ESS_seek_and_destroy:0 "Seek and Destroy"
+ ESS_slow_boil:0 "Slow Boil"
+ ESS_new_secularization:0 "New Secularization"
+ ESS_rules_for_the_media:0 "Rules for The Media"
+ ESS_build_up_initial_capital:0 "Build Up The Initial Capital"
+ ESS_a_necessary_evil:0 "A Necessary Evil"
+ ESS_keep_them_afloat:0 "Keep Them Afloat"
+ ESS_compete_for_patients:0 "Compete for Patients"
+ ESS_national_health_company:0 "National Health Company"
+ ESS_meritocratic_trust:0 "Meritocratic Trust"
+ ESS_british_board_meeting:0 "British Board Meeting"
+ ##Moldbug Main Tree##
+ #Military#
+ ESS_molded_mob:0 "Molded Mob"
+ ESS_establish_public_forces:0 "Establish Public Forces"
+ ESS_blood_debt:0 "Blood Debts"
+ ESS_fund_british_armories:0 "Fund British Armories"
+ ESS_backup_over_the_pond:0 "Backup over The Pond"
+ ESS_natural_laws_of_warfare:0 "Natural Laws of Warfare"
+ ESS_ensure_a_secure_state:0 "Ensure a Secure State"
+ ESS_private_detective_agency:0 "Private Detective Agency"
+ ESS_inner_arms_race:0 "Inner Arms Race"
+ ESS_sell_table_scraps:0 "Sell Table Scraps"
+ ESS_virtual_drills:0 "Virtual Drills"
+ ESS_rifle_by_your_side:0 "Rifle by Your Side"
+ ESS_enact_domicide:0 "Enact Domicide"
+ ESS_new_arms_market:0 "New Arms Markets"
+ #Economy#
+ ESS_clean_the_metropolis:0 "Clean The Metropolis"
+ ESS_the_only_fair_tax:0 "The Only Fair Tax"
+ ESS_you_are_fired:0 ""You're Fired!""
+ ESS_formula_one_lives_on:0 "Formula One Lives On"
+ ESS_keep_it_simple_stupid:0 "Keep It Simple, Stupid"
+ ESS_promote_human_capital:0 "Promote Human Capital"
+ ESS_concorde_food_company:0 "Concorde Food Company"
+ ESS_healthier_diet_for_nation:0 "A Healthier Diet"
+ ESS_british_silicon_fleet:0 "British Silicon Fleet"
+ ESS_digital_reserves:0 "Digital Reserves"
+ ESS_prison_industrial_complex:0 "Prison Industrial Complex"
+ ESS_big_opportunities_for_small_men:0 "Big Opportunities for Small Men"
+ ESS_answer_their_needs:0 "Answer Their Needs"
+ ESS_software_exports:0 "Software Exports"
+ #Politics#
+ ESS_western_legalism:0 "Western Legalism"
+ ESS_community_service_hotline:0 "Community Service Hotline"
+ ESS_simpler_society:0 "A Simpler Society"
+ ESS_tonights_entertainment:0 "Tonight's Entertainment"
+ ESS_freedom_from_needs:0 "Freedom from Need"
+ ESS_reclaim_the_british_beauty:0 "Reclaim The British Beauty "
+ ESS_comfortable_city:0 "A Comfortable City"
+ ESS_workable_city:0 "A Workable City"
+ ESS_positive_eugenics:0 "Positive Eugenics"
+ ESS_market_of_ideas:0 "Market of Ideas"
+ ESS_unrestricted_science:0 "Unrestricted Science"
+ ESS_rules_for_reactionaries:0 "Rules for Reactionaries"
+ ESS_the_resarthus:0 "The Resartus"
+ ESS_return_to_the_world_stage:0 "Return to The World Stage"
+ ##CEOs##
+ #Emma Walmsley#
+ ESS_emma_walmsley_leader:0 "The Doctor"
+ ESS_credit_score_system:0 "A Credit Score System"
+ ESS_decentralization:0 "Decentralization"
+ ESS_big_pharma:0 ""Big Pharma""
+ ESS_meritocratic_foundation:0 "Meritocratic Foundations"
+ ESS_medical_services:0 "Medical Tourism"
+ ESS_revive_fordism:0 "Revive Fordism"
+ ESS_new_opium_wars:0 "New Opium Wars"
+ ESS_bioreactor:0 "The Bioreactor"
+ #Clive Palmer#
+ ESS_clive_palmer_leader:0 "The Australian"
+ ESS_revitalize_mining_industry:0 "Revitalize The Mining Industry"
+ ESS_peoples_entertainment:0 "People's Entertainment"
+ ESS_personal_spendings:0 ""Neccecary" Spendings"
+ ESS_resources_offshore:0 "Offshore Resources"
+ ESS_figureheads:0 "Figureheads"
+ ESS_vanity_projects:0 "Vanity Projects"
+ ESS_rebuild_the_channel:0 "Rebuild The Channel"
+ ESS_the_great_fair:0 "The Great Fair"
+ #Monarchy#
+ ESS_moldbug_monarchy_leader:0 "The Monarch"
+ ESS_the_new_law:0 "The New Law"
+ ESS_the_kings_bank:0 "The King's Bank"
+ ESS_old_worlds_money:0 "Old World's Money"
+ ESS_moldbugs_expertise:0 "Moldbug's Expertise"
+ ESS_neocameralist_feudalism:0 "Neocameralist Feudalism"
+ ESS_approach_the_celts:0 "Approach The Celts"
+ ESS_tarnish_the_windsors:0 "Tarnish The Windsors"
+ ESS_monarchy_restored:0 "Monarchy Restored"
+ #Peter Thiel#
+ ESS_peter_thiel_leader:0 "The Pupil"
+ ESS_software_of_the_future:0 "Software of The Future"
+ ESS_old_friends:0 "Old Friends"
+ ESS_in_service_of_one_percent:0 "In Service of One Percent"
+ ESS_do_you_want_to_live_forever:0 "Do You Want to Live Forever?"
+ ESS_the_conservative_turn:0 "The Conservative Turn"
+ ESS_space_tourism:0 "Space Tourism"
+ ESS_the_great_bitcoin_switch:0 "The Great Bitcoin Switch"
+ ESS_who_will_save_the_world:0 "Who Will Save The World?"
+ #Timothy Simon Spicer#
+ ESS_timothy_simon_spicer_leader:0 "The General"
+ ESS_raise_military_budget:0 "Raise Military Budget"
+ ESS_jungle_work:0 "Jungle Work"
+ ESS_military_scientific_complex:0 "Military Scientific Complex"
+ ESS_the_british_patriot_act:0 "The British Patriot Act"
+ ESS_nuclear_prestige:0 "Nuclear Prestige"
+ ESS_rebuild_her_majestys_fleet:0 "Rebuild Her Majesty's Fleet"
+ ESS_establish_the_military_council:0 "Establish The Military Council"
+ ESS_smashing_the_harp:0 "Smashing The Harp"
  
-  
-
  ##DECISIONS##
  ESS_take_what_is_ours:0 "Take what is ours"
  ESS_take_what_is_ours_desc:0 "For a while now, bandits operating out of London have been a disorganized mess - they lack cohesion, coordination, and combat effectiveness. They often steal from civilians, rather than targeting things that we need. Overall, they're clearly a missed opportunity, and the issues they cause in their current state outweigh the benefits of their loot. As such, Max Mosley has acted to restrain and reorganize the bandit gangs in London, issuing a decree to enforce discipline, military-style hierarchy, and transform them into an assault force optimized for sabotage and raids targeting war materiel and infrastructure."
@@ -920,7 +1031,29 @@
  ESS_event.61.a:0 "Yarvin manages to assert his position"
  ESS_event.61.b:0 "Land’s rhetoric seduces the Council"
  ESS_event.61.c:0 "Fisher’s words ring with common sense"
- 
+ #
+ ESS_event.66.t:0 "Your quota has arrived!"
+ ESS_event.66.d:0 "Increase our profits or die, CEO!"
+ ESS_event.66.a:0 "Alright..."
+ #
+ ESS_event.67.t:0 "The quota is complete!"
+ ESS_event.67.d:0 "You did it CEO! Now do it again..."
+ ESS_event.67.a:0 "Alright..."
+ #
+ ESS_event.68.t:0 "The quota is NOT complete!"
+ ESS_event.68.d:0 "You failed to meet the quota. You have these options."
+ ESS_event.68.a:0 "I will resign in shame"
+ ESS_event.68.b:0 "Give me another chance!"
+ ESS_event.68.c:0 "You have failed too much. You are removed from the position of a CEO!"
+ #
+ ESS_event.70.t:0 "Time to choose a CEO"
+ ESS_event.70.d:0 "Here are some options for our CEO pick."
+ ESS_event.70.a:0 "Emma Walmsley is a great choice"
+ ESS_event.70.b:0 "Clive Palmer is a great choice"
+ ESS_event.70.c:0 "Peter Thiel is a great choice"
+ ESS_event.70.e:0 "Tim Spicer is a great choice"
+ ESS_event.70.f:0 "You are all useless, a true monarch takes the wheel!"
+ #
  ##UNIVERSITIES##
  ESS_repolish_brilliants:0 "Repolished Brilliants"
  ESS_UNIVERSITY_NAME:0 "[ROOT.GetLondonUniversityName]"
@@ -944,18 +1077,7 @@
  ESS_bristol_budget:0 "University budget: §7££ [?ess_bristol_budget] millions§!"
  
  ess_univesity_brunel_button_tt:0 "Brunel University London specialists provide us: \nConstruction Speed: [?ESS_brunel_production_speed_buildings_factor|.1%+] \nMax Factories in a State: [?ESS_brunel_global_building_slots_factor|.1%+] \nResource Gain Efficiency: [?ESS_brunel_local_resources_factor|.1%+]"
-  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+ #
  ESS_support_students_brunel:0 "Support Students"
  ESS_donate_funds_brunel:0 "Donate Funds"
  ESS_award_grants_brunel:0 "Award Grants"
@@ -977,10 +1099,7 @@
  ESS_rising_tides_tt:0 "Our government will cooperate with §4Universities§! in the further construction of tidal powerplants"
  ESS_quarries_recreation_research:0 "Recreation of quarries research effort"
  ESS_recycleconomy_tt:0 "Our government will cooperate with §4Universities§! to fund the research for environmentally sustainable industry"
- 
- 
- 
- 
+ #
  ###LEGACY BULLSHIT###
  ESS_utopia_under_protection:0 "Utopia under Protection"
  ESS_utopia_under_protection_desc:0 "Utopia under Protection"
@@ -1365,9 +1484,9 @@
  ESS_board_of_directors_code_slip_5_tt:0 "[?ESS_code_slip_5_decisions]"
  #
  ESS_board_of_directors_title:0 "The CEO State"
- ESS_board_of_directors_money:0 "Our daily income: ££[?ESS_board_of_directors_income]\n\nOur current budget: ££[?ESS_board_of_directors_budget]"
+ ESS_board_of_directors_money:0 "Our monthly income: §Y££[?ESS_board_of_directors_income|.0] million§!\n\nOur current budget: §Y££[?ESS_board_of_directors_budget|.0] million§!"
  #
- ESS_piechart_tooltip:0 "Corporation Piechart[GetESSPiechartState][GetESSPiechartHealthcare][GetESSPiechartConstruction][GetESSPiechartPmc][GetESSPiechartSpy][GetESSPiechartMedia][GetESSPiechartTourism][GetESSPiechartFarming]"
+ ESS_piechart_tooltip:0 "Corporation Piechart[GetESSPiechartState][GetESSPiechartHealthcare][GetESSPiechartConstruction][GetESSPiechartPmc][GetESSPiechartSpy][GetESSPiechartMedia][GetESSPiechartTourism][GetESSPiechartFarming][GetESSPiechartPeople][GetESSPiechartSmallCompanies]"
  ESS_pie_chart_state_active_tt:0 "\n§0State Corporation: [?ESS_corpo_state]%§!"
  ESS_pie_chart_healthcare_active_tt:0 "\n§2Healthcare Corporation: [?ESS_corpo_healthcare]%§!"
  ESS_pie_chart_construction_active_tt:0 "\n§7Construction Corporation: [?ESS_corpo_construction]%§!"
@@ -1376,6 +1495,8 @@
  ESS_pie_chart_media_active_tt:0 "\n§8Media Corporation: [?ESS_corpo_spy]%§!"
  ESS_pie_chart_tourism_active_tt:0 "\n§tTourism Corporation: [?ESS_corpo_tourism]%§!"
  ESS_pie_chart_farming_active_tt:0 "\n§OFarming Corporation: [?ESS_corpo_farming]%§!"
+ ESS_pie_chart_small_companies_active_tt:0 "\n§tPrivate Companies: [?ESS_corpo_small_companies]%§!"
+ ESS_pie_chart_people_shares_active_tt:0 "\n§tNational Shares: [?ESS_corpo_people_shares]%§!"
  #
  ESS_board_of_directors_landlords_tt:0 "§YLandlords§!"
  ESS_board_of_directors_magnates_tt:0 "§YMagnates§!"
@@ -1383,32 +1504,27 @@
  ESS_board_of_directors_doctors_tt:0 "§YDoctors§!"
  ESS_board_of_directors_military_tt:0 "§YMilitary§!"
  #
- ESS_board_of_directors_income_source:0 "Based Z"
+ ESS_board_of_directors_income_source:0 "Our total income:\n\n§YCivilian Factories:§! §G££[?ESS_civ_income_temp_loc]§![GetESSPiechartMilIncome][GetESSPiechartDubaiIncome][GetESSPiechartResourcesIncome][GetESSPiechartPrisonsIncome][GetESSPiechartFairGroundsIncome][GetESSPiechartInvestmentIncome][GetESSPiechartBankingIncome][GetESSPiechartSoftwareIncome][GetESSPiechartSpaceTourismIncome][GetESSPiechartFeudalismIncome][GetESSPiechartBioreactorIncome]\n§YOur total losses from local corruption:§! §R££-[?ESS_corruption_income_temp]§!\n§YOur additional income from local expertise:§! §G££-[?ESS_power_income_temp]§!"
  #Decisions#
+ ESS_mil_income_tt:0 "\n§YMilitary Factories:§! §G££[?ESS_mil_income_temp_loc]§!"
+ ESS_dubai_income_tt:0 "\n§YAirport & Port:§! §G££[?ESS_dubai_income_temp_loc]§!"
+ ESS_resources_income_tt:0 "\n§YResources:§! §G££[?ESS_resource_income_temp_loc]§!"
+ ESS_prisons_income_tt:0 "\n§YPrivate Prisons:§! §G££[?ESS_prisons_income_temp_loc]§!"
+ ESS_fair_grounds_income_tt:0 "\n§YFair Grounds:§! §G££[?ESS_fair_grounds_income_temp_loc]§!"
+ ESS_investment_income_tt:0 "\n§YForeign Investment:§! §G££[?ESS_investment_income_temp_loc]§!"
+ ESS_banking_income_tt:0 "\n§YBanking:§! §G££[?ESS_banking_income_temp_loc]§!"
+ ESS_software_income_tt:0 "\n§YSoftware Sales:§! §G££[?ESS_software_income_temp_loc]§!"
+ ESS_space_tourism_income_tt:0 "\n§YSpace Tourism:§! §G££[?ESS_space_tourism_income_temp_loc]§!"
+ ESS_feudal_lords_income_tt:0 "\n§YFeudal Income:§! §G££[?ESS_feudal_lords_income_temp_loc]§!"
+ ESS_bioreactor_income_tt:0 "\n§YBioreactor:§! §G££[?ESS_bioreactor_income_temp_loc]§!"
+ #
  ESS_interact_with_CEO:0 "§YInteract with local CEOs§!"
  ESS_hire_a_CEO:0 "Hire a new local CEO"
- ESS_local_CEO_modifier:0 "[GetLocalCeoName] [GetLocalCeoSurname], CEO of"
- ESS_local_CEO_modifier_desc:0 "§GLocal power: [?ess_local_ceo_power]§!\n§RLocal corruption: [?ess_local_ceo_corruption]§!"
- #Names#
- ESS_local_ceo_name_1:0 "Alex"
- ESS_local_ceo_name_2:0 "William"
- ESS_local_ceo_name_3:0 "George"
- ESS_local_ceo_name_4:0 "Michael"
- ESS_local_ceo_name_5:0 "Fritz"
- ESS_local_ceo_name_6:0 "Thomas"
- ESS_local_ceo_name_7:0 "Dennis"
- ESS_local_ceo_name_8:0 "Bill"
- ESS_local_ceo_name_9:0 "Svyatoslav"
- ESS_local_ceo_name_1:0 "Joseph"
+ ESS_local_CEO_modifier:0 "CEO"
+ ESS_local_CEO_modifier_desc:0 "§GLocal power: [?ESS_ceo_state_save:ess_local_ceo_power]§!\n§RLocal corruption: [?ESS_ceo_state_save:ess_local_ceo_corruption]§!"
  #
- ESS_local_ceo_surname_1:0 "Stalin"
- ESS_local_ceo_surname_2:0 "Smith"
- ESS_local_ceo_surname_3:0 "Taylor"
- ESS_local_ceo_surname_4:0 "Brown"
- ESS_local_ceo_surname_5:0 "Thomas"
- ESS_local_ceo_surname_6:0 "Dazdraperma"
- ESS_local_ceo_surname_7:0 "Afton"
- ESS_local_ceo_surname_8:0 "Emily"
- ESS_local_ceo_surname_9:0 "Shmidt"
- ESS_local_ceo_surname_1:0 "Evans"
+ ESS_quarter_request_tt:0 "[GetESSQuarterRequestLoc]"
+ ESS_quarter_request_failing:0 "We need to raise or monthly income to §R££[?ESS_board_of_directors_income_new|.1] million§!\nOur current income is §Y££[?ESS_board_of_directors_income|.1] million§!\n§RWe are not meeting the quota!§!"
+ ESS_quarter_request_success:0 "We need to raise or monthly income to §G££[?ESS_board_of_directors_income_new|.1] million§!\nOur current income is §Y££[?ESS_board_of_directors_income|.1] million§!\n§GWe have met the quota!§!"
+ ESS_quarter_request:0 "The Quarter Request"
  

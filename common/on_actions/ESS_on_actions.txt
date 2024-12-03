@@ -7,6 +7,16 @@ on_actions = {
 			}
 		}
 	}
+	on_daily_ESS = {  ###Piechart on_action. Big thanks to Yard1 and his "HoI4-Scripted-GUI-Pie-Chart" example mod###
+		effect = {
+			lhl_ESS_income_calculation = yes
+		}
+	}
+	on_monthly_ESS = {  ###Piechart on_action. Big thanks to Yard1 and his "HoI4-Scripted-GUI-Pie-Chart" example mod###
+		effect = {
+			add_to_variable = { ESS_board_of_directors_budget = ESS_board_of_directors_income }
+		}
+	}
 	on_startup = {
 		set_variable = {
 			var = ESS_corpo_state

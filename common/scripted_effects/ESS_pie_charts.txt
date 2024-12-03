@@ -69,8 +69,304 @@ lhl_ESS_create_pie_chart = {
 		start = ROOT.last_idx
 		end = ESS_corpo_farming_temp
 		set_variable = { lhl_ESS_pie_chart^v = 8 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+	
+	set_temp_variable = { ESS_corpo_small_companies_temp = ESS_corpo_small_companies }
+	add_to_temp_variable = { ESS_corpo_small_companies_temp = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = ESS_corpo_small_companies_temp
+		set_variable = { lhl_ESS_pie_chart^v = 9 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+	
+	set_temp_variable = { ESS_corpo_people_shares_temp = ESS_corpo_people_shares }
+	add_to_temp_variable = { ESS_corpo_people_shares_temp = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = ESS_corpo_people_shares_temp
+		set_variable = { lhl_ESS_pie_chart^v = 10 }
 	}
 
 	clear_variable = ROOT.last_idx
 	add_to_variable = { lhl_ESS_pie_chart_dirty = 1 }
+}
+
+lhl_ESS_income_calculation = {
+	##CiV Factories##
+	set_temp_variable = { ESS_civ_income_temp = ESS.num_of_civilian_factories }
+	multiply_temp_variable = { ESS_civ_income_temp = 0.25 }
+	if = {
+		limit = {
+			ESS = {
+				has_country_flag = ESS_cheap_british_labour
+			}
+		}
+		multiply_temp_variable = { ESS_civ_income_temp = 2 }
+	}
+	if = {
+		limit = {
+			ESS = {
+				has_country_flag = ESS_create_management_ai
+			}
+		}
+		multiply_temp_variable = { ESS_civ_income_temp = 2 }
+	}
+	add_to_temp_variable = { ESS_total_income_temp = ESS_civ_income_temp }
+	set_variable = { ESS_civ_income_temp_loc = ESS_civ_income_temp }
+	##Mil Factories###
+	if = {
+		limit = {
+			ESS = {
+				has_country_flag = ESS_crack_down_on_unions
+			}
+		}
+		set_temp_variable = { ESS_mil_income_temp = ESS.num_of_military_factories }
+		multiply_temp_variable = { ESS_mil_income_temp = 0.4 }
+		if = {
+			limit = {
+				ESS = {
+					has_country_flag = ESS_establish_military_council
+				}
+			}
+			multiply_temp_variable = { ESS_mil_income_temp = 2 }
+		}
+		if = {
+			limit = {
+				ESS = {
+					has_country_flag = ESS_create_management_ai
+				}
+			}
+			multiply_temp_variable = { ESS_mil_income_temp = 2 }
+		}
+		add_to_temp_variable = { ESS_total_income_temp = ESS_mil_income_temp }
+		set_variable = { ESS_mil_income_temp_loc = ESS_mil_income_temp }
+	}
+	##Airports and Harbours###
+	if = {
+		limit = {
+			ESS = {
+				has_country_flag = ESS_dubai_london
+			}
+		}
+		set_temp_variable = { ESS_dubai_income_temp = ESS.total_constructed_air_base }
+		add_to_temp_variable = { ESS_dubai_income_temp = ESS.total_constructed_port }
+		multiply_temp_variable = { ESS_dubai_income_temp = 0.75 }
+		if = {
+			limit = {
+				ESS = {
+					has_country_flag = ESS_create_management_ai
+				}
+			}
+			multiply_temp_variable = { ESS_dubai_income_temp = 2 }
+		}
+		add_to_temp_variable = { ESS_total_income_temp = ESS_dubai_income_temp }
+		set_variable = { ESS_dubai_income_temp_loc = ESS_dubai_income_temp}
+	}
+	##Resources##
+	if = {
+		limit = {
+			ESS = {
+				has_country_flag = ESS_revitalize_mining_indudstry
+			}
+		}
+		set_temp_variable = { ESS_resource_income_temp = ESS.resource_produced@steel }
+		add_to_temp_variable = { ESS_resource_income_temp = ESS.resource_produced@oil }
+		add_to_temp_variable = { ESS_resource_income_temp = ESS.resource_produced@tungsten }
+		multiply_temp_variable = { ESS_resource_income_temp = 0.15 }
+		if = {
+			limit = {
+				ESS = {
+					has_country_flag = ESS_create_management_ai
+				}
+			}
+			multiply_temp_variable = { ESS_resource_income_temp = 2 }
+		}
+		add_to_temp_variable = { ESS_total_income_temp = ESS_resource_income_temp }
+		set_variable = { ESS_resource_income_temp_loc = ESS_resource_income_temp }
+	}
+	##Prisons##
+	if = {
+		limit = {
+			ESS = {
+				has_country_flag = ESS_private_prisons_active
+			}
+		}
+		set_temp_variable = { ESS_prisons_income_temp = ESS_private_prisons_num }
+		if = {
+			limit = {
+				ESS = {
+					has_country_flag = ESS_create_management_ai
+				}
+			}
+			multiply_temp_variable = { ESS_prisons_income_temp = 2 }
+		}
+		add_to_temp_variable = { ESS_total_income_temp = ESS_prisons_income_temp }
+		set_variable = { ESS_prisons_income_temp_loc = ESS_prisons_income_temp }
+	}	
+	##Entertainment##
+	if = {
+		limit = {
+			ESS = {
+				has_country_flag = ESS_fair_grounds_active
+			}
+		}
+		set_temp_variable = { ESS_fair_grounds_income_temp = ESS_fair_grounds_num }
+		if = {
+			limit = {
+				ESS = {
+					has_country_flag = ESS_create_management_ai
+				}
+			}
+			multiply_temp_variable = { ESS_fair_grounds_income_temp = 2 }
+		}
+		add_to_temp_variable = { ESS_total_income_temp = ESS_fair_grounds_income_temp }
+		set_variable = { ESS_fair_grounds_income_temp_loc = ESS_fair_grounds_income_temp }
+	}
+	##Investment##
+	if = {
+		limit = {
+			ESS = {
+				has_country_flag = ESS_investment_active
+			}
+		}
+		set_temp_variable = { ESS_investment_income_temp = ESS_investment_num }
+		if = {
+			limit = {
+				ESS = {
+					has_country_flag = ESS_create_management_ai
+				}
+			}
+			multiply_temp_variable = { ESS_investment_income_temp = 2 }
+		}
+		add_to_temp_variable = { ESS_total_income_temp = ESS_investment_income_temp }
+		set_variable = { ESS_investment_income_temp_loc = ESS_investment_income_temp }
+	}	
+	##Banking##
+	if = {
+		limit = {
+			ESS = {
+				has_country_flag = ESS_banking_active
+			}
+		}
+		set_temp_variable = { ESS_banking_income_temp = 100 }
+		if = {
+			limit = {
+				ESS = {
+					has_country_flag = ESS_create_management_ai
+				}
+			}
+			multiply_temp_variable = { ESS_banking_income_temp = 2 }
+		}
+		add_to_temp_variable = { ESS_total_income_temp = ESS_banking_income_temp }
+		set_variable = { ESS_banking_income_temp_loc = ESS_banking_income_temp }
+	}	
+	##Software##
+	if = {
+		limit = {
+			ESS = {
+				has_country_flag = ESS_software_active
+			}
+		}
+		set_temp_variable = { ESS_software_income_temp = ESS_software_num }
+		if = {
+			limit = {
+				ESS = {
+					has_country_flag = ESS_create_management_ai
+				}
+			}
+			multiply_temp_variable = { ESS_software_income_temp = 2 }
+		}
+		add_to_temp_variable = { ESS_total_income_temp = ESS_software_income_temp }
+		set_variable = { ESS_software_income_temp_loc = ESS_software_income_temp }
+	}	
+	##Space Tourism##
+	if = {
+		limit = {
+			ESS = {
+				has_country_flag = ESS_space_tourism_active
+			}
+		}
+		set_temp_variable = { ESS_space_tourism_income_temp = ESS_space_tourism_num }
+		if = {
+			limit = {
+				ESS = {
+					has_country_flag = ESS_create_management_ai
+				}
+			}
+			multiply_temp_variable = { ESS_space_tourism_income_temp = 2 }
+		}
+		add_to_temp_variable = { ESS_total_income_temp = ESS_space_tourism_income_temp }
+		set_variable = { ESS_space_tourism_income_temp_loc = ESS_space_tourism_income_temp }
+	}
+	###Sell Titles###
+	if = {
+		limit = {
+			ESS = {
+				has_country_flag = ESS_feudal_lords_active
+			}
+		}
+		set_temp_variable = { ESS_feudal_lords_income_temp = ESS_essex_feudal_lord }
+		add_to_temp_variable = { ESS_feudal_lords_income_temp = ESS_mercia_feudal_lord }
+		add_to_temp_variable = { ESS_feudal_lords_income_temp = ESS_wessex_feudal_lord }
+		add_to_temp_variable = { ESS_feudal_lords_income_temp = ESS_sussex_feudal_lord }
+		add_to_temp_variable = { ESS_feudal_lords_income_temp = ESS_kent_feudal_lord }
+		add_to_temp_variable = { ESS_feudal_lords_income_temp = ESS_east_anglia_feudal_lord }
+		add_to_temp_variable = { ESS_feudal_lords_income_temp = ESS_northumbria_feudal_lord }
+		add_to_temp_variable = { ESS_feudal_lords_income_temp = ESS_scotland_feudal_lord }
+		add_to_temp_variable = { ESS_feudal_lords_income_temp = ESS_wales_feudal_lord }
+		if = {
+			limit = {
+				ESS = {
+					has_country_flag = ESS_create_management_ai
+				}
+			}
+			multiply_temp_variable = { ESS_feudal_lords_income_temp = 2 }
+		}
+		add_to_temp_variable = { ESS_total_income_temp = ESS_feudal_lords_income_temp }
+		set_variable = { ESS_feudal_lords_income_temp_loc = ESS_feudal_lords_income_temp }
+	}
+	###Bioreactor###
+	if = {
+		limit = {
+			ESS = {
+				has_country_flag = ESS_bioreactor_active
+			}
+		}
+		set_temp_variable = { ESS_bioreactor_income_temp = ESS.max_manpower_k }
+		add_to_temp_variable = { ESS_bioreactor_income_temp = ESS.casualties_k }
+		multiply_temp_variable = { ESS_bioreactor_income_temp = 0.001 }
+		if = {
+			limit = {
+				ESS = {
+					has_country_flag = ESS_create_management_ai
+				}
+			}
+			multiply_temp_variable = { ESS_bioreactor_income_temp = 2 }
+		}
+		add_to_temp_variable = { ESS_total_income_temp = ESS_bioreactor_income_temp }
+		set_variable = { ESS_bioreactor_income_temp_loc = ESS_bioreactor_income_temp }
+	}
+	###Local CEOs Effect###
+	##Corruption##
+	set_temp_variable = { ESS_corruption_income_temp = 0 }	
+	set_temp_variable = { ESS_power_income_temp = 0 }	
+	all_state = {
+		has_dynamic_modifier = {
+			modifier = ESS_local_CEO_modifier
+		}
+		add_to_temp_variable = { ESS_corruption_income_temp = ROOT.ess_local_ceo_corruption }	
+		multiply_temp_variable = { ESS_corruption_income_temp = 0.1 }
+	}
+	subtract_from_temp_variable = { ESS_total_income_temp = ESS_corruption_income_temp }
+	any_state = {
+		has_dynamic_modifier = {
+			modifier = ESS_local_CEO_modifier
+		}
+		add_to_temp_variable = { ESS_power_income_temp = ROOT.ess_local_ceo_power }		
+		multiply_temp_variable = { ESS_power_income_temp = 0.1 }
+	}
+	add_to_temp_variable = { ESS_total_income_temp = ESS_power_income_temp }
+	set_variable = { ESS_board_of_directors_income = ESS_total_income_temp }
 }
