@@ -1123,22 +1123,22 @@
 					days = 1
 					id = ESS_event.60
 				}
+				swap_ideas = {
+					remove_idea = ESS_interlude
+					add_idea = ESS_interlude_1
+				} 
+				add_political_power = 150
 			}
-			swap_ideas = {
-				remove_idea = ESS_interlude
-				add_idea = ESS_interlude_1
-			} 
-			add_political_power = 100
 			set_variable = {
-				var = ess_land_power
+				var = ESS_interregnum_moldbug_point
 				value = 0
 			}
 			set_variable = {
-				var = ess_fisher_power
+				var = ESS_interregnum_land_point
 				value = 0
 			}
 			set_variable = {
-				var = ess_moldbug_power
+				var = ESS_interregnum_fisher_point
 				value = 0
 			}
 			
@@ -1154,9 +1154,15 @@
 			focus = ESS_the_republic_triumphant
 		}
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = ESS_broken_hierarchy
-				add_idea = ESS_broken_hierarchy_1
+			ESS = {
+				country_event = {
+					days = 0
+					id = ESS_event.90
+				}
+				swap_ideas = {
+					remove_idea = ESS_london_in_flames_1
+					add_idea = ESS_london_in_flames_2
+				}
 			}
 		}
 		x = 7
@@ -1170,22 +1176,15 @@
 			focus = ESS_the_republic_triumphant
 		}
 		completion_reward = {
-			custom_effect_tooltip = ESS_woe_to_the_vanquished_tt
 			ESS = {
 				country_event = {
-					days = 1
+					days = 0
 					id = ESS_event.89
 				}
-			}
-			if = {
-				limit = {
-					ESS = {
-						has_country_flag = essex_fisher_option
-					}
+				swap_ideas = {
+					remove_idea = ESS_interlude_1
+					add_idea = ESS_interlude_2 
 				}
-				add_manpower = 6600
-				add_stability = 0.03
-				
 			}
 		}
 		x = 5
@@ -1199,9 +1198,15 @@
 			focus = ESS_the_republic_triumphant
 		}
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = ESS_london_in_flames
-				add_idea = ESS_london_in_flames_1
+			ESS = {
+				country_event = {
+					days = 0
+					id = ESS_event.91
+				}
+				swap_ideas = {
+					remove_idea = ESS_broken_hierarchy
+					add_idea = ESS_broken_hierarchy_1
+				}
 			}
 		}
 		x = 9
@@ -1218,9 +1223,15 @@
 			focus = ESS_londons_underbelly
 		}
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = ESS_london_in_flames_1
-				add_idea = ESS_london_in_flames_2
+			ESS = {
+				country_event = {
+					days = 0
+					id = ESS_event.92
+				}
+				swap_ideas = {
+					remove_idea = ESS_interlude_2
+					add_idea = ESS_interlude_3
+				} 
 			}
 		}
 		x = 6
@@ -1241,6 +1252,16 @@
 			focus = ESS_londons_underbelly
 		}
 		completion_reward = {
+			ESS = {
+				country_event = {
+					days = 0
+					id = ESS_event.93
+				}
+				swap_ideas = {
+					remove_idea = ESS_broken_hierarchy_2
+					add_idea = ESS_broken_hierarchy_3
+				}
+			}
 		}
 		x = 8
 		y = 12
@@ -1256,9 +1277,12 @@
 			focus = ESS_fate_of_the_favorites
 		}
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = ESS_london_in_flames_2
-				add_idea = ESS_london_in_flames_3
+			ESS = {
+				country_event = {
+					days = 0
+					id = ESS_event.94
+				}
+				remove_ideas = ESS_interlude_3
 			}
 		}
 		x = 7

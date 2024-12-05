@@ -88,6 +88,40 @@ focus_tree = {
 	}
 }
 
+focus_tree = {
+	id = ESS_land_interregnum
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+        shared_focus = ESS_luciferoverlondon
+		shared_focus = ESS_national_revolutionary_army
+		shared_focus = ESS_interregnum
+		shared_focus = ESS_the_republic_triumphant
+		
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = ESS
+		}
+	}
+}
+
+focus_tree = {
+	id = ESS_interregnum
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+        shared_focus = ESS_luciferoverlondon
+		shared_focus = ESS_national_revolutionary_army
+		shared_focus = ESS_interregnum	
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = ESS
+		}
+	}
+}
+
 
 focus_tree = {
 	id = ESS_moldbug_1

@@ -257,61 +257,6 @@ country_event = {
 		}
     }	
 }
-country_event = { ###Land###
-	id = ESS_event.51
-	title =ESS_event.51.t
-	desc = ESS_event.51.d
-	immediate = {log = "[GetDateText]: [Root.GetName]: event ESS_event.51"}
-	
-    fire_only_once = yes	
-	is_triggered_only = yes
-    option = {
-		name = ESS_event.51.a
-		   ESS = {
-				retire_country_leader = yes
-				set_country_flag = ESS_nick_here
-				}
-		  }
-	}	
-	
-country_event = { ###Dawkins###
-	id = ESS_event.52
-	title = ESS_event.52.t
-	desc = ESS_event.52.d
-	immediate = {log = "[GetDateText]: [Root.GetName]: event ESS_event.52"}
-	
-    fire_only_once = yes	
-	is_triggered_only = yes
-    option = {
-		name = ESS_event.52.a
-		    load_focus_tree = ESS_dawkins_1
-		    ESS = {
-				retire_country_leader = yes
-				set_politics = {
-					ruling_party = socialism
-				}
-			}
-	}
-}
-country_event = { ###Collins###
-	id = ESS_event.53
-	title = ESS_event.53.t
-	desc = ESS_event.53.d
-	immediate = {log = "[GetDateText]: [Root.GetName]: event ESS_event.53"}
-	
-    fire_only_once = yes	
-	is_triggered_only = yes
-    option = {
-		name = ESS_event.53.a
-		    load_focus_tree = ESS_collins_1
-		    ESS = {
-			retire_country_leader = yes
-				set_politics = {
-					ruling_party = hegemonism
-				}
-			}
-		  }
-	}
 
 country_event = { ###Direct Choice###
 	id = ESS_event.6
@@ -1044,9 +989,9 @@ country_event = {
 		name = ESS_event.29.a
 		ESS = {
 			set_country_flag = ESS_london_flood_proposed
-			}
 		}
 	}
+}
 	
 country_event = { 
 	id = ESS_event.30
@@ -1389,6 +1334,67 @@ country_event = {
 	}	
 }
 
+country_event = { ###Land###
+	id = ESS_event.51
+	title =ESS_event.51.t
+	desc = ESS_event.51.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ESS_event.51"}
+	
+    fire_only_once = yes	
+	is_triggered_only = yes
+    option = {
+		name = ESS_event.51.a
+		ESS = {
+			load_focus_tree = ESS_land_interregnum
+			retire_country_leader = yes
+			set_country_flag = ESS_nick_here
+			swap_ideas = {
+				remove_idea = ESS_empty_throne
+				add_idea = ESS_empty_throne_1
+			}
+		}
+	}
+}	
+	
+country_event = { ###Dawkins###
+	id = ESS_event.52
+	title = ESS_event.52.t
+	desc = ESS_event.52.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ESS_event.52"}
+	
+    fire_only_once = yes	
+	is_triggered_only = yes
+    option = {
+		name = ESS_event.52.a
+		ESS = {
+			load_focus_tree = ESS_dawkins_1
+			retire_country_leader = yes
+			set_politics = {
+				ruling_party = socialism
+			}
+		}
+	}
+}
+country_event = { ###Collins###
+	id = ESS_event.53
+	title = ESS_event.53.t
+	desc = ESS_event.53.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ESS_event.53"}
+	
+    fire_only_once = yes	
+	is_triggered_only = yes
+    option = {
+		name = ESS_event.53.a
+		ESS = {
+			load_focus_tree = ESS_collins_1
+			retire_country_leader = yes
+			set_politics = {
+				ruling_party = hegemonism
+			}
+		}
+	}
+}
+
 country_event = { 
 	id = ESS_event.60
 	title = ESS_event.60.t
@@ -1398,6 +1404,10 @@ country_event = {
 	picture = GFX_ESS_republic_proclamation
 	option = {
 		name = ESS_event.60.a
+		swap_ideas = {
+			remove_idea = ESS_london_in_flames
+			add_idea = ESS_london_in_flames_1
+		}
 	}	
 }
 
@@ -2052,62 +2062,350 @@ country_event = {
 	}
 }
 
-country_event = {
+country_event = { #Woe to The Vanquished
 	id = ESS_event.89
 	title = ESS_event.89.t
 	desc = ESS_event.89.d 
 	
     fire_only_once = yes	
 	is_triggered_only = yes
-	hidden = yes
     option = {
-		name = ESS_event.89.a 
-		clr_country_flag = essex_fisher_option
-		clr_country_flag = essex_land_option
-		clr_country_flag = essex_moldbug_option
+		name = ESS_event.89.a #Moldbug option
+		swap_ideas = {
+			remove_idea = ESS_empty_throne_2
+			add_idea = ESS_empty_throne_3
+		}
+		every_possible_country = {
+			limit = { has_character = EAG_michael_bates }
+			random_character = {
+				limit = { is_character = EAG_michael_bates }
+				set_nationality = ESS
+			}
+		}
+		every_possible_country = {
+			limit = { has_character = EAG_robin_tilbrook }
+			random_character = {
+				limit = { is_character = EAG_robin_tilbrook }
+				set_nationality = ESS
+			}
+		}
+		every_possible_country = {
+			limit = { has_character = EAG_julia_gasper }
+			random_character = {
+				limit = { is_character = EAG_julia_gasper }
+				set_nationality = ESS
+			}
+		}
+		add_stability = -0.05
+		add_to_variable = { ESS_interregnum_moldbug_point = 1 }
+	}
+    option = {
+		name = ESS_event.89.b #Land Option
+		swap_ideas = {
+			remove_idea = ESS_empty_throne_2
+			add_idea = ESS_empty_throne_3
+		}
+		every_possible_country = {
+			limit = { has_character = EAG_rudiger_von_pescatore }
+			random_character = {
+				limit = { is_character = EAG_rudiger_von_pescatore }
+				set_nationality = ESS
+			}
+		}
+		every_possible_country = {
+			limit = { has_character = EAG_dag_baehr }
+			random_character = {
+				limit = { is_character = EAG_dag_baehr }
+				set_nationality = ESS
+			}
+		}
+		every_possible_country = {
+			limit = { has_character = EAG_christian_freudingn }
+			random_character = {
+				limit = { is_character = EAG_christian_freudingn }
+				set_nationality = ESS
+			}
+		}
+		every_possible_country = {
+			limit = { has_character = EAG_martin_hohmann }
+			random_character = {
+				limit = { is_character = EAG_martin_hohmann }
+				set_nationality = ESS
+			}
+		}
+		every_possible_country = {
+			limit = { has_character = EAG_erich_vad }
+			random_character = {
+				limit = { is_character = EAG_erich_vad }
+				set_nationality = ESS
+			}
+		}
+		add_stability = -0.1
+		add_political_power = -25
+		add_to_variable = { ESS_interregnum_land_point = 1 }
+	}
+    option = {
+		name = ESS_event.89.c #Fisher Option
+		swap_ideas = {
+			remove_idea = ESS_empty_throne_2
+			add_idea = ESS_empty_throne_3
+		}
+		add_manpower = 6600
+		add_stability = 0.05
+		add_war_support = 0.05
+		add_political_power = 100
+		add_to_variable = { ESS_interregnum_fisher_point = 1 }
 	}
 }
 
-country_event = { #TRIAL GERMANS#
+country_event = { #London's Underbelly
 	id = ESS_event.90
 	title = ESS_event.90.t
-	desc = ESS_event.90.d
-	immediate = {log = "[GetDateText]: [Root.GetName]: event ESS_event.90"}
-	trigger = {
+	desc = ESS_event.90.d 
+	
+    fire_only_once = yes	
+	is_triggered_only = yes
+    option = {
+		name = ESS_event.90.a #Moldbug option
+		add_to_variable = { ESS_interregnum_moldbug_point = 1 }
 		ESS = {
-			focus_progress = {
-				focus = ESS_woe_to_the_vanquished
-				progress > 0.28
+			add_political_power = 25
+			add_timed_idea = {
+				idea = ESS_bands_economy
+				days = 125
 			}
 		}
-		original_tag = ESS
 	}
-	mean_time_to_happen = {
-		days = 2
-	}
-	picture = 
-	option = {
-		name = ESS_event.90.a
-		set_country_flag = essex_fisher_option
-		add_to_variable = {
-			var = ess_fisher_power
-			value = 1
+    option = {
+		name = ESS_event.90.b #Land Option
+		add_to_variable = { ESS_interregnum_land_point = 1 }
+		ESS = {
+			add_stability = -0.15
+			add_political_power = -10
+			1165 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
-	option = {
-		name = ESS_event.90.b
-		set_country_flag = essex_land_option
-		add_to_variable = {
-			var = ess_land_power
-			value = 1
+    option = {
+		name = ESS_event.90.c #Fisher Option
+		add_to_variable = { ESS_interregnum_fisher_point = 1 }
+		ESS = {
+			add_stability = 0.18
+			add_political_power = -75
+			1165 = {
+				damage_building = {
+						type = infrastructure
+						damage = 1
+				}
+				damage_building = {
+						type = infrastructure
+						damage = 1
+				}
+				damage_building = {
+						type = industrial_complex
+						damage = 1
+				}
+			}
 		}
 	}
-	option = {
-		name = ESS_event.90.c
-		set_country_flag = essex_moldbug_option
-		add_to_variable = {
-			var = ess_moldbug_power
-			value = 1
+}
+
+country_event = { #Economic Populism
+	id = ESS_event.91
+	title = ESS_event.91.t
+	desc = ESS_event.91.d 
+	
+    fire_only_once = yes	
+	is_triggered_only = yes
+    option = {
+		name = ESS_event.91.a #Moldbug option
+		add_to_variable = { ESS_interregnum_moldbug_point = 1 }
+		ESS = {
+			add_ideas = ESS_improved_economy_moldbug
+		}
+	}
+    option = {
+		name = ESS_event.91.b #Land Option
+		add_to_variable = { ESS_interregnum_land_point = 1 }
+		ESS = {
+			add_ideas = ESS_improved_economy_land
+		}
+	}
+    option = {
+		name = ESS_event.91.c #Fisher Option
+		add_to_variable = { ESS_interregnum_fisher_point = 1 }
+		ESS = {
+			add_ideas = ESS_improved_economy_fisher
+		}
+	}
+}
+
+country_event = { #Placate The Masses
+	id = ESS_event.92
+	title = ESS_event.92.t
+	desc = ESS_event.92.d 
+	
+    fire_only_once = yes	
+	is_triggered_only = yes
+    option = {
+		name = ESS_event.92.a #Moldbug option
+		add_to_variable = { ESS_interregnum_moldbug_point = 1 }
+		ESS = {
+			add_political_power = 150
+			add_stability = 0.05
+			swap_ideas = {
+				remove_idea = ESS_london_in_flames_2
+				add_idea = ESS_london_in_flames_3
+			} 
+		}
+	}
+    option = {
+		name = ESS_event.92.b #Land Option
+		add_to_variable = { ESS_interregnum_land_point = 1 }
+		ESS = {
+			add_timed_idea = {
+				idea = ESS_land_concessions
+				days = 365
+			}
+			swap_ideas = {
+				remove_idea = ESS_london_in_flames_2
+				add_idea = ESS_london_in_flames_3
+			} 
+		}
+	}
+    option = {
+		name = ESS_event.92.c #Fisher Option
+		add_to_variable = { ESS_interregnum_fisher_point = 1 }
+		ESS = {
+			add_stability = 0.05
+			add_war_support = 0.05
+			1165 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			swap_ideas = {
+				remove_idea = ESS_london_in_flames_2
+				add_idea = ESS_london_in_flames_3
+			} 
+		}
+	}
+}
+
+country_event = { #Fate of The Favorites
+	id = ESS_event.93
+	title = ESS_event.93.t
+	desc = ESS_event.93.d 
+	
+    fire_only_once = yes	
+	is_triggered_only = yes
+    option = {
+		name = ESS_event.93.a #Moldbug option
+		add_to_variable = { ESS_interregnum_moldbug_point = 1 }
+		ESS = {
+			add_political_power = 100
+			ESS_Richard_Dawkins = {
+				retire = yes
+			}
+			ESS_Tim_Collins = {
+				retire = yes
+			}
+		}
+	}
+    option = {
+		name = ESS_event.93.b #Land Option
+		add_to_variable = { ESS_interregnum_land_point = 1 }
+		ESS = {
+			ESS_Richard_Dawkins = {
+				retire = yes
+			}
+		}
+	}
+    option = {
+		name = ESS_event.93.c #Fisher Option
+		add_to_variable = { ESS_interregnum_fisher_point = 1 }
+		ESS = {
+			ESS_Tim_Collins = {
+				retire = yes
+			}
+		}
+	}
+}
+
+country_event = { #Choose leader
+	id = ESS_event.94
+	title = ESS_event.94.t
+	desc = ESS_event.94.d 
+	
+    fire_only_once = yes	
+	is_triggered_only = yes
+    option = {
+		name = ESS_event.94.a #Moldbug option
+		trigger = {
+			check_variable = { 
+				var = ESS_interregnum_moldbug_point
+				value = ESS_interregnum_land_point
+				compare = greater_than_or_equals
+			}
+			check_variable = { 
+				var = ESS_interregnum_moldbug_point
+				value = ESS_interregnum_fisher_point
+				compare = greater_than_or_equals
+			}
+		}
+		ESS = {
+			promote_character = ESS_curtis_yarvin
+			remove_ideas = ESS_empty_throne_3
+		}
+	}
+    option = {
+		name = ESS_event.94.b #Land Option
+		trigger = {
+			check_variable = { 
+				var = ESS_interregnum_land_point
+				value = ESS_interregnum_moldbug_point
+				compare = greater_than_or_equals
+			}
+			check_variable = { 
+				var = ESS_interregnum_land_point
+				value = ESS_interregnum_fisher_point
+				compare = greater_than_or_equals
+			}
+		}
+		ESS = {
+			promote_character = ESS_nick_land
+			remove_ideas = ESS_empty_throne_3
+		}
+	}
+    option = {
+		name = ESS_event.94.c #Fisher Option
+		trigger = {
+			check_variable = { 
+				var = ESS_interregnum_fisher_point
+				value = ESS_interregnum_land_point
+				compare = greater_than_or_equals
+			}
+			check_variable = { 
+				var = ESS_interregnum_fisher_point
+				value = ESS_interregnum_moldbug_point
+				compare = greater_than_or_equals
+			}
+		}
+		ESS = {
+			set_politics = {
+				ruling_party = commendationism
+			}
+			ESS = {
+				promote_character = ESS_Mark_Fisher
+				remove_ideas = ESS_empty_throne_3
+			}
 		}
 	}
 }

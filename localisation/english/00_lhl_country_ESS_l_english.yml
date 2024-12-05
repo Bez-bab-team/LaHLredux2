@@ -227,6 +227,12 @@
  ESS_employment_rush_tt:0 "This national idea switches every 90 days due to change in job conditions."
  ESS_gang_reforms:0 "Reformed Gang Military"
  ##Interlude##
+ ESS_improved_economy_land:0 "Introductory Economic Reforms"
+ ESS_improved_economy_moldbug:0 "Introductory Economic Reforms"
+ ESS_improved_economy_fisher:0 "Introductory Economic Reforms"
+ ESS_land_concessions:0 "Nick Land Fights for Your Rights!"
+ #
+ ESS_bands_economy:0 "Bandit Economy"
  ESS_interlude:0 "Interlude"
  ESS_interlude:0 "Interlude"
  ESS_interlude_1:0 "Interlude"
@@ -1022,6 +1028,10 @@
  ESS_event.50.d:0 "Tens of Thousands of listeners tuned in to the London’s National Radio tonight, as Curtis Yarvin – a famous American intellectual gave the first interview since his arrival to the capital of Great Britain. Yarvin spoke profusely of the issues plaguing England and the world at large, introducing listeners to the concept of the Cathedral. While Londoners were initially skeptical of Curtis after his statement that “England doesn’t really look that different from the last time I visited it”, Yarvin’s thorough political analysis and praise for Max Mosley as a strongheaded leader who kicked Cathedral’s agents out of London warmed the audience up to the American.\n\nCurtis has stated that he intends to continue working with his long-standing co-writer Nick Land and introduce advanced economic and state policies to transform Nationalist Britain into a secure, effective and responsible state."
  ESS_event.50.a:0 ""Thank you for your time, Mr. Yarvin""
  #
+ ESS_event.51.t:0 "Nick Land takes power!"
+ ESS_event.51.d:0 "Nick Land and his clique takes power."
+ ESS_event.51.a:0 "It's a little bit stable now"
+ #
  ESS_event.60.t:0 "Republic of Britain"
  ESS_event.60.d:0 "Jubilation fills the streets as Londoners and the liberated people of East Anglia celebrate the proclamation of the British Republic. After the death of Max Mosley and the beginning of the German siege, the situation in the city seemed extremely dire. There were genuine concerns that the death of the paramount leader would dissolve the invisible web that kept various gangs and political factions within London together and the city would succumb to internal conflict, before being fully consumed by the Hun menace. However, against all odds the nationalist movement was able to not only defeat the invaders, but to attain stability and democracy under the wise leadership of Nick Land and his fellow intellectuals.\n\nAs the new British Republic blooms, Land has stated that after a short stabilization period he will step down as the leader of the movement and proper elections will be conducted to propel England into a new era of freedom and prosperity."
  ESS_event.60.a:0 "Hurrah to the new British Republic"
@@ -1053,6 +1063,42 @@
  ESS_event.70.c:0 "Peter Thiel is a great choice"
  ESS_event.70.e:0 "Tim Spicer is a great choice"
  ESS_event.70.f:0 "You are all useless, a true monarch takes the wheel!"
+ #
+ ESS_event.89.t:0 "Dealing with Germans"
+ ESS_event.89.d:0 "What are we gonna do with the krauts?"
+ ESS_event.89.a:0 "Moldbug says save ministers"
+ ESS_event.89.b:0 "Land says save ministers and generals"
+ ESS_event.89.c:0 "Fisher says save common soldier "
+ #
+ ESS_event.90.t:0 "The Bandits"
+ ESS_event.90.d:0 "What do we do with bands of London"
+ ESS_event.90.a:0 "Moldbug says give them small state positions"
+ ESS_event.90.b:0 "Land says turn them into corporations"
+ ESS_event.90.c:0 "Fisher says kill them all"
+ #
+ ESS_event.91.t:0 "Scrapping The Barrel"
+ ESS_event.91.d:0 "We need to do something with economy to placate the people!"
+ ESS_event.91.a:0 "Moldbug says deregulate the economy"
+ ESS_event.91.b:0 "Land says sell drugs"
+ ESS_event.91.c:0 "Fisher says healthcare"
+ #
+ ESS_event.92.t:0 "Make The Pople Happy"
+ ESS_event.92.d:0 "We need to make people happy"
+ ESS_event.92.a:0 "Moldbug says keep free press"
+ ESS_event.92.b:0 "Land says give LGBTQ+ rights (transhumanism)"
+ ESS_event.92.c:0 "Fisher says host a cultural festival in London"
+ #
+ ESS_event.93.t:0 "Remnants of Molsley"
+ ESS_event.93.d:0 "What do we do with these annoying people?"
+ ESS_event.93.a:0 "Moldbug says retire them"
+ ESS_event.93.b:0 "Land says purge Dawkins"
+ ESS_event.93.c:0 "Fisher says purge Collins"
+ #
+ ESS_event.94.t:0 "Facade Breaks"
+ ESS_event.94.d:0 "its 3 am, pls choose one"
+ ESS_event.94.a:0 "Moldbug"
+ ESS_event.94.b:0 "Land"
+ ESS_event.94.c:0 "Fisher"
  #
  ##UNIVERSITIES##
  ESS_repolish_brilliants:0 "Repolished Brilliants"

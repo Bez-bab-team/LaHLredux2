@@ -1,6 +1,84 @@
 ideas = {
 
 	country = {
+	
+		##Land & Co##
+		ESS_land_concessions = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				monthly_population = 0.05
+				stability_weekly_factor = 0.005
+			}
+		}
+		ESS_improved_economy_land = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				stability_factor = -0.08
+			}
+		}
+		ESS_improved_economy_moldbug = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				stability_factor = 0.08
+			}
+		}
+		ESS_improved_economy_fisher = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.02
+				monthly_population = 0.05
+				stability_factor = 0.1
+			}
+		}
+		ESS_bands_economy = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = -0.05
+				conscription_factor = -0.05
+			}
+		}
 
 		ESS_accelerated_army = {
 			

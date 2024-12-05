@@ -504,7 +504,10 @@ characters={
 				 loyal_vassal
 			}
 			allowed = {
-				original_tag = EAG
+				OR = {
+					original_tag = EAG
+					original_tag = ESS
+				}
 			}
 			ai_will_do  = {
 				factor  = 1.000
@@ -567,7 +570,10 @@ characters={
 				freeman_of_london
 			}
 			allowed = {
-				original_tag = EAG
+				OR = {
+					original_tag = EAG
+					original_tag = ESS
+				}
 			}
 			ai_will_do  = {
 				factor  = 1.000
@@ -590,7 +596,10 @@ characters={
 				deregulator
 			}
 			allowed = {
-				original_tag = EAG
+				OR = {
+					original_tag = EAG
+					original_tag = ESS
+				}
 			}
 			ai_will_do  = {
 				factor  = 1.000
@@ -660,7 +669,10 @@ characters={
 				provocateur 
 			}
 			allowed = {
-				original_tag = EAG
+				OR = {
+					original_tag = EAG
+					original_tag = ESS
+				}
 			}
 			ai_will_do  = {
 				factor  = 1.000
@@ -758,7 +770,10 @@ characters={
 				military_analyst
 			}
 			allowed = {
-				original_tag = EAG
+				OR = {
+					original_tag = EAG
+					original_tag = ESS
+				}
 			}
 			ai_will_do  = {
 				factor  = 1.000
