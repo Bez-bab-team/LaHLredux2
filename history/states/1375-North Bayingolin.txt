@@ -1,0 +1,16 @@
+state={
+	id=1375
+	name="STATE_1375"
+	provinces={
+		517 680 2097 2417 2435 2910 3459 3595 4383 6508 6927 7157 7985 8346 9075 9739 11608 11650 11791 15004 17391 
+	}
+history={
+		owner = XIJ
+		add_core_of = XIJ
+
+	}
+
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

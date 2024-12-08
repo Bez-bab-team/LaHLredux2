@@ -1,0 +1,21 @@
+
+state={
+	id=1250
+	name="STATE_1250"
+
+	history={
+		owner = ETK
+		add_core_of = ETK
+		victory_points = {
+			119 5 
+		}
+
+	}
+provinces={
+		119 1020 1281 1361 1492 1549 1937 1969 2093 2565 2619 2731 2851 3663 4451 5035 5621 5737 5924 6439 6702 7144 7320 8240 8282 8857 11831 11922 11933 12021 12071 12228 12386 12476 14985 15017 17397 17408 17410 17412 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}
