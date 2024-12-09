@@ -370,3 +370,434 @@ lhl_ESS_income_calculation = {
 	add_to_temp_variable = { ESS_total_income_temp = ESS_power_income_temp }
 	set_variable = { ESS_board_of_directors_income = ESS_total_income_temp }
 }
+
+lhl_ESS_piechart_corporations_calculations = {
+	###MAIN CORPO NORMAL###
+	set_temp_variable = { ESS_corpo_state_political_power_gain_TEMP = ESS_corpo_state }
+	multiply_temp_variable = { ESS_corpo_state_political_power_gain_TEMP = ESS_corpo_state_political_power_gain_BUFF }
+	multiply_temp_variable = { ESS_corpo_state_political_power_gain_TEMP = 0.01 }
+	set_variable = { ESS_corpo_state_political_power_gain = ESS_corpo_state_political_power_gain_TEMP }
+	###
+	set_temp_variable = { ESS_corpo_state_political_advisor_cost_factor_TEMP = ESS_corpo_state }
+	multiply_temp_variable = { ESS_corpo_state_political_advisor_cost_factor_TEMP = ESS_corpo_state_political_advisor_cost_factor_BUFF }
+	multiply_temp_variable = { ESS_corpo_state_political_advisor_cost_factor_TEMP = -0.01 }
+	set_variable = { ESS_corpo_state_political_advisor_cost_factor = ESS_corpo_state_political_advisor_cost_factor_TEMP }
+	###
+	set_temp_variable = { ESS_corpo_state_mobilization_laws_cost_factor_TEMP = ESS_corpo_state }
+	multiply_temp_variable = { ESS_corpo_state_mobilization_laws_cost_factor_TEMP = ESS_corpo_state_mobilization_laws_cost_factor_BUFF }
+	multiply_temp_variable = { ESS_corpo_state_mobilization_laws_cost_factor_TEMP = -0.01 }
+	set_variable = { ESS_corpo_state_mobilization_laws_cost_factor = ESS_corpo_state_mobilization_laws_cost_factor_TEMP }
+	###
+	set_temp_variable = { ESS_corpo_state_trade_laws_cost_factor_TEMP = ESS_corpo_state }
+	multiply_temp_variable = { ESS_corpo_state_trade_laws_cost_factor_TEMP = ESS_corpo_state_trade_laws_cost_factor_BUFF }
+	multiply_temp_variable = { ESS_corpo_state_trade_laws_cost_factor_TEMP = -0.01 }
+	set_variable = { ESS_corpo_state_trade_laws_cost_factor = ESS_corpo_state_trade_laws_cost_factor_TEMP }
+	###
+	set_temp_variable = { ESS_corpo_state_head_of_government_cost_factor_TEMP = ESS_corpo_state }
+	multiply_temp_variable = { ESS_corpo_state_head_of_government_cost_factor_TEMP = ESS_corpo_state_head_of_government_cost_factor_BUFF }
+	multiply_temp_variable = { ESS_corpo_state_head_of_government_cost_factor_TEMP = -0.01 }
+	set_variable = { ESS_corpo_state_head_of_government_cost_factor = ESS_corpo_state_head_of_government_cost_factor_TEMP }
+	###
+	set_temp_variable = { ESS_corpo_state_research_speed_factor_TEMP = ESS_corpo_state }
+	multiply_temp_variable = { ESS_corpo_state_research_speed_factor_TEMP = ESS_corpo_state_research_speed_factor_BUFF }
+	multiply_temp_variable = { ESS_corpo_state_research_speed_factor_TEMP = 0.005 }
+	set_variable = { ESS_corpo_state_research_speed_factor = ESS_corpo_state_research_speed_factor_TEMP }
+	###MAIN CORPO HEALTHCARE###
+	if = {
+		limit = {
+			ESS = {
+				ESS_emma_walmsley = {
+					is_country_leader = yes
+				}
+			}
+		}
+		set_temp_variable = { ESS_corpo_state_monthly_population_TEMP = ESS_corpo_state }
+		multiply_temp_variable = { ESS_corpo_state_monthly_population_TEMP = ESS_corpo_state_monthly_population_BUFF }
+		multiply_temp_variable = { ESS_corpo_state_monthly_population_TEMP = 0.01 }
+		set_variable = { ESS_corpo_state_monthly_population = ESS_corpo_state_monthly_population_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_state_recruitable_population_factor_TEMP = ESS_corpo_state }
+		multiply_temp_variable = { ESS_corpo_state_recruitable_population_factor_TEMP = ESS_corpo_state_recruitable_population_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_state_recruitable_population_factor_TEMP = 0.001 }
+		set_variable = { ESS_corpo_state_recruitable_population_factor = ESS_corpo_state_recruitable_population_factor_TEMP }
+	}
+	###MAIN CORPO CONSTRUCTION###
+	if = {
+		limit = {
+			ESS = {
+				ESS_clive_palmer = {
+					is_country_leader = yes
+				}
+			}
+		}
+		set_temp_variable = { ESS_corpo_state_production_speed_buildings_factor_TEMP = ESS_corpo_state }
+		multiply_temp_variable = { ESS_corpo_state_production_speed_buildings_factor_TEMP = ESS_corpo_state_production_speed_buildings_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_state_production_speed_buildings_factor_TEMP = 0.005 }
+		set_variable = { ESS_corpo_state_production_speed_buildings_factor = ESS_corpo_state_production_speed_buildings_factor_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_state_production_factory_max_efficiency_factor_TEMP = ESS_corpo_state }
+		multiply_temp_variable = {ESS_corpo_state_production_factory_max_efficiency_factor_TEMP = ESS_corpo_state_production_factory_max_efficiency_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_state_production_factory_max_efficiency_factor_TEMP = 0.005 }
+		set_variable = { ESS_corpo_state_production_factory_max_efficiency_factor = ESS_corpo_state_production_factory_max_efficiency_factor_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_state_production_factory_efficiency_gain_factor_TEMP = ESS_corpo_state }
+		multiply_temp_variable = { ESS_corpo_state_production_factory_efficiency_gain_factor_TEMP = ESS_corpo_state_production_factory_efficiency_gain_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_state_production_factory_efficiency_gain_factor_TEMP = 0.005 }
+		set_variable = {ESS_corpo_state_production_factory_efficiency_gain_factor = ESS_corpo_state_production_factory_efficiency_gain_factor_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_state_local_resources_factor_TEMP = ESS_corpo_state }
+		multiply_temp_variable = { ESS_corpo_state_local_resources_factor_TEMP = ESS_corpo_state_local_resources_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_state_local_resources_factor_TEMP = 0.005 }
+		set_variable = { ESS_corpo_state_local_resources_factor = ESS_corpo_state_local_resources_factor_TEMP }
+	}
+	###MAIN CORPO MILITARY###
+	if = {
+		limit = {
+			ESS = {
+				SUS_tim_spicer = {
+					is_country_leader = yes
+				}
+			}
+		}
+		set_temp_variable = { ESS_corpo_state_army_org_factor_TEMP = ESS_corpo_state }
+		multiply_temp_variable = { ESS_corpo_state_army_org_factor_TEMP = ESS_corpo_state_army_org_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_state_army_org_factor_TEMP = 0.005 }
+		set_variable = { ESS_corpo_state_army_org_factor = ESS_corpo_state_army_org_factor_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_state_army_morale_factor_TEMP = ESS_corpo_state }
+		multiply_temp_variable = { ESS_corpo_state_army_morale_factor_TEMP = ESS_corpo_state_army_morale_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_state_army_morale_factor_TEMP = 0.005 }
+		set_variable = { ESS_corpo_state_army_morale_factor = ESS_corpo_state_army_morale_factor_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_state_war_support_factor_TEMP = ESS_corpo_state }
+		multiply_temp_variable = { ESS_corpo_state_war_support_factor_TEMP = ESS_corpo_state_war_support_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_state_war_support_factor_TEMP = 0.005 }
+		set_variable = { ESS_corpo_state_war_support_factor = ESS_corpo_state_war_support_factor_TEMP }
+	}
+	###HELTHCARE CORPO###
+	if = {
+		limit = {
+			check_variable = { ESS_pie_chart_healthcare_active = 1 }
+		}
+		set_temp_variable = { ESS_corpo_healthcare_monthly_population_TEMP = ESS_corpo_healthcare }
+		multiply_temp_variable = { ESS_corpo_healthcare_monthly_population_TEMP = ESS_corpo_healthcare_monthly_population_BUFF }
+		multiply_temp_variable = { ESS_corpo_healthcare_monthly_population_TEMP = 0.01 }	
+		set_variable = { ESS_corpo_healthcare_monthly_population = ESS_corpo_healthcare_monthly_population_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_healthcare_recruitable_population_factor_TEMP = ESS_corpo_healthcare }
+		multiply_temp_variable = { ESS_corpo_healthcare_recruitable_population_factor_TEMP = ESS_corpo_healthcare_recruitable_population_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_healthcare_recruitable_population_factor_TEMP = 0.001 }
+		set_variable = { ESS_corpo_healthcare_recruitable_population_factor = ESS_corpo_healthcare_recruitable_population_factor_TEMP }
+	}
+	###CONSTRUCTION CORPO###
+	if = {
+		limit = {
+			check_variable = { ESS_pie_chart_construction_active = 1 }
+		}
+		set_temp_variable = { ESS_corpo_construction_production_speed_buildings_factor_TEMP = ESS_corpo_construction }
+		multiply_temp_variable = { ESS_corpo_construction_production_speed_buildings_factor_TEMP = ESS_corpo_construction_production_speed_buildings_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_construction_production_speed_buildings_factor_TEMP = 0.005 }
+		set_variable = { ESS_corpo_construction_production_speed_buildings_factor = ESS_corpo_construction_production_speed_buildings_factor_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_construction_production_factory_max_efficiency_factor_TEMP = ESS_corpo_construction }
+		multiply_temp_variable = {ESS_corpo_construction_production_factory_max_efficiency_factor_TEMP = ESS_corpo_construction_production_factory_max_efficiency_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_construction_production_factory_max_efficiency_factor_TEMP = 0.005 }
+		set_variable = { ESS_corpo_construction_production_factory_max_efficiency_factor = ESS_corpo_construction_production_factory_max_efficiency_factor_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_construction_production_factory_efficiency_gain_factor_TEMP = ESS_corpo_construction }
+		multiply_temp_variable = { ESS_corpo_construction_production_factory_efficiency_gain_factor_TEMP = ESS_corpo_construction_production_factory_efficiency_gain_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_construction_production_factory_efficiency_gain_factor_TEMP = 0.005 }
+		set_variable = { ESS_corpo_construction_production_factory_efficiency_gain_factor = ESS_corpo_construction_production_factory_efficiency_gain_factor_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_construction_local_resources_factor_TEMP = ESS_corpo_construction }
+		multiply_temp_variable = { ESS_corpo_construction_local_resources_factor_TEMP = ESS_corpo_construction_local_resources_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_construction_local_resources_factor_TEMP = 0.005 }
+		set_variable = { ESS_corpo_construction_local_resources_factor = ESS_corpo_construction_local_resources_factor_TEMP}
+	}	
+	###MILITARY CORPO###
+	if = {
+		limit = {
+			check_variable = { ESS_pie_chart_pmc_active = 1 }
+		}
+		set_temp_variable = { ESS_corpo_pmc_army_org_factor_TEMP = ESS_corpo_pmc }
+		multiply_temp_variable = { ESS_corpo_pmc_army_org_factor_TEMP = ESS_corpo_pmc_army_org_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_pmc_army_org_factor_TEMP = 0.005 }
+		set_variable = { ESS_corpo_pmc_army_org_factor = ESS_corpo_pmc_army_org_factor_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_pmc_army_morale_factor_TEMP = ESS_corpo_pmc }
+		multiply_temp_variable = { ESS_corpo_pmc_army_morale_factor_TEMP = ESS_corpo_pmc_army_morale_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_pmc_army_morale_factor_TEMP = 0.005 }
+		set_variable = { ESS_corpo_pmc_army_morale_factor = ESS_corpo_pmc_army_morale_factor_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_pmc_war_support_factor_TEMP = ESS_corpo_pmc }
+		multiply_temp_variable = { ESS_corpo_pmc_war_support_factor_TEMP = ESS_corpo_pmc_war_support_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_pmc_war_support_factor_TEMP = 0.005 }
+		set_variable = { ESS_corpo_pmc_war_support_factor = ESS_corpo_pmc_war_support_factor_TEMP }
+	}
+	###SPY CORPO###
+	if = {
+		limit = {
+			check_variable = { ESS_pie_chart_spy_active = 1 }
+		}
+		set_temp_variable = { ESS_corpo_spy_intel_from_operatives_factor_TEMP = ESS_corpo_spy }
+		multiply_temp_variable = { ESS_corpo_spy_intel_from_operatives_factor_TEMP = ESS_corpo_spy_intel_from_operatives_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_spy_intel_from_operatives_factor_TEMP = 0.01 }
+		set_variable = { ESS_corpo_spy_intel_from_operatives_factor = ESS_corpo_spy_intel_from_operatives_factor_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_spy_intel_network_gain_factor_TEMP = ESS_corpo_spy }
+		multiply_temp_variable = { ESS_corpo_spy_intel_network_gain_factor_TEMP = ESS_corpo_spy_intel_network_gain_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_spy_intel_network_gain_factor_TEMP = 0.01 }
+		set_variable = { ESS_corpo_spy_intel_network_gain_factor = ESS_corpo_spy_intel_network_gain_factor_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_spy_agency_upgrade_time_TEMP = ESS_corpo_spy }
+		multiply_temp_variable = { ESS_corpo_spy_agency_upgrade_time_TEMP = ESS_corpo_spy_agency_upgrade_time_BUFF }
+		multiply_temp_variable = { ESS_corpo_spy_agency_upgrade_time_TEMP = -0.01 }
+		set_variable = { ESS_corpo_spy_agency_upgrade_time = ESS_corpo_spy_agency_upgrade_time_TEMP }
+	}		
+	###MEDIA CORPO###
+	if = {
+		limit = {
+			check_variable = { ESS_pie_chart_media_active = 1 }
+		}
+		set_temp_variable = { ESS_corpo_media_compliance_growth_TEMP = ESS_corpo_media }
+		multiply_temp_variable = { ESS_corpo_media_compliance_growth_TEMP = ESS_corpo_media_compliance_growth_BUFF }
+		multiply_temp_variable = { ESS_corpo_media_compliance_growth_TEMP = -0.01 }
+		set_variable = { ESS_corpo_media_compliance_growth = ESS_corpo_media_compliance_growth_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_media_resistance_activity_TEMP = ESS_corpo_media }
+		multiply_temp_variable = { ESS_corpo_media_resistance_activity_TEMP = ESS_corpo_media_resistance_activity_BUFF }
+		multiply_temp_variable = { ESS_corpo_media_resistance_activity_TEMP = -0.01 }
+		set_variable = { ESS_corpo_media_resistance_activity = ESS_corpo_media_resistance_activity_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_media_send_volunteer_factor_TEMP = ESS_corpo_media }
+		multiply_temp_variable = { ESS_corpo_media_send_volunteer_factor_TEMP = ESS_corpo_media_send_volunteer_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_media_send_volunteer_factor_TEMP = 0.01 }
+		set_variable = { ESS_corpo_media_send_volunteer_factor = ESS_corpo_media_send_volunteer_factor_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_media_opinion_gain_monthly_factor_TEMP = ESS_corpo_media }
+		multiply_temp_variable = { ESS_corpo_media_opinion_gain_monthly_factor_TEMP = ESS_corpo_media_opinion_gain_monthly_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_media_opinion_gain_monthly_factor_TEMP = 0.01 }
+		set_variable = { ESS_corpo_media_opinion_gain_monthly_factor = ESS_corpo_media_opinion_gain_monthly_factor_TEMP }
+	}	
+	###TOURISM CORPO###
+	if = {
+		limit = {
+			check_variable = { ESS_pie_chart_tourism_active = 1 }
+		}
+		set_temp_variable = { ESS_corpo_tourism_trade_opinion_factor_TEMP = ESS_corpo_tourism }
+		multiply_temp_variable = { ESS_corpo_tourism_trade_opinion_factor_TEMP = ESS_corpo_tourism_trade_opinion_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_tourism_trade_opinion_factor_TEMP = 0.01 }
+		set_variable = { ESS_corpo_tourism_trade_opinion_factor = ESS_corpo_tourism_trade_opinion_factor_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_tourism_min_export_TEMP = ESS_corpo_tourism }
+		multiply_temp_variable = { ESS_corpo_tourism_min_export_TEMP = ESS_corpo_tourism_min_export_BUFF }
+		multiply_temp_variable = { ESS_corpo_tourism_min_export_TEMP = -0.005 }
+		set_variable = { ESS_corpo_tourism_min_export = ESS_corpo_tourism_min_export_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_tourism_weekly_manpower_TEMP = ESS_corpo_tourism }
+		multiply_temp_variable = { ESS_corpo_tourism_weekly_manpower_TEMP = ESS_corpo_tourism_weekly_manpower_BUFF }
+		multiply_temp_variable = { ESS_corpo_tourism_weekly_manpower_TEMP = 10 }
+		set_variable = { ESS_corpo_tourism_weekly_manpower = ESS_corpo_tourism_weekly_manpower_TEMP }
+	}	
+	###FARMING CORPO###
+	if = {
+		limit = {
+			check_variable = { ESS_pie_chart_farming_active = 1 }
+		}
+		set_temp_variable = { ESS_corpo_farming_attrition_TEMP = ESS_corpo_farming }
+		multiply_temp_variable = { ESS_corpo_farming_attrition_TEMP = ESS_corpo_farming_attrition_BUFF }
+		multiply_temp_variable = { ESS_corpo_farming_attrition_TEMP = -0.005 }
+		set_variable = { ESS_corpo_farming_attrition = ESS_corpo_farming_attrition_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_farming_supply_factor_TEMP = ESS_corpo_farming }
+		multiply_temp_variable = { ESS_corpo_farming_supply_factor_TEMP = ESS_corpo_farming_supply_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_farming_supply_factor_TEMP = 0.005 }
+		set_variable = { ESS_corpo_farming_supply_factor =  ESS_corpo_farming_supply_factor_TEMP }
+	}	
+	###PEOPLE'S SHARES CORPO###
+	if = {
+		limit = {
+			check_variable = { ESS_pie_chart_people_shares_active = 1 }
+		}
+		set_temp_variable = { ESS_corpo_shares_consumer_goods_factor_TEMP = ESS_corpo_people_shares }
+		multiply_temp_variable = { ESS_corpo_shares_consumer_goods_factor_TEMP = ESS_corpo_shares_consumer_goods_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_shares_consumer_goods_factor_TEMP = -0.002 }
+		set_variable = { ESS_corpo_shares_consumer_goods_factor = ESS_corpo_shares_consumer_goods_factor_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_shares_stability_factor_TEMP = ESS_corpo_people_shares }
+		multiply_temp_variable = { ESS_corpo_shares_stability_factor_TEMP = ESS_corpo_shares_stability_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_shares_stability_factor_TEMP = 0.005 }
+		set_variable = { ESS_corpo_shares_stability_factor = ESS_corpo_shares_stability_factor_TEMP }
+	}
+	###MISC COMPANIES###
+	if = {
+		limit = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_1_active
+			}
+		}
+		set_temp_variable = { ESS_corpo_companies_base_fuel_gain_factor_TEMP = ESS_corpo_small_companies }
+		multiply_temp_variable = { ESS_corpo_companies_base_fuel_gain_factor_TEMP = ESS_corpo_companies_base_fuel_gain_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_companies_base_fuel_gain_factor_TEMP = 0.01 }
+		set_variable = { ESS_corpo_companies_base_fuel_gain_factor = ESS_corpo_companies_base_fuel_gain_factor_TEMP }
+	}
+	if = {
+		limit = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_2_active
+			}
+		}
+		set_temp_variable = { ESS_corpo_companies_industry_air_damage_factor_TEMP = ESS_corpo_small_companies }
+		multiply_temp_variable = { ESS_corpo_companies_industry_air_damage_factor_TEMP = ESS_corpo_companies_industry_air_damage_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_companies_industry_air_damage_factor_TEMP = -0.01 }
+		set_variable = { ESS_corpo_companies_industry_air_damage_factor = ESS_corpo_companies_industry_air_damage_factor_TEMP }
+	}	
+	if = {
+		limit = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_3_active
+			}
+		}
+		set_temp_variable = { ESS_corpo_companies_female_random_operative_chance_TEMP = ESS_corpo_small_companies }
+		multiply_temp_variable = {ESS_corpo_companies_female_random_operative_chance_TEMP = ESS_corpo_companies_female_random_operative_chance_BUFF }
+		multiply_temp_variable = { ESS_corpo_companies_female_random_operative_chance_TEMP = 0.01 }
+		set_variable = { ESS_corpo_companies_female_random_operative_chance = ESS_corpo_companies_female_random_operative_chance_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_companies_female_random_army_leader_chance_TEMP = ESS_corpo_small_companies }
+		multiply_temp_variable = {ESS_corpo_companies_female_random_army_leader_chance_TEMP = ESS_corpo_companies_female_random_army_leader_chance_BUFF }
+		multiply_temp_variable = { ESS_corpo_companies_female_random_army_leader_chance_TEMP = 0.01 }
+		set_variable = { ESS_corpo_companies_female_random_army_leader_chance = ESS_corpo_companies_female_random_army_leader_chance_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_companies_female_random_admiral_chance_TEMP = ESS_corpo_small_companies }
+		multiply_temp_variable = { ESS_corpo_companies_female_random_admiral_chance_TEMP = ESS_corpo_companies_female_random_admiral_chance_BUFF }
+		multiply_temp_variable = {ESS_corpo_companies_female_random_admiral_chance_TEMP = 0.01 }
+		set_variable = { ESS_corpo_companies_female_random_admiral_chance = ESS_corpo_companies_female_random_admiral_chance_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_companies_female_divisional_commander_chance_TEMP = ESS_corpo_small_companies }
+		multiply_temp_variable = { ESS_corpo_companies_female_divisional_commander_chance_TEMP = ESS_corpo_companies_female_divisional_commander_chance_BUFF }
+		multiply_temp_variable = { ESS_corpo_companies_female_divisional_commander_chance_TEMP = 0.01 }
+		set_variable = { ESS_corpo_companies_female_divisional_commander_chance = ESS_corpo_companies_female_divisional_commander_chance_TEMP }
+	}	
+	if = {
+		limit = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_4_active
+			}
+		}
+		set_temp_variable = { ESS_corpo_companies_transport_capacity_TEMP = ESS_corpo_small_companies }
+		multiply_temp_variable = { ESS_corpo_companies_transport_capacity_TEMP = ESS_corpo_companies_transport_capacity_BUFF }
+		multiply_temp_variable = { ESS_corpo_companies_transport_capacity_TEMP = -0.01 }
+		set_variable = { ESS_corpo_companies_transport_capacity = ESS_corpo_companies_transport_capacity_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_companies_naval_equipment_upgrade_xp_cost_TEMP = ESS_corpo_small_companies }
+		multiply_temp_variable = { ESS_corpo_companies_naval_equipment_upgrade_xp_cost_TEMP = ESS_corpo_companies_naval_equipment_upgrade_xp_cost_BUFF }
+		multiply_temp_variable = { ESS_corpo_companies_naval_equipment_upgrade_xp_cost_TEMP = -0.01 }
+		set_variable = { ESS_corpo_companies_naval_equipment_upgrade_xp_cost = ESS_corpo_companies_naval_equipment_upgrade_xp_cost_TEMP }
+	}	
+	if = {
+		limit = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_5_active
+			}
+		}
+		set_temp_variable = { ESS_corpo_companies_naval_accidents_chance_TEMP = ESS_corpo_small_companies }
+		multiply_temp_variable = { ESS_corpo_companies_naval_accidents_chance_TEMP = ESS_corpo_companies_naval_accidents_chance_BUFF }
+		multiply_temp_variable = { ESS_corpo_companies_naval_accidents_chance_TEMP = -0.01 }
+		set_variable = { ESS_corpo_companies_naval_accidents_chance = ESS_corpo_companies_naval_accidents_chance_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_companies_air_accidents_factor_TEMP = ESS_corpo_small_companies }
+		multiply_temp_variable = { ESS_corpo_companies_air_accidents_factor_TEMP = ESS_corpo_companies_air_accidents_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_companies_air_accidents_factor_TEMP = -0.01 }
+		set_variable = { ESS_corpo_companies_air_accidents_factor = ESS_corpo_companies_air_accidents_factor_TEMP }
+	}	
+	if = {
+		limit = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_6_active
+			}
+		}
+		set_temp_variable = { ESS_corpo_companies_equipment_upgrade_xp_cost_TEMP = ESS_corpo_small_companies }
+		multiply_temp_variable = { ESS_corpo_companies_equipment_upgrade_xp_cost_TEMP = ESS_corpo_companies_equipment_upgrade_xp_cost_BUFF }
+		multiply_temp_variable = { ESS_corpo_companies_equipment_upgrade_xp_cost_TEMP = -0.005 }
+		set_variable = {  ESS_corpo_companies_equipment_upgrade_xp_cost = ESS_corpo_companies_equipment_upgrade_xp_cost_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_companies_equipment_conversion_speed_TEMP = ESS_corpo_small_companies }
+		multiply_temp_variable = {ESS_corpo_companies_equipment_conversion_speed_TEMP = ESS_corpo_companies_equipment_conversion_speed_BUFF }
+		multiply_temp_variable = { ESS_corpo_companies_equipment_conversion_speed_TEMP = 0.01 }
+		set_variable = { ESS_corpo_companies_equipment_conversion_speed = ESS_corpo_companies_equipment_conversion_speed_TEMP }
+	}	
+	if = {
+		limit = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_7_active
+			}
+		}
+		set_temp_variable = { ESS_corpo_companies_acclimatization_cold_climate_gain_factor_TEMP = ESS_corpo_small_companies }
+		multiply_temp_variable = { ESS_corpo_companies_acclimatization_cold_climate_gain_factor_TEMP = ESS_corpo_companies_acclimatization_cold_climate_gain_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_companies_acclimatization_cold_climate_gain_factor_TEMP = 0.005 }
+		set_variable = { ESS_corpo_companies_acclimatization_cold_climate_gain_factor = ESS_corpo_companies_acclimatization_cold_climate_gain_factor_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_companies_acclimatization_hot_climate_gain_factor_TEMP = ESS_corpo_small_companies }
+		multiply_temp_variable = { ESS_corpo_companies_acclimatization_hot_climate_gain_factor_TEMP = ESS_corpo_companies_acclimatization_hot_climate_gain_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_companies_acclimatization_hot_climate_gain_factor_TEMP = 0.005 }
+		set_variable = { ESS_corpo_companies_acclimatization_hot_climate_gain_factor = ESS_corpo_companies_acclimatization_hot_climate_gain_factor_TEMP }
+	}	
+	if = {
+		limit = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_8_active
+			}
+		}
+		set_temp_variable = { ESS_corpo_companies_air_volunteer_cap_TEMP = ESS_corpo_small_companies }
+		multiply_temp_variable = { ESS_corpo_companies_air_volunteer_cap_TEMP = ESS_corpo_companies_air_volunteer_cap_BUFF }
+		multiply_temp_variable = { ESS_corpo_companies_air_volunteer_cap_TEMP = 50 }
+		set_variable = { ESS_corpo_companies_air_volunteer_cap = ESS_corpo_companies_air_volunteer_cap_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_companies_air_ace_bonuses_factor_TEMP = ESS_corpo_small_companies }
+		multiply_temp_variable = { ESS_corpo_companies_air_ace_bonuses_factor_TEMP = ESS_corpo_companies_air_ace_bonuses_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_companies_air_ace_bonuses_factor_TEMP = 0.01 }
+		set_variable = { ESS_corpo_companies_air_ace_bonuses_factor = ESS_corpo_companies_air_ace_bonuses_factor_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_companies_air_ace_generation_chance_factor_TEMP = ESS_corpo_small_companies }
+		multiply_temp_variable = { ESS_corpo_companies_air_ace_generation_chance_factor_TEMP = ESS_corpo_companies_air_ace_generation_chance_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_companies_air_ace_generation_chance_factor_TEMP = 0.01 }
+		set_variable = { ESS_corpo_companies_air_ace_generation_chance_factor = ESS_corpo_companies_air_ace_generation_chance_factor_TEMP }
+		###
+		set_temp_variable = { ESS_corpo_companies_ace_effectiveness_factor_TEMP = ESS_corpo_small_companies }
+		multiply_temp_variable = { ESS_corpo_companies_ace_effectiveness_factor_TEMP = ESS_corpo_companies_ace_effectiveness_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_companies_ace_effectiveness_factor_TEMP = 0.01 }
+		set_variable = { ESS_corpo_companies_ace_effectiveness_factor = ESS_corpo_companies_ace_effectiveness_factor_TEMP }
+	}	
+	if = {
+		limit = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_9_active
+			}
+		}
+		set_temp_variable = { ESS_corpo_companies_production_speed_supply_node_factor_TEMP = ESS_corpo_small_companies }
+		multiply_temp_variable = { ESS_corpo_companies_production_speed_supply_node_factor_TEMP = ESS_corpo_companies_production_speed_supply_node_factor_BUFF }
+		multiply_temp_variable = { ESS_corpo_companies_production_speed_supply_node_factor_TEMP = 0.1 }
+		set_variable = { ESS_corpo_companies_production_speed_supply_node_factor = ESS_corpo_companies_production_speed_supply_node_factor_TEMP }
+	}	
+	if = {
+		limit = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_10_active
+			}
+		}
+		set_temp_variable = { ESS_corpo_companies_bullshit_TEMP = ESS_corpo_small_companies }
+		multiply_temp_variable = { ESS_corpo_companies_bullshit_TEMP = ESS_corpo_companies_bullshit_BUFF }
+		multiply_temp_variable = { ESS_corpo_companies_bullshit_TEMP = 0.01 }
+		set_variable = { ESS_corpo_companies_bullshit = ESS_corpo_companies_bullshit_TEMP }
+	}		
+}

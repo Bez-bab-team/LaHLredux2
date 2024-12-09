@@ -89,6 +89,12 @@ ESS_debug = {
 
 ESS_board_of_directors = {
 	ESS_interact_with_CEO = {
+		available = {
+			has_completed_focus = ESS_franchise_governance
+		}
+		visible = {
+			has_completed_focus = ESS_franchise_governance
+		}
 		complete_effect = {
 			if = {
 				limit = {

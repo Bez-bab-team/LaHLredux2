@@ -8,6 +8,13 @@ ESS_london_bands = {
 	visible_when_empty = yes
 	scripted_gui = lhl_london_bands_screen_body
 	allowed = { original_tag = ESS }
+	visible = {
+		NOT = {
+			ESS = {
+				has_country_flag = ESS_bands_destroyed
+			}
+		}
+	}
 }
 
 ESS_desperate_measures = {
@@ -58,4 +65,7 @@ ESS_board_of_directors = {
 	visible_when_empty = yes
 	scripted_gui = lhl_ESS_board_of_directors_screen_body
 	allowed = { original_tag = ESS }
+	visible = {
+	    has_country_flag = ESS_board_of_directors_activated
+	}
 }

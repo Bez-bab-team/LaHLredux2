@@ -635,3 +635,106 @@ ESS_local_CEO_modifier = {
 	icon = GFX_based
 }
 
+###Moldbug Modifiers###
+ESS_modifier_corpo_state = {
+	icon = GFX_based
+	political_power_gain = ESS_corpo_state_political_power_gain
+	political_advisor_cost_factor = ESS_corpo_state_political_advisor_cost_factor
+	mobilization_laws_cost_factor = ESS_corpo_state_mobilization_laws_cost_factor
+	trade_laws_cost_factor = ESS_corpo_state_trade_laws_cost_factor
+	head_of_government_cost_factor = ESS_corpo_state_head_of_government_cost_factor
+	research_speed_factor = ESS_corpo_state_research_speed_factor
+	#Healthcare#
+	monthly_population = ESS_corpo_state_monthly_population
+	recruitable_population_factor = ESS_corpo_state_recruitable_population_factor
+	#Construction#
+	production_speed_buildings_factor = ESS_corpo_state_production_speed_buildings_factor
+	production_factory_max_efficiency_factor = ESS_corpo_state_production_factory_max_efficiency_factor
+	production_factory_efficiency_gain_factor = ESS_corpo_state_production_factory_efficiency_gain_factor
+	local_resources_factor = ESS_corpo_state_local_resources_factor
+	#Military#
+	army_org_factor = ESS_corpo_state_army_org_factor
+	army_morale_factor = ESS_corpo_state_army_morale_factor
+	war_support_factor = ESS_corpo_state_war_support_factor
+}
+ESS_modifier_corpo_healthcare = {
+	icon = GFX_based
+	monthly_population = ESS_corpo_healthcare_monthly_population
+	recruitable_population_factor = ESS_corpo_healthcare_recruitable_population_factor
+}
+ESS_modifier_corpo_construction = {
+	icon = GFX_based
+	production_speed_buildings_factor = ESS_corpo_construction_production_speed_buildings_factor
+	production_factory_max_efficiency_factor = ESS_corpo_construction_production_factory_max_efficiency_factor
+	production_factory_efficiency_gain_factor = ESS_corpo_construction_production_factory_efficiency_gain_factor
+	local_resources_factor = ESS_corpo_construction_local_resources_factor
+}
+ESS_modifier_corpo_pmc = {
+	icon = GFX_based
+	army_org_factor = ESS_corpo_pmc_army_org_factor
+	army_morale_factor = ESS_corpo_pmc_army_morale_factor
+	war_support_factor = ESS_corpo_pmc_war_support_factor
+}
+ESS_modifier_corpo_spy = {
+	icon = GFX_based
+	intel_from_operatives_factor = ESS_corpo_spy_intel_from_operatives_factor
+	intel_network_gain_factor = ESS_corpo_spy_intel_network_gain_factor
+	agency_upgrade_time = ESS_corpo_spy_agency_upgrade_time
+}
+ESS_modifier_corpo_media = {
+	icon = GFX_based
+	compliance_growth_on_our_occupied_states = ESS_corpo_media_compliance_growth
+	resistance_activity = ESS_corpo_media_resistance_activity
+	send_volunteer_factor = ESS_corpo_media_send_volunteer_factor
+	opinion_gain_monthly_factor = ESS_corpo_media_opinion_gain_monthly_factor
+}
+ESS_modifier_corpo_tourism = {
+	icon = GFX_based
+	trade_opinion_factor = ESS_corpo_tourism_trade_opinion_factor
+	min_export = ESS_corpo_tourism_min_export
+	weekly_manpower = ESS_corpo_tourism_weekly_manpower
+}
+ESS_modifier_corpo_farming = {
+	icon = GFX_based
+	attrition = ESS_corpo_farming_attrition
+	supply_factor = ESS_corpo_farming_supply_factor
+}
+ESS_modifier_corpo_companies = {
+	icon = GFX_based
+	#Alternative Fuel Company#
+	base_fuel_gain_factor = ESS_corpo_companies_base_fuel_gain_factor 
+	#Sturdy Buildings Company#
+	industry_air_damage_factor = ESS_corpo_companies_industry_air_damage_factor
+	#Woman Corporation#
+	female_random_operative_chance = ESS_corpo_companies_female_random_operative_chance
+	female_random_army_leader_chance = ESS_corpo_companies_female_random_army_leader_chance
+	female_random_admiral_chance = ESS_corpo_companies_female_random_admiral_chance
+	female_divisional_commander_chance = ESS_corpo_companies_female_divisional_commander_chance
+	#Naval Industry Company#
+	transport_capacity = ESS_corpo_companies_transport_capacity
+	naval_equipment_upgrade_xp_cost = ESS_corpo_companies_naval_equipment_upgrade_xp_cost
+	#Safety Company#
+	naval_accidents_chance = ESS_corpo_companies_naval_accidents_chance
+	air_accidents_factor = ESS_corpo_companies_air_accidents_factor
+	#Equipment#
+	equipment_conversion_speed = ESS_corpo_companies_equipment_conversion_speed
+	equipment_upgrade_xp_cost = ESS_corpo_companies_equipment_upgrade_xp_cost
+	#Clothes Company#
+	acclimatization_cold_climate_gain_factor = ESS_corpo_companies_acclimatization_cold_climate_gain_factor
+	acclimatization_hot_climate_gain_factor = ESS_corpo_companies_acclimatization_hot_climate_gain_factor
+	#Air Training#
+	air_volunteer_cap = ESS_corpo_companies_air_volunteer_cap
+	air_ace_bonuses_factor = ESS_corpo_companies_air_ace_bonuses_factor
+	air_ace_generation_chance_factor = ESS_corpo_companies_air_ace_generation_chance_factor
+	ace_effectiveness_factor = ESS_corpo_companies_ace_effectiveness_factor
+	#Infrastructure Company#
+	production_speed_supply_node_factor = ESS_corpo_companies_production_speed_supply_node_factor
+	#Fake Company#
+	#Fake Modifier#
+}
+ESS_modifier_corpo_shares = {
+	icon = GFX_based
+	consumer_goods_factor = ESS_corpo_shares_consumer_goods_factor
+	stability_factor = ESS_corpo_shares_stability_factor
+}
+

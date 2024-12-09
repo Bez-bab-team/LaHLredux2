@@ -651,11 +651,11 @@
 	}
 	completion_reward = {
 		    ESS = {
-			add_timed_idea = { 
-				idea = ESS_field_recruiting
-				days = 100 
+				add_timed_idea = { 
+					idea = ESS_field_recruiting
+					days = 100 
 				}
-				}
+			}
 			division_template = {
 				name = "Drafted Punks"
 				division_names_group = ESS_INF_02
@@ -1258,8 +1258,8 @@
 					id = ESS_event.93
 				}
 				swap_ideas = {
-					remove_idea = ESS_broken_hierarchy_2
-					add_idea = ESS_broken_hierarchy_3
+					remove_idea = ESS_broken_hierarchy_1
+					add_idea = ESS_broken_hierarchy_2
 				}
 			}
 		}
@@ -4798,6 +4798,17 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_found_the_british_company"
+			ESS = {
+			    country_event = {
+				    days = 0
+					id = ESS_event.95
+				}
+				remove_ideas = ESS_broken_hierarchy_2
+				hidden_effect = {
+					set_cosmetic_tag = ESS_BRITISH_CORPORATION
+				}
+			}
+			custom_effect_tooltip = ESS_found_the_british_company_tt
 		}
 		x = 16
 		y = 7
@@ -4808,6 +4819,13 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_reintegration_of_offenders"
+			ESS = {
+				add_political_power = 150
+				swap_ideas = {
+					remove_idea = ESS_transition_period_1
+					add_idea =  ESS_transition_period_2
+				}
+			}
 		}
 		prerequisite = {
 			focus = ESS_found_the_british_company
@@ -4821,6 +4839,22 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_pound_restructurization"
+			ESS = {
+			    country_event = {
+				    days = 0
+					id = ESS_event.96
+				}
+				add_timed_idea = {
+					idea = ESS_tanked_economy
+					days = 200
+				}
+				set_country_flag = ESS_board_of_directors_activated
+				set_variable = { ESS_pie_chart_state_active = 1 }
+				set_variable = { ESS_pie_chart_people_shares_active = 1 }
+				set_variable = { ESS_corpo_state = 70 }
+				set_variable = { ESS_corpo_people_shares = 30 }
+			}
+			custom_effect_tooltip = ESS_pound_restructurization_tt
 		}
 		prerequisite = {
 			focus = ESS_found_the_british_company
@@ -4834,6 +4868,16 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_franchise_governance"
+			ESS = {
+				every_core_state = {
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			custom_effect_tooltip = ESS_franchise_governance_tt
 		}
 		prerequisite = {
 			focus = ESS_found_the_british_company
@@ -4847,6 +4891,24 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_seek_and_destroy"
+			ESS = {
+				add_political_power = -200
+				add_war_support = -0.08
+				add_stability = -0.08
+				remove_ideas = ESS_london_in_flames_3
+				1160 = {
+					damage_building = {
+						type = industrial_complex
+						damage = 1
+					}
+					damage_building = {
+						type = infrastructure
+						damage = 1
+					}
+				}
+				set_country_flag = ESS_bands_destroyed
+			}
+			custom_effect_tooltip = ESS_seek_and_destroy_tt
 		}
 		prerequisite = {
 			focus = ESS_pound_restructurization
@@ -4866,6 +4928,22 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_slow_boil"
+			ESS = {
+				add_political_power = 75
+				add_war_support = 0.05
+				add_stability = 0.05
+				add_timed_idea = {
+					idea = ESS_flushing_em_out
+					days = 180
+				}
+				hidden_effect = {
+					country_event = {
+						days = 180
+						id = ESS_event.97
+					}
+				}
+			}
+			custom_effect_tooltip = ESS_slow_boil_tt
 		}
 		prerequisite = {
 			focus = ESS_pound_restructurization

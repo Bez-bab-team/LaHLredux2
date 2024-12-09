@@ -164,3 +164,8 @@ SUS_BLUE_STATE = {
     color = rgb { 0  38  255 }
     color_ui = rgb { 0  38  255 }
 }
+
+ESS_BRITISH_CORPORATION = {
+    color = rgb { 251  201  0 }
+    color_ui = rgb { 251  201  0 }
+}

@@ -99,6 +99,10 @@
  ESS_REUNIFIED1:0 "British Union"
  ESS_REUNIFIED2:0 "English Republic"
  ESS_REUNIFIED3:0 "English National State"
+ #
+ ESS_BRITISH_CORPORATION:0 "British State"
+ ESS_BRITISH_CORPORATION_ADJ:0 "the British State"
+ ESS_BRITISH_CORPORATION_DEF:0 "British"
  ##TRAITS##
  mad_max:0 "Mad Max"
  militiaman:0 "Militiaman"
@@ -1100,6 +1104,18 @@
  ESS_event.94.b:0 "Land"
  ESS_event.94.c:0 "Fisher"
  #
+ ESS_event.95.t:0 "The People's Backlash"
+ ESS_event.95.d:0 "Wait, wtf, democracy was fake?"
+ ESS_event.95.a:0 "Always has been"}
+ #
+ ESS_event.96.t:0 "The CEO State"
+ ESS_event.96.d:0 "Funny Piechart mechanic is active, also an event describing that we killed our economy (Bravo Moldbug)"
+ ESS_event.96.a:0 "Another GUI thingy, huh"
+ #
+ ESS_event.96.t:0 "Bandits Destroyed!"
+ ESS_event.96.d:0 "Our efforts to destroy the bandits with subterfuge have worked!"
+ ESS_event.96.a:0 "Cool!"
+ #
  ##UNIVERSITIES##
  ESS_repolish_brilliants:0 "Repolished Brilliants"
  ESS_UNIVERSITY_NAME:0 "[ROOT.GetLondonUniversityName]"
@@ -1533,16 +1549,16 @@
  ESS_board_of_directors_money:0 "Our monthly income: §Y££[?ESS_board_of_directors_income|.0] million§!\n\nOur current budget: §Y££[?ESS_board_of_directors_budget|.0] million§!"
  #
  ESS_piechart_tooltip:0 "Corporation Piechart[GetESSPiechartState][GetESSPiechartHealthcare][GetESSPiechartConstruction][GetESSPiechartPmc][GetESSPiechartSpy][GetESSPiechartMedia][GetESSPiechartTourism][GetESSPiechartFarming][GetESSPiechartPeople][GetESSPiechartSmallCompanies]"
- ESS_pie_chart_state_active_tt:0 "\n§0State Corporation: [?ESS_corpo_state]%§!"
- ESS_pie_chart_healthcare_active_tt:0 "\n§2Healthcare Corporation: [?ESS_corpo_healthcare]%§!"
- ESS_pie_chart_construction_active_tt:0 "\n§7Construction Corporation: [?ESS_corpo_construction]%§!"
- ESS_pie_chart_pmc_active_tt:0 "\n§HPMC Corporation: [?ESS_corpo_pmc]%§!"
- ESS_pie_chart_spy_active_tt:0 "\n§4Spy Corporation: [?ESS_corpo_spy]%§!"
- ESS_pie_chart_media_active_tt:0 "\n§8Media Corporation: [?ESS_corpo_spy]%§!"
- ESS_pie_chart_tourism_active_tt:0 "\n§tTourism Corporation: [?ESS_corpo_tourism]%§!"
- ESS_pie_chart_farming_active_tt:0 "\n§OFarming Corporation: [?ESS_corpo_farming]%§!"
- ESS_pie_chart_small_companies_active_tt:0 "\n§tPrivate Companies: [?ESS_corpo_small_companies]%§!"
- ESS_pie_chart_people_shares_active_tt:0 "\n§tNational Shares: [?ESS_corpo_people_shares]%§!"
+ ESS_pie_chart_state_active_tt:0 "\n§0Governing Trust Association: [?ESS_corpo_state]%§!"
+ ESS_pie_chart_healthcare_active_tt:0 "\n§2National Health Company: [?ESS_corpo_healthcare]%§!"
+ ESS_pie_chart_construction_active_tt:0 "\n§7Balfour Beauty: [?ESS_corpo_construction]%§!"
+ ESS_pie_chart_pmc_active_tt:0 "\n§HPublic Forces: [?ESS_corpo_pmc]%§!"
+ ESS_pie_chart_spy_active_tt:0 "\n§4National Detective Agency: [?ESS_corpo_spy]%§!"
+ ESS_pie_chart_media_active_tt:0 "\n§8British Broadcasting Corporation: [?ESS_corpo_media]%§!"
+ ESS_pie_chart_tourism_active_tt:0 "\n§tEasyGroup: [?ESS_corpo_tourism]%§!"
+ ESS_pie_chart_farming_active_tt:0 "\n§OConcord Food Company: [?ESS_corpo_farming]%§!"
+ ESS_pie_chart_small_companies_active_tt:0 "\n§tMisc. Companies: [?ESS_corpo_small_companies]%§!"
+ ESS_pie_chart_people_shares_active_tt:0 "\n§tSocial Trust Fund: [?ESS_corpo_people_shares]%§!"
  #
  ESS_board_of_directors_landlords_tt:0 "§YLandlords§!"
  ESS_board_of_directors_magnates_tt:0 "§YMagnates§!"
@@ -1573,4 +1589,18 @@
  ESS_quarter_request_failing:0 "We need to raise or monthly income to §R££[?ESS_board_of_directors_income_new|.1] million§!\nOur current income is §Y££[?ESS_board_of_directors_income|.1] million§!\n§RWe are not meeting the quota!§!"
  ESS_quarter_request_success:0 "We need to raise or monthly income to §G££[?ESS_board_of_directors_income_new|.1] million§!\nOur current income is §Y££[?ESS_board_of_directors_income|.1] million§!\n§GWe have met the quota!§!"
  ESS_quarter_request:0 "The Quarter Request"
- 
+ ###Moldbug Stuff###
+ ESS_found_the_british_company_tt:0 "§RThe Short-lived Republic Will Cease to Exist§!"
+ ESS_pound_restructurization_tt:0 "§YThe CEO State Mechanic Will Become Available§!\nThe §0State Corporation§! Gains §Y70%§! of The Shares\n\The §tNational Shares§! Are Set at §Y30%§!"
+ ESS_franchise_governance_tt:0 "§YWe Will Be Able to Assign Local CEOs to Core States§!"
+ ESS_seek_and_destroy_tt:0 "§RThe Bandits of London Will Be Dealt With, Swiftly and Brutally§!"
+ ESS_slow_boil_tt:0 "§YThe Bandits of London Will Be Dealt With, Slowly and Carefully§!"
+ ESS_transition_period_1:0 "Transition Period"
+ ESS_transition_period_2:0 "Transition Period"
+ ESS_tanked_economy:0 "Tanked Economy"
+ ESS_flushing_em_out:0 "Flushing 'Em Out"
+ ESS_emma_walmsley_annexation:0 "§YAll Assets Currently Responsible for Healthcare Will Be Integrated into§! §0The Governing Trust Association§!"
+ ESS_tim_spicer_annexation:0 "§YAll Assets Currently Responsible for Industry Will Be Integrated into§! §0The Governing Trust Association§!"
+ ESS_clive_palmer_annexation:0 "§YAll Assets Currently Responsible for Military Will Be Integrated into§! §0The Governing Trust Association§!"
+ #
+ #

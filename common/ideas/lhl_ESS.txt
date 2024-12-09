@@ -1,7 +1,77 @@
 ideas = {
 
 	country = {
-	
+		##Moldbug##
+		ESS_flushing_em_out = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.25
+				weekly_manpower = -100
+				resistance_damage_to_garrison = 0.25
+			}
+		}
+		ESS_tanked_economy = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.25
+				consumer_goods_factor = 0.15
+				production_factory_efficiency_gain_factor = -0.15
+				production_factory_max_efficiency_factor = -0.15
+			}
+		}
+		ESS_transition_period_1 = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.35
+				political_advisor_cost_factor = -0.3
+				mobilization_laws_cost_factor = -0.3
+				trade_laws_cost_factor = -0.3
+				head_of_government_cost_factor = -0.3
+			}
+		}
+		ESS_transition_period_2 = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.30
+				weekly_manpower = 1500
+				political_advisor_cost_factor = -0.3
+				mobilization_laws_cost_factor = -0.3
+				trade_laws_cost_factor = -0.3
+				head_of_government_cost_factor = -0.3
+			}
+		}
 		##Land & Co##
 		ESS_land_concessions = {
 			

@@ -1,4 +1,12 @@
 on_actions = {
+	on_weekly_ESS = {  ###Piechart on_action. Big thanks to Yard1 and his "HoI4-Scripted-GUI-Pie-Chart" example mod###
+		effect = {
+			if = {
+				limit = { is_ai = no }
+				lhl_ESS_piechart_corporations_calculations = yes
+			}
+		}
+	}
 	on_daily = {  ###Piechart on_action. Big thanks to Yard1 and his "HoI4-Scripted-GUI-Pie-Chart" example mod###
 		effect = {
 			if = {

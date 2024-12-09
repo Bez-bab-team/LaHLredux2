@@ -1464,7 +1464,14 @@ country_event = { #Set corpo popularity #1
 	id = ESS_event.64
 	title = ESS_event.64.t
 	desc = ESS_event.64.d
-	immediate = {log = "[GetDateText]: [Root.GetName]: event ESS_event.64"}
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event ESS_event.64"
+		set_variable = { ESS_pie_chart_state_active = 1 }
+		set_variable = {
+			var = ESS_corpo_state
+			value = 100
+		}		
+	}
 	is_triggered_only = yes
 	picture = GFX_ESS_german_POWs
 	option = {
@@ -1483,7 +1490,12 @@ country_event = { #Set corpo popularity #1
 	option = {
 		name = ESS_event.64.b
 		lhl_ESS_create_pie_chart = yes
+		set_variable = { ESS_pie_chart_healthcare_active = 1 }
 		set_variable = { ESS_pie_chart_construction_active = 1 }
+		set_variable = { ESS_pie_chart_pmc_active = 1 }
+		set_variable = { ESS_pie_chart_spy_active = 1 }
+		set_variable = { ESS_pie_chart_farming_active = 1 }
+		set_variable = { ESS_pie_chart_tourism_active = 1 }
 		add_to_variable = {
 			var = ESS_corpo_state
 			value = -20
@@ -1883,6 +1895,58 @@ country_event = { #Choose CEO
 		clr_country_flag = ESS_board_of_directors_strike_1
 		clr_country_flag = ESS_board_of_directors_strike_2
 		clr_country_flag = ESS_board_of_directors_strike_3
+		###Variable Stuff###
+		set_variable = { ESS_corpo_state_monthly_population_BUFF = 1 }
+		set_variable = { ESS_corpo_state_recruitable_population_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_state_production_speed_buildings_factor_BUFF = 0 }
+		set_variable = { ESS_corpo_state_production_factory_max_efficiency_factor_BUFF = 0 }
+		set_variable = { ESS_corpo_state_production_factory_efficiency_gain_factor_BUFF = 0 }
+		set_variable = { ESS_corpo_state_local_resources_factor_BUFF = 0 }
+		set_variable = { ESS_corpo_state_army_org_factor_BUFF = 0 }
+		set_variable = { ESS_corpo_state_army_morale_factor_BUFF = 0 }	
+		set_variable = { ESS_corpo_state_war_support_factor_BUFF = 0 }	
+		add_to_variable = {
+			var = ESS_corpo_state
+			value = ESS_corpo_healthcare
+			tooltip = ESS_emma_walmsley_annexation
+		}
+		set_variable = {
+			var = ESS_corpo_healthcare
+			value = 0
+		}
+		if = {
+			limit = {
+				ESS = {
+					has_country_flag = ESS_corpo_healthcare_activated_flag
+				}
+			}
+			set_variable = {
+				var = ESS_pie_chart_healthcare_active
+				value = 0
+			}
+		}
+		if = {
+			limit = {
+				ESS = {
+					has_country_flag = ESS_corpo_pmc_activated_flag
+				}
+			}
+			set_variable = {
+				var = ESS_pie_chart_pmc_active
+				value = 1
+			}
+		}
+		if = {
+			limit = {
+				ESS = {
+					has_country_flag = ESS_corpo_construction_activated_flag
+				}
+			}
+			set_variable = {
+				var = ESS_pie_chart_construction_active_active
+				value = 1
+			}
+		}
 	}
 	option = {
 		name = ESS_event.70.b
@@ -1905,6 +1969,58 @@ country_event = { #Choose CEO
 		clr_country_flag = ESS_board_of_directors_strike_1
 		clr_country_flag = ESS_board_of_directors_strike_2
 		clr_country_flag = ESS_board_of_directors_strike_3
+		###Variable Stuff###
+		set_variable = { ESS_corpo_state_monthly_population_BUFF = 0 }
+		set_variable = { ESS_corpo_state_recruitable_population_factor_BUFF = 0 }
+		set_variable = { ESS_corpo_state_production_speed_buildings_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_state_production_factory_max_efficiency_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_state_production_factory_efficiency_gain_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_state_local_resources_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_state_army_org_factor_BUFF = 0 }
+		set_variable = { ESS_corpo_state_army_morale_factor_BUFF = 0 }
+		set_variable = { ESS_corpo_state_war_support_factor_BUFF = 0 }	
+		add_to_variable = {
+			var = ESS_corpo_state
+			value = ESS_corpo_construction
+			tooltip = ESS_clive_palmer_annexation
+		}
+		set_variable = {
+			var = ESS_corpo_construction
+			value = 0
+		}
+		if = {
+			limit = {
+				ESS = {
+					has_country_flag = ESS_corpo_healthcare_activated_flag
+				}
+			}
+			set_variable = {
+				var = ESS_pie_chart_healthcare_active
+				value = 1
+			}
+		}
+		if = {
+			limit = {
+				ESS = {
+					has_country_flag = ESS_corpo_pmc_activated_flag
+				}
+			}
+			set_variable = {
+				var = ESS_pie_chart_pmc_active
+				value = 1
+			}
+		}
+		if = {
+			limit = {
+				ESS = {
+					has_country_flag = ESS_corpo_construction_activated_flag
+				}
+			}
+			set_variable = {
+				var = ESS_pie_chart_construction_active_active
+				value = 0
+			}
+		}
 	}
 	option = {
 		name = ESS_event.70.c
@@ -1961,6 +2077,58 @@ country_event = { #Choose CEO
 		clr_country_flag = ESS_board_of_directors_strike_1
 		clr_country_flag = ESS_board_of_directors_strike_2
 		clr_country_flag = ESS_board_of_directors_strike_3
+		###Variable Stuff###
+		set_variable = { ESS_corpo_state_monthly_population_BUFF = 0 }
+		set_variable = { ESS_corpo_state_recruitable_population_factor_BUFF = 0 }
+		set_variable = { ESS_corpo_state_production_speed_buildings_factor_BUFF = 0 }
+		set_variable = { ESS_corpo_state_production_factory_max_efficiency_factor_BUFF = 0 }
+		set_variable = { ESS_corpo_state_production_factory_efficiency_gain_factor_BUFF = 0 }
+		set_variable = { ESS_corpo_state_local_resources_factor_BUFF = 0 }
+		set_variable = { ESS_corpo_state_army_org_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_state_army_morale_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_state_war_support_factor_BUFF = 1 }
+		add_to_variable = {
+			var = ESS_corpo_state
+			value = ESS_corpo_pmc
+			tooltip = ESS_tim_spicer_annexation
+		}
+		set_variable = {
+			var = ESS_pmc
+			value = 0
+		}
+		if = {
+			limit = {
+				ESS = {
+					has_country_flag = ESS_corpo_healthcare_activated_flag
+				}
+			}
+			set_variable = {
+				var = ESS_pie_chart_healthcare_active
+				value = 1
+			}
+		}
+		if = {
+			limit = {
+				ESS = {
+					has_country_flag = ESS_corpo_pmc_activated_flag
+				}
+			}
+			set_variable = {
+				var = ESS_pie_chart_pmc_active
+				value = 0
+			}
+		}
+		if = {
+			limit = {
+				ESS = {
+					has_country_flag = ESS_corpo_construction_activated_flag
+				}
+			}
+			set_variable = {
+				var = ESS_pie_chart_construction_active_active
+				value = 1
+			}
+		}
 	}
 	option = {
 		name = ESS_event.70.f
@@ -2407,5 +2575,225 @@ country_event = { #Choose leader
 				remove_ideas = ESS_empty_throne_3
 			}
 		}
+	}
+}
+	
+country_event = { #The People's Backlash
+	id = ESS_event.95
+	title = ESS_event.95.t
+	desc = ESS_event.95.d 
+	
+    fire_only_once = yes	
+	is_triggered_only = yes
+    option = {
+		name = ESS_event.95.a #Moldbug option
+		ESS = {
+			add_timed_idea = { 
+				idea = ESS_transition_period_1
+				days = 300
+			}
+			add_political_power = 75
+		}
+	}
+}
+
+country_event = { #Pound Restructuring
+	id = ESS_event.96
+	title = ESS_event.96.t
+	desc = ESS_event.96.d 
+	
+    fire_only_once = yes	
+	is_triggered_only = yes
+    option = {
+		name = ESS_event.96.a #Moldbug option
+		ESS = {
+			add_political_power = 100
+			add_stability = 0.05
+		}
+	}
+}
+
+country_event = { #Slow Boil
+	id = ESS_event.97
+	title = ESS_event.97.t
+	desc = ESS_event.97.d 
+	
+    fire_only_once = yes	
+	is_triggered_only = yes
+    option = {
+		name = ESS_event.97.a #Moldbug option
+		ESS = {
+			remove_ideas = ESS_london_in_flames_3
+			set_country_flag = ESS_bands_destroyed
+		}
+	}
+}
+
+country_event = { #Variable Test
+	id = ESS_event.98
+	title = ESS_event.98.t
+	desc = ESS_event.98.d 
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event ESS_event.98"
+		set_variable = { ESS_pie_chart_state_active = 1 }
+		set_variable = {
+			var = ESS_corpo_state
+			value = 100
+		}		
+	}	
+    fire_only_once = yes	
+	is_triggered_only = yes
+    option = {
+		name = ESS_event.98.a #Moldbug option
+		set_variable = { ESS_pie_chart_healthcare_active = 1 }
+		set_variable = { ESS_pie_chart_construction_active = 1 }
+		set_variable = { ESS_pie_chart_pmc_active = 1 }
+		set_variable = { ESS_pie_chart_spy_active = 1 }
+		set_variable = { ESS_pie_chart_farming_active = 1 }
+		set_variable = { ESS_pie_chart_tourism_active = 1 }
+		set_variable = { ESS_pie_chart_media_active = 1 }
+		set_variable = { ESS_pie_chart_people_shares_active = 1 }
+		set_variable = { ESS_pie_chart_small_companies_active = 1 }
+		ESS = {
+			set_country_flag = ESS_small_corpo_1_active
+			set_country_flag = ESS_small_corpo_2_active
+			set_country_flag = ESS_small_corpo_3_active
+			set_country_flag = ESS_small_corpo_4_active
+			set_country_flag = ESS_small_corpo_5_active
+			set_country_flag = ESS_small_corpo_6_active
+			set_country_flag = ESS_small_corpo_7_active
+			set_country_flag = ESS_small_corpo_8_active
+			set_country_flag = ESS_small_corpo_9_active
+			set_country_flag = ESS_small_corpo_10_active
+		}
+		set_variable = {
+			var = ESS_corpo_state
+			value = 10
+		}	
+		set_variable = {
+			var = ESS_corpo_healthcare
+			value = 10
+		}	
+		set_variable = {
+			var = ESS_corpo_construction
+			value = 10
+		}	
+		set_variable = {
+			var = ESS_corpo_pmc
+			value = 10
+		}	
+		set_variable = {
+			var = ESS_corpo_spy
+			value = 10
+		}	
+		set_variable = {
+			var = ESS_corpo_farming
+			value = 10
+		}	
+		set_variable = {
+			var = ESS_corpo_tourism
+			value = 10
+		}
+		set_variable = {
+			var = ESS_corpo_media
+			value = 10
+		}	
+		set_variable = {
+			var = ESS_corpo_small_companies
+			value = 10
+		}		
+		set_variable = {
+			var = ESS_corpo_people_shares
+			value = 10
+		}		
+		add_dynamic_modifier = {
+			modifier = ESS_modifier_corpo_state
+		}
+		add_dynamic_modifier = {
+			modifier = ESS_modifier_corpo_healthcare
+		}
+		add_dynamic_modifier = {
+			modifier = ESS_modifier_corpo_construction
+		}
+		add_dynamic_modifier = {
+			modifier = ESS_modifier_corpo_pmc
+		}
+		add_dynamic_modifier = {
+			modifier = ESS_modifier_corpo_spy
+		}
+		add_dynamic_modifier = {
+			modifier = ESS_modifier_corpo_media
+		}
+		add_dynamic_modifier = {
+			modifier = ESS_modifier_corpo_tourism
+		}
+		add_dynamic_modifier = {
+			modifier = ESS_modifier_corpo_farming
+		}
+		add_dynamic_modifier = {
+			modifier = ESS_modifier_corpo_companies
+		}
+		add_dynamic_modifier = {
+			modifier = ESS_modifier_corpo_shares
+		}
+		###Buffs###
+		set_variable = { ESS_corpo_state_political_power_gain_BUFF = 1 }
+		set_variable = { ESS_corpo_state_political_advisor_cost_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_state_mobilization_laws_cost_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_state_trade_laws_cost_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_state_head_of_government_cost_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_state_research_speed_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_state_monthly_population_BUFF = 1 }
+		set_variable = { ESS_corpo_state_recruitable_population_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_state_production_speed_buildings_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_state_production_factory_max_efficiency_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_state_production_factory_efficiency_gain_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_state_local_resources_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_state_army_org_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_state_army_morale_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_state_war_support_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_healthcare_monthly_population_BUFF = 1 }
+		set_variable = { ESS_corpo_healthcare_recruitable_population_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_construction_production_speed_buildings_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_construction_production_factory_max_efficiency_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_construction_production_factory_efficiency_gain_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_construction_local_resources_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_pmc_army_org_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_pmc_army_morale_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_pmc_war_support_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_spy_intel_from_operatives_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_spy_intel_network_gain_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_spy_agency_upgrade_time_BUFF = 1 }
+		set_variable = { ESS_corpo_media_compliance_growth_BUFF = 1 }
+		set_variable = { ESS_corpo_media_resistance_activity_BUFF = 1 }
+		set_variable = { ESS_corpo_media_send_volunteer_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_media_opinion_gain_monthly_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_tourism_trade_opinion_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_tourism_min_export_BUFF = 1 }
+		set_variable = { ESS_corpo_tourism_weekly_manpower_BUFF = 1 }
+		set_variable = { ESS_corpo_farming_attrition_BUFF = 1 }
+		set_variable = { ESS_corpo_farming_supply_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_shares_consumer_goods_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_shares_stability_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_base_fuel_gain_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_industry_air_damage_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_female_random_operative_chance_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_female_random_army_leader_chance_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_female_random_admiral_chance_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_female_divisional_commander_chance_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_transport_capacity_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_naval_equipment_upgrade_xp_cost_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_naval_accidents_chance_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_air_accidents_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_equipment_upgrade_xp_cost_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_equipment_conversion_speed_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_acclimatization_cold_climate_gain_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_acclimatization_hot_climate_gain_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_air_volunteer_cap_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_air_ace_bonuses_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_air_ace_generation_chance_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_ace_effectiveness_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_production_speed_supply_node_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_bullshit_BUFF = 1 }
 	}
 }
