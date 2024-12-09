@@ -1896,15 +1896,15 @@ country_event = { #Choose CEO
 		clr_country_flag = ESS_board_of_directors_strike_2
 		clr_country_flag = ESS_board_of_directors_strike_3
 		###Variable Stuff###
-		set_variable = { ESS_corpo_state_monthly_population_BUFF = 1 }
-		set_variable = { ESS_corpo_state_recruitable_population_factor_BUFF = 1 }
-		set_variable = { ESS_corpo_state_production_speed_buildings_factor_BUFF = 0 }
-		set_variable = { ESS_corpo_state_production_factory_max_efficiency_factor_BUFF = 0 }
-		set_variable = { ESS_corpo_state_production_factory_efficiency_gain_factor_BUFF = 0 }
-		set_variable = { ESS_corpo_state_local_resources_factor_BUFF = 0 }
-		set_variable = { ESS_corpo_state_army_org_factor_BUFF = 0 }
-		set_variable = { ESS_corpo_state_army_morale_factor_BUFF = 0 }	
-		set_variable = { ESS_corpo_state_war_support_factor_BUFF = 0 }	
+		set_variable = { ESS_corpo_state_monthly_population = 1 }
+		set_variable = { ESS_corpo_state_recruitable_population_factor = 1 }
+		set_variable = { ESS_corpo_state_production_speed_buildings_factor = 0 }
+		set_variable = { ESS_corpo_state_production_factory_max_efficiency_factor = 0 }
+		set_variable = { ESS_corpo_state_production_factory_efficiency_gain_factor = 0 }
+		set_variable = { ESS_corpo_state_local_resources_factor = 0 }
+		set_variable = { ESS_corpo_state_army_org_factor = 0 }
+		set_variable = { ESS_corpo_state_army_morale_factor = 0 }	
+		set_variable = { ESS_corpo_state_war_support_factor = 0 }	
 		add_to_variable = {
 			var = ESS_corpo_state
 			value = ESS_corpo_healthcare
@@ -1970,15 +1970,15 @@ country_event = { #Choose CEO
 		clr_country_flag = ESS_board_of_directors_strike_2
 		clr_country_flag = ESS_board_of_directors_strike_3
 		###Variable Stuff###
-		set_variable = { ESS_corpo_state_monthly_population_BUFF = 0 }
-		set_variable = { ESS_corpo_state_recruitable_population_factor_BUFF = 0 }
-		set_variable = { ESS_corpo_state_production_speed_buildings_factor_BUFF = 1 }
-		set_variable = { ESS_corpo_state_production_factory_max_efficiency_factor_BUFF = 1 }
-		set_variable = { ESS_corpo_state_production_factory_efficiency_gain_factor_BUFF = 1 }
-		set_variable = { ESS_corpo_state_local_resources_factor_BUFF = 1 }
-		set_variable = { ESS_corpo_state_army_org_factor_BUFF = 0 }
-		set_variable = { ESS_corpo_state_army_morale_factor_BUFF = 0 }
-		set_variable = { ESS_corpo_state_war_support_factor_BUFF = 0 }	
+		set_variable = { ESS_corpo_state_monthly_population = 0 }
+		set_variable = { ESS_corpo_state_recruitable_population_factor = 0 }
+		set_variable = { ESS_corpo_state_production_speed_buildings_factor = 1 }
+		set_variable = { ESS_corpo_state_production_factory_max_efficiency_factor = 1 }
+		set_variable = { ESS_corpo_state_production_factory_efficiency_gain_factor = 1 }
+		set_variable = { ESS_corpo_state_local_resources_factor = 1 }
+		set_variable = { ESS_corpo_state_army_org_factor = 0 }
+		set_variable = { ESS_corpo_state_army_morale_factor = 0 }
+		set_variable = { ESS_corpo_state_war_support_factor = 0 }	
 		add_to_variable = {
 			var = ESS_corpo_state
 			value = ESS_corpo_construction
@@ -2078,15 +2078,15 @@ country_event = { #Choose CEO
 		clr_country_flag = ESS_board_of_directors_strike_2
 		clr_country_flag = ESS_board_of_directors_strike_3
 		###Variable Stuff###
-		set_variable = { ESS_corpo_state_monthly_population_BUFF = 0 }
-		set_variable = { ESS_corpo_state_recruitable_population_factor_BUFF = 0 }
-		set_variable = { ESS_corpo_state_production_speed_buildings_factor_BUFF = 0 }
-		set_variable = { ESS_corpo_state_production_factory_max_efficiency_factor_BUFF = 0 }
-		set_variable = { ESS_corpo_state_production_factory_efficiency_gain_factor_BUFF = 0 }
-		set_variable = { ESS_corpo_state_local_resources_factor_BUFF = 0 }
-		set_variable = { ESS_corpo_state_army_org_factor_BUFF = 1 }
-		set_variable = { ESS_corpo_state_army_morale_factor_BUFF = 1 }
-		set_variable = { ESS_corpo_state_war_support_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_state_monthly_population = 0 }
+		set_variable = { ESS_corpo_state_recruitable_population_factor = 0 }
+		set_variable = { ESS_corpo_state_production_speed_buildings_factor = 0 }
+		set_variable = { ESS_corpo_state_production_factory_max_efficiency_factor = 0 }
+		set_variable = { ESS_corpo_state_production_factory_efficiency_gain_factor = 0 }
+		set_variable = { ESS_corpo_state_local_resources_factor = 0 }
+		set_variable = { ESS_corpo_state_army_org_factor = 1 }
+		set_variable = { ESS_corpo_state_army_morale_factor = 1 }
+		set_variable = { ESS_corpo_state_war_support_factor = 1 }
 		add_to_variable = {
 			var = ESS_corpo_state
 			value = ESS_corpo_pmc

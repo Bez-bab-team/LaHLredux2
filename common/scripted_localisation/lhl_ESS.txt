@@ -361,3 +361,163 @@ defined_text = {
 		localization_key = ESS_quarter_request_success
 	}
 }
+###
+defined_text = {
+	name = GetESSStateCorpoHealthcareTT
+	text = {
+		trigger = {
+			ESS = {
+				ESS_emma_walmsley = {
+					is_country_leader = yes
+				}
+			}
+		}
+		localization_key = ESS_corpo_state_healthcare_tt
+	}
+}
+defined_text = {
+	name = GetESSStateCorpoConstructionTT
+	text = {
+		trigger = {
+			ESS = {
+				ESS_emma_walmsley = {
+					is_country_leader = yes
+				}
+			}
+		}
+		localization_key = ESS_corpo_state_construction_tt
+	}
+}
+defined_text = {
+	name = GetESSStateCorpoPMCTT
+	text = {
+		trigger = {
+			ESS = {
+				ESS_emma_walmsley = {
+					is_country_leader = yes
+				}
+			}
+		}
+		localization_key = ESS_corpo_state_pmc_tt
+	}
+}
+defined_text = {
+	name = GetESSMiscCorpo1
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_1_active
+			}
+		}
+		localization_key = ESS_corpo_small_companies_1_tt
+	}
+}
+defined_text = {
+	name = GetESSMiscCorpo2
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_2_active
+			}
+		}
+		localization_key = ESS_corpo_small_companies_2_tt
+	}
+}
+defined_text = {
+	name = GetESSMiscCorpo3
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_3_active
+			}
+		}
+		localization_key = ESS_corpo_small_companies_3_tt
+	}
+}
+defined_text = {
+	name = GetESSMiscCorpo4
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_4_active
+			}
+		}
+		localization_key = ESS_corpo_small_companies_4_tt
+	}
+}
+defined_text = {
+	name = GetESSMiscCorpo5
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_5_active
+			}
+		}
+		localization_key = ESS_corpo_small_companies_5_tt
+	}
+}
+defined_text = {
+	name = GetESSMiscCorpo6
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_6_active
+			}
+		}
+		localization_key = ESS_corpo_small_companies_6_tt
+	}
+}
+defined_text = {
+	name = GetESSMiscCorpo7
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_7_active
+			}
+		}
+		localization_key = ESS_corpo_small_companies_7_tt
+	}
+}
+defined_text = {
+	name = GetESSMiscCorpo8
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_8_active
+			}
+		}
+		localization_key = ESS_corpo_small_companies_8_tt
+	}
+}
+defined_text = {
+	name = GetESSMiscCorpo9
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_9_active
+			}
+		}
+		localization_key = ESS_corpo_small_companies_9_tt
+	}
+}
+defined_text = {
+	name = GetESSMiscCorpo10
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_10_active
+			}
+		}
+		localization_key = ESS_corpo_small_companies_10_tt
+	}
+}
