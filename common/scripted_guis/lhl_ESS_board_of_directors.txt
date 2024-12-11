@@ -263,6 +263,38 @@ scripted_gui = {
 		visible = {
 			tag = ESS
 		}
+		triggers = {
+			ESS_board_of_directors_professions_background_icon_visible = {
+				ESS = {
+					has_completed_focus = ESS_meritocratic_trust
+				}
+			}
+			ESS_board_of_directors_landlords_icon_visible = {
+				ESS = {
+					has_completed_focus = ESS_meritocratic_trust
+				}
+			}
+			ESS_board_of_directors_magnates_icon_visible = {
+				ESS = {
+					has_completed_focus = ESS_meritocratic_trust
+				}
+			}
+			ESS_board_of_directors_police_icon_visible = {
+				ESS = {
+					has_completed_focus = ESS_meritocratic_trust
+				}
+			}
+			ESS_board_of_directors_doctors_icon_visible = {
+				ESS = {
+					has_completed_focus = ESS_meritocratic_trust
+				}
+			}
+			ESS_board_of_directors_military_icon_visible = {
+				ESS = {
+					has_completed_focus = ESS_meritocratic_trust
+				}
+			}
+		}
 		effects = {
 			ESS_board_of_direcotrs_code_button_icon_click = {
 					if = {

@@ -1891,6 +1891,7 @@ country_event = { #Choose CEO
 				days = 1
 				id = ESS_event.66
 			}
+			load_focus_tree = ESS_moldbug_1_walmsley
 		}
 		clr_country_flag = ESS_board_of_directors_strike_1
 		clr_country_flag = ESS_board_of_directors_strike_2
@@ -1965,6 +1966,7 @@ country_event = { #Choose CEO
 				days = 1
 				id = ESS_event.66
 			}
+			load_focus_tree = ESS_moldbug_1_palmer
 		}
 		clr_country_flag = ESS_board_of_directors_strike_1
 		clr_country_flag = ESS_board_of_directors_strike_2
@@ -2039,6 +2041,7 @@ country_event = { #Choose CEO
 				days = 1
 				id = ESS_event.66
 			}
+			load_focus_tree = ESS_moldbug_1_thiel
 		}
 		clr_country_flag = ESS_board_of_directors_strike_1
 		clr_country_flag = ESS_board_of_directors_strike_2
@@ -2073,6 +2076,7 @@ country_event = { #Choose CEO
 				days = 1
 				id = ESS_event.66
 			}
+			load_focus_tree = ESS_moldbug_1_spicer
 		}
 		clr_country_flag = ESS_board_of_directors_strike_1
 		clr_country_flag = ESS_board_of_directors_strike_2
@@ -2160,6 +2164,9 @@ country_event = { #Choose CEO
 		}
 		ESS_alois = {
 			promote_character = yes
+		}
+		ESS = {
+			load_focus_tree = ESS_moldbug_1_monarchy
 		}
 		clr_country_flag = ESS_board_of_directors_strike_1
 		clr_country_flag = ESS_board_of_directors_strike_2
@@ -2795,5 +2802,32 @@ country_event = { #Variable Test
 		set_variable = { ESS_corpo_companies_ace_effectiveness_factor_BUFF = 1 }
 		set_variable = { ESS_corpo_companies_production_speed_supply_node_factor_BUFF = 1 }
 		set_variable = { ESS_corpo_companies_bullshit_BUFF = 1 }
+	}
+}
+
+country_event = { #A Necessary Evil
+	id = ESS_event.99
+	title = ESS_event.99.t
+	desc = ESS_event.99.d 
+	
+    fire_only_once = yes	
+	is_triggered_only = yes
+    option = {
+		name = ESS_event.99.a #Moldbug option
+		ESS = {
+			add_ideas = ESS_shock_therapy_1
+		}
+	}
+}
+
+country_event = { #A Meritocratic Trust
+	id = ESS_event.100
+	title = ESS_event.100.t
+	desc = ESS_event.100.d 
+	
+    fire_only_once = yes	
+	is_triggered_only = yes
+    option = {
+		name = ESS_event.100.a #Moldbug option
 	}
 }

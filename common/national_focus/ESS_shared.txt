@@ -58,12 +58,11 @@
 			focus = ESS_revolutionary_ethic
 		}
 		completion_reward = {
-		add_manpower = 25000
-		swap_ideas = {
-			remove_idea = ESS_accelerated_army
-			add_idea = ESS_accelerated_army_1
-			}
-			
+			add_manpower = 25000
+			swap_ideas = {
+				remove_idea = ESS_accelerated_army
+				add_idea = ESS_accelerated_army_1
+			}		
 		}
 		x = -1
 		y = 3
@@ -4853,6 +4852,23 @@
 				set_variable = { ESS_pie_chart_people_shares_active = 1 }
 				set_variable = { ESS_corpo_state = 70 }
 				set_variable = { ESS_corpo_people_shares = 30 }
+				hidden_effect = {
+					add_dynamic_modifier = {
+						modifier = ESS_modifier_corpo_state
+					}
+					add_dynamic_modifier = {
+						modifier = ESS_modifier_corpo_shares
+					}
+					set_variable = { ESS_corpo_state_political_power_gain_BUFF = 1 }
+					set_variable = { ESS_corpo_state_political_advisor_cost_factor_BUFF = 1 }
+					set_variable = { ESS_corpo_state_mobilization_laws_cost_factor_BUFF = 1 }
+					set_variable = { ESS_corpo_state_trade_laws_cost_factor_BUFF = 1 }
+					set_variable = { ESS_corpo_state_head_of_government_cost_factor_BUFF = 1 }
+					set_variable = { ESS_corpo_state_research_speed_factor_BUFF = 1 }
+					#
+					set_variable = { ESS_corpo_shares_consumer_goods_factor_BUFF = 1 }
+					set_variable = { ESS_corpo_shares_stability_factor_BUFF = 1 }
+				}
 			}
 			custom_effect_tooltip = ESS_pound_restructurization_tt
 		}
@@ -4963,6 +4979,20 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_new_secularization"
+			ESS = {
+				add_tech_bonus = {
+					bonus = 0.5
+					uses = 2
+					category = electronics
+				}
+				add_tech_bonus = {
+					bonus = 0.5
+					uses = 2
+					category = industry
+				}
+			}
+			set_variable = { ESS_corpo_state_research_speed_factor_BUFF = 1.05 }
+			custom_effect_tooltip = ESS_new_secularization_tt
 		}
 		prerequisite = {
 			focus = ESS_seek_and_destroy
@@ -4977,6 +5007,16 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_rules_for_the_media"
+			ESS = {
+				swap_ideas = {
+					remove_idea = ESS_transition_period_2
+					add_idea =  ESS_transition_period_3
+				}
+				add_stability = 0.05
+				add_war_support = 0.05
+			}
+			set_variable = { ESS_corpo_state_political_power_gain_BUFF = 1.05 }
+			custom_effect_tooltip = ESS_rules_for_the_media_tt
 		}
 		prerequisite = {
 			focus = ESS_seek_and_destroy
@@ -4989,8 +5029,31 @@
 		id = ESS_build_up_initial_capital
 		icon = ESS_build_up_initial_capital
 		cost = 4.3
+		available = {
+			if = {
+				limit = {
+					NOT = {
+						ESS = {
+							is_ai = yes
+						}
+					}
+				}
+				ships_in_area = { 
+					area = 123
+					size > 9
+				}
+			}
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_build_up_initial_capital"
+			add_resource = {
+				type = oil
+				amount = 15
+				state = 1004
+			}
+			ESS = {
+				add_political_power = 75
+			}
 		}
 		prerequisite = {
 			focus = ESS_seek_and_destroy
@@ -5005,6 +5068,25 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_a_necessary_evil"
+			ESS = {
+				add_timed_idea = {
+					idea = ESS_shock_therapy
+					days = 365 
+				}
+				1160 = {
+					remove_building = {
+						type = industrial_complex
+						level = 1
+					}
+				}
+				hidden_effect = {
+					country_event = {
+						days = 370
+						id = ESS_event.99
+					}
+				}
+			}
+			custom_effect_tooltip = ESS_a_necessary_evil_tt
 		}
 		prerequisite = {
 			focus = ESS_new_secularization
@@ -5022,8 +5104,44 @@
 		id = ESS_keep_them_afloat
 		icon = GFX_goal_ESS_keep_them_afloat
 		cost = 4.3
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = ESS_keep_them_afloat_trigger_tt
+			}
+			check_variable = {
+				var = ESS_board_of_directors_budget
+				value = 15
+				compare = greater_than_or_equals
+			}
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_keep_them_afloat"
+			add_to_variable = {
+				var = ESS_board_of_directors_budget
+				value = -15
+			}
+			ESS = {
+				add_ideas = ESS_gentle_reform_1
+			}
+			add_to_variable = {
+				var = ESS_corpo_state
+				value = -15
+			}
+			add_to_variable = {
+				var = ESS_corpo_people_shares
+				value = 15
+			}
+			clamp_variable = {
+				var = ESS_corpo_state
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = ESS_corpo_people_shares
+				min = 0
+				max = 100
+			}
+			custom_effect_tooltip = ESS_keep_them_afloat_tt
 		}
 		prerequisite = {
 			focus = ESS_rules_for_the_media
@@ -5043,6 +5161,14 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_compete_for_patients"
+			add_political_power = 50
+			add_ideas = ESS_healthcare_companies
+			ESS = {
+				swap_ideas = {
+					remove_idea =  ESS_transition_period_3
+					add_idea =  ESS_transition_period_4
+				}
+			}
 		}
 		prerequisite = {
 			focus = ESS_a_necessary_evil
@@ -5060,6 +5186,43 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_national_health_company"
+			add_to_variable = {
+				var = ESS_corpo_state
+				value = -10
+			}
+			add_to_variable = {
+				var = ESS_corpo_healthcare
+				value = 10
+			}
+			clamp_variable = {
+				var = ESS_corpo_state
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = ESS_corpo_healthcare
+				min = 0
+				max = 100
+			}
+			set_variable = { ESS_corpo_healthcare_monthly_population_BUFF = 1 }
+			set_variable = { ESS_corpo_healthcare_recruitable_population_factor_BUFF = 1 }
+			set_variable = { ESS_pie_chart_healthcare_active = 1 }
+			ESS = {
+				add_political_power = 50
+				swap_ideas = {
+					remove_idea =  ESS_transition_period_3
+					add_idea =  ESS_transition_period_4
+				}
+			}
+			hidden_effect = {
+				ESS = {
+					add_dynamic_modifier = {
+						modifier = ESS_modifier_corpo_healthcare
+					}
+					set_country_flag = ESS_corpo_healthcare_activated_flag
+				}
+			}
+			custom_effect_tooltip = ESS_national_health_company_tt
 		}
 		prerequisite = {
 			focus = ESS_a_necessary_evil
@@ -5077,6 +5240,15 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_meritocratic_trust"
+		    ESS = {
+				add_stability = 0.05
+				add_war_support = 0.05
+			    country_event = {
+				    days = 0
+					id = ESS_event.100
+				}
+			}
+			custom_effect_tooltip = ESS_meritocratic_trust_tt
 		}
 		prerequisite = {
 			focus = ESS_compete_for_patients
@@ -5091,6 +5263,12 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_british_board_meeting"
+		    ESS = {
+			    country_event = {
+				    days = 0
+					id = ESS_event.70
+				}
+			}			
 		}
 		prerequisite = {
 			focus = ESS_meritocratic_trust

@@ -380,7 +380,7 @@ defined_text = {
 	text = {
 		trigger = {
 			ESS = {
-				ESS_emma_walmsley = {
+				ESS_clive_palmer = {
 					is_country_leader = yes
 				}
 			}
@@ -393,7 +393,7 @@ defined_text = {
 	text = {
 		trigger = {
 			ESS = {
-				ESS_emma_walmsley = {
+				SUS_tim_spicer = {
 					is_country_leader = yes
 				}
 			}
