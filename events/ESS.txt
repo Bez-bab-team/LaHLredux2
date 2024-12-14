@@ -1635,31 +1635,6 @@ country_event = { #Monthly Request Main #Success
 				integer = yes
 			}
 			set_country_flag = ESS_board_of_directors_slip_active
-		}		
-		hidden_effect = {
-			random_list = {
-				100 = {
-					set_variable = { ESS_board_of_directors_income_new = ESS_board_of_directors_income }
-					multiply_variable = { ESS_board_of_directors_income_new = 1.25 }
-					activate_mission = ESS_quarter_request
-				}
-				100 = {
-					set_variable = { ESS_board_of_directors_income_new = ESS_board_of_directors_income }
-					multiply_variable = { ESS_board_of_directors_income_new = 1.5 }
-					activate_mission = ESS_quarter_request
-				}
-				100 = {
-					set_variable = { ESS_board_of_directors_income_new = ESS_board_of_directors_income }
-					multiply_variable = { ESS_board_of_directors_income_new = 2 }
-					activate_mission = ESS_quarter_request
-				}
-			}
-			ESS = {
-				country_event = {
-					days = 1
-					id = ESS_event.66
-				}
-			}
 		}
 	}
 }
@@ -1687,23 +1662,6 @@ country_event = { #Monthly Request Main #Failure
 			}
 		}
 		hidden_effect = {
-			random_list = {
-				100 = {
-					set_variable = { ESS_board_of_directors_income_new = ESS_board_of_directors_income }
-					multiply_variable = { ESS_board_of_directors_income_new = 1.25 }
-					activate_mission = ESS_quarter_request
-				}
-				100 = {
-					set_variable = { ESS_board_of_directors_income_new = ESS_board_of_directors_income }
-					multiply_variable = { ESS_board_of_directors_income_new = 1.5 }
-					activate_mission = ESS_quarter_request
-				}
-				100 = {
-					set_variable = { ESS_board_of_directors_income_new = ESS_board_of_directors_income }
-					multiply_variable = { ESS_board_of_directors_income_new = 2 }
-					activate_mission = ESS_quarter_request
-				}
-			}
 			ESS = {
 				every_character = { 
 					limit = { 
@@ -1724,37 +1682,43 @@ country_event = { #Monthly Request Main #Failure
 			}
 		}
 		ESS = {
-			country_event = {
-				days = 1
-				id = ESS_event.66
-			}
-		}
-		ESS = {
 			every_character = { 
 				limit = { 
 					is_country_leader = yes 
 				}
 				set_character_flag = ESS_failed_ceo
 			}
-		}
-		hidden_effect = {
-			random_list = {
-				100 = {
-					set_variable = { ESS_board_of_directors_income_new = ESS_board_of_directors_income }
-					multiply_variable = { ESS_board_of_directors_income_new = 1.25 }
-					activate_mission = ESS_quarter_request
-				}
-				100 = {
-					set_variable = { ESS_board_of_directors_income_new = ESS_board_of_directors_income }
-					multiply_variable = { ESS_board_of_directors_income_new = 1.5 }
-					activate_mission = ESS_quarter_request
-				}
-				100 = {
-					set_variable = { ESS_board_of_directors_income_new = ESS_board_of_directors_income }
-					multiply_variable = { ESS_board_of_directors_income_new = 2 }
-					activate_mission = ESS_quarter_request
-				}
+			set_variable_to_random = {
+				var = ESS_code_slip_1_decisions
+				min = 0
+				max = 9
+				integer = yes
 			}
+			set_variable_to_random = {
+				var = ESS_code_slip_2_decisions
+				min = 0
+				max = 9
+				integer = yes
+			}
+			set_variable_to_random = {
+				var = ESS_code_slip_3_decisions
+				min = 0
+				max = 9
+				integer = yes
+			}
+			set_variable_to_random = {
+				var = ESS_code_slip_4_decisions
+				min = 0
+				max = 9
+				integer = yes
+			}
+			set_variable_to_random = {
+				var = ESS_code_slip_5_decisions
+				min = 0
+				max = 9
+				integer = yes
+			}
+			set_country_flag = ESS_board_of_directors_slip_active
 			set_country_flag = ESS_board_of_directors_code_menu_active
 		}
 		if = {
@@ -1823,23 +1787,6 @@ country_event = { #Monthly Request Main #Failure
 			}
 		}
 		hidden_effect = {
-			random_list = {
-				100 = {
-					set_variable = { ESS_board_of_directors_income_new = ESS_board_of_directors_income }
-					multiply_variable = { ESS_board_of_directors_income_new = 1.25 }
-					activate_mission = ESS_quarter_request
-				}
-				100 = {
-					set_variable = { ESS_board_of_directors_income_new = ESS_board_of_directors_income }
-					multiply_variable = { ESS_board_of_directors_income_new = 1.5 }
-					activate_mission = ESS_quarter_request
-				}
-				100 = {
-					set_variable = { ESS_board_of_directors_income_new = ESS_board_of_directors_income }
-					multiply_variable = { ESS_board_of_directors_income_new = 2 }
-					activate_mission = ESS_quarter_request
-				}
-			}
 			ESS = {
 				every_character = { 
 					limit = { 
@@ -1887,10 +1834,38 @@ country_event = { #Choose CEO
 			promote_character = yes
 		}
 		ESS = {
-			country_event = {
-				days = 1
-				id = ESS_event.66
+			set_variable_to_random = {
+				var = ESS_code_slip_1_decisions
+				min = 0
+				max = 9
+				integer = yes
 			}
+			set_variable_to_random = {
+				var = ESS_code_slip_2_decisions
+				min = 0
+				max = 9
+				integer = yes
+			}
+			set_variable_to_random = {
+				var = ESS_code_slip_3_decisions
+				min = 0
+				max = 9
+				integer = yes
+			}
+			set_variable_to_random = {
+				var = ESS_code_slip_4_decisions
+				min = 0
+				max = 9
+				integer = yes
+			}
+			set_variable_to_random = {
+				var = ESS_code_slip_5_decisions
+				min = 0
+				max = 9
+				integer = yes
+			}
+			set_country_flag = ESS_board_of_directors_slip_active
+			set_country_flag = ESS_board_of_directors_code_menu_active
 			load_focus_tree = ESS_moldbug_1_walmsley
 		}
 		clr_country_flag = ESS_board_of_directors_strike_1
@@ -1962,10 +1937,38 @@ country_event = { #Choose CEO
 			promote_character = yes
 		}
 		ESS = {
-			country_event = {
-				days = 1
-				id = ESS_event.66
+			set_variable_to_random = {
+				var = ESS_code_slip_1_decisions
+				min = 0
+				max = 9
+				integer = yes
 			}
+			set_variable_to_random = {
+				var = ESS_code_slip_2_decisions
+				min = 0
+				max = 9
+				integer = yes
+			}
+			set_variable_to_random = {
+				var = ESS_code_slip_3_decisions
+				min = 0
+				max = 9
+				integer = yes
+			}
+			set_variable_to_random = {
+				var = ESS_code_slip_4_decisions
+				min = 0
+				max = 9
+				integer = yes
+			}
+			set_variable_to_random = {
+				var = ESS_code_slip_5_decisions
+				min = 0
+				max = 9
+				integer = yes
+			}
+			set_country_flag = ESS_board_of_directors_slip_active
+			set_country_flag = ESS_board_of_directors_code_menu_active
 			load_focus_tree = ESS_moldbug_1_palmer
 		}
 		clr_country_flag = ESS_board_of_directors_strike_1
@@ -2037,10 +2040,38 @@ country_event = { #Choose CEO
 			promote_character = yes
 		}
 		ESS = {
-			country_event = {
-				days = 1
-				id = ESS_event.66
+			set_variable_to_random = {
+				var = ESS_code_slip_1_decisions
+				min = 0
+				max = 9
+				integer = yes
 			}
+			set_variable_to_random = {
+				var = ESS_code_slip_2_decisions
+				min = 0
+				max = 9
+				integer = yes
+			}
+			set_variable_to_random = {
+				var = ESS_code_slip_3_decisions
+				min = 0
+				max = 9
+				integer = yes
+			}
+			set_variable_to_random = {
+				var = ESS_code_slip_4_decisions
+				min = 0
+				max = 9
+				integer = yes
+			}
+			set_variable_to_random = {
+				var = ESS_code_slip_5_decisions
+				min = 0
+				max = 9
+				integer = yes
+			}
+			set_country_flag = ESS_board_of_directors_slip_active
+			set_country_flag = ESS_board_of_directors_code_menu_active
 			load_focus_tree = ESS_moldbug_1_thiel
 		}
 		clr_country_flag = ESS_board_of_directors_strike_1
@@ -2072,10 +2103,38 @@ country_event = { #Choose CEO
 			}
 		}
 		ESS = {
-			country_event = {
-				days = 1
-				id = ESS_event.66
+			set_variable_to_random = {
+				var = ESS_code_slip_1_decisions
+				min = 0
+				max = 9
+				integer = yes
 			}
+			set_variable_to_random = {
+				var = ESS_code_slip_2_decisions
+				min = 0
+				max = 9
+				integer = yes
+			}
+			set_variable_to_random = {
+				var = ESS_code_slip_3_decisions
+				min = 0
+				max = 9
+				integer = yes
+			}
+			set_variable_to_random = {
+				var = ESS_code_slip_4_decisions
+				min = 0
+				max = 9
+				integer = yes
+			}
+			set_variable_to_random = {
+				var = ESS_code_slip_5_decisions
+				min = 0
+				max = 9
+				integer = yes
+			}
+			set_country_flag = ESS_board_of_directors_slip_active
+			set_country_flag = ESS_board_of_directors_code_menu_active
 			load_focus_tree = ESS_moldbug_1_spicer
 		}
 		clr_country_flag = ESS_board_of_directors_strike_1
@@ -2174,8 +2233,209 @@ country_event = { #Choose CEO
 	}
 }
 
+country_event = { #Restoring State Corp Begin
+	id = ESS_event.71
+	title = ESS_event.71.t
+	desc = ESS_event.71.d 
+	is_triggered_only = yes
+    trigger = {
+        check_variable = { ESS_corpo_state < 50 }
+    }
+    option = {
+		name = ESS_event.71.a 
+		ESS = {
+			activate_mission = ESS_increase_state_corpo_request
+			set_country_flag = ESS_increase_state_corpo_request_active
+		}
+	}
+}
 
+country_event = { #Restoring State Corp Success
+	id = ESS_event.72
+	title = ESS_event.72.t
+	desc = ESS_event.72.d 
+	
+	is_triggered_only = yes
 
+    option = {
+		name = ESS_event.72.a 
+		add_political_power = 10
+	}
+}
+
+country_event = { #Restoring State Corp Failure
+	id = ESS_event.73
+	title = ESS_event.73.t
+	desc = ESS_event.73.d 
+	
+	is_triggered_only = yes
+
+	option = {
+		name = ESS_event.73.a #Change CEO
+		trigger = {
+			NOT = {
+				ESS = {
+					has_country_flag = ESS_board_of_directors_strike_3
+				}
+			}
+		}
+		ESS = {
+			country_event = {
+				days = 0
+				id = ESS_event.70
+			}
+		}
+		hidden_effect = {
+			ESS = {
+				every_character = { 
+					limit = { 
+						is_country_leader = yes 
+					}
+					set_character_flag = ESS_failed_ceo
+				}
+			}
+		}
+	}
+	option = {
+		name = ESS_event.73.b #Give me a chance!
+		trigger = {
+			NOT = {
+				ESS = {
+					has_country_flag = ESS_board_of_directors_strike_3
+				}
+			}
+		}
+		ESS = {
+			every_character = { 
+				limit = { 
+					is_country_leader = yes 
+				}
+				set_character_flag = ESS_failed_ceo
+			}
+		}
+		hidden_effect = {
+			set_country_flag = ESS_board_of_directors_code_menu_active
+		}
+		if = {
+			limit = {
+				NOT = {
+					ESS = {
+						OR = {
+							has_country_flag = ESS_board_of_directors_strike_1
+							has_country_flag = ESS_board_of_directors_strike_2
+							has_country_flag = ESS_board_of_directors_strike_3
+						}
+					}
+				}
+			}
+			ESS = {
+				set_country_flag = ESS_board_of_directors_strike_1
+				sound_effect = "ESS_wrong_code_sound_1"
+			}
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					ESS = {
+						has_country_flag = ESS_board_of_directors_strike_1
+						OR = {
+							has_country_flag = ESS_board_of_directors_strike_2
+							has_country_flag = ESS_board_of_directors_strike_3
+						}
+					}
+				}
+			}
+			ESS = {
+				set_country_flag = ESS_board_of_directors_strike_2
+				sound_effect = "ESS_wrong_code_sound_1"
+			}
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					ESS = {
+						has_country_flag = ESS_board_of_directors_strike_1
+						has_country_flag = ESS_board_of_directors_strike_2
+						OR = {
+							has_country_flag = ESS_board_of_directors_strike_3
+						}
+					}
+				}
+			}
+			ESS = {
+				set_country_flag = ESS_board_of_directors_strike_3
+				sound_effect = "ESS_wrong_code_sound_1"
+			}
+		}
+	}
+	option = {
+		name = ESS_event.73.c #No more chances!
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_board_of_directors_strike_3
+			}
+		}
+		ESS = {
+			country_event = {
+				days = 0
+				id = ESS_event.70
+			}
+		}
+		hidden_effect = {
+			ESS = {
+				every_character = { 
+					limit = { 
+						is_country_leader = yes 
+					}
+					set_character_flag = ESS_failed_ceo
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Wrong Button!
+	id = ESS_event.74
+	title = ESS_event.74.t
+	desc = ESS_event.74.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ESS_event.74"}
+	is_triggered_only = yes
+	picture = GFX_
+	option = {
+		name = ESS_event.74.a
+		9999 = {
+			set_state_flag = urquan
+		}
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 0
+					id = ESS_event.75
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Wrong Button! 2 #Thx Pinkie Pie
+	id = ESS_event.75
+	title = ESS_event.75.t
+	desc = ESS_event.75.d
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event ESS_event.75"
+		9999 = {
+			set_state_flag = urquan
+		}
+	}
+	is_triggered_only = yes
+	picture = GFX_
+	option = {
+		name = ESS_event.75.a
+		9999 = {
+			set_state_flag = urquan
+		}
+	}
+}
 
 country_event = {
 	id = ESS_event.666

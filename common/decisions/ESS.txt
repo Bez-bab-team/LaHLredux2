@@ -157,6 +157,407 @@ ESS_board_of_directors = {
 			base = 100
 		}
 	}
+	###Interact With Piechart###
+	ESS_interact_with_corpo_TITLE = {
+		available = {
+			has_completed_focus = ESS_pound_restructurization
+		}
+		visible = {
+			has_completed_focus = ESS_pound_restructurization
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					NOT = {
+						ESS = {
+							has_country_flag = ESS_interact_with_corpo_active
+						}
+					}
+				}
+				ESS = {
+					set_country_flag = ESS_interact_with_corpo_active
+				}
+			}
+			else = {
+				ESS = {
+					clr_country_flag = ESS_interact_with_corpo_active
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ESS_interact_with_corpo_state = { #Give more influence to State Corporation
+		cost = 50
+		available = {
+			has_country_flag = ESS_interact_with_corpo_active
+			check_variable = { ESS_pie_chart_state_active = 1 }
+			check_variable = { ESS_corpo_state < 96 }
+			check_variable = { ESS_corpo_people_shares > 4 }
+		}
+		visible = {
+			has_country_flag = ESS_interact_with_corpo_active
+			check_variable = { ESS_pie_chart_state_active = 1 }
+		}
+		days_remove = 120
+		complete_effect = {
+			custom_effect_tooltip = ESS_interact_with_corpo_state_tt
+			lhl_ESS_create_pie_chart = yes
+			add_to_variable = { ESS_corpo_state = 3 }
+			add_to_variable = { ESS_corpo_people_shares = -3 }
+			clamp_variable = {
+				var = ESS_corpo_state
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = ESS_corpo_people_shares
+				min = 0
+				max = 100
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ESS_interact_with_corpo_people_shares = { #Give more influence to shares
+		cost = 50
+		available = {
+			has_country_flag = ESS_interact_with_corpo_active
+			check_variable = { ESS_pie_chart_people_shares_active = 1 }
+			check_variable = { ESS_corpo_people_shares < 96 }
+			check_variable = { ESS_corpo_state > 4 }
+		}
+		visible = {
+			has_country_flag = ESS_interact_with_corpo_active
+			check_variable = { ESS_pie_chart_people_shares_active = 1 }
+		}
+		days_remove = 120
+		complete_effect = {
+			custom_effect_tooltip = ESS_interact_with_corpo_people_shares_tt
+			lhl_ESS_create_pie_chart = yes
+			add_to_variable = { ESS_corpo_state = -3 }
+			add_to_variable = { ESS_corpo_people_shares = 3 }
+			clamp_variable = {
+				var = ESS_corpo_state
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = ESS_corpo_people_shares
+				min = 0
+				max = 100
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ESS_interact_with_corpo_healthcare = { #Give more influence to healthcare
+		cost = 50
+		available = {
+			has_country_flag = ESS_interact_with_corpo_active
+			check_variable = { ESS_pie_chart_healthcare_active = 1 }
+			check_variable = { ESS_corpo_healthcare < 96 }
+			check_variable = { ESS_corpo_state > 4 }
+		}
+		visible = {
+			has_country_flag = ESS_interact_with_corpo_active
+			check_variable = { ESS_pie_chart_healthcare_active = 1 }
+		}
+		custom_cost_trigger = {
+			check_variable = { ESS_board_of_directors_budget > 10 }
+		}
+		custom_cost_text = ESS_CITY_BUDGET_COST_10
+		days_remove = 120
+		complete_effect = {
+			custom_effect_tooltip = ESS_interact_with_corpo_healthcare_tt
+			lhl_ESS_create_pie_chart = yes
+			add_to_variable = { ESS_corpo_state = -3 }
+			add_to_variable = { ESS_corpo_healthcare = 3 }
+			add_to_variable = { ESS_board_of_directors_budget = -10 }
+			clamp_variable = {
+				var = ESS_corpo_state
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = ESS_corpo_healthcare
+				min = 0
+				max = 100
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ESS_interact_with_corpo_construction = { #Give more influence to construction
+		cost = 50
+		available = {
+			has_country_flag = ESS_interact_with_corpo_active
+			check_variable = { ESS_pie_chart_construction_active = 1 }
+			check_variable = { ESS_corpo_construction < 96 }
+			check_variable = { ESS_corpo_state > 4 }
+		}
+		visible = {
+			has_country_flag = ESS_interact_with_corpo_active
+			check_variable = { ESS_pie_chart_construction_active = 1 }
+		}
+		custom_cost_trigger = {
+			check_variable = { ESS_board_of_directors_budget > 10 }
+		}
+		custom_cost_text = ESS_CITY_BUDGET_COST_10
+		days_remove = 120
+		complete_effect = {
+			custom_effect_tooltip = ESS_interact_with_corpo_construction_tt
+			lhl_ESS_create_pie_chart = yes
+			add_to_variable = { ESS_corpo_state = -3 }
+			add_to_variable = { ESS_corpo_construction = 3 }
+			add_to_variable = { ESS_board_of_directors_budget = -10 }
+			clamp_variable = {
+				var = ESS_corpo_state
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = ESS_corpo_construction
+				min = 0
+				max = 100
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ESS_interact_with_corpo_pmc = { #Give more influence to pmc
+		cost = 50
+		available = {
+			has_country_flag = ESS_interact_with_corpo_active
+			check_variable = { ESS_pie_chart_pmc_active = 1 }
+			check_variable = { ESS_corpo_pmc < 96 }
+			check_variable = { ESS_corpo_state > 4 }
+		}
+		visible = {
+			has_country_flag = ESS_interact_with_corpo_active
+			check_variable = { ESS_pie_chart_pmc_active = 1 }
+		}
+		custom_cost_trigger = {
+			check_variable = { ESS_board_of_directors_budget > 10 }
+		}
+		custom_cost_text = ESS_CITY_BUDGET_COST_10
+		days_remove = 120
+		complete_effect = {
+			custom_effect_tooltip = ESS_interact_with_corpo_pmc_tt
+			lhl_ESS_create_pie_chart = yes
+			add_to_variable = { ESS_corpo_state = -3 }
+			add_to_variable = { ESS_corpo_pmc = 3 }
+			add_to_variable = { ESS_board_of_directors_budget = -10 }
+			clamp_variable = {
+				var = ESS_corpo_state
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = ESS_corpo_pmc
+				min = 0
+				max = 100
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ESS_interact_with_corpo_spy = { #Give more influence to spy
+		cost = 50
+		available = {
+			has_country_flag = ESS_interact_with_corpo_active
+			check_variable = { ESS_pie_chart_spy_active = 1 }
+			check_variable = { ESS_corpo_spy < 96 }
+			check_variable = { ESS_corpo_state > 4 }
+		}
+		visible = {
+			has_country_flag = ESS_interact_with_corpo_active
+			check_variable = { ESS_pie_chart_spy_active = 1 }
+		}
+		custom_cost_trigger = {
+			check_variable = { ESS_board_of_directors_budget > 10 }
+		}
+		custom_cost_text = ESS_CITY_BUDGET_COST_10
+		days_remove = 120
+		complete_effect = {
+			custom_effect_tooltip = ESS_interact_with_corpo_spy_tt
+			lhl_ESS_create_pie_chart = yes
+			add_to_variable = { ESS_corpo_state = -3 }
+			add_to_variable = { ESS_corpo_spy = 3 }
+			add_to_variable = { ESS_board_of_directors_budget = -10 }
+			clamp_variable = {
+				var = ESS_corpo_state
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = ESS_corpo_spy
+				min = 0
+				max = 100
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ESS_interact_with_corpo_media = { #Give more influence to media
+		cost = 50
+		available = {
+			has_country_flag = ESS_interact_with_corpo_active
+			check_variable = { ESS_pie_chart_media_active = 1 }
+			check_variable = { ESS_corpo_media < 96 }
+			check_variable = { ESS_corpo_state > 4 }
+		}
+		visible = {
+			has_country_flag = ESS_interact_with_corpo_active
+			check_variable = { ESS_pie_chart_media_active = 1 }
+		}
+		custom_cost_trigger = {
+			check_variable = { ESS_board_of_directors_budget > 10 }
+		}
+		custom_cost_text = ESS_CITY_BUDGET_COST_10
+		days_remove = 120
+		complete_effect = {
+			custom_effect_tooltip = ESS_interact_with_corpo_media_tt
+			lhl_ESS_create_pie_chart = yes
+			add_to_variable = { ESS_corpo_state = -3 }
+			add_to_variable = { ESS_corpo_media = 3 }
+			add_to_variable = { ESS_board_of_directors_budget = -10 }
+			clamp_variable = {
+				var = ESS_corpo_state
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = ESS_corpo_media
+				min = 0
+				max = 100
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ESS_interact_with_corpo_tourism = { #Give more influence to tourism
+		cost = 50
+		available = {
+			has_country_flag = ESS_interact_with_corpo_active
+			check_variable = { ESS_pie_chart_tourism_active = 1 }
+			check_variable = { ESS_corpo_tourism < 96 }
+			check_variable = { ESS_corpo_state > 4 }
+		}
+		visible = {
+			has_country_flag = ESS_interact_with_corpo_active
+			check_variable = { ESS_pie_chart_tourism_active = 1 }
+		}
+		custom_cost_trigger = {
+			check_variable = { ESS_board_of_directors_budget > 10 }
+		}
+		custom_cost_text = ESS_CITY_BUDGET_COST_10
+		days_remove = 120
+		complete_effect = {
+			custom_effect_tooltip = ESS_interact_with_corpo_tourism_tt
+			lhl_ESS_create_pie_chart = yes
+			add_to_variable = { ESS_corpo_state = -3 }
+			add_to_variable = { ESS_corpo_tourism = 3 }
+			add_to_variable = { ESS_board_of_directors_budget = -10 }
+			clamp_variable = {
+				var = ESS_corpo_state
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = ESS_corpo_tourism
+				min = 0
+				max = 100
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ESS_interact_with_corpo_farming = { #Give more influence to farming
+		cost = 50
+		available = {
+			has_country_flag = ESS_interact_with_corpo_active
+			check_variable = { ESS_pie_chart_farming_active = 1 }
+			check_variable = { ESS_corpo_farming < 96 }
+			check_variable = { ESS_corpo_state > 4 }
+		}
+		visible = {
+			has_country_flag = ESS_interact_with_corpo_active
+			check_variable = { ESS_pie_chart_farming_active = 1 }
+		}
+		custom_cost_trigger = {
+			check_variable = { ESS_board_of_directors_budget > 10 }
+		}
+		custom_cost_text = ESS_CITY_BUDGET_COST_10
+		days_remove = 120
+		complete_effect = {
+			custom_effect_tooltip = ESS_interact_with_corpo_farming_tt
+			lhl_ESS_create_pie_chart = yes
+			add_to_variable = { ESS_corpo_state = -3 }
+			add_to_variable = { ESS_corpo_farming = 3 }
+			add_to_variable = { ESS_board_of_directors_budget = -10 }
+			clamp_variable = {
+				var = ESS_corpo_state
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = ESS_corpo_farming
+				min = 0
+				max = 100
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ESS_interact_with_corpo_small_companies = { #Give more influence to small companies
+		cost = 50
+		available = {
+			has_country_flag = ESS_interact_with_corpo_active
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			check_variable = { ESS_corpo_small_companies < 96 }
+			check_variable = { ESS_corpo_state > 4 }
+		}
+		visible = {
+			has_country_flag = ESS_interact_with_corpo_active
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+		}
+		custom_cost_trigger = {
+			check_variable = { ESS_board_of_directors_budget > 10 }
+		}
+		custom_cost_text = ESS_CITY_BUDGET_COST_10
+		days_remove = 120
+		complete_effect = {
+			custom_effect_tooltip = ESS_interact_with_corpo_small_companies_tt
+			lhl_ESS_create_pie_chart = yes
+			add_to_variable = { ESS_corpo_state = -3 }
+			add_to_variable = { ESS_corpo_small_companies = 3 }
+			add_to_variable = { ESS_board_of_directors_budget = -10 }
+			clamp_variable = {
+				var = ESS_corpo_state
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = ESS_corpo_small_companies
+				min = 0
+				max = 100
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
 	###REQUESTS###
 	ESS_quarter_request = {
 		activation = {
@@ -204,6 +605,46 @@ ESS_board_of_directors = {
 				}
 				set_variable = { ESS_board_of_directors_income_new = 0 }
 				custom_effect_tooltip = ESS_quarter_request_tt
+			}
+		}
+	}
+	ESS_increase_state_corpo_request = {
+		activation = {
+			always = no
+		}
+		cancel_trigger = {
+			hidden_trigger = {
+				ESS = {
+					ESS_alois = {
+						is_country_leader = yes
+					}
+				}
+			}
+		}
+		available = {
+			check_variable = { ESS_corpo_state > 50 }
+			custom_trigger_tooltip = {
+				tooltip = ESS_increase_state_corpo_request_tt	
+			}
+		}
+		complete_effect = {
+			ESS = {
+				clr_country_flag = ESS_increase_state_corpo_request_active
+				country_event = {
+					days = 0
+					id = ESS_event.72
+				}
+			}
+		}
+		is_good = no
+		days_mission_timeout = 365
+		timeout_effect = {
+			ESS = {
+				clr_country_flag = ESS_increase_state_corpo_request_active
+				country_event = {
+					days = 0
+					id = ESS_event.73
+				}
 			}
 		}
 	}

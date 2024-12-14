@@ -1,4 +1,29 @@
 on_actions = {
+	on_weekly_ESS = { 
+		effect = {
+			if = {
+				limit = {
+					check_variable = { ESS_corpo_state < 50 }	
+					NOT = {
+						ESS = {
+							has_country_flag = ESS_increase_state_corpo_request_active
+						}
+						hidden_trigger = {
+							ESS_alois = {
+								is_country_leader = yes
+							}
+						}
+					}
+				}
+				ESS = {
+					country_event = {
+						days = 0
+						id = ESS_event.71
+					}
+				}
+			}
+		}
+	}
 	on_weekly_ESS = {  ###Piechart on_action. Big thanks to Yard1 and his "HoI4-Scripted-GUI-Pie-Chart" example mod###
 		effect = {
 			if = {

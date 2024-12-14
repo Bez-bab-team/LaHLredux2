@@ -1,0 +1,58 @@
+scripted_gui = {
+	lhl_eag_commune_construction_window = {
+		context_type = player_context
+		parent_window_token = construction_tab
+		window_name = "lhl_ESS_CEO_construction_screen"
+		visible = {
+			tag = ESS
+			ESS = {
+				has_completed_focus = ESS_meritocratic_trust
+			}
+		}
+		triggers = {
+            lhl_ESS_CEO_construction_image_1_visible = {
+				ESS = {
+					has_country_flag = ESS_board_of_directors_slip_active
+				}
+		    }
+            lhl_ESS_CEO_construction_image_2_visible = {
+				ESS = {
+					has_country_flag = ESS_board_of_directors_slip_active
+				}
+		    }
+            lhl_ESS_CEO_construction_image_3_visible = {
+				ESS = {
+					has_country_flag = ESS_board_of_directors_slip_active
+				}
+		    }
+		}
+	}
+	lhl_ESS_CEO_research_window = {
+		context_type = player_context
+		parent_window_token = technology_tab
+		window_name = "lhl_ESS_CEO_research_screen"
+		visible = {
+			tag = ESS
+			ESS = {
+				has_country_flag = ESS_board_of_directors_slip_active
+			}
+			ESS = {
+				has_completed_focus = ESS_meritocratic_trust
+			}
+		}
+	}
+	lhl_ESS_CEO_research_window = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "lhl_ESS_CEO_politics_screen"
+		visible = {
+			tag = ESS
+			ESS = {
+				has_country_flag = ESS_board_of_directors_slip_active
+			}
+			ESS = {
+				has_completed_focus = ESS_meritocratic_trust
+			}
+		}
+	}
+}

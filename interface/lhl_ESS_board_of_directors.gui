@@ -1220,12 +1220,6 @@ guiTypes = {
 			spriteType = "GFX_ESS_board_of_directors_professions_background"
 			position = { x=5	y=350 } 
 		}
-		buttonType = {
-			name ="ESS_board_of_direcotrs_code_button_icon"
-			spriteType = "GFX_ESS_board_of_direcotrs_code_button_icon"
-			position = { x=465	y=-10 } 
-			scale = 1.5
-		}
 		#Directors#
 		iconType = {
 			name ="ESS_board_of_directors_landlords_icon"

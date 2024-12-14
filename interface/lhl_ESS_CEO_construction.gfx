@@ -1,0 +1,21 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_lhl_ESS_CEO_construction_image"
+		textureFile = "gfx/interface/why/EAG_anarchist_commune_construction.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_ESS_CEO_construction_image_small"
+		textureFile = "gfx/interface/why/EAG_anarchist_commune_construction_2.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_ESS_CEO_construction_image_big"
+		textureFile = "gfx/interface/why/EAG_anarchist_commune_construction_3.dds"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_lhl_ESS_CEO_research_image"
+		size = { x=96 y=96 }
+		borderSize = { x=32 y=32 }
+		tilingCenter = yes
+		textureFile = "gfx/interface/why/EAG_anarchist_research.dds"
+	}
+}
