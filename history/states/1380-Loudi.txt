@@ -1,0 +1,14 @@
+state={
+	id=1380
+	name="STATE_1380"
+	provinces={
+		3722 5656 5972 9725 13380 13393 13412 13443 
+	}
+	history={
+		owner = CMS
+		add_core_of = CMS
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

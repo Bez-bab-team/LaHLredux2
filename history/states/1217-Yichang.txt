@@ -1,19 +1,13 @@
-
 state={
 	id=1217
 	name="STATE_1217"
-
-	history={
-		owner = CMS
-		add_core_of = CMS
-		victory_points = {
-			3260 5 
-		}
-
-	}
-
 	provinces={
-		3260 4008 4114 4529 4815 5075 5526 7584 7623 7990 8191 8678 8691 8943 9926 12971 13032 13057 13081 13092 13096 13101 13147 
+		4008 4114 7584 7623 8191 8678 8691 8943 9926 13092 13096 
+	}
+	history={
+		owner = WEI
+		add_core_of = WEI
+
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

@@ -1,19 +1,13 @@
-
 state={
 	id=438
 	name="STATE_438"
-
+	provinces={
+		4 353 2754 3187 3517 5969 6370 6699 7984 9137 9353 13183 13198 13213 13220 13222 13252 13284 17477 
+	}
 	history={
 		owner = CMS
 		add_core_of = CMS
-		victory_points = {
-			353 5 
-		}
 
-	}
-
-	provinces={
-		4 353 2754 5969 6699 7984 9137 9353 13183 13198 13213 13220 13252 13284 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

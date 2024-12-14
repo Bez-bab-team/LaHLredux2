@@ -3,8 +3,8 @@ state={
 	name="STATE_1317"
 	
 	history={
-		owner = GUD
-		add_core_of = GUD
+		owner = MCU
+		add_core_of = MCU
 		victory_points = {
 			958 5 
 		}

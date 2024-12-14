@@ -1,0 +1,15 @@
+state={
+	id=1378
+	name="STATE_1378"
+	provinces={
+		113 4428 6102 6382 8085 13230 13246 13272 13294 13302 17474 17475 17478 
+	}
+	history={
+		owner = CMS
+		add_core_of = CMS
+
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

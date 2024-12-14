@@ -1,0 +1,15 @@
+state={
+	id=1376
+	name="STATE_1376"
+	provinces={
+		3505 5618 5935 6752 9309 9434 13010 13044 13077 13082 13135 
+	}
+	history={
+		owner = HUB
+		add_core_of = HUB
+
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

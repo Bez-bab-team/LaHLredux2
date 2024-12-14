@@ -1,0 +1,30 @@
+﻿capital = 1317
+
+oob = "MCU_2020"
+
+
+set_research_slots = 3
+
+set_stability = 0.7
+
+set_war_support = 0.5
+
+set_technology = {
+ 	infantry_equipment = 1
+	infantry_equipment_2 = 1	
+}
+
+set_politics = {
+	ruling_party = socialism    
+	last_election = "1933.7.1"
+	elections_allowed = no
+}
+set_popularities = {
+	socialism = 100
+}
+
+##CHARACTERS##
+#leader#
+recruit_character = MCU_Ho_Iat-seng
+
+

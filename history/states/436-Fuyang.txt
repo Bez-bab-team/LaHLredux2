@@ -1,0 +1,20 @@
+
+state={
+	id=436
+	name="STATE_436"
+	provinces={
+		2786 3229 3347 5546 5853 6107 6217 8322 8400 9196 9907 12747 12767 12772 12777 12787 12799 12813 12823 12832 
+		
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+    state_category=pastoral
+		history={
+		owner = SHA
+		add_core_of = SHA
+		victory_points = {
+			12767 5
+		}
+
+	}
+}

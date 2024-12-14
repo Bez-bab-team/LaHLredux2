@@ -1,0 +1,14 @@
+state={
+	id=1379
+	name="STATE_1379"
+	provinces={
+		3260 4529 4815 5075 5526 7990 13032 13057 13081 13101 13147 
+	}
+	history={
+		owner = GUD
+		add_core_of = GUD
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

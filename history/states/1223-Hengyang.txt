@@ -4,16 +4,15 @@ state={
 	name="STATE_1223"
 
 	history={
-		owner = GUD
-		add_core_of = GUD
+		owner = CMS
+		add_core_of = CMS
 		victory_points = {
-			2327 5
 		}
 
 	}
 
 	provinces={
-		2327 3279 3681 4709 7059 7098 13422 13459 13479 13485 13510 13551 
+		287 3681 6276 7059 7098 13422 13459 13479  
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

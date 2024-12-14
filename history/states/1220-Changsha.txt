@@ -1,21 +1,16 @@
-
 state={
 	id=1220
 	name="STATE_1220"
-
+	provinces={
+		413 1802 5747 5974 9358 9780 13262 13305 13310 13314 13335 13343 13355 
+	}
 	history={
 		owner = CMS
 		add_core_of = CMS
-		victory_points = {
-			113 5
-		}
 
-	}
-
-	provinces={
-		113 413 3517 5747 5974 6382 9780 13246 13262 13272 13294 13302 13305 13310 13314 13335 13355 17477 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
-    state_category=pastoral
+	state_category=pastoral
+	local_supplies=0.000
 }

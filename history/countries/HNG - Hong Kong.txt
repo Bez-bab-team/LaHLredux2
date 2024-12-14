@@ -15,23 +15,16 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = hegemonism     
+	ruling_party = socialism    
 	last_election = "1933.7.1"
 	elections_allowed = no
 }
 set_popularities = {
-	hegemonism = 100
+	socialism = 100
 }
 
-create_country_leader = {
-	name = "Gautam Bambawale"
-	desc = "POLITICS_GAUTAM_BAMBAWALE_DESC"
-	picture = "Portrait_HNG_Gautam_Bambawale.dds"
-	expire = "1953.3.1"
-	ideology = autocracy
-	traits = {
-		
-	}
-}
+##CHARACTERS##
+#leader#
+recruit_character = HNG_leung_chunying
 
 

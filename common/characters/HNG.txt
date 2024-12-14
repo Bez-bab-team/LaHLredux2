@@ -1,15 +1,15 @@
 characters={
-	HNG_gautam_bambawale={
-		name=HNG_gautam_bambawale
+	HNG_leung_chunying={
+		name="Leung Chun-ying"
 		portraits={
 			civilian={
-				large="gfx/leaders/HNG/Portrait_HNG_Gautam_Bambawale.dds"
+				large="gfx/leaders/HNG/Portrait_HNG_Leung_Chunying.dds"
 			}
 		}
 		country_leader={
-			desc="POLITICS_GAUTAM_BAMBAWALE_DESC"
-			ideology=autocracy
-			expire="1953.3.1.1"
+			ideology=progressivism
+			traits={}
+			expire="2036.1.1.14"
 			id=-1
 		}
 	}
@@ -50,20 +50,6 @@ characters={
 		country_leader={
 			ideology=soviet_marxism
 			expire="2037.1.1.14"
-			id=-1
-		}
-	}
-	HNG_lucas_brown={
-		name="Lucas Brown"
-		portraits={
-			civilian={
-				large="gfx/leaders/Generics/leader_unknown.dds"
-			}
-		}
-		country_leader={
-			ideology=progressivism
-			traits={ economist }
-			expire="2036.1.1.14"
 			id=-1
 		}
 	}

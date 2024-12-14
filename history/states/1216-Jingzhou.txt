@@ -1,19 +1,13 @@
-
 state={
 	id=1216
 	name="STATE_1216"
-
-	history={
-		owner = HUB
-		add_core_of = HUB
-		victory_points = {
-			3187 5 
-		}
-
-	}
-
 	provinces={
-		3187 3740 3847 3922 4474 5272 6037 6370 6563 7396 7777 8006 8710 9882 12951 13001 13018 13023 13036 13073 13145 17471 18934 
+		3740 3847 6037 7777 8710 13119 13145 17471 18934 
+	}
+	history={
+		owner = WEI
+		add_core_of = WEI
+
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

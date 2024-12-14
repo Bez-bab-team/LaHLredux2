@@ -7,13 +7,13 @@ state={
 		owner = CMS
 		add_core_of = CMS
 		victory_points = {
-			1802 5 
+			13359 10 
 		}
 
 	}
 
 	provinces={
-		1802 9358 9812 13341 13343 13359 
+		13359
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
