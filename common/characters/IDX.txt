@@ -1,9 +1,9 @@
 characters={
-	IDX_ma_qianzu={
-		name=IDX_ma_qianzu
+	IDX_liu_zhijun={
+		name="Liu Zhijun"
 		portraits={
 			civilian={
-				large="gfx/leaders/IDX/Portrait_IDX_Ma_Qianzu.dds"
+				large="gfx/leaders/IDX/Portrait_IDX_Liu_Zhijun.dds"
 			}
 		}
 		country_leader={

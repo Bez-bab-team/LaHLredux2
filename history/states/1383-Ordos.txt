@@ -1,0 +1,14 @@
+state={
+	id=1383
+	name="STATE_1383"
+	provinces={
+		97 882 1634 1909 2194 3765 5847 6496 7743 8311 9527 11871 11900 11917 12040 12160 12233 
+	}
+	history={
+		owner = WRC
+		add_core_of = WRC
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

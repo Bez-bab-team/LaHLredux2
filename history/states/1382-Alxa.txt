@@ -1,0 +1,14 @@
+state={
+	id=1382
+	name="STATE_1382"
+	provinces={
+		76 92 401 894 1669 2209 2488 3089 3492 4063 4128 5322 6045 8021 8304 11692 11843 
+	}
+	history={
+		owner = MON
+		add_core_of = MON
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

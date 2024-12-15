@@ -1,0 +1,14 @@
+state={
+	id=1384
+	name="STATE_1384"
+	provinces={
+		18 431 1108 1683 1869 3563 3711 4016 4066 4069 4397 6476 6596 7722 8952 9889 11807 11824 11854 
+	}
+	manpower=0
+	history={
+		owner = MON
+		add_core_of = MON
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

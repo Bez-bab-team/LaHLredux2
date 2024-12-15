@@ -20,12 +20,7 @@ set_popularities = {
 	neocameralism = 100
 }
 
-create_country_leader = {
-	name = "Ma Qianzu"
-	picture = "Portrait_IDX_Ma_Qianzu.dds"
-	expire = "1960.1.1"
-	ideology = accelerationism
-	traits = {
-    }
-}
+##CHARACTERS##
+#leader#
+recruit_character = IDX_liu_zhijun
 

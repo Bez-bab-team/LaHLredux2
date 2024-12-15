@@ -1,0 +1,14 @@
+state={
+	id=1386
+	name="STATE_1386"
+	provinces={
+		214 749 1787 2476 4500 6317 6473 6735 6819 11597 11627 11680 11713 
+	}
+	history={
+		owner = DAL
+		add_core_of = DAL
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
