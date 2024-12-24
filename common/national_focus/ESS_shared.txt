@@ -5493,6 +5493,41 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_clean_the_metropolis"
+			add_to_variable = {
+				var = ESS_corpo_state
+				value = -5
+			}
+			add_to_variable = {
+				var = ESS_corpo_construction
+				value = 5
+			}
+			clamp_variable = {
+				var = ESS_corpo_state
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = ESS_corpo_construction
+				min = 0
+				max = 100
+			}
+			set_variable = { ESS_corpo_construction_production_speed_buildings_factor_BUFF = 1 }
+			set_variable = { ESS_corpo_construction_production_factory_max_efficiency_factor_BUFF = 1 }
+			set_variable = { ESS_corpo_construction_production_factory_efficiency_gain_factor_BUFF = 1 }
+			set_variable = { ESS_corpo_construction_local_resources_factor_BUFF = 1 }
+			set_variable = { ESS_pie_chart_construction_active = 1 }
+			ESS = {
+			}
+			hidden_effect = {
+				ESS = {
+					add_dynamic_modifier = {
+						modifier = ESS_modifier_corpo_construction
+					}
+					set_country_flag = ESS_corpo_construction_activated_flag
+				}
+			}
+			custom_effect_tooltip = ESS_clean_the_metropolis_tt_1
+			custom_effect_tooltip = ESS_clean_the_metropolis_tt
 		}
 		prerequisite = {
 			focus = ESS_british_board_meeting
@@ -5506,6 +5541,21 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_the_only_fair_tax"
+			ESS = {
+				every_owned_state = {
+					add_extra_state_shared_building_slots = 1
+				}	
+			}
+			set_variable = { ESS_corpo_construction_production_speed_buildings_factor_BUFF = 1.15 }
+			set_variable = { ESS_corpo_construction_production_factory_max_efficiency_factor_BUFF = 1.15 }
+			set_variable = { ESS_corpo_construction_production_factory_efficiency_gain_factor_BUFF = 1.15 }
+			set_variable = { ESS_corpo_construction_local_resources_factor_BUFF = 1.15 }
+			#
+			set_variable = { ESS_corpo_state_production_speed_buildings_factor_BUFF = 1.15 }
+			set_variable = { ESS_corpo_state_production_factory_max_efficiency_factor_BUFF = 1.15 }
+			set_variable = { ESS_corpo_state_production_factory_efficiency_gain_factor_BUFF = 1.15 }
+			set_variable = { ESS_corpo_state_local_resources_factor_BUFF = 1.15 }
+			custom_effect_tooltip = ESS_the_only_fair_tax_tt
 		}
 		prerequisite = {
 			focus = ESS_clean_the_metropolis
@@ -5519,6 +5569,17 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_you_are_fired"
+			ESS = {
+				add_stability = -0.08
+				add_political_power = -50
+				set_country_flag = ESS_crack_down_on_unions
+			}
+			set_variable = { ESS_corpo_construction_production_factory_max_efficiency_factor_BUFF = 1.15 }
+			set_variable = { ESS_corpo_construction_production_factory_efficiency_gain_factor_BUFF = 1.15 }
+			#
+			set_variable = { ESS_corpo_state_production_factory_max_efficiency_factor_BUFF = 1.15 }
+			set_variable = { ESS_corpo_state_production_factory_efficiency_gain_factor_BUFF = 1.15 }
+			custom_effect_tooltip = ESS_you_are_fired_tt
 		}
 		prerequisite = {
 			focus = ESS_clean_the_metropolis
@@ -5532,6 +5593,21 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_formula_one_lives_on"
+			ESS = {
+				1160 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+					}
+				}
+			    country_event = {
+				    days = 0
+					id = ESS_event.76
+				}
+				add_to_variable = { ESS_board_of_directors_budget = 45 }
+			}
+			custom_effect_tooltip = ESS_formula_one_lives_on_tt
 		}
 		prerequisite = {
 			focus = ESS_the_only_fair_tax
@@ -5545,6 +5621,13 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_keep_it_simple_stupid"
+			ESS = {
+				add_ideas = ESS_no_regulations
+			}
+			###Buffs###
+			add_to_variable = { ESS_civ_income_temp_loc = 0.05 }
+			add_to_variable = { ESS_mil_income_temp_loc = 0.05 }
+			custom_effect_tooltip = ESS_keep_it_simple_stupid_tt
 		}
 		prerequisite = {
 			focus = ESS_the_only_fair_tax
@@ -5560,7 +5643,45 @@
 		icon = GFX_goal_ESS_promote_human_capital
 		cost = 4.3
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: ESS_promote_human_capital"
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_promote_human_capital"
+			add_to_variable = {
+				var = ESS_corpo_people_shares
+				value = -3
+			}
+			add_to_variable = {
+				var = ESS_corpo_construction
+				value = 3
+			}
+			clamp_variable = {
+				var = ESS_corpo_people_shares
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = ESS_corpo_construction
+				min = 0
+				max = 100
+			}
+			add_to_variable = { ESS_corpo_construction_production_speed_buildings_factor_BUFF = 0.05 }
+			ESS = {
+				random_owned_controlled_state = {
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 1
+				}
+				random_owned_controlled_state = {
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 1
+				}
+			}
+			custom_effect_tooltip = ESS_promote_human_capital_tt
 		}
 		prerequisite = {
 			focus = ESS_you_are_fired
@@ -5574,6 +5695,36 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_concorde_food_company"
+			add_to_variable = {
+				var = ESS_corpo_state
+				value = -5
+			}
+			add_to_variable = {
+				var = ESS_corpo_farming
+				value = 5
+			}
+			clamp_variable = {
+				var = ESS_corpo_state
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = ESS_corpo_farming
+				min = 0
+				max = 100
+			}
+			set_variable = { ESS_corpo_farming_attrition_BUFF = 1 }
+			set_variable = { ESS_corpo_farming_supply_factor_BUFF = 1 }
+			set_variable = { ESS_pie_chart_farming_active = 1 }
+			hidden_effect = {
+				ESS = {
+					add_dynamic_modifier = {
+						modifier = ESS_modifier_corpo_farming
+					}
+					set_country_flag = ESS_corpo_farming_activated_flag
+				}
+			}
+			custom_effect_tooltip = ESS_concorde_food_company_tt
 		}
 		prerequisite = {
 			focus = ESS_formula_one_lives_on
@@ -5593,6 +5744,9 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_healthier_diet_for_nation"
+			ESS = {
+				add_ideas = ESS_farming_companies
+			}
 		}
 		prerequisite = {
 			focus = ESS_keep_it_simple_stupid
@@ -5612,6 +5766,10 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_british_silicon_fleet"
+			ESS = {
+				add_political_power = 50
+			}
+			custom_effect_tooltip = ESS_british_silicon_fleet_tt
 		}
 		prerequisite = {
 			focus = ESS_concorde_food_company
@@ -5626,6 +5784,11 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_digital_reserves"
+			ESS = {
+				add_ideas = ESS_bitcoin
+				add_offsite_building = { type = arms_factory level = 1 }
+				add_offsite_building = { type = industrial_complex level = 1 }
+			}
 		}
 		prerequisite = {
 			focus = ESS_concorde_food_company
@@ -5640,6 +5803,12 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: ESS_prison_industrial_complex"
+			ESS = {
+				add_political_power = -50
+				add_stability = -0.05
+				set_country_flag = ESS_private_prisons_active
+			}
+			custom_effect_tooltip = ESS_prison_industrial_complex_tt
 		}
 		prerequisite = {
 			focus = ESS_concorde_food_company

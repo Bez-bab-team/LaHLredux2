@@ -2437,6 +2437,35 @@ country_event = { #Wrong Button! 2 #Thx Pinkie Pie
 	}
 }
 
+country_event = { #Moldbug Returns Formula 1
+	id = ESS_event.76
+	title = ESS_event.76.t
+	desc = ESS_event.76.d
+	is_triggered_only = yes
+	picture = GFX_
+	option = {
+		name = ESS_event.76.a
+		ESS = {
+			add_political_power = 25
+		}
+	}
+}
+
+country_event = { #Moldbug Returns Formula 1
+	id = ESS_event.77
+	title = ESS_event.77.t
+	desc = ESS_event.77.d
+	is_triggered_only = yes
+	picture = GFX_
+	option = {
+		name = ESS_event.77.a
+		ESS = {
+			add_political_power = 50
+			add_stability = -0.05
+		}
+	}
+}
+
 country_event = {
 	id = ESS_event.666
 	title = ESS_event.666.t

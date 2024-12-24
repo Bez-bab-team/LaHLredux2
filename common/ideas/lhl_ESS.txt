@@ -2,6 +2,52 @@ ideas = {
 
 	country = {
 		##Moldbug##
+		ESS_bitcoin = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.08
+				trade_opinion_factor = 0.15
+			}
+		}
+		ESS_farming_companies = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				attrition = -0.05
+				supply_factor = 0.05
+			}
+		}
+		ESS_no_regulations = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				monthly_population = -0.1
+				stability_factor = -0.1
+				recruitable_population_factor = -0.05
+			}
+		}
 		ESS_healthcare_companies = {
 			
 			picture = GFX_
