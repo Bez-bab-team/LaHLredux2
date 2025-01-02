@@ -2466,6 +2466,619 @@ country_event = { #Moldbug Returns Formula 1
 	}
 }
 
+country_event = { #Misc Company 1 - Alternative Fuel
+	id = ESS_event.78
+	title = ESS_event.78.t
+	desc = ESS_event.78.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_
+	option = {
+		name = ESS_event.78.a
+		trigger = {
+			check_variable = { ESS_board_of_directors_budget > 9 }
+		}
+		set_variable = { ESS_corpo_companies_base_fuel_gain_factor_BUFF = 1 }
+		add_to_variable = { ESS_board_of_directors_budget = -10 }
+		add_to_variable = {
+			var = ESS_corpo_state
+			value = -2
+		}
+		add_to_variable = {
+			var = ESS_corpo_small_companies
+			value = 2
+		}
+		clamp_variable = {
+			var = ESS_corpo_state
+			min = 0
+			max = 100
+		}
+		clamp_variable = {
+			var = ESS_corpo_small_companies
+			min = 0
+			max = 100
+		}
+		set_variable = { ESS_pie_chart_small_companies_active = 1 }
+		custom_effect_tooltip = ESS_misc_company_1_tt
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 30
+					id = ESS_event.88
+				}
+			}
+		}
+	}
+	option = {
+		name = ESS_event.78.b
+		ESS = {
+			add_political_power = 25
+		}
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 30
+					id = ESS_event.88
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Misc Company 2 - Sturdy Building Company
+	id = ESS_event.79
+	title = ESS_event.79.t
+	desc = ESS_event.79.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_
+	option = {
+		name = ESS_event.79.a
+		trigger = {
+			check_variable = { ESS_board_of_directors_budget > 9 }
+		}
+		set_variable = { ESS_corpo_companies_industry_air_damage_factor_BUFF = 1 }
+		add_to_variable = { ESS_board_of_directors_budget = -10 }
+		add_to_variable = {
+			var = ESS_corpo_state
+			value = -2
+		}
+		add_to_variable = {
+			var = ESS_corpo_small_companies
+			value = 2
+		}
+		clamp_variable = {
+			var = ESS_corpo_state
+			min = 0
+			max = 100
+		}
+		clamp_variable = {
+			var = ESS_corpo_small_companies
+			min = 0
+			max = 100
+		}
+		set_variable = { ESS_pie_chart_small_companies_active = 1 }
+		custom_effect_tooltip = ESS_misc_company_1_tt
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 30
+					id = ESS_event.88
+				}
+			}
+		}
+	}
+	option = {
+		name = ESS_event.79.b
+		ESS = {
+			add_political_power = 25
+		}
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 30
+					id = ESS_event.88
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Misc Company 3 - Feminist Company
+	id = ESS_event.80
+	title = ESS_event.80.t
+	desc = ESS_event.80.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_
+	option = {
+		name = ESS_event.80.a
+		trigger = {
+			check_variable = { ESS_board_of_directors_budget > 9 }
+		}
+		set_variable = { ESS_corpo_companies_female_random_operative_chance_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_female_random_army_leader_chance_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_female_random_admiral_chance_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_female_divisional_commander_chance_BUFF = 1 }
+		add_to_variable = { ESS_board_of_directors_budget = 10 }
+		add_to_variable = {
+			var = ESS_corpo_state
+			value = -2
+		}
+		add_to_variable = {
+			var = ESS_corpo_small_companies
+			value = 2
+		}
+		clamp_variable = {
+			var = ESS_corpo_state
+			min = 0
+			max = 100
+		}
+		clamp_variable = {
+			var = ESS_corpo_small_companies
+			min = 0
+			max = 100
+		}
+		set_variable = { ESS_pie_chart_small_companies_active = 1 }
+		custom_effect_tooltip = ESS_misc_company_1_tt
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 30
+					id = ESS_event.88
+				}
+			}
+		}
+	}
+	option = {
+		name = ESS_event.80.b
+		ESS = {
+			add_political_power = 25
+		}
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 30
+					id = ESS_event.88
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Misc Company 4 - Naval Transport Company
+	id = ESS_event.81
+	title = ESS_event.81.t
+	desc = ESS_event.81.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_
+	option = {
+		name = ESS_event.81.a
+		trigger = {
+			check_variable = { ESS_board_of_directors_budget > 9 }
+		}
+		set_variable = { ESS_corpo_companies_transport_capacity_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_naval_equipment_upgrade_xp_cost_BUFF = 1 }
+		add_to_variable = {
+			var = ESS_corpo_state
+			value = -2
+		}
+		add_to_variable = {
+			var = ESS_corpo_small_companies
+			value = 2
+		}
+		clamp_variable = {
+			var = ESS_corpo_state
+			min = 0
+			max = 100
+		}
+		clamp_variable = {
+			var = ESS_corpo_small_companies
+			min = 0
+			max = 100
+		}
+		set_variable = { ESS_pie_chart_small_companies_active = 1 }
+		custom_effect_tooltip = ESS_misc_company_1_tt
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 30
+					id = ESS_event.88
+				}
+			}
+		}
+	}
+	option = {
+		name = ESS_event.81.b
+		ESS = {
+			add_political_power = 25
+		}
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 30
+					id = ESS_event.88
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Misc Company 5 - Safety Company
+	id = ESS_event.82
+	title = ESS_event.82.t
+	desc = ESS_event.82.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_
+	option = {
+		name = ESS_event.82.a
+		trigger = {
+			check_variable = { ESS_board_of_directors_budget > 9 }
+		}
+		set_variable = { ESS_corpo_companies_naval_accidents_chance_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_air_accidents_factor_BUFF = 1 }
+		add_to_variable = {
+			var = ESS_corpo_state
+			value = -2
+		}
+		add_to_variable = {
+			var = ESS_corpo_small_companies
+			value = 2
+		}
+		clamp_variable = {
+			var = ESS_corpo_state
+			min = 0
+			max = 100
+		}
+		clamp_variable = {
+			var = ESS_corpo_small_companies
+			min = 0
+			max = 100
+		}
+		set_variable = { ESS_pie_chart_small_companies_active = 1 }
+		custom_effect_tooltip = ESS_misc_company_1_tt
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 30
+					id = ESS_event.88
+				}
+			}
+		}
+	}
+	option = {
+		name = ESS_event.82.b
+		ESS = {
+			add_political_power = 25
+		}
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 30
+					id = ESS_event.88
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Misc Company 6 - Equipment Upgrade Company
+	id = ESS_event.83
+	title = ESS_event.83.t
+	desc = ESS_event.83.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_
+	option = {
+		name = ESS_event.83.a
+		trigger = {
+			check_variable = { ESS_board_of_directors_budget > 9 }
+		}
+		set_variable = { ESS_corpo_companies_equipment_upgrade_xp_cost_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_equipment_conversion_speed_BUFF = 1 }
+		add_to_variable = {
+			var = ESS_corpo_state
+			value = -2
+		}
+		add_to_variable = {
+			var = ESS_corpo_small_companies
+			value = 2
+		}
+		clamp_variable = {
+			var = ESS_corpo_state
+			min = 0
+			max = 100
+		}
+		clamp_variable = {
+			var = ESS_corpo_small_companies
+			min = 0
+			max = 100
+		}
+		set_variable = { ESS_pie_chart_small_companies_active = 1 }
+		custom_effect_tooltip = ESS_misc_company_1_tt
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 30
+					id = ESS_event.88
+				}
+			}
+		}
+	}
+	option = {
+		name = ESS_event.83.b
+		ESS = {
+			add_political_power = 25
+		}
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 30
+					id = ESS_event.88
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Misc Company 7 - Warm Clothes Company
+	id = ESS_event.84
+	title = ESS_event.84.t
+	desc = ESS_event.84.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_
+	option = {
+		name = ESS_event.84.a
+		trigger = {
+			check_variable = { ESS_board_of_directors_budget > 9 }
+		}
+		set_variable = { ESS_corpo_companies_acclimatization_cold_climate_gain_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_acclimatization_hot_climate_gain_factor_BUFF = 1 }
+		add_to_variable = {
+			var = ESS_corpo_state
+			value = -2
+		}
+		add_to_variable = {
+			var = ESS_corpo_small_companies
+			value = 2
+		}
+		clamp_variable = {
+			var = ESS_corpo_state
+			min = 0
+			max = 100
+		}
+		clamp_variable = {
+			var = ESS_corpo_small_companies
+			min = 0
+			max = 100
+		}
+		set_variable = { ESS_pie_chart_small_companies_active = 1 }
+		custom_effect_tooltip = ESS_misc_company_1_tt
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 30
+					id = ESS_event.88
+				}
+			}
+		}
+	}
+	option = {
+		name = ESS_event.84.b
+		ESS = {
+			add_political_power = 25
+		}
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 30
+					id = ESS_event.88
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Misc Company 8 - Ace Training Company
+	id = ESS_event.85
+	title = ESS_event.85.t
+	desc = ESS_event.85.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_
+	option = {
+		name = ESS_event.85.a
+		trigger = {
+			check_variable = { ESS_board_of_directors_budget > 9 }
+		}
+		set_variable = { ESS_corpo_companies_air_volunteer_cap_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_air_ace_bonuses_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_air_ace_generation_chance_factor_BUFF = 1 }
+		set_variable = { ESS_corpo_companies_ace_effectiveness_factor_BUFF = 1 }
+		add_to_variable = {
+			var = ESS_corpo_state
+			value = -2
+		}
+		add_to_variable = {
+			var = ESS_corpo_small_companies
+			value = 2
+		}
+		clamp_variable = {
+			var = ESS_corpo_state
+			min = 0
+			max = 100
+		}
+		clamp_variable = {
+			var = ESS_corpo_small_companies
+			min = 0
+			max = 100
+		}
+		set_variable = { ESS_pie_chart_small_companies_active = 1 }
+		custom_effect_tooltip = ESS_misc_company_1_tt
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 30
+					id = ESS_event.88
+				}
+			}
+		}
+	}
+	option = {
+		name = ESS_event.85.b
+		ESS = {
+			add_political_power = 25
+		}
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 30
+					id = ESS_event.88
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Misc Company 9 - Infrastructure Company
+	id = ESS_event.86
+	title = ESS_event.86.t
+	desc = ESS_event.86.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_
+	option = {
+		name = ESS_event.86.a
+		trigger = {
+			check_variable = { ESS_board_of_directors_budget > 9 }
+		}
+		set_variable = { ESS_corpo_companies_production_speed_supply_node_factor_BUFF = 1 }
+		add_to_variable = {
+			var = ESS_corpo_state
+			value = -2
+		}
+		add_to_variable = {
+			var = ESS_corpo_small_companies
+			value = 2
+		}
+		clamp_variable = {
+			var = ESS_corpo_state
+			min = 0
+			max = 100
+		}
+		clamp_variable = {
+			var = ESS_corpo_small_companies
+			min = 0
+			max = 100
+		}
+		set_variable = { ESS_pie_chart_small_companies_active = 1 }
+		custom_effect_tooltip = ESS_misc_company_1_tt
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 30
+					id = ESS_event.88
+				}
+			}
+		}
+	}
+	option = {
+		name = ESS_event.86.b
+		ESS = {
+			add_political_power = 25
+		}
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 30
+					id = ESS_event.88
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Misc Company 10 - Super Stuff Company
+	id = ESS_event.87
+	title = ESS_event.87.t
+	desc = ESS_event.87.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_
+	immediate = {
+		ESS = {
+			set_country_flag = ESS_small_company_reset
+		}
+	}
+	option = {
+		name = ESS_event.87.a
+		trigger = {
+			check_variable = { ESS_board_of_directors_budget > 49 }
+		}
+		set_variable = { ESS_corpo_companies_bullshit_BUFF = 100 }
+		add_to_variable = {
+			var = ESS_corpo_state
+			value = -2
+		}
+		add_to_variable = {
+			var = ESS_corpo_small_companies
+			value = 2
+		}
+		clamp_variable = {
+			var = ESS_corpo_state
+			min = 0
+			max = 100
+		}
+		clamp_variable = {
+			var = ESS_corpo_small_companies
+			min = 0
+			max = 100
+		}
+		set_variable = { ESS_pie_chart_small_companies_active = 1 }
+		custom_effect_tooltip = ESS_misc_company_1_tt
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 30
+					id = ESS_event.88
+				}
+			}
+		}
+	}
+	option = {
+		name = ESS_event.87.b
+		ESS = {
+			add_political_power = -25
+		}
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 30
+					id = ESS_event.88
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Small Company Reset
+	id = ESS_event.88
+	title = ESS_event.88.t
+	desc = ESS_event.88.d
+	is_triggered_only = yes
+	picture = GFX_
+	hidden = yes
+	option = {
+		name = ESS_event.88.a
+		ESS = {
+			clr_country_flag = ESS_small_company_reset
+		}
+	}
+}
+
 country_event = {
 	id = ESS_event.666
 	title = ESS_event.666.t

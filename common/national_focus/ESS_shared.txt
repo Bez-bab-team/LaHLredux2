@@ -5108,11 +5108,7 @@
 			custom_trigger_tooltip = {
 				tooltip = ESS_keep_them_afloat_trigger_tt
 			}
-			check_variable = {
-				var = ESS_board_of_directors_budget
-				value = 15
-				compare = greater_than_or_equals
-			}
+			check_variable = { ESS_board_of_directors_budget > 14 }
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_keep_them_afloat"
@@ -5823,13 +5819,15 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_big_opportunities_for_small_men"
+			add_political_power = 100
+			custom_effect_tooltip = ESS_big_opportunities_for_small_men_tt		
 		}
 		prerequisite = {
 			focus = ESS_british_silicon_fleet
 		}
 		prerequisite = {
 			focus = ESS_digital_reserves
-		}
+		}		
 		x = 9
 		y = 20
 	}
