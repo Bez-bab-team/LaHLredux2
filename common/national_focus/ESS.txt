@@ -255,4 +255,18 @@ focus_tree = {
 	}
 }
 
+focus_tree = {
+	id = ESS_land_main
+	default = no
+	continuous_focus_position = { x = 20 y = 4000}
+		shared_focus = ESS_nonstandart_numeracies
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = ESS
+		}
+	}
+}
+
 
