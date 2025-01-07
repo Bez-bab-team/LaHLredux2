@@ -883,4 +883,398 @@ spriteTypes = {
 		name = "GFX_goal_ESS_towards_golden_30s"
 		texturefile = "gfx/interface/goals/ESS/goal_ESS_towards_golden_30s.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_ESS_found_the_british_company"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_found_the_british_company.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_reintegration_of_offenders"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_reintegration_of_offenders.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_pound_restructurization"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_pound_restructurization.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_franchise_governance"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_franchise_governance.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_seek_and_destroy"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_seek_and_destroy.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_slow_boil"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_slow_boil.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_new_secularization"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_new_secularization.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_rules_for_the_media"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_rules_for_the_media.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_build_up_initial_capital"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_build_up_initial_capital.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_a_necessary_evil"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_a_necessary_evil.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_keep_them_afloat"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_keep_them_afloat.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_compete_for_patients"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_compete_for_patients.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_national_health_company"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_national_health_company.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_meritocratic_trust"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_meritocratic_trust.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_british_board_meeting"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_british_board_meeting.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_molded_mob"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_molded_mob.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_establish_public_forces"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_establish_public_forces.dds"
+	}SpriteType = {
+		name = "GFX_goal_ESS_blood_debt"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_blood_debt.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_fund_british_armories"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_fund_british_armories.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_backup_over_the_pond"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_backup_over_the_pond.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_natural_laws_of_warfare"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_natural_laws_of_warfare.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_ensure_a_secure_state"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_ensure_a_secure_state.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_private_detective_agency"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_private_detective_agency.dds"
+	}SpriteType = {
+		name = "GFX_goal_ESS_inner_arms_race"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_inner_arms_race.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_sell_table_scraps"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_sell_table_scraps.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_virtual_drills"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_virtual_drills.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_rifle_by_your_side"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_rifle_by_your_side.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_enact_domicide"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_enact_domicide.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_new_arms_market"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_new_arms_market.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_clean_the_metropolis"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_clean_the_metropolis.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_the_only_fair_tax"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_the_only_fair_tax.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_you_are_fired"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_you_are_fired.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_formula_one_lives_on"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_formula_one_lives_on.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_keep_it_simple_stupid"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_keep_it_simple_stupid.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_promote_human_capital"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_promote_human_capital.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_concorde_food_company"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_concorde_food_company.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_healthier_diet_for_nation"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_healthier_diet_for_nation.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_british_silicon_fleet"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_british_silicon_fleet.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_digital_reserves"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_digital_reserves.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_prison_industrial_complex"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_prison_industrial_complex.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_big_opportunities_for_small_men"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_big_opportunities_for_small_men.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_answer_their_needs"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_answer_their_needs.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_software_exports"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_software_exports.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_western_legalism"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_western_legalism.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_community_service_hotline"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_community_service_hotline.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_simpler_society"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_simpler_society.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_tonights_entertainment"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_tonights_entertainment.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_freedom_from_needs"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_freedom_from_needs.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_reclaim_the_british_beauty"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_reclaim_the_british_beauty.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_comfortable_city"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_comfortable_city.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_workable_city"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_workable_city.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_positive_eugenics"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_positive_eugenics.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_market_of_ideas"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_market_of_ideas.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_unrestricted_science"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_unrestricted_science.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_rules_for_reactionaries"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_rules_for_reactionaries.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_the_resarthus"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_the_resarthus.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_return_to_the_world_stage"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_return_to_the_world_stage.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_emma_walmsley_leader"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_emma_walmsley_leader.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_credit_score_system"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_credit_score_system.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_decentralization"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_decentralization.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_big_pharma"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_big_pharma.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_meritocratic_foundation"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_meritocratic_foundation.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_medical_services"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_medical_services.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_revive_fordism"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_revive_fordism.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_new_opium_wars"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_new_opium_wars.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_clive_palmer_leader"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_clive_palmer_leader.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_revitalize_mining_industry"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_revitalize_mining_industry.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_peoples_entertainment"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_peoples_entertainment.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_personal_spendings"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_personal_spendings.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_figureheads"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_figureheads.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_vanity_projects"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_vanity_projects.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_rebuild_the_channel"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_rebuild_the_channel.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_the_great_fair"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_the_great_fair.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_moldbug_monarchy_leader"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_moldbug_monarchy_leader.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_the_new_law"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_the_new_law.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_the_kings_bank"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_the_kings_bank.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_old_worlds_money"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_old_worlds_money.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_moldbugs_expertise"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_moldbugs_expertise.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_neocameralist_feudalism"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_neocameralist_feudalism.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_approach_the_celts"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_approach_the_celts.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_tarnish_the_windsors"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_tarnish_the_windsors.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_monarchy_restored"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_monarchy_restored.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_peter_thiel_leader
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_peter_thiel_leader.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_software_of_the_future"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_software_of_the_future.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_old_friends"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_old_friends.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_do_you_want_to_live_forever"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_do_you_want_to_live_forever.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_the_conservative_turn"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_the_conservative_turn.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_space_tourism"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_space_tourism.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_the_great_bitcoin_switch"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_the_great_bitcoin_switch.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_who_will_save_the_world"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_who_will_save_the_world.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_timothy_simon_spicer_leader"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_timothy_simon_spicer_leader.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_raise_military_budget"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_raise_military_budget.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_jungle_work"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_jungle_work.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_military_scientific_complex"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_military_scientific_complex.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_the_british_patriot_act"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_the_british_patriot_act.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_nuclear_prestige"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_nuclear_prestige.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_rebuild_her_majestys_fleet"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_rebuild_her_majestys_fleet.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_establish_the_military_council"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_establish_the_military_council.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_smashing_the_harp"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_smashing_the_harp.dds"
+	}
 }
