@@ -267,7 +267,7 @@ ESS_board_of_directors = {
 			check_variable = { ESS_pie_chart_healthcare_active = 1 }
 		}
 		custom_cost_trigger = {
-			check_variable = { ESS_board_of_directors_budget > 10 }
+			check_variable = { ESS_board_of_directors_budget > 9 }
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_10
 		days_remove = 120
@@ -305,7 +305,7 @@ ESS_board_of_directors = {
 			check_variable = { ESS_pie_chart_construction_active = 1 }
 		}
 		custom_cost_trigger = {
-			check_variable = { ESS_board_of_directors_budget > 10 }
+			check_variable = { ESS_board_of_directors_budget > 9 }
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_10
 		days_remove = 120
@@ -343,7 +343,7 @@ ESS_board_of_directors = {
 			check_variable = { ESS_pie_chart_pmc_active = 1 }
 		}
 		custom_cost_trigger = {
-			check_variable = { ESS_board_of_directors_budget > 10 }
+			check_variable = { ESS_board_of_directors_budget > 9 }
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_10
 		days_remove = 120
@@ -381,7 +381,7 @@ ESS_board_of_directors = {
 			check_variable = { ESS_pie_chart_spy_active = 1 }
 		}
 		custom_cost_trigger = {
-			check_variable = { ESS_board_of_directors_budget > 10 }
+			check_variable = { ESS_board_of_directors_budget > 9 }
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_10
 		days_remove = 120
@@ -419,7 +419,7 @@ ESS_board_of_directors = {
 			check_variable = { ESS_pie_chart_media_active = 1 }
 		}
 		custom_cost_trigger = {
-			check_variable = { ESS_board_of_directors_budget > 10 }
+			check_variable = { ESS_board_of_directors_budget > 9 }
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_10
 		days_remove = 120
@@ -457,7 +457,7 @@ ESS_board_of_directors = {
 			check_variable = { ESS_pie_chart_tourism_active = 1 }
 		}
 		custom_cost_trigger = {
-			check_variable = { ESS_board_of_directors_budget > 10 }
+			check_variable = { ESS_board_of_directors_budget > 9 }
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_10
 		days_remove = 120
@@ -495,7 +495,7 @@ ESS_board_of_directors = {
 			check_variable = { ESS_pie_chart_farming_active = 1 }
 		}
 		custom_cost_trigger = {
-			check_variable = { ESS_board_of_directors_budget > 10 }
+			check_variable = { ESS_board_of_directors_budget > 9 }
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_10
 		days_remove = 120
@@ -533,7 +533,7 @@ ESS_board_of_directors = {
 			check_variable = { ESS_pie_chart_small_companies_active = 1 }
 		}
 		custom_cost_trigger = {
-			check_variable = { ESS_board_of_directors_budget > 10 }
+			check_variable = { ESS_board_of_directors_budget > 9 }
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_10
 		days_remove = 120
@@ -681,7 +681,7 @@ ESS_board_of_directors = {
 	}
 	ESS_rebuild_london = { #Rebuild London
 		custom_cost_trigger = {
-			check_variable = { ESS_board_of_directors_budget > 15 }
+			check_variable = { ESS_board_of_directors_budget > 14 }
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_15
 		available = {
@@ -720,7 +720,7 @@ ESS_board_of_directors = {
 	}
 	ESS_rebuild_countryside = { #Rebuild Countryside
 		custom_cost_trigger = {
-			check_variable = { ESS_board_of_directors_budget > 10 }
+			check_variable = { ESS_board_of_directors_budget > 9 }
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_10
 		available = {
@@ -774,7 +774,7 @@ ESS_board_of_directors = {
 	}
 	ESS_military_bases = { #Military Bases
 		custom_cost_trigger = {
-			check_variable = { ESS_board_of_directors_budget > 10 }
+			check_variable = { ESS_board_of_directors_budget > 9 }
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_10
 		available = {
@@ -836,7 +836,7 @@ ESS_board_of_directors = {
 	}
 	ESS_build_hospitals = { #Build Hospitals
 		custom_cost_trigger = {
-			check_variable = { ESS_board_of_directors_budget > 5 }
+			check_variable = { ESS_board_of_directors_budget > 4 }
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_5
 		available = {
@@ -913,7 +913,7 @@ ESS_board_of_directors = {
 	}
 	ESS_rebuild_trade_fleet = { #Rebuild Trade Fleet
 		custom_cost_trigger = {
-			check_variable = { ESS_board_of_directors_budget > 5 }
+			check_variable = { ESS_board_of_directors_budget > 4 }
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_5
 		available = {
@@ -946,7 +946,7 @@ ESS_board_of_directors = {
 	}
 	ESS_rebuild_ports = { #Rebuild Trade Fleet
 		custom_cost_trigger = {
-			check_variable = { ESS_board_of_directors_budget > 10 }
+			check_variable = { ESS_board_of_directors_budget > 9 }
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_10
 		available = {
@@ -1009,7 +1009,7 @@ ESS_board_of_directors = {
 		days_remove = 120
 		icon = my_icon
 		custom_cost_trigger = {
-			check_variable = { ESS_board_of_directors_budget > 10 }
+			check_variable = { ESS_board_of_directors_budget > 9 }
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_10
 		state_target = yes
@@ -1026,9 +1026,38 @@ ESS_board_of_directors = {
 	}
 	ESS_build_private_prisons_vr = { #Rebuild Trade Fleet
 		custom_cost_trigger = {
-			check_variable = { ESS_board_of_directors_budget > 15 }
+			check_variable = { ESS_board_of_directors_budget > 14 }
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_15
+		available = {
+			has_completed_focus = ESS_prison_industrial_complex
+			has_country_flag = ESS_interact_with_construction_active
+		}
+		visible = {
+			has_completed_focus = ESS_prison_industrial_complex
+			has_country_flag = ESS_interact_with_construction_active
+		}
+		fire_only_once = yes
+		days_remove = 180
+		remove_effect = {
+			add_to_variable = {  ESS_prisons_income_temp_loc = 3 }
+		    ESS = {
+			    country_event = {
+				    days = 0
+					id = ESS_event.77
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	###Curators###
+	ESS_curator_state_corp = { 
+		custom_cost_trigger = {
+			check_variable = { ESS_board_of_directors_budget > 7 }
+		}
+		custom_cost_text = ESS_CITY_BUDGET_COST_8
 		available = {
 			has_completed_focus = ESS_prison_industrial_complex
 			has_country_flag = ESS_interact_with_construction_active

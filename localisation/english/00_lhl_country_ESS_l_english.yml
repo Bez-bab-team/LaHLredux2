@@ -1098,6 +1098,60 @@
  ESS_event.77.d:0 "Man-made horrors beyong our comprehension"
  ESS_event.77.a:0 "Damn, this sucks"
  #
+ ESS_event.78.t:0 "Misc Company 1 - Alternative Fuel"
+ ESS_event.78.d:0 "A small company wants to introduce a new alternative fuel"
+ ESS_event.78.a:0 "We need this"
+ ESS_event.78.b:0 "We don't have money for that"
+ #
+ ESS_event.79.t:0 "Misc Company 2 - Sturdy Building Company"
+ ESS_event.79.d:0 "A small company wants to build better buildings"
+ ESS_event.79.a:0 "We need this"
+ ESS_event.79.b:0 "We don't have money for that"
+ #
+ ESS_event.80.t:0 "Misc Company 3 - Feminist Company"
+ ESS_event.80.d:0 "A company wants to promote women in military. They offer to pay us."
+ ESS_event.80.a:0 "Wait, they are paying us?"
+ ESS_event.80.b:0 "Ew, women"
+ #
+ ESS_event.81.t:0 "Misc Company 4 - Naval Transport Company"
+ ESS_event.81.d:0 "A small company wants to build better transport ships"
+ ESS_event.81.a:0 "We need this"
+ ESS_event.81.b:0 "We don't have money for that"
+ #
+ ESS_event.82.t:0 "Misc Company 5 - Safety Company"
+ ESS_event.82.d:0 "A small company wants to build safer planes and ships"
+ ESS_event.82.a:0 "We need this"
+ ESS_event.82.b:0 "We don't have money for that"
+ #
+ ESS_event.83.t:0 "Misc Company 6 - Equipment Upgrade Company"
+ ESS_event.83.d:0 "A small company wants to make better equipment"
+ ESS_event.83.a:0 "We need this"
+ ESS_event.83.b:0 "We don't have money for that"
+ #
+ ESS_event.84.t:0 "Misc Company 7 - Warm Clothes Company"
+ ESS_event.84.d:0 "A small company wants to make uniform for better acclimatization"
+ ESS_event.84.a:0 "We need this"
+ ESS_event.84.b:0 "We don't have money for that"
+ #
+ ESS_event.85.t:0 "Misc Company 8 - Ace Training Company"
+ ESS_event.85.d:0 "A small company wants to train our aces better"
+ ESS_event.85.a:0 "We need this"
+ ESS_event.85.b:0 "We don't have money for that"
+ #
+ ESS_event.86.t:0 "Misc Company 9 - Infrastructure Company"
+ ESS_event.86.d:0 "A small company wants to build supply points better"
+ ESS_event.86.a:0 "We need this"
+ ESS_event.86.b:0 "We don't have money for that"
+ #
+ ESS_event.87.t:0 "Misc Company 10 - Super Stuff Company"
+ ESS_event.87.d:0 "A small companies wants to build better super weapons"
+ ESS_event.87.a:0 "Holy shit we need this"
+ ESS_event.87.b:0 "We don't have money for that"
+ #
+ ESS_event.88.t:0 "Misc Company Thingy"
+ ESS_event.88.d:0 "Why do you see this? You know the seven popes cometh from the south?"
+ ESS_event.88.a:0 "Nevermore"
+ #
  ESS_event.89.t:0 "Dealing with Germans"
  ESS_event.89.d:0 "What are we gonna do with the krauts?"
  ESS_event.89.a:0 "Moldbug says save ministers"
@@ -1670,6 +1724,19 @@
  ESS_concorde_food_company_tt:0 "The §OConcord Food Company§! Gains §Y5%§! of The Shares\nThe §0The Governing Trust Association§! Loses §Y5%§! of The Shares"
  ESS_prison_industrial_complex_tt:0 "We will start receiving §YMonthly Funding§! from §YPrivate Prisons§!"
  ESS_build_private_prisons_tt:0 "Constructing a §YPrivate Prison§! in This State Will Increase Income"
+ #
+ ESS_misc_company_1_tt:0 "Add §YAlternative Fuel Company§! to §1Misc. Companies§!\nThe §1Misc. Companies§! Gains §Y2%§! of The Shares\nThe §0Governing Trust Association§! Loses §Y2%§! of The Shares\nGain Bonuses to §YBase Fuel Gain§!\nIt costs §Y££10 million§! to do so"
+ ESS_misc_company_2_tt:0 "Add §YSturdy Buildings Company§! to §1Misc. Companies§!\nThe §1Misc. Companies§! Gains §Y2%§! of The Shares\nThe §0Governing Trust Association§! Loses §Y2%§! of The Shares\nGain Bonuses to §YFactory Bomb Vulnerability§!\nIt costs §Y££10 million§! to do so"
+ ESS_misc_company_3_tt:0 "Add §YFeminist Company§! to §1Misc. Companies§!\nThe §1Misc. Companies§! Gains §Y2%§! of The Shares\nThe §0Governing Trust Association§! Loses §Y2%§! of The Shares\nGain Bonuses to §YAdded Female Operative Chance§!, §YAdded Female Army Leader Chance§!, §YAdded Female Admiral Chance§!, §YFemale Divisional Commander Chance§!\n§Y££10 million§! Are Added to Our Budget"
+ ESS_misc_company_4_tt:0 "Add §YNaval Transport Company§! to §1Misc. Companies§!\nThe §1Misc. Companies§! Gains §Y2%§! of The Shares\nThe §0Governing Trust Association§! Loses §Y2%§! of The Shares\nGain Bonuses to §YNaval Equipment Experience Cost§!, §YTroop convoy requirements§!\nIt costs §Y££10 million§! to do so"
+ ESS_misc_company_5_tt:0 "Add §YSafety Company§! to §1Misc. Companies§!\nThe §1Misc. Companies§! Gains §Y2%§! of The Shares\nThe §0Governing Trust Association§! Loses §Y2%§! of The Shares\nGain Bonuses to §YAir Accidents Chance§!, §YNaval Accidents Chance§!\nIt costs §Y££10 million§! to do so"
+ ESS_misc_company_6_tt:0 "Add §YEquipment Upgrade Company§! to §1Misc. Companies§!\nThe §1Misc. Companies§! Gains §Y2%§! of The Shares\nThe §0Governing Trust Association§! Loses §Y2%§! of The Shares\nGain Bonuses to §YEquipment Conversion Speed§!, §YEquipment Experience Cost§!\nIt costs §Y££10 million§! to do so"
+ ESS_misc_company_7_tt:0 "Add §YWarm Clothes Company§! to §1Misc. Companies§!\nThe §1Misc. Companies§! Gains §Y2%§! of The Shares\nThe §0Governing Trust Association§! Loses §Y2%§! of The Shares\nGain Bonuses to §YCold acclimatization gain factor§!, §YHot acclimatization gain factor§!\nIt costs §Y££10 million§! to do so"
+ ESS_misc_company_8_tt:0 "Add §YAce Training Company§! to §1Misc. Companies§!\nThe §1Misc. Companies§! Gains §Y2%§! of The Shares\nThe §0Governing Trust Association§! Loses §Y2%§! of The Shares\nGain Bonuses to §YAce generation chance§!, §YAir aces bonuses§!, §YAce Effectiveness§!, §YAir volunteer cap§!\nIt costs §Y££10 million§! to do so"
+ ESS_misc_company_9_tt:0 "Add §YInfrastructure Company§! to §1Misc. Companies§!\nThe §1Misc. Companies§! Gains §Y2%§! of The Shares\nThe §0Governing Trust Association§! Loses §Y2%§! of The Shares\nGain Bonuses to §YSupply Hub construction speed§!\nIt costs §Y££10 million§! to do so"
+ ESS_misc_company_10_tt:0 "Add §YSuper Stuff Company§! to §1Misc. Companies§!\nThe §1Misc. Companies§! Gains §Y2%§! of The Shares\nThe §0Governing Trust Association§! Loses §Y2%§! of The Shares\nGain Bonuses to §YAnti-Graviton Thermonuclear Super-Bomb production speed§!\nIt costs §Y££50 million§! to do so"
+ #
+ ESS_big_opportunities_for_small_men_tt:0 "§YWe will have opportunities to invest into small companies from time to time§!"
  #Corpo Localization#
  ESS_corpo_state_healthcare_tt:0 "\n§YGlaxoSmithKline§!\nMonthly Population: §G+§![?ESS_corpo_state_monthly_population|.1%+]\nRecruitable Population: §G+§![?ESS_corpo_state_recruitable_population_factor|.2%+]"
  ESS_corpo_state_construction_tt:0 "\n§YPalmer Group§!\nResource Gain Efficiency: §G+§![?ESS_corpo_state_local_resources_factor|.2%+]\nConstruction Speed: §G+§![?ESS_corpo_state_production_speed_buildings_factor|.2%+]\n£lhl_efficiency_cap_icon Production Efficiency Cap: §G+§![?ESS_corpo_state_production_factory_max_efficiency_factor|.2%+]\n£lhl_efficiency_icon Production Efficiency growth: §G+§![?ESS_corpo_state_production_factory_efficiency_gain_factor|.2%+]"
@@ -1684,7 +1751,7 @@
  ESS_corpo_small_companies_7_tt:0 "\n§YWarm Clothes Company§!\nCold acclimatization gain factor: §G+§![?ESS_corpo_companies_acclimatization_cold_climate_gain_factor|.1%+]\nHot acclimatization gain factor: §G+§![?ESS_corpo_companies_acclimatization_hot_climate_gain_factor|.1%+]"
  ESS_corpo_small_companies_8_tt:0 "\n§YAce Training Company§!\nAce generation chance: §G+§![?ESS_corpo_companies_air_ace_generation_chance_factor|.2%+]\nAir aces bonuses: §G+§![?ESS_corpo_companies_air_ace_bonuses_factor|.0%+]\nAce Effectiveness: §G+§![?ESS_corpo_companies_ace_effectiveness_factor|.1%+]\nAir volunteer cap: §G+§![?ESS_corpo_companies_air_volunteer_cap|.0+]"
  ESS_corpo_small_companies_9_tt:0 "\n§YInfrastructure Company§!\n§YSupply Hub§! construction speed: §G+§![?ESS_corpo_companies_production_speed_supply_node_factor|.2%+]"
- ESS_corpo_small_companies_10_tt:0 "\n§YSuper Stuff Company§!\n Anti-Graviton Thermonuclear Super-Bomb production speed: §G+10000000.00%§!"
+ ESS_corpo_small_companies_10_tt:0 "\n§YSuper Stuff Company§!\nAnti-Graviton Thermonuclear Super-Bomb production speed: §G+10000000.00%§!"
  #
  ESS_interact_with_corpo_TITLE:0 "§YINVEST INTO COMPANIES§!"
  ESS_interact_with_corpo_state:0 "Consolidate §0Governing Trust Association§!"
