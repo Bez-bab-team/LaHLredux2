@@ -549,7 +549,10 @@ ESS_brunel_university_bonus  = {
 	local_resources_factor = ESS_brunel_local_resources_factor
 }
 
+ESS_united_britain  = { 
+	icon = GFX_hui
 
+}
 
 ##SUS##
 SUS_pillars_wessex = {
