@@ -611,4 +611,276 @@ spriteTypes = {
 		name = "GFX_goal_ESS_stability_returns"
 		texturefile = "gfx/interface/goals/ESS/goal_ESS_stability_returns.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_ESS_summon_the_congress"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_summon_the_congress.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_strike_on_loansharking"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_strike_on_loansharking.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_patris_carde"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_patris_carde.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_one_nation_one_enemy_one_firm"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_one_nation_one_enemy_one_firm.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_the_grand_waltz"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_the_grand_waltz.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_shanty_alms"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_shanty_alms.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_freedom_amendment"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_freedom_amendment.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_cooperatives_protection"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_cooperatives_protection.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_generals_ministers"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_generals_ministers.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_2nd_battle_of_cable_street"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_2nd_battle_of_cable_street.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_beating_heart"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_beating_heart.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_great_ouse_march"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_great_ouse_march.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_border_bobbies"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_border_bobbies.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_on_the_side_of_the_christ"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_on_the_side_of_the_christ.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_alt_media"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_alt_media.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_this_is_england"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_this_is_england.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_this_is_britain"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_this_is_britain.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_vigilant_state"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_vigilant_state.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_bearing_back_of_britain"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_bearing_back_of_britain.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_oi"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_oi.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_british_goals_institute"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_british_goals_institute.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_political_soldiers"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_political_soldiers.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_recreate_oms"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_recreate_oms.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_new_face_of_england"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_new_face_of_england.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_birthplace_of_punk"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_birthplace_of_punk.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_stoic_and_proud"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_stoic_and_proud.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_rock_aganist_eurasianism"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_rock_aganist_eurasianism.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_clean_race"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_clean_race.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_revitalise_british_cinema"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_revitalise_british_cinema.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_father_of_armor_son_of_england"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_father_of_armor_son_of_england.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_greed_and_devotion"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_greed_and_devotion.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_dispersed_command"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_dispersed_command.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_red_arrows_excellence"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_red_arrows_excellence.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_becastled_cities"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_becastled_cities.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_dog_boyz"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_dog_boyz.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_legacy_of_great_wars"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_legacy_of_great_wars.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_england_protection_squadron"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_england_protection_squadron.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_chess_2_0"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_chess_2_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_faklands_2"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_faklands_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_thick_black_line"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_thick_black_line.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_paraquets"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_paraquets.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_listen_wellington_house_speaks"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_listen_wellington_house_speaks.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_walls_gossips"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_walls_gossips.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_ironhands"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_ironhands.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_mosqito_strategy"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_mosqito_strategy.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_one_burden_less"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_one_burden_less.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_property_juggling"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_property_juggling.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_soy_association"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_soy_association.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_social_credit"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_social_credit.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_experiment_land"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_experiment_land.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_labour_isnt_working"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_labour_isnt_working.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_correction_diet"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_correction_diet.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_war_on_homelessness"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_war_on_homelessness.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_deregulated_citybuilding"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_deregulated_citybuilding.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_economical_fortress"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_economical_fortress.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_private_economic_zones"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_private_economic_zones.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_dukes_of_war"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_dukes_of_war.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_oil_bucaneering"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_oil_bucaneering.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_silver_and_lead"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_silver_and_lead.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_private_military_training"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_private_military_training.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_new_wellington_law"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_new_wellington_law.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_home_nations"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_home_nations.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_british_isles"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_british_isles.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_european_state"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_european_state.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_better_call_collins"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_better_call_collins.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_british_olympics"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_british_olympics.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_flag_nation_faith"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_flag_nation_faith.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_towards_golden_30s"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_towards_golden_30s.dds"
+	}
 }
