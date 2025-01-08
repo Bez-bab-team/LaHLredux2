@@ -1,6 +1,6 @@
 	shared_focus = {
 		id = ESS_luciferoverlondon
-		icon = GFX_goal_ESS_luciferoverlondon
+		icon = GFX_goal_ESS_lucifer_over_london
 		cost = 3
 		available = {
 			1159 = {
@@ -472,7 +472,7 @@
 	
 	shared_focus = {
 		id = ESS_national_revolutionary_army
-		icon = GFX_goal_unknown
+		icon = GFX_goal_ESS_national_revolutionary_army
 		cost = 3
 		completion_reward = {
 		    ESS = {
@@ -4011,7 +4011,7 @@
 	
 	shared_focus = {
 		id = ESS_revitalise_british_cinema
-		icon = GFX_goal_ESS_recreate_oms
+		icon = GFX_goal_ESS_revitalise_british_cinema
 		cost = 3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_recreate_oms"
@@ -5027,7 +5027,7 @@
 	}
 	shared_focus = { 
 		id = ESS_build_up_initial_capital
-		icon = ESS_build_up_initial_capital
+		icon = GFX_goal_ESS_build_up_initial_capital
 		cost = 4.3
 		available = {
 			if = {

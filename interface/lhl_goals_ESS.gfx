@@ -1,5 +1,13 @@
 spriteTypes = {
 	SpriteType = {
+		name = "GFX_goal_ESS_lucifer_over_london"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_lucifer_over_london.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_national_revolutionary_army"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_national_revolutionary_army.dds"
+	}
+	SpriteType = {
 		name = "GFX_ESS_aristocracy_of_the_mind"
 		texturefile = "gfx/interface/goals/ESS/goal_ESS_aristocracy_of_the_mind.dds"
 	}
