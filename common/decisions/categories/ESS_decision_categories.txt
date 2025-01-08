@@ -69,3 +69,11 @@ ESS_board_of_directors = {
 	    has_country_flag = ESS_board_of_directors_activated
 	}
 }
+
+###Nick Land###
+ESS_nick_land_main_decision = {
+	icon = GFX_
+	visible_when_empty = yes
+	scripted_gui = lhl_ESS_nick_land_kills_britain
+	allowed = { original_tag = ESS }
+}

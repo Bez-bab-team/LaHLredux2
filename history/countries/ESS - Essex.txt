@@ -203,7 +203,7 @@ set_country_flag = {
 	value = 1
 }
 add_ideas = {
-	ESS_fallen_london
+	#ESS_fallen_london
 	ESS_spoils_of_kent
 	ESS_towers_troubles
 	ESS_mild_case_of_distributism

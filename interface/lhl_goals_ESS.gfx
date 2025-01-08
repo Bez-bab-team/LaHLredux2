@@ -4,6 +4,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/ESS/goal_ESS_lucifer_over_london.dds"
 	}
 	SpriteType = {
+		name = "GFX_goal_ESS_preventive_strike"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_preventive_strike.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_national_revolutionary_army"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_national_revolutionary_army.dds"
+	}
+	SpriteType = {
 		name = "GFX_goal_ESS_national_revolutionary_army"
 		texturefile = "gfx/interface/goals/ESS/goal_ESS_national_revolutionary_army.dds"
 	}

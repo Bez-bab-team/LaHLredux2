@@ -1,0 +1,19 @@
+spriteTypes = {
+	#Nick Land Kills Britain#
+	spriteType = {
+		name = "GFX_ESS_land_acceleration"
+		textureFile = "gfx/interface/scripted_guis/ESS_nick_land_kills_britain/ESS_land_acceleration.dds"
+	}
+	spriteType = {
+		name = "GFX_ESS_land_flag_1"
+		textureFile = "gfx/interface/scripted_guis/ESS_nick_land_kills_britain/ESS_land_flag_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ESS_land_flag_frame"
+		textureFile = "gfx/interface/scripted_guis/ESS_nick_land_kills_britain/ESS_land_flag_frame.dds"
+	}
+	spriteType = {
+		name = "GFX_ESS_land_people_wrath"
+		textureFile = "gfx/interface/scripted_guis/ESS_nick_land_kills_britain/ESS_land_people_wrath.dds"
+	}
+}

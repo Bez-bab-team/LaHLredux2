@@ -929,7 +929,7 @@
 	
 	shared_focus = {
 		id = ESS_preventive_strike
-		icon = GFX_goal_unknown
+		icon = GFX_goal_ESS_preventive_strike
 		cost = 3
 		prerequisite = {
 		focus = ESS_national_revolutionary_army
@@ -8095,31 +8095,6 @@
 		y = 22
 	}
 	shared_focus = { 
-		id = ESS_mechanomics_triumphant
-		icon = GFX_goal_ESS_mechanomics_triumphant
-		cost = 4.3
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
-		}
-		prerequisite = {
-			focus = ESS_bodies_without_organs
-		}
-		prerequisite = {
-			focus = ESS_hypervirus
-		}
-		prerequisite = {
-			focus = ESS_the_wolf_vector
-		}
-		prerequisite = {
-			focus = ESS_war_dehumanized
-		}
-		prerequisite = {
-			focus = ESS_qaballa
-		}
-		x = 4
-		y = 22
-	}
-	shared_focus = { 
 		id = ESS_death_of_logos
 		icon = GFX_goal_ESS_death_of_logos
 		cost = 4.3
@@ -8313,4 +8288,17 @@
 		}
 		x = 7
 		y = 25
+	}
+	shared_focus = { 
+		id = ESS_meltdown
+		icon = GFX_goal_ESS_meltdown
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_meltdown"
+		}
+		prerequisite = {
+			focus = ESS_unleash_the_singularity
+		}
+		x = 7
+		y = 26
 	}
