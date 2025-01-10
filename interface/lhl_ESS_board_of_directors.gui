@@ -1189,20 +1189,20 @@ guiTypes = {
 
 		}	
 		###INTRO###
-		instantTextBoxType = {
-			name ="ESS_board_of_directors_title"
-			position = { x = 100 y = -10 }
-			font = "hoi_24header"
-			text = "ESS_board_of_directors_title"
-			format = center
-			maxHeight = 0
-			maxWidth = 300
-		}
+		#instantTextBoxType = {
+		#	name ="ESS_board_of_directors_title"
+		#	position = { x = 100 y = -10 }
+		#	font = "hoi_24header"
+		#	text = "ESS_board_of_directors_title"
+		#	format = center
+		#	maxHeight = 0
+		#	maxWidth = 300
+		#}
 		iconType = {
 			name ="ESS_board_of_directors_income_info"
 			spriteType = "GFX_ESS_board_of_directors_income_info"
 			pdx_tooltip = "ESS_board_of_directors_income_source"
-			position = { x = 400 y = 270 }
+			position = { x = 400 y = 285 }
 		}
 		###Money Number###
 		instantTextBoxType = {

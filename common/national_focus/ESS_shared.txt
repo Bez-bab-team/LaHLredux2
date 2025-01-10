@@ -4389,8 +4389,12 @@
 		cost = 3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_soy_association"
-			
+			ESS = {
+				add_political_power = -50
+				add_ideas = ESS_idea_hah
 			}
+			custom_effect_tooltip = ESS_soy_association_tt
+		}
 		relative_position_id = ESS_one_burden_less
 		prerequisite = {
 			focus = ESS_property_juggling
@@ -6862,30 +6866,6 @@
 		prerequisite = {
 			focus = ESS_british_recounstruction_effort
 		}
-		prerequisite = {
-			focus = ESS_shelter_the_weak
-		}
-		prerequisite = {
-			focus = ESS_eros_and_thanatos
-		}
-		prerequisite = {
-			focus = ESS_the_golden_age_of_science
-		}
-		prerequisite = {
-			focus = ESS_amazons_on_the_rise
-		}
-		prerequisite = {
-			focus = ESS_loosen_the_criminal_code
-		}
-		prerequisite = {
-			focus = ESS_weapons_of_future
-		}
-		prerequisite = {
-			focus = ESS_insurrectionist_doctrtine
-		}
-		prerequisite = {
-			focus = ESS_legacy_of_london
-		}
 		x = -1
 		y = 17
 	}
@@ -6897,34 +6877,10 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
 		}
 		prerequisite = {
-			focus = ESS_put_tatcher_to_shame
-		}
-		prerequisite = {
 			focus = ESS_british_recounstruction_effort
 		}
 		prerequisite = {
 			focus = ESS_shelter_the_weak
-		}
-		prerequisite = {
-			focus = ESS_eros_and_thanatos
-		}
-		prerequisite = {
-			focus = ESS_the_golden_age_of_science
-		}
-		prerequisite = {
-			focus = ESS_amazons_on_the_rise
-		}
-		prerequisite = {
-			focus = ESS_loosen_the_criminal_code
-		}
-		prerequisite = {
-			focus = ESS_weapons_of_future
-		}
-		prerequisite = {
-			focus = ESS_insurrectionist_doctrtine
-		}
-		prerequisite = {
-			focus = ESS_legacy_of_london
 		}
 		x = 1
 		y = 17
@@ -6937,34 +6893,10 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
 		}
 		prerequisite = {
-			focus = ESS_put_tatcher_to_shame
-		}
-		prerequisite = {
-			focus = ESS_british_recounstruction_effort
-		}
-		prerequisite = {
 			focus = ESS_shelter_the_weak
 		}
 		prerequisite = {
 			focus = ESS_eros_and_thanatos
-		}
-		prerequisite = {
-			focus = ESS_the_golden_age_of_science
-		}
-		prerequisite = {
-			focus = ESS_amazons_on_the_rise
-		}
-		prerequisite = {
-			focus = ESS_loosen_the_criminal_code
-		}
-		prerequisite = {
-			focus = ESS_weapons_of_future
-		}
-		prerequisite = {
-			focus = ESS_insurrectionist_doctrtine
-		}
-		prerequisite = {
-			focus = ESS_legacy_of_london
 		}
 		x = 3
 		y = 17
@@ -6977,34 +6909,10 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
 		}
 		prerequisite = {
-			focus = ESS_put_tatcher_to_shame
-		}
-		prerequisite = {
-			focus = ESS_british_recounstruction_effort
-		}
-		prerequisite = {
-			focus = ESS_shelter_the_weak
-		}
-		prerequisite = {
 			focus = ESS_eros_and_thanatos
 		}
 		prerequisite = {
 			focus = ESS_the_golden_age_of_science
-		}
-		prerequisite = {
-			focus = ESS_amazons_on_the_rise
-		}
-		prerequisite = {
-			focus = ESS_loosen_the_criminal_code
-		}
-		prerequisite = {
-			focus = ESS_weapons_of_future
-		}
-		prerequisite = {
-			focus = ESS_insurrectionist_doctrtine
-		}
-		prerequisite = {
-			focus = ESS_legacy_of_london
 		}
 		x = 5
 		y = 17
@@ -7017,34 +6925,10 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
 		}
 		prerequisite = {
-			focus = ESS_put_tatcher_to_shame
-		}
-		prerequisite = {
-			focus = ESS_british_recounstruction_effort
-		}
-		prerequisite = {
-			focus = ESS_shelter_the_weak
-		}
-		prerequisite = {
-			focus = ESS_eros_and_thanatos
-		}
-		prerequisite = {
 			focus = ESS_the_golden_age_of_science
 		}
 		prerequisite = {
 			focus = ESS_amazons_on_the_rise
-		}
-		prerequisite = {
-			focus = ESS_loosen_the_criminal_code
-		}
-		prerequisite = {
-			focus = ESS_weapons_of_future
-		}
-		prerequisite = {
-			focus = ESS_insurrectionist_doctrtine
-		}
-		prerequisite = {
-			focus = ESS_legacy_of_london
 		}
 		x = 7
 		y = 17
@@ -7057,34 +6941,10 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
 		}
 		prerequisite = {
-			focus = ESS_put_tatcher_to_shame
-		}
-		prerequisite = {
-			focus = ESS_british_recounstruction_effort
-		}
-		prerequisite = {
-			focus = ESS_shelter_the_weak
-		}
-		prerequisite = {
-			focus = ESS_eros_and_thanatos
-		}
-		prerequisite = {
-			focus = ESS_the_golden_age_of_science
-		}
-		prerequisite = {
 			focus = ESS_amazons_on_the_rise
 		}
 		prerequisite = {
 			focus = ESS_loosen_the_criminal_code
-		}
-		prerequisite = {
-			focus = ESS_weapons_of_future
-		}
-		prerequisite = {
-			focus = ESS_insurrectionist_doctrtine
-		}
-		prerequisite = {
-			focus = ESS_legacy_of_london
 		}
 		x = 9
 		y = 17
@@ -7097,34 +6957,10 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
 		}
 		prerequisite = {
-			focus = ESS_put_tatcher_to_shame
-		}
-		prerequisite = {
-			focus = ESS_british_recounstruction_effort
-		}
-		prerequisite = {
-			focus = ESS_shelter_the_weak
-		}
-		prerequisite = {
-			focus = ESS_eros_and_thanatos
-		}
-		prerequisite = {
-			focus = ESS_the_golden_age_of_science
-		}
-		prerequisite = {
-			focus = ESS_amazons_on_the_rise
-		}
-		prerequisite = {
 			focus = ESS_loosen_the_criminal_code
 		}
 		prerequisite = {
 			focus = ESS_weapons_of_future
-		}
-		prerequisite = {
-			focus = ESS_insurrectionist_doctrtine
-		}
-		prerequisite = {
-			focus = ESS_legacy_of_london
 		}
 		x = 11
 		y = 17
@@ -7137,34 +6973,10 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
 		}
 		prerequisite = {
-			focus = ESS_put_tatcher_to_shame
-		}
-		prerequisite = {
-			focus = ESS_british_recounstruction_effort
-		}
-		prerequisite = {
-			focus = ESS_shelter_the_weak
-		}
-		prerequisite = {
-			focus = ESS_eros_and_thanatos
-		}
-		prerequisite = {
-			focus = ESS_the_golden_age_of_science
-		}
-		prerequisite = {
-			focus = ESS_amazons_on_the_rise
-		}
-		prerequisite = {
-			focus = ESS_loosen_the_criminal_code
-		}
-		prerequisite = {
 			focus = ESS_weapons_of_future
 		}
 		prerequisite = {
 			focus = ESS_insurrectionist_doctrtine
-		}
-		prerequisite = {
-			focus = ESS_legacy_of_london
 		}
 		x = 13
 		y = 17
@@ -7175,30 +6987,6 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
-		}
-		prerequisite = {
-			focus = ESS_put_tatcher_to_shame
-		}
-		prerequisite = {
-			focus = ESS_british_recounstruction_effort
-		}
-		prerequisite = {
-			focus = ESS_shelter_the_weak
-		}
-		prerequisite = {
-			focus = ESS_eros_and_thanatos
-		}
-		prerequisite = {
-			focus = ESS_the_golden_age_of_science
-		}
-		prerequisite = {
-			focus = ESS_amazons_on_the_rise
-		}
-		prerequisite = {
-			focus = ESS_loosen_the_criminal_code
-		}
-		prerequisite = {
-			focus = ESS_weapons_of_future
 		}
 		prerequisite = {
 			focus = ESS_insurrectionist_doctrtine
@@ -7222,27 +7010,6 @@
 		prerequisite = {
 			focus = ESS_the_gifts_of_neoasia
 		}
-		prerequisite = {
-			focus = ESS_icebreaker
-		}
-		prerequisite = {
-			focus = ESS_cyberculture
-		}
-		prerequisite = {
-			focus = ESS_freedom_of_speech_freedom_of_thought
-		}
-		prerequisite = {
-			focus = ESS_schizophrenia_arrives_from_future
-		}
-		prerequisite = {
-			focus = ESS_deckers_of_england
-		}
-		prerequisite = {
-			focus = ESS_birds_of_prey
-		}
-		prerequisite = {
-			focus = ESS_spirit_and_teeth
-		}
 		x = 0
 		y = 18
 	}
@@ -7254,31 +7021,10 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
 		}
 		prerequisite = {
-			focus = ESS_unrestricted_automatisation
-		}
-		prerequisite = {
 			focus = ESS_the_gifts_of_neoasia
 		}
 		prerequisite = {
 			focus = ESS_icebreaker
-		}
-		prerequisite = {
-			focus = ESS_cyberculture
-		}
-		prerequisite = {
-			focus = ESS_freedom_of_speech_freedom_of_thought
-		}
-		prerequisite = {
-			focus = ESS_schizophrenia_arrives_from_future
-		}
-		prerequisite = {
-			focus = ESS_deckers_of_england
-		}
-		prerequisite = {
-			focus = ESS_birds_of_prey
-		}
-		prerequisite = {
-			focus = ESS_spirit_and_teeth
 		}
 		x = 2
 		y = 18
@@ -7291,31 +7037,10 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
 		}
 		prerequisite = {
-			focus = ESS_unrestricted_automatisation
-		}
-		prerequisite = {
-			focus = ESS_the_gifts_of_neoasia
-		}
-		prerequisite = {
 			focus = ESS_icebreaker
 		}
 		prerequisite = {
 			focus = ESS_cyberculture
-		}
-		prerequisite = {
-			focus = ESS_freedom_of_speech_freedom_of_thought
-		}
-		prerequisite = {
-			focus = ESS_schizophrenia_arrives_from_future
-		}
-		prerequisite = {
-			focus = ESS_deckers_of_england
-		}
-		prerequisite = {
-			focus = ESS_birds_of_prey
-		}
-		prerequisite = {
-			focus = ESS_spirit_and_teeth
 		}
 		x = 4
 		y = 18
@@ -7328,31 +7053,10 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
 		}
 		prerequisite = {
-			focus = ESS_unrestricted_automatisation
-		}
-		prerequisite = {
-			focus = ESS_the_gifts_of_neoasia
-		}
-		prerequisite = {
-			focus = ESS_icebreaker
-		}
-		prerequisite = {
 			focus = ESS_cyberculture
 		}
 		prerequisite = {
 			focus = ESS_freedom_of_speech_freedom_of_thought
-		}
-		prerequisite = {
-			focus = ESS_schizophrenia_arrives_from_future
-		}
-		prerequisite = {
-			focus = ESS_deckers_of_england
-		}
-		prerequisite = {
-			focus = ESS_birds_of_prey
-		}
-		prerequisite = {
-			focus = ESS_spirit_and_teeth
 		}
 		x = 6
 		y = 18
@@ -7365,31 +7069,10 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
 		}
 		prerequisite = {
-			focus = ESS_unrestricted_automatisation
-		}
-		prerequisite = {
-			focus = ESS_the_gifts_of_neoasia
-		}
-		prerequisite = {
-			focus = ESS_icebreaker
-		}
-		prerequisite = {
-			focus = ESS_cyberculture
-		}
-		prerequisite = {
 			focus = ESS_freedom_of_speech_freedom_of_thought
 		}
 		prerequisite = {
 			focus = ESS_schizophrenia_arrives_from_future
-		}
-		prerequisite = {
-			focus = ESS_deckers_of_england
-		}
-		prerequisite = {
-			focus = ESS_birds_of_prey
-		}
-		prerequisite = {
-			focus = ESS_spirit_and_teeth
 		}
 		x = 8
 		y = 18
@@ -7402,31 +7085,10 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
 		}
 		prerequisite = {
-			focus = ESS_unrestricted_automatisation
-		}
-		prerequisite = {
-			focus = ESS_the_gifts_of_neoasia
-		}
-		prerequisite = {
-			focus = ESS_icebreaker
-		}
-		prerequisite = {
-			focus = ESS_cyberculture
-		}
-		prerequisite = {
-			focus = ESS_freedom_of_speech_freedom_of_thought
-		}
-		prerequisite = {
 			focus = ESS_schizophrenia_arrives_from_future
 		}
 		prerequisite = {
 			focus = ESS_deckers_of_england
-		}
-		prerequisite = {
-			focus = ESS_birds_of_prey
-		}
-		prerequisite = {
-			focus = ESS_spirit_and_teeth
 		}
 		x = 10
 		y = 18
@@ -7439,31 +7101,10 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
 		}
 		prerequisite = {
-			focus = ESS_unrestricted_automatisation
-		}
-		prerequisite = {
-			focus = ESS_the_gifts_of_neoasia
-		}
-		prerequisite = {
-			focus = ESS_icebreaker
-		}
-		prerequisite = {
-			focus = ESS_cyberculture
-		}
-		prerequisite = {
-			focus = ESS_freedom_of_speech_freedom_of_thought
-		}
-		prerequisite = {
-			focus = ESS_schizophrenia_arrives_from_future
-		}
-		prerequisite = {
 			focus = ESS_deckers_of_england
 		}
 		prerequisite = {
 			focus = ESS_birds_of_prey
-		}
-		prerequisite = {
-			focus = ESS_spirit_and_teeth
 		}
 		x = 12
 		y = 18
@@ -7474,27 +7115,6 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
-		}
-		prerequisite = {
-			focus = ESS_unrestricted_automatisation
-		}
-		prerequisite = {
-			focus = ESS_the_gifts_of_neoasia
-		}
-		prerequisite = {
-			focus = ESS_icebreaker
-		}
-		prerequisite = {
-			focus = ESS_cyberculture
-		}
-		prerequisite = {
-			focus = ESS_freedom_of_speech_freedom_of_thought
-		}
-		prerequisite = {
-			focus = ESS_schizophrenia_arrives_from_future
-		}
-		prerequisite = {
-			focus = ESS_deckers_of_england
 		}
 		prerequisite = {
 			focus = ESS_birds_of_prey
@@ -7518,24 +7138,6 @@
 		prerequisite = {
 			focus = ESS_a_gothic_science
 		}
-		prerequisite = {
-			focus = ESS_into_the_jungle
-		}
-		prerequisite = {
-			focus = ESS_entertainment_matrix
-		}
-		prerequisite = {
-			focus = ESS_a_digital_state
-		}
-		prerequisite = {
-			focus = ESS_the_faithful
-		}
-		prerequisite = {
-			focus = ESS_armor_evolution
-		}
-		prerequisite = {
-			focus = ESS_decentralized_warfare
-		}
 		x = 1
 		y = 19
 	}
@@ -7547,28 +7149,10 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
 		}
 		prerequisite = {
-			focus = ESS_block_chains
-		}
-		prerequisite = {
 			focus = ESS_a_gothic_science
 		}
 		prerequisite = {
 			focus = ESS_into_the_jungle
-		}
-		prerequisite = {
-			focus = ESS_entertainment_matrix
-		}
-		prerequisite = {
-			focus = ESS_a_digital_state
-		}
-		prerequisite = {
-			focus = ESS_the_faithful
-		}
-		prerequisite = {
-			focus = ESS_armor_evolution
-		}
-		prerequisite = {
-			focus = ESS_decentralized_warfare
 		}
 		x = 3
 		y = 19
@@ -7581,28 +7165,10 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
 		}
 		prerequisite = {
-			focus = ESS_block_chains
-		}
-		prerequisite = {
-			focus = ESS_a_gothic_science
-		}
-		prerequisite = {
 			focus = ESS_into_the_jungle
 		}
 		prerequisite = {
 			focus = ESS_entertainment_matrix
-		}
-		prerequisite = {
-			focus = ESS_a_digital_state
-		}
-		prerequisite = {
-			focus = ESS_the_faithful
-		}
-		prerequisite = {
-			focus = ESS_armor_evolution
-		}
-		prerequisite = {
-			focus = ESS_decentralized_warfare
 		}
 		x = 5
 		y = 19
@@ -7615,28 +7181,10 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
 		}
 		prerequisite = {
-			focus = ESS_block_chains
-		}
-		prerequisite = {
-			focus = ESS_a_gothic_science
-		}
-		prerequisite = {
-			focus = ESS_into_the_jungle
-		}
-		prerequisite = {
 			focus = ESS_entertainment_matrix
 		}
 		prerequisite = {
 			focus = ESS_a_digital_state
-		}
-		prerequisite = {
-			focus = ESS_the_faithful
-		}
-		prerequisite = {
-			focus = ESS_armor_evolution
-		}
-		prerequisite = {
-			focus = ESS_decentralized_warfare
 		}
 		x = 7
 		y = 19
@@ -7649,28 +7197,10 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
 		}
 		prerequisite = {
-			focus = ESS_block_chains
-		}
-		prerequisite = {
-			focus = ESS_a_gothic_science
-		}
-		prerequisite = {
-			focus = ESS_into_the_jungle
-		}
-		prerequisite = {
-			focus = ESS_entertainment_matrix
-		}
-		prerequisite = {
 			focus = ESS_a_digital_state
 		}
 		prerequisite = {
 			focus = ESS_the_faithful
-		}
-		prerequisite = {
-			focus = ESS_armor_evolution
-		}
-		prerequisite = {
-			focus = ESS_decentralized_warfare
 		}
 		x = 9
 		y = 19
@@ -7683,28 +7213,10 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
 		}
 		prerequisite = {
-			focus = ESS_block_chains
-		}
-		prerequisite = {
-			focus = ESS_a_gothic_science
-		}
-		prerequisite = {
-			focus = ESS_into_the_jungle
-		}
-		prerequisite = {
-			focus = ESS_entertainment_matrix
-		}
-		prerequisite = {
-			focus = ESS_a_digital_state
-		}
-		prerequisite = {
 			focus = ESS_the_faithful
 		}
 		prerequisite = {
 			focus = ESS_armor_evolution
-		}
-		prerequisite = {
-			focus = ESS_decentralized_warfare
 		}
 		x = 11
 		y = 19
@@ -7715,24 +7227,6 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
-		}
-		prerequisite = {
-			focus = ESS_block_chains
-		}
-		prerequisite = {
-			focus = ESS_a_gothic_science
-		}
-		prerequisite = {
-			focus = ESS_into_the_jungle
-		}
-		prerequisite = {
-			focus = ESS_entertainment_matrix
-		}
-		prerequisite = {
-			focus = ESS_a_digital_state
-		}
-		prerequisite = {
-			focus = ESS_the_faithful
 		}
 		prerequisite = {
 			focus = ESS_armor_evolution
@@ -7756,21 +7250,6 @@
 		prerequisite = {
 			focus = ESS_hyperstitious
 		}
-		prerequisite = {
-			focus = ESS_the_war_on_christmas
-		}
-		prerequisite = {
-			focus = ESS_redefine_family
-		}
-		prerequisite = {
-			focus = ESS_contracutal_obligations
-		}
-		prerequisite = {
-			focus = ESS_prototype_cyborg_effort
-		}
-		prerequisite = {
-			focus = ESS_buisness_as_usual
-		}
 		x = 2
 		y = 20
 	}
@@ -7782,25 +7261,10 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
 		}
 		prerequisite = {
-			focus = ESS_the_worlds_beyond
-		}
-		prerequisite = {
 			focus = ESS_hyperstitious
 		}
 		prerequisite = {
 			focus = ESS_the_war_on_christmas
-		}
-		prerequisite = {
-			focus = ESS_redefine_family
-		}
-		prerequisite = {
-			focus = ESS_contracutal_obligations
-		}
-		prerequisite = {
-			focus = ESS_prototype_cyborg_effort
-		}
-		prerequisite = {
-			focus = ESS_buisness_as_usual
 		}
 		x = 4
 		y = 20
@@ -7813,25 +7277,10 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
 		}
 		prerequisite = {
-			focus = ESS_the_worlds_beyond
-		}
-		prerequisite = {
-			focus = ESS_hyperstitious
-		}
-		prerequisite = {
 			focus = ESS_the_war_on_christmas
 		}
 		prerequisite = {
 			focus = ESS_redefine_family
-		}
-		prerequisite = {
-			focus = ESS_contracutal_obligations
-		}
-		prerequisite = {
-			focus = ESS_prototype_cyborg_effort
-		}
-		prerequisite = {
-			focus = ESS_buisness_as_usual
 		}
 		x = 6
 		y = 20
@@ -7844,25 +7293,10 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
 		}
 		prerequisite = {
-			focus = ESS_the_worlds_beyond
-		}
-		prerequisite = {
-			focus = ESS_hyperstitious
-		}
-		prerequisite = {
-			focus = ESS_the_war_on_christmas
-		}
-		prerequisite = {
 			focus = ESS_redefine_family
 		}
 		prerequisite = {
 			focus = ESS_contracutal_obligations
-		}
-		prerequisite = {
-			focus = ESS_prototype_cyborg_effort
-		}
-		prerequisite = {
-			focus = ESS_buisness_as_usual
 		}
 		x = 8
 		y = 20
@@ -7875,25 +7309,10 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
 		}
 		prerequisite = {
-			focus = ESS_the_worlds_beyond
-		}
-		prerequisite = {
-			focus = ESS_hyperstitious
-		}
-		prerequisite = {
-			focus = ESS_the_war_on_christmas
-		}
-		prerequisite = {
-			focus = ESS_redefine_family
-		}
-		prerequisite = {
 			focus = ESS_contracutal_obligations
 		}
 		prerequisite = {
 			focus = ESS_prototype_cyborg_effort
-		}
-		prerequisite = {
-			focus = ESS_buisness_as_usual
 		}
 		x = 10
 		y = 20
@@ -7904,21 +7323,6 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
-		}
-		prerequisite = {
-			focus = ESS_the_worlds_beyond
-		}
-		prerequisite = {
-			focus = ESS_hyperstitious
-		}
-		prerequisite = {
-			focus = ESS_the_war_on_christmas
-		}
-		prerequisite = {
-			focus = ESS_redefine_family
-		}
-		prerequisite = {
-			focus = ESS_contracutal_obligations
 		}
 		prerequisite = {
 			focus = ESS_prototype_cyborg_effort
@@ -7942,18 +7346,6 @@
 		prerequisite = {
 			focus = ESS_cultural_appropation
 		}
-		prerequisite = {
-			focus = ESS_postgenderism
-		}
-		prerequisite = {
-			focus = ESS_making_it_with_death
-		}
-		prerequisite = {
-			focus = ESS_private_military_armies
-		}
-		prerequisite = {
-			focus = ESS_cyberpartisans
-		}
 		x = 3
 		y = 21
 	}
@@ -7965,22 +7357,10 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
 		}
 		prerequisite = {
-			focus = ESS_human_labour_divisions
-		}
-		prerequisite = {
 			focus = ESS_cultural_appropation
 		}
 		prerequisite = {
 			focus = ESS_postgenderism
-		}
-		prerequisite = {
-			focus = ESS_making_it_with_death
-		}
-		prerequisite = {
-			focus = ESS_private_military_armies
-		}
-		prerequisite = {
-			focus = ESS_cyberpartisans
 		}
 		x = 5
 		y = 21
@@ -7993,22 +7373,10 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
 		}
 		prerequisite = {
-			focus = ESS_human_labour_divisions
-		}
-		prerequisite = {
-			focus = ESS_cultural_appropation
-		}
-		prerequisite = {
 			focus = ESS_postgenderism
 		}
 		prerequisite = {
 			focus = ESS_making_it_with_death
-		}
-		prerequisite = {
-			focus = ESS_private_military_armies
-		}
-		prerequisite = {
-			focus = ESS_cyberpartisans
 		}
 		x = 7
 		y = 21
@@ -8021,22 +7389,10 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
 		}
 		prerequisite = {
-			focus = ESS_human_labour_divisions
-		}
-		prerequisite = {
-			focus = ESS_cultural_appropation
-		}
-		prerequisite = {
-			focus = ESS_postgenderism
-		}
-		prerequisite = {
 			focus = ESS_making_it_with_death
 		}
 		prerequisite = {
 			focus = ESS_private_military_armies
-		}
-		prerequisite = {
-			focus = ESS_cyberpartisans
 		}
 		x = 9
 		y = 21
@@ -8047,18 +7403,6 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
-		}
-		prerequisite = {
-			focus = ESS_human_labour_divisions
-		}
-		prerequisite = {
-			focus = ESS_cultural_appropation
-		}
-		prerequisite = {
-			focus = ESS_postgenderism
-		}
-		prerequisite = {
-			focus = ESS_making_it_with_death
 		}
 		prerequisite = {
 			focus = ESS_private_military_armies
@@ -8082,15 +7426,6 @@
 		prerequisite = {
 			focus = ESS_hypervirus
 		}
-		prerequisite = {
-			focus = ESS_the_wolf_vector
-		}
-		prerequisite = {
-			focus = ESS_war_dehumanized
-		}
-		prerequisite = {
-			focus = ESS_qaballa
-		}
 		x = 4
 		y = 22
 	}
@@ -8102,19 +7437,10 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
 		}
 		prerequisite = {
-			focus = ESS_bodies_without_organs
-		}
-		prerequisite = {
 			focus = ESS_hypervirus
 		}
 		prerequisite = {
 			focus = ESS_the_wolf_vector
-		}
-		prerequisite = {
-			focus = ESS_war_dehumanized
-		}
-		prerequisite = {
-			focus = ESS_qaballa
 		}
 		x = 6
 		y = 22
@@ -8127,19 +7453,10 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
 		}
 		prerequisite = {
-			focus = ESS_bodies_without_organs
-		}
-		prerequisite = {
-			focus = ESS_hypervirus
-		}
-		prerequisite = {
 			focus = ESS_the_wolf_vector
 		}
 		prerequisite = {
 			focus = ESS_war_dehumanized
-		}
-		prerequisite = {
-			focus = ESS_qaballa
 		}
 		x = 8
 		y = 22
@@ -8150,15 +7467,6 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
-		}
-		prerequisite = {
-			focus = ESS_bodies_without_organs
-		}
-		prerequisite = {
-			focus = ESS_hypervirus
-		}
-		prerequisite = {
-			focus = ESS_the_wolf_vector
 		}
 		prerequisite = {
 			focus = ESS_war_dehumanized
@@ -8182,12 +7490,6 @@
 		prerequisite = {
 			focus = ESS_death_of_logos
 		}
-		prerequisite = {
-			focus = ESS_obliteration_of_reason
-		}
-		prerequisite = {
-			focus = ESS_non_linear_tech_development
-		}
 		x = 5
 		y = 23
 	}
@@ -8199,16 +7501,10 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
 		}
 		prerequisite = {
-			focus = ESS_mechanomics_triumphant
-		}
-		prerequisite = {
 			focus = ESS_death_of_logos
 		}
 		prerequisite = {
 			focus = ESS_obliteration_of_reason
-		}
-		prerequisite = {
-			focus = ESS_non_linear_tech_development
 		}
 		x = 7
 		y = 23
@@ -8219,12 +7515,6 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_legacy_of_london"
-		}
-		prerequisite = {
-			focus = ESS_mechanomics_triumphant
-		}
-		prerequisite = {
-			focus = ESS_death_of_logos
 		}
 		prerequisite = {
 			focus = ESS_obliteration_of_reason

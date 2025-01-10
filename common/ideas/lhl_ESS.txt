@@ -1,6 +1,21 @@
 ideas = {
 
 	country = {
+		##Idea Hah##
+		ESS_idea_hah = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.08
+			}
+		}
 		##Moldbug##
 		ESS_bitcoin = {
 			

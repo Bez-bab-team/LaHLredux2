@@ -77,3 +77,15 @@ ESS_nick_land_main_decision = {
 	scripted_gui = lhl_ESS_nick_land_kills_britain
 	allowed = { original_tag = ESS }
 }
+
+##Collins##
+ESS_workers_parliament_gui_decision = {
+	icon = usa_congress
+
+	allowed = { original_tag = ESS }
+
+	priority = 1000
+
+	scripted_gui = ESS_workers_parliament_gui
+	visible_when_empty = yes
+}

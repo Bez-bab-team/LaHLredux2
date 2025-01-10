@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ESS_workers_parliament_party_icon"
+		texturefile = "gfx/interface/scripted_guis/ESS_workers_parliament/ESS_workers_parliament_parties.dds"
+		noOfFrames = 8
+	}
+}

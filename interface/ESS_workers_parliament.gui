@@ -1,0 +1,98 @@
+guiTypes = {
+	containerWindowType = {
+        name = "ESS_workers_parliament_gui_container"
+        position = { x = 0 y = 0 }
+		size = { width = 400 height = 535 }
+
+		containerWindowType = {
+			name = "ESS_workers_parliament_semicircle_main_container"
+			position = { x = 10 y = 35 }
+			size = { width = 490 height = 300 }
+
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_window_thin_border2"
+			}
+			
+			instantTextBoxType = {
+				name = "ESS_workers_new_british_parliament"
+				position = { x = 35 y = 225 }
+				font = "hoi_18"
+				text = "ESS_workers_new_british_parliament_text"
+				maxWidth = 400
+				maxHeight = 24
+				format = center
+			}
+
+			gridboxtype = {
+				name = "ESS_workers_parliament_semicircle_main_grid"
+				position = { x = 35 y = 25 }
+				size = { width = 100%% height = 100%% }
+				slotsize = { width = 100%% height = 0 }
+				max_slots_horizontal = 1
+				add_horizontal = no
+			}
+			
+		}
+
+		#gridboxtype = {
+		#	name = "ESS_workers_parliament_member_grid"
+		#	position = { x = -150 y = 525 }
+		#	size = { width = 100%% height = 100%% }
+		#	slotsize = { width = 200 height = 18 }
+		#	max_slots_vertical = 8
+		#	add_horizontal = no
+		#}
+		instantTextBoxType = {
+			name = "ESS_workers_total_amount_of_seats_text"
+			position = { x = 45 y = 400 }
+			font = "hoi_24header"
+			text = "ESS_workers_total_amount_of_seats_text"
+			maxWidth = 400
+			maxHeight = 24
+			format = center
+		}
+		instantTextboxType = {
+			name = "ESS_workers_voting_support_projectt"
+			position = { x = 15 y = 375 }
+			font = "hoi_24header"
+			maxWidth = 600
+			maxHeight = 24
+			format = left
+			text = "ESS_workers_voting_support_projectt_text"
+		}
+    }
+
+	containerWindowType = {
+        name = "ESS_workers_parliament_semicircle_main_entry"
+        position = { x = 0 y = 0 }
+
+		iconType = {
+			name = "ESS_workers_parliament_semicircle_main_icon"
+			spriteType = "GFX_ESS_workers_parliament_party_icon"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = "ESS_workers_parliament_main_icon_tt"
+		}
+    }
+	
+	containerWindowType = {
+        name = "ESS_workers_parliament_member_entry"
+        position = { x = 0 y = -145 }
+		size = { width = 500 height = 18 }
+
+		iconType = {
+			name = "ESS_workers_parliament_member_icon"
+			spriteType = "GFX_ESS_workers_parliament_party_icon"
+			position = { x = -20 y = 0 }
+		}
+		instantTextboxType = {
+			name = "ESS_workers_parliament_member_text"
+			position = { x = 0 y = 0 }
+			font = "hoi_16mbs"
+			maxWidth = 500
+			maxHeight = 16
+			format = left
+			text = "ESS_workers_parliament_member_text"
+		}
+    }
+}

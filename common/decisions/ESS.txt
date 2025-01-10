@@ -2934,5 +2934,21 @@ ESS_repolish_brilliants = {
 	}
 }
 
+ESS_workers_parliament_gui_decision = {
+	ESS_blues_request = {
+		activation = {
+			always = yes
+		}
+		available = {
+			always = no
+		}
+		complete_effect = {
+			always = no
+		}
+		is_good = no
+		days_mission_timeout = 120
+	}
+}
+
 
 
