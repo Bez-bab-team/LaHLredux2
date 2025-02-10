@@ -655,6 +655,170 @@ ESS_board_of_directors = {
 			}
 		}
 	}
+	###Interact With Piechart###
+	ESS_interact_with_military_TITLE = {
+		available = {
+			has_completed_focus = ESS_molded_mob
+		}
+		visible = {
+			has_completed_focus = ESS_molded_mob
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					NOT = {
+						ESS = {
+							has_country_flag = ESS_interact_with_military_active
+						}
+					}
+				}
+				ESS = {
+					set_country_flag = ESS_interact_with_military_active
+				}
+			}
+			else = {
+				ESS = {
+					clr_country_flag = ESS_interact_with_military_active
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ESS_recruit_prisoners = { #Recruit Prisoners
+		cost = 75
+		available = {
+			has_completed_focus = ESS_blood_debt
+			has_country_flag = ESS_interact_with_military_active
+		}
+		visible = {
+			has_completed_focus = ESS_blood_debt
+			has_country_flag = ESS_interact_with_military_active
+		}
+		days_remove = 180
+		days_re_enable = 220
+		complete_effect = {
+			division_template = {
+				name = "Corporate Penal Battallion"
+				division_names_group = ESS_INF_02
+				is_locked = yes
+				regiments = {
+					penal_battalion = { x = 0 y = 0 }	
+					penal_battalion = { x = 0 y = 1 }
+					penal_battalion = { x = 0 y = 2 }	
+					penal_battalion = { x = 0 y = 3 }	
+					penal_battalion = { x = 1 y = 0 }	
+					penal_battalion = { x = 1 y = 1 }
+					penal_battalion = { x = 1 y = 2 }	
+					penal_battalion = { x = 1 y = 3 }					
+				}
+			}
+			1160 = {
+				create_unit = {
+					division = "name = \"1st Penal Battallion\" division_template = \"Corporate Penal Battallion\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+					allow_spawning_on_enemy_provs = yes
+					owner = ROOT
+				}
+			}
+			1160 = {
+				create_unit = {
+					division = "name = \"2nd Penal Battallion\" division_template = \"Corporate Penal Battallion\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+					allow_spawning_on_enemy_provs = yes
+					owner = ROOT
+				}
+			}
+			1160 = {
+				create_unit = {
+					division = "name = \"3rd Penal Battallion\" division_template = \"Corporate Penal Battallion\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+					allow_spawning_on_enemy_provs = yes
+					owner = ROOT
+				}
+			}
+			1160 = {
+				create_unit = {
+					division = "name = \"4th Penal Battallion\" division_template = \"Corporate Penal Battallion\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+					allow_spawning_on_enemy_provs = yes
+					owner = ROOT
+				}
+			}
+		}
+		remove_effect = {
+			delete_unit_template_and_units = {
+				division_template = "Corporate Penal Battallion"
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ESS_recruit_debtors = { #Recruit Debtors
+		custom_cost_trigger = {
+			check_variable = { ESS_board_of_directors_budget > 4 }
+		}
+		custom_cost_text = ESS_CITY_BUDGET_COST_5
+		available = {
+			has_completed_focus = ESS_blood_debt
+			has_country_flag = ESS_interact_with_military_active
+		}
+		visible = {
+			has_completed_focus = ESS_blood_debt
+			has_country_flag = ESS_interact_with_military_active
+		}
+		days_remove = 180
+		days_re_enable = 220
+		complete_effect = {
+			division_template = {
+				name = "Corporate Debtors Battallion"
+				division_names_group = ESS_INF_02
+				is_locked = yes
+				regiments = {
+					infantry = { x = 0 y = 0 }	
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }	
+					infantry = { x = 0 y = 3 }	
+					infantry = { x = 1 y = 0 }	
+					infantry = { x = 1 y = 1 }				
+				}
+			}
+			1160 = {
+				create_unit = {
+					division = "name = \"1st Debtor Battallion\" division_template = \"Corporate Debtors Battallion\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+					allow_spawning_on_enemy_provs = yes
+					owner = ROOT
+				}
+			}
+			1160 = {
+				create_unit = {
+					division = "name = \"2nd Debtor Battallion\" division_template = \"Corporate Debtors Battallion\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+					allow_spawning_on_enemy_provs = yes
+					owner = ROOT
+				}
+			}
+			1160 = {
+				create_unit = {
+					division = "name = \"3rd Debtor Battallion\" division_template = \"Corporate Debtors Battallion\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+					allow_spawning_on_enemy_provs = yes
+					owner = ROOT
+				}
+			}
+			1160 = {
+				create_unit = {
+					division = "name = \"4th Debtor Battallion\" division_template = \"Corporate Debtors Battallion\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+					allow_spawning_on_enemy_provs = yes
+					owner = ROOT
+				}
+			}
+		}
+		remove_effect = {
+			delete_unit_template_and_units = {
+				division_template = "Corporate Debtors Battallion"
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
 	###Rebuilding London###
 	ESS_construction_projects = {
 		available = {

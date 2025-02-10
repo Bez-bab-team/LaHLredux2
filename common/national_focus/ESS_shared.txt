@@ -5281,8 +5281,33 @@
 		id = ESS_molded_mob
 		icon = GFX_goal_ESS_molded_mob
 		cost = 4.3
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = ESS_molded_mob_trigger_tt
+			}
+			check_variable = { ESS_board_of_directors_budget > 9 }
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_molded_mob"
+			ESS = {
+				army_experience = 25
+				every_unit_leader = {
+					limit = {
+						has_trait = militiaman
+					}
+					remove_unit_leader_role = yes
+				}
+				every_unit_leader = {
+					limit = {
+						has_trait = military_specialist
+					}
+					add_skill_level = 1
+				}
+			}
+			add_to_variable = {
+				var = ESS_board_of_directors_budget
+				value = -10
+			}
 		}
 		prerequisite = {
 			focus = ESS_british_board_meeting
@@ -5296,6 +5321,87 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_establish_public_forces"
+			add_to_variable = {
+				var = ESS_corpo_state
+				value = -10
+			}
+			add_to_variable = {
+				var = ESS_corpo_pmc
+				value = 10
+			}
+			clamp_variable = {
+				var = ESS_corpo_state
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = ESS_corpo_pmc
+				min = 0
+				max = 100
+			}
+			set_variable = { ESS_corpo_pmc_army_org_factor_BUFF = 1 }
+			set_variable = { ESS_corpo_pmc_army_morale_factor_BUFF = 1 }
+			set_variable = { ESS_corpo_pmc_war_support_factor_BUFF = 1 }
+			set_variable = { ESS_pie_chart_pmc_active = 1 }
+			ESS = {
+				army_experience = 10
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 400
+					producer = ESS
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 250
+					producer = ESS
+				}
+				add_equipment_to_stockpile = {
+					type = armoured_personnel_carrier_equipment
+					amount = 100
+					producer = ESS
+				}
+				division_template = {
+					name = "PMC "Public Forces""
+					division_names_group = ESS_INF_02
+					is_locked = yes
+					regiments = {
+						urban_forces = { x = 0 y = 0 }	
+						urban_forces = { x = 0 y = 1 }
+						urban_forces = { x = 0 y = 2 }	
+						urban_forces = { x = 0 y = 3 }					
+					}
+				}
+				1160 = {
+					create_unit = {
+						division = "name = \"Division 09314\" division_template = \"PMC "Public Forces"\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+				}
+				1160 = {
+					create_unit = {
+						division = "name = \"Division 56423\" division_template = \"PMC "Public Forces"\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+				}
+				1160 = {
+					create_unit = {
+						division = "name = \"Division 32377\" division_template = \"PMC "Public Forces"\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+				}
+			}
+			hidden_effect = {
+				ESS = {
+					add_dynamic_modifier = {
+						modifier = ESS_modifier_corpo_pmc
+					}
+					set_country_flag = ESS_corpo_pmc_activated_flag
+				}
+			}
+			custom_effect_tooltip = ESS_establish_public_forces_tt
 		}
 		prerequisite = {
 			focus = ESS_molded_mob
@@ -5309,6 +5415,9 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_blood_debt"
+			add_war_support = -0.1
+			add_stability = -0.08
+			custom_effect_tooltip = ESS_blood_debt_tt
 		}
 		prerequisite = {
 			focus = ESS_molded_mob
@@ -5364,6 +5473,18 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_ensure_a_secure_state"
+			ESS = {
+				create_intelligence_agency = {
+					name = "National Detective Agency"
+					icon = GFX_intelligence_agency_logo_ess_1
+				}
+				upgrade_intelligence_agency = upgrade_economy_civilian
+				upgrade_intelligence_agency = upgrade_army_department
+				upgrade_intelligence_agency = upgrade_passive_defense
+				upgrade_intelligence_agency = upgrade_anti_partisan
+				upgrade_intelligence_agency = upgrade_form_department
+				upgrade_intelligence_agency = upgrade_decryption_boost
+			}
 		}
 		prerequisite = {
 			focus = ESS_fund_british_armories
@@ -5383,6 +5504,43 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_private_detective_agency"
+			ESS = {
+				create_intelligence_agency = {
+					name = "National Detective Agency"
+					icon = GFX_intelligence_agency_logo_ess_1
+				}
+			}
+			add_to_variable = {
+				var = ESS_corpo_state
+				value = -10
+			}
+			add_to_variable = {
+				var = ESS_corpo_spy
+				value = 10
+			}
+			clamp_variable = {
+				var = ESS_corpo_state
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = ESS_corpo_spy
+				min = 0
+				max = 100
+			}
+			set_variable = { ESS_corpo_spy_intel_from_operatives_factor_BUFF = 1 }
+			set_variable = { ESS_corpo_spy_intel_network_gain_factor_BUFF = 1 }
+			set_variable = { ESS_corpo_spy_agency_upgrade_time_BUFF = 1 }
+			set_variable = { ESS_pie_chart_spy_active = 1 }
+			hidden_effect = {
+				ESS = {
+					add_dynamic_modifier = {
+						modifier = ESS_modifier_corpo_spy
+					}
+					set_country_flag = ESS_corpo_spy_activated_flag
+				}
+			}
+			custom_effect_tooltip = ESS_private_detective_agency_tt
 		}
 		prerequisite = {
 			focus = ESS_backup_over_the_pond
