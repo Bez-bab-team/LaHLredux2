@@ -5303,6 +5303,7 @@
 					}
 					add_skill_level = 1
 				}
+				add_ideas = ESS_moldbug_army_1
 			}
 			add_to_variable = {
 				var = ESS_board_of_directors_budget
@@ -5431,6 +5432,25 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_fund_british_armories"
+			ESS = {
+				army_experience = 15
+				add_tech_bonus = {
+					bonus = 0.25
+					uses = 3
+					category = infantry_tech
+				}
+				add_tech_bonus = {
+					bonus = 0.25
+					uses = 3
+					category = armor
+				}
+				add_tech_bonus = {
+					bonus = 0.25
+					uses = 3
+					category = air_equipment
+				}				
+			}
+			custom_effect_tooltip = ESS_fund_british_armories_tt
 		}
 		prerequisite = {
 			focus = ESS_establish_public_forces
@@ -5460,6 +5480,14 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: ESS_natural_laws_of_warfare"
+			ESS = {
+				add_war_support = -0.08
+				add_stability = -0.08
+			}
+			swap_ideas = {
+				remove_idea = ESS_moldbug_army_1
+				add_idea = ESS_moldbug_army_2
+			}
 		}
 		prerequisite = {
 			focus = ESS_blood_debt
@@ -5588,6 +5616,10 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: ESS_virtual_drills"
+			swap_ideas = {
+				remove_idea = ESS_moldbug_army_2
+				add_idea = ESS_moldbug_army_3
+			}
 		}
 		prerequisite = {
 			focus = ESS_ensure_a_secure_state
@@ -5602,6 +5634,30 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_rifle_by_your_side"
+			if = {
+				limit = {
+					NOT = {
+						ESS = {
+							has_idea = ESS_moldbug_army_4_2
+						}
+					}
+				}
+				swap_ideas = {
+					remove_idea = ESS_moldbug_army_3
+					add_idea = ESS_moldbug_army_4_1
+				}
+			}
+			if = {
+				limit = {
+					ESS = {
+						has_idea = ESS_moldbug_army_4_2
+					}
+				}
+				swap_ideas = {
+					remove_idea = ESS_moldbug_army_4_2
+					add_idea = ESS_moldbug_army_4_3
+				}
+			}
 		}
 		prerequisite = {
 			focus = ESS_inner_arms_race
@@ -5618,6 +5674,37 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_enact_domicide"
+			if = {
+				limit = {
+					NOT = {
+						ESS = {
+							has_idea = ESS_moldbug_army_4_1
+						}
+					}
+				}
+				swap_ideas = {
+					remove_idea = ESS_moldbug_army_3
+					add_idea = ESS_moldbug_army_4_2
+				}
+			}
+			if = {
+				limit = {
+					ESS = {
+						has_idea = ESS_moldbug_army_4_1
+					}
+				}
+				swap_ideas = {
+					remove_idea = ESS_moldbug_army_4_1
+					add_idea = ESS_moldbug_army_4_3
+				}
+			}
+			ESS = {
+				add_doctrine_cost_reduction = {
+					cost_reduction = 0.5
+					uses = 3
+					category = land_doctrine
+				}
+			}
 		}
 		prerequisite = {
 			focus = ESS_virtual_drills

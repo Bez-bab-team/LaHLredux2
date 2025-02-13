@@ -1816,6 +1816,7 @@
  ESS_corpo_small_companies_9_tt:0 "\n§YInfrastructure Company§!\n§YSupply Hub§! construction speed: §G+§![?ESS_corpo_companies_production_speed_supply_node_factor|.2%+]"
  ESS_corpo_small_companies_10_tt:0 "\n§YSuper Stuff Company§!\nAnti-Graviton Thermonuclear Super-Bomb production speed: §G+10000000.00%§!"
  #
+ ESS_interact_with_military_TITLE:0 "§YINTERACT WITH MILITARY§!"
  ESS_interact_with_corpo_TITLE:0 "§YINVEST INTO COMPANIES§!"
  ESS_interact_with_corpo_state:0 "Consolidate §0Governing Trust Association§!"
  ESS_interact_with_corpo_state_tt:0 "The §0Governing Trust Association§! Gains §Y3%§! of The Shares\nThe §7Social Trust Fund§! Loses §Y3%§! of The Shares"
@@ -1850,6 +1851,10 @@
  ESS_CITY_BUDGET_COST_5_blocked:0 "§R££5 million§!"
  ESS_CITY_BUDGET_COST_5_tooltip:0 "§YIt costs ££5 million to take the decision§!"
  #
+ ESS_CITY_BUDGET_COST_20:0 "§Y££20 million§!"
+ ESS_CITY_BUDGET_COST_20_blocked:0 "§R££20 million§!"
+ ESS_CITY_BUDGET_COST_20_tooltip:0 "§YIt costs ££20 million to take the decision§!"
+ #
  ESS_CITY_BUDGET_MANPOWER:0 "£manpower_texticon  §Y15 000§!"
  ESS_CITY_BUDGET_MANPOWER_blocked:0 "£manpower_texticon  §R15 000§!"
  ESS_CITY_BUDGET_MANPOWER_tooltip:0 "§YIt costs §Y15 000§! £manpower_texticon to take the decision§!"
@@ -1872,10 +1877,21 @@
  ESS_build_hospitals:0 "Populist Construction"
  ESS_recruit_prisoners:0 "Recruit Prisoners"
  ESS_recruit_debtors:0 "Recruit Debtors"
+ ESS_invest_into_MIOs:0 "Invest into Military Industrial Organizations"
+ ESS_invest_into_public_forces:0 "Invest into §HPublic Forces§!"
+ ESS_invest_into_public_forces_tt:0 "This Will Increase The §YDivision Organization§!, §YDivision Recovery Rate§! and §YWar Support§! Bonuses Provided by §HPublic Forces§! or §YAegis Defence Services§!"
  ESS_clean_the_metropolis_tt_1:0 "The §7Balfour Beauty§! Gains §Y5%§! of The Shares\nThe §0Governing Trust Association§! Loses §Y5%§! of The Shares"
  ESS_clean_the_metropolis_tt:0 "\n$unlocks_decision$ £decision_icon_small §H$ESS_rebuild_london$§!\n$unlocks_decision$ £decision_icon_small §H$ESS_rebuild_countryside$§!\n$unlocks_decision$ £decision_icon_small §H$ESS_german_workforce$§!\n$unlocks_decision$ £decision_icon_small §H$ESS_military_bases$§!\n$unlocks_decision$ £decision_icon_small §H$ESS_build_hospitals$§!"
+ ESS_fund_british_armories_tt:0 "\n$unlocks_decision$ £decision_icon_small §H$ESS_invest_into_MIOs$§!\n$unlocks_decision$ £decision_icon_small §H$ESS_invest_into_public_forces$§!"
  ESS_british_silicon_fleet_tt:0 "$unlocks_decision$ £decision_icon_small §H$ESS_rebuild_trade_fleet$§!\n$unlocks_decision$ £decision_icon_small §H$ESS_rebuild_ports$§!\n"
  ESS_blood_debt_tt:0 "\n$unlocks_decision$ £decision_icon_small §H$ESS_recruit_debtors$§!\n$unlocks_decision$ £decision_icon_small §H$ESS_recruit_prisoners$§!"
+ #Moldbug Ideas#
+ ESS_moldbug_army_1:0 "Corporate Army"
+ ESS_moldbug_army_2:0 "Corporate Army"
+ ESS_moldbug_army_3:0 "Corporate Army"
+ ESS_moldbug_army_4_1:0 "Corporate Army"
+ ESS_moldbug_army_4_2:0 "Corporate Army"
+ ESS_moldbug_army_4_3:0 "Corporate Army"
  
  ####NICK LAND####
  ESS_nick_land_main_decision:0 "Destroying Britain"
