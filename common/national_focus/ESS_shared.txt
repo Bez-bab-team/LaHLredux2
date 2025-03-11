@@ -5464,6 +5464,27 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_backup_over_the_pond"
+			ESS = {
+				recruit_character = ESS_erik_prince
+				recruit_character = ESS_andrew_milburn
+				recruit_character = ESS_jordan_goudreau
+				army_experience = 5
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 750
+					producer = ESS
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 200
+					producer = ESS
+				}
+				add_equipment_to_stockpile = {
+					type = artillery_equipment
+					amount = 50
+					producer = ESS
+				}
+			}
 		}
 		prerequisite = {
 			focus = ESS_establish_public_forces
@@ -5588,6 +5609,10 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_inner_arms_race"
+			ESS = {
+				add_ideas = ESS_competing_firms
+			}
+			custom_effect_tooltip =  ESS_inner_arms_race_tt
 		}
 		prerequisite = {
 			focus = ESS_ensure_a_secure_state
@@ -5620,6 +5645,7 @@
 				remove_idea = ESS_moldbug_army_2
 				add_idea = ESS_moldbug_army_3
 			}
+			custom_effect_tooltip = ESS_virtual_drills_tt
 		}
 		prerequisite = {
 			focus = ESS_ensure_a_secure_state
@@ -5658,6 +5684,20 @@
 					add_idea = ESS_moldbug_army_4_3
 				}
 			}
+			hidden_effect = {
+				ESS = {
+					division_template = {
+						name = "Local Militia"
+						division_names_group = ESS_INF_02
+						is_locked = no
+						regiments = {
+							infantry = { x = 0 y = 0 }	
+							infantry = { x = 0 y = 1 }			
+						}
+					}
+				}
+			}
+			custom_effect_tooltip = ESS_rifle_by_your_side_tt
 		}
 		prerequisite = {
 			focus = ESS_inner_arms_race
@@ -6069,6 +6109,13 @@
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_big_opportunities_for_small_men"
 			add_political_power = 100
+			hidden_effect = {
+				ESS = {
+					add_dynamic_modifier = {
+						modifier = ESS_modifier_corpo_companies
+					}
+				}
+			}
 			custom_effect_tooltip = ESS_big_opportunities_for_small_men_tt		
 		}
 		prerequisite = {
@@ -6102,6 +6149,8 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_software_exports"
+			add_to_variable = { ESS_board_of_directors_budget = 75 }
+			custom_effect_tooltip = ESS_software_exports_tt
 		}
 		prerequisite = {
 			focus = ESS_big_opportunities_for_small_men
@@ -6119,6 +6168,10 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_western_legalism"
+			ESS = {
+				add_political_power = 100
+				add_ideas = ESS_new_british_state
+			}
 		}
 		prerequisite = {
 			focus = ESS_british_board_meeting
@@ -6171,6 +6224,44 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_freedom_from_needs"
+			if = {
+				limit = {
+					ESS = {
+						has_completed_focus = ESS_compete_for_patients
+					}
+				}
+				ESS = {
+					swap_ideas = {
+						remove_idea = ESS_healthcare_companies
+						add_idea = ESS_healthcare_companies_1
+					}				
+				}
+			}
+			if = {
+				limit = {
+					ESS = {
+						has_completed_focus = ESS_national_health_company
+					}
+				}
+				add_to_variable = { ESS_corpo_healthcare_monthly_population_BUFF = 0.06 }
+				add_to_variable = { ESS_corpo_healthcare_recruitable_population_factor_BUFF = 0.06 }
+				custom_effect_tooltip = ESS_freedom_from_needs_tt
+			}
+			if = {
+				limit = {
+					NOT = {
+						OR = {
+							ESS = {
+								has_completed_focus = ESS_compete_for_patients
+							}
+							ESS = {
+								has_completed_focus = ESS_national_health_company
+							}
+						}
+					}
+				}
+				custom_effect_tooltip = ESS_freedom_from_needs_tt_1
+			}
 		}
 		prerequisite = {
 			focus = ESS_community_service_hotline
@@ -6198,8 +6289,21 @@
 		id = ESS_comfortable_city
 		icon = GFX_goal_ESS_comfortable_city
 		cost = 4.3
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = ESS_keep_them_afloat_trigger_tt
+			}
+			check_variable = { ESS_board_of_directors_budget > 14 }
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_comfortable_city"
+			ESS = {
+				add_political_power = 50
+				swap_ideas = {
+					remove_idea = ESS_new_british_state
+					add_idea = ESS_new_british_state_1
+				}	
+			}
 		}
 		prerequisite = {
 			focus = ESS_tonights_entertainment
@@ -6219,6 +6323,12 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_workable_city"
+			lhl_ESS_income_calculation = yes
+			ESS = {
+				add_political_power = -50
+				set_country_flag = ESS_dubai_london
+				custom_effect_tooltip =  ESS_workable_city_tt
+			}
 		}
 		prerequisite = {
 			focus = ESS_freedom_from_needs
@@ -6238,6 +6348,15 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_positive_eugenics"
+			ESS = {
+			    country_event = {
+				    days = 0
+					id = ESS_event.33
+				}
+				set_technology = {
+					genetic_research = 1
+				}
+			}
 		}
 		prerequisite = {
 			focus = ESS_comfortable_city
@@ -6252,6 +6371,13 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_market_of_ideas"
+		    ESS = {
+				add_timed_idea = { 
+					idea = ESS_market_of_ideas
+					days = 90
+				}
+			}
+			custom_effect_tooltip = ESS_market_of_ideas_tt
 		}
 		prerequisite = {
 			focus = ESS_comfortable_city
@@ -6266,6 +6392,15 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: ESS_unrestricted_science"
+			ESS = {
+				add_research_slot = 1
+				swap_ideas = {
+					remove_idea = ESS_new_british_state_1
+					add_idea = ESS_new_british_state_2
+				}	
+				set_country_flag = ESS_unrestricted_science_active
+			}
+			custom_effect_tooltip = ESS_unrestricted_science_tt
 		}
 		prerequisite = {
 			focus = ESS_comfortable_city
@@ -6280,6 +6415,10 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_rules_for_reactionaries"
+			ESS = {
+				add_political_power = 150
+			}
+			custom_effect_tooltip = ESS_rules_for_reactionaries_tt
 		}
 		prerequisite = {
 			focus = ESS_positive_eugenics
@@ -6296,6 +6435,39 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_the_resarthus"
+			add_to_variable = {
+				var = ESS_corpo_state
+				value = -5
+			}
+			add_to_variable = {
+				var = ESS_corpo_media
+				value = 5
+			}
+			clamp_variable = {
+				var = ESS_corpo_state
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = ESS_corpo_media
+				min = 0
+				max = 100
+			}
+			set_variable = { ESS_corpo_media_compliance_growth_BUFF = 1 }
+			set_variable = { ESS_corpo_media_resistance_activity_BUFF = 1 }
+			set_variable = { ESS_corpo_media_send_volunteer_factor_BUFF = 1 }
+			set_variable = { ESS_corpo_media_opinion_gain_monthly_factor_BUFF = 1 }
+			set_variable = { ESS_pie_chart_media_active = 1 }
+			hidden_effect = {
+				ESS = {
+					add_dynamic_modifier = {
+						modifier = ESS_modifier_corpo_media
+					}
+					set_country_flag = ESS_corpo_media_activated_flag
+				}
+			}
+			custom_effect_tooltip = ESS_the_resarthus_tt_1
+			custom_effect_tooltip = ESS_the_resarthus_tt
 		}
 		prerequisite = {
 			focus = ESS_market_of_ideas
@@ -7095,7 +7267,7 @@
 		prerequisite = {
 			focus = ESS_nonstandart_numeracies
 		}
-		x = 16
+		x = 16.5
 		y = 16
 	}
 	shared_focus = { 
@@ -7107,8 +7279,6 @@
 		}
 		prerequisite = {
 			focus = ESS_put_tatcher_to_shame
-		}
-		prerequisite = {
 			focus = ESS_british_recounstruction_effort
 		}
 		x = -1
@@ -7123,8 +7293,6 @@
 		}
 		prerequisite = {
 			focus = ESS_british_recounstruction_effort
-		}
-		prerequisite = {
 			focus = ESS_shelter_the_weak
 		}
 		x = 1
@@ -7139,8 +7307,6 @@
 		}
 		prerequisite = {
 			focus = ESS_shelter_the_weak
-		}
-		prerequisite = {
 			focus = ESS_eros_and_thanatos
 		}
 		x = 3
@@ -7155,8 +7321,6 @@
 		}
 		prerequisite = {
 			focus = ESS_eros_and_thanatos
-		}
-		prerequisite = {
 			focus = ESS_the_golden_age_of_science
 		}
 		x = 5
@@ -7171,8 +7335,6 @@
 		}
 		prerequisite = {
 			focus = ESS_the_golden_age_of_science
-		}
-		prerequisite = {
 			focus = ESS_amazons_on_the_rise
 		}
 		x = 7
@@ -7187,8 +7349,6 @@
 		}
 		prerequisite = {
 			focus = ESS_amazons_on_the_rise
-		}
-		prerequisite = {
 			focus = ESS_loosen_the_criminal_code
 		}
 		x = 9
@@ -7203,8 +7363,6 @@
 		}
 		prerequisite = {
 			focus = ESS_loosen_the_criminal_code
-		}
-		prerequisite = {
 			focus = ESS_weapons_of_future
 		}
 		x = 11
@@ -7219,8 +7377,6 @@
 		}
 		prerequisite = {
 			focus = ESS_weapons_of_future
-		}
-		prerequisite = {
 			focus = ESS_insurrectionist_doctrtine
 		}
 		x = 13
@@ -7235,8 +7391,6 @@
 		}
 		prerequisite = {
 			focus = ESS_insurrectionist_doctrtine
-		}
-		prerequisite = {
 			focus = ESS_legacy_of_london
 		}
 		x = 15
@@ -7267,8 +7421,6 @@
 		}
 		prerequisite = {
 			focus = ESS_the_gifts_of_neoasia
-		}
-		prerequisite = {
 			focus = ESS_icebreaker
 		}
 		x = 2
@@ -7283,8 +7435,6 @@
 		}
 		prerequisite = {
 			focus = ESS_icebreaker
-		}
-		prerequisite = {
 			focus = ESS_cyberculture
 		}
 		x = 4
@@ -7299,8 +7449,6 @@
 		}
 		prerequisite = {
 			focus = ESS_cyberculture
-		}
-		prerequisite = {
 			focus = ESS_freedom_of_speech_freedom_of_thought
 		}
 		x = 6
@@ -7315,8 +7463,6 @@
 		}
 		prerequisite = {
 			focus = ESS_freedom_of_speech_freedom_of_thought
-		}
-		prerequisite = {
 			focus = ESS_schizophrenia_arrives_from_future
 		}
 		x = 8
@@ -7331,8 +7477,6 @@
 		}
 		prerequisite = {
 			focus = ESS_schizophrenia_arrives_from_future
-		}
-		prerequisite = {
 			focus = ESS_deckers_of_england
 		}
 		x = 10
@@ -7395,8 +7539,6 @@
 		}
 		prerequisite = {
 			focus = ESS_a_gothic_science
-		}
-		prerequisite = {
 			focus = ESS_into_the_jungle
 		}
 		x = 3
@@ -7411,8 +7553,6 @@
 		}
 		prerequisite = {
 			focus = ESS_into_the_jungle
-		}
-		prerequisite = {
 			focus = ESS_entertainment_matrix
 		}
 		x = 5
@@ -7427,8 +7567,6 @@
 		}
 		prerequisite = {
 			focus = ESS_entertainment_matrix
-		}
-		prerequisite = {
 			focus = ESS_a_digital_state
 		}
 		x = 7
@@ -7443,8 +7581,6 @@
 		}
 		prerequisite = {
 			focus = ESS_a_digital_state
-		}
-		prerequisite = {
 			focus = ESS_the_faithful
 		}
 		x = 9
@@ -7459,8 +7595,6 @@
 		}
 		prerequisite = {
 			focus = ESS_the_faithful
-		}
-		prerequisite = {
 			focus = ESS_armor_evolution
 		}
 		x = 11
@@ -7822,7 +7956,7 @@
 			focus = ESS_unleash_the_singularity
 		}
 		x = 7
-		y = 25
+		y = 26
 	}
 	shared_focus = { 
 		id = ESS_meltdown
@@ -7835,5 +7969,5 @@
 			focus = ESS_unleash_the_singularity
 		}
 		x = 7
-		y = 26
+		y = 27
 	}

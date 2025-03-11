@@ -1045,8 +1045,8 @@ country_event = {
 				amount = 600
 				producer = WES
 			}
-		}
 	}
+}
 	
 country_event = { 
 	id = ESS_event.32
@@ -1057,13 +1057,210 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = ESS_event.32.a
-			
+		name = ESS_event.32.a	
 		add_political_power = 75
+	}
+}
+
+country_event = {  #Genetic Passports Suck
+	id = ESS_event.33
+	title = ESS_event.33.t
+	desc = ESS_event.33.d
+	
+	fire_only_once = yes	
+	is_triggered_only = yes
+
+	option = {
+		name = ESS_event.33.a
+		ESS = {
+			add_stability = -0.05
 		}
 	}
-	
+}	
 
+country_event = {  #Unethical technology #1
+	id = ESS_event.34
+	title = ESS_event.34.t
+	desc = ESS_event.34.d
+	fire_only_once = yes	
+	mean_time_to_happen = {
+	    days = 1
+    }
+	trigger = {
+		tag = ESS
+		ESS = {
+			has_country_flag = ESS_unrestricted_science_active
+			OR = {
+				is_researching_technology = tech_field_hospital2
+				is_researching_technology = tech_field_hospital3
+				is_researching_technology = tech_field_hospital4
+				is_researching_technology = tech_field_hospital5
+				is_researching_technology = tech_field_hospital6
+			}
+		}
+	}
+	option = {
+		name = ESS_event.34.a
+		ESS = {
+			add_political_power = -75
+			add_stability = -0.05
+			add_tech_bonus = {
+				bonus = 0.25
+				uses = 1
+				category = hospital_tech
+			}
+		}
+	}
+	option = {
+		name = ESS_event.34.b
+		add_political_power = 100
+		add_timed_idea = { 
+			idea = ESS_banned_research
+			days = 60
+		}
+	}
+}	
+
+country_event = {  #Unethical technology #2
+	id = ESS_event.35
+	title = ESS_event.35.t
+	desc = ESS_event.35.d
+	fire_only_once = yes	
+	mean_time_to_happen = {
+	    days = 1
+    }
+	trigger = {
+		tag = ESS
+		ESS = {
+			has_country_flag = ESS_unrestricted_science_active
+			OR = {
+				is_researching_technology = automatization_resources_1_1
+				is_researching_technology = automatization_resources_1_2
+				is_researching_technology = automatization_resources_2
+				is_researching_technology = automatization_resources_3_1
+				is_researching_technology = automatization_resources_3_2
+				is_researching_technology = automatization_resources_4
+				is_researching_technology = automatization_resources_5_1
+				is_researching_technology = automatization_resources_5_2
+				is_researching_technology = automatization_resources_6
+				is_researching_technology = automatization_resources_7_1
+				is_researching_technology = automatization_resources_7_2
+			}
+		}
+	}
+	option = {
+		name = ESS_event.35.a
+		ESS = {
+			add_political_power = -75
+			add_stability = -0.05
+			add_tech_bonus = {
+				bonus = 0.25
+				uses = 1
+				category = excavation_tech
+			}
+		}
+	}
+	option = {
+		name = ESS_event.35.b
+		add_political_power = 100
+		add_timed_idea = { 
+			idea = ESS_banned_research
+			days = 60
+		}
+	}
+}
+
+country_event = {  #Unethical technology #3
+	id = ESS_event.36
+	title = ESS_event.36.t
+	desc = ESS_event.36.d
+	fire_only_once = yes	
+	mean_time_to_happen = {
+	    days = 1
+    }
+	trigger = {
+		tag = ESS
+		ESS = {
+			has_country_flag = ESS_unrestricted_science_active
+			OR = {
+				is_researching_technology = outdated_main_battle_tank
+				is_researching_technology = basic_main_battle_tank
+				is_researching_technology = improved_main_battle_tank
+				is_researching_technology = advanced_main_battle_tank
+				is_researching_technology = futuristic_main_battle_tank
+				#DLC STUFF#
+				is_researching_technology = NSB_outdated_main_battle_tank
+				is_researching_technology = NSB_basic_main_battle_tank
+				is_researching_technology = NSB_improved_main_battle_tank
+				is_researching_technology = NSB_advanced_main_battle_tank
+				is_researching_technology = NSB_futuristic_main_battle_tank				
+			}
+		}
+	}
+	option = {
+		name = ESS_event.36.a
+		ESS = {
+			add_political_power = -75
+			add_stability = -0.05
+			add_tech_bonus = {
+				bonus = 0.25
+				uses = 1
+				category = armor
+			}
+		}
+	}
+	option = {
+		name = ESS_event.36.b
+		add_political_power = 100
+		add_timed_idea = { 
+			idea = ESS_banned_research
+			days = 60
+		}
+	}
+}
+
+country_event = {  #Unethical technology #4
+	id = ESS_event.37
+	title = ESS_event.37.t
+	desc = ESS_event.37.d
+	fire_only_once = yes	
+	mean_time_to_happen = {
+	    days = 1
+    }
+	trigger = {
+		tag = ESS
+		ESS = {
+			has_country_flag = ESS_unrestricted_science_active
+			OR = {
+				is_researching_technology = synth_oil_experiments
+				is_researching_technology = oil_processing 
+				is_researching_technology = improved_oil_processing
+				is_researching_technology = advanced_oil_processing
+				is_researching_technology = modern_oil_processing
+			}
+		}
+	}
+	option = {
+		name = ESS_event.37.a
+		ESS = {
+			add_political_power = -75
+			add_stability = -0.05
+			add_tech_bonus = {
+				bonus = 0.25
+				uses = 1
+				category = synth_resources
+			}
+		}
+	}
+	option = {
+		name = ESS_event.37.b
+		add_political_power = 100
+		add_timed_idea = { 
+			idea = ESS_banned_research
+			days = 60
+		}
+	}
+}
 	
 country_event = { 
 	id = ESS_event.38
@@ -1390,6 +1587,446 @@ country_event = { ###Collins###
 			retire_country_leader = yes
 			set_politics = {
 				ruling_party = hegemonism
+			}
+		}
+	}
+}
+
+###MOLDBUG EVENTS COMPETING COMPANIES###
+country_event = { #MIO's Competition
+	id = ESS_event.54
+	title = ESS_event.54.t
+	desc = ESS_event.54.d
+	trigger = {
+		NOT = {
+			ESS = {
+				has_country_flag = ESS_competition_reset
+			}
+		}
+		ESS = {
+			has_completed_focus = ESS_inner_arms_race
+		}
+	}
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event ESS_event.54"
+		ESS = {
+			random_military_industrial_organization = {
+				set_mio_flag = ESS_moldbug_mio_comp_1
+			}			
+		}
+		ESS = {
+			random_military_industrial_organization = {
+				limit = {
+					NOT = {
+						has_mio_flag = ESS_moldbug_mio_comp_1
+					}
+				}
+				set_mio_flag = ESS_moldbug_mio_comp_2
+			}			
+		}
+	}
+	is_triggered_only = yes
+	picture = GFX_
+	option = {
+		name = ESS_event.54.a
+		trigger = {
+			check_variable = { ESS_board_of_directors_budget > 9 }
+		}
+		add_to_variable = { ESS_board_of_directors_budget = -10 }
+		clamp_variable = {
+			var = ESS_board_of_directors_budget
+			min = 0
+		}
+		random_military_industrial_organization = {
+			limit = {
+				has_mio_flag = ESS_moldbug_mio_comp_1
+			}
+			add_mio_funds = 250
+			clr_mio_flag = ESS_moldbug_mio_comp_1
+		}
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 90
+					id = ESS_event.57
+				}
+			}
+		}
+		custom_effect_tooltip = ESS_event.54.tt
+	}
+	option = {
+		name = ESS_event.54.b
+		trigger = {
+			check_variable = { ESS_board_of_directors_budget > 9 }
+		}
+		add_to_variable = { ESS_board_of_directors_budget = -10 }
+		clamp_variable = {
+			var = ESS_board_of_directors_budget
+			min = 0
+		}
+		random_military_industrial_organization = {
+			limit = {
+				has_mio_flag = ESS_moldbug_mio_comp_2
+			}
+			add_mio_funds = 250
+			clr_mio_flag = ESS_moldbug_mio_comp_2
+		}
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 90
+					id = ESS_event.57
+				}
+			}
+		}
+		custom_effect_tooltip = ESS_event.54.tt
+	}
+	option = {
+		name = ESS_event.54.c
+		ESS = {
+			add_political_power = 10
+		}
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 90
+					id = ESS_event.57
+				}
+			}
+		}
+	}	
+}
+
+country_event = { #Research Competition
+	id = ESS_event.55
+	title = ESS_event.55.t
+	desc = ESS_event.55.d
+	trigger = {
+		NOT = {
+			ESS = {
+				has_country_flag = ESS_competition_reset
+			}
+		}
+		ESS = {
+			has_completed_focus = ESS_inner_arms_race
+		}
+	}
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event ESS_event.55"
+	}
+	is_triggered_only = yes
+	picture = GFX_
+	option = {
+		name = ESS_event.55.a
+		trigger = {
+			check_variable = { ESS_board_of_directors_budget > 9 }
+		}
+		add_to_variable = { ESS_board_of_directors_budget = -10 }
+		clamp_variable = {
+			var = ESS_board_of_directors_budget
+			min = 0
+		}
+		random_list = {
+			33 = {
+				ESS = {
+					add_tech_bonus = {
+						bonus = 0.25
+						uses = 1
+						category = radar_tech
+					}
+				}
+			}
+			33 = {	
+				ESS = {
+					add_tech_bonus = {
+						bonus = 0.25
+						uses = 1
+						category = industry
+					}
+				}			
+			}
+			33 = {	
+				ESS = {
+					add_tech_bonus = {
+						bonus = 0.25
+						uses = 1
+						category = electronics
+					}
+				}			
+			}
+			33 = {	
+				ESS = {
+					add_tech_bonus = {
+						bonus = 0.25
+						uses = 1
+						category = construction_tech
+					}
+				}			
+			}
+		}
+		ESS = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = radar_tech
+			}
+		}
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 90
+					id = ESS_event.57
+				}
+			}
+		}
+		custom_effect_tooltip = ESS_event.54.tt
+	}
+	option = {
+		name = ESS_event.55.b
+		trigger = {
+			check_variable = { ESS_board_of_directors_budget > 9 }
+		}
+		add_to_variable = { ESS_board_of_directors_budget = -10 }
+		clamp_variable = {
+			var = ESS_board_of_directors_budget
+			min = 0
+		}
+		random_list = {
+			33 = {
+				ESS = {
+					add_tech_bonus = {
+						bonus = 0.25
+						uses = 1
+						category = armor
+					}
+				}
+			}
+			33 = {	
+				ESS = {
+					add_tech_bonus = {
+						bonus = 0.25
+						uses = 1
+						category = infantry_tech
+					}
+				}			
+			}
+			33 = {	
+				ESS = {
+					add_tech_bonus = {
+						bonus = 0.25
+						uses = 1
+						category = air_equipment
+					}
+				}			
+			}
+			33 = {	
+				ESS = {
+					add_tech_bonus = {
+						bonus = 0.25
+						uses = 1
+						category = naval_equipment
+					}
+				}			
+			}
+		}
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 90
+					id = ESS_event.57
+				}
+			}
+		}
+		custom_effect_tooltip = ESS_event.54.tt
+	}
+	option = {
+		name = ESS_event.54.c
+		ESS = {
+			add_political_power = 10
+		}
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 90
+					id = ESS_event.57
+				}
+			}
+		}
+	}	
+}
+
+country_event = { #Research Military Trainers
+	id = ESS_event.56
+	title = ESS_event.56.t
+	desc = ESS_event.56.d
+	trigger = {
+		NOT = {
+			ESS = {
+				has_country_flag = ESS_competition_reset
+			}
+		}
+		ESS = {
+			has_completed_focus = ESS_inner_arms_race
+		}
+	}
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event ESS_event.55"
+	}
+	is_triggered_only = yes
+	picture = GFX_
+	option = {
+		name = ESS_event.56.a
+		trigger = {
+			check_variable = { ESS_board_of_directors_budget > 9 }
+		}
+		add_to_variable = { ESS_board_of_directors_budget = -10 }
+		clamp_variable = {
+			var = ESS_board_of_directors_budget
+			min = 0
+		}
+		ESS = {
+			army_experience = 10
+		}
+		custom_effect_tooltip = ESS_event.54.tt
+	}
+	option = {
+		name = ESS_event.56.b
+		trigger = {
+			check_variable = { ESS_board_of_directors_budget > 4 }
+		}
+		add_to_variable = { ESS_board_of_directors_budget = -5 }
+		clamp_variable = {
+			var = ESS_board_of_directors_budget
+			min = 0
+		}
+		ESS = {
+			air_experience = 10
+		}
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 90
+					id = ESS_event.57
+				}
+			}
+		}
+		custom_effect_tooltip = ESS_event.56.tt
+	}
+	option = {
+		name = ESS_event.56.с
+		trigger = {
+			check_variable = { ESS_board_of_directors_budget > 0 }
+		}
+		add_to_variable = { ESS_board_of_directors_budget = -1 }
+		clamp_variable = {
+			var = ESS_board_of_directors_budget
+			min = 0
+		}
+		ESS = {
+			navy_experience = 10
+		}
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 90
+					id = ESS_event.57
+				}
+			}
+		}
+		custom_effect_tooltip = ESS_event.56._1tt
+	}
+	option = {
+		name = ESS_event.56.e
+		ESS = {
+			add_political_power = 10
+		}
+		hidden_effect = {
+			ESS = {
+				country_event = {
+					days = 90
+					id = ESS_event.57
+				}
+			}
+		}
+	}	
+}
+
+country_event = { #Competition Reset
+	id = ESS_event.57
+	title = ESS_event.57.t
+	desc = ESS_event.57.d
+	is_triggered_only = yes
+	picture = GFX_
+	hidden = yes
+	option = {
+		name = ESS_event.57.a
+		ESS = {
+			clr_country_flag = ESS_competition_reset
+		}
+	}
+}
+
+country_event = { #Politicization Warning
+	id = ESS_event.58
+	title = ESS_event.58.t
+	desc = ESS_event.58.d
+	mean_time_to_happen = {
+	    days = 1
+    }
+	immediate = {
+		ESS = {
+			set_country_flag = ESS_moldbug_politicization_cooldown
+		}
+	}
+	trigger = {
+		tag = ESS
+		ESS = {
+			check_variable = { ESS_moldbug_politicized_nation > 3 }
+			check_variable = { ESS_moldbug_politicized_nation < 5 }
+		}
+		NOT = {
+			ESS = {
+				has_country_flag = ESS_moldbug_politicization_cooldown
+			}
+		}
+	}
+	picture = GFX_
+	option = {
+		name = ESS_event.58.a
+		ESS = {
+			add_political_power = -10
+		}
+	}
+}
+
+country_event = { #Politicization Fallout
+	id = ESS_event.59
+	title = ESS_event.59.t
+	desc = ESS_event.59.d
+	mean_time_to_happen = {
+	    days = 1
+    }
+	immediate = {
+		hidden_effect = {
+			ESS = {
+				set_variable = { ESS_moldbug_politicized_nation = 0 }
+			}
+		}
+	}
+	trigger = {
+		tag = ESS
+		ESS = {
+			check_variable = { ESS_moldbug_politicized_nation > 5 }
+		}
+	}
+	picture = GFX_
+	option = {
+		name = ESS_event.59.a
+		ESS = {
+			add_political_power = -50
+			add_timed_idea = {
+				idea = ESS_mass_protests_politicized
+				days = 90
 			}
 		}
 	}
@@ -2473,6 +3110,21 @@ country_event = { #Misc Company 1 - Alternative Fuel
 	is_triggered_only = yes
 	fire_only_once = yes
 	picture = GFX_
+	trigger = {
+		NOT = {
+			ESS = {
+				has_country_flag = ESS_small_company_reset
+			}
+		}
+		ESS = {
+			has_completed_focus = ESS_big_opportunities_for_small_men
+		}
+	}
+	immediate = {
+		ESS = {
+			set_country_flag = ESS_small_company_reset
+		}
+	}
 	option = {
 		name = ESS_event.78.a
 		trigger = {
@@ -2499,11 +3151,14 @@ country_event = { #Misc Company 1 - Alternative Fuel
 			max = 100
 		}
 		set_variable = { ESS_pie_chart_small_companies_active = 1 }
+		ESS = {
+			set_country_flag = ESS_small_corpo_1_active
+		}
 		custom_effect_tooltip = ESS_misc_company_1_tt
 		hidden_effect = {
 			ESS = {
 				country_event = {
-					days = 30
+					days = 90
 					id = ESS_event.88
 				}
 			}
@@ -2517,7 +3172,7 @@ country_event = { #Misc Company 1 - Alternative Fuel
 		hidden_effect = {
 			ESS = {
 				country_event = {
-					days = 30
+					days = 90
 					id = ESS_event.88
 				}
 			}
@@ -2532,6 +3187,21 @@ country_event = { #Misc Company 2 - Sturdy Building Company
 	is_triggered_only = yes
 	fire_only_once = yes
 	picture = GFX_
+	trigger = {
+		NOT = {
+			ESS = {
+				has_country_flag = ESS_small_company_reset
+			}
+		}
+		ESS = {
+			has_completed_focus = ESS_big_opportunities_for_small_men
+		}
+	}
+	immediate = {
+		ESS = {
+			set_country_flag = ESS_small_company_reset
+		}
+	}
 	option = {
 		name = ESS_event.79.a
 		trigger = {
@@ -2558,11 +3228,14 @@ country_event = { #Misc Company 2 - Sturdy Building Company
 			max = 100
 		}
 		set_variable = { ESS_pie_chart_small_companies_active = 1 }
+		ESS = {
+			set_country_flag = ESS_small_corpo_2_active
+		}
 		custom_effect_tooltip = ESS_misc_company_1_tt
 		hidden_effect = {
 			ESS = {
 				country_event = {
-					days = 30
+					days = 90
 					id = ESS_event.88
 				}
 			}
@@ -2576,7 +3249,7 @@ country_event = { #Misc Company 2 - Sturdy Building Company
 		hidden_effect = {
 			ESS = {
 				country_event = {
-					days = 30
+					days = 90
 					id = ESS_event.88
 				}
 			}
@@ -2591,6 +3264,21 @@ country_event = { #Misc Company 3 - Feminist Company
 	is_triggered_only = yes
 	fire_only_once = yes
 	picture = GFX_
+	trigger = {
+		NOT = {
+			ESS = {
+				has_country_flag = ESS_small_company_reset
+			}
+		}
+		ESS = {
+			has_completed_focus = ESS_big_opportunities_for_small_men
+		}
+	}
+	immediate = {
+		ESS = {
+			set_country_flag = ESS_small_company_reset
+		}
+	}
 	option = {
 		name = ESS_event.80.a
 		trigger = {
@@ -2620,11 +3308,14 @@ country_event = { #Misc Company 3 - Feminist Company
 			max = 100
 		}
 		set_variable = { ESS_pie_chart_small_companies_active = 1 }
+		ESS = {
+			set_country_flag = ESS_small_corpo_3_active
+		}
 		custom_effect_tooltip = ESS_misc_company_1_tt
 		hidden_effect = {
 			ESS = {
 				country_event = {
-					days = 30
+					days = 90
 					id = ESS_event.88
 				}
 			}
@@ -2638,7 +3329,7 @@ country_event = { #Misc Company 3 - Feminist Company
 		hidden_effect = {
 			ESS = {
 				country_event = {
-					days = 30
+					days = 90
 					id = ESS_event.88
 				}
 			}
@@ -2653,6 +3344,21 @@ country_event = { #Misc Company 4 - Naval Transport Company
 	is_triggered_only = yes
 	fire_only_once = yes
 	picture = GFX_
+	trigger = {
+		NOT = {
+			ESS = {
+				has_country_flag = ESS_small_company_reset
+			}
+		}
+		ESS = {
+			has_completed_focus = ESS_big_opportunities_for_small_men
+		}
+	}
+	immediate = {
+		ESS = {
+			set_country_flag = ESS_small_company_reset
+		}
+	}
 	option = {
 		name = ESS_event.81.a
 		trigger = {
@@ -2679,11 +3385,14 @@ country_event = { #Misc Company 4 - Naval Transport Company
 			max = 100
 		}
 		set_variable = { ESS_pie_chart_small_companies_active = 1 }
+		ESS = {
+			set_country_flag = ESS_small_corpo_4_active
+		}
 		custom_effect_tooltip = ESS_misc_company_1_tt
 		hidden_effect = {
 			ESS = {
 				country_event = {
-					days = 30
+					days = 90
 					id = ESS_event.88
 				}
 			}
@@ -2697,7 +3406,7 @@ country_event = { #Misc Company 4 - Naval Transport Company
 		hidden_effect = {
 			ESS = {
 				country_event = {
-					days = 30
+					days = 90
 					id = ESS_event.88
 				}
 			}
@@ -2712,6 +3421,21 @@ country_event = { #Misc Company 5 - Safety Company
 	is_triggered_only = yes
 	fire_only_once = yes
 	picture = GFX_
+	trigger = {
+		NOT = {
+			ESS = {
+				has_country_flag = ESS_small_company_reset
+			}
+		}
+		ESS = {
+			has_completed_focus = ESS_big_opportunities_for_small_men
+		}
+	}
+	immediate = {
+		ESS = {
+			set_country_flag = ESS_small_company_reset
+		}
+	}
 	option = {
 		name = ESS_event.82.a
 		trigger = {
@@ -2738,11 +3462,14 @@ country_event = { #Misc Company 5 - Safety Company
 			max = 100
 		}
 		set_variable = { ESS_pie_chart_small_companies_active = 1 }
+		ESS = {
+			set_country_flag = ESS_small_corpo_5_active
+		}
 		custom_effect_tooltip = ESS_misc_company_1_tt
 		hidden_effect = {
 			ESS = {
 				country_event = {
-					days = 30
+					days = 90
 					id = ESS_event.88
 				}
 			}
@@ -2756,7 +3483,7 @@ country_event = { #Misc Company 5 - Safety Company
 		hidden_effect = {
 			ESS = {
 				country_event = {
-					days = 30
+					days = 90
 					id = ESS_event.88
 				}
 			}
@@ -2771,6 +3498,21 @@ country_event = { #Misc Company 6 - Equipment Upgrade Company
 	is_triggered_only = yes
 	fire_only_once = yes
 	picture = GFX_
+	trigger = {
+		NOT = {
+			ESS = {
+				has_country_flag = ESS_small_company_reset
+			}
+		}
+		ESS = {
+			has_completed_focus = ESS_big_opportunities_for_small_men
+		}
+	}
+	immediate = {
+		ESS = {
+			set_country_flag = ESS_small_company_reset
+		}
+	}
 	option = {
 		name = ESS_event.83.a
 		trigger = {
@@ -2797,11 +3539,14 @@ country_event = { #Misc Company 6 - Equipment Upgrade Company
 			max = 100
 		}
 		set_variable = { ESS_pie_chart_small_companies_active = 1 }
+		ESS = {
+			set_country_flag = ESS_small_corpo_6_active
+		}
 		custom_effect_tooltip = ESS_misc_company_1_tt
 		hidden_effect = {
 			ESS = {
 				country_event = {
-					days = 30
+					days = 90
 					id = ESS_event.88
 				}
 			}
@@ -2815,7 +3560,7 @@ country_event = { #Misc Company 6 - Equipment Upgrade Company
 		hidden_effect = {
 			ESS = {
 				country_event = {
-					days = 30
+					days = 90
 					id = ESS_event.88
 				}
 			}
@@ -2830,6 +3575,21 @@ country_event = { #Misc Company 7 - Warm Clothes Company
 	is_triggered_only = yes
 	fire_only_once = yes
 	picture = GFX_
+	trigger = {
+		NOT = {
+			ESS = {
+				has_country_flag = ESS_small_company_reset
+			}
+		}
+		ESS = {
+			has_completed_focus = ESS_big_opportunities_for_small_men
+		}
+	}
+	immediate = {
+		ESS = {
+			set_country_flag = ESS_small_company_reset
+		}
+	}
 	option = {
 		name = ESS_event.84.a
 		trigger = {
@@ -2856,11 +3616,14 @@ country_event = { #Misc Company 7 - Warm Clothes Company
 			max = 100
 		}
 		set_variable = { ESS_pie_chart_small_companies_active = 1 }
+		ESS = {
+			set_country_flag = ESS_small_corpo_7_active
+		}
 		custom_effect_tooltip = ESS_misc_company_1_tt
 		hidden_effect = {
 			ESS = {
 				country_event = {
-					days = 30
+					days = 90
 					id = ESS_event.88
 				}
 			}
@@ -2874,7 +3637,7 @@ country_event = { #Misc Company 7 - Warm Clothes Company
 		hidden_effect = {
 			ESS = {
 				country_event = {
-					days = 30
+					days = 90
 					id = ESS_event.88
 				}
 			}
@@ -2889,6 +3652,21 @@ country_event = { #Misc Company 8 - Ace Training Company
 	is_triggered_only = yes
 	fire_only_once = yes
 	picture = GFX_
+	trigger = {
+		NOT = {
+			ESS = {
+				has_country_flag = ESS_small_company_reset
+			}
+		}
+		ESS = {
+			has_completed_focus = ESS_big_opportunities_for_small_men
+		}
+	}
+	immediate = {
+		ESS = {
+			set_country_flag = ESS_small_company_reset
+		}
+	}
 	option = {
 		name = ESS_event.85.a
 		trigger = {
@@ -2917,11 +3695,14 @@ country_event = { #Misc Company 8 - Ace Training Company
 			max = 100
 		}
 		set_variable = { ESS_pie_chart_small_companies_active = 1 }
+		ESS = {
+			set_country_flag = ESS_small_corpo_8_active
+		}
 		custom_effect_tooltip = ESS_misc_company_1_tt
 		hidden_effect = {
 			ESS = {
 				country_event = {
-					days = 30
+					days = 90
 					id = ESS_event.88
 				}
 			}
@@ -2935,7 +3716,7 @@ country_event = { #Misc Company 8 - Ace Training Company
 		hidden_effect = {
 			ESS = {
 				country_event = {
-					days = 30
+					days = 90
 					id = ESS_event.88
 				}
 			}
@@ -2950,6 +3731,21 @@ country_event = { #Misc Company 9 - Infrastructure Company
 	is_triggered_only = yes
 	fire_only_once = yes
 	picture = GFX_
+	trigger = {
+		NOT = {
+			ESS = {
+				has_country_flag = ESS_small_company_reset
+			}
+		}
+		ESS = {
+			has_completed_focus = ESS_big_opportunities_for_small_men
+		}
+	}
+	immediate = {
+		ESS = {
+			set_country_flag = ESS_small_company_reset
+		}
+	}
 	option = {
 		name = ESS_event.86.a
 		trigger = {
@@ -2975,11 +3771,14 @@ country_event = { #Misc Company 9 - Infrastructure Company
 			max = 100
 		}
 		set_variable = { ESS_pie_chart_small_companies_active = 1 }
+		ESS = {
+			set_country_flag = ESS_small_corpo_9_active
+		}
 		custom_effect_tooltip = ESS_misc_company_1_tt
 		hidden_effect = {
 			ESS = {
 				country_event = {
-					days = 30
+					days = 90
 					id = ESS_event.88
 				}
 			}
@@ -2993,7 +3792,7 @@ country_event = { #Misc Company 9 - Infrastructure Company
 		hidden_effect = {
 			ESS = {
 				country_event = {
-					days = 30
+					days = 90
 					id = ESS_event.88
 				}
 			}
@@ -3008,6 +3807,16 @@ country_event = { #Misc Company 10 - Super Stuff Company
 	is_triggered_only = yes
 	fire_only_once = yes
 	picture = GFX_
+	trigger = {
+		NOT = {
+			ESS = {
+				has_country_flag = ESS_small_company_reset
+			}
+		}
+		ESS = {
+			has_completed_focus = ESS_big_opportunities_for_small_men
+		}
+	}
 	immediate = {
 		ESS = {
 			set_country_flag = ESS_small_company_reset
@@ -3038,11 +3847,14 @@ country_event = { #Misc Company 10 - Super Stuff Company
 			max = 100
 		}
 		set_variable = { ESS_pie_chart_small_companies_active = 1 }
+		ESS = {
+			set_country_flag = ESS_small_corpo_10_active
+		}
 		custom_effect_tooltip = ESS_misc_company_1_tt
 		hidden_effect = {
 			ESS = {
 				country_event = {
-					days = 30
+					days = 90
 					id = ESS_event.88
 				}
 			}
@@ -3056,7 +3868,7 @@ country_event = { #Misc Company 10 - Super Stuff Company
 		hidden_effect = {
 			ESS = {
 				country_event = {
-					days = 30
+					days = 90
 					id = ESS_event.88
 				}
 			}
@@ -3075,66 +3887,6 @@ country_event = { #Small Company Reset
 		name = ESS_event.88.a
 		ESS = {
 			clr_country_flag = ESS_small_company_reset
-		}
-	}
-}
-
-country_event = {
-	id = ESS_event.666
-	title = ESS_event.666.t
-	desc = ESS_event.666.d 
-	
-    fire_only_once = yes	
-	is_triggered_only = yes
-
-    option = {
-		name = ESS_event.666.a 
-		
-		kill_country_leader = yes
-		
-		create_country_leader = {
-	        name = "K.N.Y.A.Z.H.N.A."
-            desc = "POLITICS_KNYAZHNA_DESC"
-	        picture = "GFX_portrait_knyazhna"
-	        expire = "9999.1.1"
-			ideology = ethical_millennialism
-			set_variable = {
-				var = ESS_control
-				value = 0
-	        }
-		}
-
-	}
-}
-
-country_event = { 
-	id = ESS_event.1488
-	title = ESS_event.1488.t
-	desc = ESS_event.1488.d
-	immediate = {log = "[GetDateText]: [Root.GetName]: event ESS_event.1488"}
-	is_triggered_only = yes
-	picture = GFX_
-	option = {
-		name = ESS_event.1488.a
-		ESS = {
-				retire_country_leader = yes
-				promote_character = {
-					character = ESS_curtis_yarvin
-					ideology = neo_reaction
-				}
-		}
-	}	
-	option = {
-		name = ESS_event.1488.b
-			ESS = {
-				retire_country_leader = yes
-				set_politics = {
-					ruling_party = commendationism
-				}
-				promote_character = {
-					character = ESS_Mark_Fisher
-					ideology = ultrahegelianism
-				}
 		}
 	}
 }
@@ -3731,5 +4483,66 @@ country_event = { #A Meritocratic Trust
 	is_triggered_only = yes
     option = {
 		name = ESS_event.100.a #Moldbug option
+	}
+}
+
+###MEME Stuff###
+country_event = {
+	id = ESS_event.666
+	title = ESS_event.666.t
+	desc = ESS_event.666.d 
+	
+    fire_only_once = yes	
+	is_triggered_only = yes
+
+    option = {
+		name = ESS_event.666.a 
+		
+		kill_country_leader = yes
+		
+		create_country_leader = {
+	        name = "K.N.Y.A.Z.H.N.A."
+            desc = "POLITICS_KNYAZHNA_DESC"
+	        picture = "GFX_portrait_knyazhna"
+	        expire = "9999.1.1"
+			ideology = ethical_millennialism
+			set_variable = {
+				var = ESS_control
+				value = 0
+	        }
+		}
+
+	}
+}
+
+country_event = { 
+	id = ESS_event.1488
+	title = ESS_event.1488.t
+	desc = ESS_event.1488.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ESS_event.1488"}
+	is_triggered_only = yes
+	picture = GFX_
+	option = {
+		name = ESS_event.1488.a
+		ESS = {
+				retire_country_leader = yes
+				promote_character = {
+					character = ESS_curtis_yarvin
+					ideology = neo_reaction
+				}
+		}
+	}	
+	option = {
+		name = ESS_event.1488.b
+			ESS = {
+				retire_country_leader = yes
+				set_politics = {
+					ruling_party = commendationism
+				}
+				promote_character = {
+					character = ESS_Mark_Fisher
+					ideology = ultrahegelianism
+				}
+		}
 	}
 }

@@ -461,6 +461,36 @@ technologies = {
 			factor = 2
 		}
     }
+	genetic_research = {
+		start_year = 2020
+		
+		stability_factor = 0.1
+		monthly_population = 0.15
+		consumer_goods_factor = -0.1
+		conscription_factor = 0.08
+		
+		path = {
+			research_cost_coeff = 1
+		}
+		dependencies = {
+			threeD_printers = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = spectech_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			construction_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+    }
 	suicide_drones = {
 
 		enable_equipments = {

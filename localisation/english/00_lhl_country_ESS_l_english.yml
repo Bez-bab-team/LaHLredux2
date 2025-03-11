@@ -74,6 +74,10 @@
  ESS_michael_grylls:0 "Michael Grylls"
  ESS_miles_routledge:0 "Miles Routledge"
  ESS_liz_truss:0 "Liz Truss"
+ ###USA COMMANDERS###
+ ESS_erik_prince:0 "Erik Prince"
+ ESS_andrew_milburn:0 "Andrew Milburn"
+ ESS_jordan_goudreau:0 "Jordan Goudreau"
  ##POLITICAL PARTIES##
 
  ESS_millenarism_party:0 "H+"
@@ -114,6 +118,11 @@
  the_father_of_accelerationism:0 "The Father of Accelerationism"
  dark_enlightener:0 "Dark Enlightener"
  k_punk:0 "k-punk"
+ strong_and_dynamic:0 ""Strong and Dynamic""
+ the_apprentice:0 "The Apprentice"
+ mountain_king:0 "Mountain King"
+ soldier_ceo:0 "Soldier CEO"
+ king_of_two_kingdoms:0 "King of Two Kingdoms"
  ##DESIGN COMPANIES##
  james_purdey_and_sons:0 "James Purdey and Sons"
  james_purdey_and_sons_organization:0 "James Purdey and Sons"
@@ -928,7 +937,7 @@
  ESS_icebreaker:0 "Icebreaker"
  ESS_cyberculture:0 "Cyberculture"
  ESS_freedom_of_speech_freedom_of_thought:0 "Freedom of Speech, Freedom of Thought"
- ESS_schizophrenia_arrives_from_future:0 "Schizophrenia Arrives From The Future"
+ ESS_schizophrenia_arrives_from_future:0 "Schizoanalysis"
  ESS_deckers_of_england:0 "Deckers of England"
  ESS_birds_of_prey:0 "Birds of Prey"
  ESS_spirit_and_teeth:0 "Spirit and Teeth"
@@ -1079,6 +1088,30 @@
  ESS_event.32.d:0 "Max Mosley was known to be the leading figure of Formula One and president of the  Fédération Internationale de l'Automobile, and aside from his vast political experience and great family name, has personally set a few records on the track, making him a truly unique man in British contemporary politics. It was only natural that after the stabilization of the situation in London, our Leader would seek to revive the old event even with those humble remnants of this city's wealth. Personally overseeing it from his tribune at the center of the stadium, surrounded by the warlords and industrialists, the race started as soon as he waved his hand with a checkered flag. And while the official part went as well as 20 years ago, the racers themselves... Number 12 has completely covered his car with small spikes, including the policemen's road spikes, Number 20 has attached a giant rocket to the back and front, Number 14 has made a true monster truck comprised of many cannibalized parts of smaller cars, and so on and so forth. The race itself was quite interesting as well, for Number 12 unlocked his trunk and covered the lane in oil, causing at least 3 cars to completely crush. Number 5 has used an improvised lightning rod to completely blackout the surrounding competitors, and as a result, has shut down his car as well. Numbers 9 and 10 brought machine guns and were quickly disqualified. Numbers 8 and 2, despite coming last were so engaged in their personal race that they continued the race even after crossing the finish line, scaring the pedestrians and causing a police chase ending up with a giant car pile after one of the bridges over the Thames collapsed under their weight. But the winner turned out to be the dark horse, Number 14 was spotted dropping off many parts of his vehicle, destroying at least 5 opponents, and speeding up with every part dropped, coming just a few seconds before Number 20 caught up with his rockets. The winner was awarded 20 boxes of luxury alcohol, a stack of cash, and a personal handshake from Sir Mosley himself. While the discipline and conduct of the race leaves much to be desired, nonetheless we have managed to also find many genius minds that can be used in our workshops to construct intricate weapons."
  ESS_event.32.a:0 "To the winner goes the spoils"
  #
+ ESS_event.33.t:0 "Genes Rule The World"
+ ESS_event.33.d:0 "Living with Genetic Passports sucks..."
+ ESS_event.33.a:0 "What are you, a leftie?"
+ #
+ ESS_event.34.t:0 "Unethical research: Field Hospitals"
+ ESS_event.34.d:0 "It seems people don't like us using live subjects for experimental drugs. Should be limit our research?"
+ ESS_event.34.a:0 "We NEED this"
+ ESS_event.34.b:0 "Maybe we can back down a bit..."
+ #
+ ESS_event.35.t:0 "Unethical research: Resource Gathering"
+ ESS_event.35.d:0 "It seems people don't like us destroying the environment for mining. Should be limit our research?"
+ ESS_event.35.a:0 "We NEED this"
+ ESS_event.35.b:0 "Maybe we can back down a bit..."
+ #
+ ESS_event.36.t:0 "Unethical research: Tanks"
+ ESS_event.36.d:0 "It seems people don't like using DU ammo for our tanks. Should be limit our research?"
+ ESS_event.36.a:0 "We NEED this"
+ ESS_event.36.b:0 "Maybe we can back down a bit..."
+ #
+ ESS_event.37.t:0 "Unethical research: Oil Refinement"
+ ESS_event.37.d:0 "It seems people don't like us drilling too greedily and too deep. Should be limit our research?"
+ ESS_event.37.a:0 "We NEED this"
+ ESS_event.37.b:0 "Maybe we can back down a bit..."
+ #
  ESS_event.41.t:0 "41"
  ESS_event.41.d:0 "41"
  ESS_event.41.a:0 "41"
@@ -1095,6 +1128,37 @@
  ESS_event.51.t:0 "Nick Land takes power!"
  ESS_event.51.d:0 "Nick Land and his clique takes power."
  ESS_event.51.a:0 "It's a little bit stable now"
+ #
+ ESS_event.54.t:0 "Two MIO's compete for financing"
+ ESS_event.54.d:0 "One MIO fueds with another one. What do we do?"
+ ESS_event.54.a:0 "Sponsor 1st"
+ ESS_event.54.b:0 "Sponsor 2nd"
+ ESS_event.54.c:0 "We don't have the funds right now"
+ #
+ ESS_event.55.t:0 "Two Research Institutes compete for financing"
+ ESS_event.55.d:0 "One Research Institute fueds with another one. What do we do?"
+ ESS_event.55.a:0 "Sponsor 1st"
+ ESS_event.55.b:0 "Sponsor 2nd"
+ ESS_event.55.c:0 "We don't have the funds right now"
+ #
+ ESS_event.56.t:0 "Military Companies compete to train us!"
+ ESS_event.56.d:0 "Three companies want to train our military. Who do we choose!"
+ ESS_event.56.a:0 "Army"
+ ESS_event.56.b:0 "Air"
+ ESS_event.56.c:0 "Navy"
+ ESS_event.56.e:0 "We don't have the funds right now"
+ #
+ ESS_event.57.t:0 "Hidden Event"
+ ESS_event.57.d:0 "TNO and TFR are good mods actually"
+ ESS_event.57.a:0 "True"
+ #
+ ESS_event.58.t:0 "Political Activity"
+ ESS_event.58.d:0 "Our propaganda campaigns are effective, but they make people think about politics. We have to be maybe careful with them..."
+ ESS_event.58.a:0 "We have to be careful..."
+ #
+ ESS_event.59.t:0 "Political Uproar"
+ ESS_event.59.d:0 "We did too many propaganda campaigns, people became too political and now want to become liberals, communists and shit. We need to stop them."
+ ESS_event.59.a:0 "At least we it's back to normal again"
  #
  ESS_event.60.t:0 "Republic of Britain"
  ESS_event.60.d:0 "Jubilation fills the streets as Londoners and the liberated people of East Anglia celebrate the proclamation of the British Republic. After the death of Max Mosley and the beginning of the German siege, the situation in the city seemed extremely dire. There were genuine concerns that the death of the paramount leader would dissolve the invisible web that kept various gangs and political factions within London together and the city would succumb to internal conflict, before being fully consumed by the Hun menace. However, against all odds the nationalist movement was able to not only defeat the invaders, but to attain stability and democracy under the wise leadership of Nick Land and his fellow intellectuals.\n\nAs the new British Republic blooms, Land has stated that after a short stabilization period he will step down as the leader of the movement and proper elections will be conducted to propel England into a new era of freedom and prosperity."
@@ -1767,6 +1831,7 @@
  ESS_transition_period_4:0 "Transition Period"
  ESS_no_regulations:0 "No Regulations"
  ESS_healthcare_companies:0 "Private Healthcare"
+ ESS_healthcare_companies_1:0 "Private Healthcare"
  ESS_shock_therapy:0 "British Shock Therapy"
  ESS_shock_therapy_1:0 "British Shock Therapy"
  ESS_gentle_reform_1:0 "Gentle Reforms"
@@ -1779,10 +1844,14 @@
  ESS_clive_palmer_annexation:0 "§YAll Assets Currently Responsible for Military Will Be Integrated into§! §0The Governing Trust Association§!"
  ESS_new_secularization_tt:0 "This Will Increase The §YResearch Speed§! Bonus Provided by §0The Governing Trust Association§!"
  ESS_rules_for_the_media_tt:0 "This Will Increase The §YPolitical Power Gain§! Bonus Provided by §0The Governing Trust Association§!"
+ ESS_freedom_from_needs_tt:0 "This Will Increase The §YMonthly Population§! and §YRecruitable Population§! Bonuses Provided by §2National Health Company§!"
+ ESS_freedom_from_needs_tt_1:0 "§YWe are yet to decide our healthcare policy§!"
  ESS_the_only_fair_tax_tt:0 "This Will Increase The §YConstruction Speed§! and §YResource Gain Efficiency§! Bonuses Provided by §7Balfour Beauty§!"
  ESS_you_are_fired_tt:0 "This Will Increase The £lhl_efficiency_cap_icon §YProduction Efficiency Cap§! and £lhl_efficiency_icon §YProduction Efficiency growth§! Bonuses Provided by §7Balfour Beauty§!\nWe will start receiving §YMonthly Funding§! from §YMilitary Factories§!"
  ESS_formula_one_lives_on_tt:0 "§Y££35 million§! Are Added to Our Budget"
+ ESS_software_exports_tt:0 "§Y££75 million§! Are Added to Our Budget\n$unlocks_decision$ £decision_icon_small §H$ESS_create_management_ai_d$§!\n$unlocks_decision$ £decision_icon_small §HSell software abroad§!"
  ESS_keep_it_simple_stupid_tt:0 "This Will Increase §YIncome§! Provided by §YCivilian and Military Factories§!"
+ ESS_workable_city_tt:0 "We will start receiving §YMonthly Funding§! from §YAirports§! and §YPorts§!"
  ESS_promote_human_capital_tt:0 "The §7Balfour Beauty§! Gains §Y3%§! of The Shares\nThe §7Social Trust Fund§! Loses §Y3%§! of The Shares\nThis Will Increase The §YConstruction Speed§! and §YResource Gain Efficiency§! Bonuses Provided by §7Balfour Beauty§!"
  ESS_concorde_food_company_tt:0 "The §OConcord Food Company§! Gains §Y5%§! of The Shares\nThe §0The Governing Trust Association§! Loses §Y5%§! of The Shares"
  ESS_prison_industrial_complex_tt:0 "We will start receiving §YMonthly Funding§! from §YPrivate Prisons§!"
@@ -1800,6 +1869,8 @@
  ESS_misc_company_10_tt:0 "Add §YSuper Stuff Company§! to §1Misc. Companies§!\nThe §1Misc. Companies§! Gains §Y2%§! of The Shares\nThe §0Governing Trust Association§! Loses §Y2%§! of The Shares\nGain Bonuses to §YAnti-Graviton Thermonuclear Super-Bomb production speed§!\nIt costs §Y££50 million§! to do so"
  #
  ESS_big_opportunities_for_small_men_tt:0 "§YWe will have opportunities to invest into small companies from time to time§!"
+ ESS_inner_arms_race_tt:0 "§YWe will have opportunities to gain benefits from competing military industrial organization§!"
+ ESS_unrestricted_science_tt:0 "§RSome of our research methods may cause controversy§!"
  #Corpo Localization#
  ESS_corpo_state_healthcare_tt:0 "\n§YGlaxoSmithKline§!\nMonthly Population: §G+§![?ESS_corpo_state_monthly_population|.1%+]\nRecruitable Population: §G+§![?ESS_corpo_state_recruitable_population_factor|.2%+]"
  ESS_corpo_state_construction_tt:0 "\n§YPalmer Group§!\nResource Gain Efficiency: §G+§![?ESS_corpo_state_local_resources_factor|.2%+]\nConstruction Speed: §G+§![?ESS_corpo_state_production_speed_buildings_factor|.2%+]\n£lhl_efficiency_cap_icon Production Efficiency Cap: §G+§![?ESS_corpo_state_production_factory_max_efficiency_factor|.2%+]\n£lhl_efficiency_icon Production Efficiency growth: §G+§![?ESS_corpo_state_production_factory_efficiency_gain_factor|.2%+]"
@@ -1818,6 +1889,8 @@
  #
  ESS_interact_with_military_TITLE:0 "§YINTERACT WITH MILITARY§!"
  ESS_interact_with_corpo_TITLE:0 "§YINVEST INTO COMPANIES§!"
+ ESS_interact_with_software_TITLE:0 "§YINVEST INTO SOFTWARE DEVELOPMENT§!"
+ ESS_interact_with_culture_TITLE:0 "§YINTERACT WITH CULTURE§!"
  ESS_interact_with_corpo_state:0 "Consolidate §0Governing Trust Association§!"
  ESS_interact_with_corpo_state_tt:0 "The §0Governing Trust Association§! Gains §Y3%§! of The Shares\nThe §7Social Trust Fund§! Loses §Y3%§! of The Shares"
  ESS_interact_with_corpo_people_shares:0 "Enlarge §7Social Trust Fund§!"
@@ -1838,10 +1911,22 @@
  ESS_interact_with_corpo_farming_tt:0 "The §OConcord Food Company§! Gains §Y3%§! of The Shares\nThe §0Governing Trust Association§! Loses §Y3%§! of The Shares"
  ESS_interact_with_corpo_small_companies:0 "Invest into §1Misc. Companies§!"
  ESS_interact_with_corpo_small_companies_tt:0 "The §1Misc. Companies§! Gain §Y3%§! of The Shares\nThe §0Governing Trust Association§! Loses §Y3%§! of The Shares"
+ ESS_incite_rebellion:0 "Incite Rebellion in [FROM.GetName]"
+ ESS_sell_software_abroad:0 "[FROM.GetFlag] Sell software to [FROM.GetName]"
+ ESS_invite_intellectuals:0 "Invite Foreign Intellectuals"
+ ESS_train_commander_vr:0 "Commander VR Training"
+ ESS_train_commander_vr_tt_1:0 "One of our military officers will be selected for an extensive VR training program"
+ ESS_train_commander_vr_tt_2:0 "One of our military officers will receive a random trait and an additional level"
+ ESS_create_management_ai_d:0 "Create company management AI"
+ ESS_create_management_ai_tt:0 "§GThis will double the income from all building types§!"
  #
  ESS_CITY_BUDGET_COST_10:0 "§Y££10 million§!"
  ESS_CITY_BUDGET_COST_10_blocked:0 "§R££10 million§!"
  ESS_CITY_BUDGET_COST_10_tooltip:0 "§YIt costs ££10 million to take the decision§!"
+ #
+ ESS_CITY_BUDGET_COST_8:0 "§Y££8 million§!"
+ ESS_CITY_BUDGET_COST_8_blocked:0 "§R££8 million§!"
+ ESS_CITY_BUDGET_COST_8_tooltip:0 "§YIt costs ££8 million to take the decision§!"
  #
  ESS_CITY_BUDGET_COST_15:0 "§Y££15 million§!"
  ESS_CITY_BUDGET_COST_15_blocked:0 "§R££15 million§!"
@@ -1855,13 +1940,25 @@
  ESS_CITY_BUDGET_COST_20_blocked:0 "§R££20 million§!"
  ESS_CITY_BUDGET_COST_20_tooltip:0 "§YIt costs ££20 million to take the decision§!"
  #
+ ESS_CITY_BUDGET_COST_100:0 "§Y££100 million§!"
+ ESS_CITY_BUDGET_COST_100_blocked:0 "§R££100 million§!"
+ ESS_CITY_BUDGET_COST_100_tooltip:0 "§YIt costs ££100 million to take the decision§!"
+ #
  ESS_CITY_BUDGET_MANPOWER:0 "£manpower_texticon  §Y15 000§!"
  ESS_CITY_BUDGET_MANPOWER_blocked:0 "£manpower_texticon  §R15 000§!"
  ESS_CITY_BUDGET_MANPOWER_tooltip:0 "§YIt costs §Y15 000§! £manpower_texticon to take the decision§!"
  #
+ ESS_REBELLION_COST:0 "£command_power  §Y20§! £infantry_equipment_text_icon §Y250§!"
+ ESS_REBELLION_COST_blocked:0 "£command_power  §R20§! £infantry_equipment_text_icon §R250§!"
+ ESS_REBELLION_COST_tooltip:0 "It costs £command_power  §Y20§! and £infantry_equipment_text_icon §Y250§! to take the decision!"
+ #
  ESS_CEO_CONSTRUCTION_TT:0 "§GPLEASE ENTER THE CODE TO ORDER CONSTRUCTION§!"
  ESS_CEO_RESEARCH_TEXT_1:0 "§GPLEASE ENTER THE CODE TO CONDUCT RESEARCH§!"
  ESS_CEO_POLITICS_TEXT_1:0 "§GPLEASE ENTER THE CODE TO CONDUCT POLITICS§!"
+ #
+ ESS_event.54.tt:0 "§YIt costs §Y££10 million§! to do so§!"
+ ESS_event.56.tt:0 "§YIt costs §Y££5 million§! to do so§!"
+ ESS_event.56._1tt:0 "§YIt costs §Y££1 million§! to do so§!"
  ###
  #Holy Shit Decisions#
  ESS_board_of_directors:0 "Shareholding of Corporate Britain"
@@ -1881,10 +1978,20 @@
  ESS_invest_into_public_forces:0 "Invest into §HPublic Forces§!"
  ESS_invest_into_public_forces_tt:0 "This Will Increase The §YDivision Organization§!, §YDivision Recovery Rate§! and §YWar Support§! Bonuses Provided by §HPublic Forces§! or §YAegis Defence Services§!"
  ESS_clean_the_metropolis_tt_1:0 "The §7Balfour Beauty§! Gains §Y5%§! of The Shares\nThe §0Governing Trust Association§! Loses §Y5%§! of The Shares"
+ ESS_the_resarthus_tt_1:0 "The §8British Broadcasting Corporation§! Gains §Y5%§! of The Shares\nThe §0Governing Trust Association§! Loses §Y5%§! of The Shares"
+ ESS_the_resarthus_tt:0 "\n$unlocks_decision$ £decision_icon_small §H$ESS_external_propaganda$§!\n$unlocks_decision$ £decision_icon_small §H$ESS_internal_propaganda$§!"
  ESS_clean_the_metropolis_tt:0 "\n$unlocks_decision$ £decision_icon_small §H$ESS_rebuild_london$§!\n$unlocks_decision$ £decision_icon_small §H$ESS_rebuild_countryside$§!\n$unlocks_decision$ £decision_icon_small §H$ESS_german_workforce$§!\n$unlocks_decision$ £decision_icon_small §H$ESS_military_bases$§!\n$unlocks_decision$ £decision_icon_small §H$ESS_build_hospitals$§!"
  ESS_fund_british_armories_tt:0 "\n$unlocks_decision$ £decision_icon_small §H$ESS_invest_into_MIOs$§!\n$unlocks_decision$ £decision_icon_small §H$ESS_invest_into_public_forces$§!"
  ESS_british_silicon_fleet_tt:0 "$unlocks_decision$ £decision_icon_small §H$ESS_rebuild_trade_fleet$§!\n$unlocks_decision$ £decision_icon_small §H$ESS_rebuild_ports$§!\n"
  ESS_blood_debt_tt:0 "\n$unlocks_decision$ £decision_icon_small §H$ESS_recruit_debtors$§!\n$unlocks_decision$ £decision_icon_small §H$ESS_recruit_prisoners$§!"
+ ESS_rifle_by_your_side_tt:0 "\n$unlocks_decision$ £decision_icon_small §HIncite rebellion in states occupied by the enemy§!"
+ ESS_virtual_drills_tt:0 "\n$unlocks_decision$ £decision_icon_small §H$ESS_virtual_drills$§!"
+ ESS_market_of_ideas_tt:0 "\n$unlocks_decision$ £decision_icon_small §H$ESS_invite_intellectuals$§!"
+ ESS_rules_for_reactionaries_tt:0 "\n$unlocks_decision$ £decision_icon_small §H$ESS_anti_communist_propaganda$§!\n$unlocks_decision$ £decision_icon_small §H$ESS_anti_eurasian_propaganda$§!\n$unlocks_decision$ £decision_icon_small §H$ESS_anti_conservative_propaganda$§!\n$unlocks_decision$ £decision_icon_small §H$ESS_anti_rabble_propaganda$§!"
+ ESS_anti_communist_propaganda:0 "[SUS.GetFlag] Anti-Communist Propaganda"
+ ESS_anti_eurasian_propaganda:0 "[NTH.GetFlag] Anti-Eurasian Propaganda"
+ ESS_anti_conservative_propaganda:0 "[KNT.GetFlag] [WES.GetFlag] "Anti-Conservative" Propaganda"
+ ESS_anti_rabble_propaganda:0 "[MRC.GetFlag] Anti-Dimwit Propaganda"
  #Moldbug Ideas#
  ESS_moldbug_army_1:0 "Corporate Army"
  ESS_moldbug_army_2:0 "Corporate Army"
@@ -1892,6 +1999,14 @@
  ESS_moldbug_army_4_1:0 "Corporate Army"
  ESS_moldbug_army_4_2:0 "Corporate Army"
  ESS_moldbug_army_4_3:0 "Corporate Army"
+ ESS_moldbugged_software:0 "British Software"
+ ESS_competing_firms:0 "Competing Military Firms"
+ ESS_new_british_state:0 "The New British State"
+ ESS_new_british_state_1:0 "The New British State"
+ ESS_new_british_state_2:0 "The New British State"
+ ESS_banned_research:0 "Temporary Research Ban"
+ ESS_external_propaganda:0 "External Propaganda"
+ ESS_internal_propaganda:0 "Internal Propaganda"
  
  ####NICK LAND####
  ESS_nick_land_main_decision:0 "Destroying Britain"

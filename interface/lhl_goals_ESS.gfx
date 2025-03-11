@@ -1226,7 +1226,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/ESS/goal_ESS_monarchy_restored.dds"
 	}
 	SpriteType = {
-		name = "GFX_goal_ESS_peter_thiel_leader
+		name = "GFX_goal_ESS_peter_thiel_leader"
 		texturefile = "gfx/interface/goals/ESS/goal_ESS_peter_thiel_leader.dds"
 	}
 	SpriteType = {
@@ -1292,5 +1292,230 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_ESS_smashing_the_harp"
 		texturefile = "gfx/interface/goals/ESS/goal_ESS_smashing_the_harp.dds"
+	}
+	###NICK LAND###
+	SpriteType = {
+		name = "GFX_goal_ESS_amazons_on_the_rise"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_amazons_on_the_rise.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_the_worlds_beyond"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_the_worlds_beyond.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_armor_evolution"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_armor_evolution.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_birds_of_prey"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_birds_of_prey.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_block_chains"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_block_chains.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_bodies_without_organs"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_bodies_without_organs.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_british_recounstruction_effort"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_british_recounstruction_effort.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_buisness_as_usual"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_buisness_as_usual.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_cultural_appropation"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_cultural_appropation.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_contracutal_obligations"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_contracutal_obligations.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_cyberculture"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_cyberculture.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_project_cyberia"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_project_cyberia.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_cyberpartisans"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_cyberpartisans.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_death_of_logos"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_death_of_logos.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_decentralized_warfare"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_decentralized_warfare.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_deckers_of_england"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_deckers_of_england.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_a_digital_state"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_a_digital_state.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_end_the_charade"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_end_the_charade.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_entertainment_matrix"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_entertainment_matrix.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_eros_and_thanatos"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_eros_and_thanatos.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_freedom_of_speech_freedom_of_thought"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_freedom_of_speech_freedom_of_thought.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_the_gifts_of_neoasia"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_the_gifts_of_neoasia.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_the_golden_age_of_science"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_the_golden_age_of_science.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_a_gothic_science"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_a_gothic_science.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_human_labour_divisions"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_human_labour_divisions.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_humanity_last_stand"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_humanity_last_stand.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_hyperstitious"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_hyperstitious.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_hypervirus"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_hypervirus.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_icebreaker"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_icebreaker.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_insurrectionist_doctrtine"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_insurrectionist_doctrtine.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_into_the_jungle"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_into_the_jungle.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_project_kurtz"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_project_kurtz.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_legacy_of_london"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_legacy_of_london.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_loosen_the_criminal_code"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_loosen_the_criminal_code.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_making_it_with_death"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_making_it_with_death.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_mechanomics_triumphant"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_mechanomics_triumphant.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_non_linear_tech_development"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_non_linear_tech_development.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_obliteration_of_reason"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_obliteration_of_reason.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_postgenderism"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_postgenderism.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_private_military_armies"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_private_military_armies.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_prototype_cyborg_effort"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_prototype_cyborg_effort.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_put_tatcher_to_shame"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_put_tatcher_to_shame.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_qaballa"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_qaballa.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_redefine_family"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_redefine_family.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_schizophrenia_arrives_from_future"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_schizophrenia_arrives_from_future.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_shelter_the_weak"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_shelter_the_weak.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_spirit_and_teeth"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_spirit_and_teeth.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_the_faithful"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_the_faithful.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_unleash_the_singularity"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_unleash_the_singularity.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_unrestricted_automatisation"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_unrestricted_automatisation.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_the_war_on_christmas"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_the_war_on_christmas.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_war_dehumanized"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_war_dehumanized.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_weapons_of_future"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_weapons_of_future.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_project_wintermute"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_project_wintermute.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_the_wolf_vector"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_the_wolf_vector.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_nonstandart_numeracies"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_nonstandart_numeracies.dds"
 	}
 }

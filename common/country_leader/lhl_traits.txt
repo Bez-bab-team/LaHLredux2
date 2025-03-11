@@ -1672,6 +1672,45 @@ leader_traits = {
 		}
 	}
 	#
+	strong_and_dynamic = { #Emma_Walmsley#
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#
+	the_apprentice = { #Peter_Thiel#
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#
+	mountain_king = { #Max_Mosley#
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#
+	soldier_ceo = { #Tim Spicer#
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#
+	king_of_two_kingdoms = { #Alois#
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 #################################ENGLAND#######################################
 

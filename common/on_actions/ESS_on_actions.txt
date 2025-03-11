@@ -1,32 +1,4 @@
 on_actions = {
-	#on_monthly_ESS = {  ###Small Companies event
-	#	effect = {
-	#		if = {
-	#			limit = {
-	#				NOT = {
-	#					ESS = {
-	#						has_country_flag = ESS_small_company_reset
-	#					}
-	#				}
-	#				ESS = {
-	#					has_completed_focus = ESS_big_opportunities_for_small_men
-	#				}
-	#			}
-	#			random_list = {
-	#				100 = ESS_event.78
-	#				100 = ESS_event.79
-	#				100 = ESS_event.80
-	#				100 = ESS_event.81
-	#				100 = ESS_event.82
-	#				100 = ESS_event.83
-	#				100 = ESS_event.84
-	#				100 = ESS_event.85
-	#				100 = ESS_event.86
-	#				100 = ESS_event.87
-	#			}
-	#		}
-	#	}
-	#}
 	on_weekly_ESS = { 
 		effect = {
 			if = {
@@ -228,6 +200,27 @@ on_actions = {
 					value = 250
 				} 
 			}
+		}
+	}
+	on_monthly_ESS = {  ###Small Companies event###
+		random_events = {
+			100 = ESS_event.78
+			100 = ESS_event.79
+			100 = ESS_event.80
+			100 = ESS_event.81
+			100 = ESS_event.82
+			100 = ESS_event.83
+			100 = ESS_event.84
+			100 = ESS_event.85
+			100 = ESS_event.86
+			100 = ESS_event.87
+		}
+	}
+	on_monthly_ESS = {  ###Small Companies event###
+		random_events = {
+			100 = ESS_event.54
+			100 = ESS_event.55
+			100 = ESS_event.56
 		}
 	}
 }					  

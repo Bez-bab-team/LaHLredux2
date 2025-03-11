@@ -320,6 +320,68 @@ characters={
 		}
 	}
 	
+	###Mercenary USA Commanders###
+	ESS_erik_prince ={
+		name=ESS_erik_prince
+		portraits={
+			army={
+				small="gfx/interface/ideas/ESS/idea_ESS_erik_prince.dds"
+			}
+			army={
+				large="gfx/leaders/ESS/Portrait_ESS_erik_prince.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster commando }
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ESS_andrew_milburn ={
+		name=ESS_andrew_milburn
+		portraits={
+			army={
+				small="gfx/interface/ideas/ESS/idea_ESS_andrew_milburn.dds"
+			}
+			army={
+				large="gfx/leaders/ESS/Portrait_ESS_andrew_milburn.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_leader commando }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ESS_jordan_goudreau={
+		name=ESS_jordan_goudreau
+		portraits={
+			army={
+				small="gfx/interface/ideas/ESS/idea_ESS_jordan_goudreau.dds"
+			}
+			army={
+				large="gfx/leaders/ESS/Portrait_ESS_jordan_goudreau.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless guerilla_fighter commando }
+			skill=3
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	
 	ESS_bob_stewart ={
 		name=ESS_bob_stewart
 		portraits={

@@ -873,7 +873,117 @@ ESS_board_of_directors = {
 			factor = 100
 		}
 	}
-	###Rebuilding London###
+	ESS_incite_rebellion = {
+		custom_cost_trigger = {
+			command_power > 19
+			has_equipment = {
+				infantry_equipment_1 > 249
+			}
+		}
+		custom_cost_text = ESS_REBELLION_COST
+		state_target = yes
+		target_trigger = {
+			FROM = {
+				is_owned_by = ESS
+				is_core_of = ESS
+				NOT = {
+					is_fully_controlled_by = ESS
+				}
+			}
+		}
+		days_remove = 30
+		days_re_enable = 60
+		available = {
+			has_completed_focus = ESS_rifle_by_your_side
+			has_country_flag = ESS_interact_with_military_active
+		}
+		visible = {
+			has_completed_focus = ESS_rifle_by_your_side
+			has_country_flag = ESS_interact_with_military_active
+		}
+		remove_effect = {
+			FROM = {
+				is_owned_by = ESS
+				is_core_of = ESS
+				NOT = {
+					is_fully_controlled_by = ESS
+				}
+				create_unit = {
+					division = "name = \"Militia Battalion\" division_template = \"Local Militia\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
+					owner = ESS
+					count = 2
+					allow_spawning_on_enemy_provs = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ESS_train_commander_vr = {
+		custom_cost_trigger = {
+			check_variable = { ESS_board_of_directors_budget > 4 }
+		}
+		custom_cost_text = ESS_CITY_BUDGET_COST_5
+		days_remove = 180
+		days_re_enable = 365
+		available = {
+			has_completed_focus = ESS_virtual_drills
+			has_country_flag = ESS_interact_with_military_active
+		}
+		visible = {
+			has_completed_focus = ESS_virtual_drills
+			has_country_flag = ESS_interact_with_military_active
+		}
+		complete_effect = {
+			hidden_effect = {
+				ESS = {
+					random_unit_leader = {
+						limit = { 
+							NOT = {
+								has_character_flag = ESS_vr_training_completed
+							}
+							NOT = {
+								is_navy_leader = yes
+							}
+						}
+						set_character_flag = ESS_vr_training
+						set_character_flag = ESS_vr_training_completed
+						set_nationality = ZZZ
+					}
+				}
+			}
+			custom_effect_tooltip = ESS_train_commander_vr_tt_1
+		}
+		remove_effect = {
+			hidden_effect = {
+				ZZZ = {
+					every_unit_leader = {
+						limit = { 
+							has_character_flag = ESS_vr_training 
+						}
+						set_nationality = ESS
+						add_skill_level = 1
+						add_random_trait = { 
+							infantry_officer
+							armor_officer
+							scavenger
+							fortress_buster
+							urban_assault_specialist
+							adaptable
+							organizer 
+						}				
+						clr_character_flag = ESS_vr_training		
+					}
+				}
+			}
+			custom_effect_tooltip = ESS_train_commander_vr_tt_2
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
+	##INTERACT WITH ECONOMY##
 	ESS_construction_projects = {
 		available = {
 			has_completed_focus = ESS_clean_the_metropolis
@@ -919,12 +1029,14 @@ ESS_board_of_directors = {
 		}
 		fire_only_once = yes
 		days_remove = 120
-		remove_effect = {
+		complete_effect = {
 			add_to_variable = { ESS_board_of_directors_budget = -15 }
 			clamp_variable = {
 				var = ESS_board_of_directors_budget
 				min = 0
 			}
+		}
+		remove_effect = {
 			1160 = {
 				add_building_construction = {
 					type = industrial_complex
@@ -958,12 +1070,14 @@ ESS_board_of_directors = {
 		}
 		fire_only_once = yes
 		days_remove = 120
-		remove_effect = {
+		complete_effect = {
 			add_to_variable = { ESS_board_of_directors_budget = -10 }
 			clamp_variable = {
 				var = ESS_board_of_directors_budget
 				min = 0
 			}
+		}
+		remove_effect = {
 			1157 = {
 				add_building_construction = {
 					type = infrastructure
@@ -1012,12 +1126,14 @@ ESS_board_of_directors = {
 		}
 		fire_only_once = yes
 		days_remove = 120
-		remove_effect = {
+		complete_effect = {
 			add_to_variable = { ESS_board_of_directors_budget = -10 }
 			clamp_variable = {
 				var = ESS_board_of_directors_budget
 				min = 0
 			}
+		}
+		remove_effect = {
 			1158 = {
 				add_building_construction = {
 					type = air_base
@@ -1074,12 +1190,14 @@ ESS_board_of_directors = {
 		}
 		fire_only_once = yes
 		days_remove = 60
-		remove_effect = {
+		complete_effect = {
 			add_to_variable = { ESS_board_of_directors_budget = -5 }
 			clamp_variable = {
 				var = ESS_board_of_directors_budget
 				min = 0
 			}
+		}
+		remove_effect = {
 			ESS = {
 				add_political_power = 200
 				add_stability = 0.05
@@ -1151,12 +1269,14 @@ ESS_board_of_directors = {
 		}
 		fire_only_once = yes
 		days_remove = 60
-		remove_effect = {
+		complete_effect = {
 			add_to_variable = { ESS_board_of_directors_budget = -5 }
 			clamp_variable = {
 				var = ESS_board_of_directors_budget
 				min = 0
 			}
+		}
+		remove_effect = {
 			ESS = {
 				add_equipment_to_stockpile = {
 					type = convoy
@@ -1184,12 +1304,14 @@ ESS_board_of_directors = {
 		}
 		fire_only_once = yes
 		days_remove = 120
-		remove_effect = {
+		complete_effect = {
 			add_to_variable = { ESS_board_of_directors_budget = -10 }
 			clamp_variable = {
 				var = ESS_board_of_directors_budget
 				min = 0
 			}
+		}
+		remove_effect = {
 			ESS = {
 				1003 = {
 					add_building_construction = {
@@ -1240,6 +1362,10 @@ ESS_board_of_directors = {
 		state_target = yes
 		complete_effect = {
 			add_to_variable = { ESS_board_of_directors_budget = -10 }
+			clamp_variable = {
+				var = ESS_board_of_directors_budget
+				min = 0
+			}
 		}
 		remove_effect = {
 			add_to_variable = { ESS_private_prisons_num = 1 }
@@ -1249,7 +1375,7 @@ ESS_board_of_directors = {
 			base = 100
 		}
 	}
-	ESS_build_private_prisons_vr = { #Rebuild Trade Fleet
+	ESS_build_private_prisons_vr = {
 		custom_cost_trigger = {
 			check_variable = { ESS_board_of_directors_budget > 14 }
 		}
@@ -1284,21 +1410,45 @@ ESS_board_of_directors = {
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_8
 		available = {
-			has_completed_focus = ESS_prison_industrial_complex
+			has_completed_focus = ESS_answer_their_needs
 			has_country_flag = ESS_interact_with_construction_active
 		}
 		visible = {
-			has_completed_focus = ESS_prison_industrial_complex
+			has_completed_focus = ESS_answer_their_needs
 			has_country_flag = ESS_interact_with_construction_active
 		}
 		fire_only_once = yes
 		days_remove = 180
 		remove_effect = {
-			add_to_variable = {  ESS_prisons_income_temp_loc = 3 }
-		    ESS = {
-			    country_event = {
-				    days = 0
-					id = ESS_event.77
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	#Software#
+	ESS_interact_with_software_TITLE = {
+		available = {
+			has_completed_focus = ESS_software_exports
+		}
+		visible = {
+			has_completed_focus = ESS_software_exports
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					NOT = {
+						ESS = {
+							has_country_flag = ESS_interact_with_software_active
+						}
+					}
+				}
+				ESS = {
+					set_country_flag = ESS_interact_with_software_active
+				}
+			}
+			else = {
+				ESS = {
+					clr_country_flag = ESS_interact_with_software_active
 				}
 			}
 		}
@@ -1306,6 +1456,354 @@ ESS_board_of_directors = {
 			factor = 100
 		}
 	}
+	ESS_create_management_ai_d = {
+		custom_cost_trigger = {
+			check_variable = { ESS_board_of_directors_budget > 99 }
+		}
+		custom_cost_text = ESS_CITY_BUDGET_COST_100
+		available = {
+			has_completed_focus = ESS_software_exports
+			has_country_flag = ESS_interact_with_software_active
+		}
+		visible = {
+			has_completed_focus = ESS_software_exports
+			has_country_flag = ESS_interact_with_software_active
+		}
+		fire_only_once = yes
+		days_remove = 540
+		complete_effect = {
+			add_to_variable = { ESS_board_of_directors_budget = -100 }
+			clamp_variable = {
+				var = ESS_board_of_directors_budget
+				min = 0
+			}
+		}
+		remove_effect = {
+			ESS = {
+				set_country_flag = ESS_create_management_ai
+			}
+			custom_effect_tooltip = ESS_create_management_ai_tt
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ESS_sell_software_abroad = {
+		cost = 100
+		available = {
+			has_completed_focus = ESS_software_exports
+			has_country_flag = ESS_interact_with_software_active
+		}
+		visible = {
+			has_completed_focus = ESS_software_exports
+			has_country_flag = ESS_interact_with_software_active
+		}
+		targets_dynamic = yes
+		target_trigger = {
+			FROM = {
+				num_of_civilian_factories > 49
+			}
+		}
+		fire_only_once = yes
+		days_remove = 120
+		remove_effect = {
+			FROM = {
+				add_ideas = ESS_moldbugged_software
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	#Culture#
+	ESS_interact_with_culture_TITLE = {
+		available = {
+			has_completed_focus = ESS_simpler_society
+		}
+		visible = {
+			has_completed_focus = ESS_simpler_society
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					NOT = {
+						ESS = {
+							has_country_flag = ESS_interact_with_culture_active
+						}
+					}
+				}
+				ESS = {
+					set_country_flag = ESS_interact_with_culture_active
+				}
+			}
+			else = {
+				ESS = {
+					clr_country_flag = ESS_interact_with_culture_active
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ESS_invite_intellectuals = {
+		custom_cost_trigger = {
+			check_variable = { ESS_board_of_directors_budget > 7 }
+		}
+		custom_cost_text = ESS_CITY_BUDGET_COST_8
+		available = {
+			has_completed_focus = ESS_market_of_ideas
+			has_country_flag = ESS_interact_with_culture_active
+		}
+		visible = {
+			has_completed_focus = ESS_market_of_ideas
+			has_country_flag = ESS_interact_with_culture_active
+		}
+		days_remove = 90
+		days_re_enable = 200
+		complete_effect = {
+			ESS = {
+				add_ideas = ESS_market_of_ideas
+			}
+		}
+		remove_effect = {
+			ESS = {
+				remove_ideas = ESS_market_of_ideas
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ESS_external_propaganda = {
+		custom_cost_trigger = {
+			check_variable = { ESS_board_of_directors_budget > 4 }
+		}
+		custom_cost_text = ESS_CITY_BUDGET_COST_5
+		available = {
+			has_completed_focus = ESS_the_resarthus
+			has_country_flag = ESS_interact_with_culture_active
+		}
+		visible = {
+			has_completed_focus = ESS_the_resarthus
+			has_country_flag = ESS_interact_with_culture_active
+		}
+		days_remove = 60
+		days_re_enable = 120
+		complete_effect = {
+			ESS = {
+				add_ideas = ESS_external_moldbug_propaganda 
+			}
+		}
+		remove_effect = {
+			ESS = {
+				remove_ideas = ESS_external_moldbug_propaganda 
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ESS_internal_propaganda = {
+		custom_cost_trigger = {
+			check_variable = { ESS_board_of_directors_budget > 4 }
+		}
+		custom_cost_text = ESS_CITY_BUDGET_COST_5
+		available = {
+			has_completed_focus = ESS_the_resarthus
+			has_country_flag = ESS_interact_with_culture_active
+		}
+		visible = {
+			has_completed_focus = ESS_the_resarthus
+			has_country_flag = ESS_interact_with_culture_active
+		}
+		days_remove = 60
+		days_re_enable = 120
+		complete_effect = {
+			ESS = {
+				add_ideas = ESS_internal_moldbug_propaganda 
+			}
+		}
+		remove_effect = {
+			ESS = {
+				remove_ideas = ESS_internal_moldbug_propaganda 
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	###Propaganda Campaign##
+	ESS_anti_communist_propaganda = {
+		custom_cost_trigger = {
+			check_variable = { ESS_board_of_directors_budget > 4 }
+		}
+		custom_cost_text = ESS_CITY_BUDGET_COST_5
+		available = {
+			has_completed_focus = ESS_rules_for_reactionaries
+			has_country_flag = ESS_interact_with_culture_active
+		}
+		visible = {
+			has_completed_focus = ESS_rules_for_reactionaries
+			has_country_flag = ESS_interact_with_culture_active
+		}
+		days_remove = 90
+		days_re_enable = 180
+		targeted_modifier = {
+			tag = SUS
+			attack_bonus_against = 0.15
+			defense_bonus_against = 0.15
+		}
+		modifier = {
+			production_factory_max_efficiency_factor = 0.05
+		}
+		complete_effect = {
+			add_to_variable = { ESS_board_of_directors_budget = -5 }
+			clamp_variable = {
+				var = ESS_board_of_directors_budget
+				min = 0
+			}
+		}
+		remove_effect = {
+			hidden_effect = {
+				ESS = {
+					add_to_variable = { ESS_moldbug_politicized_nation = 1 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ESS_anti_eurasian_propaganda = {
+		custom_cost_trigger = {
+			check_variable = { ESS_board_of_directors_budget > 4 }
+		}
+		custom_cost_text = ESS_CITY_BUDGET_COST_5
+		available = {
+			has_completed_focus = ESS_rules_for_reactionaries
+			has_country_flag = ESS_interact_with_culture_active
+		}
+		visible = {
+			has_completed_focus = ESS_rules_for_reactionaries
+			has_country_flag = ESS_interact_with_culture_active
+		}
+		days_remove = 90
+		days_re_enable = 180
+		targeted_modifier = {
+			tag = NTH
+			attack_bonus_against = 0.15
+			defense_bonus_against = 0.15
+		}
+		modifier = {
+			war_support_weekly_factor = 0.02
+		}
+		complete_effect = {
+			add_to_variable = { ESS_board_of_directors_budget = -5 }
+			clamp_variable = {
+				var = ESS_board_of_directors_budget
+				min = 0
+			}
+		}
+		remove_effect = {
+			hidden_effect = {
+				ESS = {
+					add_to_variable = { ESS_moldbug_politicized_nation = 1 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ESS_anti_conservative_propaganda = {
+		custom_cost_trigger = {
+			check_variable = { ESS_board_of_directors_budget > 4 }
+		}
+		custom_cost_text = ESS_CITY_BUDGET_COST_5
+		available = {
+			has_completed_focus = ESS_rules_for_reactionaries
+			has_country_flag = ESS_interact_with_culture_active
+		}
+		visible = {
+			has_completed_focus = ESS_rules_for_reactionaries
+			has_country_flag = ESS_interact_with_culture_active
+		}
+		days_remove = 90
+		days_re_enable = 180
+		targeted_modifier = {
+			tag = WES
+			attack_bonus_against = 0.15
+			defense_bonus_against = 0.15
+		}
+		targeted_modifier = {
+			tag = KNT
+			attack_bonus_against = 0.15
+			defense_bonus_against = 0.15
+		}
+		modifier = {
+			stability_weekly_factor = 0.02
+		}
+		complete_effect = {
+			add_to_variable = { ESS_board_of_directors_budget = -5 }
+			clamp_variable = {
+				var = ESS_board_of_directors_budget
+				min = 0
+			}
+		}
+		remove_effect = {
+			hidden_effect = {
+				ESS = {
+					add_to_variable = { ESS_moldbug_politicized_nation = 1 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ESS_anti_rabble_propaganda = {
+		custom_cost_trigger = {
+			check_variable = { ESS_board_of_directors_budget > 4 }
+		}
+		custom_cost_text = ESS_CITY_BUDGET_COST_5
+		available = {
+			has_completed_focus = ESS_rules_for_reactionaries
+			has_country_flag = ESS_interact_with_culture_active
+		}
+		visible = {
+			has_completed_focus = ESS_rules_for_reactionaries
+			has_country_flag = ESS_interact_with_culture_active
+		}
+		days_remove = 90
+		days_re_enable = 180
+		targeted_modifier = {
+			tag = MRC
+			attack_bonus_against = 0.15
+			defense_bonus_against = 0.15
+		}
+		modifier = {
+			research_speed_factor = 0.05
+		}
+		complete_effect = {
+			add_to_variable = { ESS_board_of_directors_budget = -5 }
+			clamp_variable = {
+				var = ESS_board_of_directors_budget
+				min = 0
+			}
+		}
+		remove_effect = {
+			hidden_effect = {
+				ESS = {
+					add_to_variable = { ESS_moldbug_politicized_nation = 1 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
 }
 
 ESS_london_bands = {

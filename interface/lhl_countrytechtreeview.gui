@@ -302,6 +302,12 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
+			gridboxtype = {
+				name = "genetic_research_tree"
+				position = { x = 250 y = 875 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
 		}
 		containerWindowType = {
 			name = "automatization_folder"
