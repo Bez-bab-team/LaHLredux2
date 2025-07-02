@@ -521,3 +521,145 @@ defined_text = {
 		localization_key = ESS_corpo_small_companies_10_tt
 	}
 }
+
+defined_text = {
+	name = GetESSRevolutionaryFire
+	text = {
+		trigger = {
+			NOT = {
+				OR = {
+					ESS = {
+						has_country_flag = ESS_torch_of_revolution_1
+					}
+					ESS = {
+						has_country_flag = ESS_torch_of_revolution_2
+					}
+					ESS = {
+						has_country_flag = ESS_torch_of_revolution_3
+					}
+					ESS = {
+						has_country_flag = ESS_torch_of_revolution_4
+					}
+					ESS = {
+						has_country_flag = ESS_torch_of_revolution_5
+					}
+				}
+			}
+		}
+		localization_key = ESS_revolutionary_fire_0
+	}
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_1
+			}
+			NOT = {
+				OR = {
+					ESS = {
+						has_country_flag = ESS_torch_of_revolution_2
+					}
+					ESS = {
+						has_country_flag = ESS_torch_of_revolution_3
+					}
+					ESS = {
+						has_country_flag = ESS_torch_of_revolution_4
+					}
+					ESS = {
+						has_country_flag = ESS_torch_of_revolution_5
+					}
+				}
+			}
+		}
+		localization_key = ESS_revolutionary_fire_1
+	}
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_1
+			}
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_2
+			}
+			NOT = {
+				OR = {
+					ESS = {
+						has_country_flag = ESS_torch_of_revolution_3
+					}
+					ESS = {
+						has_country_flag = ESS_torch_of_revolution_4
+					}
+					ESS = {
+						has_country_flag = ESS_torch_of_revolution_5
+					}
+				}
+			}
+		}
+		localization_key = ESS_revolutionary_fire_2
+	}
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_1
+			}
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_2
+			}
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_3
+			}
+			NOT = {
+				OR = {
+					ESS = {
+						has_country_flag = ESS_torch_of_revolution_4
+					}
+					ESS = {
+						has_country_flag = ESS_torch_of_revolution_5
+					}
+				}
+			}
+		}
+		localization_key = ESS_revolutionary_fire_3
+	}
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_1
+			}
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_2
+			}
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_3
+			}
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_4
+			}
+			NOT = {
+				ESS = {
+					has_country_flag = ESS_torch_of_revolution_5
+				}
+			}
+		}
+		localization_key = ESS_revolutionary_fire_4
+	}
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_1
+			}
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_2
+			}
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_3
+			}
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_4
+			}
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_5
+			}
+		}
+		localization_key = ESS_revolutionary_fire_5
+	}
+}

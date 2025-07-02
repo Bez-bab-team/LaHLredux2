@@ -423,6 +423,14 @@
 		}
 		completion_reward = {
 			custom_effect_tooltip = KNT_georges_knights.tt
+			hidden_effect = {
+				KNT = {
+					country_event = {
+						id = KNT_event.337
+						days = 0
+					}
+				}
+			}
 		}
 		x = 24
 		y = 5
@@ -582,12 +590,6 @@
 		id = KNT_the_workshop_of_the_world
 		icon = GFX_goal_KNT_the_workshop_of_the_world
 		cost = 4.3
-		prerequisite = {
-			focus = KNT_commons_of_house
-		}
-		available = {
-			has_country_flag = KENT_political_matters_resolved
-		}
 		completion_reward = {
 			KNT = {
 				country_event = {
@@ -598,18 +600,9 @@
 			add_political_power = 100
 		}
 		x = 20
-		y = 7
+		y = 8
 	}
 	
-	shared_focus = {
-		id = KNT_new_era_of_railways
-		icon = GFX_goal_KNT_new_era_of_railways
-		cost = 4.3
-		prerequisite = {
-			focus = KNT_the_workshop_of_the_world
-		}
-		completion_reward = {
-			KNT = { add_ideas = KNT_railorads_revival }
 	shared_focus = {
 		id = KNT_new_era_of_railways
 		icon = GFX_goal_KNT_new_era_of_railways
@@ -627,12 +620,7 @@
 			custom_effect_tooltip =  KNT_new_era_of_railways.tt
 		}
 		x = 20
-		y = 8
-	}
-			custom_effect_tooltip =  KNT_new_era_of_railways.tt
-		}
-		x = 20
-		y = 8
+		y = 9
 	}
 	
 	shared_focus = {
@@ -648,7 +636,7 @@
 			}
 		}	
 		x = 19
-		y = 10
+		y = 11
 	}
 	
 	shared_focus = {
@@ -662,7 +650,7 @@
 			custom_effect_tooltip = KNT_no_more_wires.tt
 		}
 		x = 21
-		y = 10
+		y = 11
 	}
 	shared_focus = {
 		id = KNT_the_iter_project
@@ -684,7 +672,7 @@
 			}
 		}
 		x = 20
-		y = 12
+		y = 13
 	}
 	shared_focus = {
 		id = KNT_the_modern_prometheus
@@ -702,7 +690,7 @@
 			}
 		}
 		x = 19
-		y = 13
+		y = 14
 	}
 	shared_focus = {
 		id = KNT_titanic_ii
@@ -730,7 +718,7 @@
 			add_ideas = KNT_dockyard_expansion
 		}
 		x = 21
-		y = 13
+		y = 14
 	}
 	shared_focus = {
 		id = KNT_manchester_model
@@ -739,7 +727,7 @@
 		prerequisite = {
 			focus = KNT_the_workshop_of_the_world
 		}
-		available = {
+		allow_branch = { 
 			has_government = neocameralism
 		}
 		completion_reward = {
@@ -755,7 +743,7 @@
 			}
 		}
 		x = 16
-		y = 8
+		y = 9
 	}
 	shared_focus = {
 		id = KNT_protect_the_inventors
@@ -769,7 +757,7 @@
 			add_political_power = 50
 		}
 		x = 17
-		y = 9
+		y = 10
 	}
 	shared_focus = {
 		id = KNT_russel_group_competition
@@ -786,7 +774,7 @@
 			add_research_slot = 1
 		}
 		x = 15
-		y = 9
+		y = 10
 	}
 	shared_focus = {
 		id = KNT_role_of_the_unions
@@ -807,7 +795,7 @@
 			}
 		}
 		x = 16
-		y = 10
+		y = 11
 	}
 	shared_focus = {
 		id = KNT_the_limit
@@ -840,7 +828,7 @@
 			add_political_power = 35
 		}
 		x = 15
-		y = 11
+		y = 12
 	}
 	shared_focus = {
 		id = KNT_the_law
@@ -871,7 +859,7 @@
 			add_political_power = 35
 		}
 		x = 17
-		y = 11
+		y = 12
 	}
 	shared_focus = {
 		id = KNT_rational_egoism
@@ -902,7 +890,7 @@
 			add_stability = -0.05
 		}
 		x = 16
-		y = 12
+		y = 13
 	}
 	shared_focus = {
 		id = KNT_friendly_society
@@ -933,7 +921,7 @@
 			
 		}
 		x = 16
-		y = 13
+		y = 14
 	}
 	shared_focus = {
 		id = KNT_colt's_legacy
@@ -961,7 +949,7 @@
 			}
 		}
 		x = 15
-		y = 15
+		y = 16
 	}
 	shared_focus = {
 		id = KNT_it_just_works
@@ -990,17 +978,17 @@
 
 		}
 		x = 17
-		y = 15
+		y = 16
 	}
 	shared_focus = {
 		id = KNT_the_gospel_of_wealth
 		icon = GFX_goal_KNT_the_gospel_of_wealth
 		cost = 4.3
+		allow_branch = { 
+			has_government = right_populism
+		}
 		prerequisite = {
 			focus = KNT_the_workshop_of_the_world
-		}
-		available = {
-			has_government = right_populism
 		}
 		completion_reward = {
 			add_ideas = KNT_hightories_economic_plan
@@ -1014,8 +1002,8 @@
 				add_idea = lhl_economy_free_market_economy
 			}
 		}
-		x = 24
-		y = 8
+		x = 16
+		y = 9
 	}
 	shared_focus = {
 		id = KNT_reward_the_geniuses
@@ -1032,8 +1020,8 @@
 				}
 			}
 		}
-		x = 23
-		y = 9
+		x = 15
+		y = 10
 	}
 	shared_focus = {
 		id = KNT_new_place_new_opportunity
@@ -1051,8 +1039,8 @@
 			}
 			add_research_slot = 1
 		}
-		x = 25
-		y = 9
+		x = 17
+		y = 10
 	}
 	shared_focus = {
 		id = KNT_rebirth_of_gentries
@@ -1073,8 +1061,8 @@
 				add_idea = KNT_hightories_economic_plan_2
 			}
 		}
-		x = 24
-		y = 10
+		x = 16
+		y = 11
 	}
 	shared_focus = {
 		id = KNT_mercantilism_of_our_century
@@ -1093,8 +1081,8 @@
 			}
 			add_political_power = 45
 		}
-		x = 25
-		y = 11
+		x = 17
+		y = 12
 	}
 	shared_focus = {
 		id = KNT_everything_within_britain
@@ -1113,8 +1101,8 @@
 			}
 			add_political_power = 45
 		}
-		x = 23
-		y = 11
+		x = 15
+		y = 12
 	}
 	shared_focus = {
 		id = KNT_support_of_local_communities
@@ -1159,8 +1147,8 @@
 			}
 			add_stability = 0.1
 		}
-		x = 24
-		y = 12
+		x = 16
+		y = 13
 	}
 	shared_focus = {
 		id = KNT_noblesse_oblige
@@ -1203,8 +1191,8 @@
 				}
 			}
 		}
-		x = 24
-		y = 13
+		x = 16
+		y = 14
 	}
 	shared_focus = {
 		id = KNT_made_in_britain
@@ -1231,8 +1219,8 @@
 				add_extra_state_shared_building_slots = 1
 			}
 		}
-		x = 23
-		y = 15
+		x = 15
+		y = 16
 	}
 	shared_focus = {
 		id = KNT_royal_ordnance_factories 
@@ -1259,19 +1247,13 @@
 				add_extra_state_shared_building_slots = 1
 			}
 		}
-		x = 25
-		y = 15
+		x = 17
+		y = 16
 	}
 	shared_focus = {
 		id = KNT_stop_cultural_decadence
 		icon = GFX_goal_KNT_stop_cultural_decadence
 		cost = 4.3
-		prerequisite = {
-			focus = KNT_commons_of_house
-		}
-		available = {
-			has_country_flag = KENT_political_matters_resolved
-		}
 		completion_reward = {
 			KNT = {
 				country_event = {
@@ -1295,21 +1277,18 @@
 				}
 			}
 		}
-		x = 8
-		y = 7
+		x = 27
+		y = 14
 	}
 	shared_focus = {
 		id = KNT_victorian_ensemble
 		icon = GFX_goal_KNT_victorian_ensemble
 		cost = 4.3
+		allow_branch = { 
+			has_government = neocameralism
+		}
 		prerequisite = {
 			focus = KNT_stop_cultural_decadence
-		}
-		mutually_exclusive = {
-			focus = KNT_our_new_burden
-		}
-		available = {
-			has_government = neocameralism
 		}
 		completion_reward = {
 			KNT = {
@@ -1321,8 +1300,8 @@
 			custom_effect_tooltip = KNT_xlisting.tt
 			add_political_power = 25
 		}
-		x = 6
-		y = 8
+		x = 25
+		y = 15
 	}
 	shared_focus = {
 		id = KNT_rational_education
@@ -1339,8 +1318,8 @@
 				}
 			}
 		}
-		x = 7
-		y = 9.5
+		x = 26
+		y = 16
 	}
 	shared_focus = {
 		id = KNT_old_waves
@@ -1358,8 +1337,8 @@
 			}
 			add_political_power = 55
 		}
-		x = 5
-		y = 9
+		x = 24
+		y = 16
 	}
 	shared_focus = {
 		id = KNT_all_the_world's_a_stage
@@ -1367,6 +1346,9 @@
 		cost = 4.3
 		prerequisite = {
 			focus = KNT_old_waves
+		}
+		prerequisite = {
+			focus = KNT_rational_education
 		}
 		prerequisite = {
 			focus = KNT_rational_education
@@ -1379,15 +1361,18 @@
 				}
 			}
 		}
-		x = 6
-		y = 10
+		x = 25
+		y = 17
 	}
 	shared_focus = {
 		id = KNT_belongs_in_the_trash
 		icon = GFX_goal_KNT_belongs_in_the_trash
 		cost = 4.3
 		prerequisite = {
-			focus = KNT_all_the_world's_a_stage
+			focus = KNT_adapt_the_modern_tech
+		}
+		prerequisite = {
+			focus = KNT_the_gentlemen's_codex
 		}
 		completion_reward = {
 			KNT = {
@@ -1397,15 +1382,15 @@
 				}
 			}
 		}
-		x = 6
-		y = 12
+		x = 29
+		y = 17
 	}
 		shared_focus = {
 		id = KNT_adapt_the_modern_tech
 		icon = GFX_goal_KNT_adapt_the_modern_tech
 		cost = 4.3
 		prerequisite = {
-			focus = KNT_belongs_in_the_trash
+			focus = KNT_i'm_not_a_number_i'm_a_free_man
 		}
 		completion_reward = {
 			KNT = {
@@ -1415,15 +1400,15 @@
 				}
 			}
 		}
-		x = 5
-		y = 13
+		x = 28
+		y = 16
 	}
 	shared_focus = {
 		id = KNT_the_gentlemen's_codex
 		icon = GFX_goal_KNT_the_gentlemen's_codex
 		cost = 4.3
 		prerequisite = {
-			focus = KNT_belongs_in_the_trash
+			focus = KNT_i'm_not_a_number_i'm_a_free_man
 		}
 		completion_reward = {
 			KNT = {
@@ -1434,23 +1419,23 @@
 			}
 			add_political_power = 25
 		}
-		x = 7
-		y = 13
+		x = 30
+		y = 16
 	}
 	shared_focus = {
 		id = KNT_i'm_not_a_number_i'm_a_free_man
 		icon = GFX_goal_KNT_i'm_not_a_number_i'm_a_free_man
 		cost = 4.3
 		prerequisite = {
-			focus = KNT_adapt_the_modern_tech
+			focus = KNT_stop_cultural_decadence
 		}
-		prerequisite = {
-			focus = KNT_the_gentlemen's_codex
+		allow_branch = { 
+			has_government = neocameralism
 		}
 		completion_reward = {
-		custom_effect_tooltip = KNT_good_people_big.tt
-		custom_effect_tooltip = KNT_good_progress_big.tt
-		custom_effect_tooltip = KNT_good_effect_small.tt
+			custom_effect_tooltip = KNT_good_people_big.tt
+			custom_effect_tooltip = KNT_good_progress_big.tt
+			custom_effect_tooltip = KNT_good_effect_small.tt
 			KNT = {
 				add_ideas = { KNT_freedom_of_expression_1 }
 				country_event = {
@@ -1474,7 +1459,7 @@
 			}
 			add_political_power = 15
 		}
-		x = 6
+		x = 29
 		y = 15
 	}
 	shared_focus = {
@@ -1482,7 +1467,10 @@
 		icon = GFX_goal_KNT_the_merrie_monarch
 		cost = 4.3
 		prerequisite = {
-			focus = KNT_i'm_not_a_number_i'm_a_free_man
+			focus = KNT_all_the_world's_a_stage
+		}
+		prerequisite = {
+			focus = KNT_belongs_in_the_trash
 		}
 		completion_reward = {
 			KNT = {
@@ -1493,8 +1481,8 @@
 				add_political_power = 45
 			}
 		}
-		x = 6
-		y = 17
+		x = 27
+		y = 18
 	}
 	shared_focus = {
 		id = KNT_our_new_burden
@@ -1503,11 +1491,8 @@
 		prerequisite = {
 			focus = KNT_stop_cultural_decadence
 		}
-		available = {
+		allow_branch = { 
 			has_government = right_populism
-		}
-		mutually_exclusive = {
-			focus = KNT_victorian_ensemble
 		}
 		completion_reward = {
 			KNT = {
@@ -1518,15 +1503,15 @@
 			}
 			add_political_power = 25
 		}
-		x = 10
-		y = 8
+		x = 29
+		y = 15
 	}
 	shared_focus = {
 		id = KNT_modern_don_quijote
 		icon = GFX_goal_KNT_modern_don_quijote
 		cost = 4.3
 		prerequisite = {
-			focus = KNT_our_new_burden
+			focus = KNT_lessons_of_dickens
 		}
 		completion_reward = {
 			KNT = {
@@ -1537,15 +1522,15 @@
 			}
 			add_political_power = 20
 		}
-		x = 9
-		y = 9
+		x = 24
+		y = 16
 	}
 	shared_focus = {
 		id = KNT_church_order
 		icon = GFX_goal_KNT_church_order
 		cost = 4.3
 		prerequisite = {
-			focus = KNT_our_new_burden
+			focus = KNT_lessons_of_dickens
 		}
 		completion_reward = {
 			KNT = {
@@ -1556,8 +1541,8 @@
 			}
 			
 		}
-		x = 11
-		y = 9
+		x = 26
+		y = 16
 	}
 	shared_focus = {
 		id = KNT_self_sufficient_families
@@ -1577,15 +1562,18 @@
 				}
 			}
 		}
-		x = 10
-		y = 10
+		x = 25
+		y = 17
 	}
-shared_focus = {
+	shared_focus = {
 		id = KNT_proper_care_for_veterans
 		icon = GFX_goal_KNT_proper_care_for_veterans
 		cost = 4.3
 		prerequisite = {
-			focus = KNT_self_sufficient_families
+			focus = KNT_our_victories
+		}
+		prerequisite = {
+			focus = KNT_heroism_over_hedonism
 		}
 		completion_reward = {
 			KNT = {
@@ -1595,15 +1583,15 @@ shared_focus = {
 				}
 			}
 		}
-		x = 10
-		y = 12
+		x = 29
+		y = 17
 	}
 	shared_focus = {
 		id = KNT_heroism_over_hedonism
 		icon = GFX_goal_KNT_heroism_over_hedonism
 		cost = 4.3
 		prerequisite = {
-			focus = KNT_proper_care_for_veterans
+			focus = KNT_our_new_burden
 		}
 		completion_reward = {
 			KNT = {
@@ -1614,15 +1602,15 @@ shared_focus = {
 			}
 			
 		}
-		x = 9
-		y = 13
+		x = 28
+		y = 16
 	}
 	shared_focus = {
 		id = KNT_our_victories
 		icon = GFX_goal_KNT_our_victories
 		cost = 4.3
 		prerequisite = {
-			focus = KNT_proper_care_for_veterans
+			focus = KNT_our_new_burden
 		}
 		completion_reward = {
 			KNT = {
@@ -1633,18 +1621,18 @@ shared_focus = {
 			}
 			add_political_power = 35
 		}
-		x = 11
-		y = 13
+		x = 30
+		y = 16
 	}
 	shared_focus = {
 		id = KNT_lessons_of_dickens
 		icon = GFX_goal_KNT_lessons_of_dickens
 		cost = 4.3
-		prerequisite = {
-			focus = KNT_heroism_over_hedonism
+		allow_branch = { 
+			has_government = right_populism
 		}
 		prerequisite = {
-			focus = KNT_our_victories
+			focus = KNT_stop_cultural_decadence
 		}
 		completion_reward = {
 		custom_effect_tooltip = KNT_bad_people_big.tt
@@ -1672,7 +1660,7 @@ shared_focus = {
 				}
 			}
 		}
-		x = 10
+		x = 25
 		y = 15
 	}
 	shared_focus = {
@@ -1680,7 +1668,10 @@ shared_focus = {
 		icon = GFX_goal_KNT_le_roi_soleil
 		cost = 4.3
 		prerequisite = {
-			focus = KNT_lessons_of_dickens
+			focus = KNT_proper_care_for_veterans
+		}
+		prerequisite = {
+			focus = KNT_self_sufficient_families
 		}
 		completion_reward = {
 			KNT = {
@@ -1691,43 +1682,13 @@ shared_focus = {
 			}
 			add_political_power = 30
 		}
-		x = 10
-		y = 17
-	}
-	shared_focus = {
-		id = KNT_the_coronation
-		icon = GFX_goal_KNT_the_coronation
-		cost = 4.3
-		available = {
-			OR = {
-				has_country_flag = KENT_hightories_britain_reunified
-				has_country_flag = KENT_neovictorians_britain_reunified
-			}
-		}
-		prerequisite = {
-			focus = KNT_the_merrie_monarch
-			focus = KNT_le_roi_soleil
-		}
-		completion_reward = {
-			KNT = {
-				country_event = {
-					days = 1
-					id = KNT_event.117
-				}
-			}
-			add_political_power = 100
-		}
-		x = 8
-		y = 19
-		
+		x = 27
+		y = 18
 	}
 	shared_focus = {
 		id = KNT_we_shall_go_on_to_the_end
 		icon = GFX_goal_KNT_we_shall_go_on_to_the_end
 		cost = 4.3
-		prerequisite = {
-			focus = KNT_commons_of_house
-		}
 		completion_reward = {
 			army_experience = 35
 				
@@ -1736,11 +1697,8 @@ shared_focus = {
 			}
 			add_political_power = 125
 		}
-		available = {
-			has_country_flag = KENT_political_matters_resolved
-		}
 		x = 33
-		y = 7
+		y = 8
 	}
 	shared_focus = {
 		id = KNT_henry's_toys
@@ -1764,7 +1722,7 @@ shared_focus = {
 			add_political_power = 55
 		}
 		x = 33
-		y = 8
+		y = 9
 	}
 	shared_focus = {
 		id = KNT_future_of_the_pneumatic_weaponry
@@ -1777,7 +1735,7 @@ shared_focus = {
 			custom_effect_tooltip = KNT_future_of_the_pneumatic_weaponry.tt
 		}
 		x = 33
-		y = 10
+		y = 11
 	}
 	shared_focus = {
 		id = KNT_the_beast_on_rails
@@ -1790,7 +1748,7 @@ shared_focus = {
 			custom_effect_tooltip = KNT_the_beast_on_rails.tt
 		}
 		x = 33
-		y = 11
+		y = 12
 		
 	}
 	shared_focus = {
@@ -1804,7 +1762,7 @@ shared_focus = {
 			custom_effect_tooltip = KNT_the_gulliver.tt
 		}
 		x = 32
-		y = 13
+		y = 14
 		
 	}
 	shared_focus = {
@@ -1818,7 +1776,7 @@ shared_focus = {
 			custom_effect_tooltip = KNT_airships_renaissance.tt
 		}
 		x = 34
-		y = 13
+		y = 14
 		
 	}
 	shared_focus = {
@@ -1840,7 +1798,7 @@ shared_focus = {
 			}
 		}
 		x = 33
-		y = 14
+		y = 15
 		
 	}
 	shared_focus = {
@@ -1850,7 +1808,7 @@ shared_focus = {
 		prerequisite = {
 			focus = KNT_we_shall_go_on_to_the_end
 		}
-		available = {
+		allow_branch = { 
 			has_government = neocameralism
 		}
 		available = {
@@ -1879,8 +1837,8 @@ shared_focus = {
 			}
 			add_political_power = 75
 		}
-		x = 30
-		y = 8
+		x = 37
+		y = 9
 	}
 	shared_focus = {
 		id = KNT_experimental_forces
@@ -1902,8 +1860,8 @@ shared_focus = {
 			}
 			add_political_power = 25
 		}
-		x = 29
-		y = 9
+		x = 36
+		y = 10
 	}
 	shared_focus = {
 		id = KNT_the_question_of_armor
@@ -1921,8 +1879,8 @@ shared_focus = {
 			}
 			add_political_power = 25
 		}
-		x = 31
-		y = 9
+		x = 38
+		y = 10
 	}
 	shared_focus = {
 		id = KNT_engineering_solutions 
@@ -1946,8 +1904,8 @@ shared_focus = {
 				}
 			}
 		}
-		x = 30
-		y = 11
+		x = 37
+		y = 12
 	}
 	shared_focus = {
 		id = KNT_sabotage_experience 
@@ -1962,8 +1920,8 @@ shared_focus = {
 				add_idea = KNT_professional_army_path_4
 			}
 		}
-		x = 30
-		y = 13
+		x = 37
+		y = 14
 	}
 	shared_focus = {
 		id = KNT_top_gear
@@ -1985,8 +1943,8 @@ shared_focus = {
 			}
 			add_political_power = 20
 		}
-		x = 30
-		y = 15
+		x = 37
+		y = 16
 	}
 	shared_focus = {
 		id = KNT_like_in_the_rorke's_drift
@@ -1995,7 +1953,7 @@ shared_focus = {
 		prerequisite = {
 			focus = KNT_we_shall_go_on_to_the_end
 		}
-		available = {
+		allow_branch = { 
 			has_government = right_populism
 		}
 		available = {
@@ -2010,7 +1968,7 @@ shared_focus = {
 			add_political_power = 75
 		}
 		x = 36
-		y = 8
+		y = 9
 	}
 	shared_focus = {
 		id = KNT_the_gun_that_won_the_uk
@@ -2029,7 +1987,7 @@ shared_focus = {
 			add_political_power = 25
 		}
 		x = 35
-		y = 9
+		y = 10
 	}
 	shared_focus = {
 		id = KNT_lessons_from_boers
@@ -2052,7 +2010,7 @@ shared_focus = {
 			add_political_power = 25
 		}
 		x = 37
-		y = 9
+		y = 10
 	}
 	shared_focus = {
 		id = KNT_for_god_and_britain
@@ -2128,7 +2086,7 @@ shared_focus = {
 			add_political_power = 45
 		}
 		x = 36
-		y = 11
+		y = 12
 	}
 	shared_focus = {
 		id = KNT_strike_from_above
@@ -2144,7 +2102,7 @@ shared_focus = {
 			}
 		}	
 		x = 36
-		y = 13
+		y = 14
 	}
 	shared_focus = {
 		id = KNT_the_old_guards_in_action
@@ -2204,7 +2162,7 @@ shared_focus = {
 			}
 		}	
 		x = 36
-		y = 15
+		y = 16
 	}
 	shared_focus = {
 		id = KNT_radio_wild_geese
@@ -2222,7 +2180,7 @@ shared_focus = {
 			}
 			add_ideas = KNT_mercs_radio
 		}
-		x = 41
+		x = 42
 		y = 1
 	}
 	shared_focus = {
@@ -2230,7 +2188,10 @@ shared_focus = {
 		icon = GFX_goal_KNT_tea_party_movement
 		cost = 4.3
 		prerequisite = {
-			focus = KNT_radio_wild_geese
+			focus = KNT_the_grand_embassy
+		}
+		prerequisite = {
+			focus = KNT_loyalists_from_hong_kong
 		}
 		completion_reward = {
 			division_template = {
@@ -2324,7 +2285,7 @@ shared_focus = {
 					producer = KNT
 			}
 		}
-		x = 41
+		x = 44
 		y = 3
 	}
 		shared_focus = {
@@ -2395,7 +2356,7 @@ shared_focus = {
 			custom_effect_tooltip = KNT_the_grand_embassy.tt
 			add_political_power = 100
 		}
-		x = 44
+		x = 42
 		y = 2
 	}
 	shared_focus = {
@@ -2403,13 +2364,10 @@ shared_focus = {
 		icon = GFX_goal_KNT_no_other_choice
 		cost = 4.3
 		prerequisite = {
-			focus = KNT_tea_party_movement
+			focus = KNT_the_grand_embassy
 		}
 		prerequisite = {
 			focus = KNT_djibouti_company
-		}
-		prerequisite = {
-			focus = KNT_the_grand_embassy
 		}
 		
 		completion_reward = {
@@ -2420,21 +2378,15 @@ shared_focus = {
 				}
 			}
 		}
-		x = 38
-		y = 4
+		x = 40
+		y = 3
 	}
 	shared_focus = {
 		id = KNT_loyalists_from_hong_kong
 		icon = GFX_goal_KNT_loyalists_from_hong_kong
 		cost = 4.3
 		prerequisite = {
-			focus = KNT_tea_party_movement
-		}
-		prerequisite = {
-			focus = KNT_djibouti_company
-		}
-		prerequisite = {
-			focus = KNT_the_grand_embassy
+			focus = KNT_radio_wild_geese
 		}
 		completion_reward = {
 			division_template = {
@@ -2482,15 +2434,15 @@ shared_focus = {
 					producer = KNT
 			}
 		}
-		x = 44
-		y = 4
+		x = 46
+		y = 2
 	}
 	shared_focus = {
 		id = KNT_exiles_of_nepal
 		icon = GFX_goal_KNT_exiles_of_nepal
 		cost = 4.3
 		prerequisite = {
-			focus = KNT_loyalists_from_hong_kong
+			focus = KNT_tea_party_movement
 		}
 		prerequisite = {
 			focus = KNT_no_other_choice
@@ -2555,19 +2507,13 @@ shared_focus = {
 			}
 		}
 		
-		x = 41
-		y = 5
+		x = 42
+		y = 4
 	}
 	shared_focus = {
 		id = KNT_para_bellum
 		icon = GFX_goal_KNT_para_bellum
 		cost = 4.3
-		prerequisite = {
-			focus = KNT_commons_of_house
-		}
-		available = {
-			has_country_flag = KENT_political_matters_resolved
-		}
 		completion_reward = {
 			KNT = {
 				country_event = {
@@ -2733,9 +2679,6 @@ shared_focus = {
 		id = KNT_an_unwilling_alliance
 		icon = GFX_goal_KNT_an_unwilling_alliance
 		cost = 4.3
-		prerequisite = {
-			focus = KNT_para_bellum
-		}
 		completion_reward = {
 			KNT = {
 				country_event = {
@@ -2769,7 +2712,7 @@ shared_focus = {
 				set_global_flag = essex_rejects_kent_offer
 			}
 		}
-		x = 53
+		x = 27
 		y = 8
 	}
 	shared_focus = {
@@ -2779,8 +2722,10 @@ shared_focus = {
 		prerequisite = {
 			focus = KNT_an_unwilling_alliance
 		}
-		available = {
-			has_global_flag = east_anglia_accepts_kent_offer
+		allow_branch = {
+			KNT = {
+				has_country_flag = KNT_sabotage_germans
+			}
 		}
 		bypass = {
 			AND = {
@@ -2799,7 +2744,7 @@ shared_focus = {
 	    focus = KNT_the_patriot
 		focus = KNT_the_chimes_of_big_ben
 		}
-		x = 53
+		x = 27
 		y = 9
 	}
 	shared_focus = {
@@ -2825,7 +2770,7 @@ shared_focus = {
 			}
 			add_political_power = 70
 		}
-		x = 53
+		x = 24
 		y = 10
 	}
 	shared_focus = {
@@ -2833,7 +2778,7 @@ shared_focus = {
 		icon = GFX_goal_KNT_pimp_my_panzer
 		cost = 4.3
 		prerequisite = {
-			focus = KNT_white_youth
+			focus = KNT_our_germanic_brothers
 		}
 		bypass = {
 			AND = {
@@ -2850,8 +2795,8 @@ shared_focus = {
 				}
 			}
 		}
-		x = 53
-		y = 11
+		x = 27
+		y = 10
 	}
 	shared_focus = {
 		id = KNT_london_referendum
@@ -2860,6 +2805,9 @@ shared_focus = {
 		prerequisite = {
 			focus = KNT_pimp_my_panzer
 		}
+		prerequisite = {
+			focus = KNT_white_youth
+		}
 		bypass = {
 			AND = {
 				has_global_flag = east_anglia_rejects_kent_offer
@@ -2867,25 +2815,22 @@ shared_focus = {
 				has_global_flag = essex_rejects_kent_offer
 			}
 		}
-		mutually_exclusive = {
-			focus = KNT_buy_them
-		}
 		completion_reward = {
 			custom_effect_tooltip = KNT_london_referendum.tt
 			add_political_power = 35
 		}
-		x = 52
-		y = 12
+		x = 25
+		y = 11
 	}
 	shared_focus = {
 		id = KNT_buy_them
 		icon = GFX_goal_KNT_buy_them
 		cost = 4.3
 		prerequisite = {
-			focus = KNT_pimp_my_panzer
+			focus = KNT_coordinated_strikes
 		}
-		mutually_exclusive = {
-			focus = KNT_london_referendum
+		prerequisite = {
+			focus = KNT_pimp_my_panzer
 		}
 		bypass = {
 			AND = {
@@ -2903,16 +2848,15 @@ shared_focus = {
 			}
 			add_political_power = 35
 		}
-		x = 54
-		y = 12
+		x = 29
+		y = 11
 	}
 	shared_focus = {
 		id = KNT_coordinated_strikes
 		icon = GFX_goal_KNT_coordinated_strikes
 		cost = 4.3
 		prerequisite = {
-			focus = KNT_buy_them
-			focus = KNT_london_referendum
+			focus = KNT_our_germanic_brothers
 		}
 		bypass = {
 			AND = {
@@ -2936,8 +2880,8 @@ shared_focus = {
 			}
 			add_political_power = 45
 		}
-		x = 53
-		y = 14
+		x = 30
+		y = 10
 	}
 	shared_focus = {
 		id = KNT_the_chimes_of_big_ben
@@ -2946,19 +2890,10 @@ shared_focus = {
 		prerequisite = {
 			focus = KNT_an_unwilling_alliance
 		}
-		bypass = {
-			AND = {
-				has_global_flag = east_anglia_rejects_kent_offer
-				has_global_flag = pearce_rejects_kent_offer
-				has_global_flag = essex_rejects_kent_offer
+		allow_branch = {
+			KNT = {
+				has_country_flag = KNT_sabotage_london
 			}
-		}
-		available = {
-			has_global_flag = essex_accepts_kent_offer
-		}
-		mutually_exclusive = {
-	    focus = KNT_the_patriot
-		focus = KNT_our_germanic_brothers
 		}
 		completion_reward = {
 			create_faction = "British Protection League"
@@ -2967,7 +2902,7 @@ shared_focus = {
 			}
 			
 		}
-		x = 49
+		x = 27
 		y = 9
 	}
 	shared_focus = {
@@ -2976,13 +2911,6 @@ shared_focus = {
 		cost = 4.3
 		prerequisite = {
 			focus = KNT_the_chimes_of_big_ben
-		}
-		bypass = {
-			AND = {
-				has_global_flag = east_anglia_rejects_kent_offer
-				has_global_flag = pearce_rejects_kent_offer
-				has_global_flag = essex_rejects_kent_offer
-			}
 		}
 		completion_reward = {
 			ESS = {
@@ -3017,7 +2945,7 @@ shared_focus = {
 			}
 			add_political_power = 70
 		}
-		x = 49
+		x = 24
 		y = 10
 	}
 	shared_focus = {
@@ -3025,30 +2953,23 @@ shared_focus = {
 		icon = GFX_goal_KNT_exchange_of_technologies
 		cost = 4.3
 		prerequisite = {
-			focus = KNT_quid_pro_quo
-		}
-		bypass = {
-			AND = {
-				has_global_flag = east_anglia_rejects_kent_offer
-				has_global_flag = pearce_rejects_kent_offer
-				has_global_flag = essex_rejects_kent_offer
-			}
+			focus = KNT_the_chimes_of_big_ben
 		}
 		completion_reward = {
 			custom_effect_tooltip = KNT_exchange_of_technologies.tt
 		}
-		x = 49
-		y = 11
+		x = 27
+		y = 10
 	}
 	shared_focus = {
 		id = KNT_expose_the_gangs
 		icon = GFX_goal_KNT_expose_the_gangs
 		cost = 4.3
 		prerequisite = {
-			focus = KNT_exchange_of_technologies
+			focus = KNT_quid_pro_quo
 		}
-		mutually_exclusive = {
-			focus = KNT_the_network_gate
+		prerequisite = {
+			focus = KNT_exchange_of_technologies
 		}
 		bypass = {
 			AND = {
@@ -3066,18 +2987,18 @@ shared_focus = {
 			}
 			add_political_power = 35
 		}
-		x = 48
-		y = 12
+		x = 25
+		y = 11
 	}
 	shared_focus = {
 		id = KNT_the_network_gate
 		icon = GFX_goal_KNT_the_network_gate
 		cost = 4.3
 		prerequisite = {
-			focus = KNT_exchange_of_technologies
+			focus = KNT_the_mole
 		}
-		mutually_exclusive = {
-			focus = KNT_expose_the_gangs
+		prerequisite = {
+			focus = KNT_exchange_of_technologies
 		}
 		bypass = {
 			AND = {
@@ -3095,16 +3016,15 @@ shared_focus = {
 			}
 			add_political_power = 35
 		}
-		x = 50
-		y = 12
+		x = 29
+		y = 11
 	}
 	shared_focus = {
 		id = KNT_the_mole
 		icon = GFX_goal_KNT_the_mole
 		cost = 4.3
 		prerequisite = {
-			focus = KNT_expose_the_gangs
-			focus = KNT_the_network_gate
+			focus = KNT_the_chimes_of_big_ben
 		}
 		completion_reward = {
 			add_timed_idea = {
@@ -3120,8 +3040,8 @@ shared_focus = {
 				has_global_flag = essex_rejects_kent_offer
 			}
 		}
-		x = 49
-		y = 14
+		x = 30
+		y = 10
 	}
 	shared_focus = {
 		id = KNT_the_patriot
@@ -3130,8 +3050,10 @@ shared_focus = {
 		prerequisite = {
 			focus = KNT_an_unwilling_alliance
 		}
-		available = {
-			has_global_flag = pearce_accepts_kent_offer
+		allow_branch = {
+			KNT = {
+				has_country_flag = KNT_sabotage_mercia
+			}
 		}
 		bypass = {
 			AND = {
@@ -3150,7 +3072,7 @@ shared_focus = {
 				add_to_faction = MRC
 			}
 		}
-		x = 57
+		x = 27
 		y = 9
 	}
 	shared_focus = {
@@ -3176,7 +3098,7 @@ shared_focus = {
 			}
 			add_political_power = 70
 		}
-		x = 57
+		x = 24
 		y = 10
 	}
 	shared_focus = {
@@ -3184,7 +3106,7 @@ shared_focus = {
 		icon = GFX_goal_KNT_shut_the_devil_servants_up
 		cost = 4.3
 		prerequisite = {
-			focus = KNT_the_mercian_hidalgo
+			focus = KNT_the_patriot
 		}
 		completion_reward = {
 			MRC = {
@@ -3201,8 +3123,8 @@ shared_focus = {
 				has_global_flag = essex_rejects_kent_offer
 			}
 		}
-		x = 57
-		y = 11
+		x = 27
+		y = 10
 	}
 	shared_focus = {
 		id = KNT_barbarism_vs_civilization
@@ -3211,8 +3133,8 @@ shared_focus = {
 		prerequisite = {
 			focus = KNT_shut_the_devil_servants_up
 		}
-		mutually_exclusive = {
-			focus = KNT_traditional_leap_forward
+		prerequisite = {
+			focus = KNT_the_mercian_hidalgo
 		}
 		completion_reward = {
 			MRC = {
@@ -3230,8 +3152,8 @@ shared_focus = {
 				has_global_flag = essex_rejects_kent_offer
 			}
 		}
-		x = 56
-		y = 12
+		x = 25
+		y = 11
 	}
 	shared_focus = {
 		id = KNT_traditional_leap_forward
@@ -3240,8 +3162,8 @@ shared_focus = {
 		prerequisite = {
 			focus = KNT_shut_the_devil_servants_up
 		}
-		mutually_exclusive = {
-			focus = KNT_barbarism_vs_civilization
+		prerequisite = {
+			focus = KNT_into_the_woods
 		}
 		bypass = {
 			AND = {
@@ -3254,16 +3176,15 @@ shared_focus = {
 			custom_effect_tooltip = KNT_traditional_leap_forward.tt
 			add_political_power = 35
 		}
-		x = 58
-		y = 12
+		x = 29
+		y = 11
 	}
 	shared_focus = {
 		id = KNT_into_the_woods
 		icon = GFX_goal_KNT_into_the_woods
 		cost = 4.3
 		prerequisite = {
-			focus = KNT_traditional_leap_forward
-			focus = KNT_barbarism_vs_civilization
+			focus = KNT_the_patriot
 		}
 		completion_reward = {
 			MRC = {
@@ -3281,24 +3202,22 @@ shared_focus = {
 				has_global_flag = essex_rejects_kent_offer
 			}
 		}
-		x = 57
-		y = 14
+		x = 30
+		y = 10
 	}
 	shared_focus = {
 		id = KNT_it's_treason_then
 		icon = GFX_goal_KNT_it's_treason_then
 		cost = 4.3
 		prerequisite = {
-			focus = KNT_into_the_woods
-			focus = KNT_the_mole
-			focus = KNT_coordinated_strikes
-		}
-		bypass = {
-			AND = {
-				has_global_flag = east_anglia_rejects_kent_offer
-				has_global_flag = pearce_rejects_kent_offer
-				has_global_flag = essex_rejects_kent_offer
-			}
+			focus = KNT_expose_the_gangs
+			focus = KNT_the_network_gate
+			#
+			focus = KNT_buy_them
+			focus = KNT_london_referendum
+			#
+			focus = KNT_barbarism_vs_civilization
+			focus = KNT_traditional_leap_forward
 		}
 		completion_reward = {
 			custom_effect_tooltip = KNT_its_treason_then.tt
@@ -3329,8 +3248,8 @@ shared_focus = {
 				add_political_power = 100
 			}
 		}
-		x = 53
-		y = 16
+		x = 27
+		y = 12
 	}
 	shared_focus = {
 		id = KNT_there_always_be_an_england
@@ -3393,14 +3312,14 @@ shared_focus = {
 			add_political_power = 250
 		}	
 		x = 27
-		y = 17
+		y = 20
 	}
 	shared_focus = {
 		id = KNT_the_law_of_the_state
 		icon = GFX_goal_KNT_the_law_of_the_state
 		cost = 4.3
 		prerequisite = {
-			focus = KNT_peace_through_the_faith
+			focus = KNT_there_always_be_an_england
 		}
 		select_effect = {
 			KNT = {
@@ -3415,14 +3334,20 @@ shared_focus = {
 			add_political_power = 100
 		}
 		x = 27
-		y = 20
+		y = 21
 	}
 	shared_focus = {
 		id = KNT_reconstruction_effort
 		icon = GFX_goal_KNT_reconstruction_effort
 		cost = 4.3
 		prerequisite = {
-			focus = KNT_thatcher's_mistakes
+			focus = KNT_peace_through_the_faith
+		}
+		prerequisite = {
+			focus = KNT_the_law_of_the_state
+		}
+		prerequisite = {
+			focus = KNT_reforging_britain
 		}
 		completion_reward = {
 			add_political_power = -45
@@ -3432,8 +3357,8 @@ shared_focus = {
 			}
 			custom_effect_tooltip = KNT_reconstruct_republics.tt
 		}
-		x = 24
-		y = 19
+		x = 27
+		y = 22
 	}
 	shared_focus = {
 		id = KNT_peace_through_the_faith
@@ -3443,27 +3368,27 @@ shared_focus = {
 			focus = KNT_there_always_be_an_england
 		}
 		completion_reward = {
-			
-		}
-		completion_reward = {
 			custom_effect_tooltip = KNT_pacify.tt
 			add_political_power = 35
 		}
-		x = 27
-		y = 19
+		x = 25
+		y = 21
 	}
 	shared_focus = {
 		id = KNT_thatcher's_mistakes
 		icon = GFX_goal_KNT_thatcher's_mistakes
 		cost = 4.3
 		prerequisite = {
-			focus = KNT_there_always_be_an_england
+			focus = KNT_peace_through_the_faith
+		}
+		prerequisite = {
+			focus = KNT_the_law_of_the_state
 		}
 		completion_reward = {
 			custom_effect_tooltip = KNT_reconstruct_north.tt
 		}
-		x = 24
-		y = 18
+		x = 25
+		y = 22
 	}
 	shared_focus = {
 		id = KNT_reforging_britain
@@ -3475,8 +3400,8 @@ shared_focus = {
 		completion_reward = {
 			custom_effect_tooltip = KNT_reconstruct_england.tt
 		}
-		x = 30
-		y = 18
+		x = 29
+		y = 21
 	}
 	shared_focus = {
 		id = KNT_london_recovery
@@ -3485,11 +3410,14 @@ shared_focus = {
 		prerequisite = {
 			focus = KNT_reforging_britain
 		}
+		prerequisite = {
+			focus = KNT_the_law_of_the_state
+		}
 		completion_reward = {
 			custom_effect_tooltip = KNT_reconstruct_london.tt
 		}
-		x = 30
-		y = 19
+		x = 29
+		y = 22
 	}
 	shared_focus = {
 		id = KNT_dumping_strategy
@@ -3499,24 +3427,21 @@ shared_focus = {
 			focus = KNT_london_recovery
 		}
 		prerequisite = {
-			focus = KNT_the_law_of_the_state
+			focus = KNT_reconstruction_effort
 		}
 		completion_reward = {
 			custom_effect_tooltip = KNT_dumping.tt 
 			add_political_power = 35
 		}
-		x = 29
-		y = 21
+		x = 28
+		y = 23
 	}
 	shared_focus = {
 		id = KNT_the_great_exhibition
 		icon = GFX_goal_KNT_the_great_exhibition
 		cost = 4.3
 		prerequisite = {
-			focus = KNT_london_recovery
-		}
-		prerequisite = {
-			focus = KNT_the_law_of_the_state
+			focus = KNT_thatcher's_mistakes
 		}
 		prerequisite = {
 			focus = KNT_reconstruction_effort
@@ -3525,9 +3450,38 @@ shared_focus = {
 			custom_effect_tooltip = KNT_exhibition.tt 
 			add_political_power = 100
 		}
-		x = 25
-		y = 21
+		x = 26
+		y = 23
 	}
+	#shared_focus = {
+	#	id = KNT_the_coronation
+	#	icon = GFX_goal_KNT_the_coronation
+	#	cost = 4.3
+	#	prerequisite = {
+	#		focus = KNT_dumping_strategy
+	#	}
+	#	prerequisite = {
+	#		focus = KNT_the_great_exhibition
+	#	}
+	#	available = {
+	#		OR = {
+	#			has_country_flag = KENT_hightories_britain_reunified
+	#			has_country_flag = KENT_neovictorians_britain_reunified
+	#		}
+	#	}
+	#	completion_reward = {
+	#		KNT = {
+	#			country_event = {
+	#				days = 1
+	#				id = KNT_event.117
+	#			}
+	#		}
+	#		add_political_power = 100
+	#	}
+	#	x = 27
+	#	y = 25
+	#	
+	#}
 	shared_focus = {
 		id = KNT_all_hail_britania
 		icon = GFX_goal_KNT_all_hail_britania
@@ -3548,7 +3502,7 @@ shared_focus = {
 			add_stability = 0.05
 		}
 		x = 27
-		y = 22
+		y = 25
 	}
 	
 	

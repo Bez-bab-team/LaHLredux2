@@ -312,12 +312,23 @@ country_event = {
 	
 	immediate = {
         hidden_effect = {
-				if = {
+			if = {
 				limit = { 
-				check_variable = { neocam_knt_p > tories_knt_p }
+					check_variable = { neocam_knt_p > tories_knt_p }
 				}
 				set_politics = {
-				ruling_party = neocameralism
+					ruling_party = neocameralism
+				}
+				KNT = {
+					load_focus_tree = KNT_neovictorians
+				}
+			}
+			if = {
+				limit = { 
+					check_variable = { neocam_knt_p < tories_knt_p }
+				}
+				KNT = {
+					load_focus_tree = KNT_tories
 				}
 			}
 		}
@@ -775,16 +786,16 @@ country_event = {
 			popularity = -0.1
 		}
 		swap_ideas = {
-			remove_idea = KNT_neovictorians_economic_plan_2
-			add_idea = KNT_neovictorians_economic_plan_3a
+			remove_ideas = KNT_neovictorians_economic_plan_2
+			add_ideas = KNT_neovictorians_economic_plan_3a
 		}
     }
 		option = {
 		name = KNT_event.29.b
 		add_political_power = -20
 			swap_ideas = {
-			remove_idea = KNT_neovictorians_economic_plan_2
-			add_idea = KNT_neovictorians_economic_plan_3b
+			remove_ideas = KNT_neovictorians_economic_plan_2
+			add_ideas = KNT_neovictorians_economic_plan_3b
 		}
     }
 }
@@ -1502,8 +1513,8 @@ country_event = {
 					clr_country_flag = KNT_culture_dead_flag
 				}
 				swap_ideas = {
-					remove_idea = KNT_cultural_death
-					add_idea = KNT_cultural_battered
+					remove_ideas = KNT_cultural_death
+					add_ideas = KNT_cultural_battered
 				}		
 			}
 			else_if = {
@@ -1519,8 +1530,8 @@ country_event = {
 					clr_country_flag = KNT_culture_battered_flag
 				}
 				swap_ideas = {
-					remove_idea = KNT_cultural_battered
-					add_idea = KNT_cultural_recovering
+					remove_ideas = KNT_cultural_battered
+					add_ideas = KNT_cultural_recovering
 				}
 			}
 			else_if = {
@@ -1536,8 +1547,8 @@ country_event = {
 					clr_country_flag = KNT_culture_recovering_flag
 				}
 				swap_ideas = {
-					remove_idea = KNT_cultural_recovering
-					add_idea = KNT_cultural_great
+					remove_ideas = KNT_cultural_recovering
+					add_ideas = KNT_cultural_great
 				}
 			}
 			else_if = {
@@ -1553,8 +1564,8 @@ country_event = {
 					clr_country_flag = KNT_culture_great_flag
 				}
 				swap_ideas = {
-					remove_idea = KNT_cultural_great
-					add_idea = KNT_cultural_soaring
+					remove_ideas = KNT_cultural_great
+					add_ideas = KNT_cultural_soaring
 				}
 			}
 			else_if = {
@@ -1570,8 +1581,8 @@ country_event = {
 					clr_country_flag = KNT_culture_soaring_flag
 				}
 				swap_ideas = {
-					remove_idea = KNT_cultural_soaring
-					add_idea = KNT_cultural_golden_age
+					remove_ideas = KNT_cultural_soaring
+					add_ideas = KNT_cultural_golden_age
 				}
 			}
 		}
@@ -1613,8 +1624,8 @@ country_event = {
 					clr_country_flag = KNT_culture_battered_flag
 				}
 				swap_ideas = {
-					remove_idea = KNT_cultural_battered
-					add_idea = KNT_cultural_death
+					remove_ideas = KNT_cultural_battered
+					add_ideas = KNT_cultural_death
 				}		
 			}
 			else_if = {
@@ -1630,8 +1641,8 @@ country_event = {
 					clr_country_flag = KNT_culture_recovering_flag
 				}
 				swap_ideas = {
-					remove_idea = KNT_cultural_recovering
-					add_idea = KNT_cultural_battered
+					remove_ideas = KNT_cultural_recovering
+					add_ideas = KNT_cultural_battered
 				}
 			}
 			else_if = {
@@ -1647,8 +1658,8 @@ country_event = {
 					clr_country_flag = KNT_culture_great_flag
 				}
 				swap_ideas = {
-					remove_idea = KNT_cultural_great
-					add_idea = KNT_cultural_recovering
+					remove_ideas = KNT_cultural_great
+					add_ideas = KNT_cultural_recovering
 				}
 			}
 			else_if = {
@@ -1664,8 +1675,8 @@ country_event = {
 					clr_country_flag = KNT_culture_soaring_flag
 				}
 				swap_ideas = {
-					remove_idea = KNT_cultural_soaring
-					add_idea = KNT_cultural_great
+					remove_ideas = KNT_cultural_soaring
+					add_ideas = KNT_cultural_great
 				}
 			}
 			else_if = {
@@ -1681,8 +1692,8 @@ country_event = {
 					clr_country_flag = KNT_culture_golden_age_flag
 				}
 				swap_ideas = {
-					remove_idea = KNT_cultural_golden_age
-					add_idea = KNT_cultural_soaring
+					remove_ideas = KNT_cultural_golden_age
+					add_ideas = KNT_cultural_soaring
 				}
 			}
 		}
@@ -2596,6 +2607,10 @@ country_event = { #Monarchy chain, william
 		hidden_effect = {
 			KNT = {
 				set_country_flag = KNT_flag_king_william
+				country_event = {
+					days = 10
+					id = KNT_event.117
+				}
 			}
 		}
     }
@@ -2620,6 +2635,10 @@ country_event = { #Monarchy chain, michael
 		hidden_effect = {
 			KNT = {
 				set_country_flag = KNT_flag_king_michael
+				country_event = {
+					days = 10
+					id = KNT_event.117
+				}
 			}
 		}
     }
@@ -2644,6 +2663,10 @@ country_event = { #Monarchy chain, george
 		hidden_effect = {
 			KNT = {
 				set_country_flag = KNT_flag_king_george_viii
+				country_event = {
+					days = 10
+					id = KNT_event.117
+				}
 			}
 		}
     }
@@ -2668,6 +2691,10 @@ country_event = { #Monarchy chain, anne
 		hidden_effect = {
 			KNT = {
 				set_country_flag = KNT_flag_king_anne
+				country_event = {
+					days = 10
+					id = KNT_event.117
+				}
 			}
 		}
     }
@@ -2692,6 +2719,10 @@ country_event = { #Monarchy chain, fuck you
 		hidden_effect = {
 			KNT = {
 				set_country_flag = KNT_flag_no_monarchy
+				country_event = {
+					days = 10
+					id = KNT_event.117
+				}
 			}
 		}
 	}
@@ -2733,6 +2764,10 @@ country_event = { #Monarchy chain, edward
 		hidden_effect = {
 			KNT = {
 				set_country_flag = KNT_flag_king_edward 
+				country_event = {
+					days = 10
+					id = KNT_event.117
+				}
 			}
 		}
     }
@@ -2757,6 +2792,10 @@ country_event = { #Monarchy chain, peter
 		hidden_effect = {
 			KNT = {
 				set_country_flag = KNT_flag_king_peter
+				country_event = {
+					days = 10
+					id = KNT_event.117
+				}
 			}
 		}
     }
@@ -2781,6 +2820,10 @@ country_event = { #Monarchy chain, frederick
 		hidden_effect = {
 			KNT = {
 				set_country_flag = KNT_flag_king_frederick
+				country_event = {
+					days = 10
+					id = KNT_event.117
+				}
 			}
 		}
     }
@@ -2819,6 +2862,10 @@ country_event = { #Monarchy chain, diana
 		hidden_effect = {
 			KNT = {
 				set_country_flag = KNT_flag_king_diana
+				country_event = {
+					days = 10
+					id = KNT_event.117
+				}
 			}
 		}
     }
@@ -2843,6 +2890,10 @@ country_event = { #Monarchy chain, fuck you
 		hidden_effect = {
 			KNT = {
 				set_country_flag = KNT_flag_no_monarchy
+				country_event = {
+					days = 10
+					id = KNT_event.117
+				}
 			}
 		}
 	}
@@ -2947,8 +2998,8 @@ country_event = { #Coronation
 				id = KNT_event.118
 			}
 			swap_ideas = {
-				remove_idea = lhl_regime_regency
-				add_idea = lhl_regime_constitutional_monarchy
+				remove_ideas = lhl_regime_regency
+				add_ideas = lhl_regime_constitutional_monarchy
 			}
 		}
     }
@@ -2963,8 +3014,8 @@ country_event = { #Coronation
 				id = KNT_event.119
 			}
 			swap_ideas = {
-				remove_idea = lhl_regime_regency
-				add_idea = lhl_regime_constitutional_monarchy
+				remove_ideas = lhl_regime_regency
+				add_ideas = lhl_regime_constitutional_monarchy
 			}
 		}
     }
@@ -2979,8 +3030,8 @@ country_event = { #Coronation
 				id = KNT_event.120
 			}
 			swap_ideas = {
-				remove_idea = lhl_regime_regency
-				add_idea = lhl_regime_constitutional_monarchy
+				remove_ideas = lhl_regime_regency
+				add_ideas = lhl_regime_constitutional_monarchy
 			}
 		}
     }
@@ -2995,8 +3046,8 @@ country_event = { #Coronation
 				id = KNT_event.121
 			}
 			swap_ideas = {
-				remove_idea = lhl_regime_regency
-				add_idea = lhl_regime_constitutional_monarchy
+				remove_ideas = lhl_regime_regency
+				add_ideas = lhl_regime_constitutional_monarchy
 			}
 		}
     }
@@ -3011,8 +3062,8 @@ country_event = { #Coronation
 				id = KNT_event.122
 			}
 			swap_ideas = {
-				remove_idea = lhl_regime_regency
-				add_idea = lhl_regime_constitutional_monarchy
+				remove_ideas = lhl_regime_regency
+				add_ideas = lhl_regime_constitutional_monarchy
 			}
 		}
     }
@@ -3027,8 +3078,8 @@ country_event = { #Coronation
 				id = KNT_event.123
 			}
 			swap_ideas = {
-				remove_idea = lhl_regime_regency
-				add_idea = lhl_regime_constitutional_monarchy
+				remove_ideas = lhl_regime_regency
+				add_ideas = lhl_regime_constitutional_monarchy
 			}
 		}
     }
@@ -3043,8 +3094,8 @@ country_event = { #Coronation
 				id = KNT_event.124
 			}
 			swap_ideas = {
-				remove_idea = lhl_regime_regency
-				add_idea = lhl_regime_constitutional_monarchy
+				remove_ideas = lhl_regime_regency
+				add_ideas = lhl_regime_constitutional_monarchy
 			}
 		}
     }
@@ -3059,8 +3110,8 @@ country_event = { #Coronation
 				id = KNT_event.125
 			}
 			swap_ideas = {
-				remove_idea = lhl_regime_regency
-				add_idea = lhl_regime_constitutional_monarchy
+				remove_ideas = lhl_regime_regency
+				add_ideas = lhl_regime_constitutional_monarchy
 			}
 		}
     }
@@ -3281,8 +3332,8 @@ country_event = {
 		name = KNT_event.128.a
 		add_political_power = -50
 		swap_ideas = {
-			remove_idea = KNT_freedom_of_expression_1
-			add_idea = KNT_freedom_of_expression_2
+			remove_ideas = KNT_freedom_of_expression_1
+			add_ideas = KNT_freedom_of_expression_2
 		}
     }
 }
@@ -3514,25 +3565,62 @@ country_event = {
 		is_triggered_only = yes
 		option = {
 			name = KNT_event.134.a
-			ESS = {
-				country_event = {
-				days = 4
-				id = ESS_event.13
-				}
+			trigger = { 
+				country_exists = ESS
 			}
-			
-			EAG = {
-				country_event = {
-				days = 4
-				id = EAG_event.5
-				}
+			KNT = {
+				set_country_flag = KNT_sabotage_london
+				mark_focus_tree_layout_dirty = yes
 			}
+			#ESS = {
+			#	country_event = {
+			#	days = 4
+			#	id = ESS_event.13
+			#	}
+			#}
 			
-			MRC = {
-				country_event = {
-				days = 4
-				id = MRC_event.10
-				}
+			#EAG = {
+			#	country_event = {
+			#	days = 4
+			#	id = EAG_event.5
+			#	}
+			#}
+			
+			#MRC = {
+			#	country_event = {
+			#	days = 4
+			#	id = MRC_event.10
+			#	}
+			#}
+		}
+		option = {
+			name = KNT_event.134.b
+			trigger = { 
+				country_exists = MRC
+			}
+			KNT = {
+				set_country_flag = KNT_sabotage_mercia
+				mark_focus_tree_layout_dirty = yes
+			}		
+		}
+		option = {
+			name = KNT_event.134.c
+			trigger = { 
+				country_exists = NTH
+			}
+			KNT = {
+				set_country_flag = KNT_sabotage_republicans
+				mark_focus_tree_layout_dirty = yes
+			}
+		}
+		option = {
+			name = KNT_event.134.e
+			trigger = { 
+				country_exists = EAG
+			}
+			KNT = {
+				set_country_flag = KNT_sabotage_germans
+				mark_focus_tree_layout_dirty = yes
 			}
 		}
 	}
@@ -4955,7 +5043,700 @@ country_event = {
 			}
 		}
 	}
-	
+	#### INVENTIONS ####
+	add_to_variable = {
+		var = KNT_culture_people_support
+		value = 18
+	}
+	add_to_variable = {
+		var = KNT_culture_progress
+		value = -20
+	}
+	country_event = { #INVENTION - British Hatsune Miku
+		id = KNT_event.175
+		title = KNT_event.175.t
+		desc = KNT_event.175.d
+		is_triggered_only = yes
+		trigger = {
+			country_exists = ESS
+		}
+		option = {	
+			name = KNT_event.175.a #Invest into Hatsune Miku and give concerts
+			KNT = {
+				add_political_power = -50
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -150
+					producer = KNT
+				}				
+			}
+			hidden_effect = {
+				KNT = {
+					country_event = {
+						days = 30
+						id = KNT_event.176
+					}
+				}
+			}
+		}
+		option = {	
+			name = KNT_event.175.b #Invest into Hatsune Miku and give concerts with no security
+			KNT = {
+				add_political_power = -25			
+			}
+			hidden_effect = {
+				KNT = {
+					country_event = {
+						days = 30
+						id = KNT_event.179
+					}
+				}
+			}
+		}
+		option = {	
+			name = KNT_event.175.c #Don't do it
+		}
+	}
+	country_event = { #British Hatsune Miku Concert 1 (Kent)
+		id = KNT_event.176
+		title = KNT_event.176.t
+		desc = KNT_event.176.d
+		is_triggered_only = yes
+		option = {	
+			name = KNT_event.176.a #People Like It
+			custom_effect_tooltip = KNT_good_people_small.tt
+			add_to_variable = {
+				var = KNT_culture_people_support
+				value = 2
+			}
+			hidden_effect = {
+				KNT = {
+					country_event = {
+						days = 15
+						id = KNT_event.177
+					}
+				}
+			}			
+		}
+	}
+	country_event = { #British Hatsune Miku Concert 2 (Plymouth)
+		id = KNT_event.177
+		title = KNT_event.177.t
+		desc = KNT_event.177.d
+		is_triggered_only = yes
+		option = {	
+			name = KNT_event.177.a #People Like It, we get volunteers
+			custom_effect_tooltip = KNT_good_people_small.tt
+			KNT = {
+				add_manpower = 500
+			}
+			add_to_variable = {
+				var = KNT_culture_people_support
+				value = 2
+			}
+			hidden_effect = {
+				KNT = {
+					country_event = {
+						days = 15
+						id = KNT_event.178
+					}
+				}
+			}			
+		}
+	}
+	country_event = { #British Hatsune Miku Concert 3 (Bristol)
+		id = KNT_event.178
+		title = KNT_event.178.t
+		desc = KNT_event.178.d
+		is_triggered_only = yes
+		option = {	
+			name = KNT_event.178.a #People Like It, but protests from George supporters
+			custom_effect_tooltip = KNT_good_people_small.tt
+			KNT = {
+				add_political_power = -10
+			}
+			add_to_variable = {
+				var = KNT_culture_people_support
+				value = 2
+			}		
+		}
+	}
+	country_event = { #British Hatsune Miku Stolen by London
+		id = KNT_event.179
+		title = KNT_event.179.t
+		desc = KNT_event.179.d
+		is_triggered_only = yes
+		option = {	
+			name = KNT_event.179.a #Stolen by Londoners
+			ESS = {
+				add_timed_idea = {
+					idea = ESS_stolen_vocaloid
+					days = 30
+				}
+				country_event = {
+					days = 0
+					id = ESS_event.250
+				}
+			}
+		}
+	}
+	country_event = { #INVENTION - Hadron Collider
+		id = KNT_event.180
+		title = KNT_event.180.t
+		desc = KNT_event.180.d
+		is_triggered_only = yes
+		option = {	
+			name = KNT_event.180.a #Build this obvious deathtraps
+			KNT = {
+				add_political_power = -1000
+				add_tech_bonus = {
+					bonus = 0.01
+					uses = 1
+					category = electronics
+				}
+				hidden_effect = {
+					country_event = {
+						days = 5
+						id = KNT_event.181
+					}
+				}				
+			}
+			ai_chance = {
+				base = 0
+			}
+		}
+		option = {	
+			name = KNT_event.180.b #Don't do it
+			add_political_power = 50
+			ai_chance = {
+				base = 100
+			}
+		}
+	}
+	country_event = { #Hadron Collider Destroys England 1
+		id = KNT_event.181
+		title = KNT_event.181.t
+		desc = KNT_event.181.d
+		is_triggered_only = yes
+		option = {	
+			name = KNT_event.181.a #Goodbye forever...
+			hidden_effect = {
+				KNT = {
+					set_cosmetic_tag = KNT_COLLIDER
+					annex_country = {
+						target = KNT
+					}
+					annex_country = {
+						target = WES
+					}
+					annex_country = {
+						target = SUS
+					}
+					annex_country = {
+						target = ESS
+					}
+					annex_country = {
+						target = EAG
+					}
+					annex_country = {
+						target = WLS
+					}
+					annex_country = {
+						target = SCO
+					}
+					annex_country = {
+						target = MRC
+					}
+					annex_country = {
+						target = NTH
+					}
+					load_focus_tree = KNT_die
+					every_country_division = {
+						destroy_unit = yes
+					}
+					KNT_alexandra_paterson = {
+						remove_country_leader_trait = visionary_atlas
+					}
+					set_country_leader_portrait = {
+						portrait = GFX_Portrait_KNT_Collapsed_Authority
+					}
+					set_country_leader_name = {
+						name = KNT_hadron_collider
+					}
+					every_owned_state = {
+						set_building_level = {
+							type = infrastructure
+							level = 0
+							instant_build = yes
+						}
+						set_building_level = {
+							type = arms_factory
+							level = 0
+							instant_build = yes
+						}
+						set_building_level = {
+							type = industrial_complex
+							level = 0
+							instant_build = yes
+						}
+						set_building_level = {
+							type = air_base
+							level = 0
+							instant_build = yes
+						}
+						set_building_level = {
+							type = naval_base
+							level = 0
+							instant_build = yes
+						}
+						set_building_level = {
+							type = dockyard
+							level = 0
+							instant_build = yes
+						}
+						set_building_level = {
+							type = anti_air_building
+							level = 0
+							instant_build = yes
+						}
+						set_building_level = {
+							type = synthetic_refinery 
+							level = 0
+							instant_build = yes
+						}
+						set_building_level = {
+							type = fuel_silo
+							level = 0
+							instant_build = yes
+						}
+						set_building_level = {
+							type = radar_station
+							level = 0
+							instant_build = yes
+						}
+						set_building_level = {
+							type = rocket_site 
+							level = 0
+							instant_build = yes
+						}
+						set_building_level = {
+							type = nuclear_reactor
+							level = 0
+							instant_build = yes
+						}
+					}
+				}
+				1018 = {
+					set_state_owner_to = IRE
+				}
+				1120 = {
+					set_state_owner_to = ICE
+				}
+				launch_nuke = {
+					state = 998
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 999
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1007
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1006
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1000
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1161
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1153
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1001
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1156
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1159
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1158
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1160
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1157
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1003
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1002
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1165
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1006
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1143
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1004
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1152
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1154
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1151
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1146
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1155
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1008
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1144
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1005
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1009
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1145
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1011
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1012
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1010
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1147
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1148
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1149
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1150
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1013
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1014
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1015
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1016
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1162
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1164
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				launch_nuke = {
+					state = 1163
+					use_nuke = no
+					nuke_type = thermonuclear_bomb
+				}
+				news_event = {
+					days = 5
+					id = KNT_event.182
+				}
+				IRE = {
+					change_tag_from = KNT
+				}
+			}
+		}
+	}
+	news_event = {
+		id = KNT_event.182
+		title = KNT_event.182.t
+		desc = KNT_event.182.d
+		is_triggered_only = yes
+		major = yes
+		option = {
+			name = KNT_event.182.a
+		}
+	}
+	country_event = { #INVENTION - British Litertature Disneyworld
+		id = KNT_event.183
+		title = KNT_event.183.t
+		desc = KNT_event.183.d
+		is_triggered_only = yes
+		option = {	
+			name = KNT_event.183.a #Build disneyworld. Invest a lot of money
+			add_political_power = -75
+			hidden_effect = {
+				KNT = {
+					country_event = {
+						days = 120
+						id = KNT_event.184
+					}
+				}
+			}
+		}
+		option = {	
+			name = KNT_event.183.b #Build disneyworld. Invest less money
+			add_political_power = -25
+			hidden_effect = {
+				KNT = {
+					country_event = {
+						days = 120
+						id = KNT_event.185
+					}
+				}
+			}
+		}
+		option = {	
+			name = KNT_event.183.c #Don't build anything
+		}
+	}
+	country_event = { #British Litertature Disneyworld is a full success
+		id = KNT_event.184
+		title = KNT_event.184.t
+		desc = KNT_event.184.d
+		is_triggered_only = yes
+		option = {	
+			name = KNT_event.184.a #Everyone likes it
+			custom_effect_tooltip = KNT_good_people_small.tt
+			custom_effect_tooltip = KNT_good_progress_small.tt
+			add_to_variable = {
+				var = KNT_culture_people_support
+				value = 2
+			}
+			add_to_variable = {
+				var = KNT_culture_progress
+				value = 2
+			}
+			1002 = {
+				add_extra_state_shared_building_slots = 1	
+			}	
+		}
+	}
+	country_event = { #British Litertature Disneyworld is a partial success
+		id = KNT_event.185
+		title = KNT_event.185.t
+		desc = KNT_event.185.d
+		is_triggered_only = yes
+		option = {	
+			name = KNT_event.185.a #Everyone likes it
+			custom_effect_tooltip = KNT_good_progress_small.tt
+			add_to_variable = {
+				var = KNT_culture_progress
+				value = 2
+			}
+			1002 = {
+				add_extra_state_shared_building_slots = 1	
+			}
+		}
+	}
+	country_event = { #INVENTION - Really cool pens
+		id = KNT_event.186
+		title = KNT_event.186.t
+		desc = KNT_event.186.d
+		is_triggered_only = yes
+		option = {	
+			name = KNT_event.186.a #Create really cool pens
+			add_political_power = 10
+		}
+	}
+	country_event = { #INVENTION - Obvious scam
+		id = KNT_event.187
+		title = KNT_event.187.t
+		desc = KNT_event.187.d
+		is_triggered_only = yes
+		option = {	
+			name = KNT_event.187.a #Invest into an obvious scam
+			add_political_power = -50
+			hidden_effect = {
+				KNT = {
+					country_event = {
+						days = 15
+						id = KNT_event.188
+					}
+				}
+			}	
+		}
+		option = {	
+			name = KNT_event.187.b #Don't invest into obvious scam
+			hidden_effect = {
+				KNT = {
+					country_event = {
+						days = 15
+						id = KNT_event.189
+					}
+				}
+			}
+		}
+	}
+	country_event = { #Obvious scam turns out to be a scam
+		id = KNT_event.188
+		title = KNT_event.188.t
+		desc = KNT_event.188.d
+		is_triggered_only = yes
+		option = {	
+			name = KNT_event.188.a #We fell for a scam
+			KNT = {
+				add_political_power = -100
+			}
+		}
+	}
+	country_event = { #We prevented an obvious scam
+		id = KNT_event.189
+		title = KNT_event.189.t
+		desc = KNT_event.189.d
+		is_triggered_only = yes
+		option = {	
+			name = KNT_event.189.a #We defeated a scam
+			KNT = {
+				add_political_power = 100
+				add_timed_idea = {
+					idea = KNT_fighting_against_corruption
+					days = 180
+				}
+			}
+		}
+	}
+	country_event = { #INVENTION - What?
+		id = KNT_event.190
+		title = KNT_event.190.t
+		desc = KNT_event.190.d
+		is_triggered_only = yes
+		option = {	
+			name = KNT_event.187.a #We have invesdted into something
+			KNT = {
+				random = {
+					chance = 50
+					add_political_power = 55
+				}
+				random = {
+					chance = 50
+					add_political_power = -55
+				}
+			}
+		}
+	}
+	country_event = { #INVENTION - Expedition into Russia
+		id = KNT_event.191
+		title = KNT_event.191.t
+		desc = KNT_event.191.d
+		is_triggered_only = yes
+		option = {	
+			name = KNT_event.191.a #We have invested into something
+		}
+		option = {	
+			name = KNT_event.191.b #We have invested into something
+		}
+	}
 	######THERE'LL ALWAYS BE AN ENGLAND####### 
 	
 	country_event = {
@@ -7503,6 +8284,356 @@ country_event = {
 			}
 		}
 	}
+	country_event = { #Adding Knights
+		id = KNT_event.337
+		title = KNT_event.337.t
+		desc = KNT_event.337.d
+		is_triggered_only = yes
+		option = {
+			name = KNT_event.337.a
+			every_possible_country = {
+				limit = { has_character = WES_roger_scruton }
+				random_character = {
+					limit = { 
+						is_character = WES_roger_scruton 
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_Nikolai_Tolstoy }
+				random_character = {
+					limit = { 
+						is_character = WES_Nikolai_Tolstoy
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_David_Richards }
+				random_character = {
+					limit = { 
+						is_character = WES_David_Richards
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_Rupert_Smith }
+				random_character = {
+					limit = { 
+						is_character = WES_Rupert_Smith
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_Mark_Carney }
+				random_character = {
+					limit = { 
+						is_character = WES_Mark_Carney
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_Leon_Krier }
+				random_character = {
+					limit = { 
+						is_character = WES_Leon_Krier
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_David_Triggs }
+				random_character = {
+					limit = { 
+						is_character = WES_David_Triggs
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_Michael_Mainelli }
+				random_character = {
+					limit = { 
+						is_character = WES_Michael_Mainelli
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_Phillip_Blond }
+				random_character = {
+					limit = { 
+						is_character = WES_Phillip_Blond
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_Stephen_Fry }
+				random_character = {
+					limit = { 
+						is_character = WES_Stephen_Fry
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_Ephraim }
+				random_character = {
+					limit = { 
+						is_character = WES_Ephraim
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_Paul_Kingsnorth }
+				random_character = {
+					limit = { 
+						is_character = WES_Paul_Kingsnorth
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_Clive_Alderton }
+				random_character = {
+					limit = { 
+						is_character = WES_Clive_Alderton
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_Michael_of_Kent }
+				random_character = {
+					limit = { 
+						is_character = WES_Michael_of_Kent
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_Ian_Forbes }
+				random_character = {
+					limit = { 
+						is_character = WES_Ian_Forbes
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_Stephen_Dalton }
+				random_character = {
+					limit = { 
+						is_character = WES_Stephen_Dalton
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_Tony_Johnstone_Burt }
+				random_character = {
+					limit = { 
+						is_character = WES_Tony_Johnstone_Burt
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_Andrew_Garrad }
+				random_character = {
+					limit = { 
+						is_character = WES_Andrew_Garrad
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_Andrew_Garrad }
+				random_character = {
+					limit = { 
+						is_character = WES_Andrew_Garrad
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_Nikita_Lobanov }
+				random_character = {
+					limit = { 
+						is_character = WES_Nikita_Lobanov
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_Patrick_Moore }
+				random_character = {
+					limit = { 
+						is_character = WES_Patrick_Moore
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_Richard_J_Evans }
+				random_character = {
+					limit = { 
+						is_character = WES_Richard_J_Evans
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_Alex_Cresswell }
+				random_character = {
+					limit = { 
+						is_character = WES_Alex_Cresswell
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_Philip_Luty }
+				random_character = {
+					limit = { 
+						is_character = WES_Philip_Luty
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_Ian_Martin }
+				random_character = {
+					limit = { 
+						is_character = WES_Ian_Martin
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_Peter_Loughborough }
+				random_character = {
+					limit = { 
+						is_character = WES_Peter_Loughborough
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_Jonathan_Sumption }
+				random_character = {
+					limit = { 
+						is_character = WES_Jonathan_Sumption
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_Jonathon_Porritt }
+				random_character = {
+					limit = { 
+						is_character = WES_Jonathon_Porritt
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_Edward_Young }
+				random_character = {
+					limit = { 
+						is_character = WES_Edward_Young
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_Link_Byfield }
+				random_character = {
+					limit = { 
+						is_character = WES_Link_Byfield
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = WES_Robin_Page }
+				random_character = {
+					limit = { 
+						is_character = WES_Robin_Page
+						has_character_flag = WES_is_knight
+					}
+					
+					set_nationality = KNT
+				}
+			}
+		}
+	}
 	###Experiments###
 	country_event = {
 		id = KNT_event.2000
@@ -7614,3 +8745,28 @@ country_event = {
 		}
 	}
 	
+	country_event = {
+		id = KNT_event.2010
+		title = KNT_event.2010.t
+		desc = KNT_event.2010.d
+		is_triggered_only = yes
+		
+		option = {
+			name = KNT_event.2010.a
+			KNT = {
+				set_politics = {
+					ruling_party = neocameralism
+				}
+				load_focus_tree = KNT_neovictorians
+			}
+		}
+		option = {
+			name = KNT_event.2010.b
+			KNT = {
+				set_politics = {
+					ruling_party = right_populism
+				}
+				load_focus_tree = KNT_tories
+			}
+		}
+	}

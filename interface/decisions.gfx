@@ -1901,5 +1901,27 @@ spriteTypes = {
 		name = "GFX_decision_SUS_socecon_decisions"
 		texturefile = "gfx/interface/decisions/SUS_socecon_decisions.dds"
 	}
-	
+	#KNT#
+	spriteType = {
+		name = "GFX_decision_KNT_cultural_decisions"
+		texturefile = "gfx/interface/decisions/KNT_cultural_decisions.dds"
+	}	
+	spriteType = {
+		name = "GFX_decision_KNT_ITER_project_decisions"
+		texturefile = "gfx/interface/decisions/KNT_ITER_project_decisions.dds"
+	}
+	#IMT#
+	spriteType = {
+		name = "GFX_decision_IMT_love_letters"
+		texturefile = "gfx/interface/decisions/IMT_love_letters.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_IMT_love_letters_2"
+		texturefile = "gfx/interface/decisions/IMT_love_letters_2.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_IMT_ai_mechanic"
+		texturefile = "gfx/interface/decisions/IMT_ai_mechanic.dds"
+	}
+
 }

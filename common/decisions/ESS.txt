@@ -1803,7 +1803,137 @@ ESS_board_of_directors = {
 			factor = 100
 		}
 	}
-
+	#Clive Palmer#
+	ESS_clive_palmer_actions_TITLE = {
+		available = {
+			has_completed_focus = ESS_clive_palmer_leader
+		}
+		visible = {
+			has_completed_focus = ESS_clive_palmer_leader
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					NOT = {
+						ESS = {
+							has_country_flag = ESS_interact_with_clive_palmer_active
+						}
+					}
+				}
+				ESS = {
+					set_country_flag = ESS_interact_with_clive_palmer_active
+				}
+			}
+			else = {
+				ESS = {
+					clr_country_flag = ESS_interact_with_clive_palmer_active
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ESS_clive_parker_tungsten_mining = {
+		custom_cost_trigger = {
+			check_variable = { ESS_board_of_directors_budget > 7 }
+		}
+		custom_cost_text = ESS_CITY_BUDGET_COST_8
+		available = {
+			has_completed_focus = ESS_revitalize_mining_industry
+			has_country_flag = ESS_interact_with_clive_palmer_active
+			ESS = {
+				controls_state = 999
+			}
+		}
+		visible = {
+			has_completed_focus = ESS_revitalize_mining_industry
+			has_country_flag = ESS_interact_with_clive_palmer_active
+		}
+		days_remove = 100
+		fire_only_once = yes
+		complete_effect = {
+			add_to_variable = { ESS_board_of_directors_budget = -8 }
+			clamp_variable = {
+				var = ESS_board_of_directors_budget
+				min = 0
+			}
+		}
+		remove_effect = {
+			999 = {
+				add_resource = {
+					type = tungsten
+					amount = 20
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ESS_clive_parker_northern_mining = {
+		custom_cost_trigger = {
+			check_variable = { ESS_board_of_directors_budget > 9 }
+		}
+		custom_cost_text = ESS_CITY_BUDGET_COST_10
+		available = {
+			has_completed_focus = ESS_revitalize_mining_industry
+			has_country_flag = ESS_interact_with_clive_palmer_active
+			ESS = {
+				controls_state = 1009
+				controls_state = 1011
+				controls_state = 1010
+			}
+		}
+		visible = {
+			has_completed_focus = ESS_revitalize_mining_industry
+			has_country_flag = ESS_interact_with_clive_palmer_active
+		}
+		days_remove = 100
+		fire_only_once = yes
+		complete_effect = {
+			add_to_variable = { ESS_board_of_directors_budget = -10 }
+			clamp_variable = {
+				var = ESS_board_of_directors_budget
+				min = 0
+			}
+		}
+		remove_effect = {
+			1009 = {
+				add_resource = {
+					type = aluminium
+					amount = 20
+				}
+				add_resource = {
+					type = steel
+					amount = 10
+				}
+			}
+			1011 = {
+				add_resource = {
+					type = aluminium
+					amount = 20
+				}
+				add_resource = {
+					type = steel
+					amount = 10
+				}
+			}
+			1010 = {
+				add_resource = {
+					type = aluminium
+					amount = 20
+				}
+				add_resource = {
+					type = steel
+					amount = 10
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
 }
 
 ESS_london_bands = {

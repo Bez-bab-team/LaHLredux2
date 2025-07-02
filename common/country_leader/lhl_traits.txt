@@ -1670,6 +1670,8 @@ leader_traits = {
 		ai_will_do = {
 			factor = 1
 		}
+		army_speed_factor = 0.12
+		stability_factor = -0.1
 	}
 	#
 	strong_and_dynamic = { #Emma_Walmsley#
@@ -1678,6 +1680,8 @@ leader_traits = {
 		ai_will_do = {
 			factor = 1
 		}
+		consumer_goods_factor = -0.1
+		stability_factor = 0.1
 	}
 	#
 	the_apprentice = { #Peter_Thiel#
@@ -1686,6 +1690,8 @@ leader_traits = {
 		ai_will_do = {
 			factor = 1
 		}
+		research_speed_factor = 0.1
+		operation_cost = -0.25
 	}
 	#
 	mountain_king = { #Max_Mosley#
@@ -1694,6 +1700,8 @@ leader_traits = {
 		ai_will_do = {
 			factor = 1
 		}
+		local_resources_factor = 0.15
+		production_lack_of_resource_penalty_factor = -0.25 
 	}
 	#
 	soldier_ceo = { #Tim Spicer#
@@ -1702,6 +1710,8 @@ leader_traits = {
 		ai_will_do = {
 			factor = 1
 		}
+		war_support_factor = 0.15
+		send_volunteer_factor = 0.25
 	}
 	#
 	king_of_two_kingdoms = { #Alois#
@@ -1710,6 +1720,9 @@ leader_traits = {
 		ai_will_do = {
 			factor = 1
 		}
+		stability_factor = 0.1
+		war_support_factor = 0.1
+		consumer_goods_factor = -0.15
 	}
 	
 #################################ENGLAND#######################################

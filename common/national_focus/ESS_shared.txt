@@ -6501,6 +6501,14 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_emma_walmsley_leader"
+			add_trait = {
+				 character = ESS_emma_walmsley
+				 slot = country_leader
+				 trait = strong_and_dynamic
+			}
+			ESS = {
+				add_political_power = 150
+			}
 		}
 		x = 16
 		y = 22
@@ -6628,6 +6636,14 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_clive_palmer_leader"
+			add_trait = {
+				character = ESS_clive_palmer
+				slot = country_leader
+				trait = mountain_king
+			}
+			ESS = {
+				add_political_power = 150
+			}
 		}
 		x = 16
 		y = 22
@@ -6638,6 +6654,16 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_revitalize_mining_industry"
+			ESS = {
+				set_country_flag = ESS_revitalize_mining_indudstry
+				add_tech_bonus = {
+					bonus = 0.5
+					uses = 3
+					category = excavation_tech
+				}
+			}
+			custom_effect_tooltip = ESS_revitalize_mining_industry_tt_1
+			custom_effect_tooltip = ESS_revitalize_mining_industry_tt_2
 		}
 		prerequisite = {
 			focus = ESS_clive_palmer_leader
@@ -6734,7 +6760,7 @@
 	}
 	shared_focus = { 
 		id = ESS_the_great_fair
-		icon = GFX_goal_ESS_bioreactor
+		icon = GFX_goal_ESS_the_great_fair
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_bioreactor"
@@ -6755,6 +6781,14 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_moldbug_monarchy_leader"
+			add_trait = {
+				character = ESS_alois
+				slot = country_leader
+				trait = king_of_two_kingdoms
+			}
+			ESS = {
+				add_political_power = 150
+			}
 		}
 		x = 16
 		y = 22
@@ -6882,6 +6916,14 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_peter_thiel_leader"
+			add_trait = {
+				character = ESS_peter_thiel
+				slot = country_leader
+				trait = the_apprentice
+			}
+			ESS = {
+				add_political_power = 150
+			}
 		}
 		x = 16
 		y = 22
@@ -7009,6 +7051,14 @@
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_timothy_simon_spicer_leader"
+			add_trait = {
+				character = SUS_tim_spicer
+				slot = country_leader
+				trait = soldier_ceo
+			}
+			ESS = {
+				add_political_power = 150
+			}
 		}
 		x = 16
 		y = 22

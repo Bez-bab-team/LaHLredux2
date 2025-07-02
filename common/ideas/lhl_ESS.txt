@@ -1612,6 +1612,22 @@ ideas = {
 				supply_factor = 0.1
 			}
 		}
+		###
+		ESS_stolen_vocaloid = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.01
+				stability_factor = 0.02
+			}
+		}
 	}
 	
 	hidden_ideas = {

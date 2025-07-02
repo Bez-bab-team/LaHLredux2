@@ -1,9 +1,8 @@
 focus_tree = {
-	id = KNT_focus
-	default = no
+	id = KNT_intro
+	default = yes
 	continuous_focus_position = { x = 20 y = 4000 }
         shared_focus = KNT_shaky_ground
-		shared_focus = KNT_there_always_be_an_england
 		shared_focus = KNT_radio_wild_geese
 	country = {
 		factor = 0
@@ -18,9 +17,47 @@ focus_tree = {
 	id = KNT_tories
 	default = no
 	continuous_focus_position = { x = 20 y = 4000 }
-        shared_focus = KNT_there_always_be_an_england
-		shared_focus = KNT_shaky_ground
+        shared_focus = KNT_shaky_ground
 		shared_focus = KNT_radio_wild_geese
+        shared_focus = KNT_there_always_be_an_england
+		shared_focus = KNT_we_shall_go_on_to_the_end
+		shared_focus = KNT_the_workshop_of_the_world
+		shared_focus = KNT_stop_cultural_decadence
+		shared_focus = KNT_an_unwilling_alliance
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = KNT
+			
+		}
+	}
+}
+focus_tree = {
+	id = KNT_neovictorians
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+        shared_focus = KNT_shaky_ground
+		shared_focus = KNT_radio_wild_geese
+        shared_focus = KNT_there_always_be_an_england
+		shared_focus = KNT_we_shall_go_on_to_the_end
+		shared_focus = KNT_the_workshop_of_the_world
+		shared_focus = KNT_stop_cultural_decadence
+		shared_focus = KNT_an_unwilling_alliance
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = KNT
+			
+		}
+	}
+}
+
+focus_tree = {
+	id = KNT_die
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
 	country = {
 		factor = 0
 		modifier = {

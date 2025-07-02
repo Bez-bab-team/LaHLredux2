@@ -137,4 +137,9 @@ spriteTypes = {
 		name = "GFX_NTH_galloway_dismissed_event"
 		texturefile = "gfx/event_pictures/NTH_galloway_dismissed.dds"
 	}
+	#ESS#
+	spriteType = {
+		name = "GFX_ESS_choosing_CEO"
+		texturefile = "gfx/event_pictures/ESS_choosing_CEO.dds"
+	}	
 }

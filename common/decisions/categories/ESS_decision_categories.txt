@@ -89,3 +89,15 @@ ESS_workers_parliament_gui_decision = {
 	scripted_gui = ESS_workers_parliament_gui
 	visible_when_empty = yes
 }
+
+##Mark Fisher##
+ESS_torch_of_the_revolution = {
+	icon = GFX_
+
+	allowed = { original_tag = ESS }
+
+	priority = 1000
+
+	scripted_gui = lhl_ESS_torch_of_revolution
+	visible_when_empty = yes
+}
