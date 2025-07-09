@@ -8021,3 +8021,1466 @@
 		x = 7
 		y = 27
 	}
+	###FISHER###
+	#Intro#
+	shared_focus = { 
+		id = ESS_planting_the_seeds
+		icon = GFX_goal_ESS_planting_the_seeds
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_planting_the_seeds"
+		}
+		x = 10
+		y = 0
+	}
+	shared_focus = { 
+		id = ESS_souring_the_kraut
+		icon = GFX_goal_ESS_souring_the_kraut
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_souring_the_kraut"
+		}
+		prerequisite = {
+			focus = ESS_planting_the_seeds
+		}
+		x = 7
+		y = 1
+	}
+	shared_focus = { 
+		id = ESS_red_panters
+		icon = GFX_goal_ESS_red_panters
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_red_panters"
+		}
+		prerequisite = {
+			focus = ESS_planting_the_seeds
+		}
+		x = 9
+		y = 1
+	}
+	shared_focus = { 
+		id = ESS_flower_power
+		icon = GFX_goal_ESS_flower_power
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_flower_power"
+		}
+		prerequisite = {
+			focus = ESS_planting_the_seeds
+		}
+		x = 11
+		y = 1
+	}
+	shared_focus = { 
+		id = ESS_free_soldiers_committee
+		icon = GFX_goal_ESS_free_soldiers_committee
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_free_soldiers_committee"
+		}
+		prerequisite = {
+			focus = ESS_planting_the_seeds
+		}
+		x = 13
+		y = 1
+	}
+	shared_focus = { 
+		id = ESS_smoke_break
+		icon = GFX_goal_ESS_smoke_break
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_smoke_break"
+		}
+		prerequisite = {
+			focus = ESS_souring_the_kraut
+		}
+		prerequisite = {
+			focus = ESS_red_panters
+		}
+		x = 8
+		y = 2
+	}
+	shared_focus = { 
+		id = ESS_smash_the_fash
+		icon = GFX_goal_ESS_smash_the_fash
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_smash_the_fash"
+		}
+		prerequisite = {
+			focus = ESS_red_panters
+		}
+		prerequisite = {
+			focus = ESS_flower_power
+		}
+		x = 10
+		y = 2
+	}
+	shared_focus = { 
+		id = ESS_the_fat_of_the_land
+		icon = GFX_goal_ESS_the_fat_of_the_land
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_the_fat_of_the_land"
+		}
+		prerequisite = {
+			focus = ESS_free_soldiers_committee
+		}
+		prerequisite = {
+			focus = ESS_flower_power
+		}
+		x = 12
+		y = 2
+	}
+	shared_focus = { 
+		id = ESS_useful_living_space
+		icon = GFX_goal_ESS_useful_living_space
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_useful_living_space"
+		}
+		prerequisite = {
+			focus = ESS_smoke_break
+		}
+		prerequisite = {
+			focus = ESS_smash_the_fash
+		}
+		x = 9
+		y = 3
+	}
+	shared_focus = { 
+		id = ESS_old_enough_to_vote
+		icon = GFX_goal_ESS_old_enough_to_vote
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_old_enough_to_vote"
+		}
+		prerequisite = {
+			focus = ESS_the_fat_of_the_land
+		}
+		prerequisite = {
+			focus = ESS_smash_the_fash
+		}
+		x = 11
+		y = 3
+	}
+	shared_focus = { 
+		id = ESS_mental_revolution
+		icon = GFX_goal_ESS_mental_revolution
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_mental_revolution"
+		}
+		prerequisite = {
+			focus = ESS_useful_living_space
+		}
+		prerequisite = {
+			focus = ESS_old_enough_to_vote
+		}
+		x = 10
+		y = 4
+	}
+	###Fuel for the fire###
+	shared_focus = { 
+		id = ESS_psychodelic_shacks
+		icon = GFX_goal_ESS_psychodelic_shacks
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_psychodelic_shacks"
+		}
+		x = 10
+		y = 5
+	}
+	shared_focus = { 
+		id = ESS_it_will_be_televised
+		icon = GFX_goal_ESS_it_will_be_televised
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_it_will_be_televised"
+		}
+		prerequisite = {
+			focus = ESS_psychodelic_shacks
+		}
+		x = 8
+		y = 6
+	}
+	shared_focus = { 
+		id = ESS_unshackle_the_intellectuals
+		icon = GFX_goal_ESS_unshackle_the_intellectuals
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_unshackle_the_intellectuals"
+		}
+		prerequisite = {
+			focus = ESS_psychodelic_shacks
+		}
+		x = 10
+		y = 6
+	}
+	shared_focus = { 
+		id = ESS_communal_psychologists
+		icon = GFX_goal_ESS_communal_psychologists
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_communal_psychologists"
+		}
+		prerequisite = {
+			focus = ESS_psychodelic_shacks
+		}
+		x = 12
+		y = 6
+	}
+	shared_focus = { 
+		id = ESS_artist_in_the_city
+		icon = GFX_goal_ESS_artist_in_the_city
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_artist_in_the_city"
+		}
+		prerequisite = {
+			focus = ESS_it_will_be_televised
+		}
+		x = 8
+		y = 7
+	}
+	shared_focus = { 
+		id = ESS_library_of_the_babylon
+		icon = GFX_goal_ESS_library_of_the_babylon
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_library_of_the_babylon"
+		}
+		prerequisite = {
+			focus = ESS_unshackle_the_intellectuals
+		}
+		x = 10
+		y = 7
+	}
+	shared_focus = { 
+		id = ESS_festive_seasons
+		icon = GFX_goal_ESS_festive_seasons
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_festive_seasons"
+		}
+		prerequisite = {
+			focus = ESS_communal_psychologists
+		}
+		x = 12
+		y = 7
+	}
+	shared_focus = { 
+		id = ESS_ditch_the_past
+		icon = GFX_goal_ESS_ditch_the_past
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_ditch_the_past"
+		}
+		prerequisite = {
+			focus = ESS_library_of_the_babylon
+		}
+		prerequisite = {
+			focus = ESS_artist_in_the_city
+		}
+		mutually_exclusive = {
+			focus = ESS_pink_westminister
+		}
+		x = 9
+		y = 8
+	}
+	shared_focus = { 
+		id = ESS_pink_westminister
+		icon = GFX_goal_ESS_pink_westminister
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_pink_westminister"
+		}
+		prerequisite = {
+			focus = ESS_library_of_the_babylon
+		}
+		prerequisite = {
+			focus = ESS_festive_seasons
+		}
+		mutually_exclusive = {
+			focus = ESS_ditch_the_past
+		}
+		x = 11
+		y = 8
+	}
+	shared_focus = { 
+		id = ESS_enter_the_mirror
+		icon = GFX_goal_ESS_enter_the_mirror
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_enter_the_mirror"
+		}
+		prerequisite = {
+			focus = ESS_pink_westminister
+			focus = ESS_ditch_the_past
+		}
+		x = 10
+		y = 9
+	}
+	shared_focus = { 
+		id = ESS_sexual_liberty
+		icon = GFX_goal_ESS_sexual_liberty
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_sexual_liberty"
+		}
+		prerequisite = {
+			focus = ESS_enter_the_mirror
+		}
+		x = 9
+		y = 10
+	}
+	shared_focus = { 
+		id = ESS_positive_careers
+		icon = GFX_goal_ESS_positive_careers
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_positive_careers"
+		}
+		prerequisite = {
+			focus = ESS_enter_the_mirror
+		}
+		x = 11
+		y = 10
+	}
+	shared_focus = { 
+		id = ESS_come_as_you_are
+		icon = GFX_goal_ESS_come_as_you_are
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_come_as_you_are"
+		}
+		prerequisite = {
+			focus = ESS_sexual_liberty
+		}
+		x = 8
+		y = 11
+	}
+	shared_focus = { 
+		id = ESS_open_the_third_eye
+		icon = GFX_goal_ESS_open_the_third_eye
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_open_the_third_eye"
+		}
+		prerequisite = {
+			focus = ESS_sexual_liberty
+		}
+		prerequisite = {
+			focus = ESS_positive_careers
+		}
+		x = 10
+		y = 11
+	}
+	shared_focus = { 
+		id = ESS_fear_and_loathing_in_london
+		icon = GFX_goal_ESS_fear_and_loathing_in_london
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_fear_and_loathing_in_london"
+		}
+		prerequisite = {
+			focus = ESS_sexual_liberty
+		}
+		x = 12
+		y = 11
+	}
+	shared_focus = { 
+		id = ESS_foster_the_enlightened
+		icon = GFX_goal_ESS_foster_the_enlightened
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_foster_the_enlightened"
+		}
+		prerequisite = {
+			focus = ESS_come_as_you_are
+		}
+		prerequisite = {
+			focus = ESS_open_the_third_eye
+		}
+		prerequisite = {
+			focus = ESS_fear_and_loathing_in_london
+		}
+		x = 10
+		y = 12
+	}
+	shared_focus = { 
+		id = ESS_tear_down_the_wall
+		icon = GFX_goal_ESS_tear_down_the_wall
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_tear_down_the_wall"
+		}
+		prerequisite = {
+			focus = ESS_foster_the_enlightened
+		}
+		x = 10
+		y = 13
+	}
+	###Politics###
+	shared_focus = { 
+		id = ESS_techno_cats
+		icon = GFX_goal_ESS_techno_cats
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_techno_cats"
+		}
+		mutually_exclusive = {
+			focus = ESS_glass_case_democracy
+			focus = ESS_solidarity_forever
+			focus = ESS_post_modern_republic
+		}
+		x = -1
+		y = 5
+	}
+	shared_focus = { 
+		id = ESS_glass_case_democracy
+		icon = GFX_goal_ESS_glass_case_democracy
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_glass_case_democracy"
+		}
+		mutually_exclusive = {
+			focus = ESS_techno_cats
+			focus = ESS_solidarity_forever
+			focus = ESS_post_modern_republic
+		}
+		x = 1
+		y = 5
+	}
+	shared_focus = { 
+		id = ESS_solidarity_forever
+		icon = GFX_goal_ESS_solidarity_forever
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_solidarity_forever"
+		}
+		mutually_exclusive = {
+			focus = ESS_techno_cats
+			focus = ESS_glass_case_democracy
+			focus = ESS_post_modern_republic
+		}
+		x = 3
+		y = 5
+	}
+	shared_focus = { 
+		id = ESS_post_modern_republic
+		icon = GFX_goal_ESS_post_modern_republic
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_post_modern_republic"
+		}
+		mutually_exclusive = {
+			focus = ESS_techno_cats
+			focus = ESS_glass_case_democracy
+			focus = ESS_solidarity_forever
+		}
+		x = 5
+		y = 5
+	}
+	shared_focus = { 
+		id = ESS_welcome_to_the_machine
+		icon = GFX_goal_ESS_welcome_to_the_machine
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_welcome_to_the_machine"
+		}
+		prerequisite = {
+			focus = ESS_techno_cats
+		}
+		x = -2
+		y = 6
+	}
+	shared_focus = { 
+		id = ESS_the_red_house
+		icon = GFX_goal_ESS_the_red_house
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_the_red_house"
+		}
+		prerequisite = {
+			focus = ESS_techno_cats
+			focus = ESS_glass_case_democracy
+		}
+		x = 0
+		y = 6
+	}
+	shared_focus = { 
+		id = ESS_here_is_to_you
+		icon = GFX_goal_ESS_here_is_to_you
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_here_is_to_you"
+		}
+		prerequisite = {
+			focus = ESS_solidarity_forever
+			focus = ESS_glass_case_democracy
+		}
+		x = 2
+		y = 6
+	}
+	shared_focus = { 
+		id = ESS_call_the_councils
+		icon = GFX_goal_ESS_call_the_councils
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_call_the_councils"
+		}
+		prerequisite = {
+			focus = ESS_solidarity_forever
+			focus = ESS_post_modern_republic
+		}
+		x = 4
+		y = 6
+	}
+	shared_focus = { 
+		id = ESS_frequent_sortition
+		icon = GFX_goal_ESS_frequent_sortition
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_frequent_sortition"
+		}
+		prerequisite = {
+			focus = ESS_post_modern_republic
+		}
+		x = 6
+		y = 6
+	}
+	shared_focus = { 
+		id = ESS_digital_state
+		icon = GFX_goal_ESS_digital_state
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_digital_state"
+		}
+		prerequisite = {
+			focus = ESS_welcome_to_the_machine
+			focus = ESS_the_red_house
+			focus = ESS_here_is_to_you
+		}
+		mutually_exclusive = {
+			focus = ESS_limit_the_mouths
+		}
+		x = 0
+		y = 7
+	}
+	shared_focus = { 
+		id = ESS_limit_the_mouths
+		icon = GFX_goal_ESS_limit_the_mouths
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_limit_the_mouths"
+		}
+		prerequisite = {
+			focus = ESS_here_is_to_you
+			focus = ESS_call_the_councils
+			focus = ESS_frequent_sortition
+		}
+		mutually_exclusive = {
+			focus = ESS_digital_state
+		}
+		x = 4
+		y = 7
+	}
+	shared_focus = { 
+		id = ESS_oath_of_progress
+		icon = GFX_goal_ESS_oath_of_progress
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_oath_of_progress"
+		}
+		prerequisite = {
+			focus = ESS_digital_state
+		}
+		mutually_exclusive = {
+			focus = ESS_all_eyes_on_justice
+		}
+		x = -1
+		y = 8
+	}
+	shared_focus = { 
+		id = ESS_all_eyes_on_justice
+		icon = GFX_goal_ESS_all_eyes_on_justice
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_all_eyes_on_justice"
+		}
+		prerequisite = {
+			focus = ESS_digital_state
+		}
+		mutually_exclusive = {
+			focus = ESS_oath_of_progress
+		}
+		x = 1
+		y = 8
+	}
+	shared_focus = { 
+		id = ESS_vanguard_committee
+		icon = GFX_goal_ESS_vanguard_committee
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_vanguard_committee"
+		}
+		prerequisite = {
+			focus = ESS_limit_the_mouths
+		}
+		mutually_exclusive = {
+			focus = ESS_everyday_is_a_vote
+		}
+		x = 3
+		y = 8
+	}
+	shared_focus = { 
+		id = ESS_everyday_is_a_vote
+		icon = GFX_goal_ESS_everyday_is_a_vote
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_everyday_is_a_vote"
+		}
+		prerequisite = {
+			focus = ESS_limit_the_mouths
+		}
+		mutually_exclusive = {
+			focus = ESS_vanguard_committee
+		}
+		x = 5
+		y = 8
+	}
+	shared_focus = { 
+		id = ESS_era_of_new_formality
+		icon = GFX_goal_ESS_era_of_new_formality
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_era_of_new_formality"
+		}
+		prerequisite = {
+			focus = ESS_oath_of_progress
+		}
+		x = -2
+		y = 9
+	}
+	shared_focus = { 
+		id = ESS_liberated_media
+		icon = GFX_goal_ESS_liberated_media
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_liberated_media"
+		}
+		prerequisite = {
+			focus = ESS_oath_of_progress
+			focus = ESS_all_eyes_on_justice
+		}
+		x = 0
+		y = 9
+	}
+	shared_focus = { 
+		id = ESS_the_capital_sins
+		icon = GFX_goal_ESS_the_capital_sins
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_the_capital_sins"
+		}
+		prerequisite = {
+			focus = ESS_vanguard_committee
+			focus = ESS_all_eyes_on_justice
+		}
+		x = 2
+		y = 9
+	}
+	shared_focus = { 
+		id = ESS_dissent_is_an_order
+		icon = GFX_goal_ESS_dissent_is_an_order
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_dissent_is_an_order"
+		}
+		prerequisite = {
+			focus = ESS_vanguard_committee
+			focus = ESS_everyday_is_a_vote
+		}
+		x = 4
+		y = 9
+	}
+	shared_focus = { 
+		id = ESS_on_discipline_and_punishment
+		icon = GFX_goal_ESS_on_discipline_and_punishment
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_on_discipline_and_punishment"
+		}
+		prerequisite = {
+			focus = ESS_everyday_is_a_vote
+		}
+		x = 6
+		y = 9
+	}
+	shared_focus = { 
+		id = ESS_children_of_nature
+		icon = GFX_goal_ESS_children_of_nature
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_children_of_nature"
+		}
+		prerequisite = {
+			focus = ESS_era_of_new_formality
+		}
+		x = -3
+		y = 10
+	}
+	shared_focus = { 
+		id = ESS_no_one_left_out
+		icon = GFX_goal_ESS_no_one_left_out
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_no_one_left_out"
+		}
+		prerequisite = {
+			focus = ESS_liberated_media
+			focus = ESS_era_of_new_formality
+		}
+		x = -1
+		y = 10
+	}
+	shared_focus = { 
+		id = ESS_death_of_overworking
+		icon = GFX_goal_ESS_death_of_overworking
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_death_of_overworking"
+		}
+		prerequisite = {
+			focus = ESS_the_capital_sins
+			focus = ESS_liberated_media
+		}
+		x = 1
+		y = 10
+	}
+	shared_focus = { 
+		id = ESS_mutual_socialism
+		icon = GFX_goal_ESS_mutual_socialism
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_mutual_socialism"
+		}
+		prerequisite = {
+			focus = ESS_the_capital_sins
+			focus = ESS_dissent_is_an_order
+		}
+		x = 3
+		y = 10
+	}
+	shared_focus = { 
+		id = ESS_dont_be_a_square
+		icon = GFX_goal_ESS_dont_be_a_square
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_dont_be_a_square"
+		}
+		prerequisite = {
+			focus = ESS_on_discipline_and_punishment
+			focus = ESS_dissent_is_an_order
+		}
+		x = 5
+		y = 10
+	}
+	shared_focus = { 
+		id = ESS_people_united
+		icon = GFX_goal_ESS_people_united
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_people_united"
+		}
+		prerequisite = {
+			focus = ESS_on_discipline_and_punishment
+		}
+		x = 7
+		y = 10
+	}
+	shared_focus = { 
+		id = ESS_our_message_to_the_world
+		icon = GFX_goal_ESS_our_message_to_the_world
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_our_message_to_the_world"
+		}
+		prerequisite = {
+			focus = ESS_children_of_nature
+			focus = ESS_no_one_left_out
+			focus = ESS_death_of_overworking
+			focus = ESS_mutual_socialism
+			focus = ESS_dont_be_a_square
+			focus = ESS_people_united
+		}
+		x = 2
+		y = 11
+	}
+	##ECONOMICS##
+	shared_focus = { 
+		id = ESS_zerowork_direction
+		icon = GFX_goal_ESS_zerowork_direction
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_zerowork_direction"
+		}
+		mutually_exclusive = {
+			focus = ESS_collective_capitalism
+		}
+		x = 16
+		y = 5
+	}
+	shared_focus = { 
+		id = ESS_coming_back_to_live
+		icon = GFX_goal_ESS_coming_back_to_live
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_coming_back_to_live"
+		}
+		prerequisite = {
+			focus = ESS_zerowork_direction
+		}
+		x = 15
+		y = 6
+	}
+	shared_focus = { 
+		id = ESS_public_eats
+		icon = GFX_goal_ESS_public_eats
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_public_eats"
+		}
+		prerequisite = {
+			focus = ESS_zerowork_direction
+		}
+		x = 17
+		y = 6
+	}
+	shared_focus = { 
+		id = ESS_power_to_living_labour
+		icon = GFX_goal_ESS_power_to_living_labour
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_power_to_living_labour"
+		}
+		prerequisite = {
+			focus = ESS_coming_back_to_live
+		}
+		prerequisite = {
+			focus = ESS_public_eats
+		}
+		x = 14
+		y = 7
+	}
+	shared_focus = { 
+		id = ESS_collective_action
+		icon = GFX_goal_ESS_collective_action
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_collective_action"
+		}
+		prerequisite = {
+			focus = ESS_coming_back_to_live
+		}
+		prerequisite = {
+			focus = ESS_public_eats
+		}
+		x = 16
+		y = 7
+	}
+	shared_focus = { 
+		id = ESS_no_more_limousines
+		icon = GFX_goal_ESS_no_more_limousines
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_no_more_limousines"
+		}
+		prerequisite = {
+			focus = ESS_coming_back_to_live
+		}
+		prerequisite = {
+			focus = ESS_public_eats
+		}
+		x = 18
+		y = 7
+	}
+	shared_focus = { 
+		id = ESS_mr_roboto
+		icon = GFX_goal_ESS_mr_roboto
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_mr_roboto"
+		}
+		prerequisite = {
+			focus = ESS_power_to_living_labour
+		}
+		prerequisite = {
+			focus = ESS_collective_action
+		}
+		x = 15
+		y = 8
+	}
+	shared_focus = { 
+		id = ESS_work_to_dead_labour
+		icon = GFX_goal_ESS_work_to_dead_labour
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_work_to_dead_labour"
+		}
+		prerequisite = {
+			focus = ESS_mr_roboto
+		}
+		x = 15
+		y = 9
+	}
+	shared_focus = { 
+		id = ESS_struck_war_pigs
+		icon = GFX_goal_ESS_struck_war_pigs
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_struck_war_pigs"
+		}
+		prerequisite = {
+			focus = ESS_no_more_limousines
+		}
+		prerequisite = {
+			focus = ESS_collective_action
+		}
+		x = 17
+		y = 8
+	}
+	shared_focus = { 
+		id = ESS_underground_cooperatives
+		icon = GFX_goal_ESS_underground_cooperatives
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_underground_cooperatives"
+		}
+		prerequisite = {
+			focus = ESS_struck_war_pigs
+		}
+		x = 17
+		y = 9
+	}
+	shared_focus = { 
+		id = ESS_paying_the_bill
+		icon = GFX_goal_ESS_paying_the_bill
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_paying_the_bill"
+		}
+		prerequisite = {
+			focus = ESS_work_to_dead_labour
+		}
+		prerequisite = {
+			focus = ESS_underground_cooperatives
+		}
+		x = 16
+		y = 10
+	}
+	#
+	shared_focus = { 
+		id = ESS_collective_capitalism
+		icon = GFX_goal_ESS_collective_capitalism
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_collective_capitalism"
+		}
+		mutually_exclusive = {
+			focus = ESS_zerowork_direction
+		}
+		x = 26
+		y = 5
+	}
+	shared_focus = { 
+		id = ESS_compromise_with_capital
+		icon = GFX_goal_ESS_compromise_with_capital
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_compromise_with_capital"
+		}
+		prerequisite = {
+			focus = ESS_collective_capitalism
+		}
+		x = 25
+		y = 6
+	}
+	shared_focus = { 
+		id = ESS_soft_planning
+		icon = GFX_goal_ESS_soft_planning
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: ESS_soft_planning"
+		}
+		prerequisite = {
+			focus = ESS_collective_capitalism
+		}
+		x = 27
+		y = 6
+	}
+	shared_focus = { 
+		id = ESS_paint_it_red
+		icon = GFX_goal_ESS_paint_it_red
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_paint_it_red"
+		}
+		prerequisite = {
+			focus = ESS_compromise_with_capital
+		}
+		prerequisite = {
+			focus = ESS_soft_planning
+		}
+		x = 24
+		y = 7
+	}
+	shared_focus = { 
+		id = ESS_animal_farm
+		icon = GFX_goal_ESS_animal_farm
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_animal_farm"
+		}
+		prerequisite = {
+			focus = ESS_soft_planning
+		}
+		prerequisite = {
+			focus = ESS_compromise_with_capital
+		}
+		x = 26
+		y = 7
+	}
+	shared_focus = { 
+		id = ESS_hierarchy_of_needs
+		icon = GFX_goal_ESS_hierarchy_of_needs
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_hierarchy_of_needs"
+		}
+		prerequisite = {
+			focus = ESS_soft_planning
+		}
+		prerequisite = {
+			focus = ESS_compromise_with_capital
+		}
+		x = 28
+		y = 7
+	}
+	shared_focus = { 
+		id = ESS_cutting_the_branch
+		icon = GFX_goal_ESS_cutting_the_branch
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_cutting_the_branch"
+		}
+		prerequisite = {
+			focus = ESS_paint_it_red
+		}
+		prerequisite = {
+			focus = ESS_animal_farm
+		}
+		x = 25
+		y = 8
+	}
+	shared_focus = { 
+		id = ESS_guns_n_roses
+		icon = GFX_goal_ESS_guns_n_roses
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_guns_n_roses"
+		}
+		prerequisite = {
+			focus = ESS_cutting_the_branch
+		}
+		x = 25
+		y = 9
+	}
+	shared_focus = { 
+		id = ESS_introduce_large_model
+		icon = GFX_goal_ESS_introduce_large_model
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: ESS_introduce_large_model"
+		}
+		prerequisite = {
+			focus = ESS_animal_farm
+		}
+		prerequisite = {
+			focus = ESS_hierarchy_of_needs
+		}
+		x = 27
+		y = 8
+	}
+	shared_focus = { 
+		id = ESS_smoke_on_the_water
+		icon = GFX_goal_ESS_smoke_on_the_water
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_smoke_on_the_water"
+		}
+		prerequisite = {
+			focus = ESS_introduce_large_model
+		}
+		x = 27
+		y = 9
+	}
+	shared_focus = { 
+		id = ESS_the_end_of_the_policy
+		icon = GFX_goal_ESS_the_end_of_the_policy
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_the_end_of_the_policy"
+		}
+		prerequisite = {
+			focus = ESS_guns_n_roses
+		}
+		prerequisite = {
+			focus = ESS_smoke_on_the_water
+		}
+		x = 26
+		y = 10
+	}
+	shared_focus = { 
+		id = ESS_popular_science
+		icon = GFX_goal_ESS_popular_science
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: ESS_popular_science"
+		}
+		prerequisite = {
+			focus = ESS_zerowork_direction
+			focus = ESS_collective_capitalism
+		}
+		x = 21
+		y = 6
+	}
+	shared_focus = { 
+		id = ESS_strawberry_fields_forever
+		icon = GFX_goal_ESS_strawberry_fields_forever
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: ESS_strawberry_fields_forever"
+		}
+		prerequisite = {
+			focus = ESS_popular_science
+		}
+		x = 20
+		y = 7
+	}
+	shared_focus = { 
+		id = ESS_rage_for_the_machine
+		icon = GFX_goal_ESS_rage_for_the_machine
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: ESS_rage_for_the_machine"
+		}
+		prerequisite = {
+			focus = ESS_popular_science
+		}
+		x = 22
+		y = 7
+	}
+	shared_focus = { 
+		id = ESS_project_clockwork_eyes
+		icon = GFX_goal_ESS_project_clockwork_eyes
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: ESS_project_clockwork_eyes"
+		}
+		prerequisite = {
+			focus = ESS_strawberry_fields_forever
+		}
+		prerequisite = {
+			focus = ESS_rage_for_the_machine
+		}
+		x = 21
+		y = 8
+	}
+	###Military###
+	shared_focus = { 
+		id = ESS_britain_liberation_army
+		icon = GFX_goal_ESS_britain_liberation_army
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_britain_liberation_army"
+		}
+		x = 33
+		y = 5
+	}
+	shared_focus = { 
+		id = ESS_vote_of_a_soldier
+		icon = GFX_goal_ESS_vote_of_a_soldier
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_vote_of_a_soldier"
+		}
+		prerequisite = {
+			focus = ESS_britain_liberation_army
+		}
+		x = 31
+		y = 6
+	}
+	shared_focus = { 
+		id = ESS_folks_in_arms
+		icon = GFX_goal_ESS_folks_in_arms
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_folks_in_arms"
+		}
+		prerequisite = {
+			focus = ESS_britain_liberation_army
+		}
+		x = 33
+		y = 6
+	}
+	shared_focus = { 
+		id = ESS_good_will_gesture
+		icon = GFX_goal_ESS_good_will_gesture
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_good_will_gesture"
+		}
+		prerequisite = {
+			focus = ESS_britain_liberation_army
+		}
+		x = 35
+		y = 6
+	}
+	shared_focus = { 
+		id = ESS_learn_the_total_resistance
+		icon = GFX_goal_ESS_learn_the_total_resistance
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_learn_the_total_resistance"
+		}
+		prerequisite = {
+			focus = ESS_vote_of_a_soldier
+		}
+		x = 31
+		y = 7
+	}
+	shared_focus = { 
+		id = ESS_thunderstruck
+		icon = GFX_goal_ESS_thunderstruck
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_thunderstruck"
+		}
+		prerequisite = {
+			focus = ESS_folks_in_arms
+		}
+		x = 33
+		y = 7
+	}
+	shared_focus = { 
+		id = ESS_winged_rats
+		icon = GFX_goal_ESS_winged_rats
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_winged_rats"
+		}
+		prerequisite = {
+			focus = ESS_good_will_gesture
+		}
+		x = 35
+		y = 7
+	}
+	shared_focus = { 
+		id = ESS_first_blood
+		icon = GFX_goal_ESS_first_blood
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_first_blood"
+		}
+		prerequisite = {
+			focus = ESS_learn_the_total_resistance
+		}
+		x = 30
+		y = 8
+	}
+	shared_focus = { 
+		id = ESS_helter_skelter
+		icon = GFX_goal_ESS_helter_skelter
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_helter_skelter"
+		}
+		prerequisite = {
+			focus = ESS_learn_the_total_resistance
+		}
+		prerequisite = {
+			focus = ESS_thunderstruck
+		}
+		x = 32
+		y = 8
+	}
+	shared_focus = { 
+		id = ESS_encourage_fraternization
+		icon = GFX_goal_ESS_encourage_fraternization
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_encourage_fraternization"
+		}
+		prerequisite = {
+			focus = ESS_winged_rats
+		}
+		prerequisite = {
+			focus = ESS_thunderstruck
+		}
+		x = 34
+		y = 8
+	}
+	shared_focus = { 
+		id = ESS_joint_operation
+		icon = GFX_goal_ESS_joint_operation
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_joint_operation"
+		}
+		prerequisite = {
+			focus = ESS_winged_rats
+		}
+		x = 36
+		y = 8
+	}
+	shared_focus = { 
+		id = ESS_killing_a_mockingbird
+		icon = GFX_goal_ESS_killing_a_mockingbird
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_killing_a_mockingbird"
+		}
+		prerequisite = {
+			focus = ESS_first_blood
+		}
+		prerequisite = {
+			focus = ESS_helter_skelter
+		}
+		prerequisite = {
+			focus = ESS_encourage_fraternization
+		}
+		mutually_exclusive = {
+			focus = ESS_squadron_normandie_thames
+		}
+		x = 32
+		y = 9
+	}
+	shared_focus = { 
+		id = ESS_squadron_normandie_thames
+		icon = GFX_goal_ESS_squadron_normandie_thames
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_squadron_normandie_thames"
+		}
+		prerequisite = {
+			focus = ESS_joint_operation
+		}
+		prerequisite = {
+			focus = ESS_helter_skelter
+		}
+		prerequisite = {
+			focus = ESS_encourage_fraternization
+		}
+		x = 34
+		y = 9
+	}
+	shared_focus = { 
+		id = ESS_international_freedom_battalions
+		icon = GFX_goal_ESS_international_freedom_battalions
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_international_freedom_battalions"
+		}
+		prerequisite = {
+			focus = ESS_killing_a_mockingbird
+			focus = ESS_squadron_normandie_thames
+		}
+		x = 33
+		y = 10
+	}
+	shared_focus = { 
+		id = ESS_psychowar_on_babylon
+		icon = GFX_goal_ESS_psychowar_on_babylon
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_psychowar_on_babylon"
+		}
+		x = 33
+		y = 11
+	}
+	shared_focus = { 
+		id = ESS_police_and_thieves
+		icon = GFX_goal_ESS_police_and_thieves
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_police_and_thieves"
+		}
+		prerequisite = {
+			focus = ESS_psychowar_on_babylon
+		}
+		x = 32
+		y = 12
+	}
+	shared_focus = { 
+		id = ESS_melt_their_hearts
+		icon = GFX_goal_ESS_police_and_thieves
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_police_and_thieves"
+		}
+		prerequisite = {
+			focus = ESS_psychowar_on_babylon
+		}
+		x = 34
+		y = 12
+	}
+	shared_focus = { 
+		id = ESS_doused_in_mud
+		icon = GFX_goal_ESS_doused_in_mud
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_doused_in_mud"
+		}
+		prerequisite = {
+			focus = ESS_police_and_thieves
+		}
+		mutually_exclusive = {
+			focus = ESS_soaked_in_bleach
+		}
+		x = 32
+		y = 13
+	}
+	shared_focus = { 
+		id = ESS_soaked_in_bleach
+		icon = GFX_goal_ESS_soaked_in_bleach
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_soaked_in_bleach"
+		}
+		prerequisite = {
+			focus = ESS_melt_their_hearts
+		}
+		mutually_exclusive = {
+			focus = ESS_doused_in_mud
+		}
+		x = 34
+		y = 13
+	}
+	shared_focus = { 
+		id = ESS_mystery_incorporated
+		icon = GFX_goal_ESS_mystery_incorporated
+		cost = 4.3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESS_mystery_incorporated"
+		}
+		prerequisite = {
+			focus = ESS_doused_in_mud
+			focus = ESS_soaked_in_bleach
+		}
+		x = 33
+		y = 14
+	}
+	

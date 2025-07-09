@@ -269,4 +269,27 @@ focus_tree = {
 	}
 }
 
+focus_tree = {
+	id = ESS_fisher_main
+	default = no
+	continuous_focus_position = { x = 20 y = 4000}
+	shared_focus = ESS_planting_the_seeds
+	shared_focus = ESS_psychodelic_shacks
+	shared_focus = ESS_techno_cats
+	shared_focus = ESS_glass_case_democracy
+	shared_focus = ESS_solidarity_forever
+	shared_focus = ESS_post_modern_republic
+	shared_focus = ESS_zerowork_direction
+	shared_focus = ESS_collective_capitalism
+	shared_focus = ESS_britain_liberation_army
+	shared_focus = ESS_psychowar_on_babylon
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = ESS
+		}
+	}
+}
+
 
