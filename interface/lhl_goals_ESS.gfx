@@ -1655,4 +1655,409 @@ spriteTypes = {
 		name = "GFX_goal_ESS_bioreactor"
 		texturefile = "gfx/interface/goals/ESS/goal_ESS_bioreactor.dds"
 	}
+	#Fisher#
+	SpriteType = {
+		name = "GFX_goal_ESS_planting_the_seeds"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_planting_the_seeds.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_souring_the_kraut"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_souring_the_kraut.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_red_panters"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_red_panters.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_flower_power"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_flower_power.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_free_soldiers_committee"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_free_soldiers_committee.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_smoke_break"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_smoke_break.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_smash_the_fash"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_smash_the_fash.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_the_fat_of_the_land"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_the_fat_of_the_land.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_useful_living_space"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_useful_living_space.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_old_enough_to_vote"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_old_enough_to_vote.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_mental_revolution"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_mental_revolution.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_psychodelic_shacks"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_psychodelic_shacks.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_it_will_be_televised"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_it_will_be_televised.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_unshackle_the_intellectuals"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_unshackle_the_intellectuals.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_communal_psychologists"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_communal_psychologists.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_artist_in_the_city"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_artist_in_the_city.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_library_of_the_babylon"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_library_of_the_babylon.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_enter_the_mirror"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_enter_the_mirror.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_festive_seasons"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_festive_seasons.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_ditch_the_past"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_ditch_the_past.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_pink_westminister"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_pink_westminister.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_sexual_liberty"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_sexual_liberty.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_positive_careers"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_positive_careers.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_come_as_you_are"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_come_as_you_are.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_open_the_third_eye"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_open_the_third_eye.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_fear_and_loathing_in_london"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_fear_and_loathing_in_london.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_foster_the_enlightened"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_foster_the_enlightened.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_tear_down_the_wall"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_tear_down_the_wall.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_techno_cats"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_techno_cats.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_glass_case_democracy"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_glass_case_democracy.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_solidarity_forever"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_solidarity_forever.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_post_modern_republic"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_post_modern_republic.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_welcome_to_the_machine"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_welcome_to_the_machine.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_the_red_house"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_the_red_house.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_here_is_to_you"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_here_is_to_you.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_call_the_councils"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_call_the_councils.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_frequent_sortition"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_frequent_sortition.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_digital_state"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_digital_state.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_limit_the_mouths"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_limit_the_mouths.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_oath_of_progress"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_oath_of_progress.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_all_eyes_on_justice"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_all_eyes_on_justice.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_vanguard_committee"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_vanguard_committee.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_everyday_is_a_vote"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_everyday_is_a_vote.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_era_of_new_formality"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_era_of_new_formality.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_liberated_media"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_liberated_media.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_the_capital_sins"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_the_capital_sins.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_dissent_is_an_order"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_dissent_is_an_order.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_on_discipline_and_punishment"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_on_discipline_and_punishment.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_children_of_nature"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_children_of_nature.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_no_one_left_out"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_no_one_left_out.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_death_of_overworking"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_death_of_overworking.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_mutual_socialism"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_mutual_socialism.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_dont_be_a_square"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_dont_be_a_square.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_people_united"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_people_united.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_our_message_to_the_world"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_our_message_to_the_world.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_zerowork_direction"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_zerowork_direction.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_coming_back_to_live"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_coming_back_to_live.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_public_eats"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_public_eats.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_power_to_living_labour"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_power_to_living_labour.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_collective_action"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_collective_action.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_no_more_limousines"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_no_more_limousines.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_mr_roboto"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_mr_roboto.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_work_to_dead_labour"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_work_to_dead_labour.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_struck_war_pigs"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_struck_war_pigs.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_underground_cooperatives"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_underground_cooperatives.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_paying_the_bill"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_paying_the_bill.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_collective_capitalism"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_collective_capitalism.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_compromise_with_capital"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_compromise_with_capital.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_soft_planning"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_soft_planning.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_paint_it_red"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_paint_it_red.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_animal_farm"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_animal_farm.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_hierarchy_of_needs"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_hierarchy_of_needs.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_cutting_the_branch"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_cutting_the_branch.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_guns_n_roses"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_guns_n_roses.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_introduce_large_model"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_introduce_large_model.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_smoke_on_the_water"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_smoke_on_the_water.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_the_end_of_the_policy"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_the_end_of_the_policy.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_popular_science"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_popular_science.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_strawberry_fields_forever"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_strawberry_fields_forever.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_rage_for_the_machine"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_rage_for_the_machine.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_project_clockwork_eyes"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_project_clockwork_eyes.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_britain_liberation_army"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_britain_liberation_army.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_vote_of_a_soldier"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_vote_of_a_soldier.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_folks_in_arms"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_folks_in_arms.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_good_will_gesture"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_good_will_gesture.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_learn_the_total_resistance"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_learn_the_total_resistance.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_thunderstruck"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_thunderstruck.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_winged_rats"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_winged_rats.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_first_blood"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_first_blood.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_helter_skelter"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_helter_skelter.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_encourage_fraternization"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_encourage_fraternization.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_joint_operation"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_joint_operation.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_killing_a_mockingbird"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_killing_a_mockingbird.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_squadron_normandie_thames"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_squadron_normandie_thames.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_international_freedom_battalions"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_international_freedom_battalions.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_psychowar_on_babylon"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_psychowar_on_babylon.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_police_and_thieves"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_police_and_thieves.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_police_and_thieves"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_police_and_thieves.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_doused_in_mud"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_doused_in_mud.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_soaked_in_bleach"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_soaked_in_bleach.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_mystery_incorporated"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_mystery_incorporated.dds"
+	}
 }
