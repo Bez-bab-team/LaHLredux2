@@ -2060,4 +2060,8 @@ spriteTypes = {
 		name = "GFX_goal_ESS_mystery_incorporated"
 		texturefile = "gfx/interface/goals/ESS/goal_ESS_mystery_incorporated.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_ESS_melt_their_hearts"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_melt_their_hearts.dds"
+	}
 }
