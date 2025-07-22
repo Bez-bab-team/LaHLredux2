@@ -4491,7 +4491,7 @@ country_event = { #Nick's Letter 1
 	id = ESS_event.101
 	title = ESS_event.101.t
 	desc = ESS_event.101.d 
-	
+	picture = GFX_ESS_nicks_letter_1
     fire_only_once = yes	
 	is_triggered_only = yes
     option = {
@@ -4502,7 +4502,7 @@ country_event = { #Fight against the Babylon
 	id = ESS_event.102
 	title = ESS_event.102.t
 	desc = ESS_event.102.d 
-	
+	picture = GFX_ESS_narcowar_on_babylon_1
     fire_only_once = yes	
 	is_triggered_only = yes
     option = {
@@ -4513,7 +4513,7 @@ country_event = { #Paying the bill
 	id = ESS_event.103
 	title = ESS_event.103.t
 	desc = ESS_event.103.d 
-	
+	picture = GFX_ESS_paying_the_bill_event
     fire_only_once = yes	
 	is_triggered_only = yes
     option = {

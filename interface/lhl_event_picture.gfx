@@ -72,6 +72,18 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/ESS_german_POWs.dds"
 	}	
 	spriteType = {
+		name = "GFX_ESS_nicks_letter_1"
+		texturefile = "gfx/event_pictures/ESS_nicks_letter_1.dds"
+	}	
+	spriteType = {
+		name = "GFX_ESS_narcowar_on_babylon_1"
+		texturefile = "gfx/event_pictures/ESS_narcowar_on_babylon_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ESS_paying_the_bill_event"
+		texturefile = "gfx/event_pictures/ESS_paying_the_bill_event.dds"
+	}
+	spriteType = {
 		name = "GFX_EAG_german_soldiers"
 		texturefile = "gfx/event_pictures/EAG_german_soldiers.dds"
 	}
