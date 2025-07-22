@@ -9426,7 +9426,7 @@
 	}
 	shared_focus = { 
 		id = ESS_melt_their_hearts
-		icon = GFX_goal_ESS_police_and_thieves
+		icon = GFX_goal_ESS_melt_their_hearts
 		cost = 4.3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_police_and_thieves"

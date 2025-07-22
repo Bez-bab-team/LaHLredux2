@@ -4486,6 +4486,41 @@ country_event = { #A Meritocratic Trust
 	}
 }
 
+###Fisher Events###
+country_event = { #Nick's Letter 1
+	id = ESS_event.101
+	title = ESS_event.101.t
+	desc = ESS_event.101.d 
+	
+    fire_only_once = yes	
+	is_triggered_only = yes
+    option = {
+		name = ESS_event.101.a 
+	}
+}
+country_event = { #Fight against the Babylon
+	id = ESS_event.102
+	title = ESS_event.102.t
+	desc = ESS_event.102.d 
+	
+    fire_only_once = yes	
+	is_triggered_only = yes
+    option = {
+		name = ESS_event.102.a 
+	}
+}
+country_event = { #Paying the bill
+	id = ESS_event.103
+	title = ESS_event.103.t
+	desc = ESS_event.103.d 
+	
+    fire_only_once = yes	
+	is_triggered_only = yes
+    option = {
+		name = ESS_event.103.a 
+	}
+}
+
 ###MEME Stuff###
 country_event = {
 	id = ESS_event.666
