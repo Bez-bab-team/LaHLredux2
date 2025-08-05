@@ -2230,5 +2230,42 @@ SUS_land_forces_war_support = {
 
 			
 		}
+		SUS_industrial_potholing = {
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: added idea SUS_heaven_under_control"
+			}
+
+			removal_cost = -1
+
+			#picture = 
+
+			modifier = {
+				local_resources_factor = 0.15
+				political_power_factor = -0.05
+			}
+		}
+		SUS_industrial_knighthood = {
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: added idea SUS_heaven_under_control"
+			}
+
+			removal_cost = -1
+
+			#picture = 
+
+			modifier = {
+				mobilization_laws_cost_factor = -0.30
+			}
+		}
 	}
 }

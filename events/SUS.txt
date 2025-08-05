@@ -4767,6 +4767,42 @@ country_event = { #Superweapon Reset Kinetic Bombardment
 		clr_global_flag = SUS_superweapon_kinetic_bombardment_activated_true
 	}
 }
+###ARCHEGETES EVENTS###
+country_event = { #SUS_archegetes_elections_hodge_spirit_of_three_revolutions
+	id = SUS_event.200
+	title = SUS_event.200.t
+	desc = SUS_event.200.d
+    is_triggered_only = yes
+	option = {
+		name = SUS_event.200.b
+		set_country_flag = SUS_archegetes_elections_hodge_spirit_of_three_revolutions_active
+    }
+    fire_only_once = yes
+}
+
+country_event = { #SUS_archegetes_elections_ogrady_perdurable_perfect_products_programme
+	id = SUS_event.201
+	title = SUS_event.201.t
+	desc = SUS_event.201.d
+    is_triggered_only = yes
+	option = {
+		name = SUS_event.201.b
+		set_country_flag = SUS_archegetes_elections_ogrady_pppp_programme_active
+    }
+    fire_only_once = yes
+}
+
+country_event = { #SUS_archegetes_elections_hodge_counter_counter_revolution
+	id = SUS_event.202
+	title = SUS_event.202.t
+	desc = SUS_event.202.d
+    is_triggered_only = yes
+	option = {
+		name = SUS_event.202.b
+		set_country_flag = SUS_archegetes_elections_hodge_counter_counter_revolution_active
+    }
+    fire_only_once = yes
+}
 
 country_event = { #Wardecc deciision
 	id = SUS_event.300
