@@ -633,11 +633,6 @@ SUS_weather_device_modifier = {
 	max_dig_in_factor = -1.0
 	state_production_speed_buildings_factor = -3.0
 }
-
-ESS_local_CEO_modifier = {
-	icon = GFX_based
-}
-
 ###Moldbug Modifiers###
 ESS_modifier_corpo_state = {
 	political_power_gain = ESS_corpo_state_political_power_gain
@@ -729,5 +724,106 @@ ESS_modifier_corpo_companies = {
 ESS_modifier_corpo_shares = {
 	consumer_goods_factor = ESS_corpo_shares_consumer_goods_factor
 	stability_factor = ESS_corpo_shares_stability_factor
+}
+
+###Moldbug local CEOs###
+ESS_modifier_local_CEO_998 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_999 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1007 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1006 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1000 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1161 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1153 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1018 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1001 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1156 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1002 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1165 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1159 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1158 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1157 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1160 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1003 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1143 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1004 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1005 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1144 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1155 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1154 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1152 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1144 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1008 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1146 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1151 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1010 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1011 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1009 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1145 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1012 = {
+	icon = GFX_based
 }
 

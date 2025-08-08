@@ -352,14 +352,10 @@ lhl_ESS_income_calculation = {
 	##Corruption##
 	set_temp_variable = { ESS_corruption_income_temp = 0 }	
 	set_temp_variable = { ESS_power_income_temp = 0 }	
-	all_state = {
-		has_dynamic_modifier = {
-			modifier = ESS_local_CEO_modifier
-		}
-		add_to_temp_variable = { ESS_corruption_income_temp = ROOT.ess_local_ceo_corruption }	
-		multiply_temp_variable = { ESS_corruption_income_temp = 0.1 }
-	}
+	add_to_temp_variable = { ESS_corruption_income_temp = ESS_modifier_local_CEO_998_corruption }	
+	multiply_temp_variable = { ESS_corruption_income_temp = 0.1 }
 	subtract_from_temp_variable = { ESS_total_income_temp = ESS_corruption_income_temp }
+	set_variable = { ESS_corruption_income_temp_loc = ESS_corruption_income_temp }
 	any_state = {
 		has_dynamic_modifier = {
 			modifier = ESS_local_CEO_modifier

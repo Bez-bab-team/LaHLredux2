@@ -1899,7 +1899,7 @@
  ESS_board_of_directors_doctors_tt:0 "§YDoctors§!"
  ESS_board_of_directors_military_tt:0 "§YMilitary§!"
  #
- ESS_board_of_directors_income_source:0 "Our total income:\n\n§YCivilian Factories:§! §G££[?ESS_civ_income_temp_loc]§![GetESSPiechartMilIncome][GetESSPiechartDubaiIncome][GetESSPiechartResourcesIncome][GetESSPiechartPrisonsIncome][GetESSPiechartFairGroundsIncome][GetESSPiechartInvestmentIncome][GetESSPiechartBankingIncome][GetESSPiechartSoftwareIncome][GetESSPiechartSpaceTourismIncome][GetESSPiechartFeudalismIncome][GetESSPiechartBioreactorIncome]\n§YOur total losses from local corruption:§! §R££-[?ESS_corruption_income_temp]§!\n§YOur additional income from local expertise:§! §G££-[?ESS_power_income_temp]§!"
+ ESS_board_of_directors_income_source:0 "Our total income:\n\n§YCivilian Factories:§! §G££[?ESS_civ_income_temp_loc]§![GetESSPiechartMilIncome][GetESSPiechartDubaiIncome][GetESSPiechartResourcesIncome][GetESSPiechartPrisonsIncome][GetESSPiechartFairGroundsIncome][GetESSPiechartInvestmentIncome][GetESSPiechartBankingIncome][GetESSPiechartSoftwareIncome][GetESSPiechartSpaceTourismIncome][GetESSPiechartFeudalismIncome][GetESSPiechartBioreactorIncome]\n§YOur total losses from local corruption:§! §R££-[?ESS_corruption_income_temp_loc]§!\n§YOur additional income from local expertise:§! §G££-[?ESS_power_income_temp]§!"
  #Decisions#
  ESS_mil_income_tt:0 "\n§YMilitary Factories:§! §G££[?ESS_mil_income_temp_loc]§!"
  ESS_dubai_income_tt:0 "\n§YAirport & Port:§! §G££[?ESS_dubai_income_temp_loc]§!"
@@ -1922,6 +1922,9 @@
  ESS_quarter_request_failing:0 "We need to raise or monthly income to §R££[?ESS_board_of_directors_income_new|.1] million§!\nOur current income is §Y££[?ESS_board_of_directors_income|.1] million§!\n§RWe are not meeting the quota!§!"
  ESS_quarter_request_success:0 "We need to raise or monthly income to §G££[?ESS_board_of_directors_income_new|.1] million§!\nOur current income is §Y££[?ESS_board_of_directors_income|.1] million§!\n§GWe have met the quota!§!"
  ESS_quarter_request:0 "The Quarter Request"
+ #
+ ESS_modifier_local_CEO_998:0 "John Smith"
+ ESS_modifier_local_CEO_998_desc:0 "Corruption Level = [?ESS_modifier_local_CEO_998_corruption]"
  ###Moldbug Stuff###
  ESS_found_the_british_company_tt:0 "§RThe Short-lived Republic Will Cease to Exist§!"
  ESS_pound_restructurization_tt:0 "§YThe CEO State Mechanic Will Become Available§!\nThe §0Governing Trust Association§! Gains §Y70%§! of The Shares\nThe §7Social Trust Fund§! Gains §Y30%§! of The Shares"
