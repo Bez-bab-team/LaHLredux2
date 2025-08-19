@@ -1924,7 +1924,7 @@
  ESS_quarter_request:0 "The Quarter Request"
  #
  ESS_modifier_local_CEO_998:0 "John Smith"
- ESS_modifier_local_CEO_998_desc:0 "Corruption Level = [?ESS_modifier_local_CEO_998_corruption]"
+ ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!"
  ###Moldbug Stuff###
  ESS_found_the_british_company_tt:0 "§RThe Short-lived Republic Will Cease to Exist§!"
  ESS_pound_restructurization_tt:0 "§YThe CEO State Mechanic Will Become Available§!\nThe §0Governing Trust Association§! Gains §Y70%§! of The Shares\nThe §7Social Trust Fund§! Gains §Y30%§! of The Shares"
