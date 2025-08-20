@@ -1879,7 +1879,7 @@
  ESS_board_of_directors_code_slip_5_tt:0 "[?ESS_code_slip_5_decisions]"
  #
  ESS_board_of_directors_title:0 "Shareholding of Corporate Britain"
- ESS_board_of_directors_money:0 "Our monthly income: §Y££[?ESS_board_of_directors_income|.0] million§!\n\nOur current budget: §Y££[?ESS_board_of_directors_budget|.0] million§!"
+ ESS_board_of_directors_money:0 "Our monthly income: §Y££[?ESS_board_of_directors_income] million§!\n\nOur current budget: §Y££[?ESS_board_of_directors_budget] million§!"
  #
  ESS_piechart_tooltip:0 "§YCorporation Piechart§![GetESSPiechartState][GetESSPiechartHealthcare][GetESSPiechartConstruction][GetESSPiechartPmc][GetESSPiechartSpy][GetESSPiechartMedia][GetESSPiechartTourism][GetESSPiechartFarming][GetESSPiechartPeople][GetESSPiechartSmallCompanies]"
  ESS_pie_chart_state_active_tt:0 "\n§0Governing Trust Association: [?ESS_corpo_state]%§!\nDaily Political Power Gain: §G+§![?ESS_corpo_state_political_power_gain|+]\nResearch Speed: §G+§![?ESS_corpo_state_research_speed_factor|.2%+]\nConscription Laws Cost: [?ESS_corpo_state_mobilization_laws_cost_factor|.0%-]\nTrade Laws Cost: [?ESS_corpo_state_trade_laws_cost_factor|.0%-]\nHead of State Cost: [?ESS_corpo_state_mobilization_laws_cost_factor|.0%-]\nPolitical Advisor Cost: [?ESS_corpo_state_political_advisor_cost_factor|.0%-] [GetESSStateCorpoHealthcareTT] [GetESSStateCorpoConstructionTT] [GetESSStateCorpoPMCTT]"
@@ -1899,7 +1899,7 @@
  ESS_board_of_directors_doctors_tt:0 "§YDoctors§!"
  ESS_board_of_directors_military_tt:0 "§YMilitary§!"
  #
- ESS_board_of_directors_income_source:0 "Our total income:\n\n§YCivilian Factories:§! §G££[?ESS_civ_income_temp_loc]§![GetESSPiechartMilIncome][GetESSPiechartDubaiIncome][GetESSPiechartResourcesIncome][GetESSPiechartPrisonsIncome][GetESSPiechartFairGroundsIncome][GetESSPiechartInvestmentIncome][GetESSPiechartBankingIncome][GetESSPiechartSoftwareIncome][GetESSPiechartSpaceTourismIncome][GetESSPiechartFeudalismIncome][GetESSPiechartBioreactorIncome]\n§YOur total losses from local corruption:§! §R££-[?ESS_corruption_income_temp_loc]§!\n§YOur additional income from local expertise:§! §G££-[?ESS_power_income_temp]§!"
+ ESS_board_of_directors_income_source:0 "Our total income: §G££[?ESS_board_of_directors_income]§!\n\n§YCivilian Factories:§! §G££[?ESS_civ_income_temp_loc]§![GetESSPiechartMilIncome][GetESSPiechartDubaiIncome][GetESSPiechartResourcesIncome][GetESSPiechartPrisonsIncome][GetESSPiechartFairGroundsIncome][GetESSPiechartInvestmentIncome][GetESSPiechartBankingIncome][GetESSPiechartSoftwareIncome][GetESSPiechartSpaceTourismIncome][GetESSPiechartFeudalismIncome][GetESSPiechartBioreactorIncome]\n§YOur total losses from local corruption:§! §R££-[?ESS_corruption_income_temp_loc]§!\n§YOur additional income from local expertise:§! §G££-[?ESS_power_income_temp]§!"
  #Decisions#
  ESS_mil_income_tt:0 "\n§YMilitary Factories:§! §G££[?ESS_mil_income_temp_loc]§!"
  ESS_dubai_income_tt:0 "\n§YAirport & Port:§! §G££[?ESS_dubai_income_temp_loc]§!"
@@ -1922,9 +1922,130 @@
  ESS_quarter_request_failing:0 "We need to raise or monthly income to §R££[?ESS_board_of_directors_income_new|.1] million§!\nOur current income is §Y££[?ESS_board_of_directors_income|.1] million§!\n§RWe are not meeting the quota!§!"
  ESS_quarter_request_success:0 "We need to raise or monthly income to §G££[?ESS_board_of_directors_income_new|.1] million§!\nOur current income is §Y££[?ESS_board_of_directors_income|.1] million§!\n§GWe have met the quota!§!"
  ESS_quarter_request:0 "The Quarter Request"
+ #Local CEOs#
  #
- ESS_modifier_local_CEO_998:0 "John Smith"
- ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!"
+ ESS_local_CEO_name_1:0 "John"
+ ESS_local_CEO_name_2:0 "Douglas"  
+ ESS_local_CEO_name_3:0 "Bill"
+ ESS_local_CEO_name_4:0 "Alexander"
+ ESS_local_CEO_name_5:0 "Kevin"
+ ESS_local_CEO_name_6:0 "Oliver"
+ ESS_local_CEO_name_7:0 "Noah"
+ ESS_local_CEO_name_8:0 "Joseph"
+ ESS_local_CEO_name_9:0 "Arthur"
+ ESS_local_CEO_name_10:0 "Benjamin"
+ #
+ ESS_local_CEO_surname_1:0 "Smith"
+ ESS_local_CEO_surname_2:0 "Taylor"
+ ESS_local_CEO_surname_3:0 "Wilson"
+ ESS_local_CEO_surname_4:0 "Green"
+ ESS_local_CEO_surname_5:0 "Goldberg"
+ ESS_local_CEO_surname_6:0 "Ivanov"
+ ESS_local_CEO_surname_7:0 "Johnson"
+ ESS_local_CEO_surname_8:0 "Rodriguez"
+ ESS_local_CEO_surname_9:0 "Kumar"
+ ESS_local_CEO_surname_10:0 "Stalin"
+ #Wessex#
+ ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
+ #
+ ESS_modifier_local_CEO_999:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_999_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_999_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_999_expertise]§!"
+ #
+ ESS_modifier_local_CEO_1007:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_1007_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_1007_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_1007_expertise]§!"
+ #
+ ESS_modifier_local_CEO_1006:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_1006_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_1006_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_1006_expertise]§!"
+ #
+ ESS_modifier_local_CEO_1000:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_1000_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_1000_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_1000_expertise]§!"
+ #
+ ESS_modifier_local_CEO_1161:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_1161_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_1161_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_1161_expertise]§!"
+ #
+ ESS_modifier_local_CEO_1153:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_1153_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_1153_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_1153_expertise]§!"
+ #
+ ESS_modifier_local_CEO_1018:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_1018_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_1018_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_1018_expertise]§!"
+ #Sussex#
+ ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
+ #
+ ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
+ #
+ ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
+ #
+ ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
+ #
+ ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
+ #
+ ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
+ #
+ ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
+ #
+ ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
+ #
+ ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
+ #
+ ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
+ #
+ ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
+ #
+ ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
+ #
+ ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
+ #
+ ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
+ #
+ ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
+ #
+ ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
+ #
+ ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
+ #
+ ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
+ #
+ ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
+ #
+ ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
+ #
+ ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
+ #
+ ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
+ #
+ ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
+ #
+ ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
+ #
+ ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
+ ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
+ #
+ 
  ###Moldbug Stuff###
  ESS_found_the_british_company_tt:0 "§RThe Short-lived Republic Will Cease to Exist§!"
  ESS_pound_restructurization_tt:0 "§YThe CEO State Mechanic Will Become Available§!\nThe §0Governing Trust Association§! Gains §Y70%§! of The Shares\nThe §7Social Trust Fund§! Gains §Y30%§! of The Shares"

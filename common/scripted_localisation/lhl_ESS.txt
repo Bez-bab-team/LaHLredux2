@@ -337,6 +337,41 @@ defined_text = {
 		localization_key = ESS_bioreactor_income_tt
 	}
 }
+###ESS LOCAL CEO NAME GENERATOR###
+defined_text = {
+    name = GetESSLocalCEOName
+    text = {
+        random_list = {
+            100 = { localization_key = ESS_local_CEO_name_1 }
+            100 = { localization_key = ESS_local_CEO_name_2 }
+			100 = { localization_key = ESS_local_CEO_name_3 }
+			100 = { localization_key = ESS_local_CEO_name_4 }
+			100 = { localization_key = ESS_local_CEO_name_5 }
+			100 = { localization_key = ESS_local_CEO_name_6 }
+			100 = { localization_key = ESS_local_CEO_name_7 }
+			100 = { localization_key = ESS_local_CEO_name_8 }
+			100 = { localization_key = ESS_local_CEO_name_9 }
+			100 = { localization_key = ESS_local_CEO_name_10 }
+        }
+    }
+}
+defined_text = {
+    name = GetESSLocalCEOSurname
+    text = {
+        random_list = {
+            100 = { localization_key = ESS_local_CEO_surname_1 }
+            100 = { localization_key = ESS_local_CEO_surname_2 }
+			100 = { localization_key = ESS_local_CEO_surname_3 }
+			100 = { localization_key = ESS_local_CEO_surname_4 }
+			100 = { localization_key = ESS_local_CEO_surname_5 }
+			100 = { localization_key = ESS_local_CEO_surname_6 }
+			100 = { localization_key = ESS_local_CEO_surname_7 }
+			100 = { localization_key = ESS_local_CEO_surname_8 }
+			100 = { localization_key = ESS_local_CEO_surname_9 }
+			100 = { localization_key = ESS_local_CEO_surname_10 }
+        }
+    }
+}
 ####
 defined_text = {
 	name = GetESSQuarterRequestLoc
