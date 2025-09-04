@@ -4416,4 +4416,28 @@ country_event = {
 }
 
 ##PURGING PEOPLE##
-
+country_event = { 
+	id = WES_event.9999 #Test Focus Tree#
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.9999"}
+	title = WES_event.9999.t
+	desc = WES_event.9999.d
+	is_triggered_only = yes
+	option = {
+	    name = WES_event.9999.a
+		WES = {
+			set_politics = {
+				ruling_party = neocameralism
+			}
+			load_focus_tree = WES_neofeudal
+		}
+	}
+	option = {
+	    name = WES_event.9999.b
+		WES = {
+			set_politics = {
+				ruling_party = regressionism
+			}
+			load_focus_tree = WES_medievalist
+		}
+	}
+}

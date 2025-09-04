@@ -1,0 +1,2480 @@
+###NORMAL TREE###
+
+shared_focus = {
+	id = WES_return_king
+	icon = GFX_goal_WES_return_king
+	cost = 4.3
+	completion_reward = {
+		WES = {
+			country_event = {
+				days = 1
+				id = WES_event.3
+			}
+			set_variable = { 
+				WES_george_legitimacy_level = 10
+			}
+		}
+	}
+	x = 17
+	y = 0
+}
+
+shared_focus = {
+	id = WES_worthie_england
+	icon = GFX_goal_WES_Worthie_of_england
+	prerequisite = {
+        focus = WES_return_king
+	}
+	completion_reward = {
+		WES = {
+			add_political_power = 100
+			add_stability = 0.05
+			add_war_support = 0.05
+			country_event = {
+				days = 1
+				id = WES_event.70
+			}
+		}
+	}
+	cost = 4.3
+	x = 17
+	y = 1
+}
+
+shared_focus = {
+	id = WES_strength_monarchy
+	icon = GFX_goal_WES_Strength_Of-Monarchy
+	prerequisite = {
+        focus = WES_worthie_england
+	}
+	completion_reward = {
+		WES = {
+			add_political_power = 75
+			country_event = {
+				days = 1
+				id = WES_event.71
+			}
+		}
+	}
+	cost = 4.3
+	x = 21
+	y = 2
+}
+
+shared_focus = {
+	id = WES_trial_wisdom
+	icon = GFX_goal_WES_test_of_wisdom
+	prerequisite = {
+        focus = WES_kings_speech
+	}
+	select_effect = {
+		WES = {
+			country_event = {
+				days = 15
+				id = WES_event.72
+			}
+		}
+	}
+	completion_reward = {
+		 WES = {
+			add_stability = 0.05
+			country_event = {
+				days = 0
+				id = WES_event.73
+			}
+		}
+	}
+	cost = 4.3
+	x = 16
+	y = 3
+}
+
+shared_focus = {
+	id = WES_trial_courage
+	icon = GFX_goal_WES_trial_of_courage
+	prerequisite = {
+        focus = WES_kings_speech
+	}
+	select_effect = {
+		WES = {
+			country_event = {
+				days = 0
+				id = WES_event.74
+			}
+		}
+	}
+	completion_reward = {
+		 WES = {
+			add_war_support = 0.05
+			country_event = {
+				days = 0
+				id = WES_event.66
+			}
+		}
+	}
+	cost = 4.3
+	x = 18
+	y = 3
+}
+
+shared_focus = {
+	id = WES_sword_stone
+	icon = GFX_goal_WES_Sword_In_The_Stone
+	prerequisite = {
+        focus = WES_trial_courage
+	}
+	prerequisite = {
+        focus = WES_trial_wisdom
+	}
+	completion_reward = {
+		 WES = {
+			country_event = {
+				days = 1
+				id = WES_event.84
+			}
+		}
+	}
+	cost = 4.3
+	x = 17
+	y = 4
+}
+
+shared_focus = {
+	id = WES_search_grail
+	icon = GFX_goal_WES_Holy_Grail2
+	prerequisite = {
+        focus = WES_sword_stone
+	}
+	prerequisite = {
+        focus = WES_virtue_test
+	}
+	prerequisite = {
+        focus = WES_charity_campaigns
+	}
+	cost = 4.3
+	x = 17
+	y = 5
+}
+
+shared_focus = {
+	id = WES_knights_table
+	icon = GFX_goal_WES_round_table
+	prerequisite = {
+        focus = WES_worthie_england
+	}
+	cost = 4.3
+	x = 13
+	y = 2
+}
+
+shared_focus = {
+	id = WES_great_embassy
+	icon = GFX_goal_WES_great_embassy
+	prerequisite = {
+        focus = WES_knights_table
+	}
+	cost = 4.3
+	x = 12
+	y = 3
+}
+
+shared_focus = {
+	id = WES_mighty_men
+	icon = GFX_goal_WES_mighty_men_of_england
+	prerequisite = {
+        focus = WES_knights_table
+	}
+	cost = 4.3
+	x = 14
+	y = 3
+}
+
+shared_focus = {
+	id = WES_virtue_test
+	icon = GFX_goal_WES_Virtue_Test
+	prerequisite = {
+        focus = WES_great_embassy
+	}
+	prerequisite = {
+        focus = WES_mighty_men
+	}
+	cost = 4.3
+	x = 13
+	y = 4
+}
+
+shared_focus = {
+	id = WES_common_men
+	icon = GFX_goal_WES_common_men
+	prerequisite = {
+        focus = WES_strength_monarchy
+	}
+	completion_reward = {
+		WES = {
+			add_stability = 0.05
+			country_event = {
+				days = 0
+				id = WES_event.78
+			}
+		}
+	}
+	cost = 4.3
+	x = 20
+	y = 3
+}
+
+shared_focus = {
+	id = WES_charity_campaigns
+	icon = GFX_goal_WES_Charity
+	prerequisite = {
+        focus = WES_common_men
+	}
+	prerequisite = {
+        focus = WES_soldier_king
+	}
+	select_effect = {
+		WES = {
+			country_event = {
+				days = 1
+				id = WES_event.79
+			}
+		}
+	}
+	completion_reward = {
+		 WES = {
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 2
+			}		 
+
+		}
+	}
+	cost = 4.3
+	x = 21
+	y = 4
+}
+
+shared_focus = {
+	id = WES_soldier_king
+	icon = GFX_goal_WES_Soldier_King
+	prerequisite = {
+        focus = WES_strength_monarchy
+	}
+	completion_reward = {
+		WES = {
+			add_war_support =  0.05
+			random_owned_controlled_state = {	
+				add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			random_owned_controlled_state = {	
+				add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			country_event = {
+				days = 0
+				id = WES_event.65
+			}
+		}
+	}
+	cost = 4.3
+	x = 22
+	y = 3
+}
+
+shared_focus = {
+	id = WES_kings_speech
+	icon = GFX_goal_WES_Kings_speech
+	prerequisite = {
+        focus = WES_worthie_england
+	}
+	completion_reward = {
+		WES = {
+			country_event = {
+				days = 0
+				id = WES_event.67
+			}
+		}
+		add_to_variable = { 
+			WES_george_legitimacy_level = 5
+		}
+		custom_effect_tooltip =  WES_legitimacy_small_plus
+	}
+	cost = 4.3
+	x = 17
+	y = 2
+}
+
+shared_focus = {
+	id = WES_royal_military
+	icon = GFX_goal_WES_royal_military
+	prerequisite = {
+        focus = WES_return_king
+	}
+	completion_reward = {
+		WES = {
+			country_event = {
+				days = 0
+				id = WES_event.40
+			}
+		}
+		add_dynamic_modifier = {
+			modifier = WES_royal_army
+		}
+	}
+	cost = 4.3
+	x = 5
+	y = 1
+}
+
+shared_focus = {
+	id = WES_fight_monarchy
+	icon = GFX_goal_WES_fight_monarchy
+	prerequisite = {
+        focus = WES_royal_military
+	}
+	completion_reward = {
+		WES = {
+			add_to_variable = {
+				var = WES_rule_of_george_war_support_factor
+				value = 0.15
+			}
+			add_to_variable = {
+				var = WES_rule_of_george_stability_factor
+				value = 0.15
+			}
+			custom_effect_tooltip = WES_army_localization_1.tt
+			army_experience = 15
+		}
+	}
+	cost = 4.3
+	x = 5
+	y = 2
+}
+
+shared_focus = {
+	id = WES_rebuild_schools
+	icon = GFX_goal_WES_rebuild_schools
+	prerequisite = {
+        focus = WES_fight_monarchy
+	}
+	completion_reward = {
+	
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 2
+			category = cat_grand_battle_plan
+		}
+		
+		custom_effect_tooltip = WES_rebuild_military_schools_tt
+	}
+	cost = 4.3
+	x = 4
+	y = 3
+}
+
+shared_focus = {
+	id = WES_top_grade
+	icon = GFX_goal_WES_top_grade
+	prerequisite = {
+        focus = WES_fight_monarchy
+	}
+	completion_reward = {
+		WES = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1000
+				producer = WES
+			}
+				
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = infantry_weapons
+			}
+			add_to_variable = {
+				var = WES_royal_army_infantry_equipment
+				value = 0.15
+			}
+		}	
+	}
+	cost = 4.3
+	x = 6
+	y = 3
+}
+
+shared_focus = {
+	id = WES_weapon_guilds
+	icon = GFX_goal_WES_weapon_Guilds
+	prerequisite = {
+        focus = WES_rebuild_schools
+	}
+	prerequisite = {
+        focus = WES_top_grade
+	}
+	completion_reward = {
+        custom_effect_tooltip = WES_weapons_guilds_tt
+	}
+	cost = 4.3
+	x = 5
+	y = 4
+}
+
+shared_focus = {
+	id = WES_fortress_britain
+	icon = GFX_goal_WES_fortress_britain
+	prerequisite = {
+        focus = WES_weapon_guilds
+	}
+	prerequisite = {
+        focus = WES_heroes_skies
+	}
+	prerequisite = {
+        focus = WES_tank_knights
+	}
+	completion_reward = {
+		WES = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 3
+				category = naval_equipment
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 3
+				category = ship_modules_tech
+			}
+			navy_experience = 35
+			country_event = {
+				days = 0
+			    id = WES_event.103
+			}
+		}
+	}
+	cost = 4.3
+	x = 5
+	y = 5
+}
+
+shared_focus = {
+	id = WES_protect_land
+	icon = GFX_goal_WES_protect_land
+	prerequisite = {
+        focus = WES_royal_military
+	}
+	completion_reward = {
+	    WES = {
+			country_event = {
+				days = 1
+			    id = WES_event.37
+			}
+			add_political_power = 75
+		}
+	}
+	cost = 4.3
+	x = 1
+	y = 2
+}
+
+shared_focus = {
+	id = WES_concentrated_strikes
+	icon = GFX_goal_WES_concentrated_strikes
+	prerequisite = {
+        focus = WES_protect_land
+	}
+	completion_reward = {
+		WES = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = cat_mechanized_equipment
+			}
+			add_to_variable = {
+				var = WES_royal_army_mechanized_attack
+				value = 0.1
+			}
+			add_to_variable = {
+				var = WES_royal_army_mechanized_defence
+				value = 0.1
+			}
+			custom_effect_tooltip = WES_army_localization_8.tt
+		}
+	}
+	cost = 4.3
+	x = 0
+	y = 3
+}
+
+shared_focus = {
+	id = WES_artillery_men
+	icon = GFX_goal_WES_artilerry_man
+	prerequisite = {
+        focus = WES_protect_land
+	}
+	completion_reward = {
+		WES = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = artillery
+			}
+			add_to_variable = {
+				var = WES_royal_army_artillery_attack
+				value = 0.1
+			}
+			add_to_variable = {
+				var = WES_royal_army_artillery_defence
+				value = 0.1
+			}
+			custom_effect_tooltip = WES_army_localization_9.tt
+		}
+	}
+	cost = 4.3
+	x = 2
+	y = 3
+}
+
+shared_focus = {
+	id = WES_tank_knights
+	icon = GFX_goal_WES_tank_knights
+	prerequisite = {
+        focus = WES_concentrated_strikes
+	}
+	prerequisite = {
+        focus = WES_artillery_men
+	}
+	completion_reward = {
+		WES = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = armor
+			}
+			add_to_variable = {
+				var = WES_royal_army_armor_attack
+				value = 0.1
+			}
+			add_to_variable = {
+				var = WES_royal_army_armor_defence
+				value = 0.1
+			}
+			add_to_variable = {
+				var = WES_royal_army_armor_speed
+				value = 0.1
+			}
+			custom_effect_tooltip = WES_army_localization_10.tt
+			load_oob = WES_Tank_Forces
+		}
+	}
+	cost = 4.3
+	x = 1
+	y = 4
+}
+
+shared_focus = {
+	id = WES_rule_skies
+	icon = GFX_goal_WES_rules_skies
+	prerequisite = {
+        focus = WES_royal_military
+	}
+	completion_reward = {
+		WES = {
+			add_to_variable = {
+				var = WES_royal_army_air_attack
+				value = 0.1
+			}
+			custom_effect_tooltip = WES_army_localization_4.tt
+			air_experience = 20
+			add_tech_bonus = {
+				bonus = 0.50
+				uses = 3
+				category = jet_technology
+			}
+		}
+	}
+	cost = 4.3
+	x = 9
+	y = 2
+}
+
+shared_focus = {
+	id = WES_museum_pieces
+	icon = GFX_goal_WES_museum_pieces
+	prerequisite = {
+        focus = WES_rule_skies
+	}
+	completion_reward = {
+		WES = {
+			add_equipment_to_stockpile = {
+				type = fighter_equipment_0
+				amount = 11
+				producer = WES
+			}
+			WES = {
+				country_event = {
+					days = 0
+					id = WES_event.102
+				}
+			}
+		}
+	}
+	cost = 4.3
+	x = 8
+	y = 3
+}
+
+shared_focus = {
+	id = WES_battle_britain
+	icon = GFX_goal_WES_battle_britain
+	prerequisite = {
+        focus = WES_rule_skies
+	}
+	completion_reward = {
+		WES = {
+			country_event = {
+				days = 1
+			    id = WES_event.39
+			}
+			air_experience = 15
+		}
+	}
+	cost = 4.3
+	x = 10
+	y = 3
+}
+
+shared_focus = {
+	id = WES_heroes_skies
+	icon = GFX_goal_WES_heroes_skies
+	prerequisite = {
+        focus = WES_museum_pieces
+	}
+	prerequisite = {
+        focus = WES_battle_britain
+	}
+	completion_reward = {
+		WES = {
+			add_to_variable = {
+				var = WES_royal_army_ace_bonuses_factor
+				value = 0.15
+			}
+			add_to_variable = {
+				var = WES_royal_army_ace_generation_chance
+				value = 0.15
+			}
+			add_to_variable = {
+				var = WES_royal_army_ace_effectiveness
+				value = 0.15
+			}
+			custom_effect_tooltip = WES_army_localization_2.tt
+			add_tech_bonus = {
+				bonus = 0.50
+				uses = 2
+				category = air_doctrine
+			}
+		}
+	}
+	cost = 4.3
+	x = 9
+	y = 4
+}
+
+shared_focus = {
+	id = WES_arise_folk
+	icon = GFX_goal_WES_cringe
+	prerequisite = {
+        focus = WES_return_king
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = WES_legitimacy_required_75	
+			check_variable = {
+				var = WES_george_legitimacy_level
+				value = 75
+				compare = greater_than_or_equals
+			}
+		}
+	}
+	completion_reward = {
+		WES = {
+			country_event = {
+				days = 1
+				id = WES_event.4
+			}
+			add_manpower = 100000
+		}
+	}
+	cost = 4.3
+	x = 29
+	y = 1
+}
+
+shared_focus = {
+	id = WES_battle_camlann
+	icon = GFX_goal_WES_battle_camlann
+	prerequisite = {
+        focus = WES_arise_folk
+	}
+	bypass = {
+		OR = {
+			NOT = {
+				country_exists = SUS
+			}		
+			has_defensive_war_with = SUS
+		}
+	}
+	completion_reward = {
+		WES = {
+			add_timed_idea = {
+				idea = WES_battle_camlann
+				days = 180
+			}
+		}
+		add_political_power = 100
+	}
+	cost = 4.3
+	x = 29
+	y = 2
+}
+
+shared_focus = {
+	id = WES_traitors_fate
+	icon = GFX_goal_WES_traitors_fate
+	prerequisite = {
+        focus = WES_battle_camlann
+	}
+	available = {
+		NOT = {
+		    country_exists = KNT
+			country_exists = SUS
+		}
+		WES = {
+			has_country_flag = ENG_henry_here
+		}
+	}
+	completion_reward = {
+		WES = {
+			country_event = {
+				days = 0
+				id = WES_event.5
+			}
+			add_political_power = 50
+		}
+	}
+	cost = 4.3
+	x = 28
+	y = 3
+}
+
+shared_focus = {
+	id = WES_catholic_scourge
+	icon = GFX_goal_WES_catholic_scourge
+	prerequisite = {
+        focus = WES_battle_camlann
+	}
+	available = {
+		NOT = {
+		    country_exists = KNT
+			country_exists = SUS
+		}
+	}
+	completion_reward = {
+		WES = {
+			country_event = {
+				days = 0
+				id = WES_event.13
+			}
+			add_stability = 0.1
+		}
+	}
+	cost = 4.3
+	x = 30
+	y = 3
+}
+
+shared_focus = {
+	id = WES_road_unification
+	icon = GFX_goal_WES_road_unification
+	prerequisite = {
+		focus = WES_traitors_fate
+	}
+	prerequisite = {
+		focus = WES_catholic_scourge
+	}
+	completion_reward = {
+		WES = {
+			country_event = {
+				days = 1
+				id = WES_event.12
+			}
+		}
+		add_war_support = 0.1
+		custom_effect_tooltip = WES_road_unification.tt
+		set_variable = {
+			var = WES_coring_cost
+			value = 75
+		}
+	}
+	available = {
+		NOT = {
+			country_exists = SUS
+			country_exists = KNT
+		}
+	}
+	cost = 4.3
+	x = 29
+	y = 4
+}
+
+shared_focus = {
+	id = WES_orthodox_diplomacy
+	icon = GFX_goal_WES_orthodox_diplomacy
+	cost = 4.3
+	completion_reward = {
+		WES = {
+			set_country_flag = WES_diplomacy_open
+			set_country_flag = WES_diplomacy_orthodox_open
+		}
+	}
+	available = {
+		WES = {
+			has_completed_focus = WES_return_king
+			NOT = {
+				country_exists = SUS
+				country_exists = ESS
+			}
+		}
+	}
+	x = 25
+	y = 2
+}
+
+shared_focus = {
+	id = WES_keepers_athos
+	icon = GFX_goal_WES_keepers_athos
+	prerequisite = {
+        focus = WES_orthodox_diplomacy
+	}
+	cost = 4.3
+	x = 24
+	y = 3
+}
+
+shared_focus = {
+	id = WES_plead_help
+	icon = GFX_goal_WES_plead_help
+	prerequisite = {
+        focus = WES_orthodox_diplomacy
+	}
+	cost = 4.3
+	x = 26
+	y = 3
+}
+
+shared_focus = {
+	id = WES_eurasian_connections
+	icon = GFX_goal_WES_eurasian_connections
+	prerequisite = {
+        focus = WES_keepers_athos
+	}
+	prerequisite = {
+        focus = WES_plead_help
+	}
+	completion_reward = {
+		set_country_flag = WES_diplomacy_eurasia_open
+	}
+	cost = 4.3
+	x = 25
+	y = 4
+}
+
+shared_focus = {
+	id = WES_knight_mercia
+	icon = GFX_goal_WES_knight_mercia
+	prerequisite = {
+        focus = WES_arise_folk
+	}
+	available = {
+		WES = {
+			has_country_flag = WES_george_legitimacy_achieved
+			has_completed_focus = WES_return_king
+			NOT = {
+				country_exists = SUS
+				country_exists = ESS
+			}
+		}
+	}
+	bypass = {
+	    NOT = {
+		    country_exists = MRC
+		}			
+	}
+	completion_reward = {
+		custom_effect_tooltip = WES_knight_mercia.tt
+		custom_effect_tooltip = WES_diplomacy_opened.tt
+		WES = {
+			set_country_flag = WES_diplomacy_open
+			country_event = {
+				days = 1
+				id = WES_event.41
+			}
+		}
+	}
+	cost = 4.3
+	x = 34
+	y = 2
+}
+
+shared_focus = {
+	id = WES_battle_faiths
+	icon = GFX_goal_WES_battle_faiths
+	prerequisite = {
+        focus = WES_knight_mercia
+	}
+	bypass = {
+	    NOT = {
+		    country_exists = MRC
+		}			
+	}	
+	completion_reward = {
+	}	
+	cost = 4.3
+	x = 33
+	y = 3
+}
+
+shared_focus = {
+	id = WES_ideological_conflict
+	icon = GFX_goal_WES_ideological_conflict
+	prerequisite = {
+        focus = WES_knight_mercia
+	}
+	bypass = {
+	    NOT = {
+		    country_exists = MRC
+		}			
+	}
+	completion_reward = {
+	}
+	cost = 4.3
+	x = 35
+	y = 3
+}
+
+shared_focus = {
+	id = WES_final_decision
+	icon = GFX_goal_WES_final_decision
+	available = {
+		WES = {
+			has_country_flag = WES_douglas_diplomacy_accept
+		}
+	}
+	bypass = {
+	    NOT = {
+		    country_exists = MRC
+		}			
+	}
+	prerequisite = {
+        focus = WES_battle_faiths
+	}
+	prerequisite = {
+        focus = WES_ideological_conflict
+	}
+	completion_reward = {
+		custom_effect_tooltip = WES_final_decision.tt
+		WES = {
+			country_event = {
+				days = 5
+				id = WES_event.53
+			}
+		}	
+	}
+	cost = 4.3
+	x = 34
+	y = 4
+}
+
+shared_focus = {
+	id = WES_curious_proposal
+	icon = GFX_goal_WES_curious_proposal
+	cost = 4.3
+	available = {
+		WES = {
+			has_country_flag = WES_george_legitimacy_achieved
+			has_completed_focus = WES_return_king
+		}
+	}
+	x = 34
+	y = 5
+}
+
+shared_focus = {
+	id = WES_establish_supplies
+	icon = GFX_goal_WES_establish_supplies
+	prerequisite = {
+        focus = WES_curious_proposal
+	}
+	cost = 4.3
+	x = 33
+	y = 6
+}
+
+shared_focus = {
+	id = WES_military_expertise
+	icon = GFX_goal_WES_military_expertise
+	prerequisite = {
+        focus = WES_curious_proposal
+	}
+	cost = 4.3
+	x = 35
+	y = 6
+}
+
+shared_focus = {
+	id = WES_anglo_russian_state
+	icon = GFX_goal_WES_anglo_russian_state
+	prerequisite = {
+        focus = WES_establish_supplies
+	}
+	prerequisite = {
+        focus = WES_military_expertise
+	}
+	completion_reward = {
+	    puppet = STM
+		country_event = {}
+	}
+	cost = 4.3
+	x = 34
+	y = 7
+}
+
+shared_focus = {
+	id = WES_retake_capital
+	icon = GFX_goal_WES_retake_capital
+	prerequisite = {
+        focus = WES_road_unification
+	}
+	available = {
+		NOT = {
+		    country_exists = EAG
+			country_exists = SUS
+			country_exists = NTH
+			country_exists = MRC
+		}
+	}
+	completion_reward = {
+		WES = {
+			country_event = {
+				days = 1
+				id = WES_event.14
+			}
+		}	
+		1159 = {
+			add_compliance = 30
+			add_resistance = -30
+		}
+		1158 = {
+			add_compliance = 30
+			add_resistance = -30
+		}
+		1160 = {
+			add_compliance = 30
+			add_resistance = -30
+		}
+		1157 = {
+			add_compliance = 30
+			add_resistance = -30
+		}
+		1003 = {
+			add_compliance = 30
+			add_resistance = -30
+		}			
+	}
+	cost = 4.3
+	x = 31
+	y = 5
+}
+
+shared_focus = {
+	id = WES_place_anglophobes
+	icon = GFX_goal_WES_no_place_for_anglophobes
+	prerequisite = {
+        focus = WES_road_unification
+	}
+	available = {
+		NOT = {
+		    country_exists = EAG
+			country_exists = SUS
+			country_exists = NTH
+			country_exists = MRC
+		}
+	}
+	completion_reward = {
+		WES = {
+			country_event = {
+				days = 1
+				id = WES_event.15
+			}
+		}
+		hidden_effect = {
+			1152 = {
+				add_compliance = 30
+				add_resistance = -30
+			}
+			1154 = {
+				add_compliance = 30
+				add_resistance = -30
+			}
+			1155 = {
+				add_compliance = 30
+				add_resistance = -30
+			}
+			1005 = {
+				add_compliance = 30
+				add_resistance = -30
+			}
+			1151 = {
+				add_compliance = 30
+				add_resistance = -30
+			}	
+			1146 = {
+				add_compliance = 30
+				add_resistance = -30
+			}	
+			1008 = {
+				add_compliance = 30
+				add_resistance = -30
+			}	
+			1144 = {
+				add_compliance = 30
+				add_resistance = -30
+			}	
+			1009 = {
+				add_compliance = 30
+				add_resistance = -30
+			}	
+			1145 = {
+				add_compliance = 30
+				add_resistance = -30
+			}	
+			1012 = {
+				add_compliance = 30
+				add_resistance = -30
+			}
+			1011 = {
+				add_compliance = 30
+				add_resistance = -30
+			}
+			1010 = {
+				add_compliance = 30
+				add_resistance = -30
+			}			
+		}
+		custom_effect_tooltip = WES_republicans_complaince.tt
+	}
+	cost = 4.3
+	x = 29
+	y = 5
+}
+
+shared_focus = {
+	id = WES_teuton_intruders
+	icon = GFX_goal_WES_the_teuton_menace
+	prerequisite = {
+        focus = WES_road_unification
+	}
+	available = {
+		NOT = {
+		    country_exists = EAG
+			country_exists = SUS
+			country_exists = NTH
+			country_exists = MRC
+		}
+	}
+	completion_reward = {
+		WES = {
+			country_event = {
+				days = 1
+				id = WES_event.16
+			}
+		}
+		add_political_power = 50
+		1004 = {
+			add_compliance = 30
+			add_resistance = -30
+		}
+		1143 = {
+			add_compliance = 30
+			add_resistance = -30
+		}
+	}
+	cost = 4.3
+	x = 27
+	y = 5
+}
+
+shared_focus = {
+	id = WES_protector_england
+	icon = GFX_goal_WES_Protector_of_England
+	prerequisite = {
+        focus = WES_place_anglophobes
+	}
+	prerequisite = {
+        focus = WES_teuton_intruders
+	}
+	prerequisite = {
+        focus = WES_retake_capital
+	}
+	completion_reward = {
+		WES = {
+			country_event = {
+				days = 1
+				id = WES_event.22
+			}
+		}
+		custom_effect_tooltip = WES_road_unification.tt
+		set_variable = {
+			var = WES_coring_cost
+			value = 50
+		}
+		hidden_effect = {
+			WES = {
+				set_cosmetic_tag = WES_ENGLAND
+			}
+		}
+	}
+	cost = 4.3
+	x = 29
+	y = 6
+}
+
+shared_focus = {
+	id = WES_masters_slaves
+	icon = GFX_goal_WES_Slaves_and_Masters
+	prerequisite = {
+        focus = WES_protector_england
+	}
+	mutually_exclusive = {
+	    focus = WES_mutual_prosperity
+	}
+	completion_reward = {
+	    if = { 
+		    limit = {
+				OR = {
+					country_exists = WLS
+					country_exists = SCO
+				}	
+			}		
+			WES = {
+				country_event = {
+					days = 1
+					id = WES_event.24
+				}
+			}
+		}
+	    if = { 
+		    limit = {
+			    country_exists = IRE
+			}			
+			WES = {
+				country_event = {
+					days = 1
+					id = WES_event.27
+				}
+			}
+		}
+	    custom_effect_tooltip = WES_masters_and_slaves.tt
+	}
+	cost = 4.3
+	x = 28
+	y = 7
+}
+
+shared_focus = {
+	id = WES_mutual_prosperity
+	icon = GFX_goal_WES_mutual_prosperity
+	prerequisite = {
+        focus = WES_protector_england
+	}
+	mutually_exclusive = {
+	    focus = WES_masters_slaves
+	}
+	completion_reward = {
+	    custom_effect_tooltip = WES_mutual_cooperation.tt
+		SCO = {
+			country_event = {
+				days = 1
+				id = SCO_event.3
+			}
+		}	
+		WLS = {
+			country_event = {
+				days = 1
+				id = WLS_event.7
+			}
+		}	
+		IRE = {
+			country_event = {
+				days = 1
+				id = IRE_event.6
+			}
+		}		
+	}
+	cost = 4.3
+	x = 30
+	y = 7
+}
+
+##DESTRUCTION OF BRITAIN##
+
+shared_focus = {
+	id = WES_rule_george
+	icon = GFX_goal_WES_Rule_of_george
+	cost = 4.3
+	available = {
+		WES = {
+			has_country_flag = WES_george_legitimacy_achieved
+			has_completed_focus = WES_return_king
+			NOT = {
+				country_exists = SUS
+				country_exists = KNT
+			}
+		}
+	}
+	completion_reward = {
+		WES = {
+			add_political_power = 120
+			add_stability = 0.15
+			add_war_support = 0.15
+			country_event = {
+				days = 0
+				id = WES_event.90
+			}
+			hidden_effect = {
+				add_dynamic_modifier = {
+					modifier = WES_rule_of_george_dynamic_modifier
+				}
+			}
+			custom_effect_tooltip = WES_mechanic_activated.tt
+		}
+	}
+	x = 17
+	y = 6
+}
+
+shared_focus = {
+	id = WES_medieval_state
+	icon = GFX_goal_WES_Medieval_State
+	prerequisite = {
+        focus = WES_rule_george
+	}
+	cost = 4.3
+	completion_reward = {
+		WES = {
+			add_to_variable = {
+				var = WES_transformation_education_progress
+				value = 5
+			}
+			add_to_variable = {
+				var = WES_transformation_deurbanization_progress
+				value = 10
+			}
+			add_to_variable = {
+				var = WES_total_transformation_level
+				value = 10
+			}
+			clamp_variable = {
+				var = WES_transformation_education_progress
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = WES_transformation_deurbanization_progress
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = WES_total_transformation_level
+				min = 0
+				max = 800
+			}
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 1
+			}
+			custom_effect_tooltip =	WES_transformation_education_small.tt	
+			custom_effect_tooltip =	WES_transformation_deurbanization_small.tt	
+			custom_effect_tooltip =	WES_careful_planning_1.tt
+		}
+	}
+	x = 17
+	y = 7
+}
+
+shared_focus = {
+	id = WES_days_old
+	icon = GFX_goal_WES_The_Days_of_Old
+	prerequisite = {
+        focus = WES_rule_george
+	}
+	cost = 4.3
+	x = 23
+	y = 7
+}
+
+shared_focus = {
+	id = WES_human_nauture
+	icon = GFX_goal_WES_Embrace_The_Human_Nature
+	prerequisite = {
+        focus = WES_long_planning
+	}
+	completion_reward = {
+		WES = {
+			add_political_power = 25
+			add_stability = 0.035
+			add_to_variable = {
+				var = WES_rule_of_george_production_factory_efficiency_gain_factor
+				value = 0.05
+			}
+			custom_effect_tooltip = WES_dynamic_localization_10.tt
+			custom_effect_tooltip =	WES_careful_planning_1.tt
+		}
+	}
+	cost = 4.3
+	x = 16
+	y = 9
+}
+
+shared_focus = {
+	id = WES_competetive_spirit
+	icon = GFX_goal_WES_competetive_spirit
+	prerequisite = {
+        focus = WES_human_nauture
+	}
+	prerequisite = {
+        focus = WES_relocation_programmes
+	}
+	completion_reward = {
+		add_political_power = 50
+		add_dynamic_modifier = {
+			modifier = WES_competitive_spirit_modifier
+		}
+		add_to_variable = {
+			var = WES_transformation_law_progress
+			value = 10
+		}
+		add_to_variable = {
+			var = WES_transformation_society_progress
+			value = 5
+		}
+		add_to_variable = {
+			var = WES_total_transformation_level
+			value = 15
+		}
+		clamp_variable = {
+			var = WES_transformation_law_progress
+			min = 0
+			max = 100
+		}
+		clamp_variable = {
+			var = WES_transformation_society_progress
+			min = 0
+			max = 100
+		}
+		clamp_variable = {
+			var = WES_total_transformation_level
+			min = 0
+			max = 800
+		}
+		custom_effect_tooltip =	WES_transformation_law_big.tt	
+		custom_effect_tooltip =	WES_transformation_culture_small.tt	
+	}
+	cost = 4.3
+	x = 17
+	y = 10
+}
+
+shared_focus = { #1
+	id = WES_societal_roles
+	icon = GFX_goal_WES_societal_roles
+	prerequisite = {
+		focus = WES_return_tradition
+	}
+	cost = 4.3
+	x = 14
+	y = 16
+}
+
+shared_focus = { #2
+	id = WES_mannerbunds
+	icon = GFX_goal_WES_Mannerbunds
+	prerequisite = {
+		focus = WES_clean_start
+		focus = WES_clinging_present
+	}
+	cost = 4.3
+	x = 17
+	y = 14
+}
+
+shared_focus = { #3
+	id = WES_jousting
+	icon = GFX_goal_WES_Jousing
+	prerequisite = {
+		focus = WES_english_tongue
+	}
+	completion_reward = {
+		WES = {
+			add_to_variable = {
+				var = WES_rule_of_george_experience_gain_army
+				value = 0.15
+			}
+			custom_effect_tooltip = WES_dynamic_localization_4.tt
+		}
+		add_to_variable = {
+			var = WES_transformation_deurbanization_progress
+			value = 10
+		}
+		add_to_variable = {
+			var = WES_total_transformation_level
+			value = 10
+		}
+		clamp_variable = {
+			var = WES_transformation_deurbanization_progress
+			min = 0
+			max = 100
+		}
+		clamp_variable = {
+			var = WES_total_transformation_level
+			min = 0
+			max = 800
+		}
+		custom_effect_tooltip = WES_jousting.tt
+		custom_effect_tooltip =	WES_transformation_culture_big.tt		
+	}
+	cost = 4.3
+	x = 16
+	y = 16
+}
+
+shared_focus = { #4
+	id = WES_return_tradition
+	icon = GFX_goal_WES_return_tradition
+	prerequisite = {
+		focus = WES_pop_culture
+	}
+	cost = 4.3
+	x = 14
+	y = 15
+}
+
+shared_focus = { #5
+	id = WES_embrace_modernity
+	icon = GFX_goal_WES_embrace_modernity
+	prerequisite = {
+		focus = WES_cultural_symbiosis
+	}
+	cost = 4.3
+	x = 20
+	y = 15
+}
+
+shared_focus = { #7
+	id = WES_new_chivilary
+	icon = GFX_goal_WES_A_new_age_of_Chilvary
+	prerequisite = {
+		focus = WES_cult_shakespeare
+	}
+	completion_reward = {
+		WES = {
+			add_to_variable = {
+				var = WES_rule_of_george_offence
+				value = 0.10
+			}
+			add_to_variable = {
+				var = WES_rule_of_george_defence
+				value = 0.10
+			}
+			add_to_variable = {
+				var = WES_transformation_society_progress
+				value = 10
+			}
+			add_to_variable = {
+				var = WES_total_transformation_level
+				value = 10
+			}
+			clamp_variable = {
+				var = WES_transformation_deurbanization_progress
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = WES_total_transformation_level
+				min = 0
+				max = 800
+			}
+			custom_effect_tooltip = WES_dynamic_localization_5.tt
+			custom_effect_tooltip = WES_new_chivilary.tt
+			custom_effect_tooltip =	WES_transformation_society_big.tt
+		}
+	}
+	cost = 4.3
+	x = 18
+	y = 16
+}
+
+shared_focus = {
+	id = WES_careful_reform
+	icon = GFX_goal_WES_careful_reform
+	prerequisite = {
+        focus = WES_days_old
+	}
+	cost = 4.3
+	x = 23
+	y = 8
+}
+
+shared_focus = { #8
+	id = WES_english_spirit
+	icon = GFX_goal_WES_the_english_spirit
+	prerequisite = {
+		focus = WES_embrace_modernity
+	}
+	completion_reward = {
+		WES = {
+			add_to_variable = {
+				var = WES_rule_of_george_war_support_factor
+				value = 0.15
+			}
+			add_to_variable = {
+				var = WES_rule_of_george_stability_factor
+				value = 0.15
+			}
+			custom_effect_tooltip = WES_dynamic_localization_6.tt
+		}
+	}
+	cost = 4.3
+	x = 20
+	y = 16
+}
+
+shared_focus = {
+	id = WES_end_industrial_society
+	icon = GFX_goal_WES_End_of_the_Industrial_Society
+	prerequisite = {
+        focus = WES_rule_george
+	}
+	completion_reward = {
+		WES = {
+			hidden_effect = {
+				set_technology = {
+					green_overall = 1
+					green_overall_dummy = 1
+					automatization_overall = 0
+					automatization_overall_dummy = 0
+					industrialization_overall = 0
+					industrialization_overall_dummy = 0
+					unorthodox_overall = 0
+					unorthodox_overall_dummy = 0
+				}
+			}
+			add_to_variable = {
+				var = WES_transformation_deurbanization_progress
+				value = 15
+			}
+			add_to_variable = {
+				var = WES_total_transformation_level
+				value = 15
+			}
+			clamp_variable = {
+				var = WES_transformation_deurbanization_progress
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = WES_total_transformation_level
+				min = 0
+				max = 800
+			}
+			WES = {
+				country_event = {
+					days = 1
+					id = WES_event.104
+				}
+			}
+			custom_effect_tooltip = WES_end_of_industrial_society.tt
+			custom_effect_tooltip =	WES_transformation_deurbanization_big.tt
+		}
+	}
+	cost = 4.3
+	x = 11
+	y = 7
+}
+
+shared_focus = {
+	id = WES_long_planning
+	icon = GFX_goal_WES_Long_Term_Planning
+	prerequisite = {
+        focus = WES_medieval_state
+	}
+	completion_reward = {
+		WES = {
+			add_to_variable = {
+				var = WES_transformation_deurbanization_progress
+				value = 10
+			}
+			add_to_variable = {
+				var = WES_total_transformation_level
+				value = 10
+			}
+			clamp_variable = {
+				var = WES_transformation_deurbanization_progress
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = WES_total_transformation_level
+				min = 0
+				max = 800
+			}
+			add_timed_idea = {
+				idea = WES_transformation_careful_planning
+				days = 360
+			}
+			custom_effect_tooltip =	WES_transformation_deurbanization_big.tt
+			custom_effect_tooltip =	WES_careful_planning_1.tt
+			custom_effect_tooltip =	WES_careful_planning_2.tt
+		}
+		hidden_effect = {
+			WES = {
+				country_event = {
+					days = 365
+					id = WES_event.98
+				}
+			}
+		}
+	}
+	cost = 4.3
+	x = 15
+	y = 8
+}
+
+shared_focus = {
+	id = WES_simplifid_infrastructure
+	icon = GFX_goal_WES_Simplified_Infrastructure
+	prerequisite = {
+        focus = WES_end_industrial_society
+	}
+	completion_reward = {
+		WES = {
+			add_to_variable = {
+				var = WES_transformation_environment_progress
+				value = 5
+			}
+			add_to_variable = {
+				var = WES_transformation_deurbanization_progress
+				value = 10
+			}
+			add_to_variable = {
+				var = WES_total_transformation_level
+				value = 15
+			}
+			clamp_variable = {
+				var = WES_transformation_environment_progress
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = WES_transformation_deurbanization_progress
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = WES_total_transformation_level
+				min = 0
+				max = 800
+			}
+			every_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_timed_idea = {
+				idea = WES_transformation_build_infrastructure
+				days = 360
+			}
+			custom_effect_tooltip = WES_transformation_environment_small.tt
+			custom_effect_tooltip =	WES_transformation_deurbanization_big.tt
+		}
+	}
+	cost = 4.3
+	x = 11
+	y = 8
+}
+
+shared_focus = {
+	id = WES_voluntarily_colony
+	icon = GFX_goal_WES_voluntary_colonialism
+	prerequisite = {
+        focus = WES_eurasian_connections
+	}
+	completion_reward = {
+		WES = {
+			add_to_variable = {
+				var = WES_rule_of_george_consumer_goods_factor
+				value = -0.15
+			}
+			add_offsite_building = { type = arms_factory level = 4 }
+			add_offsite_building = { type = industrial_complex level = 4 }
+			custom_effect_tooltip = WES_dynamic_localization_8.tt
+		}
+	}
+	cost = 4.3
+	x = 25
+	y = 5
+}
+
+shared_focus = {
+	id = WES_rebuild_scenery
+	icon = GFX_goal_WES_rebuild_the_scenery
+	prerequisite = {
+        focus = WES_connect_nature
+	}
+	completion_reward = {
+		WES = {
+			add_political_power = 150
+			add_to_variable = {
+				var = WES_transformation_environment_progress
+				value = 10
+			}
+			add_to_variable = {
+				var = WES_transformation_deurbanization_progress
+				value = 5
+			}
+			add_to_variable = {
+				var = WES_total_transformation_level
+				value = 15
+			}
+			clamp_variable = {
+				var = WES_transformation_environment_progress
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = WES_transformation_deurbanization_progress
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = WES_total_transformation_level
+				min = 0
+				max = 800
+			}
+			set_variable = {
+				var = WES_pastoral_zone_count
+				value = 14
+			}
+			set_variable = {
+				var = WES_guild_zone_count
+				value = 5
+			}
+			set_variable = {
+				var = WES_fair_zone_count
+				value = 9
+			}
+			set_variable = {
+				var = WES_exclusion_zone_count
+				value = 4
+			}
+			custom_effect_tooltip = WES_transformation_environment_big.tt
+			custom_effect_tooltip =	WES_transformation_deurbanization_small.tt
+			custom_effect_tooltip = WES_rebuild_scenery.tt
+		}
+	}
+	cost = 4.3
+	x = 13
+	y = 9
+}
+
+shared_focus = {
+	id = WES_dismantle_cities
+	icon = GFX_goal_WES_dismantle_cities
+	prerequisite = {
+        focus = WES_pastoral_life
+	}
+	cost = 4.3
+	x = 9
+	y = 9
+}
+
+shared_focus = {
+	id = WES_connect_nature
+	icon = GFX_goal_WES_Connect_With_Nature
+	prerequisite = {
+        focus = WES_end_industrial_society
+	}
+	completion_reward = {
+		WES = {
+			add_to_variable = {
+				var = WES_transformation_environment_progress
+				value = 10
+			}
+			add_to_variable = {
+				var = WES_total_transformation_level
+				value = 10
+			}
+			clamp_variable = {
+				var = WES_transformation_environment_progress
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = WES_total_transformation_level
+				min = 0
+				max = 800
+			}
+			add_stability = 0.1
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 3
+				category = green_industry_category
+			}
+			custom_effect_tooltip = WES_transformation_environment_big.tt
+		}		
+	}
+	cost = 4.3
+	x = 13
+	y = 8
+}
+
+shared_focus = {
+	id = WES_pastoral_life
+	icon = GFX_goal_WES_a_pastoral_life
+	prerequisite = {
+        focus = WES_end_industrial_society
+	}
+	cost = 4.3
+	x = 9
+	y = 8
+}
+
+shared_focus = {
+	id = WES_subsistence_economy
+	icon = GFX_goal_WES_A_subsistence_economy
+	prerequisite = {
+        focus = WES_medieval_state
+	}
+	completion_reward = {
+		WES = {
+			add_stability = 0.025
+			add_ideas = { closed_economy }
+			add_to_variable = {
+				var = WES_transformation_education_progress
+				value = 10
+			}
+			add_to_variable = {
+				var = WES_total_transformation_level
+				value = 10
+			}
+			clamp_variable = {
+				var = WES_transformation_education_progress
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = WES_total_transformation_level
+				min = 0
+				max = 800
+			}
+			set_variable = {
+				WES_agrarian_economy_consumer_goods_factor = -0.05
+			}
+			custom_effect_tooltip = WES_subsistence_economy_tt
+			custom_effect_tooltip = WES_transformation_education_big.tt
+			hidden_effect = {
+				WES = {
+					country_event = {
+						days = 1
+						id = WES_event.105
+					}
+				}
+			}
+		}		
+	}
+	cost = 4.3
+	x = 19
+	y = 8
+}
+
+shared_focus = {
+	id = WES_relocation_programmes
+	icon = GFX_goal_WES_relocation_programs
+	prerequisite = {
+        focus = WES_subsistence_economy
+	}
+	completion_reward = {
+		WES = {
+			add_political_power = 25
+			random_owned_controlled_state = {	
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+				}
+					add_extra_state_shared_building_slots = 1
+			}
+			random_owned_controlled_state = {	
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+				}
+					add_extra_state_shared_building_slots = 1
+			}
+		}
+		custom_effect_tooltip =	WES_villages_development_tt
+	}
+	cost = 4.3
+	x = 18
+	y = 9
+}
+
+shared_focus = {
+	id = WES_rural_paradise
+	icon = GFX_goal_WES_rural_paradise
+	prerequisite = {
+        focus = WES_dismantle_cities
+	}
+	prerequisite = {
+        focus = WES_rebuild_scenery
+	}
+	completion_reward = {
+		WES = {
+			add_to_variable = {
+				var = WES_rule_of_george_monthly_population
+				value = 0.45
+			}
+			add_to_variable = {
+				var = WES_rule_of_george_conscription_factor
+				value = 0.10
+			}
+			custom_effect_tooltip = WES_dynamic_localization_7.tt
+		}
+	}
+	cost = 4.3
+	x = 11
+	y = 10
+}
+
+shared_focus = { 
+	id = WES_matters_future
+	icon = GFX_goal_WES_Matters_of_The_future
+	available = {
+		WES = {
+			has_completed_focus = WES_rule_george
+		}
+	}
+	prerequisite = {
+	}
+	cost = 4.3
+	x = 17
+	y = 12
+}
+
+shared_focus = { #
+	id = WES_clean_start
+	icon = GFX_goal_WES_A_Clean_Start
+	prerequisite = {
+		focus = WES_matters_future
+	}
+	mutually_exclusive = {
+        focus = WES_clinging_present
+	}
+	cost = 4.3
+	x = 15
+	y = 13
+}
+
+
+shared_focus = { #
+	id = WES_clinging_present
+	icon = GFX_goal_WES_Clinging_to_the_Present
+	prerequisite = {
+		focus = WES_matters_future
+	}
+	mutually_exclusive = {
+		focus = WES_clean_start
+	}
+	cost = 4.3
+	x = 19
+	y = 13
+}
+
+shared_focus = {
+	id = WES_new_fiefdoms
+	icon = GFX_goal_WES_Local_Administrations
+	prerequisite = {
+        focus = WES_days_old
+	}
+	cost = 4.3
+	x = 21
+	y = 8
+}
+
+shared_focus = { #
+	id = WES_heroic_absolutism
+	icon = GFX_goal_WES_heroic_absolutism
+	prerequisite = {
+		focus = WES_jousting
+	}
+	prerequisite = {
+		focus = WES_new_chivilary
+	}
+	completion_reward = {
+		WES = {
+			add_to_variable = {
+				var = WES_rule_of_george_political_power_gain
+				value = 0.50
+			}
+			custom_effect_tooltip = WES_dynamic_localization_9.tt
+		}
+	}
+	cost = 4.3
+	x = 17
+	y = 17
+}
+
+shared_focus = {
+	id = WES_law_england
+	icon = GFX_goal_WES_The_Law_of_England
+	prerequisite = {
+        focus = WES_new_curriculum
+	}
+	mutually_exclusive = {
+        focus = WES_law_king
+	}
+	cost = 4.3
+	x = 22
+	y = 10
+}
+
+shared_focus = {
+	id = WES_law_king
+	icon = GFX_goal_WES_The_Law_of_the_king
+	prerequisite = {
+        focus = WES_new_curriculum
+	}
+	mutually_exclusive = {
+        focus = WES_law_england
+	}
+	cost = 4.3
+	x = 24
+	y = 10
+}
+
+shared_focus = { #
+	id = WES_english_tongue
+	icon = GFX_goal_WES_The_English_Tongue
+	prerequisite = {
+		focus = WES_mannerbunds
+	}
+	completion_reward = {
+		WES = {
+			add_political_power = 150
+			add_to_variable = {
+				var = WES_transformation_language_progress
+				value = 15
+			}
+			add_to_variable = {
+				var = WES_total_transformation_level
+				value = 15
+			}
+			clamp_variable = {
+				var = WES_total_transformation_level
+				min = 0
+				max = 800
+			}
+			clamp_variable = {
+				var = WES_transformation_language_progress
+				min = 0
+				max = 100
+			}
+			custom_effect_tooltip =	WES_transformation_language_big.tt
+			custom_effect_tooltip = WES_rename_cities.tt
+		}
+	}
+	cost = 4.3
+	x = 16
+	y = 15
+}
+
+shared_focus = { #
+	id = WES_perish_thought
+	icon = GFX_goal_WES_Perish_The_Thought
+	prerequisite = {
+		focus = WES_new_chivilary
+		focus = WES_english_spirit
+	}
+	cost = 4.3
+	x = 19
+	y = 17
+}
+
+shared_focus = {
+	id = WES_new_curriculum
+	icon = GFX_goal_WES_New_Curriculum
+	prerequisite = {
+        focus = WES_new_fiefdoms
+	}
+	prerequisite = {
+        focus = WES_careful_reform
+	}
+	prerequisite = {
+        focus = WES_many_tongues
+	}
+	completion_reward = {
+		WES = {
+			add_political_power = 75
+			add_research_slot = 1
+		}
+	}
+	cost = 4.3
+	x = 23
+	y = 9
+}
+
+shared_focus = { #
+	id = WES_pop_culture
+	icon = GFX_goal_WES_Death_Of_Pop_Culture
+	prerequisite = {
+		focus = WES_clean_start
+	}
+	cost = 4.3
+	x = 14
+	y = 14
+}
+
+shared_focus = {
+	id = WES_many_tongues
+	icon = GFX_goal_WES_many_tongues_of_britain
+	prerequisite = {
+        focus = WES_days_old
+	}
+	cost = 4.3
+	x = 25
+	y = 8
+}
+
+shared_focus = { #
+	id = WES_cult_shakespeare
+	icon = GFX_goal_WES_the_cult_of_shakespear
+	prerequisite = {
+		focus = WES_mannerbunds
+	}
+	cost = 4.3
+	x = 18
+	y = 15
+}
+
+shared_focus = { #
+	id = WES_centralized_education
+	icon = GFX_goal_WES_Centralized_Education
+	prerequisite = {
+		focus = WES_jousting
+		focus = WES_societal_roles
+	}
+	cost = 4.3
+	x = 15
+	y = 17
+}
+
+shared_focus = {
+	id = WES_secret_orthodox
+	icon = GFX_goal_WES_secret_orthodox
+	cost = 4.3
+	available = {
+		WES = {
+			has_country_flag = WES_george_legitimacy_achieved
+			has_completed_focus = WES_return_king
+		}
+	}
+	x = 5
+	y = 7
+}
+
+shared_focus = {
+	id = WES_head_church
+	icon = GFX_goal_WES_head_church
+	prerequisite = {
+        focus = WES_secret_orthodox
+	}
+	cost = 4.3
+	x = 3
+	y = 8
+}
+
+shared_focus = {
+	id = WES_anglican_tradition
+	icon = GFX_goal_WES_anglican_tradition
+	prerequisite = {
+        focus = WES_head_church
+	}
+	mutually_exclusive = {
+        focus = WES_under_unity
+	}
+	cost = 4.3
+	x = 2
+	y = 9
+}
+
+shared_focus = {
+	id = WES_under_unity
+	icon = GFX_goal_WES_under_unity
+	prerequisite = {
+        focus = WES_head_church
+	}
+	mutually_exclusive = {
+        focus = WES_anglican_tradition
+	}
+	cost = 4.3
+	x = 4
+	y = 9
+}
+
+shared_focus = {
+	id = WES_define_dogmas
+	icon = GFX_goal_WES_define_dogmas
+	prerequisite = {
+        focus = WES_anglican_tradition
+	}
+	cost = 4.3
+	x = 2
+	y = 10
+}
+
+shared_focus = {
+	id = WES_patriarch_england
+	icon = GFX_goal_WES_patriarch_england
+	prerequisite = {
+        focus = WES_under_unity
+	}
+	cost = 4.3
+	x = 4
+	y = 10
+}
+
+shared_focus = {
+	id = WES_world_knows
+	icon = GFX_goal_WES_world_knows
+	prerequisite = {
+        focus = WES_define_dogmas
+        focus = WES_patriarch_england
+	}
+	cost = 4.3
+	x = 3
+	y = 11
+}
+
+shared_focus = {
+	id = WES_orthodox_spectre
+	icon = GFX_goal_WES_orthodox_spectre
+	prerequisite = {
+        focus = WES_secret_orthodox
+	}
+	cost = 4.3
+	x = 7
+	y = 8
+}
+
+shared_focus = {
+	id = WES_easy_path
+	icon = GFX_goal_WES_easy_path
+	prerequisite = {
+        focus = WES_orthodox_spectre
+	}
+	mutually_exclusive = {
+        focus = WES_hard_way
+	}
+	cost = 4.3
+	x = 6
+	y = 9
+}
+
+shared_focus = {
+	id = WES_hard_way
+	icon = GFX_goal_WES_hard_way
+	prerequisite = {
+        focus = WES_orthodox_spectre
+	}
+	mutually_exclusive = {
+        focus = WES_easy_path
+	}
+	cost = 4.3
+	x = 8
+	y = 9
+}
+
+shared_focus = {
+	id = WES_education_programmes
+	icon = GFX_goal_WES_education_programmes
+	prerequisite = {
+        focus = WES_easy_path
+	}
+	cost = 4.3
+	x = 6
+	y = 10
+}
+
+shared_focus = {
+	id = WES_down_old
+	icon = GFX_goal_WES_down_old
+	prerequisite = {
+        focus = WES_hard_way
+	}
+	cost = 4.3
+	x = 8
+	y = 10
+}
+
+shared_focus = {
+	id = WES_convert_populace
+	icon = GFX_goal_WES_convert_populace
+	prerequisite = {
+        focus = WES_education_programmes
+        focus = WES_down_old
+	}
+	cost = 4.3
+	x = 7
+	y = 11
+}
+
+shared_focus = {
+	id = WES_orders_chilvarly
+	icon = GFX_goal_WES_orders_chilvarly
+	prerequisite = {
+        focus = WES_world_knows
+        focus = WES_convert_populace
+	}
+	cost = 4.3
+	x = 5
+	y = 12
+}
+
+shared_focus = {
+	id = WES_cultural_symbiosis
+	icon = GFX_goal_WES_cultural_symbiosis
+	prerequisite = {
+        focus = WES_clinging_present
+	}
+	cost = 4.3
+	x = 20
+	y = 14
+}
