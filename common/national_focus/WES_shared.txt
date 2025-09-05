@@ -245,7 +245,7 @@ shared_focus = {
 	cost = 4.3
 	completion_reward = {
 	}
-	x = 27
+	x = 32
 	y = 0
 }
 shared_focus = {
@@ -257,7 +257,7 @@ shared_focus = {
 	}
 	completion_reward = {
 	}
-	x = 26
+	x = 31
 	y = 1
 }
 shared_focus = {
@@ -269,7 +269,7 @@ shared_focus = {
 	}
 	completion_reward = {
 	}
-	x = 28
+	x = 33
 	y = 1
 }
 shared_focus = {
@@ -287,7 +287,7 @@ shared_focus = {
 	}
 	completion_reward = {
 	}
-	x = 26
+	x = 31
 	y = 2
 }
 shared_focus = {
@@ -305,7 +305,7 @@ shared_focus = {
 	}
 	completion_reward = {
 	}
-	x = 28
+	x = 33
 	y = 2
 }
 shared_focus = {
@@ -318,7 +318,7 @@ shared_focus = {
 	}
 	completion_reward = {
 	}
-	x = 25
+	x = 30
 	y = 3
 }
 shared_focus = {
@@ -331,7 +331,7 @@ shared_focus = {
 	}
 	completion_reward = {
 	}
-	x = 27
+	x = 32
 	y = 3
 }
 shared_focus = {
@@ -344,7 +344,7 @@ shared_focus = {
 	}
 	completion_reward = {
 	}
-	x = 29
+	x = 34
 	y = 3
 }
 ##Transitional##
@@ -1251,6 +1251,7 @@ shared_focus = {
 }
 
 ##FINAL TREE##
+#Medieval#
 shared_focus = {
 	id = WES_light_bonfires
 	icon = GFX_goal_WES_light_bonfires
@@ -1259,4 +1260,458 @@ shared_focus = {
 	}
 	x = 17
 	y = 16
+}
+shared_focus = {
+	id = WES_establish_fyrds
+	icon = GFX_goal_WES_establish_fyrds
+	cost = 4.3
+	prerequisite = {
+		focus = WES_light_bonfires
+	}
+	completion_reward = {
+	}
+	x = 15
+	y = 17
+}
+shared_focus = {
+	id = WES_restricted_tourism
+	icon = GFX_goal_WES_restricted_tourism
+	cost = 4.3
+	prerequisite = {
+		focus = WES_establish_fyrds
+	}
+	completion_reward = {
+	}
+	x = 14
+	y = 18
+}
+shared_focus = {
+	id = WES_traditional_medicine
+	icon = GFX_goal_WES_traditional_medicine
+	cost = 4.3
+	prerequisite = {
+		focus = WES_establish_fyrds
+	}
+	completion_reward = {
+	}
+	x = 16
+	y = 18
+}
+shared_focus = {
+	id = WES_enrys_proposal
+	icon = GFX_goal_WES_enrys_proposal
+	cost = 4.3
+	prerequisite = {
+		focus = WES_restricted_tourism
+	}
+	completion_reward = {
+	}
+	x = 14
+	y = 19
+}
+shared_focus = {
+	id = WES_waitrose_kings_originals
+	icon = GFX_goal_WES_waitrose_kings_originals
+	cost = 4.3
+	prerequisite = {
+		focus = WES_traditional_medicine
+	}
+	completion_reward = {
+	}
+	x = 16
+	y = 19
+}
+shared_focus = {
+	id = WES_the_voluntary_colonialism
+	icon = GFX_goal_WES_the_voluntary_colonialism
+	cost = 4.3
+	prerequisite = {
+		focus = WES_enrys_proposal
+	}
+	prerequisite = {
+		focus = WES_waitrose_kings_originals
+	}
+	completion_reward = {
+	}
+	x = 15
+	y = 20
+}
+#
+shared_focus = {
+	id = WES_romantic_projects
+	icon = GFX_goal_WES_romantic_projects
+	cost = 4.3
+	prerequisite = {
+		focus = WES_light_bonfires
+	}
+	completion_reward = {
+	}
+	x = 19
+	y = 17
+}
+shared_focus = {
+	id = WES_fill_the_marches
+	icon = GFX_goal_WES_fill_the_marches
+	cost = 4.3
+	prerequisite = {
+		focus = WES_romantic_projects
+	}
+	completion_reward = {
+	}
+	x = 20
+	y = 18
+}
+shared_focus = {
+	id = WES_clean_the_scenery
+	icon = GFX_goal_WES_clean_the_scenery
+	cost = 4.3
+	prerequisite = {
+		focus = WES_romantic_projects
+	}
+	completion_reward = {
+	}
+	x = 18
+	y = 18
+}
+shared_focus = {
+	id = WES_no_more_waves
+	icon = GFX_goal_WES_no_more_waves
+	cost = 4.3
+	prerequisite = {
+		focus = WES_fill_the_marches
+	}
+	completion_reward = {
+	}
+	x = 20
+	y = 19
+}
+shared_focus = {
+	id = WES_free_the_black_country
+	icon = GFX_goal_WES_free_the_black_country
+	cost = 4.3
+	prerequisite = {
+		focus = WES_clean_the_scenery
+	}
+	completion_reward = {
+	}
+	x = 18
+	y = 19
+}
+shared_focus = {
+	id = WES_edict_against_usury
+	icon = GFX_goal_WES_edict_against_usury
+	cost = 4.3
+	prerequisite = {
+		focus = WES_free_the_black_country
+	}
+	prerequisite = {
+		focus = WES_no_more_waves
+	}
+	completion_reward = {
+	}
+	x = 19
+	y = 20
+}
+shared_focus = {
+	id = WES_lay_down_swords
+	icon = GFX_goal_WES_lay_down_swords
+	cost = 4.3
+	prerequisite = {
+		focus = WES_waitrose_kings_originals
+	}
+	prerequisite = {
+		focus = WES_free_the_black_country
+	}
+	completion_reward = {
+	}
+	x = 17
+	y = 20
+}
+shared_focus = {
+	id = WES_red_dragon_rests
+	icon = GFX_goal_WES_red_dragon_rests
+	cost = 4.3
+	prerequisite = {
+		focus = WES_the_voluntary_colonialism
+	}
+	prerequisite = {
+		focus = WES_lay_down_swords
+	}
+	prerequisite = {
+		focus = WES_edict_against_usury
+	}
+	completion_reward = {
+	}
+	x = 17
+	y = 21
+}
+#Neofeudal#
+shared_focus = {
+	id = WES_hope_and_glory
+	icon = GFX_goal_WES_hope_and_glory
+	cost = 4.3
+	completion_reward = {
+	}
+	x = 17
+	y = 16
+}
+shared_focus = {
+	id = WES_london_plan
+	icon = GFX_goal_WES_london_plan
+	cost = 4.3
+	prerequisite = {
+		focus = WES_hope_and_glory
+	}
+	completion_reward = {
+	}
+	x = 15
+	y = 17
+}
+shared_focus = {
+	id = WES_carbon_taxes
+	icon = GFX_goal_WES_carbon_taxes
+	cost = 4.3
+	prerequisite = {
+		focus = WES_london_plan
+	}
+	completion_reward = {
+	}
+	x = 14
+	y = 18
+}
+shared_focus = {
+	id = WES_royal_care
+	icon = GFX_goal_WES_royal_care
+	cost = 4.3
+	prerequisite = {
+		focus = WES_london_plan
+	}
+	completion_reward = {
+	}
+	x = 16
+	y = 18
+}
+shared_focus = {
+	id = WES_testament_of_the_youth
+	icon = GFX_goal_WES_testament_of_the_youth
+	cost = 4.3
+	prerequisite = {
+		focus = WES_carbon_taxes
+	}
+	completion_reward = {
+	}
+	x = 14
+	y = 19
+}
+shared_focus = {
+	id = WES_protect_the_vulnerable
+	icon = GFX_goal_WES_protect_the_vulnerable
+	cost = 4.3
+	prerequisite = {
+		focus = WES_royal_care
+	}
+	completion_reward = {
+	}
+	x = 16
+	y = 19
+}
+shared_focus = {
+	id = WES_kings_open_society
+	icon = GFX_goal_WES_kings_open_society
+	cost = 4.3
+	prerequisite = {
+		focus = WES_testament_of_the_youth
+	}
+	prerequisite = {
+		focus = WES_protect_the_vulnerable
+	}
+	completion_reward = {
+	}
+	x = 15
+	y = 20
+}
+#
+shared_focus = {
+	id = WES_hand_of_history
+	icon = GFX_goal_WES_hand_of_history
+	cost = 4.3
+	prerequisite = {
+		focus = WES_hope_and_glory
+	}
+	completion_reward = {
+	}
+	x = 19
+	y = 17
+}
+shared_focus = {
+	id = WES_international_labour_division
+	icon = GFX_goal_WES_international_labour_division
+	cost = 4.3
+	prerequisite = {
+		focus = WES_hand_of_history
+	}
+	completion_reward = {
+	}
+	x = 20
+	y = 18
+}
+shared_focus = {
+	id = WES_open_the_gate
+	icon = GFX_goal_WES_open_the_gate
+	cost = 4.3
+	prerequisite = {
+		focus = WES_hand_of_history
+	}
+	completion_reward = {
+	}
+	x = 18
+	y = 18
+}
+shared_focus = {
+	id = WES_bitter_seeds
+	icon = GFX_goal_WES_bitter_seeds
+	cost = 4.3
+	prerequisite = {
+		focus = WES_international_labour_division
+	}
+	completion_reward = {
+	}
+	x = 20
+	y = 19
+}
+shared_focus = {
+	id = WES_beavers_meats
+	icon = GFX_goal_WES_beavers_meats
+	cost = 4.3
+	prerequisite = {
+		focus = WES_open_the_gate
+	}
+	completion_reward = {
+	}
+	x = 18
+	y = 19
+}
+shared_focus = {
+	id = WES_cashless_society
+	icon = GFX_goal_WES_cashless_society
+	cost = 4.3
+	prerequisite = {
+		focus = WES_beavers_meats
+	}
+	prerequisite = {
+		focus = WES_bitter_seeds
+	}
+	completion_reward = {
+	}
+	x = 19
+	y = 20
+}
+shared_focus = {
+	id = WES_medal_awaits_the_hero
+	icon = GFX_goal_WES_medal_awaits_the_hero
+	cost = 4.3
+	prerequisite = {
+		focus = WES_protect_the_vulnerable
+	}
+	prerequisite = {
+		focus = WES_beavers_meats
+	}
+	completion_reward = {
+	}
+	x = 17
+	y = 20
+}
+shared_focus = {
+	id = WES_brave_new_world
+	icon = GFX_goal_WES_brave_new_world
+	cost = 4.3
+	prerequisite = {
+		focus = WES_kings_open_society
+	}
+	prerequisite = {
+		focus = WES_medal_awaits_the_hero
+	}
+	prerequisite = {
+		focus = WES_cashless_society
+	}
+	completion_reward = {
+	}
+	x = 17
+	y = 21
+}
+###SECRET ORTHODOX###
+shared_focus = {
+	id = WES_ephraim_mission
+	icon = GFX_goal_WES_ephraim_mission
+	cost = 4.3
+	completion_reward = {
+	}
+	x = 6
+	y = 16
+}
+shared_focus = {
+	id = WES_spiritual_bridge
+	icon = GFX_goal_WES_ephraim_mission
+	cost = 4.3
+	prerequisite = {
+		focus = WES_ephraim_mission
+	}
+	completion_reward = {
+	}
+	x = 4
+	y = 17
+}
+shared_focus = {
+	id = WES_patriarch_of_essex_and_all_england
+	icon = GFX_goal_WES_patriarch_of_essex_and_all_england
+	cost = 4.3
+	prerequisite = {
+		focus = WES_ephraim_mission
+	}
+	completion_reward = {
+	}
+	x = 6
+	y = 17
+}
+shared_focus = {
+	id = WES_orthodox_orders
+	icon = GFX_goal_WES_orthodox_orders
+	cost = 4.3
+	prerequisite = {
+		focus = WES_ephraim_mission
+	}
+	completion_reward = {
+	}
+	x = 8
+	y = 17
+}
+shared_focus = {
+	id = WES_restore_monasteries
+	icon = GFX_goal_WES_restore_monasteries
+	cost = 4.3
+	prerequisite = {
+		focus = WES_spiritual_bridge
+	}
+	prerequisite = {
+		focus = WES_patriarch_of_essex_and_all_england
+	}
+	prerequisite = {
+		focus = WES_orthodox_orders
+	}
+	completion_reward = {
+	}
+	x = 6
+	y = 18
+}
+shared_focus = {
+	id = WES_english_autocephaly
+	icon = GFX_goal_WES_english_autocephaly
+	cost = 4.3
+	prerequisite = {
+		focus = WES_restore_monasteries
+	}
+	completion_reward = {
+	}
+	x = 6
+	y = 19
 }
