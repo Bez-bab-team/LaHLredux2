@@ -402,12 +402,871 @@ shared_focus = {
 	id = WES_public_monarchy
 	icon = GFX_goal_WES_public_monarchy
 	cost = 4.3
+	allow_branch = { 
+		has_government = neocameralism
+	}
 	completion_reward = {
 	}
 	x = 17
 	y = 7
 }
-
+shared_focus = {
+	id = WES_once_upon_a_time
+	icon = GFX_goal_WES_once_upon_a_time
+	cost = 4.3
+	allow_branch = { 
+		has_government = regressionism
+	}
+	completion_reward = {
+	}
+	x = 17
+	y = 7
+}
+#
+shared_focus = {
+	id = WES_assize_of_arms
+	icon = GFX_goal_WES_assize_of_arms
+	cost = 4.3
+	prerequisite = {
+        focus = WES_once_upon_a_time
+	}
+	mutually_exclusive = {
+		focus = WES_high_sheriffs
+	}
+	allow_branch = { 
+		has_government = regressionism
+	}
+	completion_reward = {
+	}
+	x = 12
+	y = 8
+}
+shared_focus = {
+	id = WES_private_constables
+	icon = GFX_goal_WES_private_constables
+	cost = 4.3
+	prerequisite = {
+        focus = WES_public_monarchy
+	}
+	mutually_exclusive = {
+		focus = WES_high_sheriffs
+	}
+	allow_branch = { 
+		has_government = neocameralism
+	}
+	completion_reward = {
+	}
+	x = 12
+	y = 8
+}
+shared_focus = {
+	id = WES_high_sheriffs
+	icon = GFX_goal_WES_private_constables
+	cost = 4.3
+	prerequisite = {
+        focus = WES_public_monarchy
+		focus = WES_once_upon_a_time
+	}
+	mutually_exclusive = {
+		focus = WES_assize_of_arms
+		focus = WES_private_constables
+	}
+	completion_reward = {
+	}
+	x = 14
+	y = 8
+}
+#
+shared_focus = {
+	id = WES_kings_foresters
+	icon = GFX_goal_WES_kings_foresters
+	cost = 4.3
+	prerequisite = {
+        focus = WES_assize_of_arms
+		focus = WES_high_sheriffs
+	}
+	mutually_exclusive = {
+		focus = WES_geomancy
+	}
+	allow_branch = { 
+		has_government = regressionism
+	}
+	completion_reward = {
+	}
+	x = 11
+	y = 9
+}
+shared_focus = {
+	id = WES_renewable_uk
+	icon = GFX_goal_WES_renewable_uk
+	cost = 4.3
+	prerequisite = {
+        focus = WES_private_constables
+		focus = WES_high_sheriffs
+	}
+	mutually_exclusive = {
+		focus = WES_geomancy
+	}
+	allow_branch = { 
+		has_government = neocameralism
+	}
+	completion_reward = {
+	}
+	x = 11
+	y = 9
+}
+shared_focus = {
+	id = WES_geomancy
+	icon = GFX_goal_WES_geomancy
+	cost = 4.3
+	prerequisite = {
+        focus = WES_assize_of_arms
+		focus = WES_private_constables
+		focus = WES_high_sheriffs
+	}
+	mutually_exclusive = {
+		focus = WES_kings_foresters
+		focus = WES_renewable_uk
+	}
+	completion_reward = {
+	}
+	x = 13
+	y = 9
+}
+#
+shared_focus = {
+	id = WES_lands_and_honours
+	icon = GFX_goal_WES_lands_and_honours
+	cost = 4.3
+	prerequisite = {
+        focus = WES_once_upon_a_time
+	}
+	mutually_exclusive = {
+		focus = WES_the_blue_government
+	}
+	completion_reward = {
+	}
+	allow_branch = { 
+		has_government = regressionism
+	}
+	x = 16
+	y = 8
+}
+shared_focus = {
+	id = WES_hire_consulting_companies
+	icon = GFX_goal_WES_hire_consulting_companies
+	cost = 4.3
+	prerequisite = {
+        focus = WES_public_monarchy
+	}
+	mutually_exclusive = {
+		focus = WES_the_blue_government
+	}
+	allow_branch = { 
+		has_government = neocameralism
+	}
+	completion_reward = {
+	}
+	x = 16
+	y = 8
+}
+shared_focus = {
+	id = WES_the_blue_government
+	icon = GFX_goal_WES_the_blue_government
+	cost = 4.3
+	prerequisite = {
+        focus = WES_public_monarchy
+		focus = WES_once_upon_a_time
+	}
+	mutually_exclusive = {
+		focus = WES_lands_and_honours
+		focus = WES_hire_consulting_companies
+	}
+	completion_reward = {
+	}
+	x = 18
+	y = 8
+}
+#
+shared_focus = {
+	id = WES_pigouage
+	icon = GFX_goal_WES_pigouage
+	cost = 4.3
+	prerequisite = {
+        focus = WES_once_upon_a_time
+	}
+	mutually_exclusive = {
+		focus = WES_patronage_of_commerce
+	}
+	allow_branch = { 
+		has_government = regressionism
+	}
+	completion_reward = {
+	}
+	x = 22
+	y = 8
+}
+shared_focus = {
+	id = WES_sustainable_development
+	icon = GFX_goal_WES_sustainable_development
+	cost = 4.3
+	prerequisite = {
+        focus = WES_public_monarchy
+	}
+	mutually_exclusive = {
+		focus = WES_patronage_of_commerce
+	}
+	allow_branch = { 
+		has_government = neocameralism
+	}
+	completion_reward = {
+	}
+	x = 22
+	y = 8
+}
+shared_focus = {
+	id = WES_patronage_of_commerce
+	icon = GFX_goal_WES_patronage_of_commerce
+	cost = 4.3
+	prerequisite = {
+        focus = WES_public_monarchy
+		focus = WES_once_upon_a_time
+	}
+	mutually_exclusive = {
+		focus = WES_pigouage
+		focus = WES_sustainable_development
+	}
+	completion_reward = {
+	}
+	x = 20
+	y = 8
+}
+#
+shared_focus = {
+	id = WES_silence_jesters
+	icon = GFX_goal_WES_silence_jesters
+	cost = 4.3
+	prerequisite = {
+        focus = WES_high_sheriffs
+		focus = WES_lands_and_honours
+		focus = WES_assize_of_arms
+	}
+	mutually_exclusive = {
+		focus = WES_temperence_and_will
+	}
+	allow_branch = { 
+		has_government = regressionism
+	}
+	completion_reward = {
+	}
+	x = 15
+	y = 9
+}
+shared_focus = {
+	id = WES_salad_bowl
+	icon = GFX_goal_WES_salad_bowl
+	cost = 4.3
+	prerequisite = {
+        focus = WES_high_sheriffs
+		focus = WES_private_constables
+		focus = WES_hire_consulting_companies
+	}
+	mutually_exclusive = {
+		focus = WES_temperence_and_will
+	}
+	allow_branch = { 
+		has_government = neocameralism
+	}
+	completion_reward = {
+	}
+	x = 15
+	y = 9
+}
+shared_focus = {
+	id = WES_temperence_and_will
+	icon = GFX_goal_WES_temperence_and_will
+	cost = 4.3
+	prerequisite = {
+        focus = WES_the_blue_government
+		focus = WES_sustainable_development
+		focus = WES_patronage_of_commerce
+		focus = WES_pigouage
+	}
+	mutually_exclusive = {
+		focus = WES_silence_jesters
+		focus = WES_salad_bowl
+	}
+	completion_reward = {
+	}
+	x = 19
+	y = 9
+}
+shared_focus = {
+	id = WES_boundaries_comission
+	icon = GFX_goal_WES_boundaries_comission
+	cost = 4.3
+	prerequisite = {
+        focus = WES_silence_jesters
+		focus = WES_salad_bowl
+		focus = WES_temperence_and_will
+	}
+	completion_reward = {
+	}
+	x = 17
+	y = 10
+}
+#
+shared_focus = {
+	id = WES_scrap_the_machine
+	icon = GFX_goal_WES_scrap_the_machine
+	cost = 4.3
+	prerequisite = {
+        focus = WES_pigouage
+		focus = WES_patronage_of_commerce
+		focus = WES_the_blue_government
+	}
+	mutually_exclusive = {
+		focus = WES_a_vision_of_britain
+	}
+	allow_branch = { 
+		has_government = regressionism
+	}
+	completion_reward = {
+	}
+	x = 23
+	y = 9
+}
+shared_focus = {
+	id = WES_fifteen_minute_cities
+	icon = GFX_goal_WES_fifteen_minute_cities
+	cost = 4.3
+	prerequisite = {
+        focus = WES_sustainable_development
+		focus = WES_patronage_of_commerce
+		focus = WES_the_blue_government
+	}
+	mutually_exclusive = {
+		focus = WES_a_vision_of_britain
+	}
+	allow_branch = { 
+		has_government = neocameralism
+	}
+	completion_reward = {
+	}
+	x = 23
+	y = 9
+}
+shared_focus = {
+	id = WES_a_vision_of_britain
+	icon = GFX_goal_WES_a_vision_of_britain
+	cost = 4.3
+	prerequisite = {
+        focus = WES_sustainable_development
+		focus = WES_pigouage
+		focus = WES_patronage_of_commerce
+		focus = WES_the_blue_government
+	}
+	mutually_exclusive = {
+		focus = WES_fifteen_minute_cities
+		focus = WES_scrap_the_machine
+	}
+	completion_reward = {
+	}
+	x = 21
+	y = 9
+}
+#
+shared_focus = {
+	id = WES_waste_watch
+	icon = GFX_goal_WES_waste_watch
+	cost = 4.3
+	prerequisite = {
+        focus = WES_kings_foresters
+		focus = WES_geomancy
+		focus = WES_renewable_uk
+	}
+	completion_reward = {
+	}
+	x = 12
+	y = 10
+}
+#
+shared_focus = {
+	id = WES_unicameral_parliament
+	icon = GFX_goal_WES_unicameral_parliament
+	cost = 4.3
+	prerequisite = {
+        focus = WES_kings_foresters
+		focus = WES_geomancy
+		focus = WES_renewable_uk
+	}
+	completion_reward = {
+	}
+	x = 14
+	y = 10
+}
+#
+shared_focus = {
+	id = WES_dismantle_the_rubble
+	icon = GFX_goal_WES_dismantle_the_rubble
+	cost = 4.3
+	prerequisite = {
+        focus = WES_scrap_the_machine
+		focus = WES_fifteen_minute_cities
+		focus = WES_a_vision_of_britain
+	}
+	completion_reward = {
+	}
+	x = 22
+	y = 10
+}
+#
+shared_focus = {
+	id = WES_kings_pound
+	icon = GFX_goal_WES_kings_pound
+	cost = 4.3
+	prerequisite = {
+        focus = WES_scrap_the_machine
+		focus = WES_fifteen_minute_cities
+		focus = WES_a_vision_of_britain
+	}
+	completion_reward = {
+	}
+	x = 20
+	y = 10
+}
+#
+shared_focus = {
+	id = WES_pyepowder_court
+	icon = GFX_goal_WES_pyepowder_court
+	cost = 4.3
+	prerequisite = {
+        focus = WES_waste_watch
+		focus = WES_unicameral_parliament
+	}
+	mutually_exclusive = {
+		focus = WES_king_on_the_bench
+	}
+	allow_branch = { 
+		has_government = regressionism
+	}
+	completion_reward = {
+	}
+	x = 11
+	y = 11
+}
+shared_focus = {
+	id = WES_the_justice_will_be_done
+	icon = GFX_goal_WES_fifteen_minute_cities
+	cost = 4.3
+	prerequisite = {
+        focus = WES_waste_watch
+		focus = WES_unicameral_parliament
+	}
+	mutually_exclusive = {
+		focus = WES_king_on_the_bench
+	}
+	allow_branch = { 
+		has_government = neocameralism
+	}
+	completion_reward = {
+	}
+	x = 11
+	y = 11
+}
+shared_focus = {
+	id = WES_king_on_the_bench
+	icon = GFX_goal_WES_king_on_the_bench
+	cost = 4.3
+	prerequisite = {
+        focus = WES_waste_watch
+		focus = WES_unicameral_parliament
+	}
+	mutually_exclusive = {
+		focus = WES_pyepowder_court
+		focus = WES_the_justice_will_be_done
+	}
+	completion_reward = {
+	}
+	x = 13
+	y = 11
+}
+#
+shared_focus = {
+	id = WES_curse_of_knowledge
+	icon = GFX_goal_WES_curse_of_knowledge
+	cost = 4.3
+	prerequisite = {
+        focus = WES_pyepowder_court
+		focus = WES_king_on_the_bench
+	}
+	mutually_exclusive = {
+		focus = WES_raise_craftsmen
+	}
+	allow_branch = { 
+		has_government = regressionism
+	}
+	completion_reward = {
+	}
+	x = 11
+	y = 12
+}
+shared_focus = {
+	id = WES_just_stop_oil
+	icon = GFX_goal_WES_just_stop_oil
+	cost = 4.3
+	prerequisite = {
+        focus = WES_the_justice_will_be_done
+		focus = WES_king_on_the_bench
+	}
+	mutually_exclusive = {
+		focus = WES_raise_craftsmen
+	}
+	allow_branch = { 
+		has_government = neocameralism
+	}
+	completion_reward = {
+	}
+	x = 11
+	y = 12
+}
+shared_focus = {
+	id = WES_raise_craftsmen
+	icon = GFX_goal_WES_raise_craftsmen
+	cost = 4.3
+	prerequisite = {
+        focus = WES_pyepowder_court
+		focus = WES_the_justice_will_be_done
+		focus = WES_king_on_the_bench
+	}
+	mutually_exclusive = {
+		focus = WES_curse_of_knowledge
+		focus = WES_just_stop_oil
+	}
+	completion_reward = {
+	}
+	x = 13
+	y = 12
+}
+#
+shared_focus = {
+	id = WES_guilds_of_labour
+	icon = GFX_goal_WES_guilds_of_labour
+	cost = 4.3
+	prerequisite = {
+        focus = WES_kings_pound
+		focus = WES_dismantle_the_rubble
+	}
+	mutually_exclusive = {
+		focus = WES_commonwealth_preference
+	}
+	allow_branch = { 
+		has_government = regressionism
+	}
+	completion_reward = {
+	}
+	x = 23
+	y = 11
+}
+shared_focus = {
+	id = WES_sharing_economy
+	icon = GFX_goal_WES_sharing_economy
+	cost = 4.3
+	prerequisite = {
+        focus = WES_kings_pound
+		focus = WES_dismantle_the_rubble
+	}
+	mutually_exclusive = {
+		focus = WES_commonwealth_preference
+	}
+	allow_branch = { 
+		has_government = neocameralism
+	}
+	completion_reward = {
+	}
+	x = 23
+	y = 11
+}
+shared_focus = {
+	id = WES_commonwealth_preference
+	icon = GFX_goal_WES_commonwealth_preference
+	cost = 4.3
+	prerequisite = {
+        focus = WES_kings_pound
+		focus = WES_dismantle_the_rubble
+	}
+	mutually_exclusive = {
+		focus = WES_guilds_of_labour
+		focus = WES_sharing_economy
+	}
+	completion_reward = {
+	}
+	x = 21
+	y = 11
+}
+#
+shared_focus = {
+	id = WES_harmony_with_the_land
+	icon = GFX_goal_WES_harmony_with_the_land
+	cost = 4.3
+	prerequisite = {
+        focus = WES_guilds_of_labour
+		focus = WES_commonwealth_preference
+	}
+	mutually_exclusive = {
+		focus = WES_architecture_of_community
+	}
+	allow_branch = { 
+		has_government = regressionism
+	}
+	completion_reward = {
+	}
+	x = 23
+	y = 12
+}
+shared_focus = {
+	id = WES_reclaim_the_streets
+	icon = GFX_goal_WES_reclaim_the_streets
+	cost = 4.3
+	prerequisite = {
+        focus = WES_sharing_economy
+		focus = WES_commonwealth_preference
+	}
+	mutually_exclusive = {
+		focus = WES_architecture_of_community
+	}
+	allow_branch = { 
+		has_government = neocameralism
+	}
+	completion_reward = {
+	}
+	x = 23
+	y = 12
+}
+shared_focus = {
+	id = WES_architecture_of_community
+	icon = GFX_goal_WES_architecture_of_community
+	cost = 4.3
+	prerequisite = {
+        focus = WES_guilds_of_labour
+		focus = WES_sharing_economy
+		focus = WES_commonwealth_preference
+	}
+	mutually_exclusive = {
+		focus = WES_harmony_with_the_land
+		focus = WES_reclaim_the_streets
+	}
+	completion_reward = {
+	}
+	x = 21
+	y = 12
+}
+#
+shared_focus = {
+	id = WES_big_society
+	icon = GFX_goal_WES_big_society
+	cost = 4.3
+	prerequisite = {
+		focus = WES_boundaries_comission
+        focus = WES_unicameral_parliament
+		focus = WES_kings_pound
+	}
+	allow_branch = { 
+		has_government = regressionism
+	}
+	mutually_exclusive = {
+		focus = WES_chivalry_of_oak
+	}
+	completion_reward = {
+	}
+	x = 15
+	y = 11
+}
+shared_focus = {
+	id = WES_the_city_of_bristol
+	icon = GFX_goal_WES_big_society
+	cost = 4.3
+	prerequisite = {
+		focus = WES_boundaries_comission
+        focus = WES_unicameral_parliament
+		focus = WES_kings_pound
+	}
+	allow_branch = { 
+		has_government = neocameralism
+	}
+	mutually_exclusive = {
+		focus = WES_chivalry_of_oak
+	}
+	completion_reward = {
+	}
+	x = 15
+	y = 11
+}
+shared_focus = {
+	id = WES_chivalry_of_oak
+	icon = GFX_goal_WES_chivalry_of_oak
+	cost = 4.3
+	prerequisite = {
+		focus = WES_boundaries_comission
+        focus = WES_unicameral_parliament
+		focus = WES_kings_pound
+	}
+	mutually_exclusive = {
+		focus = WES_big_society
+		focus = WES_the_city_of_bristol
+	}
+	completion_reward = {
+	}
+	x = 19
+	y = 11
+}
+#
+shared_focus = {
+	id = WES_dark_mountain
+	icon = GFX_goal_WES_dark_mountain
+	cost = 4.3
+	prerequisite = {
+        focus = WES_big_society
+		focus = WES_chivalry_of_oak
+	}
+	allow_branch = { 
+		has_government = regressionism
+	}
+	completion_reward = {
+	}
+	x = 19
+	y = 12
+}
+shared_focus = {
+	id = WES_british_media_fund
+	icon = GFX_goal_WES_british_media_fund
+	cost = 4.3
+	prerequisite = {
+        focus = WES_the_city_of_bristol
+		focus = WES_chivalry_of_oak
+	}
+	allow_branch = { 
+		has_government = neocameralism
+	}
+	mutually_exclusive = {
+		focus = WES_societal_ascetism
+	}
+	completion_reward = {
+	}
+	x = 19
+	y = 12
+}
+shared_focus = {
+	id = WES_societal_ascetism
+	icon = GFX_goal_WES_societal_ascetism
+	cost = 4.3
+	prerequisite = {
+        focus = WES_big_society
+		focus = WES_chivalry_of_oak
+		focus = WES_the_city_of_bristol
+	}
+	mutually_exclusive = {
+		focus = WES_dark_mountain
+		focus = WES_british_media_fund
+	}
+	completion_reward = {
+	}
+	x = 15
+	y = 12
+}
+shared_focus = {
+	id = WES_general_synod_reform
+	icon = GFX_goal_WES_general_synod_reform
+	cost = 4.3
+	prerequisite = {
+        focus = WES_dark_mountain
+		focus = WES_british_media_fund
+		focus = WES_societal_ascetism
+	}
+	completion_reward = {
+	}
+	x = 17
+	y = 13
+}
+#
+shared_focus = {
+	id = WES_cornerstone_of_communities
+	icon = GFX_goal_WES_cornerstone_of_communities
+	cost = 4.3
+	prerequisite = {
+        focus = WES_curse_of_knowledge
+		focus = WES_raise_craftsmen
+	}
+	prerequisite = {
+        focus = WES_general_synod_reform
+	}
+	prerequisite = {
+        focus = WES_harmony_with_the_land
+		focus = WES_architecture_of_community
+	}
+	allow_branch = { 
+		has_government = regressionism
+	}
+	mutually_exclusive = {
+		focus = WES_table_of_lords
+	}
+	completion_reward = {
+	}
+	x = 16
+	y = 14
+}
+shared_focus = {
+	id = WES_return_to_normalcy
+	icon = GFX_goal_WES_return_to_normalcy
+	cost = 4.3
+	prerequisite = {
+        focus = WES_just_stop_oil
+		focus = WES_raise_craftsmen
+	}
+	prerequisite = {
+        focus = WES_general_synod_reform
+	}
+	prerequisite = {
+        focus = WES_reclaim_the_streets
+		focus = WES_architecture_of_community
+	}
+	allow_branch = { 
+		has_government = neocameralism
+	}
+	mutually_exclusive = {
+		focus = WES_table_of_lords
+	}
+	completion_reward = {
+	}
+	x = 16
+	y = 14
+}
+shared_focus = {
+	id = WES_table_of_lords
+	icon = GFX_goal_WES_table_of_lords
+	cost = 4.3
+	prerequisite = {
+        focus = WES_just_stop_oil
+		focus = WES_curse_of_knowledge
+		focus = WES_raise_craftsmen
+	}
+	prerequisite = {
+        focus = WES_general_synod_reform
+	}
+	prerequisite = {
+        focus = WES_reclaim_the_streets
+		focus = WES_harmony_with_the_land
+		focus = WES_architecture_of_community
+	}
+	mutually_exclusive = {
+		focus = WES_cornerstone_of_communities
+		focus = WES_british_media_fund
+	}
+	completion_reward = {
+	}
+	x = 18
+	y = 14
+}
 
 ##MILITARY TREE##
 shared_focus = {
@@ -1259,7 +2118,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 17
-	y = 16
+	y = 17
 }
 shared_focus = {
 	id = WES_establish_fyrds
@@ -1271,7 +2130,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 15
-	y = 17
+	y = 18
 }
 shared_focus = {
 	id = WES_restricted_tourism
@@ -1283,7 +2142,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 14
-	y = 18
+	y = 19
 }
 shared_focus = {
 	id = WES_traditional_medicine
@@ -1295,7 +2154,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 16
-	y = 18
+	y = 19
 }
 shared_focus = {
 	id = WES_enrys_proposal
@@ -1307,7 +2166,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 14
-	y = 19
+	y = 20
 }
 shared_focus = {
 	id = WES_waitrose_kings_originals
@@ -1319,7 +2178,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 16
-	y = 19
+	y = 20
 }
 shared_focus = {
 	id = WES_the_voluntary_colonialism
@@ -1334,7 +2193,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 15
-	y = 20
+	y = 21
 }
 #
 shared_focus = {
@@ -1347,7 +2206,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 19
-	y = 17
+	y = 18
 }
 shared_focus = {
 	id = WES_fill_the_marches
@@ -1359,7 +2218,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 20
-	y = 18
+	y = 19
 }
 shared_focus = {
 	id = WES_clean_the_scenery
@@ -1371,7 +2230,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 18
-	y = 18
+	y = 19
 }
 shared_focus = {
 	id = WES_no_more_waves
@@ -1383,7 +2242,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 20
-	y = 19
+	y = 20
 }
 shared_focus = {
 	id = WES_free_the_black_country
@@ -1395,7 +2254,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 18
-	y = 19
+	y = 20
 }
 shared_focus = {
 	id = WES_edict_against_usury
@@ -1410,7 +2269,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 19
-	y = 20
+	y = 21
 }
 shared_focus = {
 	id = WES_lay_down_swords
@@ -1425,7 +2284,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 17
-	y = 20
+	y = 21
 }
 shared_focus = {
 	id = WES_red_dragon_rests
@@ -1443,7 +2302,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 17
-	y = 21
+	y = 22
 }
 #Neofeudal#
 shared_focus = {
@@ -1453,7 +2312,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 17
-	y = 16
+	y = 17
 }
 shared_focus = {
 	id = WES_london_plan
@@ -1465,7 +2324,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 15
-	y = 17
+	y = 18
 }
 shared_focus = {
 	id = WES_carbon_taxes
@@ -1477,7 +2336,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 14
-	y = 18
+	y = 19
 }
 shared_focus = {
 	id = WES_royal_care
@@ -1489,7 +2348,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 16
-	y = 18
+	y = 19
 }
 shared_focus = {
 	id = WES_testament_of_the_youth
@@ -1501,7 +2360,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 14
-	y = 19
+	y = 20
 }
 shared_focus = {
 	id = WES_protect_the_vulnerable
@@ -1513,7 +2372,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 16
-	y = 19
+	y = 20
 }
 shared_focus = {
 	id = WES_kings_open_society
@@ -1528,7 +2387,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 15
-	y = 20
+	y = 21
 }
 #
 shared_focus = {
@@ -1541,7 +2400,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 19
-	y = 17
+	y = 18
 }
 shared_focus = {
 	id = WES_international_labour_division
@@ -1553,7 +2412,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 20
-	y = 18
+	y = 19
 }
 shared_focus = {
 	id = WES_open_the_gate
@@ -1565,7 +2424,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 18
-	y = 18
+	y = 19
 }
 shared_focus = {
 	id = WES_bitter_seeds
@@ -1577,7 +2436,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 20
-	y = 19
+	y = 20
 }
 shared_focus = {
 	id = WES_beavers_meats
@@ -1589,7 +2448,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 18
-	y = 19
+	y = 20
 }
 shared_focus = {
 	id = WES_cashless_society
@@ -1604,7 +2463,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 19
-	y = 20
+	y = 21
 }
 shared_focus = {
 	id = WES_medal_awaits_the_hero
@@ -1619,7 +2478,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 17
-	y = 20
+	y = 21
 }
 shared_focus = {
 	id = WES_brave_new_world
@@ -1637,7 +2496,7 @@ shared_focus = {
 	completion_reward = {
 	}
 	x = 17
-	y = 21
+	y = 22
 }
 ###SECRET ORTHODOX###
 shared_focus = {
