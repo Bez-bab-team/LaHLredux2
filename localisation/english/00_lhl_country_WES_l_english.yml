@@ -225,6 +225,7 @@
  ##FOCUS TREES##
  WES_return_of_the_king:0 "Return of The King"
  WES_vox_populi_vox_regis:0 "Vox Populi, Vox Regis"
+ WES_decorate_the_table:0 "Decorate The Table"
  WES_swamps_of_wessex:0 "Swamps of Wessex"
  WES_guest_of_honour:0 "Guest of Honour"
  WES_marshalls_prowess:0 "Marshall's Prowess"
@@ -308,7 +309,7 @@
  WES_estate_economy:0 "Estate Economy"
  WES_sow_and_reap:0 "Sow and Reap"
  WES_reforestation_of_the_isle:0 "Reforestation of The Isle"
- WES_directed_enlightenment:0 Directed Enlightenment""
+ WES_directed_enlightenment:0 "Directed Enlightenment"
  WES_many_tounges_of_britain:0 "Many Tounges of Britain"
  WES_sensible_liberalism:0 "Sensible Liberalism"
  WES_defender_of_faith:0 "Defender of Faith"

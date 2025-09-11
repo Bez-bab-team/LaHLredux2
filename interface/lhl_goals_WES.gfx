@@ -1,4 +1,5 @@
 spriteTypes = {
+	#Legacy Icons#
 	SpriteType = {
 		name = "GFX_goal_WES_return_king"
 		texturefile = "gfx/interface/goals/WES/goal_WES_return_king.dds"
@@ -422,5 +423,82 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_WES_world_knows"
 		texturefile = "gfx/interface/goals/WES/goal_WES_world_knows.dds"
+	}
+	#New Icons#
+	SpriteType = {
+		name = "GFX_goal_WES_arise_ye_english_folk"
+		texturefile = "gfx/interface/goals/WES/goal_WES_arise_ye_english_folk.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_echo_of_wars"
+		texturefile = "gfx/interface/goals/WES/goal_WES_echo_of_wars.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_fill_the_treasure"
+		texturefile = "gfx/interface/goals/WES/goal_WES_fill_the_treasure.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_game_of_chess"
+		texturefile = "gfx/interface/goals/WES/goal_WES_game_of_chess.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_guest_of_honour"
+		texturefile = "gfx/interface/goals/WES/goal_WES_guest_of_honour.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_in_foxes_den"
+		texturefile = "gfx/interface/goals/WES/goal_WES_in_foxes_den.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_marshal_prowess"
+		texturefile = "gfx/interface/goals/WES/goal_WES_marshal_prowess.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_prepare_the_table"
+		texturefile = "gfx/interface/goals/WES/goal_WES_prepare_the_table.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_return_of_the_king"
+		texturefile = "gfx/interface/goals/WES/goal_WES_return_of_the_king.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_swamps_of_wessex"
+		texturefile = "gfx/interface/goals/WES/goal_WES_swamps_of_wessex.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_trial_of_courage"
+		texturefile = "gfx/interface/goals/WES/goal_WES_trial_of_courage.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_vox_populi_vox_regis"
+		texturefile = "gfx/interface/goals/WES/goal_WES_vox_populi_vox_regis.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_the_last_quitrent"
+		texturefile = "gfx/interface/goals/WES/goal_WES_the_last_quitrent.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_royal_purse"
+		texturefile = "gfx/interface/goals/WES/goal_WES_royal_purse.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_kings_fair"
+		texturefile = "gfx/interface/goals/WES/goal_WES_kings_fair.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_concessions_to_gentry"
+		texturefile = "gfx/interface/goals/WES/goal_WES_concessions_to_gentry.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_battle_of_camlann"
+		texturefile = "gfx/interface/goals/WES/goal_WES_battle_of_camlann.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_ploughs_to_swords"
+		texturefile = "gfx/interface/goals/WES/goal_WES_ploughs_to_swords.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_call_the_subjects"
+		texturefile = "gfx/interface/goals/WES/goal_WES_call_the_subjects.dds"
 	}
 }
