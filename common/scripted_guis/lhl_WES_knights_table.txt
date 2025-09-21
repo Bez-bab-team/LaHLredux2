@@ -1,0 +1,336 @@
+scripted_gui = {
+	lhl_table_upper_tab_button = {
+		context_type = player_context
+		parent_window_token = politics_tab 
+		window_name = "lhl_table_opening_screen_upper_button"
+		visible = {
+			tag = WES
+		}
+
+		effects = {
+			table_upper_tab_button_click = {
+				if = {
+					limit = { has_country_flag = lhl_table_opening_screen_open }
+					clr_country_flag = lhl_table_opening_screen_open
+				}
+				else = {
+					set_country_flag = lhl_table_opening_screen_open
+				}
+			}
+		}
+	}
+	
+	lhl_table_opening_screen_body = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "lhl_table_opening_screen_full"
+
+		visible = {
+			has_country_flag = lhl_table_opening_screen_open
+			tag = WES
+		}
+		### Buttons ###
+		triggers = {
+			#1
+            lhl_slot_1_george_low_legitimacy_visible = {
+               check_variable = {
+                    var = WES_table_slot_1
+                    value = 0				
+                }
+		    }
+            lhl_slot_1_george_high_legitimacy_visible = {
+               check_variable = {
+                    var = WES_table_slot_1
+                    value = 1		
+               }	
+            }
+			#2
+			lhl_slot_2_vacant_visible = {
+               check_variable = {
+                    var = WES_table_slot_2
+                    value = 0			
+                }
+		    }
+			lhl_slot_2_Michael_Mainelli_visible = {
+               check_variable = {
+                    var = WES_table_slot_2
+                    value = 1	
+                }
+		    }	
+			lhl_slot_2_Jacob_Rees-Mogg_visible = {
+               check_variable = {
+                    var = WES_table_slot_2
+                    value = 2			
+                }
+		    }	
+			lhl_slot_2_Phillip_Blond_visible = {
+               check_variable = {
+                    var = WES_table_slot_2
+                    value = 3			
+                }
+		    }
+			#3
+			lhl_slot_3_vacant_visible = {
+               check_variable = {
+                    var = WES_table_slot_3
+                    value = 0			
+                }
+		    }
+			lhl_slot_3_Stephen_Fry_visible = {
+               check_variable = {
+                    var = WES_table_slot_3
+                    value = 1		
+                }
+		    }
+			lhl_slot_3_Ephraim_of_Vatopedi_visible = {
+               check_variable = {
+                    var = WES_table_slot_3
+                    value = 2		
+                }
+		    }
+			lhl_slot_3_Paul_Kingsnorth_visible = {
+               check_variable = {
+                    var = WES_table_slot_3
+                    value = 3			
+                }
+		    }
+			#4
+			lhl_slot_4_vacant_visible = {
+               check_variable = {
+                    var = WES_table_slot_4
+                    value = 0			
+                }
+		    }
+			lhl_slot_4_Clive_Alderton_visible = {
+               check_variable = {
+                    var = WES_table_slot_4
+                    value = 1		
+                }
+		    }
+			lhl_slot_4_Michael_of_Kent_visible = {
+               check_variable = {
+                    var = WES_table_slot_4
+                    value = 2		
+                }
+		    }
+			lhl_slot_4_Douglas_Pearce_visible = {
+               check_variable = {
+                    var = WES_table_slot_4
+                    value = 3			
+                }
+		    }
+			#5
+			lhl_slot_5_vacant_visible = {
+                check_variable = {
+                    var = WES_table_slot_5
+                    value = 0			
+                }
+		    }
+			lhl_slot_5_Ian_Martin_visible = {
+                check_variable = {
+                    var = WES_table_slot_5
+                    value = 1		
+                }
+		    }
+			lhl_slot_5_Peter_St_Clair-Erskine_visible = {
+                check_variable = {
+                    var = WES_table_slot_5
+                    value = 2		
+                }
+		    }
+			lhl_slot_5_Jonathan_Sumption_visible = {
+                check_variable = {
+                    var = WES_table_slot_5
+                    value = 3			
+                }
+		    }
+			#6
+			lhl_slot_6_vacant_visible = {
+               check_variable = {
+                    var = WES_table_slot_6
+                    value = 0			
+                }
+		    }
+			lhl_slot_6_Edward_Young_visible = {
+               check_variable = {
+                    var = WES_table_slot_6
+                    value = 1		
+                }
+		    }
+			lhl_slot_6_Link_Byfield_visible = {
+               check_variable = {
+                    var = WES_table_slot_6
+                    value = 2		
+                }
+		    }
+			lhl_slot_6_Robin_Page_visible = {
+               check_variable = {
+                    var = WES_table_slot_6
+                    value = 3			
+                }
+		    }
+			#7
+			lhl_slot_7_vacant_visible = {
+               check_variable = {
+                    var = WES_table_slot_7
+                    value = 0			
+                }
+		    }
+			lhl_slot_7_Jonathon_Porritt_visible = {
+               check_variable = {
+                    var = WES_table_slot_7
+                    value = 1		
+                }
+		    }
+			lhl_slot_7_Roger_Scruton_visible = {
+               check_variable = {
+                    var = WES_table_slot_7
+                    value = 2		
+                }
+		    }
+			lhl_slot_7_Nikolai_Tolstoy_visible = {
+               check_variable = {
+                    var = WES_table_slot_7
+                    value = 3			
+                }
+		    }
+			#8
+			lhl_slot_8_vacant_visible = {
+               check_variable = {
+                    var = WES_table_slot_8
+                    value = 0			
+                }
+		    }
+			lhl_slot_8_Ian_Forbes_visible = {
+               check_variable = {
+                    var = WES_table_slot_8
+                    value = 1		
+                }
+		    }
+			lhl_slot_8_Stephen_Dalton_visible = {
+               check_variable = {
+                    var = WES_table_slot_8
+                    value = 2		
+                }
+		    }
+			lhl_slot_8_Tony_Johnstone-Burt_visible = {
+               check_variable = {
+                    var = WES_table_slot_8
+                    value = 3			
+                }
+		    }
+			#9
+			lhl_slot_9_vacant_visible = {
+               check_variable = {
+                    var = WES_table_slot_9
+                    value = 0			
+                }
+		    }
+			lhl_slot_9_Richard_Evans_visible = {
+               check_variable = {
+                    var = WES_table_slot_9
+                    value = 1		
+                }
+		    }
+			lhl_slot_9_Alex_Cresswell_visible = {
+               check_variable = {
+                    var = WES_table_slot_9
+                    value = 2		
+                }
+		    }
+			lhl_slot_9_Philip_Luty_visible = {
+               check_variable = {
+                    var = WES_table_slot_9
+                    value = 3			
+                }
+		    }
+			#10
+			lhl_slot_10_vacant_visible = {
+               check_variable = {
+                    var = WES_table_slot_10
+                    value = 0			
+                }
+		    }
+			lhl_slot_10_Andrew_Garrad_visible = {
+               check_variable = {
+                    var = WES_table_slot_10
+                    value = 1		
+                }
+		    }
+			lhl_slot_10_Nikita_Lobanov_visible = {
+               check_variable = {
+                    var = WES_table_slot_10
+                    value = 2		
+                }
+		    }
+			lhl_slot_10_Patrick_Moore_visible = {
+               check_variable = {
+                    var = WES_table_slot_10
+                    value = 3			
+                }
+		    }
+			#11
+			lhl_slot_11_vacant_visible = {
+               check_variable = {
+                    var = WES_table_slot_11
+                    value = 0			
+                }
+		    }
+			lhl_slot_11_Mark_Carney_visible = {
+               check_variable = {
+                    var = WES_table_slot_11
+                    value = 1		
+                }
+		    }
+			lhl_slot_11_Leon_Krier_visible = {
+               check_variable = {
+                    var = WES_table_slot_11
+                    value = 2		
+                }
+		    }
+			lhl_slot_11_David_Triggs_visible = {
+               check_variable = {
+                    var = WES_table_slot_11
+                    value = 3			
+                }
+		    }
+			#12
+			lhl_slot_12_traitor_visible = {
+               check_variable = {
+                    var = WES_table_slot_12
+                    value = -1		
+                }
+		    }
+			lhl_slot_12_vacant_visible = {
+               check_variable = {
+                    var = WES_table_slot_12
+                    value = 0			
+                }
+		    }
+			lhl_slot_12_Prince_Harry_visible = {
+               check_variable = {
+                    var = WES_table_slot_12
+                    value = 1
+                }
+		    }
+			lhl_slot_12_David_Richards_visible = {
+               check_variable = {
+                    var = WES_table_slot_12
+                    value = 2		
+                }
+		    }
+			lhl_slot_12_Rupert_Smith_visible = {
+               check_variable = {
+                    var = WES_table_slot_12
+                    value = 3
+                }
+		    }
+        }
+
+		effects = {
+			lhl_table_opening_screen_escape_click = {
+				clr_country_flag = lhl_table_opening_screen_open
+			}
+		}	
+	}
+}

@@ -197,6 +197,13 @@ WES_wars = {
 		}
 	}
 }
+###King's Legitimacy##
+WES_king_legitimacy = {
+	WES_test_decision = {
+		icon = generic_research
+		cost = 75
+	}
+}
 WES_Royal_military_schools = {
 
     Rebuild_Naval_College = {

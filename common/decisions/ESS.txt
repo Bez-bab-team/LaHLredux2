@@ -132,7 +132,16 @@ ESS_board_of_directors = {
 			factor = 100
 		}
 	}
-	ESS_hire_CEO_Wessex = {
+	ESS_hire_CEO_998 = {
+		on_map_mode = map_only
+		state_target = yes
+		available = {
+			NOT = {
+				ESS = {
+					has_country_flag = ESS_currently_assigning_CEO
+				}
+			}
+		}
 	    visible = {
 			ESS = {
 				has_country_flag = ESS_interact_with_CEO_active
@@ -141,55 +150,60 @@ ESS_board_of_directors = {
 		days_remove = 30
 		icon = my_icon
 		cost = 45
+		complete_effect = {
+			ESS = {
+				set_country_flag = ESS_currently_assigning_CEO
+			}
+		}
 		remove_effect = {
 			998 = {
 				add_dynamic_modifier = {
 					modifier = ESS_modifier_local_CEO_998
 				}
 			}
+			ESS = {
+				clr_country_flag = ESS_currently_assigning_CEO
+			}
 			set_variable = { ESS_modifier_local_CEO_998_corruption = 10 }
+			custom_effect_tooltip = ESS_franchise_governance_tt
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
+	ESS_hire_CEO_999 = {
+		on_map_mode = map_only
+		state_target = yes
+		available = {
+			NOT = {
+				ESS = {
+					has_country_flag = ESS_currently_assigning_CEO
+				}
+			}
+		}
+	    visible = {
+			ESS = {
+				has_country_flag = ESS_interact_with_CEO_active
+			}
+        } 
+		days_remove = 30
+		icon = my_icon
+		cost = 45
+		complete_effect = {
+			ESS = {
+				set_country_flag = ESS_currently_assigning_CEO
+			}
+		}
+		remove_effect = {
 			999 = {
 				add_dynamic_modifier = {
 					modifier = ESS_modifier_local_CEO_999
 				}
 			}
+			ESS = {
+				clr_country_flag = ESS_currently_assigning_CEO
+			}
 			set_variable = { ESS_modifier_local_CEO_999_corruption = 10 }
-			1007 = {
-				add_dynamic_modifier = {
-					modifier = ESS_modifier_local_CEO_1007
-				}
-			}
-			set_variable = { ESS_modifier_local_CEO_1007_corruption = 10 }
-			1006 = {
-				add_dynamic_modifier = {
-					modifier = ESS_modifier_local_CEO_1006
-				}
-			}
-			set_variable = { ESS_modifier_local_CEO_1006_corruption = 10 }
-			1000 = {
-				add_dynamic_modifier = {
-					modifier = ESS_modifier_local_CEO_1000
-				}
-			}
-			set_variable = { ESS_modifier_local_CEO_1000_corruption = 10 }
-			1161 = {
-				add_dynamic_modifier = {
-					modifier = ESS_modifier_local_CEO_1161
-				}
-			}
-			set_variable = { ESS_modifier_local_CEO_1161_corruption = 10 }
-			1153 = {
-				add_dynamic_modifier = {
-					modifier = ESS_modifier_local_CEO_1153
-				}
-			}
-			set_variable = { ESS_modifier_local_CEO_1153_corruption = 10 }
-			1018 = {
-				add_dynamic_modifier = {
-					modifier = ESS_modifier_local_CEO_1018
-				}
-			}
-			set_variable = { ESS_modifier_local_CEO_1018_corruption = 10 }
 			custom_effect_tooltip = ESS_franchise_governance_tt
 		}
 		ai_will_do = {

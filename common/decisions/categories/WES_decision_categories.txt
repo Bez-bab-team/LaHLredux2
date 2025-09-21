@@ -61,3 +61,16 @@ WES_unification_offence = {
 		}
 	}
 }
+
+###
+
+WES_king_legitimacy = {
+	icon = GFX_
+	allowed = { original_tag = WES }
+	visible_when_empty = yes
+	visible = {
+		WES = {
+			has_completed_focus = WES_return_of_the_king
+		}
+	}
+}

@@ -159,3 +159,9 @@ set_variable = {
     var = WES_coring_cost
     value = 120
 }
+
+###EVENTS###
+country_event = {
+	days = 10
+	id = WES_event.1
+}

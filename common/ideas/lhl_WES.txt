@@ -829,17 +829,6 @@ ideas = {
 				production_factory_start_efficiency_factor = -0.15
 			}
 		}
-		
-		WES_george_legitimacy = {
-			
-			picture = WES_test
-
-			allowed = {
-				always = no
-			}
-
-			removal_cost = -1
-		}
 		###RULE OF HELL##
 		WES_transformation_build_infrastructure = {
 			
@@ -870,6 +859,307 @@ ideas = {
 				industry_repair_factor = 0.3
 				production_factory_max_efficiency_factor = 0.3
 				production_lack_of_resource_penalty_factor = -0.3
+			}
+		}
+		###KNIGHTS OF GEORGE###
+		#King Arthur#
+		WES_knight_george_legitimacy_low = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_george_legitimacy_high = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		#Pantler#
+		WES_knight_Michael_Mainelli = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Jacob_Rees-Mogg = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Phillip_Blond = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		#CHAPELMASTER#
+		WES_knight_Stephen_Fry = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Ephraim_of_Vatopedi = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Paul_Kingsnorth = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		#CHANCELLOR#
+		WES_knight_Clive_Alderton = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Michael_of_Kent = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Douglas_Pearce = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		#KEEPER OF SEALS#
+		WES_knight_Ian_Martin = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Peter_St_Clair-Erskine = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Jonathan_Sumption = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		#HERALD#
+		WES_knight_Edward_Young = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Link_Byfield = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Robin_Page = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		#CHAMBERLAIN#
+		WES_knight_Jonathon_Porritt = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Roger_Scruton = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Nikolai_Tolstoy = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		#HIGH ADMIRAL#
+		WES_knight_Ian_Forbes = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Stephen_Dalton = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Tony_Johnstone-Burt = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		#HIGH CONSTABLE#
+		WES_knight_Richard_Evans = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Alex_Cresswell = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Philip_Luty = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		#SCHOLAR#
+		WES_knight_Andrew_Garrad = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Nikita_Lobanov = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Patrick_Moore = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		#TREASURER#
+		WES_knight_Mark_Carney = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Leon_Krier = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_David_Triggs = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		#MARSHAL#
+		WES_knight_Prince_Harry_traitor = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Prince_Harry = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_David_Richards = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Rupert_Smith = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
 			}
 		}
 	}

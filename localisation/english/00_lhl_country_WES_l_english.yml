@@ -231,7 +231,7 @@
  WES_marshalls_prowess:0 "Marshall's Prowess"
  WES_game_of_chess:0 "Game of Chess"
  WES_trials_of_courage:0 "Trial of Courage"
- WES_arise_ye_english_folks:0 "Arise, the English Folk"
+ WES_arise_ye_english_folks:0 "Arise, Ye English Folk"
  WES_in_foxes_den:0 "In Foxes' Den"
  WES_echo_of_war:0 "Echo of Wars"
  WES_battle_of_camlann:0 "Battle of Camlann"
@@ -462,10 +462,6 @@
   Mass_mechanized_emphasis:0 "Doctrine: Emphasis - Mass Mechanization"
   Infantry_and_Infantry_support_emphasis:0 "Doctrine: Emphasis - Infantry & Infantry support"
  ##
- WES_king_legitimacy:0 "The Wounded King"
- WES_king_legitimacy_desc:0 ""
- WES_specialists:0 "Hire specialists"
- ##
  WES_england_cores:0 "Retaking The Isles"
  WES_england_cores_desc:0 "England has been in ruin for the last five years. Various groops have been fighting for control over the territories for many years, and their holdouts are still present in the recently conquered territories. If we want to truly reclaim our homeland for the British monarchy, we have to establish control in the occupied regions"
  WES_compliance_coring_sussex:0 "Royalist propaganda in Sussex"
@@ -496,10 +492,18 @@
  WES_resistance_coring_yorkshire:0 "Anti-partisan action in Yorkshire"
  WES_coring_yorkshire:0 "Pacify Yorkshire"
  ##EVENTS##
+ WES_event.1.t:0 "The King is sad"
+ WES_event.1.d:0 "King is sad and decides to leave somwhere (Athos)"
+ WES_event.1.a:0 "..."
+ #
+ WES_event.2.t:0 "The King is gone..."
+ WES_event.2.d:0 "The people are scared that the king is gone"
+ WES_event.2.a:0 "Where the fuck is he?"
+ #
  WES_event.3.t:0 "King George Returns!"
  WES_event.3.d:0 "King George has finally returned to England, however not everyone is pleased. Not everyone supports the depressed monarch. King will have to work on his own legitimacy before he can claim the throne."
  WES_event.3.a:0 "Hail to the king?"
- WES_event3.tt:0 "The legitimacy idea, showing the current status of the King was added."
+ WES_event3.tt:0 "§YThe legitimacy mechanic, showing the current status of the King was added.§!"
  #
  WES_event.5.t:0 "Prince Harry captured!"
  WES_event.5.d:0 "The son of King George, self-proclaimed "King Henry IX" also known as prince Harry, has been captured by our forces. His fate is ultimately for the king to decide."
@@ -889,13 +893,6 @@
  WES_event.128.d:0 "We have succesfully defeated the forces of Mercia and stolen local industrial equipment."
  WES_event.128.a:0 "The King brought us victory!"
  #
- ##NEW GUI##
- KNIGHT_SLEEPS:0 "This Knight is not yet present on the table"
- KNIGHT_GEORGE_ALIVE:0 "§YGeorge VII§!\n§YFisher King§!\n- War Support: §R-50.00%§!\n- Stability: §R-10.00%§!\n- Daily Political Power Gain: §R-0.10%§!"
- KNIGHT_HENRY_TRAITOR:0 "§YPrince Harry, Duke of Sussex§!\n§YTraitorous Imposter§!\n- Stability: §R-15.00%§!"
- KNIGHT_HENRY_REDEEMED:0 "§YPrince Harry, Duke of Sussex§!\n§YCrimson Knight§!\n- Division Organization: §G+10.0%§!"
- KNIGHT_DOUGLAS:0 "§YDouglas Pearce§!\n§YHero of Mercia§!\n- War Support: §G5.00%§!\n- Division Attack: §G+10.0%§!"
- KNIGHT_MENU:0 "Open the knight menu"
  ##TOOLTIP##
  ENG_henry_here:0 "Prince Harry has been captured"
  WES_legitimacy_required_75:0 "King George requires §Y75§! influence to call upon the aid of the people"
@@ -911,17 +908,6 @@
  WES_artillery_men_buff_tt:0 "\nThrough vigorous training our men will become as methodical and mechanical as the machines they wield! §G(+5% Increase in soft attack to Howitzers, Self-Propelled Artillery, and Multiple Launch Rocket System units)§.\n"
  WES_tank_knights_buff_tt:0 "\nJust like the knights of yore. Our tank crews will, through valor, virtue and training, plow through enemy ranks and bring us the victories we so desperatly need! §G(+2% Increase in soft attack, hard attack and speed of Main Battle Tank units)§.\n"
  WES_douglas_diplomacy_accept:0 "Douglas Pearce has accpeted our proposal."
- ##GUI##
- WES_george_legitimacy:0 "King George's Legitemacy"
- WES_george_legitimacy_desc:0 "King George's legitimacy is §Y[?WES_george_legitimacy_level]§!\nKing George's legitimacy is [ROOT.GetWessexLegitimacy]"  
- WES_george_legitimacy_top:0 "§GFully Established§!"
- WES_george_legitimacy_very_high:0 "§GVery High§!"
- WES_george_legitimacy_high:0 "§GHigh§!"
- WES_george_legitimacy_medium:0 "§YUnstable§!"
- WES_george_legitimacy_low:0 "§YShaken§!"
- WES_george_legitimacy_very_low:0 "§RMiserable§!"
- WES_george_legitimacy_dead:0 "§RGone§!"
- WES_george_legitimacy_achieved:0 "§YKing George has regained his legitimacy§!"
  ##DESIGN_COMPANIES#
  bae_systems_weymouth:0 "BAE Systems Submarines Weymouth"
  ww_greener:0 "W.W. Greener"
@@ -1224,5 +1210,80 @@
  WES_legitimacy_small_plus:0 "§7The King's Legitimacy will slightly increase§!"
  WES_legitimacy_medium_plus:0 "§6The King's Legitimacy will moderately increase§!"
  WES_legitimacy_big_plus:0 "§GThe King's Legitimacy will severely increase§!"
- 
- 
+ #
+ WES_george_legitimacy:0 "King George's Legitimacy"
+ WES_george_legitimacy_desc:0 "King George's legitimacy is §Y[?WES_george_legitimacy_level]§!\nKing George's legitimacy is [ROOT.GetWessexLegitimacy]"  
+ WES_george_legitimacy_top:0 "§GFully Established§!"
+ WES_george_legitimacy_very_high:0 "§GVery High§!"
+ WES_george_legitimacy_high:0 "§GHigh§!"
+ WES_george_legitimacy_medium:0 "§YUnstable§!"
+ WES_george_legitimacy_low:0 "§YShaken§!"
+ WES_george_legitimacy_very_low:0 "§RMiserable§!"
+ WES_george_legitimacy_dead:0 "§RGone§!"
+ WES_george_legitimacy_achieved:0 "§YKing George has regained his legitimacy§!"
+ #
+ WES_king_legitimacy:0 "The King's Legitimacy"
+ WES_king_legitimacy_desc:0 "The first years of King George's rule have been rather underwhelming. The king has lost his country as well as the trust of his people - the apathetic subjects of Bristol government have lost faith in the unification of the isles. If George VII wants his people to accomplish great feats, he needs to reclaim his legitimacy as the rightful monarch of Britannia.\n\nKing George's current legitimacy is £lhl_legitimacy §Y[?WES_george_legitimacy_level]§!\nKing George's legitimacy is [ROOT.GetWessexLegitimacy]"
+ #
+ WES_george_depression:0 "There is nothing I can do..."
+ ###Knights of GEORGE###
+ KNIGHT_GEORGE_LEGITIMACY_LOW:0 "§YGeorge VII§!\n§YFisher King§!\n- War Support: §R-50.00%§!\n- Stability: §R-10.00%§!\n- Daily Political Power Gain: §R-0.10%§!\n\nThe King is the §8HEAD§! of the table and the ruler of the kingdom.\n\nNo matter what happens."
+ KNIGHT_GEORGE_LEGITIMACY_HIGH:0 ""
+ #
+ KNIGHT_SLEEPS_PANTLER:0 "This place is reserved for the King's §OPANTLER§!\n\n§OPANTLER§! deals with the administrative aspects of the kingdom."
+ KNIGHT_Michael_Mainelli_PANTLER:0 "§YSir Michael Raymond Mainelli§!\n§ORoyal Pantler§!"
+ KNIGHT_Jacob_Rees-Mogg_PANTLER:0 "§YSir Jacob William Rees-Mogg§!\n§ORoyal Pantler§!"
+ KNIGHT_Phillip_Blond_PANTLER:0 "§YSir Phillip Blond§!\n§ORoyal Pantler§!"
+ #
+ KNIGHT_SLEEPS_CHAPELMASTER:0 "This place is reserved for the King's §CCHAPELMASTER§!\n\n§CCHAPELMASTER§! decides the religious policy of the kingdom."
+ KNIGHT_Stephen_Fry_CHAPELMASTER:0 "§YSir Stephen John Fry§!\n§CRoyal Chapelmaster§!"
+ KNIGHT_Ephraim_of_Vatopedi_CHAPELMASTER:0 "§YSir Ephraim of Vatopedi§!\n§CRoyal Chapelmaster§!"
+ KNIGHT_Paul_Kingsnorth_CHAPELMASTER:0 "§YSir Paul Kingsnorth§!\n§CRoyal Chapelmaster§!"
+ #
+ KNIGHT_SLEEPS_CHANCELLOR:0 "This place is reserved for the King's §7CHANCELLOR§!\n\n§7CHANCELLOR§! deals with the foreign policy of the kingdom."
+ KNIGHT_Clive_Alderton_CHANCELLOR:0 "§YSir Clive Alderton§!\n§7Royal Chancellor§!"
+ KNIGHT_Michael_of_Kent_CHANCELLOR:0 "§YPrince Michael of Kent§!\n§7Royal Chancellor§!"
+ KNIGHT_Douglas_Pearce_CHANCELLOR:0 "§YSir Douglas Pearce§!\n§7Royal Chancellor§!"
+ #
+ KNIGHT_SLEEPS_KEEPER_OF_SEALS:0 "This place is reserved for the King's §gKEEPER OF SEALS§!\n\n§gKEEPER OF SEALS§! deals with keeping the peace in the kingdom." 
+ KNIGHT_Ian Martin_KEEPER_OF_SEALS:0 "§YSir Ian Martin§!\n§gRoyal Keeper of Seals§!"
+ KNIGHT_Peter_St_Clair-Erskine_KEEPER_OF_SEALS:0 "§YSir Peter St Clair-Erskine, 7th Earl of Rosslyn§!\n§gRoyal Keeper of Seals§!"
+ KNIGHT_Jonathan_Sumption_KEEPER_OF_SEALS:0 "§YSir Jonathan Philip Chadwick Sumption, Lord Sumption§!\n§gRoyal Keeper of Seals§!"
+ #
+ KNIGHT_SLEEPS_HERALD:0 "This place is reserved for the King's §tHERALD§!\n\n§tHERALD§! deals with the mass-media of the kingdom."
+ KNIGHT_Edward_Young_HERALD:0 "§YSir Edward Young, Baron Young of Old Windsor§!\n§tRoyal Herald§!"
+ KNIGHT_Link_Byfield_HERALD:0 "§YSir Eric Linkord Byfield§!\n§tRoyal Herald§!"
+ KNIGHT_Robin_Page_HERALD:0 "§YSir Robin Page§!\n§tRoyal Herald§!"
+ #
+ KNIGHT_SLEEPS_CHAMBERLAIN:0 "This place is reserved for the King's §0CHAMBERLAIN§!\n\n§0CHAMBERLAIN§! is the right-hand of the King."
+ KNIGHT_Jonathon_Porritt_CHAMBERLAIN:0 "§YSir Jonathon Espie Porritt, 2nd Baronet§!\n§0Royal Chamberlain§!"
+ KNIGHT_Roger_Scruton_CHAMBERLAIN:0 "§YSir Roger Vernon Scruton§!\n§0Royal Chamberlain§!"
+ KNIGHT_Nikolai_Tolstoy_CHAMBERLAIN:0 "§YCount Sir Nikolai Dmitrievich Tolstoy-Miloslavsky§!\n§0Royal Chamberlain§!"
+ #
+ KNIGHT_SLEEPS_HIGH_ADMIRAL:0 "This place is reserved for the King's §5HIGH ADMIRAL§!\n\n§5HIGH ADMIRAL§! deals with fleet and the airforce of the kingdom."
+ KNIGHT_Ian_Forbes_HIGH_ADMIRAL:0 "§YSir Ian Andrew Forbes§!\n§5Royal High Admiral§!"
+ KNIGHT_Stephen_Dalton_HIGH_ADMIRAL:0 "§YSir Stephen Gary George Dalton§!\n§5Royal High Admiral§!"
+ KNIGHT_Tony_Johnstone-Burt_HIGH_ADMIRAL:0 "§YSir Charles Anthony Johnstone-Burt§!\n§5Royal High Admiral§!"
+ #
+ KNIGHT_SLEEPS_HIGH_CONSTABLE:0 "This place is reserved for the King's §9HIGH CONSTABLE§!\n\n§9HIGH CONSTABLE§! deals with the development of new weapons for the kingdom."
+ KNIGHT_Richard_Evans_HIGH_CONSTABLE:0 "§YSir Richard Harry Evans§!\n§9Royal High Constable§!"
+ KNIGHT_Alex_Cresswell_HIGH_CONSTABLE:0 "§YSir Alex Cresswell§!\n§9Royal High Constable§!"
+ KNIGHT_Philip_Luty_HIGH_CONSTABLE:0 "§YSir Philip Andrew Luty§!\n§9Royal High Constable§!"
+ #
+ KNIGHT_SLEEPS_SCHOLAR:0 "This place is reserved for the King's §GHIGH SCHOLAR§!\n\n§GHIGH SCHOLAR§! deals with the scientific development of the kingdom."
+ KNIGHT_Andrew_Garrad_SCHOLAR:0 "§YSir Andrew Douglas Garrad§!\n§GRoyal High Scholar§!"
+ KNIGHT_Nikita_Lobanov_SCHOLAR:0 "§YPrince Sir Nikita Dmitrievich Lobanov-Rostovsky§!\n§GRoyal High Scholar§!"
+ KNIGHT_Patrick_Moore_SCHOLAR:0 "§YSir Patrick Alfred Caldwell-Moore§!\n§GRoyal High Scholar§!"
+ #
+ KNIGHT_SLEEPS_TREASURER:0 "This place is reserved for the King's §YTREASURER§!\n\n§YTREASURER§! deals with the economics of the kingdom."
+ KNIGHT_Mark_Carney_TREASURER:0 "§YSir Mark Joseph Carney§!\n§YRoyal Treasurer§!"
+ KNIGHT_Leon_Krier_TREASURER:0 "§YSir Léon Krier§!\n§YRoyal Treasurer§!"
+ KNIGHT_David_Triggs_TREASURER:0 "§YSir David Triggs§!\n§YRoyal Treasurer§!"
+ #
+ KNIGHT_SLEEPS_MARSHAL:0 "This place is reserved for the King's §RMARSHAL§!\n\n§RMARSHAL§! controls the ground forces of the kingdom."
+ KNIGHT_HENRY_TRAITOR:0 "§YPrince Harry, Duke of Sussex§!\n§YTraitorous Imposter§!\n- Stability: §R-15.00%§!\n\nThis place is reserved for the King's §RMARSHAL§!\n\n§RMARSHAL§! controls the ground forces of the kingdom, §Rand yet now his forces stand against us.§!"
+ KNIGHT_Prince_Harry_MARSHAL:0 "§YPrince Harry, Duke of Sussex§!\n§RRoyal Marshal§!"
+ KNIGHT_David_Richards_MARSHAL:0 "§YSir David Julian Richards, Baron Richards of Herstmonceux§!\n§RRoyal Marshal§!"
+ KNIGHT_Rupert_Smith_MARSHAL:0 "§YSir Rupert Anthony Smith§!\n§RRoyal Marshal§!"
+ #
+ KNIGHT_MENU:0 "Open the knight menu"

@@ -71,5 +71,11 @@ spriteTypes = {
         noOfFrames = 1
 		legacy_lazy_load = no
     }
+    spriteType = { 
+        name = "GFX_lhl_legitimacy"
+        textureFile = "gfx/texticons/lhl_legitimacy.dds"
+        noOfFrames = 1
+		legacy_lazy_load = no
+    }
 }
 

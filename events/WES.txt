@@ -1,74 +1,46 @@
 ﻿add_namespace = WES_event
 
-country_event = {
+country_event = { #King is gone
 	id = WES_event.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.1"}
 	title = WES_event.1.t
 	desc = WES_event.1.d
     is_triggered_only = yes
 	
     fire_only_once = yes	
 	option = {
-		name = WES_event.1.a
-		set_party_name = { 
-		    ideology = regressionism
-			long_name = collapsed_government_long
-			name = collapsed_government
-		}	
-		kill_country_leader = yes
-		add_popularity = {
-		    ideology = regressionism
-            popularity = 1.00
-        }
-		create_country_leader = {
-	        name = "Collapsed Authority"
-            desc = "POLITICS_ANARCHY_DESC"
-	        picture = "Portrait_WES_Collapsed_Authority.dds"
-	        expire = "9999.1.1"
-	        ideology = neo_feudalism 
-	        traits = {
-		        total_anarchy
-	        }
+	    name = WES_event.1.a
+		add_political_power = -25
+		hidden_effect = {
+			country_event = {
+				days = 10
+				id = WES_event.2
+			}
 		}
-        set_variable = {
-           var = george_slot_1
-           value = 2`
-        }
-		set_cosmetic_tag = collapsed_name
-		set_politics = {
-	        ruling_party = regressionism
-        }
     } 
 }
 
-country_event = {
+country_event = { #Nation is scared
 	id = WES_event.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.2"}
 	title = WES_event.2.t
 	desc = WES_event.2.d
     is_triggered_only = yes
 	
     fire_only_once = yes	
 	option = {
-		name = WES_event.2.a
-		add_popularity = {
-		    ideology = regressionism
-            popularity = 0.3
-        }
-		set_country_leader_portrait = {
-			ideology = regressionism
-			portrait = GFX_George_Based_Portrait
+	    name = WES_event.2.a
+		add_political_power = -50
+		hidden_effect = {
+			country_event = {
+				days = 10
+				id = WES_event.3
+			}
 		}
-		add_country_leader_trait = new_pendragon
-		remove_country_leader_trait = fisher_king
-		set_country_leader_description = {
-			ideology = regressionism
-			desc = POLITICS_GEORGE_BASED_DESC
-		}
-		remove_ideas = WES_george_legitimacy
-		set_variable = { WES_george_legitimacy_level = 0 }
     } 
 }
 
-country_event = {
+country_event = { #King comes back
 	id = WES_event.3
 	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.3"}
 	title = WES_event.3.t
@@ -78,16 +50,12 @@ country_event = {
     fire_only_once = yes	
 	option = {
 	    name = WES_event.3.a
+		complete_national_focus = WES_return_of_the_king
 		custom_effect_tooltip = WES_event3.tt
-	    add_political_power = 150
-		WES = {
-			add_ideas = WES_george_legitimacy
-		}
-
     } 
 }
 
-country_event = {
+country_event = { #Arise ye english folk
 	id = WES_event.4
 	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.4"}
 	title = WES_event.4.t
@@ -98,7 +66,6 @@ country_event = {
 	option = {
 	    name = WES_event.4.a
 	    add_war_support = 0.05
-		add_manpower = 100000
     } 
 }
 
@@ -4441,3 +4408,71 @@ country_event = {
 		}
 	}
 }
+
+#country_event = {
+#	id = WES_event.1
+#	title = WES_event.1.t
+#	desc = WES_event.1.d
+#    is_triggered_only = yes
+#	
+#    fire_only_once = yes	
+#	option = {
+#		name = WES_event.1.a
+#		set_party_name = { 
+#		    ideology = regressionism
+#			long_name = collapsed_government_long
+#			name = collapsed_government
+#		}	
+#		kill_country_leader = yes
+#		add_popularity = {
+#		    ideology = regressionism
+#            popularity = 1.00
+#        }
+#		create_country_leader = {
+#	        name = "Collapsed Authority"
+#            desc = "POLITICS_ANARCHY_DESC"
+#	        picture = "Portrait_WES_Collapsed_Authority.dds"
+#	        expire = "9999.1.1"
+#	        ideology = neo_feudalism 
+#	        traits = {
+#		        total_anarchy
+#	        }
+#		}
+#        set_variable = {
+#           var = george_slot_1
+#           value = 2`
+#        }
+#		set_cosmetic_tag = collapsed_name
+#		set_politics = {
+#	        ruling_party = regressionism
+#        }
+#    } 
+#}
+
+#country_event = {
+#	id = WES_event.2
+#	title = WES_event.2.t
+#	desc = WES_event.2.d
+#    is_triggered_only = yes
+#	
+#    fire_only_once = yes	
+#	option = {
+#		name = WES_event.2.a
+#		add_popularity = {
+#		    ideology = regressionism
+#            popularity = 0.3
+#        }
+#		set_country_leader_portrait = {
+#			ideology = regressionism
+#			portrait = GFX_George_Based_Portrait
+#		}
+#		add_country_leader_trait = new_pendragon
+#		remove_country_leader_trait = fisher_king
+#		set_country_leader_description = {
+#			ideology = regressionism
+#			desc = POLITICS_GEORGE_BASED_DESC
+#		}
+#		remove_ideas = WES_george_legitimacy
+#		set_variable = { WES_george_legitimacy_level = 0 }
+#    } 
+#}

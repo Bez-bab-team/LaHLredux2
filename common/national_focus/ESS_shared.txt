@@ -4897,12 +4897,6 @@
 					}
 				}
 			}
-			998 = {
-				add_dynamic_modifier = {
-					modifier = ESS_modifier_local_CEO_998
-				}
-			}
-			set_variable = { ESS_modifier_local_CEO_998_corruption = 10 }
 			custom_effect_tooltip = ESS_franchise_governance_tt
 		}
 		prerequisite = {

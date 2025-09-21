@@ -23,7 +23,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/knights_table/no_knight.dds"
 	}
 	spriteType = {
-		name = "GFX_lhl_george_knight"
+		name = "GFX_lhl_george_low_legitimacy"
 		textureFile = "gfx/interface/knights_table/georgevii.dds"
 	}
 	spriteType = {
@@ -31,7 +31,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/knights_table/henrywindsor.dds"
 	}
 	spriteType = {
-		name = "GFX_lhl_henry_knight_redeemed"
+		name = "GFX_lhl_george_high_legitimacy"
 		textureFile = "gfx/interface/knights_table/henrywindsor_2.dds"
 	}
 	spriteType = {
