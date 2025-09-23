@@ -3,8 +3,8 @@ defined_text = {
 	text = {
 		trigger = {
             check_variable = {
-                var = WES_george_legitimacy_level
-                value = 100
+                var = WES_george_legitimacy
+                value = 6
 				compare = equals	
 			}
 		}
@@ -13,9 +13,9 @@ defined_text = {
 	text = {
 		trigger = {
             check_variable = {
-                var = WES_george_legitimacy_level
-                value = 80
-				compare = greater_than_or_equals	
+                var = WES_george_legitimacy
+                value = 5
+				compare = equals	
 			}
 		}
 		localization_key = WES_george_legitimacy_very_high
@@ -23,9 +23,9 @@ defined_text = {
 	text = {
 		trigger = {
             check_variable = {
-                var = WES_george_legitimacy_level
-                value = 60
-				compare = greater_than_or_equals	
+                var = WES_george_legitimacy
+                value = 4
+				compare = equals	
 			}
 		}
 		localization_key = WES_george_legitimacy_high
@@ -33,9 +33,9 @@ defined_text = {
 	text = {
 		trigger = {
             check_variable = {
-                var = WES_george_legitimacy_level
-                value = 40
-				compare = greater_than_or_equals	
+                var = WES_george_legitimacy
+                value = 3
+				compare = equals	
 			}
 		}
 		localization_key = WES_george_legitimacy_medium
@@ -43,9 +43,9 @@ defined_text = {
 	text = {
 		trigger = {
             check_variable = {
-                var = WES_george_legitimacy_level
-                value = 20
-				compare = greater_than_or_equals	
+                var = WES_george_legitimacy
+                value = 2
+				compare = equals	
 			}
 		}
 		localization_key = WES_george_legitimacy_low
@@ -53,9 +53,9 @@ defined_text = {
 	text = {
 		trigger = {
             check_variable = {
-                var = WES_george_legitimacy_level
-                value = 5
-				compare = greater_than_or_equals	
+                var = WES_george_legitimacy
+                value = 1
+				compare = equals	
 			}
 		}
 		localization_key = WES_george_legitimacy_very_low
@@ -63,7 +63,7 @@ defined_text = {
 	text = {
 		trigger = {
             check_variable = {
-                var = WES_george_legitimacy_level
+                var = WES_george_legitimacy
                 value = 0
 				compare = equals	
 			}

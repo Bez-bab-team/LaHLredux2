@@ -80,6 +80,10 @@ on_actions = {
 					var = WES_competitive_spirit_political_power
 					value = 50
 				}
+				add_to_variable = {
+					var = WES_george_legitimacy_level
+					value = WES_george_legitimacy_gain
+				}
 			}
 		}
 	}

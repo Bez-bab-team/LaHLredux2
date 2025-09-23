@@ -11,7 +11,10 @@ shared_focus = {
 		WES = {
 			add_political_power = 150
 			set_variable = { 
-				WES_george_legitimacy_level = 10
+				WES_george_legitimacy_level = 2000
+			}
+			set_variable = { 
+				WES_george_legitimacy = 1
 			}
 		}
 	}

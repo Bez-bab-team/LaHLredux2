@@ -203,6 +203,121 @@ WES_king_legitimacy = {
 		icon = generic_research
 		cost = 75
 	}
+	WES_increase_kings_legitimacy = {
+		custom_cost_trigger = {
+			check_variable = { WES_george_legitimacy_level > 149 }
+		}
+		custom_cost_text = WES_decision_cost_legitimacy_150
+		days_remove = 30
+		complete_effect = {
+			add_to_variable = {
+				var = WES_george_legitimacy_level
+				value = -150
+			}			
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					check_variable = {
+						var = WES_george_legitimacy
+						value = 1
+						compare = equals
+					}
+				}
+				set_variable = { WES_george_legitimacy = 2 }
+				custom_effect_tooltip = WES_upgrade_legitimacy_2
+				WES_george_vii = {
+					add_country_leader_trait = fisher_king_2
+					remove_country_leader_trait = fisher_king_1
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = WES_george_legitimacy
+						value = 2
+						compare = equals
+					}
+				}
+				set_variable = { WES_george_legitimacy = 3 }
+				custom_effect_tooltip = WES_upgrade_legitimacy_3
+				WES_george_vii = {
+					add_country_leader_trait = fisher_king_3
+					remove_country_leader_trait = fisher_king_2
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = WES_george_legitimacy
+						value = 3
+						compare = equals
+					}
+				}
+				set_variable = { WES_george_legitimacy = 4 }
+				custom_effect_tooltip = WES_upgrade_legitimacy_4
+				WES_george_vii = {
+					add_country_leader_trait = new_pendragon_1
+					remove_country_leader_trait = fisher_king_3
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = WES_george_legitimacy
+						value = 4
+						compare = equals
+					}
+				}
+				set_variable = { WES_george_legitimacy = 5 }
+				custom_effect_tooltip = WES_upgrade_legitimacy_5
+				WES_george_vii = {
+					add_country_leader_trait = new_pendragon_2
+					remove_country_leader_trait = new_pendragon_1
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = WES_george_legitimacy
+						value = 5
+						compare = equals
+					}
+				}
+				set_variable = { WES_george_legitimacy = 6 }
+				custom_effect_tooltip = WES_upgrade_legitimacy_6
+				WES_george_vii = {
+					add_country_leader_trait = new_pendragon_3
+					remove_country_leader_trait = new_pendragon_2
+				}
+			}
+		}
+		available = {
+			OR = {
+				check_variable = {
+					var = WES_george_legitimacy
+					value = 2
+					compare = less_than_or_equals
+				}
+				AND = {
+					check_variable = {
+						var = WES_george_legitimacy
+						value = 2
+						compare = greater_than
+					}
+					has_completed_focus = WES_the_hero_rests
+				}
+			}
+		}
+		visible = {
+			NOT = {
+				check_variable = { WES_george_legitimacy = 6 }
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
 }
 WES_Royal_military_schools = {
 

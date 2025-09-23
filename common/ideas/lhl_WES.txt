@@ -862,23 +862,6 @@ ideas = {
 			}
 		}
 		###KNIGHTS OF GEORGE###
-		#King Arthur#
-		WES_knight_george_legitimacy_low = {
-			allowed = {
-				always = no
-			}
-			removal_cost = -1
-			modifier = {
-			}
-		}
-		WES_knight_george_legitimacy_high = {
-			allowed = {
-				always = no
-			}
-			removal_cost = -1
-			modifier = {
-			}
-		}
 		#Pantler#
 		WES_knight_Michael_Mainelli = {
 			allowed = {
@@ -886,16 +869,22 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				political_power_factor = 0.03
+				production_speed_buildings_factor = 0.03
+				political_advisor_cost_factor = -0.1
+				economy_cost_factor = -0.1
+				trade_laws_cost_factor = -0.1
+				mobilization_laws_cost_factor = -0.1
 			}
 		}
-		WES_knight_Jacob_Rees-Mogg = {
-			allowed = {
-				always = no
-			}
-			removal_cost = -1
-			modifier = {
-			}
-		}
+		#WES_knight_Jacob_Rees-Mogg = { #Replace with Dynamic Modifier
+		#	allowed = {
+		#		always = no
+		#	}
+		#	removal_cost = -1
+		#	modifier = {
+		#	}
+		#}
 		WES_knight_Phillip_Blond = {
 			allowed = {
 				always = no
@@ -1002,6 +991,9 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				production_speed_buildings_factor = 0.05
+				monthly_population = 0.1
+				consumer_goods_factor = -0.05
 			}
 		}
 		#CHAMBERLAIN#
@@ -1011,6 +1003,9 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				supply_consumption_factor = -0.15
+				line_change_production_efficiency_factor = 0.1
+				consumer_goods_factor = -0.05
 			}
 		}
 		WES_knight_Roger_Scruton = {
@@ -1019,6 +1014,9 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				army_core_defence_factor = 0.1
+				army_morale_factor = 0.08
+				production_factory_start_efficiency_factor = 0.05
 			}
 		}
 		WES_knight_Nikolai_Tolstoy = {
@@ -1027,6 +1025,9 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				political_power_factor = 0.05
+				war_support_factor = 0.05
+				required_garrison_factor = -0.15
 			}
 		}
 		#HIGH ADMIRAL#
@@ -1036,6 +1037,13 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				special_forces_training_time_factor = -0.2
+				experience_gain_navy_factor = 0.15
+				modern_ship_hull_heavy_design_cost_factor = -0.25
+				modern_ship_hull_cruiser_design_cost_factor = -0.25
+				modern_ship_hull_carrier_design_cost_factor = -0.25
+				modern_ship_hull_light_design_cost_factor = -0.25
+				modern_ship_hull_submarine_design_cost_factor = -0.25
 			}
 		}
 		WES_knight_Stephen_Dalton = {
@@ -1044,6 +1052,13 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				air_superiority_efficiency = 0.15
+				experience_gain_air_factor = 0.15
+				small_plane_airframe_design_cost_factor = -0.25
+				cv_small_plane_airframe_cost_factor = -0.25
+				medium_plane_airframe_cost_factor = -0.25
+				large_plane_airframe_cost_factor = -0.25
+				cv_medium_plane_airframe_cost_factor = -0.25
 			}
 		}
 		WES_knight_Tony_Johnstone-Burt = {
@@ -1052,6 +1067,10 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				experience_gain_air_factor = 0.05
+				experience_gain_navy_factor = 0.05
+				pocket_penalty = -0.3
+				special_forces_defence_factor = 0.1
 			}
 		}
 		#HIGH CONSTABLE#
@@ -1094,6 +1113,10 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				research_speed_factor = 0.05
+				local_resources_factor = 0.1
+				base_fuel_gain_factor = 0.1
+				consumer_goods_factor = -0.05
 			}
 		}
 		WES_knight_Patrick_Moore = {
@@ -1111,6 +1134,9 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_start_efficiency_factor = 0.05
+				production_factory_max_efficiency_factor = 0.1		
 			}
 		}
 		WES_knight_Leon_Krier = {
@@ -1119,6 +1145,10 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				production_speed_buildings_factor = 0.05
+				supply_consumption_factor = -0.1
+				consumer_goods_factor = -0.05
+				global_building_slots_factor = 0.05
 			}
 		}
 		WES_knight_David_Triggs = {
@@ -1127,6 +1157,9 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				political_power_factor = 0.08
+				consumer_goods_factor = -0.05
+				production_factory_start_efficiency_factor = 0.1
 			}
 		}
 		#MARSHAL#
@@ -1136,6 +1169,7 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				stability_factor = -0.1
 			}
 		}
 		WES_knight_Prince_Harry = {
@@ -1144,6 +1178,9 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				air_strategic_bomber_bombing_factor = 0.3
+				coordination_bonus = 0.25
+				supply_factor = 0.15
 			}
 		}
 		WES_knight_David_Richards = {
@@ -1152,6 +1189,9 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				breakthrough_factor = 0.05
+				army_speed_factor = 0.05
+				army_armor_attack_factor = 0.15
 			}
 		}
 		WES_knight_Rupert_Smith = {
@@ -1160,6 +1200,9 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				cavalry_attack_factor = 0.25
+				cavalry_defence_factor = 0.25
+				army_speed_factor = 0.1
 			}
 		}
 	}

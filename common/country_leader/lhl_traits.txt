@@ -1285,7 +1285,7 @@ leader_traits = {
 
 ###ROYALISTS/WESSEX### #WES#
 ##LEADERS_ROYALISTS/WESSEX##
-	fisher_king = { #George VII#
+	fisher_king_1 = { #George VII#
 		random = no
 		political_power_gain = -0.1
 		stability_factor = -0.10
@@ -1295,12 +1295,50 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	new_pendragon = { #George VII_but_based#
+	fisher_king_2 = { #George VII#
+		random = no
+		political_power_gain = -0.05
+		stability_factor = -0.05
+		war_support_factor = -0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	fisher_king_3 = { #George VII#
+		random = no
+		political_power_gain = -0.025
+		stability_factor = -0.025
+		war_support_factor = -0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	new_pendragon_1 = { #George VII_but_based#
+		random = no
+		political_power_gain = 0.025
+		stability_factor = 0.025
+		war_support_factor = 0.025
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	new_pendragon_2 = { #George VII_but_based#
+		random = no
+		political_power_gain = 0.05
+		stability_factor = 0.1
+		war_support_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	new_pendragon_3 = { #George VII_but_based#
 		random = no
 		political_power_gain = 0.1
-        political_advisor_cost_factor = -0.25
-		trade_opinion_factor = 0.25
 		stability_factor = 0.2
+		war_support_factor = 0.1
 		
 		ai_will_do = {
 			factor = 1

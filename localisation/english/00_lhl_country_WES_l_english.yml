@@ -53,8 +53,12 @@
  WES_REUNIFIED:0 "Kingdom Of Great Britain"
  WES_ENGLAND:0 "Kingdom of England"
  ##TRAITS##
- fisher_king:0 "Fisher King"
- new_pendragon:0 "New Pendragon"
+ fisher_king_1:0 "Fisher King"
+ fisher_king_2:0 "Fisher King"
+ fisher_king_3:0 "Fisher King"
+ new_pendragon_1:0 "New Pendragon"
+ new_pendragon_2:0 "New Pendragon"
+ new_pendragon_3:0 "New Pendragon"
  total_anarchy:0 "Total Anarchy"
  Black_bird:0 "Black Bird"
  Orthodox_scholastic:0 "Orthodox Scholastic"
@@ -1209,7 +1213,19 @@
  ###Legitimacy##
  WES_legitimacy_small_plus:0 "§7The King's Legitimacy will slightly increase§!"
  WES_legitimacy_medium_plus:0 "§6The King's Legitimacy will moderately increase§!"
- WES_legitimacy_big_plus:0 "§GThe King's Legitimacy will severely increase§!"
+ WES_legitimacy_big_plus:0 "§GThe King's Legitimacy will severely increase§!"$
+ #
+ WES_increase_kings_legitimacy:0 "Increase King's Legitimacy"
+ #
+ WES_decision_cost_legitimacy_150:0 "£lhl_legitimacy  §Y150§!"
+ WES_decision_cost_legitimacy_150_blocked:0 "£lhl_legitimacy  §R150§!"
+ WES_decision_cost_legitimacy_150_tooltip:0 "It costs £lhl_legitimacy  §Y150§! to take the decision"
+ #
+ WES_upgrade_legitimacy_2:0 "King George VII's legitimacy will change from §RMiserable§! to §YShaken§!"
+ WES_upgrade_legitimacy_3:0 "King George VII's legitimacy will change from §YShaken§! to §YUnstable§!"
+ WES_upgrade_legitimacy_4:0 "King George VII's legitimacy will change from §YUnstable§! to §GHigh§!"
+ WES_upgrade_legitimacy_5:0 "King George VII's legitimacy will change from §GHigh§! to §GVery High§!"
+ WES_upgrade_legitimacy_6:0 "King George VII's legitimacy will change from §GVery High§! to §GFully Established§!"
  #
  WES_george_legitimacy:0 "King George's Legitimacy"
  WES_george_legitimacy_desc:0 "King George's legitimacy is §Y[?WES_george_legitimacy_level]§!\nKing George's legitimacy is [ROOT.GetWessexLegitimacy]"  
@@ -1223,11 +1239,11 @@
  WES_george_legitimacy_achieved:0 "§YKing George has regained his legitimacy§!"
  #
  WES_king_legitimacy:0 "The King's Legitimacy"
- WES_king_legitimacy_desc:0 "The first years of King George's rule have been rather underwhelming. The king has lost his country as well as the trust of his people - the apathetic subjects of Bristol government have lost faith in the unification of the isles. If George VII wants his people to accomplish great feats, he needs to reclaim his legitimacy as the rightful monarch of Britannia.\n\nKing George's current legitimacy is £lhl_legitimacy §Y[?WES_george_legitimacy_level]§!\nKing George's legitimacy is [ROOT.GetWessexLegitimacy]"
+ WES_king_legitimacy_desc:0 "The first years of King George's rule have been rather underwhelming. The king has lost his country as well as the trust of his people - the apathetic subjects of Bristol government have lost faith in the unification of the isles. If George VII wants his people to accomplish great feats, he needs to reclaim his legitimacy as the rightful monarch of Britannia.\n\nKing George's current legitimacy is £lhl_legitimacy §Y[?WES_george_legitimacy_level]§!\nWeekly legitimacy gain is £lhl_legitimacy §Y[?WES_george_legitimacy_gain|.1]§!\nKing George's legitimacy is [ROOT.GetWessexLegitimacy]"
  #
  WES_george_depression:0 "There is nothing I can do..."
  ###Knights of GEORGE###
- KNIGHT_GEORGE_LEGITIMACY_LOW:0 "§YGeorge VII§!\n§YFisher King§!\n- War Support: §R-50.00%§!\n- Stability: §R-10.00%§!\n- Daily Political Power Gain: §R-0.10%§!\n\nThe King is the §8HEAD§! of the table and the ruler of the kingdom.\n\nNo matter what happens."
+ KNIGHT_GEORGE_LEGITIMACY_LOW:0 "§YGeorge VII§!\n§YFisher King§!\n- Daily Political Power Gain: §R-0.10%§!\n- Stability: §R-10.00%§!\n- War Support: §R-50.00%§!\n\nThe King is the §8HEAD§! of the table and the ruler of the kingdom.\n\nNo matter what happens."
  KNIGHT_GEORGE_LEGITIMACY_HIGH:0 ""
  #
  KNIGHT_SLEEPS_PANTLER:0 "This place is reserved for the King's §OPANTLER§!\n\n§OPANTLER§! deals with the administrative aspects of the kingdom."
@@ -1246,7 +1262,7 @@
  KNIGHT_Douglas_Pearce_CHANCELLOR:0 "§YSir Douglas Pearce§!\n§7Royal Chancellor§!"
  #
  KNIGHT_SLEEPS_KEEPER_OF_SEALS:0 "This place is reserved for the King's §gKEEPER OF SEALS§!\n\n§gKEEPER OF SEALS§! deals with keeping the peace in the kingdom." 
- KNIGHT_Ian Martin_KEEPER_OF_SEALS:0 "§YSir Ian Martin§!\n§gRoyal Keeper of Seals§!"
+ KNIGHT_Ian_Martin_KEEPER_OF_SEALS:0 "§YSir Ian Martin§!\n§gRoyal Keeper of Seals§!"
  KNIGHT_Peter_St_Clair-Erskine_KEEPER_OF_SEALS:0 "§YSir Peter St Clair-Erskine, 7th Earl of Rosslyn§!\n§gRoyal Keeper of Seals§!"
  KNIGHT_Jonathan_Sumption_KEEPER_OF_SEALS:0 "§YSir Jonathan Philip Chadwick Sumption, Lord Sumption§!\n§gRoyal Keeper of Seals§!"
  #
