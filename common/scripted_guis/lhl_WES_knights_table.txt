@@ -44,7 +44,7 @@ scripted_gui = {
                     value = 1		
                }	
             }
-			#2
+			#2 PANTLER
 			lhl_slot_2_vacant_visible = {
                check_variable = {
                     var = WES_table_slot_2
@@ -69,7 +69,7 @@ scripted_gui = {
                     value = 3			
                 }
 		    }
-			#3
+			#3 CHAPELMASTER
 			lhl_slot_3_vacant_visible = {
                check_variable = {
                     var = WES_table_slot_3
@@ -94,7 +94,7 @@ scripted_gui = {
                     value = 3			
                 }
 		    }
-			#4
+			#4 CHANCELLOR
 			lhl_slot_4_vacant_visible = {
                check_variable = {
                     var = WES_table_slot_4
@@ -119,7 +119,7 @@ scripted_gui = {
                     value = 3			
                 }
 		    }
-			#5
+			#5 KEEPER OF SEALS
 			lhl_slot_5_vacant_visible = {
                 check_variable = {
                     var = WES_table_slot_5
@@ -144,7 +144,7 @@ scripted_gui = {
                     value = 3			
                 }
 		    }
-			#6
+			#6 HERALD
 			lhl_slot_6_vacant_visible = {
                check_variable = {
                     var = WES_table_slot_6
@@ -169,7 +169,7 @@ scripted_gui = {
                     value = 3			
                 }
 		    }
-			#7
+			#7 CHAMBERLAIN
 			lhl_slot_7_vacant_visible = {
                check_variable = {
                     var = WES_table_slot_7
@@ -194,7 +194,7 @@ scripted_gui = {
                     value = 3			
                 }
 		    }
-			#8
+			#8 HIGH ADMIRAL
 			lhl_slot_8_vacant_visible = {
                check_variable = {
                     var = WES_table_slot_8
@@ -219,7 +219,7 @@ scripted_gui = {
                     value = 3			
                 }
 		    }
-			#9
+			#9 HIGH CONSTABLE
 			lhl_slot_9_vacant_visible = {
                check_variable = {
                     var = WES_table_slot_9
@@ -244,7 +244,7 @@ scripted_gui = {
                     value = 3			
                 }
 		    }
-			#10
+			#10 SCHOLAR
 			lhl_slot_10_vacant_visible = {
                check_variable = {
                     var = WES_table_slot_10
@@ -269,7 +269,7 @@ scripted_gui = {
                     value = 3			
                 }
 		    }
-			#11
+			#11 TREASURER
 			lhl_slot_11_vacant_visible = {
                check_variable = {
                     var = WES_table_slot_11
@@ -294,7 +294,7 @@ scripted_gui = {
                     value = 3			
                 }
 		    }
-			#12
+			#12 MARSHAL
 			lhl_slot_12_traitor_visible = {
                check_variable = {
                     var = WES_table_slot_12

@@ -71,6 +71,79 @@ defined_text = {
 		localization_key = WES_george_legitimacy_dead
 	}
 }
+defined_text = {
+	name = GetWessexLegitimacyKnightLoc
+	text = {
+		trigger = {
+            check_variable = {
+                var = WES_george_legitimacy
+                value = 6
+				compare = equals	
+			}
+		}
+		localization_key = WES_george_loc_legitimacy_top
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = WES_george_legitimacy
+                value = 5
+				compare = equals	
+			}
+		}
+		localization_key = WES_george_loc_legitimacy_very_high
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = WES_george_legitimacy
+                value = 4
+				compare = equals	
+			}
+		}
+		localization_key = WES_george_loc_legitimacy_high
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = WES_george_legitimacy
+                value = 3
+				compare = equals	
+			}
+		}
+		localization_key = WES_george_loc_legitimacy_medium
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = WES_george_legitimacy
+                value = 2
+				compare = equals	
+			}
+		}
+		localization_key = WES_george_loc_legitimacy_low
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = WES_george_legitimacy
+                value = 1
+				compare = equals	
+			}
+		}
+		localization_key = WES_george_loc_legitimacy_very_low
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = WES_george_legitimacy
+                value = 0
+				compare = equals	
+			}
+		}
+		localization_key = WWES_george_loc_legitimacy_dead
+	}
+}
 
 defined_text = {
 	name = GetWessexGeorgeInfluence

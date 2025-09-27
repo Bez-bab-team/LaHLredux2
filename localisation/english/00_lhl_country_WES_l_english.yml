@@ -563,10 +563,9 @@
  WES_prepare_operations:0 "Prepare Assault"
  #
  WES_event.13.t:0 "Dealing With Tories"
- WES_event.13.d:0 "We have to do something with tories. Do we forgive some of them, or just pruge everyone." 
- WES_event.13.a:0 "Traitors don't deserve mercy. Imprison them."
- WES_event.13.b:0 "Recruit certain civilian advisers and exile the generals."
- WES_event.13.c:0 "Recruit both generals and advisers."
+ WES_event.13.d:0 "We have to do something with tories. Do we forgive some of them or all of them?" 
+ WES_event.13.a:0 "Recruit certain civilian advisers and exile the generals."
+ WES_event.13.b:0 "Recruit both generals and advisers."
  #
  WES_event.14.t:0 "City Of Thieves"
  WES_event.14.d:0 "Kill the Nationalists" 
@@ -1211,9 +1210,9 @@
  WES_manpower_bonus_4_tt:0 "(§Y[WES.GetNameWithFlag]§!) Modify §YAgrarian Economy§! by Construction Speed: §G+20.00%§!"
  WES_manpower_bonus_5_tt:0 "(§Y[WES.GetNameWithFlag]§!) Modify §YAgrarian Economy§! by Construction Speed: §G+25.00%§!"
  ###Legitimacy##
- WES_legitimacy_small_plus:0 "§7The King's Legitimacy will slightly increase§!"
- WES_legitimacy_medium_plus:0 "§6The King's Legitimacy will moderately increase§!"
- WES_legitimacy_big_plus:0 "§GThe King's Legitimacy will severely increase§!"$
+ WES_legitimacy_small_plus:0 "§7The King's £lhl_legitimacy legitimacy will slightly increase§!"
+ WES_legitimacy_medium_plus:0 "§6The King's £lhl_legitimacy legitimacy will moderately increase§!"
+ WES_legitimacy_big_plus:0 "§GThe King's £lhl_legitimacy legitimacy will severely increase§!"$
  #
  WES_increase_kings_legitimacy:0 "Increase King's Legitimacy"
  #
@@ -1243,8 +1242,19 @@
  #
  WES_george_depression:0 "There is nothing I can do..."
  ###Knights of GEORGE###
- KNIGHT_GEORGE_LEGITIMACY_LOW:0 "§YGeorge VII§!\n§YFisher King§!\n- Daily Political Power Gain: §R-0.10%§!\n- Stability: §R-10.00%§!\n- War Support: §R-50.00%§!\n\nThe King is the §8HEAD§! of the table and the ruler of the kingdom.\n\nNo matter what happens."
+ KNIGHT_GEORGE_LEGITIMACY_LOW:0 "[GetWessexLegitimacyKnightLoc]"
  KNIGHT_GEORGE_LEGITIMACY_HIGH:0 ""
+ WES_george_loc_legitimacy_top:0 "§YGeorge VII§!\n§YNew Pendragon§!\n- Daily Political Power Gain: §G+0.10§!\n- Stability: §G+20.00%§!\n- War Support: §G+10.00%§!\n\nThe King is the §8HEAD§! of the table and the ruler of the kingdom.\n\nNo matter what happens."
+ WES_george_loc_legitimacy_very_high:0 "§YGeorge VII§!\n§YNew Pendragon§!\n- Daily Political Power Gain: §G+0.05§!\n- Stability: §G+10.00%§!\n- War Support: §G+5.00%§!\n\nThe King is the §8HEAD§! of the table and the ruler of the kingdom.\n\nNo matter what happens."
+ WES_george_loc_legitimacy_high:0 "§YGeorge VII§!\n§YNew Pendragon§!\n- Daily Political Power Gain: §G+0.02§!\n- Stability: §G+2.50%§!\n- War Support: §G+2.50%§!\n\nThe King is the §8HEAD§! of the table and the ruler of the kingdom.\n\nNo matter what happens."
+ WES_george_loc_legitimacy_medium:0 "§YGeorge VII§!\n§YFisher King§!\n- Daily Political Power Gain: §R-0.02§!\n- Stability: §R-2.50%§!\n- War Support: §R-10.00%§!\n\nThe King is the §8HEAD§! of the table and the ruler of the kingdom.\n\nNo matter what happens."
+ WES_george_loc_legitimacy_low:0 "§YGeorge VII§!\n§YFisher King§!\n- Daily Political Power Gain: §R-0.05§!\n- Stability: §R-5.00%§!\n- War Support: §R-25.00%§!\n\nThe King is the §8HEAD§! of the table and the ruler of the kingdom.\n\nNo matter what happens."
+ WES_george_loc_legitimacy_very_low:0 "§YGeorge VII§!\n§YFisher King§!\n- Daily Political Power Gain: §R-0.10§!\n- Stability: §R-10.00%§!\n- War Support: §R-50.00%§!\n\nThe King is the §8HEAD§! of the table and the ruler of the kingdom.\n\nNo matter what happens."
+ WES_george_loc_legitimacy_dead:0 "§RGone§!"
+ #
+ WES_knight_joins_pantler_1_tt:0 ""
+ WES_knight_joins_pantler_2_tt:0 "§YSir Jacob William Rees-Mogg§! joins the Table as §OThe Royal Pantler!§!"
+ WES_knight_joins_pantler_3_tt:0 ""
  #
  KNIGHT_SLEEPS_PANTLER:0 "This place is reserved for the King's §OPANTLER§!\n\n§OPANTLER§! deals with the administrative aspects of the kingdom."
  KNIGHT_Michael_Mainelli_PANTLER:0 "§YSir Michael Raymond Mainelli§!\n§ORoyal Pantler§!"

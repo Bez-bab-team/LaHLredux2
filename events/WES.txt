@@ -364,13 +364,6 @@ country_event = {
 	option = {
 	    name = WES_event.13.a
 		WES = {
-			add_stability = 0.05
-			add_political_power = 100
-		}
-    } 
-	option = {
-	    name = WES_event.13.b
-		WES = {
 			add_stability = -0.05
 			add_advisor_role = {
 				character = WES_james_glancy
@@ -411,7 +404,7 @@ country_event = {
 		}
     } 
 	option = {
-	    name = WES_event.13.c
+	    name = WES_event.13.b
 		WES = {
 			add_stability = -0.01
 			add_advisor_role = {
@@ -4379,6 +4372,112 @@ country_event = {
 			}
 			custom_effect_tooltip = WES_legitimacy_medium_plus
 		}
+    }
+}
+
+###HIRING KNIGHTS###
+#Jacob Rees-Mogg#
+country_event = { 
+	id = WES_event.129 #Dealing with Kent#
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.129"}
+	title = WES_event.129.t
+	desc = WES_event.129.d
+	is_triggered_only = yes
+	option = {
+	    name = WES_event.129.a #Kill all Conservatives
+		WES = {
+			add_political_power = 100
+			add_to_variable = {
+				var = WES_george_legitimacy_level
+				value = 20
+			}			
+		}
+		custom_effect_tooltip = WES_legitimacy_medium_plus
+    }
+	option = {
+	    name = WES_event.129.b #Forigve Rees-Mogg and friends
+		WES = {
+			country_event = {
+				days = 5
+				id = WES_event.13
+			}
+		} 
+    }
+	option = {
+	    name = WES_event.129.c #Forgive Rees-Mogg and make him a knight
+		trigger = {
+			NOT = {
+				OR = {
+					check_variable = {
+						var = WES_table_slot_2
+						value = 1	
+					}
+					check_variable = {
+						var = WES_table_slot_2
+						value = 3			
+					}
+				}
+			}
+		}
+		add_political_power = -75
+		WES = {
+			country_event = {
+				days = 5
+				id = WES_event.13
+			}
+		} 
+		WES = {
+			country_event = {
+				days = 10
+				id = WES_event.130
+			}
+		} 
+    }
+}
+country_event = { 
+	id = WES_event.130 #Meeting with Mogg#
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.130"}
+	title = WES_event.130.t
+	desc = WES_event.130.d
+	is_triggered_only = yes
+	option = {
+	    name = WES_event.130.a 
+		WES = {
+			country_event = {
+				days = 10
+				id = WES_event.131
+			}
+		} 
+    }
+}
+country_event = { 
+	id = WES_event.131 #Meeting with Mogg#
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.131"}
+	title = WES_event.131.t
+	desc = WES_event.131.d
+	is_triggered_only = yes
+	option = {
+	    name = WES_event.131.a 
+		WES = {
+			country_event = {
+				days = 10
+				id = WES_event.132
+			}
+		} 
+    }
+}
+country_event = { 
+	id = WES_event.132 #Meeting with Mogg#
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.132"}
+	title = WES_event.132.t
+	desc = WES_event.132.d
+	is_triggered_only = yes
+	option = {
+	    name = WES_event.132.a 
+		set_variable = {
+			var = WES_table_slot_2
+			value = 3			
+		}		
     }
 }
 
