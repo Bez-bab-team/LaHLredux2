@@ -11,6 +11,7 @@ country_event = { #King is gone
 	option = {
 	    name = WES_event.1.a
 		add_political_power = -25
+		add_ideas = WES_knight_Nikolai_Tolstoy
 		hidden_effect = {
 			country_event = {
 				days = 10
@@ -4506,6 +4507,35 @@ country_event = {
 			load_focus_tree = WES_medievalist
 		}
 	}
+}
+
+country_event = { #Arise ye english folk
+	id = WES_event.1509
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.1509"}
+	title = WES_event.1509.t
+	desc = WES_event.1509.d
+    is_triggered_only = yes
+	
+    fire_only_once = yes	
+	option = {
+	    name = WES_event.1509.a
+    } 
+	option = {
+	    name = WES_event.1509.b
+    }
+}
+
+country_event = { #Arise ye english folk
+	id = WES_event.1510
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.1510"}
+	title = WES_event.1510.t
+	desc = WES_event.1510.d
+    is_triggered_only = yes
+	
+    fire_only_once = yes	
+	option = {
+	    name = WES_event.1510.a
+    } 
 }
 
 #country_event = {

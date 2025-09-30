@@ -199,9 +199,22 @@ WES_wars = {
 }
 ###King's Legitimacy##
 WES_king_legitimacy = {
-	WES_test_decision = {
-		icon = generic_research
-		cost = 75
+	WES_rally_the_people = {
+		custom_cost_trigger = {
+			check_variable = { WES_george_legitimacy_level > 29 }
+		}
+		custom_cost_text = WES_decision_cost_legitimacy_30
+		days_remove = 30
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	WES_meet_with_soldiers = {
+		cost = 50
+		days_remove = 30
+		ai_will_do = {
+			factor = 100
+		}
 	}
 	WES_increase_kings_legitimacy = {
 		custom_cost_trigger = {

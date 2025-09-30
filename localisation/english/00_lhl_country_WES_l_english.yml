@@ -1035,6 +1035,15 @@
  WES_event.97.d:0 "[?ROOT.WES_number_contender_2.GetName] has won!"
  WES_event.97.a:0 "Congratulations to the winner!"
  #
+ WES_event.1509.t:0 "Three Angry Men"
+ WES_event.1509.d:0 "With the death of Sir Roger Vernon Scruton, the King’s right hand who paved the way for our recent reforms and victories, the Royalist government now stands nameless without its great Chamberlain. A proper replacement that can once again revitalize our nation must be found. As the remaining knights met with the King to argue this matter, two factions emerged in the heated discussion. Both share the same aim of bringing peace to Brittania, yet both propose different methods of achieving this herculean goal.\n\nOn the one hand, stand the romantic Medievalists, who want to return England to its old, soothing pastoral lifestyle, safe from the modern evils that brought down our great nation. Their candidate is the famed historian Count Nikolai Dmitrievich Tolstoy-Miloslavsky.\n\nOn the other hand, there are the pragmatic Neoterics, who seek to return peace to England through a fiscally productive, environmentally sustainable and open society. Neoterics too want the island to be nestled in green, yet recognize some trends of modernity as inevitable. Their candidate is a distinguished environmentalist Sir Jonathon Espie Porritt, 2nd Baronet\n\nWhoever is chosen to be the Chamberlain will fundamentally pave the path our nation shall follow."
+ WES_event.1509.a:0 "To Understand The Future You Must Know Your Past"
+ WES_event.1509.b:0 "To Run a Nation The Financial Wellbeing Must First Be Considered"
+ #
+ WES_event.1510.t:0 "A Man of Fire and Arms"
+ WES_event.1510.d:0 "Sir George the VII by the Grace of God of the United Kingdom of Great Britain and Northern Ireland and of His other Realms and Territories, King, Head of the Commonwealth, Defender of the Faith. His bravery unmatched his nobility earned, approached the gates of Diggerland fortress.\n\n‘Ye who thou be?’ - a guard called from across the wall.\n\nThe King proud and steadfast, gave his response:\n\n‘I am Sir George the VII King of all of Britannia. I have come to make my presence known to the Merchant Master Sir Luty. Open thine gate!‘\n\n‘All who seek the great Merchant Lord's presence must first pay thine piper.’ - answered the sentinel.\n\nThe great Sir George in his humility and nobility acquired a sack of coin and passed it over the menacing wall and the gates then opened. The great fortress of Diggerland was no mere fort, but a great work house of peasant laborers, craftsmen and artisan mingling.\n\n‘Come ye, just King, our great master shall see you.’\n\nSir George and his compatriots entered the great guild, its magnificent halls guarded by soldiers armed with peculiar weapons made in the work houses. In the center stood a man - Philip Luty, the great craftsman himself. The King spoke at once:\n\n‘Sir Philip Luty the great merchant of avarice and death - I, King George the VII have come to settle a dispute between you and thine local lord!’\n\n‘The local lord is a cruel fool whose schemes have brought only the temptation of doom upon my guild and his people. He is more of a fowl crook than I am. My King, you must know he has been cutting coins for their gold and brandishing armaments against peasantry for the simple infraction of tending to their sick. For what do I have to negotiate between the man who has damned himself a tyrant.’ - the voice of the craftsman was soft, yet firm, his bold declaration hanging in the air.\n\nThe King contemplated, but for a moment, and stated his answer:\n\n‘O Great guild master, I call upon your higher senses - you are a wanted man! The lord is simply trying to uphold the end of the bargain with his people and yet, I have been made aware of the nature of his failings and I can assure you that I shall deal with him in the most appropriate of manners but for my act of graciousness to you I request your service in my court.’\n\nThe merchant scoffed - his face a mask of unruly pride.\n\n“Your court!? Pha! I will serve in no king's court till thou fowl demon is stricken down to the depths of hell from whence he came!’\n\nThe audience came to an end."
+ WES_event.1510.a:0 "A Gap in The Market that Requires Filling"
+ #
  WES_dynamic_localization_1.tt:0 "(§Y[WES.GetNameWithFlag]§!) Modify §YRule of King George§! by \nDaily Compliance Gain: §G+0.25%§!"
  WES_dynamic_localization_2.tt:0 "(§Y[WES.GetNameWithFlag]§!) Modify §YRule of King George§! by \nNon-core Manpower: §G+5.00%§!"
  WES_dynamic_localization_3.tt:0 "(§Y[WES.GetNameWithFlag]§!) Modify §YRule of King George§! by \nPolitical Advisor Cost: §G-10%§!"
@@ -1215,10 +1224,16 @@
  WES_legitimacy_big_plus:0 "§GThe King's £lhl_legitimacy legitimacy will severely increase§!"$
  #
  WES_increase_kings_legitimacy:0 "Increase King's Legitimacy"
+ WES_rally_the_people:0 "Rally The People"
+ WES_meet_with_soldiers:0 "Meet with The Soldiers"
  #
  WES_decision_cost_legitimacy_150:0 "£lhl_legitimacy  §Y150§!"
  WES_decision_cost_legitimacy_150_blocked:0 "£lhl_legitimacy  §R150§!"
  WES_decision_cost_legitimacy_150_tooltip:0 "It costs £lhl_legitimacy  §Y150§! to take the decision"
+ #
+ WES_decision_cost_legitimacy_30:0 "£lhl_legitimacy  §Y30§!"
+ WES_decision_cost_legitimacy_30_blocked:0 "£lhl_legitimacy  §R30§!"
+ WES_decision_cost_legitimacy_30_tooltip:0 "It costs £lhl_legitimacy  §Y30§! to take the decision"
  #
  WES_upgrade_legitimacy_2:0 "King George VII's legitimacy will change from §RMiserable§! to §YShaken§!"
  WES_upgrade_legitimacy_3:0 "King George VII's legitimacy will change from §YShaken§! to §YUnstable§!"
@@ -1266,7 +1281,7 @@
  KNIGHT_Ephraim_of_Vatopedi_CHAPELMASTER:0 "§YSir Ephraim of Vatopedi§!\n§CRoyal Chapelmaster§!"
  KNIGHT_Paul_Kingsnorth_CHAPELMASTER:0 "§YSir Paul Kingsnorth§!\n§CRoyal Chapelmaster§!"
  #
- KNIGHT_SLEEPS_CHANCELLOR:0 "This place is reserved for the King's §7CHANCELLOR§!\n\n§7CHANCELLOR§! deals with the foreign policy of the kingdom."
+ KNIGHT_SLEEPS_CHANCELLOR:0 "This place is reserved for the King's §7CHANCELLOR§!\n\n§7CHANCELLOR§! deals with the foreign policy of the Kingdom."
  KNIGHT_Clive_Alderton_CHANCELLOR:0 "§YSir Clive Alderton§!\n§7Royal Chancellor§!"
  KNIGHT_Michael_of_Kent_CHANCELLOR:0 "§YPrince Michael of Kent§!\n§7Royal Chancellor§!"
  KNIGHT_Douglas_Pearce_CHANCELLOR:0 "§YSir Douglas Pearce§!\n§7Royal Chancellor§!"
@@ -1284,7 +1299,7 @@
  KNIGHT_SLEEPS_CHAMBERLAIN:0 "This place is reserved for the King's §0CHAMBERLAIN§!\n\n§0CHAMBERLAIN§! is the right-hand of the King."
  KNIGHT_Jonathon_Porritt_CHAMBERLAIN:0 "§YSir Jonathon Espie Porritt, 2nd Baronet§!\n§0Royal Chamberlain§!"
  KNIGHT_Roger_Scruton_CHAMBERLAIN:0 "§YSir Roger Vernon Scruton§!\n§0Royal Chamberlain§!"
- KNIGHT_Nikolai_Tolstoy_CHAMBERLAIN:0 "§YCount Sir Nikolai Dmitrievich Tolstoy-Miloslavsky§!\n§0Royal Chamberlain§!"
+ KNIGHT_Nikolai_Tolstoy_CHAMBERLAIN:0 "§YCount Sir Nikolai Dmitrievich Tolstoy-Miloslavsky§!\n§0Royal Chamberlain§!\n- Political Power Gain: §G+5%§!\n- War Support: §G+5.00%§!\n- Required Garrisons: §G+10.00%§!\n\n§0CHAMBERLAIN§! is the right-hand of the King. He handles the most important matters of the Kingdom and aids in the search for the new knights."
  #
  KNIGHT_SLEEPS_HIGH_ADMIRAL:0 "This place is reserved for the King's §5HIGH ADMIRAL§!\n\n§5HIGH ADMIRAL§! deals with fleet and the airforce of the kingdom."
  KNIGHT_Ian_Forbes_HIGH_ADMIRAL:0 "§YSir Ian Andrew Forbes§!\n§5Royal High Admiral§!"
