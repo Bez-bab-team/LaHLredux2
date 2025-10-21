@@ -4515,6 +4515,7 @@ country_event = { #Arise ye english folk
 	title = WES_event.1509.t
 	desc = WES_event.1509.d
     is_triggered_only = yes
+	picture = GFX_WES_three_angry_men
 	
     fire_only_once = yes	
 	option = {
@@ -4531,6 +4532,7 @@ country_event = { #Arise ye english folk
 	title = WES_event.1510.t
 	desc = WES_event.1510.d
     is_triggered_only = yes
+	picture = GFX_WES_a_man_of_fire_and_arms
 	
     fire_only_once = yes	
 	option = {

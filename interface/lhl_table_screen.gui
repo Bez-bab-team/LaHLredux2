@@ -148,7 +148,7 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "lhl_slot_5_Jonathan_Sumption"
-			spriteType = "GFX_lhl_table_jonathan_sumption"
+			spriteType = "GFX_lhl_table_johnathan_sumption"
 			pdx_tooltip = "KNIGHT_Jonathan_Sumption_KEEPER_OF_SEALS"
 			position = { x = 851 y = 430 }
 		}

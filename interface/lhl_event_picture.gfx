@@ -153,5 +153,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ESS_choosing_CEO"
 		texturefile = "gfx/event_pictures/ESS_choosing_CEO.dds"
+	}
+	#WES#
+	spriteType = {
+		name = "GFX_WES_three_angry_men"
+		texturefile = "gfx/event_pictures/WES_three_angry_men.dds"
+	}
+	spriteType = {
+		name = "GFX_WES_a_man_of_fire_and_arms"
+		texturefile = "gfx/event_pictures/WES_a_man_of_fire_and_arms.dds"
 	}	
 }
