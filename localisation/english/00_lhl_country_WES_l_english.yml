@@ -111,6 +111,7 @@
  WES_Concentrated_strikes:0 "Concentrated Strikes"
  WES_royal_science_fund:0 "Royal Science Fund"
  WES_royal_infrastructure_investment:0 "Royal Infrastructure Investment"
+ WES_battle_for_wessex:0 "Battle for Wessex"
  ##HIDDEN IDEAS##
  WES_neofolk:0 "Neofolk"
  
@@ -580,13 +581,14 @@
  WES_event.16.a:0 "Spare some collaborators"
  WES_event.16.b:0 "Imprison them all!"
  #
- WES_event.17.t:0 "London has fallen!"
- WES_event.17.d:0 "Hang Land, kill Mosley!" 
- WES_event.17.a:0 "Victory is ours!"
+ WES_event.17.t:0 "Military Wargames"
+ WES_event.17.d:0 "We conduct military wargames to boost morale and invite new recruits" 
+ WES_event.17.a:0 "Limited Wargames"
+ WES_event.17.b:0 "A lot of wargames"
  #
- WES_event.18.t:0 "Kent has fallen!"
- WES_event.18.d:0 "We won!" 
- WES_event.18.a:0 "Victory is ours!"
+ WES_event.18.t:0 "Of Fathers and Sons"
+ WES_event.18.d:0 "Holy Shit we need to fucking kill Henry" 
+ WES_event.18.a:0 "Damn"
  #
  WES_event.19.t:0 "Mercia has fallen!"
  WES_event.19.d:0 "We won!" 
@@ -911,6 +913,10 @@
  WES_artillery_men_buff_tt:0 "\nThrough vigorous training our men will become as methodical and mechanical as the machines they wield! §G(+5% Increase in soft attack to Howitzers, Self-Propelled Artillery, and Multiple Launch Rocket System units)§.\n"
  WES_tank_knights_buff_tt:0 "\nJust like the knights of yore. Our tank crews will, through valor, virtue and training, plow through enemy ranks and bring us the victories we so desperatly need! §G(+2% Increase in soft attack, hard attack and speed of Main Battle Tank units)§.\n"
  WES_douglas_diplomacy_accept:0 "Douglas Pearce has accpeted our proposal."
+ #
+ WES_marshalls_prowess_tt:0 "§RA Royal Marshall Will Be Found§!"
+ WES_decorate_the_table_tt:0 "§OA Royal Pantler Will Be Found§!"
+ WES_fill_in_the_treasure_tt:0 "§YA Royal Treasurer Will Be Found§!"
  ##DESIGN_COMPANIES#
  bae_systems_weymouth:0 "BAE Systems Submarines Weymouth"
  ww_greener:0 "W.W. Greener"

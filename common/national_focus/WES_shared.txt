@@ -29,6 +29,7 @@ shared_focus = {
         focus = WES_return_of_the_king
 	}
 	completion_reward = {
+		custom_effect_tooltip = WES_decorate_the_table_tt
 	}
 	x = 17
 	y = 1
@@ -84,6 +85,12 @@ shared_focus = {
         focus = WES_return_of_the_king
 	}
 	completion_reward = {
+		WES = {
+			add_dynamic_modifier = {
+				modifier = WES_battle_for_wessex
+			}
+		}
+		custom_effect_tooltip = WES_marshalls_prowess_tt
 	}
 	x = 13
 	y = 1
@@ -96,6 +103,21 @@ shared_focus = {
         focus = WES_marshalls_prowess
 	}
 	completion_reward = {
+		WES = {
+			add_to_variable = {
+				var = WES_battle_for_wessex_army_morale_factor
+				value = 0.08
+			}
+			add_to_variable = {
+				var = WES_battle_for_wessex_army_org_factor
+				value = 0.05
+			}
+			country_event = {
+				days = 0
+				id = WES_event.17
+			}
+		}
+		custom_effect_tooltip = WES_game_of_chess.tt
 	}
 	x = 12
 	y = 2
@@ -108,6 +130,17 @@ shared_focus = {
         focus = WES_marshalls_prowess
 	}
 	completion_reward = {
+		WES = {
+			country_event = {
+				days = 0
+				id = WES_event.66
+			}
+			add_to_variable = {
+				var = WES_battle_for_wessex_army_org_factor
+				value = 0.05
+			}
+		}
+		custom_effect_tooltip = WES_trials_of_courage.tt
 	}
 	x = 14
 	y = 2
@@ -146,6 +179,37 @@ shared_focus = {
         focus = WES_trials_of_courage
 	}
 	completion_reward = {
+		WES = {
+			add_to_variable = {
+				var = WES_battle_for_wessex_dig_in_speed_factor
+				value = 0.15
+			}
+			add_to_variable = {
+				var = WES_battle_for_wessex_max_dig_in_factor
+				value = 0.08
+			}
+			1000 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = yes
+					}
+				}
+			}
+			1161 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = yes
+					}
+				}
+			}
+		}
+		custom_effect_tooltip = WES_in_foxes_den.tt		
 	}
 	x = 13
 	y = 3
@@ -176,6 +240,22 @@ shared_focus = {
         focus = WES_echo_of_war
 	}
 	completion_reward = {
+		WES = {
+			add_to_variable = {
+				var = WES_battle_for_wessex_army_core_attack_factor
+				value = 0.12
+			}
+			add_to_variable = {
+				var = WES_battle_for_wessex_army_core_defence_factor
+				value = 0.12
+			}
+			add_to_variable = {
+				var = WES_battle_for_wessex_army_speed_factor
+				value = 0.08
+			}
+		}
+		add_political_power = 100
+		custom_effect_tooltip = WES_battle_of_camlann.tt	
 	}
 	x = 13
 	y = 4
@@ -188,6 +268,7 @@ shared_focus = {
         focus = WES_return_of_the_king
 	}
 	completion_reward = {
+		custom_effect_tooltip = WES_fill_in_the_treasure_tt
 	}
 	x = 21
 	y = 1

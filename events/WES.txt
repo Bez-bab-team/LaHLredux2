@@ -544,8 +544,10 @@ country_event = { #Deal with collabs
     } 
 }
 
-country_event = {
-	id = WES_event.17
+
+#Initial Tree#
+country_event = { #Wargames
+	id = WES_event.17 
 	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.17"}
 	title = WES_event.17.t
 	desc = WES_event.17.d
@@ -553,10 +555,24 @@ country_event = {
     fire_only_once = yes	
 	option = {
 	    name = WES_event.17.a
+		WES = {
+			add_manpower = 10000
+		}
+    } 
+	option = {
+	    name = WES_event.17.b
+		WES = {
+			add_manpower = 15000
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -400
+				producer = WES
+			}
+		}
     } 
 }
 
-country_event = {
+country_event = { #Battle of Camlann
 	id = WES_event.18
 	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.18"}
 	title = WES_event.18.t
@@ -566,6 +582,7 @@ country_event = {
     fire_only_once = yes	
 	option = {
 	    name = WES_event.18.a
+		add_political_power = 100
     } 
 }
 
@@ -1801,7 +1818,7 @@ country_event = {
 		WES = {
 			country_event = {
 				days = 0
-				id = GER_event.125
+				id = WES_event.125
 			}
 		}
     }
@@ -4149,15 +4166,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 	    name = WES_event.121.a
-		WES_george_vii = {
-			gain_xp = 350
-		}
-		WES_george_vii = {
-			add_unit_leader_trait = brilliant_strategist
-		}
-		WES_george_vii = {
-			add_unit_leader_trait = aggressive_assaulter
-		}
 		WES = {
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
@@ -4187,15 +4195,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 	    name = WES_event.122.a
-		WES_george_vii = {
-			gain_xp = 350
-		}
-		WES_george_vii = {
-			add_unit_leader_trait = brilliant_strategist
-		}
-		WES_george_vii = {
-			add_unit_leader_trait = expert_delegator
-		}
 		WES = {
 			add_manpower = 7500
 			add_political_power = 75
@@ -4216,15 +4215,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 	    name = WES_event.123.a
-		WES_george_vii = {
-			gain_xp = 350
-		}
-		WES_george_vii = {
-			add_unit_leader_trait = brilliant_strategist
-		}
-		WES_george_vii = {
-			add_unit_leader_trait = thorough_planner
-		}
 		WES = {
 			random_owned_controlled_state = {	
 					add_building_construction = {
@@ -4298,12 +4288,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 	    name = WES_event.126.a
-		WES_george_vii = {
-			gain_xp = 250
-		}
-		WES_george_vii = {
-			add_unit_leader_trait = brilliant_strategist
-		}
 		WES = {
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
@@ -4328,12 +4312,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 	    name = WES_event.127.a
-		WES_george_vii = {
-			gain_xp = 250
-		}
-		WES_george_vii = {
-			add_unit_leader_trait = brilliant_strategist
-		}
 		WES = {
 			add_manpower = 500
 			add_political_power = 40
@@ -4354,12 +4332,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 	    name = WES_event.128.a
-		WES_george_vii = {
-			gain_xp = 250
-		}
-		WES_george_vii = {
-			add_unit_leader_trait = brilliant_strategist
-		}
 		WES = {
 			add_tech_bonus = {
 				bonus = 0.5
