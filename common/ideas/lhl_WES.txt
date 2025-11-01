@@ -142,6 +142,20 @@ ideas = {
 				war_support_factor = 0.15
 			}
 		}
+		WES_bureaucratic_chaos = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+		        political_power_gain = -0.2		
+			}
+		}
 		
 		WES_electromagnetic_warfare = {
 			

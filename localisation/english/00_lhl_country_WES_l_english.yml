@@ -73,6 +73,8 @@
  Follower_of_Burke:0 "Follower of Burke"
  Social_Crusader:0 "Social Crusader"
  jousting_victor:0 "Jousting Champion"
+ untrustworhy_advisor:0 "Untrustworthy"
+ untrustworhy_advisor_2:0 "Untrustworthy"
  ##IDEAS##
  WES_roger_scruton:0 "Roger Scruton"
  WES_Nikolai_Tolstoy:0 "Nikolai Tolstoy"
@@ -112,6 +114,8 @@
  WES_royal_science_fund:0 "Royal Science Fund"
  WES_royal_infrastructure_investment:0 "Royal Infrastructure Investment"
  WES_battle_for_wessex:0 "Battle for Wessex"
+ WES_bureaucratic_chaos:0 "Bureaucratic Chaos"
+ WES_worker_concessions:0 "Concessions to Workers"
  ##HIDDEN IDEAS##
  WES_neofolk:0 "Neofolk"
  
@@ -799,7 +803,7 @@
  WES_event.117.d:0 "Private enterprises are having a hard time in Wessex - most of the companies are either failing or have to participate in illegal activities to stay afloat. Many of the capitalists are blaming the King for the current state of affairs, what would be our move?"
  WES_event.117.a:0 "Loosen the labour laws. We can't win if we don't have an economy."
  WES_event.117.b:0 "Focus on wiping out corruption. We can't build a better Britain otherwise."
- WES_event.117.c:0 "Nationalize what we can and switch to war economy."
+ WES_event.117.c:0 "Nationalize what we can and switch to partial mobilization."
  #
  WES_event.118.t:0 "The King speaks to the Celts"
  WES_event.118.d:0 "With the total disintegration of the United Kingdom, celtic nationalists in Cornwall and the Isle of Man have gained substantial popularity. They are propagating separatism and sabotage of the war effort. Action needs to be taken immediately."
@@ -917,6 +921,9 @@
  WES_marshalls_prowess_tt:0 "§RA Royal Marshall Will Be Found§!"
  WES_decorate_the_table_tt:0 "§OA Royal Pantler Will Be Found§!"
  WES_fill_in_the_treasure_tt:0 "§YA Royal Treasurer Will Be Found§!"
+ #
+ WES_vox_populi_vox_regis_tt:0 "§YEvery Advisor§! loses §YUntrustworthy§!\n-Surrender Limit: §R-5.00%§!\n-War Support: §R-5.00%§!"
+ WES_swamps_of_wessex_tt:0 "(§YEvery Advisor§!) Modify §YUntrustworthy§! by\nSurrender Limit: §G+3.00%§!\nWar Support: §G+3.00%§!"
  ##DESIGN_COMPANIES#
  bae_systems_weymouth:0 "BAE Systems Submarines Weymouth"
  ww_greener:0 "W.W. Greener"
@@ -1073,6 +1080,11 @@
  WES_army_localization_10.tt:0 "(§Y[WES.GetNameWithFlag]§!) Modify §YRoyal Army§! by \nArmor Division Attack: §G+10.0%§!\nArmor Division Defense: §G+10.0%§!\nArmor speed: §G+10.0%§!\n"
  #
  WES_republicans_complaince.tt:0 "§YAll Northumbrian and Mercian states§!:\n     Complaince: §G+30.0%§!\n     Resistance: §G-30.0%§!"
+ #
+ WES_battle_of_camlann.tt:0 "(§Y[WES.GetNameWithFlag]§!) Modify §YBattle for Wessex§! by \nDivision Attack on core territory: §G+12.0%§!\nDivision Defense on core territory: §G+12.0%§!\nDivision speed: §G+8.00%§!\n"
+ WES_in_foxes_den.tt:0 "(§Y[WES.GetNameWithFlag]§!) Modify §YBattle for Wessex§! by \nEntrenchment speed: §G+15.0%§!\nMax Entrenchment: §G+8.00%§!\n"
+ WES_game_of_chess.tt:0 "(§Y[WES.GetNameWithFlag]§!) Modify §YBattle for Wessex§! by \nDivision Organization: §G+10.0%§!\nDivision Recovery Rate: §G+8.0%§!\n"
+ WES_trials_of_courage.tt:0 "(§Y[WES.GetNameWithFlag]§!) Modify §YBattle for Wessex§! by \nBreakthrough: §G+5.00%§!\n"
  #Substience Economy#
  ##RAILWAYS##
  WES_railway_bonus_1_tt:0 "(§Y[WES.GetNameWithFlag]§!) Modify §YAgrarian Economy§! by Resource Gain Efficiency: §G+10.00%§!"
@@ -1228,6 +1240,8 @@
  WES_legitimacy_small_plus:0 "§7The King's £lhl_legitimacy legitimacy will slightly increase§!"
  WES_legitimacy_medium_plus:0 "§6The King's £lhl_legitimacy legitimacy will moderately increase§!"
  WES_legitimacy_big_plus:0 "§GThe King's £lhl_legitimacy legitimacy will severely increase§!"$
+ #
+ WES_legitimacy_small_minus:0 "§OThe King's £lhl_legitimacy legitimacy will slightly decrease§!"
  #
  WES_increase_kings_legitimacy:0 "Increase King's Legitimacy"
  WES_rally_the_people:0 "Rally The People"

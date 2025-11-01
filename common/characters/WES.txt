@@ -374,13 +374,13 @@ characters={
 				small="gfx/interface/ideas/WES/idea_WES_Christopher_Chope.dds"
 			}
 		}
-
 		advisor = {
 			cost = 120
 			slot = political_advisor
 			idea_token = WES_Christopher_Chope
 			traits = {
 				Old_Guard
+				untrustworhy_advisor
 			}
 			allowed = {
 				original_tag = WES
@@ -404,6 +404,7 @@ characters={
 			idea_token =  WES_Fiona_Bruce
 			traits = {
 				goodwill_ambassador
+				untrustworhy_advisor
 			}
 			allowed = {
 				original_tag = WES
@@ -427,6 +428,7 @@ characters={
 			idea_token = WES_John_Hayes
 			traits = {
 				hospitaller
+				untrustworhy_advisor
 			}
 			allowed = {
 				original_tag = WES
@@ -473,6 +475,7 @@ characters={
 			idea_token = WES_Laurence_Robertson
 			traits = {
 				protectionist
+				untrustworhy_advisor
 			}
 			allowed = {
 				original_tag = WES
@@ -496,6 +499,7 @@ characters={
 			idea_token = WES_Melanie_Phillips
 			traits = {
 				Herald
+				untrustworhy_advisor
 			}
 			allowed = {
 				original_tag = WES

@@ -149,6 +149,38 @@ recruit_character = WES_merlin_hanbury_tracy
 recruit_character = WES_andrew_roberts
 recruit_character = WES_robin_tilbrook
 recruit_character = WES_julia_gasper
+#Hiring#
+activate_advisor = WES_Christopher_Chope
+activate_advisor = WES_Fiona_Bruce
+activate_advisor = WES_John_Hayes
+activate_advisor = WES_Laurence_Robertson
+activate_advisor = WES_Melanie_Phillips
+activate_advisor = WES_roger_scruton
+WES_Christopher_Chope = {
+	set_can_be_fired_in_advisor_role = {
+		value = no
+	}
+}
+WES_Fiona_Bruce = {
+	set_can_be_fired_in_advisor_role = {
+		value = no
+	}
+}
+WES_John_Hayes = {
+	set_can_be_fired_in_advisor_role = {
+		value = no
+	}
+}
+WES_Laurence_Robertson = {
+	set_can_be_fired_in_advisor_role = {
+		value = no
+	}
+}
+WES_Melanie_Phillips = {
+	set_can_be_fired_in_advisor_role = {
+		value = no
+	}
+}
 
 set_country_flag = {
     flag = ENG_george_here

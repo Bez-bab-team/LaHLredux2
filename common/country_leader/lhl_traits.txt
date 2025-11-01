@@ -1404,6 +1404,22 @@ leader_traits = {
 	}
 	
 ##IDEAS_ROYALISTS/WESSEX##
+	untrustworhy_advisor = { #Everyone#
+		random = no
+		war_support_factor = -0.05
+		surrender_limit = -0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	untrustworhy_advisor_2 = { #Everyone#
+		random = no
+		war_support_factor = -0.02
+		surrender_limit = -0.02
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	Black_bird = { #Roger Scruton#
 		random = no
 		
@@ -1434,14 +1450,14 @@ leader_traits = {
 	}
 	Old_Guard = { #Christopher Chope#
 		random = no
-		
+		political_power_gain = 0.05
 		ai_will_do = {
 			factor = 1
 		}
 	}
 	hospitaller = { #John Hayes#
 		random = no
-		
+		stability_factor = 0.1
 		ai_will_do = {
 			factor = 1
 		}
@@ -1462,14 +1478,14 @@ leader_traits = {
 	}
 	protectionist = { #Laurence Robertson#
 		random = no
-		
+		min_export = -0.25
 		ai_will_do = {
 			factor = 1
 		}
 	}
 	Herald = { #Melanie Phillips#
 		random = no
-		
+		recruitable_population_factor = 0.01
 		ai_will_do = {
 			factor = 1
 		}
@@ -1477,7 +1493,7 @@ leader_traits = {
 	
 	goodwill_ambassador = { #Fiona Bruce#
 		random = no
-		
+		monthly_population = 0.08
 		ai_will_do = {
 			factor = 1
 		}

@@ -45,6 +45,47 @@ shared_focus = {
 	    focus = WES_swamps_of_wessex
 	}
 	completion_reward = {
+		hidden_effect = { 
+			WES = {
+				WES_Christopher_Chope = {
+					remove_trait = {
+						trait = untrustworhy_advisor
+					}
+				}
+				WES_Fiona_Bruce = {
+					remove_trait = {
+						trait = untrustworhy_advisor
+					}
+				}
+				WES_John_Hayes = {
+					remove_trait = {
+						trait = untrustworhy_advisor
+					}
+				}
+				WES_Laurence_Robertson = {
+					remove_trait = {
+						trait = untrustworhy_advisor
+					}
+				}
+				WES_Melanie_Phillips = {
+					remove_trait = {
+						trait = untrustworhy_advisor
+					}
+				}
+			}
+		}
+		WES = {
+			add_timed_idea = {
+				idea = WES_bureaucratic_chaos
+				days = 180
+			}
+		}
+		add_to_variable = {
+			var = WES_george_legitimacy_level
+			value = -10
+		}
+		custom_effect_tooltip = WES_legitimacy_small_minus
+		custom_effect_tooltip = WES_vox_populi_vox_regis_tt
 	}
 	x = 16
 	y = 2
@@ -60,6 +101,52 @@ shared_focus = {
 	    focus = WES_vox_populi_vox_regis
 	}
 	completion_reward = {
+		hidden_effect = { 
+			WES = {
+				WES_Christopher_Chope = {
+					remove_trait = {
+						trait = untrustworhy_advisor
+					}
+					add_trait = {
+						trait = untrustworhy_advisor_2
+					}
+				}
+				WES_Fiona_Bruce = {
+					remove_trait = {
+						trait = untrustworhy_advisor
+					}
+					add_trait = {
+						trait = untrustworhy_advisor_2
+					}
+				}
+				WES_John_Hayes = {
+					remove_trait = {
+						trait = untrustworhy_advisor
+					}
+					add_trait = {
+						trait = untrustworhy_advisor_2
+					}
+				}
+				WES_Laurence_Robertson = {
+					remove_trait = {
+						trait = untrustworhy_advisor
+					}
+					add_trait = {
+						trait = untrustworhy_advisor_2
+					}
+				}
+				WES_Melanie_Phillips = {
+					remove_trait = {
+						trait = untrustworhy_advisor
+					}
+					add_trait = {
+						trait = untrustworhy_advisor_2
+					}
+				}
+			}
+		}
+		add_political_power = -50
+		custom_effect_tooltip = WES_swamps_of_wessex_tt
 	}
 	x = 18
 	y = 2
@@ -73,6 +160,16 @@ shared_focus = {
 		focus = WES_swamps_of_wessex
 	}
 	completion_reward = {
+		WES = {
+			country_event = {
+				days = 0
+				id = WES_event.67
+			}
+		}
+		add_to_variable = { 
+			WES_george_legitimacy_level = 5
+		}
+		custom_effect_tooltip =  WES_legitimacy_small_plus
 	}
 	x = 17
 	y = 3
@@ -136,7 +233,7 @@ shared_focus = {
 				id = WES_event.66
 			}
 			add_to_variable = {
-				var = WES_battle_for_wessex_army_org_factor
+				var = WES_battle_for_wessex_breakthrough_factor
 				value = 0.05
 			}
 		}
@@ -155,7 +252,7 @@ shared_focus = {
 	completion_reward = {
 		WES = {
 			country_event = {
-				days = 1
+				days = 0
 				id = WES_event.4
 			}
 			swap_ideas = {
@@ -253,8 +350,11 @@ shared_focus = {
 				var = WES_battle_for_wessex_army_speed_factor
 				value = 0.08
 			}
+			country_event = {
+				days = 0
+				id = WES_event.18
+			}
 		}
-		add_political_power = 100
 		custom_effect_tooltip = WES_battle_of_camlann.tt	
 	}
 	x = 13

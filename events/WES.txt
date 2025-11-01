@@ -2117,7 +2117,7 @@ country_event = {
 	option = {
 	    name = WES_event.69.b
 		WES = {
-			add_political_power = -75
+			add_political_power = -50
 			add_to_variable = { 
 				WES_george_legitimacy_level = 5
 			}
@@ -2182,7 +2182,7 @@ country_event = {
 	option = {
 	    name = WES_event.69.e
 		WES = {
-			add_political_power = -50
+			add_political_power = -75
 			add_stability = -0.05
 			add_manpower = 10000
 			random_state = {
@@ -2207,10 +2207,6 @@ country_event = {
 				ideology = national_bolshevism
 				popularity = -0.02
 			}
-		}
-		custom_effect_tooltip = WES_legitimacy_small_plus
-		add_to_variable = { 
-			WES_george_legitimacy_level = 5
 		}
 		hidden_effect = {
 			WES = {
@@ -3918,6 +3914,7 @@ country_event = {
 					level = 1
 					instant_build = yes
 				}
+				add_extra_state_shared_building_slots = 1
 			}
 			random_state = {
 				add_building_construction = {
@@ -3925,18 +3922,15 @@ country_event = {
 					level = 1
 					instant_build = yes
 				}
+				add_extra_state_shared_building_slots = 1
 			}
 			add_popularity = {
 				ideology = regressionism
-				popularity = 0.12
+				popularity = 0.08
 			}
 			add_popularity = {
 				ideology = neocameralism
 				popularity = -0.08
-			}
-			add_popularity = {
-				ideology = right_populism
-				popularity = -0.04
 			}
 			add_to_variable = { 
 				WES_george_legitimacy_level = 5
@@ -3958,15 +3952,11 @@ country_event = {
 			add_political_power = 50
 			add_popularity = {
 				ideology = regressionism
-				popularity = 0.12
+				popularity = 0.08
 			}
 			add_popularity = {
 				ideology = neocameralism
 				popularity = -0.08
-			}
-			add_popularity = {
-				ideology = right_populism
-				popularity = -0.04
 			}
 			add_to_variable = { 
 				WES_george_legitimacy_level = 5
@@ -3998,23 +3988,15 @@ country_event = {
 					level = 1
 				}
 			}
-			add_ideas = war_economy
+			add_ideas = partial_economic_mobilisation
 			add_popularity = {
 				ideology = regressionism
-				popularity = 0.12
+				popularity = 0.08
 			}
 			add_popularity = {
 				ideology = neocameralism
 				popularity = -0.08
 			}
-			add_popularity = {
-				ideology = right_populism
-				popularity = -0.04
-			}
-			add_to_variable = { 
-				WES_george_legitimacy_level = 5
-			}
-			custom_effect_tooltip = WES_legitimacy_small_plus
 		}	
 		hidden_effect = {
 			WES = {
@@ -4074,7 +4056,7 @@ country_event = {
 	option = {
 	    name = WES_event.118.b
 		WES = {
-			add_political_power = -75
+			add_political_power = -25
 			998 = {
 				damage_building = {
 					type = infrastructure
