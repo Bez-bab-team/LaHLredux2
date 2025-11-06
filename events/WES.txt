@@ -586,7 +586,7 @@ country_event = { #Battle of Camlann
     } 
 }
 
-country_event = {
+country_event = { #Our Finest Hour
 	id = WES_event.19
 	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.19"}
 	title = WES_event.19.t
@@ -596,6 +596,9 @@ country_event = {
     fire_only_once = yes	
 	option = {
 	    name = WES_event.19.a
+		WES = {
+			add_political_power = 150
+		}
     } 
 }
 
@@ -3619,7 +3622,7 @@ country_event = { #Competitive Spirit
 	}	
 }
 
-country_event = { #Museum Pieces
+country_event = { #Museum Pieces ##CAN BE REPURPOSED
 	id = WES_event.102
 	title = WES_event.102.t
 	desc = WES_event.102.d

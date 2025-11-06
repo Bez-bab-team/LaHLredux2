@@ -114,6 +114,7 @@
  WES_royal_science_fund:0 "Royal Science Fund"
  WES_royal_infrastructure_investment:0 "Royal Infrastructure Investment"
  WES_battle_for_wessex:0 "Battle for Wessex"
+ WES_desperate_measures:0 "Desperate Measures"
  WES_bureaucratic_chaos:0 "Bureaucratic Chaos"
  WES_worker_concessions:0 "Concessions to Workers"
  ##HIDDEN IDEAS##
@@ -594,9 +595,9 @@
  WES_event.18.d:0 "Holy Shit we need to fucking kill Henry" 
  WES_event.18.a:0 "Damn"
  #
- WES_event.19.t:0 "Mercia has fallen!"
- WES_event.19.d:0 "We won!" 
- WES_event.19.a:0 "Victory is ours!"
+ WES_event.19.t:0 "Our Finest Hour"
+ WES_event.19.d:0 "Build Shit" 
+ WES_event.19.a:0 "Build it, please!"
  #
  WES_event.20.t:0 "Nazbols burn!"
  WES_event.20.d:0 "We won!" 
@@ -924,6 +925,8 @@
  #
  WES_vox_populi_vox_regis_tt:0 "§YEvery Advisor§! loses §YUntrustworthy§!\n-Surrender Limit: §R-5.00%§!\n-War Support: §R-5.00%§!"
  WES_swamps_of_wessex_tt:0 "(§YEvery Advisor§!) Modify §YUntrustworthy§! by\nSurrender Limit: §G+3.00%§!\nWar Support: §G+3.00%§!"
+ #
+ WES_royal_purse_tt:0 "$unlocks_decision$ £decision_icon_small §H$WES_sell_jewels$§!\n$unlocks_decision$ £decision_icon_small §H$WES_sell_car_fleet$§!\n$unlocks_decision$ £decision_icon_small §H$WES_sell_finances$§!\n$unlocks_decision$ £decision_icon_small §H$WES_sell_highgrove_house$§!\n$unlocks_decision$ £decision_icon_small §H$WES_sell_duchy_of_cornwall$§!"
  ##DESIGN_COMPANIES#
  bae_systems_weymouth:0 "BAE Systems Submarines Weymouth"
  ww_greener:0 "W.W. Greener"
@@ -1085,6 +1088,11 @@
  WES_in_foxes_den.tt:0 "(§Y[WES.GetNameWithFlag]§!) Modify §YBattle for Wessex§! by \nEntrenchment speed: §G+15.0%§!\nMax Entrenchment: §G+8.00%§!\n"
  WES_game_of_chess.tt:0 "(§Y[WES.GetNameWithFlag]§!) Modify §YBattle for Wessex§! by \nDivision Organization: §G+10.0%§!\nDivision Recovery Rate: §G+8.0%§!\n"
  WES_trials_of_courage.tt:0 "(§Y[WES.GetNameWithFlag]§!) Modify §YBattle for Wessex§! by \nBreakthrough: §G+5.00%§!\n"
+ #
+ WES_kings_fair_tt:0 "(§Y[WES.GetNameWithFlag]§!) Modify §YDesperate Measures§! by \nProduction Efficiency Base: §G+10.0%§!\nFactory Output: §G+10.00%§!\n"
+ WES_ploughs_to_swords_tt:0 "(§Y[WES.GetNameWithFlag]§!) Modify §YDesperate Measures§! by \nCivilian to Military Factory conversion speed: §G-65.00%§!\n"
+ WES_concessions_to_gentry_tt:0 "(§Y[WES.GetNameWithFlag]§!) Modify §YDesperate Measures§! by \nConstruction Speed: §R-8.00%§!\n£lhl_efficiency_icon Production Efficiency growth: §G+10.00%§!\n" 
+ WES_the_last_quitrent_tt:0 "(§Y[WES.GetNameWithFlag]§!) Modify §YDesperate Measures§! by \n£lhl_efficiency_cap_icon Production Efficiency Cap: §G+15.00%§!\n" 
  #Substience Economy#
  ##RAILWAYS##
  WES_railway_bonus_1_tt:0 "(§Y[WES.GetNameWithFlag]§!) Modify §YAgrarian Economy§! by Resource Gain Efficiency: §G+10.00%§!"
@@ -1251,6 +1259,18 @@
  WES_decision_cost_legitimacy_150_blocked:0 "£lhl_legitimacy  §R150§!"
  WES_decision_cost_legitimacy_150_tooltip:0 "It costs £lhl_legitimacy  §Y150§! to take the decision"
  #
+ WES_decision_cost_legitimacy_5:0 "£lhl_legitimacy  §Y5§!"
+ WES_decision_cost_legitimacy_5_blocked:0 "£lhl_legitimacy  §R5§!"
+ WES_decision_cost_legitimacy_5_tooltip:0 "It costs £lhl_legitimacy  §Y5§! to take the decision"
+ #
+ WES_decision_cost_legitimacy_10:0 "£lhl_legitimacy  §Y10§!"
+ WES_decision_cost_legitimacy_10_blocked:0 "£lhl_legitimacy  §R10§!"
+ WES_decision_cost_legitimacy_10_tooltip:0 "It costs £lhl_legitimacy  §Y10§! to take the decision"
+ #
+ WES_decision_cost_legitimacy_15:0 "£lhl_legitimacy  §Y15§!"
+ WES_decision_cost_legitimacy_15_blocked:0 "£lhl_legitimacy  §R15§!"
+ WES_decision_cost_legitimacy_15_tooltip:0 "It costs £lhl_legitimacy  §Y15§! to take the decision"
+ #
  WES_decision_cost_legitimacy_30:0 "£lhl_legitimacy  §Y30§!"
  WES_decision_cost_legitimacy_30_blocked:0 "£lhl_legitimacy  §R30§!"
  WES_decision_cost_legitimacy_30_tooltip:0 "It costs £lhl_legitimacy  §Y30§! to take the decision"
@@ -1274,6 +1294,12 @@
  #
  WES_king_legitimacy:0 "The King's Legitimacy"
  WES_king_legitimacy_desc:0 "The first years of King George's rule have been rather underwhelming. The monarch has lost his country as well as the trust of the people - the apathetic subjects of Bristol government no longer have faith in the unification of the isles. If George VII wants his people to accomplish great feats, he needs to reclaim his legitimacy as the rightful king of Britannia.\n\nKing George's current legitimacy is £lhl_legitimacy §Y[?WES_george_legitimacy_level]§!\nWeekly legitimacy gain is £lhl_legitimacy §Y[?WES_george_legitimacy_gain|.1]§!\nKing George's legitimacy is [ROOT.GetWessexLegitimacy]"
+ ###
+ WES_sell_jewels:0 "Sell Crown Jewels"
+ WES_sell_car_fleet:0 "Sell Royal Car Fleet"
+ WES_sell_finances:0 "Spend Royal Finances"
+ WES_sell_highgrove_house:0 "Sell The Highgrove House"
+ WES_sell_duchy_of_cornwall:0 "Sell The Duchy of Cornwall"
  #
  WES_george_depression:0 "There is nothing I can do..."
  ###Knights of GEORGE###
