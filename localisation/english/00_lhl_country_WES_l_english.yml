@@ -117,6 +117,15 @@
  WES_desperate_measures:0 "Desperate Measures"
  WES_bureaucratic_chaos:0 "Bureaucratic Chaos"
  WES_worker_concessions:0 "Concessions to Workers"
+ WES_winter_of_our_discontent:0 "Winter of Our Discontent"
+ WES_winter_of_our_discontent_2:0 "Winter of Our Discontent"
+ WES_winter_of_our_discontent_3:0 "Winter of Our Discontent"
+ WES_winter_of_our_discontent_4_1:0 "Winter of Our Discontent"
+ WES_winter_of_our_discontent_4_2:0 "Winter of Our Discontent"
+ WES_sussex_defectors:0 "Sussex Defectors"
+ WES_a_commonwealth_of_hope:0 "A Commonwealth of Hope"
+ WES_all_for_one_tt:0 "§YThe Table Shall Reveal Itself§!"
+ WES_anti_vehicle_training:0 "Anti Vehicle Training"
  ##HIDDEN IDEAS##
  WES_neofolk:0 "Neofolk"
  
@@ -599,13 +608,13 @@
  WES_event.19.d:0 "Build Shit" 
  WES_event.19.a:0 "Build it, please!"
  #
- WES_event.20.t:0 "Nazbols burn!"
- WES_event.20.d:0 "We won!" 
- WES_event.20.a:0 "Victory is ours!"
+ WES_event.20.t:0 "Winter of Our Discontent"
+ WES_event.20.d:0 "Despite our best efforts the attack launched by Prince Harry left are devastated." 
+ WES_event.20.a:0 "This sucks"
  #
- WES_event.21.t:0 "The Germans flee!"
- WES_event.21.d:0 "We won!" 
- WES_event.21.a:0 "Victory is ours!"
+ WES_event.21.t:0 "A Call for Help"
+ WES_event.21.d:0 "Fucking help us please" 
+ WES_event.21.a:0 "But nobody came"
  #
  WES_event.22.t:0 "England is United and Free!"
  WES_event.22.d:0 "We won!" 
@@ -927,6 +936,8 @@
  WES_swamps_of_wessex_tt:0 "(§YEvery Advisor§!) Modify §YUntrustworthy§! by\nSurrender Limit: §G+3.00%§!\nWar Support: §G+3.00%§!"
  #
  WES_royal_purse_tt:0 "$unlocks_decision$ £decision_icon_small §H$WES_sell_jewels$§!\n$unlocks_decision$ £decision_icon_small §H$WES_sell_car_fleet$§!\n$unlocks_decision$ £decision_icon_small §H$WES_sell_finances$§!\n$unlocks_decision$ £decision_icon_small §H$WES_sell_highgrove_house$§!\n$unlocks_decision$ £decision_icon_small §H$WES_sell_duchy_of_cornwall$§!"
+ #
+ WES_home_awaits_tt:0 "$unlocks_decision$ £decision_icon_small §H$WES_sussex_defection_decision$§!"
  ##DESIGN_COMPANIES#
  bae_systems_weymouth:0 "BAE Systems Submarines Weymouth"
  ww_greener:0 "W.W. Greener"
@@ -1300,6 +1311,7 @@
  WES_sell_finances:0 "Spend Royal Finances"
  WES_sell_highgrove_house:0 "Sell The Highgrove House"
  WES_sell_duchy_of_cornwall:0 "Sell The Duchy of Cornwall"
+ WES_sussex_defection_decision:0 "Force a Defection in Sussex"
  #
  WES_george_depression:0 "There is nothing I can do..."
  ###Knights of GEORGE###

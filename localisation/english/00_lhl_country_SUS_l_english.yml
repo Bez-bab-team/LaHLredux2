@@ -1748,6 +1748,11 @@
  SUS_event.900.d:0 "In order to better suppress the enemy on the battlefield, we will focus more on the:"
  SUS_event.900.a:0 "Aviation."
  SUS_event.900.b:0 "Land Forces."
+ #
+ SUS_event.3001.t:0 "A Defection!"
+ SUS_event.3001.d:0 ""
+ SUS_event.3001.a:0 ""
+ #
  #MISC#
  SUS_witches_squadrons_tt:0 "The working women too shall fight for our country!\n\nThree brigades are deployed in Portsmouth."
  SUS_korean_present_tt:0 "\n\nWe will continue our constructive relationship with Korea in effort to defeat the treacherous regimes occupying England and beyond."

@@ -87,4 +87,20 @@ on_actions = {
 			}
 		}
 	}
+	on_declare_war = {
+		effect = {
+			if = {
+				limit = {
+					tag = SUS
+					FROM = { tag = WES }
+				}
+				WES = { 
+					country_event = { 
+						id = WES_event.20
+						days = 1 
+					}
+				}
+			}
+		}
+	}
 }

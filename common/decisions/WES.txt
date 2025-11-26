@@ -426,6 +426,35 @@ WES_king_legitimacy = {
 			factor = 100
 		}
 	}
+	 WES_sussex_defection_decision = {
+		custom_cost_trigger = {
+			check_variable = { WES_george_legitimacy_level > 9 }
+		}
+		available = {
+			WES = {
+				has_completed_focus = WES_home_awaits
+			}
+		}
+		visible = {
+			WES = {
+				has_completed_focus = WES_home_awaits
+			}
+		}
+		custom_cost_text = WES_decision_cost_legitimacy_10
+		complete_effect = {
+			add_to_variable = {
+				var = WES_george_legitimacy_level
+				value = -10
+			}			
+		}
+		remove_effect = {
+			SUS = { country_event = { id = SUS_event.3001 days = 1 } }
+		}
+		days_remove = 15
+		ai_will_do = {
+			factor = 100
+		}
+	}
 	##Diplomacy##
 	WES_contact_commonwealth = {
 		custom_cost_trigger = {

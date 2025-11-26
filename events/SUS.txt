@@ -6812,3 +6812,15 @@ country_event = { #SOCECON test
 		}
     }
 }
+
+###WESSEX DEFECTION###
+country_event = { 
+	id = SUS_event.3001
+	title = SUS_event.3001.t
+	desc = SUS_event.3001.d
+	hidden = yes
+    is_triggered_only = yes
+	option = {
+		name = SUS_event.3001.a
+    }
+}

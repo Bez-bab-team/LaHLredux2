@@ -592,8 +592,16 @@ shared_focus = {
 shared_focus = {
 	id = WES_all_for_one
 	icon = GFX_goal_WES_all_for_one
-	cost = 4.3
+	cost = 4.5
 	completion_reward = {
+		WES = {
+			swap_ideas = {
+				remove_idea = WES_winter_of_our_discontent
+				add_idea = WES_winter_of_our_discontent_2
+			}
+			 add_war_support = 0.1
+		}
+		custom_effect_tooltip = WES_all_for_one_tt
 	}
 	x = 32
 	y = 0
@@ -618,6 +626,12 @@ shared_focus = {
         focus = WES_all_for_one
 	}
 	completion_reward = {
+		WES = {
+			swap_ideas = {
+				remove_idea = WES_winter_of_our_discontent_2
+				add_idea = WES_winter_of_our_discontent_3
+			}
+		}
 	}
 	x = 33
 	y = 1
@@ -636,6 +650,48 @@ shared_focus = {
 	    focus = WES_raid_on_hastings
 	}
 	completion_reward = {
+		WES = {
+			swap_ideas = {
+				remove_idea = WES_winter_of_our_discontent_3
+				add_idea = WES_winter_of_our_discontent_4_1
+			}
+			1006 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = no
+						limit_to_border = no
+						limit_to_victory_point > 2
+					}
+				}
+			}
+			1161 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = no
+						limit_to_border = no
+						limit_to_victory_point > 2
+					}
+				}
+			}
+			1007 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = no
+						limit_to_border = no
+						limit_to_victory_point > 2
+					}
+				}
+			}
+		}
 	}
 	x = 31
 	y = 2
@@ -654,6 +710,37 @@ shared_focus = {
 	    focus = WES_provisional_forts
 	}
 	completion_reward = {
+		WES = {
+			swap_ideas = {
+				remove_idea = WES_winter_of_our_discontent_3
+				add_idea = WES_winter_of_our_discontent_4_2
+			}
+			division_template = {
+				name = "Marines"
+				division_names_group = WES_INF_01
+				is_locked = no
+				regiments = {
+					marine = { x = 0 y = 0 }
+					marine = { x = 0 y = 1 }
+					marine = { x = 0 y = 2 }
+					marine = { x = 0 y = 3 }
+				}
+			}
+			1006 = {
+				create_unit = {
+					division = "name = \"Marines I\" division_template = \"Marines\" start_experience_factor = 2.0 start_equipment_factor = 1.0"
+					owner = WES
+				}
+				create_unit = {
+					division = "name = \"Marines II\" division_template = \"Marines\" start_experience_factor = 2.0 start_equipment_factor = 1.0"
+					owner = WES
+				}
+				create_unit = {
+					division = "name = \"Marines III\" division_template = \"Marines\" start_experience_factor = 2.0 start_equipment_factor = 1.0"
+					owner = WES
+				}
+			}	
+		}
 	}
 	x = 33
 	y = 2
@@ -667,6 +754,10 @@ shared_focus = {
 		focus = WES_raid_on_hastings
 	}
 	completion_reward = {
+		WES = {
+			add_ideas = WES_sussex_defectors
+		}
+		custom_effect_tooltip = WES_home_awaits_tt
 	}
 	x = 30
 	y = 3
@@ -680,6 +771,13 @@ shared_focus = {
 		focus = WES_raid_on_hastings
 	}
 	completion_reward = {
+		WES = {
+			country_event = {
+				days = 0
+				id = WES_event.21
+			}
+			add_ideas = WES_a_commonwealth_of_hope
+		}
 	}
 	x = 32
 	y = 3
