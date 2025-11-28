@@ -1,6 +1,6 @@
 focus_tree = {
 	id = KNT_intro
-	default = yes
+	default = no
 	continuous_focus_position = { x = 20 y = 4000 }
         shared_focus = KNT_shaky_ground
 		shared_focus = KNT_radio_wild_geese
