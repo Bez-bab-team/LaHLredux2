@@ -1,0 +1,11 @@
+rule_group_leader_faction = {
+	rules = {
+		change_leader_rule_never
+	}
+}
+
+INFLUENCE_SORT = {
+	rules = {
+		change_leader_rule_influence
+	}
+}

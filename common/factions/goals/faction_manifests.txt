@@ -1,0 +1,21 @@
+faction_manifest_generic = {
+	name = strength_in_unity_goal_name
+	description = strength_in_unity_goal_desc
+	is_manifest = yes
+	ratio_progress = {
+		total_amount = 1000
+		completed_amount_collection = collection:faction_manifest_never
+		
+		scale = {
+		}
+		
+		progress_sections = {
+			manifest_fulfilled = {
+				min = 1000
+	
+				modifier = {
+				}
+			}
+		}
+	}
+}

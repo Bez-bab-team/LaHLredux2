@@ -1,0 +1,8 @@
+faction_template_generic = {
+	manifest = faction_manifest_generic
+	icon = GFX_generic_faction
+	visible = { always = no }
+	available = { always = no }
+	goals = {}
+	default_rules = { change_leader_rule_never }
+}
