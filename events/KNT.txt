@@ -786,16 +786,16 @@ country_event = {
 			popularity = -0.1
 		}
 		swap_ideas = {
-			remove_ideas = KNT_neovictorians_economic_plan_2
-			add_ideas = KNT_neovictorians_economic_plan_3a
+			remove_idea = KNT_neovictorians_economic_plan_2
+			add_idea = KNT_neovictorians_economic_plan_3a
 		}
     }
 		option = {
 		name = KNT_event.29.b
 		add_political_power = -20
-			swap_ideas = {
-			remove_ideas = KNT_neovictorians_economic_plan_2
-			add_ideas = KNT_neovictorians_economic_plan_3b
+		swap_ideas = {
+			remove_idea = KNT_neovictorians_economic_plan_2
+			add_idea = KNT_neovictorians_economic_plan_3b
 		}
     }
 }
@@ -1513,8 +1513,8 @@ country_event = {
 					clr_country_flag = KNT_culture_dead_flag
 				}
 				swap_ideas = {
-					remove_ideas = KNT_cultural_death
-					add_ideas = KNT_cultural_battered
+					remove_idea = KNT_cultural_death
+					add_idea = KNT_cultural_battered
 				}		
 			}
 			else_if = {
@@ -1530,8 +1530,8 @@ country_event = {
 					clr_country_flag = KNT_culture_battered_flag
 				}
 				swap_ideas = {
-					remove_ideas = KNT_cultural_battered
-					add_ideas = KNT_cultural_recovering
+					remove_idea = KNT_cultural_battered
+					add_idea = KNT_cultural_recovering
 				}
 			}
 			else_if = {
@@ -1547,8 +1547,8 @@ country_event = {
 					clr_country_flag = KNT_culture_recovering_flag
 				}
 				swap_ideas = {
-					remove_ideas = KNT_cultural_recovering
-					add_ideas = KNT_cultural_great
+					remove_idea = KNT_cultural_recovering
+					add_idea = KNT_cultural_great
 				}
 			}
 			else_if = {
@@ -1564,8 +1564,8 @@ country_event = {
 					clr_country_flag = KNT_culture_great_flag
 				}
 				swap_ideas = {
-					remove_ideas = KNT_cultural_great
-					add_ideas = KNT_cultural_soaring
+					remove_idea = KNT_cultural_great
+					add_idea = KNT_cultural_soaring
 				}
 			}
 			else_if = {
@@ -1581,8 +1581,8 @@ country_event = {
 					clr_country_flag = KNT_culture_soaring_flag
 				}
 				swap_ideas = {
-					remove_ideas = KNT_cultural_soaring
-					add_ideas = KNT_cultural_golden_age
+					remove_idea = KNT_cultural_soaring
+					add_idea = KNT_cultural_golden_age
 				}
 			}
 		}
@@ -1624,7 +1624,7 @@ country_event = {
 					clr_country_flag = KNT_culture_battered_flag
 				}
 				swap_ideas = {
-					remove_ideas = KNT_cultural_battered
+					remove_idea = KNT_cultural_battered
 					add_ideas = KNT_cultural_death
 				}		
 			}
@@ -1641,8 +1641,8 @@ country_event = {
 					clr_country_flag = KNT_culture_recovering_flag
 				}
 				swap_ideas = {
-					remove_ideas = KNT_cultural_recovering
-					add_ideas = KNT_cultural_battered
+					remove_idea = KNT_cultural_recovering
+					add_idea = KNT_cultural_battered
 				}
 			}
 			else_if = {
@@ -1658,8 +1658,8 @@ country_event = {
 					clr_country_flag = KNT_culture_great_flag
 				}
 				swap_ideas = {
-					remove_ideas = KNT_cultural_great
-					add_ideas = KNT_cultural_recovering
+					remove_idea = KNT_cultural_great
+					add_idea = KNT_cultural_recovering
 				}
 			}
 			else_if = {
@@ -1675,8 +1675,8 @@ country_event = {
 					clr_country_flag = KNT_culture_soaring_flag
 				}
 				swap_ideas = {
-					remove_ideas = KNT_cultural_soaring
-					add_ideas = KNT_cultural_great
+					remove_idea = KNT_cultural_soaring
+					add_idea = KNT_cultural_great
 				}
 			}
 			else_if = {
@@ -1692,8 +1692,8 @@ country_event = {
 					clr_country_flag = KNT_culture_golden_age_flag
 				}
 				swap_ideas = {
-					remove_ideas = KNT_cultural_golden_age
-					add_ideas = KNT_cultural_soaring
+					remove_idea = KNT_cultural_golden_age
+					add_idea = KNT_cultural_soaring
 				}
 			}
 		}
@@ -2998,8 +2998,8 @@ country_event = { #Coronation
 				id = KNT_event.118
 			}
 			swap_ideas = {
-				remove_ideas = lhl_regime_regency
-				add_ideas = lhl_regime_constitutional_monarchy
+				remove_idea = lhl_regime_regency
+				add_idea = lhl_regime_constitutional_monarchy
 			}
 		}
     }
@@ -3014,8 +3014,8 @@ country_event = { #Coronation
 				id = KNT_event.119
 			}
 			swap_ideas = {
-				remove_ideas = lhl_regime_regency
-				add_ideas = lhl_regime_constitutional_monarchy
+				remove_idea = lhl_regime_regency
+				add_idea = lhl_regime_constitutional_monarchy
 			}
 		}
     }
@@ -3030,8 +3030,8 @@ country_event = { #Coronation
 				id = KNT_event.120
 			}
 			swap_ideas = {
-				remove_ideas = lhl_regime_regency
-				add_ideas = lhl_regime_constitutional_monarchy
+				remove_idea = lhl_regime_regency
+				add_idea = lhl_regime_constitutional_monarchy
 			}
 		}
     }
@@ -3046,8 +3046,8 @@ country_event = { #Coronation
 				id = KNT_event.121
 			}
 			swap_ideas = {
-				remove_ideas = lhl_regime_regency
-				add_ideas = lhl_regime_constitutional_monarchy
+				remove_idea = lhl_regime_regency
+				add_idea = lhl_regime_constitutional_monarchy
 			}
 		}
     }
@@ -3062,8 +3062,8 @@ country_event = { #Coronation
 				id = KNT_event.122
 			}
 			swap_ideas = {
-				remove_ideas = lhl_regime_regency
-				add_ideas = lhl_regime_constitutional_monarchy
+				remove_idea = lhl_regime_regency
+				add_idea = lhl_regime_constitutional_monarchy
 			}
 		}
     }
@@ -3078,8 +3078,8 @@ country_event = { #Coronation
 				id = KNT_event.123
 			}
 			swap_ideas = {
-				remove_ideas = lhl_regime_regency
-				add_ideas = lhl_regime_constitutional_monarchy
+				remove_idea = lhl_regime_regency
+				add_idea = lhl_regime_constitutional_monarchy
 			}
 		}
     }
@@ -3094,8 +3094,8 @@ country_event = { #Coronation
 				id = KNT_event.124
 			}
 			swap_ideas = {
-				remove_ideas = lhl_regime_regency
-				add_ideas = lhl_regime_constitutional_monarchy
+				remove_idea = lhl_regime_regency
+				add_idea = lhl_regime_constitutional_monarchy
 			}
 		}
     }
@@ -3110,8 +3110,8 @@ country_event = { #Coronation
 				id = KNT_event.125
 			}
 			swap_ideas = {
-				remove_ideas = lhl_regime_regency
-				add_ideas = lhl_regime_constitutional_monarchy
+				remove_idea = lhl_regime_regency
+				add_idea = lhl_regime_constitutional_monarchy
 			}
 		}
     }
@@ -3332,8 +3332,8 @@ country_event = {
 		name = KNT_event.128.a
 		add_political_power = -50
 		swap_ideas = {
-			remove_ideas = KNT_freedom_of_expression_1
-			add_ideas = KNT_freedom_of_expression_2
+			remove_idea = KNT_freedom_of_expression_1
+			add_idea = KNT_freedom_of_expression_2
 		}
     }
 }

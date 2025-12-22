@@ -104,10 +104,14 @@ ESS_debug = {
 ESS_board_of_directors = {
 	ESS_interact_with_CEO = {
 		available = {
-			has_completed_focus = ESS_franchise_governance
+			ESS = {
+				has_completed_focus = ESS_franchise_governance
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_franchise_governance
+			ESS = {
+				has_completed_focus = ESS_franchise_governance
+			}
 		}
 		complete_effect = {
 			if = {
@@ -288,10 +292,14 @@ ESS_board_of_directors = {
 	###Interact With Piechart###
 	ESS_interact_with_corpo_TITLE = {
 		available = {
-			has_completed_focus = ESS_pound_restructurization
+			ESS = {
+				has_completed_focus = ESS_pound_restructurization
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_pound_restructurization
+			ESS = {
+				has_completed_focus = ESS_pound_restructurization
+			}
 		}
 		complete_effect = {
 			if = {
@@ -779,10 +787,14 @@ ESS_board_of_directors = {
 	###Interact With Military###
 	ESS_interact_with_military_TITLE = {
 		available = {
-			has_completed_focus = ESS_molded_mob
+			ESS = {
+				has_completed_focus = ESS_molded_mob
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_molded_mob
+			ESS = {											
+				has_completed_focus = ESS_molded_mob
+			}
 		}
 		complete_effect = {
 			if = {
@@ -810,12 +822,16 @@ ESS_board_of_directors = {
 	ESS_recruit_prisoners = { #Recruit Prisoners
 		cost = 75
 		available = {
-			has_completed_focus = ESS_blood_debt
-			has_country_flag = ESS_interact_with_military_active
+			ESS = {
+				has_completed_focus = ESS_blood_debt
+				has_country_flag = ESS_interact_with_military_active
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_blood_debt
-			has_country_flag = ESS_interact_with_military_active
+			ESS = {
+				has_completed_focus = ESS_blood_debt
+				has_country_flag = ESS_interact_with_military_active
+			}
 		}
 		days_remove = 180
 		days_re_enable = 220
@@ -879,12 +895,16 @@ ESS_board_of_directors = {
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_5
 		available = {
-			has_completed_focus = ESS_blood_debt
-			has_country_flag = ESS_interact_with_military_active
+			ESS = {													
+				has_completed_focus = ESS_blood_debt
+				has_country_flag = ESS_interact_with_military_active
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_blood_debt
-			has_country_flag = ESS_interact_with_military_active
+			ESS = {
+				has_completed_focus = ESS_blood_debt
+				has_country_flag = ESS_interact_with_military_active
+			}
 		}
 		days_remove = 180
 		days_re_enable = 220
@@ -948,12 +968,16 @@ ESS_board_of_directors = {
 		days_remove = 180
 		days_re_enable = 300
 		available = {
-			has_completed_focus = ESS_fund_british_armories
-			has_country_flag = ESS_interact_with_military_active
+			ESS = {
+				has_completed_focus = ESS_fund_british_armories
+				has_country_flag = ESS_interact_with_military_active
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_fund_british_armories
-			has_country_flag = ESS_interact_with_military_active
+			ESS = {
+				has_completed_focus = ESS_fund_british_armories
+				has_country_flag = ESS_interact_with_military_active
+			}
 		}
 		remove_effect = {
 			ESS = {
@@ -974,12 +998,16 @@ ESS_board_of_directors = {
 		days_remove = 180
 		days_re_enable = 300
 		available = {
-			has_completed_focus = ESS_fund_british_armories
-			has_country_flag = ESS_interact_with_military_active
+			ESS = {
+				has_completed_focus = ESS_fund_british_armories
+				has_country_flag = ESS_interact_with_military_active
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_fund_british_armories
-			has_country_flag = ESS_interact_with_military_active
+			ESS = {
+				has_completed_focus = ESS_fund_british_armories
+				has_country_flag = ESS_interact_with_military_active
+			}
 		}
 		remove_effect = {
 			add_to_variable = { ESS_corpo_state_army_org_factor_BUFF = 0.02 }
@@ -1015,12 +1043,16 @@ ESS_board_of_directors = {
 		days_remove = 30
 		days_re_enable = 60
 		available = {
-			has_completed_focus = ESS_rifle_by_your_side
-			has_country_flag = ESS_interact_with_military_active
+			ESS = {
+				has_completed_focus = ESS_rifle_by_your_side
+				has_country_flag = ESS_interact_with_military_active
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_rifle_by_your_side
-			has_country_flag = ESS_interact_with_military_active
+			ESS = {
+				has_completed_focus = ESS_rifle_by_your_side
+				has_country_flag = ESS_interact_with_military_active
+			}
 		}
 		remove_effect = {
 			FROM = {
@@ -1049,12 +1081,16 @@ ESS_board_of_directors = {
 		days_remove = 180
 		days_re_enable = 365
 		available = {
-			has_completed_focus = ESS_virtual_drills
-			has_country_flag = ESS_interact_with_military_active
+			ESS = {															
+				has_completed_focus = ESS_virtual_drills
+				has_country_flag = ESS_interact_with_military_active
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_virtual_drills
-			has_country_flag = ESS_interact_with_military_active
+			ESS = {
+				has_completed_focus = ESS_virtual_drills
+				has_country_flag = ESS_interact_with_military_active
+			}
 		}
 		complete_effect = {
 			hidden_effect = {
@@ -1107,10 +1143,14 @@ ESS_board_of_directors = {
 	##INTERACT WITH ECONOMY##
 	ESS_construction_projects = {
 		available = {
-			has_completed_focus = ESS_clean_the_metropolis
+			ESS = {
+				has_completed_focus = ESS_clean_the_metropolis
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_clean_the_metropolis
+			ESS = {
+				has_completed_focus = ESS_clean_the_metropolis
+			}
 		}
 		complete_effect = {
 			if = {
@@ -1141,12 +1181,16 @@ ESS_board_of_directors = {
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_15
 		available = {
-			has_completed_focus = ESS_clean_the_metropolis
-			has_country_flag = ESS_interact_with_construction_active
+			ESS = {
+				has_completed_focus = ESS_clean_the_metropolis
+				has_country_flag = ESS_interact_with_construction_active
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_clean_the_metropolis
-			has_country_flag = ESS_interact_with_construction_active
+			ESS = {
+				has_completed_focus = ESS_clean_the_metropolis
+				has_country_flag = ESS_interact_with_construction_active
+			}
 		}
 		fire_only_once = yes
 		days_remove = 120
@@ -1182,12 +1226,16 @@ ESS_board_of_directors = {
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_10
 		available = {
-			has_completed_focus = ESS_clean_the_metropolis
-			has_country_flag = ESS_interact_with_construction_active
+			ESS = {
+				has_completed_focus = ESS_clean_the_metropolis
+				has_country_flag = ESS_interact_with_construction_active
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_clean_the_metropolis
-			has_country_flag = ESS_interact_with_construction_active
+			ESS = {
+				has_completed_focus = ESS_clean_the_metropolis
+				has_country_flag = ESS_interact_with_construction_active
+			}
 		}
 		fire_only_once = yes
 		days_remove = 120
@@ -1238,12 +1286,16 @@ ESS_board_of_directors = {
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_10
 		available = {
-			has_completed_focus = ESS_clean_the_metropolis
-			has_country_flag = ESS_interact_with_construction_active
+			ESS = {
+				has_completed_focus = ESS_clean_the_metropolis
+				has_country_flag = ESS_interact_with_construction_active
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_clean_the_metropolis
-			has_country_flag = ESS_interact_with_construction_active
+			ESS = {
+				has_completed_focus = ESS_clean_the_metropolis
+				has_country_flag = ESS_interact_with_construction_active
+			}
 		}
 		fire_only_once = yes
 		days_remove = 120
@@ -1302,12 +1354,16 @@ ESS_board_of_directors = {
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_5
 		available = {
-			has_completed_focus = ESS_clean_the_metropolis
-			has_country_flag = ESS_interact_with_construction_active
+			ESS = {
+				has_completed_focus = ESS_clean_the_metropolis
+				has_country_flag = ESS_interact_with_construction_active
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_clean_the_metropolis
-			has_country_flag = ESS_interact_with_construction_active
+			ESS = {
+				has_completed_focus = ESS_clean_the_metropolis
+				has_country_flag = ESS_interact_with_construction_active
+			}
 		}
 		fire_only_once = yes
 		days_remove = 60
@@ -1336,12 +1392,16 @@ ESS_board_of_directors = {
 		}
 		custom_cost_text = ESS_CITY_BUDGET_MANPOWER
 		available = {
-			has_completed_focus = ESS_clean_the_metropolis
-			has_country_flag = ESS_interact_with_construction_active
+			ESS = {
+				has_completed_focus = ESS_clean_the_metropolis
+				has_country_flag = ESS_interact_with_construction_active
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_clean_the_metropolis
-			has_country_flag = ESS_interact_with_construction_active
+			ESS = {
+				has_completed_focus = ESS_clean_the_metropolis
+				has_country_flag = ESS_interact_with_construction_active
+			}
 		}
 		fire_only_once = yes
 		days_remove = 180
@@ -1381,12 +1441,16 @@ ESS_board_of_directors = {
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_5
 		available = {
-			has_completed_focus = ESS_british_silicon_fleet
-			has_country_flag = ESS_interact_with_construction_active
+			ESS = {
+				has_completed_focus = ESS_british_silicon_fleet
+				has_country_flag = ESS_interact_with_construction_active
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_british_silicon_fleet
-			has_country_flag = ESS_interact_with_construction_active
+			ESS = {
+				has_completed_focus = ESS_british_silicon_fleet
+				has_country_flag = ESS_interact_with_construction_active
+			}
 		}
 		fire_only_once = yes
 		days_remove = 60
@@ -1416,12 +1480,16 @@ ESS_board_of_directors = {
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_10
 		available = {
-			has_completed_focus = ESS_british_silicon_fleet
-			has_country_flag = ESS_interact_with_construction_active
+			ESS = {																		
+				has_completed_focus = ESS_british_silicon_fleet
+				has_country_flag = ESS_interact_with_constructi	
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_british_silicon_fleet
-			has_country_flag = ESS_interact_with_construction_active
+			ESS = {	
+				has_completed_focus = ESS_british_silicon_fleet
+				has_country_flag = ESS_interact_with_construction_active
+			}
 		}
 		fire_only_once = yes
 		days_remove = 120
@@ -1502,12 +1570,16 @@ ESS_board_of_directors = {
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_15
 		available = {
-			has_completed_focus = ESS_prison_industrial_complex
-			has_country_flag = ESS_interact_with_construction_active
+			ESS = {
+				has_completed_focus = ESS_prison_industrial_complex
+				has_country_flag = ESS_interact_with_construction_active
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_prison_industrial_complex
-			has_country_flag = ESS_interact_with_construction_active
+			ESS = {
+				has_completed_focus = ESS_prison_industrial_complex
+				has_country_flag = ESS_interact_with_construction_active
+			}	
 		}
 		fire_only_once = yes
 		days_remove = 180
@@ -1531,12 +1603,16 @@ ESS_board_of_directors = {
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_8
 		available = {
-			has_completed_focus = ESS_answer_their_needs
-			has_country_flag = ESS_interact_with_construction_active
+			ESS = {
+				has_completed_focus = ESS_answer_their_needs
+				has_country_flag = ESS_interact_with_construction_active
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_answer_their_needs
-			has_country_flag = ESS_interact_with_construction_active
+			ESS = {
+				has_completed_focus = ESS_answer_their_needs
+				has_country_flag = ESS_interact_with_construction_active
+			}
 		}
 		fire_only_once = yes
 		days_remove = 180
@@ -1549,10 +1625,14 @@ ESS_board_of_directors = {
 	#Software#
 	ESS_interact_with_software_TITLE = {
 		available = {
-			has_completed_focus = ESS_software_exports
+			ESS = {
+				has_completed_focus = ESS_software_exports
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_software_exports
+			ESS = {
+				has_completed_focus = ESS_software_exports
+			}
 		}
 		complete_effect = {
 			if = {
@@ -1583,12 +1663,16 @@ ESS_board_of_directors = {
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_100
 		available = {
-			has_completed_focus = ESS_software_exports
-			has_country_flag = ESS_interact_with_software_active
+			ESS = {
+				has_completed_focus = ESS_software_exports
+				has_country_flag = ESS_interact_with_software_active
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_software_exports
-			has_country_flag = ESS_interact_with_software_active
+			ESS = {
+				has_completed_focus = ESS_software_exports
+				has_country_flag = ESS_interact_with_software_active
+			}
 		}
 		fire_only_once = yes
 		days_remove = 540
@@ -1612,12 +1696,16 @@ ESS_board_of_directors = {
 	ESS_sell_software_abroad = {
 		cost = 100
 		available = {
-			has_completed_focus = ESS_software_exports
-			has_country_flag = ESS_interact_with_software_active
+			ESS = {
+				has_completed_focus = ESS_software_exports
+				has_country_flag = ESS_interact_with_software_active
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_software_exports
-			has_country_flag = ESS_interact_with_software_active
+			ESS = {
+				has_completed_focus = ESS_software_exports
+				has_country_flag = ESS_interact_with_software_active
+			}
 		}
 		targets_dynamic = yes
 		target_trigger = {
@@ -1639,10 +1727,14 @@ ESS_board_of_directors = {
 	#Culture#
 	ESS_interact_with_culture_TITLE = {
 		available = {
-			has_completed_focus = ESS_simpler_society
+			ESS = {
+				has_completed_focus = ESS_simpler_society
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_simpler_society
+			ESS = {
+				has_completed_focus = ESS_simpler_society
+			}
 		}
 		complete_effect = {
 			if = {
@@ -1673,12 +1765,16 @@ ESS_board_of_directors = {
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_8
 		available = {
-			has_completed_focus = ESS_market_of_ideas
-			has_country_flag = ESS_interact_with_culture_active
+			ESS = {
+				has_completed_focus = ESS_market_of_ideas
+				has_country_flag = ESS_interact_with_culture_active
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_market_of_ideas
-			has_country_flag = ESS_interact_with_culture_active
+			ESS = {	
+				has_completed_focus = ESS_market_of_ideas
+				has_country_flag = ESS_interact_with_culture_active
+			}
 		}
 		days_remove = 90
 		days_re_enable = 200
@@ -1702,12 +1798,16 @@ ESS_board_of_directors = {
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_5
 		available = {
-			has_completed_focus = ESS_the_resarthus
-			has_country_flag = ESS_interact_with_culture_active
+			ESS = {
+				has_completed_focus = ESS_the_resarthus
+				has_country_flag = ESS_interact_with_culture_active
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_the_resarthus
-			has_country_flag = ESS_interact_with_culture_active
+			ESS = {				
+				has_completed_focus = ESS_the_resarthus
+				has_country_flag = ESS_interact_with_culture_active
+			}
 		}
 		days_remove = 60
 		days_re_enable = 120
@@ -1731,12 +1831,16 @@ ESS_board_of_directors = {
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_5
 		available = {
-			has_completed_focus = ESS_the_resarthus
-			has_country_flag = ESS_interact_with_culture_active
+			ESS = {
+				has_completed_focus = ESS_the_resarthus
+				has_country_flag = ESS_interact_with_culture_active
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_the_resarthus
-			has_country_flag = ESS_interact_with_culture_active
+			ESS = {
+				has_completed_focus = ESS_the_resarthus
+				has_country_flag = ESS_interact_with_culture_active
+			}
 		}
 		days_remove = 60
 		days_re_enable = 120
@@ -1761,12 +1865,16 @@ ESS_board_of_directors = {
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_5
 		available = {
-			has_completed_focus = ESS_rules_for_reactionaries
-			has_country_flag = ESS_interact_with_culture_active
+			ESS = {
+				has_completed_focus = ESS_rules_for_reactionaries
+				has_country_flag = ESS_interact_with_culture_active
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_rules_for_reactionaries
-			has_country_flag = ESS_interact_with_culture_active
+			ESS = {
+				has_completed_focus = ESS_rules_for_reactionaries
+				has_country_flag = ESS_interact_with_culture_active
+			}
 		}
 		days_remove = 90
 		days_re_enable = 180
@@ -1802,12 +1910,16 @@ ESS_board_of_directors = {
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_5
 		available = {
-			has_completed_focus = ESS_rules_for_reactionaries
-			has_country_flag = ESS_interact_with_culture_active
+			ESS = {
+				has_completed_focus = ESS_rules_for_reactionaries
+				has_country_flag = ESS_interact_with_culture_active
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_rules_for_reactionaries
-			has_country_flag = ESS_interact_with_culture_active
+			ESS = {	
+				has_completed_focus = ESS_rules_for_reactionaries
+				has_country_flag = ESS_interact_with_culture_active
+			}
 		}
 		days_remove = 90
 		days_re_enable = 180
@@ -1843,12 +1955,16 @@ ESS_board_of_directors = {
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_5
 		available = {
-			has_completed_focus = ESS_rules_for_reactionaries
-			has_country_flag = ESS_interact_with_culture_active
+			ESS = {
+				has_completed_focus = ESS_rules_for_reactionaries
+				has_country_flag = ESS_interact_with_culture_active
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_rules_for_reactionaries
-			has_country_flag = ESS_interact_with_culture_active
+			ESS = {
+				has_completed_focus = ESS_rules_for_reactionaries
+				has_country_flag = ESS_interact_with_culture_active
+			}
 		}
 		days_remove = 90
 		days_re_enable = 180
@@ -1889,12 +2005,16 @@ ESS_board_of_directors = {
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_5
 		available = {
-			has_completed_focus = ESS_rules_for_reactionaries
-			has_country_flag = ESS_interact_with_culture_active
+			ESS = {
+				has_completed_focus = ESS_rules_for_reactionaries
+				has_country_flag = ESS_interact_with_culture_active
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_rules_for_reactionaries
-			has_country_flag = ESS_interact_with_culture_active
+			ESS = {
+				has_completed_focus = ESS_rules_for_reactionaries
+				has_country_flag = ESS_interact_with_culture_active
+			}
 		}
 		days_remove = 90
 		days_re_enable = 180
@@ -1927,10 +2047,14 @@ ESS_board_of_directors = {
 	#Clive Palmer#
 	ESS_clive_palmer_actions_TITLE = {
 		available = {
-			has_completed_focus = ESS_clive_palmer_leader
+			ESS = {
+				has_completed_focus = ESS_clive_palmer_leader
+			}
 		}
 		visible = {
-			has_completed_focus = ESS_clive_palmer_leader
+			ESS = {
+				has_completed_focus = ESS_clive_palmer_leader
+			}
 		}
 		complete_effect = {
 			if = {
@@ -1961,15 +2085,17 @@ ESS_board_of_directors = {
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_8
 		available = {
-			has_completed_focus = ESS_revitalize_mining_industry
-			has_country_flag = ESS_interact_with_clive_palmer_active
 			ESS = {
 				controls_state = 999
+				has_completed_focus = ESS_revitalize_mining_industry
+				has_country_flag = ESS_interact_with_clive_palmer_active
 			}
 		}
 		visible = {
-			has_completed_focus = ESS_revitalize_mining_industry
-			has_country_flag = ESS_interact_with_clive_palmer_active
+			ESS = {
+				has_completed_focus = ESS_revitalize_mining_industry
+				has_country_flag = ESS_interact_with_clive_palmer_active
+			}
 		}
 		days_remove = 100
 		fire_only_once = yes
@@ -1998,17 +2124,19 @@ ESS_board_of_directors = {
 		}
 		custom_cost_text = ESS_CITY_BUDGET_COST_10
 		available = {
-			has_completed_focus = ESS_revitalize_mining_industry
-			has_country_flag = ESS_interact_with_clive_palmer_active
 			ESS = {
 				controls_state = 1009
 				controls_state = 1011
 				controls_state = 1010
+				has_completed_focus = ESS_revitalize_mining_industry
+				has_country_flag = ESS_interact_with_clive_palmer_active
 			}
 		}
 		visible = {
-			has_completed_focus = ESS_revitalize_mining_industry
-			has_country_flag = ESS_interact_with_clive_palmer_active
+			ESS = {
+				has_completed_focus = ESS_revitalize_mining_industry
+				has_country_flag = ESS_interact_with_clive_palmer_active
+			}
 		}
 		days_remove = 100
 		fire_only_once = yes
@@ -2075,7 +2203,9 @@ ESS_london_bands = {
 			stability_weekly = -0.01
 		}
 		visible = {
-			has_country_flag = lhl_london_bands_central_region_open
+			ESS = {
+				has_country_flag = lhl_london_bands_central_region_open
+			}
 		}
 		ai_will_do = {
 			factor = 100
@@ -2101,14 +2231,16 @@ ESS_london_bands = {
 		}
 		available = {
 			check_variable = {
-					var = ESS_central_region_loyalty
-					value > 10
-					compare = greater_than_or_equals
+				var = ESS_central_region_loyalty
+				value > 10
+				compare = greater_than_or_equals
 			}
 		}
 		visible = {
-			has_completed_focus = ESS_greater_gangs_of_london
-			has_country_flag = lhl_london_bands_central_region_open
+			ESS = {
+				has_completed_focus = ESS_greater_gangs_of_london
+				has_country_flag = lhl_london_bands_central_region_open
+			}
 		}
 		ai_will_do = {
 			factor = 100
@@ -2139,14 +2271,16 @@ ESS_london_bands = {
 		}
 		available = {
 			check_variable = {
-					var = ESS_central_region_loyalty
-					value > 10
-					compare = greater_than_or_equals
+				var = ESS_central_region_loyalty
+				value > 10
+				compare = greater_than_or_equals
 			}
 		}
 		visible = {
-			has_completed_focus = ESS_greater_gangs_of_london
-			has_country_flag = lhl_london_bands_central_region_open
+			ESS = {
+				has_completed_focus = ESS_greater_gangs_of_london
+				has_country_flag = lhl_london_bands_central_region_open
+			}
 		}
 		ai_will_do = {
 			factor = 100
@@ -2174,14 +2308,16 @@ ESS_london_bands = {
 		}
 		available = {
 			check_variable = {
-					var = ESS_central_region_loyalty
-					value > 10
-					compare = greater_than_or_equals
+				var = ESS_central_region_loyalty
+				value > 10
+				compare = greater_than_or_equals
 			}
 		}
 		visible = {
-			has_completed_focus = ESS_greater_gangs_of_london
-			has_country_flag = lhl_london_bands_central_region_open
+			ESS = {
+				has_completed_focus = ESS_greater_gangs_of_london
+				has_country_flag = lhl_london_bands_central_region_open
+			}
 		}
 		ai_will_do = {
 			factor = 100
@@ -2230,14 +2366,16 @@ ESS_london_bands = {
 		}
 		available = {
 			check_variable = {
-					var = ESS_south_west_region_loyalty
-					value > 10
-					compare = greater_than_or_equals
+				var = ESS_south_west_region_loyalty
+				value > 10
+				compare = greater_than_or_equals
 			}
 		}
 		visible = {
-			has_completed_focus = ESS_greater_gangs_of_london
-			has_country_flag = lhl_london_bands_south_west_region_open
+			ESS = {
+				has_completed_focus = ESS_greater_gangs_of_london
+				has_country_flag = lhl_london_bands_south_west_region_open
+			}
 		}
 		ai_will_do = {
 			factor = 100
@@ -2263,14 +2401,16 @@ ESS_london_bands = {
 		}	
 		available = {
 			check_variable = {
-					var = ESS_south_west_region_loyalty
-					value > 10
-					compare = greater_than_or_equals
+				var = ESS_south_west_region_loyalty
+				value > 10
+				compare = greater_than_or_equals
 			}
 		}
 		visible = {
-			has_completed_focus = ESS_greater_gangs_of_london
-			has_country_flag = lhl_london_bands_south_west_region_open
+			ESS = {
+				has_completed_focus = ESS_greater_gangs_of_london
+				has_country_flag = lhl_london_bands_south_west_region_open
+			}
 		}
 		ai_will_do = {
 			factor = 100
@@ -2280,8 +2420,7 @@ ESS_london_bands = {
 	ESS_dwarf_factories = {
 		cost = 40
 		days_remove = 120
-		remove_effect = {
-			
+		remove_effect = {		
 			ESS = {
 				add_offsite_building = { type = arms_factory level = -1 }
 			}
@@ -2299,14 +2438,16 @@ ESS_london_bands = {
 		}
 		available = {
 			check_variable = {
-					var = ESS_south_west_region_loyalty
-					value > 20
-					compare = greater_than_or_equals
+				var = ESS_south_west_region_loyalty
+				value > 20
+				compare = greater_than_or_equals
 			}
 		}
 		visible = {
-			has_completed_focus = ESS_greater_gangs_of_london
-			has_country_flag = lhl_london_bands_south_west_region_open
+			ESS = {
+				has_completed_focus = ESS_greater_gangs_of_london
+				has_country_flag = lhl_london_bands_south_west_region_open
+			}
 		}
 		ai_will_do = {
 			factor = 100
@@ -2329,7 +2470,9 @@ ESS_london_bands = {
 			stability_weekly = -0.01
 		}
 		visible = {
-			has_country_flag = lhl_london_bands_south_east_region_open
+			ESS = {
+				has_country_flag = lhl_london_bands_south_east_region_open
+			}
 		}
 		ai_will_do = {
 			factor = 100
@@ -2355,14 +2498,16 @@ ESS_london_bands = {
 		}	
 		available = {
 			check_variable = {
-					var = ESS_south_east_region_loyalty
-					value > 10
-					compare = greater_than_or_equals
+				var = ESS_south_east_region_loyalty
+				value > 10
+				compare = greater_than_or_equals
 			}
 		}
 		visible = {
-			has_completed_focus = ESS_greater_gangs_of_london
-			has_country_flag = lhl_london_bands_south_east_region_open
+			ESS = {
+				has_completed_focus = ESS_greater_gangs_of_london
+				has_country_flag = lhl_london_bands_south_east_region_open
+			}
 		}
 		ai_will_do = {
 			factor = 100
@@ -2385,14 +2530,16 @@ ESS_london_bands = {
 		}	
 		available = {
 			check_variable = {
-					var = ESS_south_east_region_loyalty
-					value > 10
-					compare = greater_than_or_equals
+				var = ESS_south_east_region_loyalty
+				value > 10
+				compare = greater_than_or_equals
 			}
 		}
 		visible = {
-			has_completed_focus = ESS_greater_gangs_of_london
-			has_country_flag = lhl_london_bands_south_east_region_open
+			ESS = {
+				has_completed_focus = ESS_greater_gangs_of_london
+				has_country_flag = lhl_london_bands_south_east_region_open
+			}
 		}
 		ai_will_do = {
 			factor = 100
@@ -2415,7 +2562,9 @@ ESS_london_bands = {
 			stability_weekly = -0.01
 		}
 		visible = {
-			has_country_flag = lhl_london_bands_north_west_region_open
+			ESS = {
+				has_country_flag = lhl_london_bands_north_west_region_open
+			}
 		}
 		ai_will_do = {
 			factor = 100
@@ -2444,14 +2593,16 @@ ESS_london_bands = {
 		}	
 		available = {
 			check_variable = {
-					var = ESS_north_west_region_loyalty
-					value > 10
-					compare = greater_than_or_equals
+				var = ESS_north_west_region_loyalty
+				value > 10
+				compare = greater_than_or_equals
 			}
 		}
 		visible = {
-			has_completed_focus = ESS_greater_gangs_of_london
-			has_country_flag = lhl_london_bands_north_west_region_open
+			ESS = {
+				has_completed_focus = ESS_greater_gangs_of_london
+				has_country_flag = lhl_london_bands_north_west_region_open
+			}
 		}
 		ai_will_do = {
 			factor = 100
@@ -2478,14 +2629,16 @@ ESS_london_bands = {
 		}	
 		available = {
 			check_variable = {
-					var = ESS_north_west_region_loyalty
-					value > 10
-					compare = greater_than_or_equals
+				var = ESS_north_west_region_loyalty
+				value > 10
+				compare = greater_than_or_equals
 			}
 		}
 		visible = {
-			has_completed_focus = ESS_greater_gangs_of_london
-			has_country_flag = lhl_london_bands_north_west_region_open
+			ESS = {
+				has_completed_focus = ESS_greater_gangs_of_london
+				has_country_flag = lhl_london_bands_north_west_region_open
+			}
 		}
 		ai_will_do = {
 			factor = 100
@@ -2508,7 +2661,9 @@ ESS_london_bands = {
 			stability_weekly = -0.01
 		}
 		visible = {
-			has_country_flag = lhl_london_bands_north_east_region_open
+			ESS = {
+				has_country_flag = lhl_london_bands_north_east_region_open
+			}
 		}
 		ai_will_do = {
 			factor = 100
@@ -2531,14 +2686,16 @@ ESS_london_bands = {
 		}	
 		available = {
 			check_variable = {
-					var = ESS_north_west_region_loyalty
-					value > 10
-					compare = greater_than_or_equals
+				var = ESS_north_west_region_loyalty
+				value > 10
+				compare = greater_than_or_equals
 			}
 		}
 		visible = {
-			has_completed_focus = ESS_greater_gangs_of_london
-			has_country_flag = lhl_london_bands_north_east_region_open
+			ESS = {
+				has_completed_focus = ESS_greater_gangs_of_london
+				has_country_flag = lhl_london_bands_north_east_region_open
+			}
 		}
 		ai_will_do = {
 			factor = 100

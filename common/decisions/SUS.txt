@@ -11995,7 +11995,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 2
+		     num_of_civilian_factories_available_for_projects > 2
 	    }
 		days_remove = 25
 		modifier = {
@@ -12015,7 +12015,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 2
+		     num_of_civilian_factories_available_for_projects > 2
 	    }
 		days_remove = 25
 		modifier = {
@@ -12035,7 +12035,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available= {
-		     num_of_civilian_factories_for_projects > 2
+		     num_of_civilian_factories_available_for_projects > 2
 	    }
 		days_remove = 25
 		modifier = {
@@ -12055,7 +12055,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 2
+		     num_of_civilian_factories_available_for_projects > 2
 	    }
 		days_remove = 25
 		modifier = {
@@ -12103,7 +12103,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 3
+		     num_of_civilian_factories_available_for_projects > 3
 	    }
 		days_remove = 25
 		modifier = {
@@ -12123,7 +12123,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 3
+		     num_of_civilian_factories_available_for_projects > 3
 	    }
 		days_remove = 25
 		modifier = {
@@ -12143,7 +12143,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 3
+		     num_of_civilian_factories_available_for_projects > 3
 	    }
 		days_remove = 25
 		modifier = {
@@ -12163,7 +12163,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 3
+		     num_of_civilian_factories_available_for_projects > 3
 	    }
 		days_remove = 25
 		modifier = {
@@ -12207,7 +12207,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 2
+		     num_of_civilian_factories_available_for_projects > 2
 	    }
 		days_remove = 25
 		modifier = {
@@ -12226,7 +12226,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 2
+		     num_of_civilian_factories_available_for_projects > 2
 	    }
 		days_remove = 25
 		modifier = {
@@ -12245,7 +12245,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 2
+		     num_of_civilian_factories_available_for_projects > 2
 	    }
 		days_remove = 25
 		modifier = {
@@ -12264,7 +12264,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 2
+		     num_of_civilian_factories_available_for_projects > 2
 	    }
 		days_remove = 25
 		modifier = {
@@ -12308,7 +12308,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 2
+		     num_of_civilian_factories_available_for_projects > 2
 	    }
 		days_remove = 25
 		modifier = {
@@ -12328,7 +12328,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 2
+		     num_of_civilian_factories_available_for_projects > 2
 	    }
 		days_remove = 25
 		modifier = {
@@ -12348,7 +12348,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 2
+		     num_of_civilian_factories_available_for_projects > 2
 	    }
 		days_remove = 25
 		modifier = {
@@ -12368,7 +12368,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 2
+		     num_of_civilian_factories_available_for_projects > 2
 	    }
 		days_remove = 25
 		modifier = {
@@ -12441,7 +12441,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 2
+		     num_of_civilian_factories_available_for_projects > 2
 	    }
 		days_remove = 40
 		modifier = {
@@ -12461,7 +12461,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 2
+		     num_of_civilian_factories_available_for_projects > 2
 	    }
 		days_remove = 40
 		modifier = {
@@ -12481,7 +12481,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 2
+		     num_of_civilian_factories_available_for_projects > 2
 	    }
 		days_remove = 40
 		modifier = {
@@ -12501,7 +12501,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 2
+		     num_of_civilian_factories_available_for_projects > 2
 	    }
 		days_remove = 40
 		modifier = {
@@ -12653,7 +12653,7 @@ SUS_king_prestige_game = {
 			has_country_flag = SUS_ships_by_ourselves
 		}
 		available = {
-		     num_of_civilian_factories_for_projects > 2
+		     num_of_civilian_factories_available_for_projects > 2
 	    }
 		days_remove = 25
 		modifier = {
@@ -12742,7 +12742,7 @@ SUS_king_prestige_game = {
 			has_country_flag = SUS_reconstruct_space_program
 		}
 		available = {
-		    num_of_civilian_factories_for_projects > 2
+		    num_of_civilian_factories_available_for_projects > 2
 	    }
 		fire_only_once = yes
 		modifier = {
@@ -13029,7 +13029,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 2
+		     num_of_civilian_factories_available_for_projects > 2
 	    }
 		days_remove = 50
 		modifier = {
@@ -13049,7 +13049,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 2
+		     num_of_civilian_factories_available_for_projects > 2
 	    }
 		days_remove = 50
 		modifier = {
@@ -13069,7 +13069,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 2
+		     num_of_civilian_factories_available_for_projects > 2
 	    }
 		days_remove = 50
 		modifier = {
@@ -13089,7 +13089,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 2
+		     num_of_civilian_factories_available_for_projects > 2
 	    }
 		days_remove = 50
 		modifier = {
@@ -13133,7 +13133,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 3
+		     num_of_civilian_factories_available_for_projects > 3
 	    }
 		days_remove = 90
 		modifier = {
@@ -13153,7 +13153,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 3
+		     num_of_civilian_factories_available_for_projects > 3
 	    }
 		days_remove = 90
 		modifier = {
@@ -13173,7 +13173,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 3
+		     num_of_civilian_factories_available_for_projects > 3
 	    }
 		days_remove = 90
 		modifier = {
@@ -13193,7 +13193,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 3
+		     num_of_civilian_factories_available_for_projects > 3
 	    }
 		days_remove = 90
 		modifier = {
@@ -13237,7 +13237,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 5
+		     num_of_civilian_factories_available_for_projects > 5
 	    }
 		days_remove = 120
 		modifier = {
@@ -13257,7 +13257,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 5
+		     num_of_civilian_factories_available_for_projects > 5
 	    }
 		days_remove = 120
 		modifier = {
@@ -13277,7 +13277,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 5
+		     num_of_civilian_factories_available_for_projects > 5
 	    }
 		days_remove = 120
 		modifier = {
@@ -13297,7 +13297,7 @@ SUS_king_prestige_game = {
 		}
 		fire_only_once = yes
 		available = {
-		     num_of_civilian_factories_for_projects > 5
+		     num_of_civilian_factories_available_for_projects > 5
 	    }
 		days_remove = 120
 		modifier = {
