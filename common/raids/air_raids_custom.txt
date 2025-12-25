@@ -1,6 +1,5 @@
 types = {
 
-	
 
 	ALL_thatcher_statue_bombing = {
 
@@ -228,7 +227,6 @@ types = {
 					}
 
 					
-					}
 				}
 				visual_effect = {
 					entity = "air_raids_2_critical_success_entity"

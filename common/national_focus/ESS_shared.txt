@@ -5374,21 +5374,21 @@
 				}
 				1160 = {
 					create_unit = {
-						division = "name = \"Division 09314\" division_template = \"PMC "Public Forces"\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+						division = "name = \"Division 09314\" division_template = \"PMC 'Public Forces'\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
 						allow_spawning_on_enemy_provs = yes
 						owner = ROOT
 					}
 				}
 				1160 = {
 					create_unit = {
-						division = "name = \"Division 56423\" division_template = \"PMC "Public Forces"\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+						division = "name = \"Division 56423\" division_template = \"PMC 'Public Forces'\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
 						allow_spawning_on_enemy_provs = yes
 						owner = ROOT
 					}
 				}
 				1160 = {
 					create_unit = {
-						division = "name = \"Division 32377\" division_template = \"PMC "Public Forces"\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+						division = "name = \"Division 32377\" division_template = \"PMC 'Public Forces'\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
 						allow_spawning_on_enemy_provs = yes
 						owner = ROOT
 					}

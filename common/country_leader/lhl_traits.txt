@@ -2112,7 +2112,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
     }
     neorationalist = { #Кибернетический Неорационалист
         random = no
@@ -2123,7 +2122,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
     }
     dubstep_king = { #Король Дабстепа
         random = no
@@ -2134,7 +2132,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
     }
 	eco_activist = { #Эко-активист
         random = no
@@ -2146,7 +2143,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
 	}
 	CCRU_workhorse = { #Рабочая лошадка CCRU
         random = no
@@ -2156,7 +2152,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
 	}
 	lands_disciple = { #Ученик Ланда
         random = no
@@ -2167,7 +2162,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
 	}
 	
 	afrofuturist = { #Афрофутурист
@@ -2178,7 +2172,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
 	}
 	cybernetic_realist = { #Кибернетический Реалист
         random = no
@@ -2188,7 +2181,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
 	}
 	xenofeminist_army = { #Ксенофеминист, название трейта совпадает со следующим, так и надо.
         random = no
@@ -2202,7 +2194,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
 	}
 	xenofeminist_econ = { #Ксенофеминист, название трейта совпадает со предыдущим, так и надо.
         random = no
@@ -2213,7 +2204,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
 	}
 	CCRU_workhorse_1 = { #Рабочая лошадка CCRU, мне лень придумывать Нойсу другой трейт
         random = no
@@ -2223,7 +2213,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
 	}
 	left_accel = { #Один из левых асклерационистов
         random = no
@@ -2234,7 +2223,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
 	}
 	mystical_cybernetic = { #Мистический Кибернетик
         random = no
@@ -2246,7 +2234,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
 	}
 	cute_accel = { #Автор Cute Accelerationism
         random = no
@@ -2256,7 +2243,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
 	}
 	
 	linguist_futurist = { #Лингвист-Футурист
@@ -2266,7 +2252,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
 	}
 	geotrauma_theorist = { #Теоретик Геотравмы
         random = no
@@ -2278,7 +2263,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
 	}
 	
 ###CONSERVATIVES/KENT### #KNT#

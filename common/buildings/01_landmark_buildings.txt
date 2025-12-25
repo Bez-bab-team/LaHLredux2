@@ -213,33 +213,6 @@ buildings = {
 		show_modifier = yes
 	}
 
-	landmark_cristo_redentor = {
-		dlc_allowed = { has_dlc = Gotterdammerung }
-		show_on_map = 1
-		base_cost = 20000
-		damage_factor = 0 # This building can't be damaged by regular strat bombing
-		icon_frame = 22
-		value = 5
-		
-		is_buildable = no
-		disable_grow_animation = yes
-		spawn_point = landmark_spawn
-		repair_speed_factor = @landmark_repair_speed_factor
-		only_display_if_exists = yes
-		special_icon = GFX_cristo_redentor_icon_small
-		level_cap = {
-			province_max = 1
-		}
-		always_shown = yes
-		show_modifier = yes
-		country_modifiers = {
-			enable_for_controllers = { BRA }
-			modifiers = {
-				stability_factor = 0.05
-			}
-		}
-	}
-
 	landmark_eiffel_tower = {
 		dlc_allowed = { has_dlc = Gotterdammerung }
 		show_on_map = 1
@@ -266,34 +239,6 @@ buildings = {
 			}
 		}
 	}
-	
-	landmark_statue_of_liberty = {
-		dlc_allowed = { has_dlc = Gotterdammerung }
-		show_on_map = 1
-		base_cost = 20000
-		damage_factor = 0 # This building can't be damaged by regular strat bombing
-		icon_frame = 22
-		value = 5
-		is_buildable = no
-		disable_grow_animation = yes
-		spawn_point = landmark_spawn
-		repair_speed_factor = @landmark_repair_speed_factor
-		only_display_if_exists = yes
-		special_icon = GFX_statue_of_liberty_icon_small
-		level_cap = {
-			province_max = 1
-		}
-		always_shown = yes
-		show_modifier = yes
-		country_modifiers = {
-			enable_for_controllers = { USA }
-			modifiers = {
-				stability_factor = 0.05
-				political_power_factor = 0.02 
-				# Makes up a tiny bit for MIOs sinks, and represents its value to the home of the free
-			}
-		}
-	}
 
 	landmark_kremlin = {
 		dlc_allowed = { has_dlc = Gotterdammerung }
@@ -315,7 +260,7 @@ buildings = {
 		always_shown = yes
 		show_modifier = yes
 		country_modifiers = {
-			enable_for_controllers = { SOV }
+			enable_for_controllers = { MSC }
 			modifiers = {
 				command_power_gain_mult = 0.1 # A lot of their planning and coordination is done from here
 			}

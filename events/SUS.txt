@@ -1641,14 +1641,14 @@ country_event = { #Plea 9: GULAG Revolt
 		}
 		1001 = {
 			create_unit = {
-				division = "name = \"Penal Battalion 01\" division_template = \"Penal Battalion"\" start_experience_factor = 2.0 start_equipment_factor = 0.9"
+				division = "name = \"Penal Battalion 01\" division_template = \"Penal Battalion\" start_experience_factor = 2.0 start_equipment_factor = 0.9"
 					
 				owner = SUS
 			}
 		}
 		1001 = {
 			create_unit = {
-				division = "name = \"Penal Battalion 02\" division_template = \"Penal Battalion"\" start_experience_factor = 2.0 start_equipment_factor = 0.9"
+				division = "name = \"Penal Battalion 02\" division_template = \"Penal Battalion\" start_experience_factor = 2.0 start_equipment_factor = 0.9"
 					
 				owner = SUS
 			}

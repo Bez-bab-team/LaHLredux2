@@ -5,7 +5,7 @@ scripted_gui = {
 		window_name = "lhl_PRC_leaders"
 
 		visible = {
-			tag = { GUD SHA CHQ XIJ}
+			tag = { GUD SHA CHQ XIJ }
 		}
 	}
 	

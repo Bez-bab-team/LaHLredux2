@@ -940,7 +940,6 @@ country_event = {
 			value = -10
 		}	
 	}
-}
 	option = {
 		name = ESS_event.28.b
 			1160 = {
