@@ -1393,14 +1393,14 @@ early_ship_hull_carrier = {
 	}
 	###Special snowflake hulls for special snowflake nations
 	panzerschiffe = {
-
+	
 		enable_equipments = {
 			ship_hull_cruiser_panzerschiff
 		}
-
+	
 		research_cost = 1
 		start_year = 1936
-
+	
 		#set at gamestart
 		allow = {
 			always = no
