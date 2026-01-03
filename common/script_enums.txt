@@ -214,6 +214,9 @@ script_enum_equipment_bonus_type = {
 	motorbike_equipment_1
 
 	# Equipment archetypes & types
+	modern_land_cruiser_chassis
+	modern_land_cruiser_chassis_1
+	modern_land_cruiser_equipment_1 #(No-NSB version)
 	#destroyer
 	infantry_equipment
 	artillery_equipment
@@ -610,6 +613,8 @@ script_enum_equipment_bonus_type = {
 	#super_heavy_tank_aa_equipment_1
 	#amphibious_tank_equipment_1
 	#amphibious_tank_equipment_2
+	motorbike_equipment
+	motorbike_equipment_1
 	
 	##LAHL categories##
 	#Land#

@@ -17,3 +17,10 @@
  modifier_experience_gain_modern_frigate_combat_factor:1 "Frigate Combat Experience Gain"
  modifier_experience_gain_modern_submarine_training_factor:1 "Submarine Training Experience Gain"
  modifier_experience_gain_modern_submarine_combat_factor:1 "Submarine Combat Experience Gain"
+ #
+ modifier_experience_gain_modern_carrier_mission_factor:0 "Carrier mission Experience Gain"
+ modifier_experience_gain_modern_corvette_mission_factor:0 "Corvette mission Experience Gain"
+ modifier_experience_gain_modern_cruiser_mission_factor:0 "Cruiser mission Experience Gain"
+ modifier_experience_gain_modern_destroyer_mission_factor:0 "Destroyer mission Experience Gain"
+ modifier_experience_gain_modern_frigate_mission_factor:0 "Frigate mission Experience Gain"
+ modifier_experience_gain_modern_submarine_mission_factor:0 "Submarine mission Experience Gain"
