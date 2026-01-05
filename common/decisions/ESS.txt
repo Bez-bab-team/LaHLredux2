@@ -703,7 +703,6 @@ ESS_board_of_directors = {
 			always = no
 		}
 		complete_effect = {
-			always = no
 		}
 		is_good = yes
 		days_mission_timeout = 120
@@ -1054,13 +1053,17 @@ ESS_board_of_directors = {
 				has_country_flag = ESS_interact_with_military_active
 			}
 		}
-		remove_effect = {
+		target_trigger = {
 			FROM = {
 				is_owned_by = ESS
 				is_core_of = ESS
 				NOT = {
 					is_fully_controlled_by = ESS
 				}
+			}
+		}
+		remove_effect = {
+			FROM = {
 				create_unit = {
 					division = "name = \"Militia Battalion\" division_template = \"Local Militia\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
 					owner = ESS
@@ -4067,7 +4070,6 @@ ESS_workers_parliament_gui_decision = {
 			always = no
 		}
 		complete_effect = {
-			always = no
 		}
 		is_good = no
 		days_mission_timeout = 120

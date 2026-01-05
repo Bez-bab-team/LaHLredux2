@@ -1624,11 +1624,11 @@ ENG_coring_decisions = {
 					limit = {
 						SUS = {
 							has_government = neocameralism
-							set_country_flag = SUSSEX_spies_britain_reunified
 						}
 					}
 					SUS = {
 						set_cosmetic_tag = SUS_REUNIFIED4
+						set_country_flag = SUSSEX_spies_britain_reunified
 					}
 					news_event = {
 						id = lhl_news.8

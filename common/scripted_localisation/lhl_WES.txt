@@ -3097,7 +3097,7 @@ defined_text = {
 		trigger = {
 			NOT = {
 				WES = {
-					has_tech = green_modern_economics_1
+					has_tech = green_construction_1_1
 				}
 			}
 		}
@@ -3106,7 +3106,7 @@ defined_text = {
 	text = {
 		trigger = {
 			WES = {
-				is_researching_technology = green_modern_economics_1
+				is_researching_technology = green_construction_1_1
 			}
 		}
 		localization_key = "GetWESGreenTech_1_2"
@@ -3114,7 +3114,7 @@ defined_text = {
 	text = {
 		trigger = {
 			WES = {
-				has_tech = green_modern_economics_1
+				has_tech = green_construction_1_1
 			}
 		}
 		localization_key = "GetWESGreenTech_1_3"
@@ -3127,7 +3127,7 @@ defined_text = {
 		trigger = {
 			NOT = {
 				WES = {
-					has_tech = green_modern_economics_2
+					has_tech = green_construction_2
 				}
 			}
 		}
@@ -3136,7 +3136,7 @@ defined_text = {
 	text = {
 		trigger = {
 			WES = {
-				is_researching_technology = green_modern_economics_2
+				is_researching_technology = green_construction_2
 			}
 		}
 		localization_key = "GetWESGreenTech_2_2"
@@ -3144,7 +3144,7 @@ defined_text = {
 	text = {
 		trigger = {
 			WES = {
-				has_tech = green_modern_economics_2
+				has_tech = green_construction_2
 			}
 		}
 		localization_key = "GetWESGreenTech_2_3"
@@ -3157,7 +3157,7 @@ defined_text = {
 		trigger = {
 			NOT = {
 				WES = {
-					has_tech = green_modern_economics_3
+					has_tech = green_construction_3_1
 				}
 			}
 		}
@@ -3166,7 +3166,7 @@ defined_text = {
 	text = {
 		trigger = {
 			WES = {
-				is_researching_technology = green_modern_economics_3
+				is_researching_technology = green_construction_3_1
 			}
 		}
 		localization_key = "GetWESGreenTech_3_2"
@@ -3174,7 +3174,7 @@ defined_text = {
 	text = {
 		trigger = {
 			WES = {
-				has_tech = green_modern_economics_3
+				has_tech = green_construction_3_1
 			}
 		}
 		localization_key = "GetWESGreenTech_3_3"

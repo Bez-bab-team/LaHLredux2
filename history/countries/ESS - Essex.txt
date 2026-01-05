@@ -182,6 +182,11 @@ recruit_character = ESS_raheem_kassam
 recruit_character = ESS_andrew_rosindell
 recruit_character = ESS_david_starkey
 recruit_character = ESS_william_legge
+#Mercenery#
+recruit_character = ESS_erik_prince
+recruit_character = ESS_andrew_milburn
+recruit_character = ESS_jordan_goudreau
+#
 
 set_country_flag = {
     flag = ENG_mosley_here

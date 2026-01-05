@@ -170,13 +170,13 @@ characters={
 			}
 		}
 		corps_commander = {
-				skill=2
-				traits = { angloid }
-				skill = 2
-				attack_skill = 1
-				defense_skill = 2
-				planning_skill = 2
-				logistics_skill = 2
+			skill=2
+			traits = { angloid }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 		

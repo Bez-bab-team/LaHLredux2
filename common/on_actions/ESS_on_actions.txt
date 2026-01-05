@@ -51,21 +51,23 @@ on_actions = {
 		}
 	}
 	on_startup = {
-		set_variable = {
-			var = ESS_corpo_state
-			value = 50
-		}
-		set_variable = {
-			var = ESS_corpo_healthcare
-			value = 30
-		}
-		set_variable = {
-			var = ESS_corpo_construction
-			value = 10
-		}
-		set_variable = {
-			var = ESS_corpo_farming
-			value = 10
+		effect = {
+			set_variable = {
+				var = ESS_corpo_state
+				value = 50
+			}
+			set_variable = {
+				var = ESS_corpo_healthcare
+				value = 30
+			}
+			set_variable = {
+				var = ESS_corpo_construction
+				value = 10
+			}
+			set_variable = {
+				var = ESS_corpo_farming
+				value = 10
+			}
 		}
 	}
     on_capitulation = {

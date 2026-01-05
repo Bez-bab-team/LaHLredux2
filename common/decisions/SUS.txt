@@ -593,7 +593,6 @@ SUS_socecon = {
 			}
 		}
 		complete_effect = {
-			SUS_socecon_price_count = yes
 			add_to_variable = {
 				var = SUS.political_power
 				value = SUS_member_price_level_total
@@ -1095,9 +1094,7 @@ SUS_workers_senate = {
 		available = {
 			SUS = {
 				any_owned_state = {
-					limit = {
-						has_state_flag = SUS_request_military_factory
-					}
+					has_state_flag = SUS_request_military_factory
 					arms_factory > 3
 				}
 			}
@@ -1143,9 +1140,7 @@ SUS_workers_senate = {
 		available = {
 			SUS = {
 				any_owned_state = {
-					limit = {
-						has_state_flag = SUS_request_civilian_factory
-					}
+					has_state_flag = SUS_request_civilian_factory
 					industrial_complex > 3
 				}
 			}
@@ -1354,9 +1349,7 @@ SUS_workers_senate = {
 		available = {
 			SUS = {
 				any_owned_state = {
-					limit = {
-						has_state_flag = SUS_request_fuel_silo
-					}
+					has_state_flag = SUS_request_fuel_silo
 					fuel_silo > 2
 				}
 			}
@@ -1450,9 +1443,7 @@ SUS_workers_senate = {
 		available = {
 			SUS = {
 				any_owned_state = {
-					limit = {
-						has_state_flag = SUS_request_air_base
-					}
+					has_state_flag = SUS_request_air_base
 					air_base > 3
 				}
 			}
@@ -1593,9 +1584,7 @@ SUS_workers_senate = {
 		available = {
 			SUS = {
 				any_owned_state = {
-					limit = {
-						has_state_flag = SUS_request_synthetic_refinery
-					}
+					has_state_flag = SUS_request_synthetic_refinery
 					synthetic_refinery > 2
 				}
 			}
@@ -1809,10 +1798,7 @@ SUS_workers_senate = {
 		available = {
 			SUS = {
 				any_character = {
-					limit = {
-						has_character_flag = SUS_reshuffle_character
-						is_hired_as_advisor = yes
-					}
+					has_character_flag = SUS_reshuffle_character
 					is_hired_as_advisor = no
 				}
 			}
@@ -1826,7 +1812,7 @@ SUS_workers_senate = {
 		is_good = no
 		timeout_effect = {
 			SUS = {
-				any_character = {
+				every_character = {
 					limit = {
 						has_character_flag = SUS_reshuffle_character
 					}
@@ -1840,7 +1826,7 @@ SUS_workers_senate = {
 			SUS = {
 				clr_country_flag = SUS_council_request_active
 				hidden_effect = {
-					any_character = {
+					every_character = {
 						limit = {
 							has_character_flag = SUS_reshuffle_character
 						}
@@ -1855,9 +1841,7 @@ SUS_workers_senate = {
 		available = {
 			SUS = {
 				any_owned_state = {
-					limit = {
-						has_state_flag = SUS_request_dockyard
-					}
+					has_state_flag = SUS_request_dockyard
 					dockyard > 3
 				}
 			}
@@ -3714,7 +3698,7 @@ SUS_pillars = {
 				add_doctrine_cost_reduction = {
 					cost_reduction = 0.5
 					uses = 2
-					category = mobile_warfare
+					category = land_doctrine
 				}
 				army_experience = 10
 				clr_country_flag = SUS_pillars_unique_decisison
@@ -8282,8 +8266,8 @@ SUS_archegetes_elections = {
 		days_remove = 180
 		complete_effect = {
 			SUS = {
-				    country_event = SUS_event.200
-			    }
+				country_event = SUS_event.107
+			}
 			custom_effect_tooltip = SUS_archegetes_elections_arch_watson_start
 			add_to_variable = {
 				var = SUS_arch_watson
@@ -8397,7 +8381,7 @@ SUS_archegetes_elections = {
 		days_remove = 180
 		complete_effect = {
 			SUS = {
-				country_event = SUS_event.201
+				country_event = SUS_event.108
 			    }
 			custom_effect_tooltip = SUS_archegetes_elections_arch_ogrady_start
 			add_to_variable = {
@@ -8441,7 +8425,6 @@ SUS_archegetes_elections = {
 	}
 	SUS_archegetes_elections_ogrady_probe_foregin_goods_market = {
 		days_remove = 45
-		set_country_flag = SUS_archegetes_elections_ogrady_probe_foregin_goods_market_active
 		visible = {
 			has_country_flag = SUS_archegetes_elections_ogrady_pppp_programme_active
 		}
@@ -8579,7 +8562,7 @@ SUS_archegetes_elections = {
 		days_remove = 180
 		complete_effect = {
 			SUS = {
-				country_event = SUS_event.202
+				country_event = SUS_event.108
 			    }
 			custom_effect_tooltip = SUS_archegetes_elections_arch_hodge_start
 			add_to_variable = {
@@ -8674,24 +8657,26 @@ SUS_archegetes_elections = {
 		visible = {
 			has_country_flag = SUS_archegetes_elections_hodge_counter_counter_revolution_active
 		}
-		random_owned_controlled_state = { 
-			limit = { arms_factory > 0 }
-			remove_building = { type = arms_factory  level = 1 }				
-		}
-		random_owned_controlled_state = { 
-			limit = { arms_factory > 0 }
-			remove_building = { type = arms_factory  level = 1 }				
-		}
-		random_owned_controlled_state = { 
-			limit = { arms_factory > 0 }
-			remove_building = { type = arms_factory  level = 1 }				
-		}
 		complete_effect = {
 			custom_effect_tooltip = SUS_archegetes_elections_arch_hodge_plus
 			set_country_flag = SUS_archegetes_elections_hodge_militarization_of_industry_active
 			add_to_variable = {
 				var = SUS_arch_hodge
 				value = 10
+			}
+			SUS = {
+				random_owned_controlled_state = { 
+					limit = { arms_factory > 0 }
+					remove_building = { type = arms_factory  level = 1 }				
+				}
+				random_owned_controlled_state = { 
+					limit = { arms_factory > 0 }
+					remove_building = { type = arms_factory  level = 1 }				
+				}
+				random_owned_controlled_state = { 
+					limit = { arms_factory > 0 }
+					remove_building = { type = arms_factory  level = 1 }				
+				}
 			}
 		}
 		remove_effect = {
@@ -8716,9 +8701,10 @@ SUS_archegetes_elections = {
 			}
 		}
 		remove_effect = {
-			
+			SUS = {
+				remove_decision = SUS_archegetes_elections_hodge_militarization_of_industry
+			}
 		}
-		remove_decision = SUS_archegetes_elections_hodge_militarization_of_industry
 	}
 	
 	
@@ -12680,11 +12666,11 @@ SUS_king_prestige_game = {
 			has_country_flag = SUS_ships_by_ourselves
 		}
 		available = {
-		    num_of_available_naval_factories > 2
+		    num_of_available_civilian_factories > 2
 	    }
 		days_remove = 25
 		modifier = {
-			naval_factories_use = 2
+			civilian_factory_use = 2
 		}
 		remove_effect = {
             add_to_variable = {
@@ -12699,11 +12685,11 @@ SUS_king_prestige_game = {
 			has_country_flag = SUS_ships_by_ourselves
 		}
 		available = {
-		    num_of_available_naval_factories > 2
+		    num_of_available_civilian_factories > 2
 	    }
 		days_remove = 25
 		modifier = {
-			naval_factories_use = 2
+			civilian_factory_use = 2
 		}
 		remove_effect = {
             add_to_variable = {
@@ -12776,13 +12762,13 @@ SUS_king_prestige_game = {
 			has_country_flag = SUS_reconstruct_space_program
 		}
 		available = {
-		    num_of_available_naval_factories > 2
+		    num_of_available_civilian_factories > 2
 			has_tech = advanced_computing_machine
 	    }
 		days_remove = 80
 		fire_only_once = yes
 		modifier = {
-			naval_factories_use = 2
+			civilian_factory_use = 2
 		}
 		remove_effect = {
              add_to_variable = {
@@ -12797,13 +12783,13 @@ SUS_king_prestige_game = {
 			has_country_flag = SUS_reconstruct_space_program
 		}
 		available = {
-		    num_of_available_naval_factories > 2
+		    num_of_available_civilian_factories > 2
 			has_tech = nuclear_reactor
 	    }
 		days_remove = 80
 		fire_only_once = yes
 		modifier = {
-			naval_factories_use = 2
+			civilian_factory_use = 2
 		}
 		remove_effect = {
              add_to_variable = {
@@ -13441,14 +13427,6 @@ SUS_superweapon_blackout = {
 						}
 					}
 					capital_scope = {
-						limit = {
-							NOT = {
-								has_state_flag = SUS_superweapon_weather_device_active_2
-								has_state_flag = SUS_superweapon_weather_device_active_3
-								has_state_flag = SUS_superweapon_weather_device_active_4
-								has_state_flag = SUS_superweapon_weather_device_active_5
-							}
-						}
 						set_state_flag = SUS_superweapon_weather_device_active_1
 						create_entity = {
 							entity = sandstorm_entity
@@ -13466,6 +13444,7 @@ SUS_superweapon_blackout = {
 								has_state_flag = SUS_superweapon_weather_device_active_3
 								has_state_flag = SUS_superweapon_weather_device_active_4
 								has_state_flag = SUS_superweapon_weather_device_active_5
+								is_capital = no
 							}
 						}
 						set_state_flag = SUS_superweapon_weather_device_active_2
@@ -13485,6 +13464,7 @@ SUS_superweapon_blackout = {
 								has_state_flag = SUS_superweapon_weather_device_active_2
 								has_state_flag = SUS_superweapon_weather_device_active_4
 								has_state_flag = SUS_superweapon_weather_device_active_5
+								is_capital = no
 							}
 						}
 						set_state_flag = SUS_superweapon_weather_device_active_3
@@ -13504,6 +13484,7 @@ SUS_superweapon_blackout = {
 								has_state_flag = SUS_superweapon_weather_device_active_2
 								has_state_flag = SUS_superweapon_weather_device_active_3
 								has_state_flag = SUS_superweapon_weather_device_active_5
+								is_capital = no
 							}
 						}
 						set_state_flag = SUS_superweapon_weather_device_active_4
@@ -13523,6 +13504,7 @@ SUS_superweapon_blackout = {
 								has_state_flag = SUS_superweapon_weather_device_active_2
 								has_state_flag = SUS_superweapon_weather_device_active_3
 								has_state_flag = SUS_superweapon_weather_device_active_4
+								is_capital = no
 							}
 						}
 						set_state_flag = SUS_superweapon_weather_device_active_5

@@ -356,10 +356,12 @@ lhl_ESS_income_calculation = {
 	multiply_temp_variable = { ESS_corruption_income_temp = 0.1 }
 	set_variable = { ESS_corruption_income_temp_loc = ESS_corruption_income_temp }
 	subtract_from_temp_variable = { ESS_total_income_temp = ESS_corruption_income_temp }
-	any_state = {
-		has_dynamic_modifier = {
-			modifier = ESS_local_CEO_modifier
-		}
+	every_state = {
+		#limit = {
+		#	has_dynamic_modifier = {
+		#		modifier = ESS_local_CEO_modifier
+		#	}
+		#}
 		add_to_temp_variable = { ESS_power_income_temp = ROOT.ess_local_ceo_power }		
 		multiply_temp_variable = { ESS_power_income_temp = 0.1 }
 	}

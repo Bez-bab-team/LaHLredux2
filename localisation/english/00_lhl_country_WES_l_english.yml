@@ -1224,17 +1224,17 @@
  GetWESTabSwitch_2:0 "§RWe didn't switched to a green mode of production!§!"
  GetWESTabSwitch_1:0 "§GWe have switched to a green mode of production!§!"
  #
- GetWESGreenTech_1_1:0 "§RGreen Construction I hasn't been researched!§!"
+ GetWESGreenTech_1_1:0 "§RSustainable Construction I hasn't been researched!§!"
  GetWESGreenTech_1_2:0 "§YResearch is in progress...§!"
- GetWESGreenTech_1_3:0 "§GGreen Construction I has been researched!§!"
+ GetWESGreenTech_1_3:0 "§GSustainable Construction I has been researched!§!"
  #
- GetWESGreenTech_2_1:0 "§RGreen Construction II hasn't been researched!§!"
+ GetWESGreenTech_2_1:0 "§RSustainable Construction II hasn't been researched!§!"
  GetWESGreenTech_2_2:0 "§YResearch is in progress...§!"
- GetWESGreenTech_2_3:0 "§GGreen Construction II has been researched!§!"
+ GetWESGreenTech_2_3:0 "§GSustainable Construction II has been researched!§!"
  #
- GetWESGreenTech_3_1:0 "§RGreen Construction III hasn't been researched!§!"
+ GetWESGreenTech_3_1:0 "§RSustainable Construction III hasn't been researched!§!"
  GetWESGreenTech_3_2:0 "§YResearch is in progress...§!"
- GetWESGreenTech_3_3:0 "§GGreen Construction III has been researched!§!"
+ GetWESGreenTech_3_3:0 "§GGSustainable Construction III has been researched!§!"
  #
  WES_greentech_bonus_1_tt:0 "(§Y[WES.GetNameWithFlag]§!) Modify §YAgrarian Economy§! by Production Efficiency growth: §G+5.00%§!"
  WES_greentech_bonus_2_tt:0 "(§Y[WES.GetNameWithFlag]§!) Modify §YAgrarian Economy§! by Production Efficiency growth: §G+10.00%§!"

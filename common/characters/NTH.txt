@@ -438,31 +438,6 @@ characters={
 			}
 	    }
 	}
-	NTH_dan_jarvis={
-		name="Dan Jarvis"
-		portraits={
-			army={
-				small="gfx/interface/ideas/NTH/idea_NTH_dan_jarvis.dds"
-			}
-			army={
-				large="gfx/leaders/NTH/Portrait_NTH_Dan_Jarvis.dds"
-			}
-		}
-		country_leader={
-			ideology=labor_socialism
-			expire="1.1.1.1"
-			id=-1
-		}
-		corps_commander={
-			traits={ paratrooper disgruntled }
-			skill=3
-			attack_skill=1
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=2
-			legacy_id=-1
-		}
-	}
 	NTH_clive_lewis={
 		name="Clive Lewis"
 		portraits={

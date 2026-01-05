@@ -2741,8 +2741,8 @@
 			}
 		}	
 		mutually_exclusive = {
-	    focus = KNT_the_patriot
-		focus = KNT_the_chimes_of_big_ben
+			focus = KNT_the_patriot
+			focus = KNT_the_chimes_of_big_ben
 		}
 		x = 27
 		y = 9
@@ -2901,6 +2901,10 @@
 				add_to_faction = ESS
 			}
 			
+		}
+		mutually_exclusive = {
+			focus = KNT_our_germanic_brothers
+			focus = KNT_the_patriot
 		}
 		x = 27
 		y = 9
@@ -3063,8 +3067,8 @@
 			}
 		}
 		mutually_exclusive = {
-	    focus = KNT_our_germanic_brothers
-		focus = KNT_the_chimes_of_big_ben
+			focus = KNT_our_germanic_brothers
+			focus = KNT_the_chimes_of_big_ben
 		}
 		completion_reward = {
 			create_faction = "British Liberation Front"
@@ -3257,7 +3261,7 @@
 		cost = 4.3
 		available = {
             KNT = {
-                has_completed_focus = KNT_the_coronation
+                #has_completed_focus = KNT_the_coronation
 				has_completed_focus = KNT_the_modern_prometheus
 				has_completed_focus = KNT_titanic_ii
 				has_completed_focus = KNT_not_only_just_the_bullets

@@ -44,7 +44,16 @@ unit_medals = {
 	}
 	SUS_victoria_cross = {
 		
-		available = { should_have_english_medals_trigger = yes }
+		available = { 
+			OR = {
+				original_tag = WES
+				original_tag = SUS
+				original_tag = KNT
+				original_tag = ESS
+				original_tag = NTH
+				original_tag = MRC
+			}
+		}
 		frame = 2
 		icon = "GFX_medal_icon_SUS"
 		

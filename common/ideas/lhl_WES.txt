@@ -1205,10 +1205,10 @@ ideas = {
 				air_superiority_efficiency = 0.15
 				experience_gain_air_factor = 0.15
 				small_plane_airframe_design_cost_factor = -0.25
-				cv_small_plane_airframe_cost_factor = -0.25
-				medium_plane_airframe_cost_factor = -0.25
-				large_plane_airframe_cost_factor = -0.25
-				cv_medium_plane_airframe_cost_factor = -0.25
+				cv_small_plane_airframe_design_cost_factor = -0.25
+				medium_plane_airframe_design_cost_factor = -0.25
+				large_plane_airframe_design_cost_factor = -0.25
+				cv_medium_plane_airframe_design_cost_factor = -0.25
 			}
 		}
 		WES_knight_Tony_Johnstone-Burt = {

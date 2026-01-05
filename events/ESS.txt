@@ -1444,7 +1444,7 @@ country_event = {
 	option = {
 		name = ESS_event.46.a
 		add_ideas = ESS_employment_rush_research
-		remove_idea = ESS_employment_rush_infrastracture
+		remove_ideas = ESS_employment_rush_infrastracture
 		ESS = {
 			country_event = {
 				days = 90
@@ -1465,7 +1465,7 @@ country_event = {
 	option = {
 		name = ESS_event.47.a
 		add_ideas = ESS_employment_rush_civil_production
-		remove_idea = ESS_employment_rush_research
+		remove_ideas = ESS_employment_rush_research
 		ESS = {
 			country_event = {
 				days = 90
@@ -1487,7 +1487,7 @@ country_event = {
 	option = {
 		name = ESS_event.48.a
 		add_ideas = ESS_employment_rush_mil_production
-		remove_idea = ESS_employment_rush_civil_production
+		remove_ideas = ESS_employment_rush_civil_production
 		ESS = {
 			country_event = {
 				days = 90
@@ -1508,7 +1508,7 @@ country_event = {
 	option = {
 		name = ESS_event.49.a
 		add_ideas = ESS_employment_rush_research
-		remove_idea = ESS_employment_rush_mil_production
+		remove_ideas = ESS_employment_rush_mil_production
 		ESS = {
 			country_event = {
 				days = 90
@@ -1965,71 +1965,71 @@ country_event = { #Competition Reset
 	}
 }
 
-country_event = { #Politicization Warning
-	id = ESS_event.58
-	title = ESS_event.58.t
-	desc = ESS_event.58.d
-	mean_time_to_happen = {
-	    days = 1
-    }
-	immediate = {
-		ESS = {
-			set_country_flag = ESS_moldbug_politicization_cooldown
-		}
-	}
-	trigger = {
-		tag = ESS
-		ESS = {
-			check_variable = { ESS_moldbug_politicized_nation > 3 }
-			check_variable = { ESS_moldbug_politicized_nation < 5 }
-		}
-		NOT = {
-			ESS = {
-				has_country_flag = ESS_moldbug_politicization_cooldown
-			}
-		}
-	}
-	picture = GFX_
-	option = {
-		name = ESS_event.58.a
-		ESS = {
-			add_political_power = -10
-		}
-	}
-}
+#country_event = { #Politicization Warning
+#	id = ESS_event.58
+#	title = ESS_event.58.t
+#	desc = ESS_event.58.d
+#	mean_time_to_happen = {
+#	    days = 1
+#   }
+#	immediate = {
+#		ESS = {
+#			set_country_flag = ESS_moldbug_politicization_cooldown
+#		}
+#	}
+#	trigger = {
+#		tag = ESS
+#		ESS = {
+#			check_variable = { ESS_moldbug_politicized_nation > 3 }
+#			check_variable = { ESS_moldbug_politicized_nation < 5 }
+#		}
+#		NOT = {
+#			ESS = {
+#				has_country_flag = ESS_moldbug_politicization_cooldown
+#			}
+#		}
+#	}
+#	picture = GFX_
+#	option = {
+#		name = ESS_event.58.a
+#		ESS = {
+#			add_political_power = -10
+#		}
+#	}
+#}
 
-country_event = { #Politicization Fallout
-	id = ESS_event.59
-	title = ESS_event.59.t
-	desc = ESS_event.59.d
-	mean_time_to_happen = {
-	    days = 1
-    }
-	immediate = {
-		hidden_effect = {
-			ESS = {
-				set_variable = { ESS_moldbug_politicized_nation = 0 }
-			}
-		}
-	}
-	trigger = {
-		tag = ESS
-		ESS = {
-			check_variable = { ESS_moldbug_politicized_nation > 5 }
-		}
-	}
-	picture = GFX_
-	option = {
-		name = ESS_event.59.a
-		ESS = {
-			add_political_power = -50
-			add_timed_idea = {
-				idea = ESS_mass_protests_politicized
-				days = 90
-			}
-		}
-	}
-}
+#country_event = { #Politicization Fallout
+#	id = ESS_event.59
+#	title = ESS_event.59.t
+#	desc = ESS_event.59.d
+#	mean_time_to_happen = {
+#	    days = 1
+#    }
+#	immediate = {
+#		hidden_effect = {
+#			ESS = {
+#				set_variable = { ESS_moldbug_politicized_nation = 0 }
+#			}
+#		}
+#	}
+#	trigger = {
+#		tag = ESS
+#		ESS = {
+#			check_variable = { ESS_moldbug_politicized_nation > 5 }
+#		}
+#	}
+#	picture = GFX_
+#	option = {
+#		name = ESS_event.59.a
+#		ESS = {
+#			add_political_power = -50
+#			add_timed_idea = {
+#				idea = ESS_mass_protests_politicized
+#				days = 90
+#			}
+#		}
+#	}
+#}
 
 country_event = { 
 	id = ESS_event.60
@@ -3900,8 +3900,8 @@ country_event = { #Woe to The Vanquished
     option = {
 		name = ESS_event.89.a #Moldbug option
 		swap_ideas = {
-			remove_idea = ESS_empty_throne_2
-			add_idea = ESS_empty_throne_3
+			remove_idea = ESS_empty_throne_1
+			add_idea = ESS_empty_throne_2
 		}
 		every_possible_country = {
 			limit = { has_character = EAG_michael_bates }
@@ -3930,8 +3930,8 @@ country_event = { #Woe to The Vanquished
     option = {
 		name = ESS_event.89.b #Land Option
 		swap_ideas = {
-			remove_idea = ESS_empty_throne_2
-			add_idea = ESS_empty_throne_3
+			remove_idea = ESS_empty_throne_1
+			add_idea = ESS_empty_throne_2
 		}
 		every_possible_country = {
 			limit = { has_character = EAG_rudiger_von_pescatore }
@@ -3975,8 +3975,8 @@ country_event = { #Woe to The Vanquished
     option = {
 		name = ESS_event.89.c #Fisher Option
 		swap_ideas = {
-			remove_idea = ESS_empty_throne_2
-			add_idea = ESS_empty_throne_3
+			remove_idea = ESS_empty_throne_1
+			add_idea = ESS_empty_throne_2
 		}
 		add_manpower = 6600
 		add_stability = 0.05
@@ -4190,7 +4190,7 @@ country_event = { #Choose leader
 		}
 		ESS = {
 			promote_character = ESS_curtis_yarvin
-			remove_ideas = ESS_empty_throne_3
+			remove_ideas = ESS_empty_throne_2
 		}
 	}
     option = {
@@ -4209,7 +4209,7 @@ country_event = { #Choose leader
 		}
 		ESS = {
 			promote_character = ESS_nick_land
-			remove_ideas = ESS_empty_throne_3
+			remove_ideas = ESS_empty_throne_2
 		}
 	}
     option = {
@@ -4232,7 +4232,7 @@ country_event = { #Choose leader
 			}
 			ESS = {
 				promote_character = ESS_Mark_Fisher
-				remove_ideas = ESS_empty_throne_3
+				remove_ideas = ESS_empty_throne_2
 			}
 		}
 	}

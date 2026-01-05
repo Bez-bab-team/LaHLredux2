@@ -1,4 +1,4 @@
-capital = 454
+capital = 1364
 oob = "ISR_2020"
 
 set_research_slots = 3

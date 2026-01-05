@@ -820,7 +820,7 @@
 		}
 		completion_reward = {
 			ESS = {
-				add_idea = ESS_pardoned_officers
+				add_ideas = ESS_pardoned_officers
 			}
 		}
 		x = 19
@@ -1242,10 +1242,6 @@
 		cost = 1
 		prerequisite = {
 			focus = ESS_economic_populism
-			swap_ideas = {
-				remove_idea = ESS_empty_throne
-				add_idea = ESS_empty_throne_1
-			} 
 		}
 		prerequisite = {
 			focus = ESS_londons_underbelly
@@ -1256,6 +1252,10 @@
 					days = 0
 					id = ESS_event.93
 				}
+				swap_ideas = {
+					remove_idea = ESS_empty_throne
+					add_idea = ESS_empty_throne_1
+				} 
 				swap_ideas = {
 					remove_idea = ESS_broken_hierarchy_1
 					add_idea = ESS_broken_hierarchy_2
@@ -2325,7 +2325,11 @@
 			}
 			add_ideas = ESS_gang_reforms
 			if = {
-				has_idea = ESS_mil_purge
+				limit = {
+					ESS = {
+						has_idea = ESS_mil_purge
+					}
+				}
 				swap_ideas = {
 					remove_idea = ESS_mil_purge
 					add_idea = ESS_mil_purge_3
@@ -2333,7 +2337,11 @@
 				
 			}
 			else_if = {
-				has_idea = ESS_mil_purge_2
+				limit = {
+					ESS = {
+						has_idea = ESS_mil_purge_2
+					}
+				}
 				swap_ideas = {
 					remove_idea = ESS_mil_purge_2
 					add_idea = ESS_mil_purge_4
@@ -5362,7 +5370,7 @@
 					producer = ESS
 				}
 				division_template = {
-					name = "PMC "Public Forces""
+					name = "PMC 'Public Forces'"
 					division_names_group = ESS_INF_02
 					is_locked = yes
 					regiments = {
@@ -5465,9 +5473,37 @@
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ESS_backup_over_the_pond"
 			ESS = {
-				recruit_character = ESS_erik_prince
-				recruit_character = ESS_andrew_milburn
-				recruit_character = ESS_jordan_goudreau
+				add_corps_commander_role = {
+					Character = ESS_erik_prince
+					traits={ trickster commando }
+					skill=3
+					attack_skill=3
+					defense_skill=1
+					planning_skill=2
+					logistics_skill=2
+					legacy_id=-1
+
+				}
+				add_corps_commander_role = {
+					Character = ESS_andrew_milburn
+					traits={ infantry_leader commando }
+					skill=3
+					attack_skill=2
+					defense_skill=2
+					planning_skill=2
+					logistics_skill=2
+					legacy_id=-1
+				}
+				add_corps_commander_role = {
+					Character = ESS_jordan_goudreau
+					traits={ trait_reckless guerilla_fighter commando }
+					skill=3
+					attack_skill=2
+					defense_skill=1
+					planning_skill=3
+					logistics_skill=2
+					legacy_id=-1
+				}
 				army_experience = 5
 				add_equipment_to_stockpile = {
 					type = infantry_equipment
@@ -6337,7 +6373,7 @@
 			focus = ESS_reclaim_the_british_beauty
 		}
 		mutually_exclusive = {
-			focus = ESS_workable_city
+			focus = ESS_comfortable_city
 		}
 		x = 23
 		y = 18
@@ -9383,6 +9419,9 @@
 		}
 		prerequisite = {
 			focus = ESS_encourage_fraternization
+		}
+		mutually_exclusive = {
+			focus = ESS_killing_a_mockingbird
 		}
 		x = 34
 		y = 9

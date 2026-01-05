@@ -5031,14 +5031,14 @@ WES_england_transformation = {
 			if = {
 				limit = {
 					WES = {
-						has_tech = green_modern_economics_1
+						has_tech = green_resources_1_1
 					}
 					NOT = {
 						WES = {
-							has_tech = green_modern_economics_2
+							has_tech = green_resources_2
 						}
 						WES = {
-							has_tech = green_modern_economics_3
+							has_tech = green_resources_3_1
 						}
 					}
 				}
@@ -5056,14 +5056,14 @@ WES_england_transformation = {
 			if = {
 				limit = {
 					WES = {
-						has_tech = green_modern_economics_1
+						has_tech = green_resources_1_1
 					}
 					WES = {
-						has_tech = green_modern_economics_2
+						has_tech = green_resources_2
 					}
 					NOT = {
 						WES = {
-							has_tech = green_modern_economics_3
+							has_tech = green_resources_3_1
 						}
 					}
 				}
@@ -5081,13 +5081,13 @@ WES_england_transformation = {
 			if = {
 				limit = {
 					WES = {
-						has_tech = green_modern_economics_1
+						has_tech = green_resources_1_1
 					}
 					WES = {
-						has_tech = green_modern_economics_2
+						has_tech = green_resources_2
 					}
 					WES = {
-						has_tech = green_modern_economics_3
+						has_tech = green_resources_3_1
 					}
 				}
 				WES = {
@@ -5105,13 +5105,13 @@ WES_england_transformation = {
 				limit = {
 					NOT = {
 						WES = {
-							has_tech = green_modern_economics_1
+							has_tech = green_resources_1_1
 						}
 						WES = {
-							has_tech = green_modern_economics_2
+							has_tech = green_resources_2
 						}
 						WES = {
-							has_tech = green_modern_economics_3
+							has_tech = green_resources_3_1
 						}
 					}
 				}

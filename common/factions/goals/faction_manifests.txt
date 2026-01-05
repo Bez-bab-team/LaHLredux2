@@ -1,20 +1,27 @@
-faction_manifest_generic = {
-	name = strength_in_unity_goal_name
-	description = strength_in_unity_goal_desc
+faction_manifest_conquest_of_territory = {
+	name = conquest_of_territory_goal_name
+	description = conquest_of_territory_goal_desc
 	is_manifest = yes
 	ratio_progress = {
-		total_amount = 1000
-		completed_amount_collection = collection:faction_manifest_never
+		total_amount_collection = collection:faction_owned_core_states
+		completed_amount_collection = collection:faction_controlled_non_core_states
+		range = { 
+			max = 1
+		}
 		
 		scale = {
+			offensive_war_stability_factor = 0.15
+			justify_war_goal_time = -0.25
 		}
 		
 		progress_sections = {
 			manifest_fulfilled = {
-				min = 1000
+				min = @manifest_fulfilled_value
 	
-				modifier = {
-				}
+				modifier = { 
+					non_core_manpower = 0.03
+					generate_wargoal_tension = -0.25
+				}			
 			}
 		}
 	}

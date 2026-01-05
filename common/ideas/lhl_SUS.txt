@@ -216,7 +216,7 @@ ideas = {
 				production_factory_efficiency_gain_factor = 0.1
 				production_factory_max_efficiency_factor = 0.1
 				production_factory_start_efficiency_factor = 0.1
-				roduction_speed_buildings_factor = 0.1
+				production_speed_buildings_factor = 0.1
 			}
 		}
 		SUS_cancer_research = {
@@ -1349,38 +1349,6 @@ ideas = {
 			}
 			research_bonus = {
 				infantry_equipment = 0.1
-			}
-			research_bonus = {
-				infantry_equipment = 0.05
-			}
-		}
-		
-		SUS_automatic_death_spirit = {
-
-			allowed_civil_war = {
-				always = no
-			}
-
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: added idea SUS_labourists_strikes_3_of_3"
-			}
-
-			removal_cost = -1
-
-			#picture = 
-			equipment_bonus = {
-				artillery = {
-					build_cost_ic = -0.05
-				}
-			}
-			research_bonus = {
-				artillery = 0.1
-			}
-			
-			equipment_bonus = {
-				infantry_equipment = {
-					build_cost_ic = -0.05
-				}
 			}
 			research_bonus = {
 				infantry_equipment = 0.05

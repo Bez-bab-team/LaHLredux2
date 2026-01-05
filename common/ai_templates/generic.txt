@@ -21,8 +21,6 @@ armor_generic = {
 			}
 		}
 	}
-	
-	match_to_count = 0.5
 
 	infantry_fighting_vehicle_default = {
 		upgrade_prio = {
@@ -199,9 +197,6 @@ garrison_generic = {
 suppression_generic = {
 	
 	role = suppression
-	blocked_for = {
-		SIA
-	}
 	upgrade_prio = {
 		base = 0.5
 
@@ -209,6 +204,7 @@ suppression_generic = {
 			factor = 20
 			has_war = yes
 		}
+	}
 
 	suppression_generic = {
 	

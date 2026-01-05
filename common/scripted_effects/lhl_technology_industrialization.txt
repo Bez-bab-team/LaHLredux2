@@ -188,7 +188,7 @@ technology_check_industrialization = {
 		}
 		ROOT = {
 			set_technology = {
-				industrialization_construction_5 = 1
+				industrialization_construction_4 = 1
 			}
 		}
 	}
@@ -321,7 +321,7 @@ technology_check_industrialization = {
 		}
 		ROOT = {
 			set_technology = {
-				industrialization_resources_5 = 1
+				industrialization_resources_4 = 1
 			}
 		}
 	}
@@ -537,7 +537,7 @@ technology_switch_industrialization = {
 		automatization_organization_1 = 0
 		automatization_organization_2_1 = 0
 		automatization_organization_2_2 = 0
-		automatization_organization_3:0 = 0
+		automatization_organization_3 = 0
 		automatization_organization_4_1 = 0
 		automatization_organization_4_2 = 0
 		automatization_organization_5 = 0
@@ -570,7 +570,7 @@ technology_switch_industrialization = {
 		green_organization_1 = 0
 		green_organization_2_1 = 0
 		green_organization_2_2 = 0
-		green_organization_3:0 = 0
+		green_organization_3 = 0
 		green_organization_4_1 = 0
 		green_organization_4_2 = 0
 		green_organization_5 = 0
@@ -603,7 +603,7 @@ technology_switch_industrialization = {
 		unorthodox_organization_1 = 0
 		unorthodox_organization_2_1 = 0
 		unorthodox_organization_2_2 = 0
-		unorthodox_organization_3:0 = 0
+		unorthodox_organization_3 = 0
 		unorthodox_organization_4_1 = 0
 		unorthodox_organization_4_2 = 0
 		unorthodox_organization_5 = 0

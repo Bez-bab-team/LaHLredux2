@@ -18,8 +18,6 @@ state={
 			arms_factory = 2
 			6415 = {
 				naval_base = 2
-			}
-			6415 = {
 				supply_node = 1
 			}
 		}
@@ -30,6 +28,6 @@ state={
 	}
 	manpower=1988506
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=city
 	local_supplies=0.000
 }

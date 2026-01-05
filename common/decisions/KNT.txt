@@ -4360,48 +4360,48 @@ KNT_selling_shit = {
 		}
 	}
 	
-	KNT_selling_landing_tanks = {
-		cost = 0
-		days_remove = 30
-		visible = {
-			has_tech = landing_tank
-			has_government = neocameralism
-		}
-		available = {
-			has_equipment = { landing_tank_equipment_1 > 55 }
-		}
-        complete_effect = {
-			KNT = {
-				add_equipment_to_stockpile = {
-					type = landing_tank_equipment
-					amount = -55
-					producer = KNT
-				}
-			}
-		}
-		remove_effect = {
-			798 = {
-				owner = {
-					country_event = {
-					days = 1
-					id = KNT_event.302
-					}
-				}
-			}
-			KNT = {
-				random_owned_state = {
-						add_building_construction = {
-							type = infrastructure 
-							level = 1
-							instant_build = yes
-					}
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-	}
+	#KNT_selling_landing_tanks = { #Fix this in technologies
+	#	cost = 0
+	#	days_remove = 30
+	#	visible = {
+	#		has_tech = landing_tank
+	#		has_government = neocameralism
+	#	}
+	#	available = {
+	#		has_equipment = { landing_tank_equipment_1 > 55 }
+	#	}
+    #    complete_effect = {
+	#		KNT = {
+	#			add_equipment_to_stockpile = {
+	#				type = landing_tank_equipment
+	#				amount = -55
+	#				producer = KNT
+	#			}
+	#		}
+	#	}
+	#	remove_effect = {
+	#		798 = {
+	#			owner = {
+	#				country_event = {
+	#				days = 1
+	#				id = KNT_event.302
+	#				}
+	#			}
+	#		}
+	#		KNT = {
+	#			random_owned_state = {
+	#					add_building_construction = {
+	#						type = infrastructure 
+	#						level = 1
+	#						instant_build = yes
+	#				}
+	#			}
+	#		}
+	#	}
+	#	ai_will_do = {
+	#		factor = 100
+	#	}
+	#}
 	
 	KNT_selling_transport_airships = {
 		cost = 0

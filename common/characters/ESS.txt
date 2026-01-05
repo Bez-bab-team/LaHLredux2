@@ -331,15 +331,6 @@ characters={
 				large="gfx/leaders/ESS/Portrait_ESS_erik_prince.dds"
 			}
 		}
-		corps_commander={
-			traits={ trickster commando }
-			skill=3
-			attack_skill=3
-			defense_skill=1
-			planning_skill=2
-			logistics_skill=2
-			legacy_id=-1
-		}
 	}
 	ESS_andrew_milburn ={
 		name=ESS_andrew_milburn
@@ -351,15 +342,6 @@ characters={
 				large="gfx/leaders/ESS/Portrait_ESS_andrew_milburn.dds"
 			}
 		}
-		corps_commander={
-			traits={ infantry_leader commando }
-			skill=3
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
-			legacy_id=-1
-		}
 	}
 	ESS_jordan_goudreau={
 		name=ESS_jordan_goudreau
@@ -370,15 +352,6 @@ characters={
 			army={
 				large="gfx/leaders/ESS/Portrait_ESS_jordan_goudreau.dds"
 			}
-		}
-		corps_commander={
-			traits={ trait_reckless guerilla_fighter commando }
-			skill=3
-			attack_skill=2
-			defense_skill=1
-			planning_skill=3
-			logistics_skill=2
-			legacy_id=-1
 		}
 	}
 	
@@ -718,36 +691,36 @@ characters={
 	
 	###Pol_adv###
 	
-	ESS_amy_ireland = {
-		name = ESS_amy_ireland
-		portraits = {
-			civilian={
-				small = "gfx/interface/ideas/ESS/idea_ESS_amy_ireland.dds"
-			}
-		}
-		advisor = {
-			cost = 120
-			slot = political_advisor
-			idea_token = ESS_amy_ireland
-			traits = {
-				cyberfemenist
-			}
-			allowed = {
-				original_tag = ESS
-			}
-			available = {
-				hidden_trigger = {
-					has_country_flag = ESS_nick_here 
-				}
-			}
-			visible = {
-				has_country_flag = ESS_nick_here 
-			}
-			ai_will_do  = {
-				factor  = 1.000
-			}
-	    }
-	}
+	#ESS_amy_ireland = {
+	#	name = ESS_amy_ireland
+	#	portraits = {
+	#		civilian={
+	#			small = "gfx/interface/ideas/ESS/idea_ESS_amy_ireland.dds"
+	#		}
+	#	}
+	#	advisor = {
+	#		cost = 120
+	#		slot = political_advisor
+	#		idea_token = ESS_amy_ireland
+	#		traits = {
+	#			cyberfemenist
+	#		}
+	#		allowed = {
+	#			original_tag = ESS
+	#		}
+	#		available = {
+	#			hidden_trigger = {
+	#				has_country_flag = ESS_nick_here 
+	#			}
+	#		}
+	#		visible = {
+	#			has_country_flag = ESS_nick_here 
+	#		}
+	#		ai_will_do  = {
+	#			factor  = 1.000
+	#		}
+	#    }
+	#}
 	ESS_sadie_plant = {
 		name = ESS_sadie_plant
 		portraits = {
@@ -838,66 +811,66 @@ characters={
 			}
 	    }
 	}
-	ESS_reza_negarestani  = {
-		name = ESS_reza_negarestani
-		portraits = {
-			civilian={
-				small = "gfx/interface/ideas/ESS/idea_ESS_reza_negarestani.dds"
-			}
-		}
-		advisor = {
-			cost = 200
-			slot = political_advisor
-			idea_token = ESS_reza_negarestani
-			traits = {
-				shadow_hand
-			}
-			allowed = {
-				original_tag = ESS
-			}
-			available = {
-				hidden_trigger = {
-					has_country_flag = ESS_nick_here 
-				}
-			}
-			visible = {
-				has_country_flag = ESS_nick_here 
-			}
-			ai_will_do  = {
-				factor  = 1.000
-			}
-	    }
-	}
-	ESS_kodwo_eshun  = {
-		name = ESS_kodwo_eshun
-		portraits = {
-			civilian={
-				small = "gfx/interface/ideas/ESS/idea_ESS_kodwo_eshun.dds"
-			}
-		}
-		advisor = {
-			cost = 120
-			slot = political_advisor
-			idea_token = ESS_kodwo_eshun
-			traits = {
-				afrofuturist
-			}
-			available = {
-				hidden_trigger = {
-					has_country_flag = ESS_nick_here 
-				}
-			}
-			visible = {
-				has_country_flag = ESS_nick_here 
-			}
-			allowed = {
-				original_tag = ESS
-			}
-			ai_will_do  = {
-				factor  = 1.000
-			}
-	    }
-	}
+	#ESS_reza_negarestani  = {
+	#	name = ESS_reza_negarestani
+	#	portraits = {
+	#		civilian={
+	#			small = "gfx/interface/ideas/ESS/idea_ESS_reza_negarestani.dds"
+	#		}
+	#	}
+	#	advisor = {
+	#		cost = 200
+	#		slot = political_advisor
+	#		idea_token = ESS_reza_negarestani
+	#		traits = {
+	#			shadow_hand
+	#		}
+	#		allowed = {
+	#			original_tag = ESS
+	#		}
+	#		available = {
+	#			hidden_trigger = {
+	#				has_country_flag = ESS_nick_here 
+	#			}
+	#		}
+	#		visible = {
+	#			has_country_flag = ESS_nick_here 
+	#		}
+	#		ai_will_do  = {
+	#			factor  = 1.000
+	#		}
+	#    }
+	#}
+	#ESS_kodwo_eshun  = {
+	#	name = ESS_kodwo_eshun
+	#	portraits = {
+	#		civilian={
+	#			small = "gfx/interface/ideas/ESS/idea_ESS_kodwo_eshun.dds"
+	#		}
+	#	}
+	#	advisor = {
+	#		cost = 120
+	#		slot = political_advisor
+	#		idea_token = ESS_kodwo_eshun
+	#		traits = {
+	#			afrofuturist
+	#		}
+	#		available = {
+	#			hidden_trigger = {
+	#				has_country_flag = ESS_nick_here 
+	#			}
+	#		}
+	#		visible = {
+	#			has_country_flag = ESS_nick_here 
+	#		}
+	#		allowed = {
+	#			original_tag = ESS
+	#		}
+	#		ai_will_do  = {
+	#			factor  = 1.000
+	#		}
+	#    }
+	#}
 	ESS_matthew_fuller  = {
 		name = ESS_matthew_fuller
 		portraits = {
@@ -928,36 +901,36 @@ characters={
 			}
 	    }
 	}
-	ESS_steve_goodman  = {
-		name = ESS_steve_goodman
-		portraits = {
-			civilian={
-				small = "gfx/interface/ideas/ESS/idea_ESS_steve_goodman.dds"
-			}
-		}
-		advisor = {
-			cost = 120
-			slot = political_advisor
-			idea_token = ESS_steve_goodman
-			traits = {
-				sole_goodman
-			}
-			available = {
-				hidden_trigger = {
-					has_country_flag = ESS_nick_here 
-				}
-			}
-			visible = {
-				has_country_flag = ESS_nick_here 
-			}
-			allowed = {
-				original_tag = ESS
-			}
-			ai_will_do  = {
-				factor  = 0.000
-			}
-	    }
-	}
+	#ESS_steve_goodman  = {
+	#	name = ESS_steve_goodman
+	#	portraits = {
+	#		civilian={
+	#			small = "gfx/interface/ideas/ESS/idea_ESS_steve_goodman.dds"
+	#		}
+	#	}
+	#	advisor = {
+	#		cost = 120
+	#		slot = political_advisor
+	#		idea_token = ESS_steve_goodman
+	#		traits = {
+	#			sole_goodman
+	#		}
+	#		available = {
+	#			hidden_trigger = {
+	#				has_country_flag = ESS_nick_here 
+	#			}
+	#		}
+	#		visible = {
+	#			has_country_flag = ESS_nick_here 
+	#		}
+	#		allowed = {
+	#			original_tag = ESS
+	#		}
+	#		ai_will_do  = {
+	#			factor  = 0.000
+	#		}
+	#    }
+	#}
 	ESS_anna_greenspan  = {
 		name = ESS_anna_greenspan
 		portraits = {

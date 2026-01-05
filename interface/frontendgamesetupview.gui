@@ -149,6 +149,13 @@ guiTypes = {
 			position = { x=0 y =0 }
 			clicksound = click_checkbox
 		}
+		
+		buttonType = {
+			name = "country_shine"
+			quadTextureSprite = "GFX_country_selection_entry_shine"
+			position = { x=0 y =0 }
+			clicksound = click_checkbox
+		}
 
 		instantTextBoxType = {
 			name = "country_name"
@@ -182,6 +189,13 @@ guiTypes = {
 			position = { x=0 y =0 }
 			clicksound = click_checkbox
 		}
+
+		buttonType = {
+			name = "country_shine"
+			quadTextureSprite = "GFX_minor_country_selector_shine"
+			position = { x=0 y =0 }
+			clicksound = click_checkbox
+		}
 	}
 
 	### country entry
@@ -199,6 +213,13 @@ guiTypes = {
 		buttonType = {
 			name = "country"
 			quadTextureSprite = "GFX_mini_country_selector"
+			position = { x=0 y =0 }
+			clicksound = click_checkbox
+		}
+		
+		buttonType = {
+			name = "country_shine"
+			quadTextureSprite = "GFX_mini_country_selector_shine"
 			position = { x=0 y =0 }
 			clicksound = click_checkbox
 		}
@@ -682,36 +703,21 @@ guiTypes = {
 
 		containerWindowType = {
 			name ="countries_mini"
-			position = { x = 15 y = 340 }
+			position = { x = 11 y = 338 }
 			size = { width = -15 height = 120}
+			
 
 			gridboxType = {
 				name ="countries_grid"
 				position = { x = 0 y = 0 }
 				size = { width = 100% height = 100% }
-				slotsize = { width = 53 height = 40 }
-				max_slots_horizontal = 22
+				slotsize = { width = 52 height = 38 }
 				add_horizontal = yes
-				max_slots_horizontal = 22
+				max_slots_horizontal = 23
 				max_slots_vertical = 2
 				format = "UPPER_LEFT"
 			}
 		}
-
-		iconType = {
-			name = "minor_country_leader"
-			quadTextureSprite ="GFX_leader_unknown"
-			position = { x = 289 y = 441 }
-			scale=0.696
-			rotation=-0.04
-		}
-
-		iconType = {
-				name ="minor_portrait_overlay"
-				spriteType = "GFX_minor_portrait_overlay"
-				position = { x= 280 y = 430 }
-		}
-
 
 		instantTextBoxType = {
 			name = "info_title"
@@ -827,7 +833,21 @@ guiTypes = {
 				format = left
 			}
 		}
+		
+		iconType = {
+			name = "minor_country_leader"
+			quadTextureSprite ="GFX_leader_unknown"
+			position = { x = 289 y = 441 }
+			scale=0.696
+			rotation=-0.04
+		}
 
+		iconType = {
+				name ="minor_portrait_overlay"
+				spriteType = "GFX_minor_portrait_overlay"
+				position = { x= 280 y = 430 }
+		}
+		
 		instantTextBoxType = {
 			name = "nation_title"
 			position = { x = 442 y = 421 }
@@ -1389,7 +1409,7 @@ guiTypes = {
 				position = { x = 10 y = -39}
 				quadTextureSprite ="GFX_button_123x34"
 				orientation = "LOWER_LEFT"
-				buttonText = "CUSTOM_GAME_SETTINGS_BACK"
+				buttonText = "SM_APPLY"
 				buttonFont = "hoi_18mbs"
 				clicksound = click_default
 			}
@@ -1939,14 +1959,18 @@ guiTypes = {
 			show_position = { x=0 y =-30}
 			animation_type = decelerated
 			animation_time = 1000
-			size = { width=102% height =128}
+			size = { width=100% height =128}
 			clipping = no
 
-			Background =
-			{
-				name ="top_bg"
-				spriteType = "GFX_tiled_frontend_upper_bar"
-				position = { x=-10 y=0 }
+            containerWindowType = {
+                name = background
+                size = { width=102% height=100% }
+                Background =
+                {
+                    name ="top_bg"
+                    spriteType = "GFX_tiled_frontend_upper_bar"
+                    position = { x=-10 y=0 }
+                }
 			}
 
 			containerWindowType = {
@@ -2064,7 +2088,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				clicksound = click_default
 				oversound = ui_menu_over
-				shortcut = "i"
+				shortcut = "r"
 			}
 
 			ButtonType = {
@@ -2087,7 +2111,7 @@ guiTypes = {
 			}
 
 			ButtonType = {
-				position = { x= -487 y = 48 }
+				position = { x= -449 y = 48 }
 				name = "player_shield"
 				quadTextureSprite ="GFX_player_flag"
 				Orientation = "UPPER_RIGHT"
@@ -2096,20 +2120,20 @@ guiTypes = {
 			iconType ={
 				name ="large_flag_frame"
 				spriteType = "GFX_large_flag_frame"
-				position = { x= -492 y = 45 }
+				position = { x= -454 y = 45 }
 				Orientation = "UPPER_RIGHT"
 			}
 
 			iconType ={
 				name ="selected_nation_label_bg"
 				spriteType = "GFX_generic_bg"
-				position = { x= -380 y = 46 }
+				position = { x= -342 y = 46 }
 				Orientation = "UPPER_RIGHT"
 			}
 
 			instantTextBoxType = {
 				name = "selected_nation_label"
-				position = { x = -375 y = 55 }
+				position = { x = -337 y = 55 }
 				textureFile = ""
 				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
@@ -2122,7 +2146,7 @@ guiTypes = {
 			}
 
 			ButtonType = {
-				position = { x= -97 y = 45 }
+				position = { x= -59 y = 45 }
 				name = "extended_country_button"
 				quadTextureSprite ="GFX_extended_country_button"
 				Orientation = "UPPER_RIGHT"
@@ -2136,13 +2160,17 @@ guiTypes = {
 			show_position = { x=0 y =-100 }
 			animation_type = decelerated
 			animation_time = 1000
-			size = { width=102% height =128}
+			size = { width=100% height =128}
 			Orientation = lower_left
 
-			Background ={
-				name ="bottom_win"
-				spriteType = "GFX_tiled_frontend_lower_bar"
-				position = { x=-10 y =0}
+            containerWindowType = {
+                name = background
+                size = { width=102% height=100% }
+                Background ={
+                    name ="bottom_win"
+                    spriteType = "GFX_tiled_frontend_lower_bar"
+                    position = { x=-10 y =0}
+                }
 			}
 
 			ButtonType = {
@@ -2183,14 +2211,14 @@ guiTypes = {
 
 			iconType = {
 				name = "enabled_achievement_icons"
-				position = { x = -382 y = -115 }
+				position = { x = -344 y = -115 }
 				quadTextureSprite ="GFX_enabled_achievement_icons"
 				Orientation = "LOWER_RIGHT"
 			}
 
 			ButtonType = {
 				name = "play_button"
-				position = { x = -300 y = -100 }
+				position = { x = -262 y = -100 }
 				quadTextureSprite ="GFX_play_button"
 				buttonText = "FE_START"
 				buttonFont = "hoi_30header"
@@ -2202,7 +2230,7 @@ guiTypes = {
 
 			ButtonType = {
 				name = "play_button_ready"
-				position = { x = -300 y = -100 }
+				position = { x = -262 y = -100 }
 				spriteType ="GFX_play_button_ready"
 				buttonText = "READY"
 				buttonFont = "hoi_30header"
@@ -2214,7 +2242,7 @@ guiTypes = {
 
 			iconType = {
 				name = "play_button_checkbox"
-				position = { x = -112 y = -85 }
+				position = { x = -74 y = -85 }
 				quadTextureSprite ="GFX_generic_checkbox2"
 				Orientation = "LOWER_RIGHT"
 				alwaystransparent = yes

@@ -484,7 +484,9 @@ shared_focus = {
 				value = -0.65
 			}
 			random_owned_controlled_state = {	
-				industrial_complex > 0
+				limit = {
+					industrial_complex > 0
+				}
 				add_building_construction = {
 					type = arms_factory
 					level = 1
@@ -493,11 +495,12 @@ shared_focus = {
 				remove_building = {
 					type = industrial_complex
 					level = 1
-					instant_build = yes
 				}
 			}
 			random_owned_controlled_state = {	
-				industrial_complex > 0
+				limit = {
+					industrial_complex > 0
+				}
 				add_building_construction = {
 					type = arms_factory
 					level = 1
@@ -506,7 +509,6 @@ shared_focus = {
 				remove_building = {
 					type = industrial_complex
 					level = 1
-					instant_build = yes
 				}
 			}
 		}
@@ -1582,6 +1584,9 @@ shared_focus = {
 	}
 	completion_reward = {
 	}
+	mutually_exclusive = {
+		focus = WES_societal_ascetism
+	}
 	x = 19
 	y = 12
 }
@@ -1598,6 +1603,7 @@ shared_focus = {
 	}
 	mutually_exclusive = {
 		focus = WES_societal_ascetism
+		focus = WES_table_of_lords
 	}
 	completion_reward = {
 	}
@@ -1709,6 +1715,7 @@ shared_focus = {
 	mutually_exclusive = {
 		focus = WES_cornerstone_of_communities
 		focus = WES_british_media_fund
+		focus = WES_return_to_normalcy
 	}
 	completion_reward = {
 	}
@@ -2246,7 +2253,7 @@ shared_focus = {
 #Neofeudal Right#
 shared_focus = {
 	id = WES_old_squires
-	icon = GFX_goal_ WES_old_squires
+	icon = GFX_goal_WES_old_squires
 	cost = 4.3
 	allow_branch = { 
 		has_government = neocameralism
