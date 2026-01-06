@@ -21,11 +21,11 @@ country_event = {
 		hidden_effect = {
 			news_event = { id = lhl_news.1 days = 1 }
 		}
-		hidden_effect = {
-		    GER = {
-			    country_event = { id = GER_event.3 days = 20 }
-		    }
-		}
+		#hidden_effect = {
+		#    GER = {
+		#	    country_event = { id = GER_event.3 days = 20 }
+		#    }
+		#}
 		custom_effect_tooltip = GER_1
     }   	
 }

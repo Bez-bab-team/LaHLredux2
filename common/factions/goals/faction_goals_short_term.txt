@@ -1,4 +1,3 @@
-
 ##########################################################
 
  ##  ### #  # ### ###  ###  ##       ##   ##   ##  #    ## 
@@ -82,7 +81,7 @@ faction_goal_unlock_research = {
 		add_faction_initiative = 1
 	}
 	ai_will_do = {
-		base = 1000 # They should always do this if they can
+		base = 0 # They should always do this if they can
 	}
 }
 
@@ -158,6 +157,6 @@ faction_goal_unlock_military = {
 		add_faction_initiative = 1
 	}
 	ai_will_do = {
-		base = 1000 # They should always do this if they can
+		base = 0 # They should always do this if they can
 	}
 }
