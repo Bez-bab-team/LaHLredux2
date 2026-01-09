@@ -1024,4 +1024,78 @@ spriteTypes = {
 		name = "GFX_goal_WES_edict_against_usury"
 		texturefile = "gfx/interface/goals/WES/goal_WES_edict_against_usury.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_WES_kingmaker"
+		texturefile = "gfx/interface/goals/WES/goal_WES_kingmaker.dds"
+	}
+	#Secret Orthodox#
+	SpriteType = {
+		name = "GFX_goal_WES_ephraim_mission"
+		texturefile = "gfx/interface/goals/WES/goal_WES_ephraim_mission.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_spiritual_bridge"
+		texturefile = "gfx/interface/goals/WES/goal_WES_spiritual_bridge.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_patriarch_of_essex_and_all_england"
+		texturefile = "gfx/interface/goals/WES/goal_WES_patriarch_of_essex_and_all_england.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_orthodox_orders"
+		texturefile = "gfx/interface/goals/WES/goal_WES_orthodox_orders.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_restore_monasteries"
+		texturefile = "gfx/interface/goals/WES/goal_WES_restore_monasteries.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_english_autocephaly"
+		texturefile = "gfx/interface/goals/WES/goal_WES_english_autocephaly.dds"
+	}	
+	#Military Tree#
+	SpriteType = {
+		name = "GFX_goal_WES_restore_academies"
+		texturefile = "gfx/interface/goals/WES/goal_WES_restore_academies.dds"
+	}	
+	SpriteType = {
+		name = "GFX_goal_WES_face_to_face"
+		texturefile = "gfx/interface/goals/WES/goal_WES_face_to_face.dds"
+	}	
+	SpriteType = {
+		name = "GFX_goal_WES_knights_on_the_chessboard"
+		texturefile = "gfx/interface/goals/WES/goal_WES_knights_on_the_chessboard.dds"
+	}	
+	SpriteType = {
+		name = "GFX_goal_WES_fierce_and_bold"
+		texturefile = "gfx/interface/goals/WES/goal_WES_fierce_and_bold.dds"
+	}	
+	SpriteType = {
+		name = "GFX_goal_WES_pawns_in_the_field"
+		texturefile = "gfx/interface/goals/WES/goal_WES_pawns_in_the_field.dds"
+	}	
+	SpriteType = {
+		name = "GFX_goal_WES_decisive_edge"
+		texturefile = "gfx/interface/goals/WES/goal_WES_decisive_edge.dds"
+	}	
+	SpriteType = {
+		name = "GFX_goal_WES_by_strength_and_guile"
+		texturefile = "gfx/interface/goals/WES/goal_WES_by_strength_and_guile.dds"
+	}	
+	SpriteType = {
+		name = "GFX_goal_WES_the_end_of_bravery"
+		texturefile = "gfx/interface/goals/WES/goal_WES_the_end_of_bravery.dds"
+	}	
+	SpriteType = {
+		name = "GFX_goal_WES_war_of_gentlemen"
+		texturefile = "gfx/interface/goals/WES/goal_WES_war_of_gentlemen.dds"
+	}	
+	SpriteType = {
+		name = "GFX_goal_WES_restore_yeomanry"
+		texturefile = "gfx/interface/goals/WES/goal_WES_restore_yeomanry.dds"
+	}	
+	SpriteType = {
+		name = "GFX_goal_WES_merry_men"
+		texturefile = "gfx/interface/goals/WES/goal_WES_merry_men.dds"
+	}		
 }

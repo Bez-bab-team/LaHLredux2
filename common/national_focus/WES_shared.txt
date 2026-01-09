@@ -579,7 +579,7 @@ shared_focus = {
 				var = WES_desperate_measures_production_factory_max_efficiency_factor
 				value = 0.15
 			}
-			add_ideas = was_economy
+			add_ideas = war_economy
 			country_event = {
 				days = 0
 				id = WES_event.19
@@ -3277,7 +3277,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = WES_spiritual_bridge
-	icon = GFX_goal_WES_ephraim_mission
+	icon = GFX_goal_WES_spiritual_bridge
 	cost = 4.3
 	prerequisite = {
 		focus = WES_ephraim_mission
