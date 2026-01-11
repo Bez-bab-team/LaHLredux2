@@ -1097,5 +1097,45 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_WES_merry_men"
 		texturefile = "gfx/interface/goals/WES/goal_WES_merry_men.dds"
-	}		
+	}	
+	SpriteType = {
+		name = "GFX_goal_WES_flight_of_the_bumblebee"
+		texturefile = "gfx/interface/goals/WES/goal_WES_flight_of_the_bumblebee.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_makeshift_production"
+		texturefile = "gfx/interface/goals/WES/goal_WES_makeshift_production.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_starstreak"
+		texturefile = "gfx/interface/goals/WES/goal_WES_starstreak.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_jewel_of_franks"
+		texturefile = "gfx/interface/goals/WES/goal_WES_jewel_of_franks.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_old_squires"
+		texturefile = "gfx/interface/goals/WES/goal_WES_old_squires.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_land_systems_plc"
+		texturefile = "gfx/interface/goals/WES/goal_WES_land_systems_plc.dds"
+	}	
+	SpriteType = {
+		name = "GFX_goal_WES_worshipful_company_of_armoureers"
+		texturefile = "gfx/interface/goals/WES/goal_WES_worshipful_company_of_armoureers.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_fine_prints"
+		texturefile = "gfx/interface/goals/WES/goal_WES_fine_prints.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_scavenge_the_rubble"
+		texturefile = "gfx/interface/goals/WES/goal_WES_scavenge_the_rubble.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_expedient_homemade_firearms"
+		texturefile = "gfx/interface/goals/WES/goal_WES_expedient_homemade_firearms.dds"
+	}
 }

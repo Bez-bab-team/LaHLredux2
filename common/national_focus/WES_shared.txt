@@ -2272,7 +2272,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = WES_land_system_PLC
-	icon = GFX_goal_WES_land_system_PLC
+	icon = GFX_goal_WES_land_systems_plc
 	cost = 4.3
 	prerequisite = {
         focus = WES_old_squires
