@@ -901,10 +901,20 @@ shared_focus = {
 	mutually_exclusive = {
 		focus = WES_high_sheriffs
 	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = WES_private_constables.tt	
+			check_variable = { WES_table_slot_5 = 1 }
+		}
+	}
 	allow_branch = { 
 		has_government = neocameralism
 	}
 	completion_reward = {
+		WES = {
+			add_ideas = WES_law_of_the_king_1
+		}
+		custom_effect_tooltip = WES_road_unification.tt
 	}
 	x = 12
 	y = 10
@@ -921,7 +931,17 @@ shared_focus = {
 		focus = WES_assize_of_arms
 		focus = WES_private_constables
 	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = WES_high_sheriffs.tt	
+			check_variable = { WES_table_slot_5 = 2 }
+		}
+	}
 	completion_reward = {
+		WES = {
+			add_ideas = WES_law_of_the_king_2
+		}
+		custom_effect_tooltip = WES_road_unification.tt
 	}
 	x = 14
 	y = 10

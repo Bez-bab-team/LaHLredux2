@@ -126,6 +126,8 @@
  WES_a_commonwealth_of_hope:0 "A Commonwealth of Hope"
  WES_all_for_one_tt:0 "§YThe Table Shall Reveal Itself§!"
  WES_anti_vehicle_training:0 "Anti Vehicle Training"
+ WES_law_of_the_king_1:0 "Law of The King"
+ WES_law_of_the_king_2:0 "Law of The King"
  ##HIDDEN IDEAS##
  WES_neofolk:0 "Neofolk"
  
@@ -463,6 +465,8 @@
  WES_final_decision.tt:0 "§YWe have swayed Douglas into our ranks. Now we have a choice to make.§!"
  WES_douglas_knight.tt:0 "§Douglas Pearce Will Become a Knight.§!"
  WES_DOUGLAS_FACTION:0 "England Salvation League"
+ WES_private_constables.tt:0 "§YSir Ian Martin§! is §gThe Royal Keeper of Seals§!"	
+ WES_high_sheriffs.tt:0 "§YSir Peter St Clair-Erskine, 7th Earl of Rosslyn§! is §gThe Royal Keeper of Seals§!"
  #
  WES_Royal_military_schools:0 "Our Most Royal Military Schools"
   Rebuild_Naval_College:0 "Rebuilt the Britannia Royal Naval College"
