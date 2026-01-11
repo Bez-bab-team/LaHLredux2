@@ -4503,6 +4503,20 @@ country_event = { #Arise ye english folk
     } 
 }
 
+country_event = { #Arise ye english folk
+	id = WES_event.1511
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.1510"}
+	title = WES_event.1511.t
+	desc = WES_event.1511.d
+    is_triggered_only = yes
+	picture = GFX_WES_a_man_of_fire_and_arms
+	
+    fire_only_once = yes	
+	option = {
+	    name = WES_event.1511.a
+    } 
+}
+
 #country_event = {
 #	id = WES_event.1
 #	title = WES_event.1.t

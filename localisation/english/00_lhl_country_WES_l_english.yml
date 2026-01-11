@@ -1357,7 +1357,7 @@
  KNIGHT_SLEEPS_CHAMBERLAIN:0 "This place is reserved for the King's §0CHAMBERLAIN§!\n\n§0CHAMBERLAIN§! is the right-hand of the King."
  KNIGHT_Jonathon_Porritt_CHAMBERLAIN:0 "§YSir Jonathon Espie Porritt, 2nd Baronet§!\n§0Royal Chamberlain§!"
  KNIGHT_Roger_Scruton_CHAMBERLAIN:0 "§YSir Roger Vernon Scruton§!\n§0Royal Chamberlain§!"
- KNIGHT_Nikolai_Tolstoy_CHAMBERLAIN:0 "§YCount Sir Nikolai Dmitrievich Tolstoy-Miloslavsky§!\n§0Royal Chamberlain§!\n- Political Power Gain: §G+5%§!\n- War Support: §G+5.00%§!\n- Required Garrisons: §G+10.00%§!\n\n§0CHAMBERLAIN§! is the right-hand of the King. He handles the most important matters of the Kingdom and aids in the search for the new knights."
+ KNIGHT_Nikolai_Tolstoy_CHAMBERLAIN:0 "§YCount Sir Nikolai Dmitrievich Tolstoy-Miloslavsky§!\n§0Royal Chamberlain§!"
  #
  KNIGHT_SLEEPS_HIGH_ADMIRAL:0 "This place is reserved for the King's §5HIGH ADMIRAL§!\n\n§5HIGH ADMIRAL§! deals with fleet and the airforce of the kingdom."
  KNIGHT_Ian_Forbes_HIGH_ADMIRAL:0 "§YSir Ian Andrew Forbes§!\n§5Royal High Admiral§!"
@@ -1375,9 +1375,9 @@
  KNIGHT_Patrick_Moore_SCHOLAR:0 "§YSir Patrick Alfred Caldwell-Moore§!\n§GRoyal High Scholar§!"
  #
  KNIGHT_SLEEPS_TREASURER:0 "This place is reserved for the King's §YTREASURER§!\n\n§YTREASURER§! deals with the economics of the kingdom."
- KNIGHT_Mark_Carney_TREASURER:0 "§YSir Mark Joseph Carney§!\n§YRoyal Treasurer§!"
- KNIGHT_Leon_Krier_TREASURER:0 "§YSir Léon Krier§!\n§YRoyal Treasurer§!"
- KNIGHT_David_Triggs_TREASURER:0 "§YSir David Triggs§!\n§YRoyal Treasurer§!"
+ KNIGHT_Mark_Carney_TREASURER:0 "§YSir Mark Joseph Carney§!\n§8Royal Treasurer§!"
+ KNIGHT_Leon_Krier_TREASURER:0 "§YSir Léon Krier§!\n§8Royal Treasurer§!"
+ KNIGHT_David_Triggs_TREASURER:0 "§YSir David Triggs§!\n§8Royal Treasurer§!"
  #
  KNIGHT_SLEEPS_MARSHAL:0 "This place is reserved for the King's §RMARSHAL§!\n\n§RMARSHAL§! controls the ground forces of the kingdom."
  KNIGHT_HENRY_TRAITOR:0 "§YPrince Harry, Duke of Sussex§!\n§YTraitorous Imposter§!\n- Stability: §R-15.00%§!\n\nThis place is reserved for the King's §RMARSHAL§!\n\n§RMARSHAL§! controls the ground forces of the kingdom, §Rand yet now his forces stand against us.§!"

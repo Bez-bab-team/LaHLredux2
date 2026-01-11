@@ -51,19 +51,19 @@ scripted_gui = {
                     value = 0			
                 }
 		    }
-			lhl_slot_2_Michael_Mainelli_visible = {
+			lhl_slot_2_michael_mainelli_visible = {
                check_variable = {
                     var = WES_table_slot_2
                     value = 1	
                 }
 		    }	
-			lhl_slot_2_Jacob_Rees-Mogg_visible = {
+			lhl_slot_2_jacob_rees-mogg_visible = {
                check_variable = {
                     var = WES_table_slot_2
                     value = 2			
                 }
 		    }	
-			lhl_slot_2_Phillip_Blond_visible = {
+			lhl_slot_2_phillip_blond_visible = {
                check_variable = {
                     var = WES_table_slot_2
                     value = 3			
@@ -76,19 +76,19 @@ scripted_gui = {
                     value = 0			
                 }
 		    }
-			lhl_slot_3_Stephen_Fry_visible = {
+			lhl_slot_3_stephen_fry_visible = {
                check_variable = {
                     var = WES_table_slot_3
                     value = 1		
                 }
 		    }
-			lhl_slot_3_Ephraim_of_Vatopedi_visible = {
+			lhl_slot_3_ephraim_of_vatopedi_visible = {
                check_variable = {
                     var = WES_table_slot_3
                     value = 2		
                 }
 		    }
-			lhl_slot_3_Paul_Kingsnorth_visible = {
+			lhl_slot_3_paul_kingsnorth_visible = {
                check_variable = {
                     var = WES_table_slot_3
                     value = 3			
@@ -101,19 +101,19 @@ scripted_gui = {
                     value = 0			
                 }
 		    }
-			lhl_slot_4_Clive_Alderton_visible = {
+			lhl_slot_4_clive_alderton_visible = {
                check_variable = {
                     var = WES_table_slot_4
                     value = 1		
                 }
 		    }
-			lhl_slot_4_Michael_of_Kent_visible = {
+			lhl_slot_4_michael_of_kent_visible = {
                check_variable = {
                     var = WES_table_slot_4
                     value = 2		
                 }
 		    }
-			lhl_slot_4_Douglas_Pearce_visible = {
+			lhl_slot_4_douglas_pearce_visible = {
                check_variable = {
                     var = WES_table_slot_4
                     value = 3			
@@ -126,19 +126,19 @@ scripted_gui = {
                     value = 0			
                 }
 		    }
-			lhl_slot_5_Ian_Martin_visible = {
+			lhl_slot_5_ian_martin_visible = {
                 check_variable = {
                     var = WES_table_slot_5
                     value = 1		
                 }
 		    }
-			lhl_slot_5_Peter_St_Clair-Erskine_visible = {
+			lhl_slot_5_peter_st_clair-erskine_visible = {
                 check_variable = {
                     var = WES_table_slot_5
                     value = 2		
                 }
 		    }
-			lhl_slot_5_Jonathan_Sumption_visible = {
+			lhl_slot_5_jonathan_sumption_visible = {
                 check_variable = {
                     var = WES_table_slot_5
                     value = 3			
@@ -151,19 +151,19 @@ scripted_gui = {
                     value = 0			
                 }
 		    }
-			lhl_slot_6_Edward_Young_visible = {
+			lhl_slot_6_edward_young_visible = {
                check_variable = {
                     var = WES_table_slot_6
                     value = 1		
                 }
 		    }
-			lhl_slot_6_Link_Byfield_visible = {
+			lhl_slot_6_link_byfield_visible = {
                check_variable = {
                     var = WES_table_slot_6
                     value = 2		
                 }
 		    }
-			lhl_slot_6_Robin_Page_visible = {
+			lhl_slot_6_robin_page_visible = {
                check_variable = {
                     var = WES_table_slot_6
                     value = 3			
@@ -176,19 +176,19 @@ scripted_gui = {
                     value = 0			
                 }
 		    }
-			lhl_slot_7_Jonathon_Porritt_visible = {
+			lhl_slot_7_jonathon_porritt_visible = {
                check_variable = {
                     var = WES_table_slot_7
                     value = 1		
                 }
 		    }
-			lhl_slot_7_Roger_Scruton_visible = {
+			lhl_slot_7_roger_scruton_visible = {
                check_variable = {
                     var = WES_table_slot_7
                     value = 2		
                 }
 		    }
-			lhl_slot_7_Nikolai_Tolstoy_visible = {
+			lhl_slot_7_nikolai_tolstoy_visible = {
                check_variable = {
                     var = WES_table_slot_7
                     value = 3			
@@ -201,19 +201,19 @@ scripted_gui = {
                     value = 0			
                 }
 		    }
-			lhl_slot_8_Ian_Forbes_visible = {
+			lhl_slot_8_ian_forbes_visible = {
                check_variable = {
                     var = WES_table_slot_8
                     value = 1		
                 }
 		    }
-			lhl_slot_8_Stephen_Dalton_visible = {
+			lhl_slot_8_stephen_dalton_visible = {
                check_variable = {
                     var = WES_table_slot_8
                     value = 2		
                 }
 		    }
-			lhl_slot_8_Tony_Johnstone-Burt_visible = {
+			lhl_slot_8_tony_johnstone-burt_visible = {
                check_variable = {
                     var = WES_table_slot_8
                     value = 3			
@@ -226,19 +226,19 @@ scripted_gui = {
                     value = 0			
                 }
 		    }
-			lhl_slot_9_Richard_Evans_visible = {
+			lhl_slot_9_richard_evans_visible = {
                check_variable = {
                     var = WES_table_slot_9
                     value = 1		
                 }
 		    }
-			lhl_slot_9_Alex_Cresswell_visible = {
+			lhl_slot_9_alex_cresswell_visible = {
                check_variable = {
                     var = WES_table_slot_9
                     value = 2		
                 }
 		    }
-			lhl_slot_9_Philip_Luty_visible = {
+			lhl_slot_9_philip_luty_visible = {
                check_variable = {
                     var = WES_table_slot_9
                     value = 3			
@@ -251,19 +251,19 @@ scripted_gui = {
                     value = 0			
                 }
 		    }
-			lhl_slot_10_Andrew_Garrad_visible = {
+			lhl_slot_10_andrew_garrad_visible = {
                check_variable = {
                     var = WES_table_slot_10
                     value = 1		
                 }
 		    }
-			lhl_slot_10_Nikita_Lobanov_visible = {
+			lhl_slot_10_nikita_lobanov_visible = {
                check_variable = {
                     var = WES_table_slot_10
                     value = 2		
                 }
 		    }
-			lhl_slot_10_Patrick_Moore_visible = {
+			lhl_slot_10_patrick_moore_visible = {
                check_variable = {
                     var = WES_table_slot_10
                     value = 3			
@@ -276,19 +276,19 @@ scripted_gui = {
                     value = 0			
                 }
 		    }
-			lhl_slot_11_Mark_Carney_visible = {
+			lhl_slot_11_mark_carney_visible = {
                check_variable = {
                     var = WES_table_slot_11
                     value = 1		
                 }
 		    }
-			lhl_slot_11_Leon_Krier_visible = {
+			lhl_slot_11_leon_krier_visible = {
                check_variable = {
                     var = WES_table_slot_11
                     value = 2		
                 }
 		    }
-			lhl_slot_11_David_Triggs_visible = {
+			lhl_slot_11_david_triggs_visible = {
                check_variable = {
                     var = WES_table_slot_11
                     value = 3			
@@ -307,19 +307,19 @@ scripted_gui = {
                     value = 0			
                 }
 		    }
-			lhl_slot_12_Prince_Harry_visible = {
+			lhl_slot_12_prince_harry_visible = {
                check_variable = {
                     var = WES_table_slot_12
                     value = 1
                 }
 		    }
-			lhl_slot_12_David_Richards_visible = {
+			lhl_slot_12_david_richards_visible = {
                check_variable = {
                     var = WES_table_slot_12
                     value = 2		
                 }
 		    }
-			lhl_slot_12_Rupert_Smith_visible = {
+			lhl_slot_12_rupert_smith_visible = {
                check_variable = {
                     var = WES_table_slot_12
                     value = 3

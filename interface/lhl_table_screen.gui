@@ -60,13 +60,13 @@ guiTypes = {
 			position = { x = 682 y = 112 }
 		}
 		buttonType = {
-			name = "lhl_slot_2_Michael_Mainelli"
+			name = "lhl_slot_2_michael_mainelli"
 			spriteType = "GFX_lhl_table_michael_mainelli"
 			pdx_tooltip = "KNIGHT_Michael_Mainelli_PANTLER"
 			position = { x = 682 y = 112 }
 		}
 		buttonType = {
-			name = "lhl_slot_2_Jacob_Rees-Mogg"
+			name = "lhl_slot_2_jacob_rees-mogg"
 			spriteType = "GFX_lhl_table_jacob_rees-mogg"
 			pdx_tooltip = "KNIGHT_Jacob_Rees-Mogg_PANTLER"
 			position = { x = 682 y = 112 }
@@ -85,13 +85,13 @@ guiTypes = {
 			position = { x = 851 y = 178 }
 		}
 		buttonType = {
-			name = "lhl_slot_3_Stephen_Fry"
+			name = "lhl_slot_3_stephen_fry"
 			spriteType = "GFX_lhl_table_stephen_fry"
 			pdx_tooltip = "KNIGHT_Stephen_Fry_CHAPELMASTER"
 			position = { x = 851 y = 178 }
 		}
 		buttonType = {
-			name = "lhl_slot_3_Ephraim_of_Vatopedi"
+			name = "lhl_slot_3_ephraim_of_vatopedi"
 			spriteType = "GFX_lhl_table_ephraim_of_vatopedi"
 			pdx_tooltip = "KNIGHT_Ephraim_of_Vatopedi_CHAPELMASTER"
 			position = { x = 851 y = 178 }
@@ -110,19 +110,19 @@ guiTypes = {
 			position = { x = 983 y = 299 }
 		}
 		buttonType = {
-			name = "lhl_slot_4_Clive_Alderton"
+			name = "lhl_slot_4_clive_alderton"
 			spriteType = "GFX_lhl_table_clive_alderton"
 			pdx_tooltip = "KNIGHT_Clive_Alderton_CHANCELLOR"
 			position = { x = 983 y = 299 }
 		}
 		buttonType = {
-			name = "lhl_slot_4_Michael_of_Kent"
+			name = "lhl_slot_4_michael_of_kent"
 			spriteType = "GFX_lhl_table_michael_of_kent"
 			pdx_tooltip = "KNIGHT_Michael_of_Kent_CHANCELLOR"
 			position = { x = 983 y = 299 }
 		}
 		buttonType = {
-			name = "lhl_slot_4_Douglas_Pearce"
+			name = "lhl_slot_4_douglas_pearce"
 			spriteType = "GFX_lhl_table_douglas_pearce"
 			pdx_tooltip = "KNIGHT_Douglas_Pearce_CHANCELLOR"
 			position = { x = 983 y = 299 }
@@ -135,19 +135,19 @@ guiTypes = {
 			position = { x = 851 y = 430 }
 		}
 		buttonType = {
-			name = "lhl_slot_5_Ian_Martin"
+			name = "lhl_slot_5_ian_martin"
 			spriteType = "GFX_lhl_table_ian_martin"
-			pdx_tooltip = "KNIGHT_Ian Martin_KEEPER_OF_SEALS"
+			pdx_tooltip = "KNIGHT_Ian_Martin_KEEPER_OF_SEALS"
 			position = { x = 851 y = 430 }
 		}
 		buttonType = {
-			name = "lhl_slot_5_Peter_St_Clair-Erskine"
+			name = "lhl_slot_5_peter_st_clair-erskine"
 			spriteType = "GFX_lhl_table_peter_st_clair-erskine"
 			pdx_tooltip = "KNIGHT_Peter_St_Clair-Erskine_KEEPER_OF_SEALS"
 			position = { x = 851 y = 430 }
 		}
 		buttonType = {
-			name = "lhl_slot_5_Jonathan_Sumption"
+			name = "lhl_slot_5_jonathan_sumption"
 			spriteType = "GFX_lhl_table_johnathan_sumption"
 			pdx_tooltip = "KNIGHT_Jonathan_Sumption_KEEPER_OF_SEALS"
 			position = { x = 851 y = 430 }
@@ -160,13 +160,13 @@ guiTypes = {
 			position = { x = 682 y = 486 }
 		}
 		buttonType = {
-			name = "lhl_slot_6_Edward_Young"
+			name = "lhl_slot_6_edward_young"
 			spriteType = "GFX_lhl_table_edward_young"
 			pdx_tooltip = "KNIGHT_Edward_Young_HERALD"
 			position = { x = 682 y = 486 }
 		}
 		buttonType = {
-			name = "lhl_slot_6_Link_Byfield"
+			name = "lhl_slot_6_link_byfield"
 			spriteType = "GFX_lhl_table_link_byfield"
 			pdx_tooltip = "KNIGHT_Link_Byfield_HERALD"
 			position = { x = 682 y = 486 }
@@ -185,13 +185,13 @@ guiTypes = {
 			position = { x = 513 y = 500 }
 		}
 		buttonType = {
-			name = "lhl_slot_7_Jonathon_Porritt"
+			name = "lhl_slot_7_jonathon_porritt"
 			spriteType = "GFX_lhl_table_jonathon_porritt"
 			pdx_tooltip = "KNIGHT_Jonathon_Porritt_CHAMBERLAIN"
 			position = { x = 513 y = 500 }
 		}
 		buttonType = {
-			name = "lhl_slot_7_Roger_Scruton"
+			name = "lhl_slot_7_roger_scruton"
 			spriteType = "GFX_lhl_table_roger_scruton"
 			pdx_tooltip = "KNIGHT_Roger_Scruton_CHAMBERLAIN"
 			position = { x = 513 y = 500 }
@@ -210,13 +210,13 @@ guiTypes = {
 			position = { x = 344 y = 486 }
 		}
 		buttonType = {
-			name = "lhl_slot_8_Ian_Forbes"
+			name = "lhl_slot_8_ian_forbes"
 			spriteType = "GFX_lhl_table_ian_forbes"
 			pdx_tooltip = "KNIGHT_Ian_Forbes_HIGH_ADMIRAL"
 			position = { x = 344 y = 486 }
 		}
 		buttonType = {
-			name = "lhl_slot_8_Stephen_Dalton"
+			name = "lhl_slot_8_stephen_dalton"
 			spriteType = "GFX_lhl_table_stephen_dalton"
 			pdx_tooltip = "KNIGHT_Stephen_Dalton_HIGH_ADMIRAL"
 			position = { x = 344 y = 486 }
@@ -235,13 +235,13 @@ guiTypes = {
 			position = { x = 175 y = 430 }
 		}
 		buttonType = {
-			name = "lhl_slot_9_Richard_Evans"
+			name = "lhl_slot_9_richard_evans"
 			spriteType = "GFX_lhl_table_richard_evans"
 			pdx_tooltip = "KNIGHT_Richard_Evans_HIGH_CONSTABLE"
 			position = { x = 175 y = 430 }
 		}
 		buttonType = {
-			name = "lhl_slot_9_Alex_Cresswell"
+			name = "lhl_slot_9_alex_cresswell"
 			spriteType = "GFX_lhl_table_alex_cresswell"
 			pdx_tooltip = "KNIGHT_Alex_Cresswell_HIGH_CONSTABLE"
 			position = { x = 175 y = 430 }
@@ -260,13 +260,13 @@ guiTypes = {
 			position = { x = 43 y = 299 }
 		}
 		buttonType = {
-			name = "lhl_slot_10_Andrew_Garrad"
+			name = "lhl_slot_10_andrew_garrad"
 			spriteType = "GFX_lhl_table_andrew_garrad"
 			pdx_tooltip = "KNIGHT_Andrew_Garrad_SCHOLAR"
 			position = { x = 43 y = 299 }
 		}
 		buttonType = {
-			name = "lhl_slot_10_Nikita_Lobanov"
+			name = "lhl_slot_10_nikita_lobanov"
 			spriteType = "GFX_lhl_table_nikita_lobanov"
 			pdx_tooltip = "KNIGHT_Nikita_Lobanov_SCHOLAR"
 			position = { x = 43 y = 299 }
@@ -285,19 +285,19 @@ guiTypes = {
 			position = { x = 175 y = 178 }
 		}
 		buttonType = {
-			name = "lhl_slot_11_Mark_Carney"
+			name = "lhl_slot_11_mark_carney"
 			spriteType = "GFX_lhl_table_mark_carney"
 			pdx_tooltip = "KNIGHT_Mark_Carney_TREASURER"
 			position = { x = 175 y = 178 }
 		}
 		buttonType = {
-			name = "lhl_slot_11_Leon_Krier"
+			name = "lhl_slot_11_leon_krier"
 			spriteType = "GFX_lhl_table_leon_krier"
 			pdx_tooltip = "KNIGHT_Leon_Krier_TREASURER"
 			position = { x = 175 y = 178 }
 		}
 		buttonType = {
-			name = "lhl_slot_11_David_Triggs"
+			name = "lhl_slot_11_david_triggs"
 			spriteType = "GFX_lhl_table_david_triggs"
 			pdx_tooltip = "KNIGHT_David_Triggs_TREASURER"
 			position = { x = 175 y = 178 }
@@ -316,13 +316,13 @@ guiTypes = {
 			position = { x = 344 y = 111 }
 		}
 		buttonType = {
-			name = "lhl_slot_12_Prince_Harry"
+			name = "lhl_slot_12_prince_harry"
 			spriteType = "GFX_lhl_table_prince_harry"
 			pdx_tooltip = "KNIGHT_Prince_Harry_MARSHAL"
 			position = { x = 344 y = 111 }
 		}
 		buttonType = {
-			name = "lhl_slot_12_David_Richards"
+			name = "lhl_slot_12_david_richards"
 			spriteType = "GFX_lhl_table_david_richards"
 			pdx_tooltip = "KNIGHT_David_Richards_MARSHAL"
 			position = { x = 344 y = 111 }
