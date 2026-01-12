@@ -2191,7 +2191,16 @@ shared_focus = {
 	prerequisite = {
         focus = WES_war_of_gentlemen
 	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = WES_restore_yeomanry.tt	
+			check_variable = { WES_table_slot_12 = 3 }
+		}
+	}
 	completion_reward = {
+		WES = {
+			add_ideas = WES_restored_yeomanry
+		}
 	}
 	x = 31
 	y = 10

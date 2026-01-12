@@ -38,7 +38,9 @@ WES_england_transformation = {
 	allowed = { original_tag = WES }
 	visible_when_empty = yes
 	visible = {
-	    has_completed_focus = WES_rule_george	
+		WES = {
+			has_country_flag = WES_set_shit	
+		}
 	}
 }
 

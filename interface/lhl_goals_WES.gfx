@@ -1138,4 +1138,52 @@ spriteTypes = {
 		name = "GFX_goal_WES_expedient_homemade_firearms"
 		texturefile = "gfx/interface/goals/WES/goal_WES_expedient_homemade_firearms.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_WES_southern_watch"
+		texturefile = "gfx/interface/goals/WES/goal_WES_southern_watch.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_aces_and_valets"
+		texturefile = "gfx/interface/goals/WES/goal_WES_aces_and_valets.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_dowding_system"
+		texturefile = "gfx/interface/goals/WES/goal_WES_dowding_system.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_expand_jurby"
+		texturefile = "gfx/interface/goals/WES/goal_WES_expand_jurby.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_swamp_swarms"
+		texturefile = "gfx/interface/goals/WES/goal_WES_swamp_swarms.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_waterguards"
+		texturefile = "gfx/interface/goals/WES/goal_WES_waterguards.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_across_all_boundries"
+		texturefile = "gfx/interface/goals/WES/goal_WES_across_all_boundries.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_raise_comandos"
+		texturefile = "gfx/interface/goals/WES/goal_WES_raise_comandos.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_new_admiralty"
+		texturefile = "gfx/interface/goals/WES/goal_WES_new_admiralty.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_the_kings_yard"
+		texturefile = "gfx/interface/goals/WES/goal_WES_the_kings_yard.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_raise_bootnecks"
+		texturefile = "gfx/interface/goals/WES/goal_WES_raise_bootnecks.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_step_into_the_pond"
+		texturefile = "gfx/interface/goals/WES/goal_WES_step_into_the_pond.dds"
+	}
 }

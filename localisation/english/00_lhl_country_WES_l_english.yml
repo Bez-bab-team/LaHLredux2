@@ -128,6 +128,7 @@
  WES_anti_vehicle_training:0 "Anti Vehicle Training"
  WES_law_of_the_king_1:0 "Law of The King"
  WES_law_of_the_king_2:0 "Law of The King"
+ WES_restored_yeomanry:0 "Restored Yeomanry"
  ##HIDDEN IDEAS##
  WES_neofolk:0 "Neofolk"
  
@@ -467,6 +468,7 @@
  WES_DOUGLAS_FACTION:0 "England Salvation League"
  WES_private_constables.tt:0 "§YSir Ian Martin§! is §gThe Royal Keeper of Seals§!"	
  WES_high_sheriffs.tt:0 "§YSir Peter St Clair-Erskine, 7th Earl of Rosslyn§! is §gThe Royal Keeper of Seals§!"
+ WES_restore_yeomanry.tt:0 "§YSir David Julian Richards, Baron Richards of Herstmonceux§! is §RThe Royal Marshal§!"
  #
  WES_Royal_military_schools:0 "Our Most Royal Military Schools"
   Rebuild_Naval_College:0 "Rebuilt the Britannia Royal Naval College"
@@ -1371,7 +1373,7 @@
  KNIGHT_SLEEPS_HIGH_CONSTABLE:0 "This place is reserved for the King's §9HIGH CONSTABLE§!\n\n§9HIGH CONSTABLE§! deals with the development of new weapons for the kingdom."
  KNIGHT_Richard_Evans_HIGH_CONSTABLE:0 "§YSir Richard Harry Evans§!\n§9Royal High Constable§!"
  KNIGHT_Alex_Cresswell_HIGH_CONSTABLE:0 "§YSir Alex Cresswell§!\n§9Royal High Constable§!"
- KNIGHT_Philip_Luty_HIGH_CONSTABLE:0 "§YSir Philip Andrew Luty§!\n§9Royal High Constable§!"
+ KNIGHT_Philip_Luty_HIGH_CONSTABLE:0 "§YSir Philip Andrew Luty§!\n§9Royal High Constable§!\n- £lhl_efficiency_icon Production Efficiency growth: §G+8.00%§!\n- Production Efficiency Base: §G+8.00%§!\n- Land Doctrine Cost: §G-10%§!\n\n§9HIGH CONSTABLE§! deals with the development of new weapons for the kingdom.\n\nBy his vow, §YSir Philip Andrew Luty§! can temporarily extend the £lhl_efficiency_icon Production Efficiency growth to §G+18.00%§! and gain §Yadditional steel production§! by disassembling §Y500§! units of £infantry_equipment_text_icon §YInfantry Equipment§!\n\n§CCooldown§!: §Y120§! days"
  #
  KNIGHT_SLEEPS_SCHOLAR:0 "This place is reserved for the King's §GHIGH SCHOLAR§!\n\n§GHIGH SCHOLAR§! deals with the scientific development of the kingdom."
  KNIGHT_Andrew_Garrad_SCHOLAR:0 "§YSir Andrew Douglas Garrad§!\n§GRoyal High Scholar§!"

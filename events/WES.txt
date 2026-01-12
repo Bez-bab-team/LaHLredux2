@@ -4459,6 +4459,7 @@ country_event = {
 				ruling_party = neocameralism
 			}
 			load_focus_tree = WES_neofeudal
+			add_ideas = WES_stuff
 		}
 	}
 	option = {
@@ -4468,6 +4469,7 @@ country_event = {
 				ruling_party = regressionism
 			}
 			load_focus_tree = WES_medievalist
+			add_ideas = WES_stuff
 		}
 	}
 }

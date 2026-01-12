@@ -805,6 +805,38 @@ ideas = {
 	}
 	country = {
 	
+		WES_stuff = {
+			
+			picture = WES_test
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			modifier = {
+				land_doctrine_cost_factor = -0.1
+				production_factory_start_efficiency_factor = 0.08
+				production_factory_efficiency_gain_factor = 0.08
+			}
+		}
+	
+		WES_restored_yeomanry = {
+			
+			picture = WES_test
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			modifier = {
+				cavalry_attack_factor = 0.15
+				cavalry_defence_factor = 0.15
+				cavalry_speed_factor = 0.05
+			}
+		}
+	
 		WES_law_of_the_king_1 = {
 			
 			picture = WES_test
