@@ -1186,4 +1186,8 @@ spriteTypes = {
 		name = "GFX_goal_WES_step_into_the_pond"
 		texturefile = "gfx/interface/goals/WES/goal_WES_step_into_the_pond.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_WES_the_justice_will_be_done"
+		texturefile = "gfx/interface/goals/WES/goal_WES_the_justice_will_be_done.dds"
+	}
 }

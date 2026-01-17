@@ -1327,7 +1327,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = WES_the_justice_will_be_done
-	icon = GFX_goal_WES_fifteen_minute_cities
+	icon = GFX_goal_WES_the_justice_will_be_done
 	cost = 4.3
 	prerequisite = {
         focus = WES_waste_watch
