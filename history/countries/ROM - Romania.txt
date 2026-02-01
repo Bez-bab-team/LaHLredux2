@@ -22,8 +22,8 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Elisabeta I"
-	picture = "Portrait_ROM_Elisabeta_Maria_of_Romania.dds"
+	name = "Eelaz I"
+	picture = "Portrait_ROM_Eelaz_I.dds"
 	ideology = social_conservatism
 	traits = {
 	}

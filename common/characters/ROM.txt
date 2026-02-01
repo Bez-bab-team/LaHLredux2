@@ -1,9 +1,9 @@
 characters={
 	ROM_elisabeta_i={
-		name="Elisabeta I"
+		name="Eelaz I"
 		portraits={
 			civilian={
-				large="gfx/leaders/ROM/Portrait_ROM_Elisabeta_Maria_of_Romania.dds"
+				large="gfx/leaders/ROM/Portrait_ROM_Eelaz_I.dds"
 			}
 		}
 		country_leader={

@@ -33,7 +33,13 @@ guiTypes = {
 		}
 		
         ##Knights 
-		#1 KING ARTHUR #
+		#1 KING ARTHUR #	
+		iconType = {
+			name = "lhl_test_stuff"
+			spriteType = "GFX_lhl_table_michael_mainelli"
+			pdx_tooltip = "KNIGHT_Michael_Mainelli_PANTLER"
+			position = { x = 513 y = 93 }
+		}		
 	    buttonType = { #George Legitimacy Low
 			name = "lhl_slot_1_george_low_legitimacy"
 			spriteType = "GFX_lhl_george_low_legitimacy"

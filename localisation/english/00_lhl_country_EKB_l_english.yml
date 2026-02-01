@@ -4,9 +4,13 @@
  EKB_andrej_zubov:0 "Andrej Zubov"
  ##POLITICAL PARTIES##
  ##COUNTRY NAME##
- EKB:0 "Jekaterinburg Governorate"
- EKB_DEF:0 "Jekaterinburg Governorate"
- EKB_ADJ:0 "Jekaterinburg"
+ EKB:0 "Ural Republic"
+ EKB_DEF:0 "Ural Republic"
+ EKB_ADJ:0 "Ural Republic"
+ #
+ #EKB:0 "Jekaterinburg Governorate"
+ #EKB_DEF:0 "Jekaterinburg Governorate"
+ #EKB_ADJ:0 "Jekaterinburg"
  ##TRAITS##
  orthodox_humanist:0 "Orthodox Humanist"
  ##IDEAS##
