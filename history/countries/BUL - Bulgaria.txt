@@ -2,7 +2,7 @@ capital = 264
 
 oob = "BUL_2020"
 
-recruit_character = BUL_slavcho_binev
+recruit_character = BUL_rumen_ralchev
 
 set_research_slots = 3
 set_stability = 0.5
