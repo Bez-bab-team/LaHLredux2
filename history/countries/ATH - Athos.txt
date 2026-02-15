@@ -1,7 +1,8 @@
 capital = 282
 oob = "ATH_2020"
 
-recruit_character = ATH_athanasios_martinos
+#recruit_character = ATH_athanasios_martinos
+recruit_character = ATH_stephanos_of_hilandar
 
 set_research_slots = 3
 set_stability = 0.5

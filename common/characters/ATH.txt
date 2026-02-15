@@ -1,9 +1,9 @@
 characters={
-	ATH_athanasios_martinos={
-		name=ATH_athanasios_martinos
+	ATH_stephanos_of_hilandar={
+		name=ATH_stephanos_of_hilandar
 		portraits={
 			civilian={
-				large="gfx/leaders/ATH/Portrait_ATH_Athanasios_Martinos.dds"
+				large="gfx/leaders/ATH/Portrait_ATH_Stephanos_of_Hilandar.dds"
 			}
 		}
 		country_leader={
