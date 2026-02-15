@@ -4,18 +4,12 @@ MRC_debug = {
 	allowed = { original_tag = MRC }
 }
 
-
-
-MRC_army_in_black = {
-	icon = GFX_
-	 visible = {
-            MRC = {
-                has_completed_focus = MRC_luthers_army
-            }
+MRC_TRPG_decision = {
+    icon = x
+    allowed = {
+        tag = MRC
     }
-    available = {
-            MRC = {
-                has_completed_focus = MRC_luthers_army
-            }
-    }
+    visible_when_empty = yes
+    priority = 10
+    scripted_gui = lhl_MRC_TRPG_gui
 }

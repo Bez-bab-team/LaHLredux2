@@ -1,0 +1,84 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_lhl_MRC_TRPG_map"
+		texturefile = "gfx/interface/MRC_TRPG/map.dds"
+	}
+
+	#Point 0
+	spriteType = {
+		name = "GFX_lhl_MRC_TRPG_point_0"
+		texturefile = "gfx/interface/MRC_TRPG/birmingham.dds"
+	}
+
+	#Point 1A
+	spriteType = {
+		name = "GFX_lhl_MRC_TRPG_point_1A_locked"
+		texturefile = "gfx/interface/MRC_TRPG/locked_1A.dds"
+	}
+
+	#Point 1B
+	spriteType = {
+		name = "GFX_lhl_MRC_TRPG_point_1B_locked"
+		texturefile = "gfx/interface/MRC_TRPG/locked_1B.dds"
+	}
+
+	#Point 2A
+	spriteType = {
+		name = "GFX_lhl_MRC_TRPG_point_2A_locked"
+		texturefile = "gfx/interface/MRC_TRPG/locked_2A.dds"
+	}
+
+	#Point 2B
+	spriteType = {
+		name = "GFX_lhl_MRC_TRPG_point_2B_locked"
+		texturefile = "gfx/interface/MRC_TRPG/locked_2B.dds"
+	}
+
+	#Point 3A
+	spriteType = {
+		name = "GFX_lhl_MRC_TRPG_point_3A_locked"
+		texturefile = "gfx/interface/MRC_TRPG/locked_3A.dds"
+	}
+
+	#Point 3B
+	spriteType = {
+		name = "GFX_lhl_MRC_TRPG_point_3B_locked"
+		texturefile = "gfx/interface/MRC_TRPG/locked_3B.dds"
+	}
+
+	#Path 0-1A
+	spriteType = {
+		name = "GFX_lhl_MRC_TRPG_path_0_1A_locked"
+		texturefile = "gfx/interface/MRC_TRPG/locked_0_1A.dds"
+	}
+
+	#Path 0-2A
+	spriteType = {
+		name = "GFX_lhl_MRC_TRPG_path_0_2A_locked"
+		texturefile = "gfx/interface/MRC_TRPG/locked_0_2A.dds"
+	}
+	
+	#Path 0-3A
+	spriteType = {
+		name = "GFX_lhl_MRC_TRPG_path_0_3A_locked"
+		texturefile = "gfx/interface/MRC_TRPG/locked_0_3A.dds"
+	}
+
+	#Path 1A-1B
+	spriteType = {
+		name = "GFX_lhl_MRC_TRPG_path_1A_1B_locked"
+		texturefile = "gfx/interface/MRC_TRPG/locked_1A_1B.dds"
+	}
+
+	#Path 2A-2B
+	spriteType = {
+		name = "GFX_lhl_MRC_TRPG_path_2A_2B_locked"
+		texturefile = "gfx/interface/MRC_TRPG/locked_2A_2B.dds"
+	}
+
+	#Path 3A-3B
+	spriteType = {
+		name = "GFX_lhl_MRC_TRPG_path_3A_3B_locked"
+		texturefile = "gfx/interface/MRC_TRPG/locked_3A_3B.dds"
+	}
+}

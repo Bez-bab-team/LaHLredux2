@@ -1,31 +1,13 @@
 MRC_debug = {
-    MRC_madoka_magica = {
-		cost = 0
-		days_remove = 1
-        complete_effect = {
-            load_focus_tree = MRC_madoka_magica
-		}
-	}
-    MRC_christian = {
-		cost = 0
-		days_remove = 1
-        complete_effect = { 
-		    load_focus_tree = MRC_christian
-		}
-	}
-    MRC_ancient_empire = {
-		cost = 0
-		days_remove = 1
-        complete_effect = { 
-		    load_focus_tree = MRC_ancient_empire
-		}
-	}
-    MRC_anglo_saxons = {
-		cost = 0
-		days_remove = 1
-        complete_effect = { 
-		    load_focus_tree = MRC_anglo_saxons
+    #
+}
+
+
+MRC_TRPG_decision = {
+    MRC_TRPG_test = {
+		icon = x
+		complete_effect = {
+			#
 		}
 	}
 }
-
