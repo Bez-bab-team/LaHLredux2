@@ -1,0 +1,8 @@
+scripted_gui = {
+	lhl_MRC_TRPG_gui = {
+		window_name = lhl_MRC_TRPG_gui
+		context_type = decision_category
+		parent_window_token = decision_tab
+	}
+	
+}

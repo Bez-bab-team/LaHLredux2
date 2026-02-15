@@ -1,0 +1,96 @@
+guiTypes = {
+	containerWindowType = {
+		name = "lhl_MRC_TRPG_gui"
+		size = { width = 500 height = 700 }
+
+		containerWindowType = {
+			name = "map"
+			position = { x = -7 y = 0 }
+			size = { width = 500 height = 400 }
+
+			iconType = {
+				name = "map_background"
+				position = { x = 7 y = 6 }
+				spriteType = "GFX_lhl_MRC_TRPG_map"
+			}
+
+			iconType = {
+				name = "GFX_lhl_MRC_TRPG_path_0_1A"
+				position = { x = 150 y = 180 }
+				spriteType = "GFX_lhl_MRC_TRPG_path_0_1A_locked"
+			}
+
+			iconType = {
+				name = "GFX_lhl_MRC_TRPG_path_0_2A"
+				position = { x = 200 y = 88 }
+				spriteType = "GFX_lhl_MRC_TRPG_path_0_2A_locked"
+			}
+
+			iconType = {
+				name = "GFX_lhl_MRC_TRPG_path_0_3A"
+				position = { x = 203 y = 140 }
+				spriteType = "GFX_lhl_MRC_TRPG_path_0_3A_locked"
+			}
+
+			iconType = {
+				name = "GFX_lhl_MRC_TRPG_path_1A_1B"
+				position = { x = 201 y = 198 }
+				spriteType = "GFX_lhl_MRC_TRPG_path_1A_1B_locked"
+			}
+
+			iconType = {
+				name = "GFX_lhl_MRC_TRPG_path_2A_2B"
+				position = { x = 392 y = 92 }
+				spriteType = "GFX_lhl_MRC_TRPG_path_2A_2B_locked"
+			}
+
+			iconType = {
+				name = "GFX_lhl_MRC_TRPG_path_3A_3B"
+				position = { x = 247 y = 95 }
+				spriteType = "GFX_lhl_MRC_TRPG_path_3A_3B_locked"
+			}
+
+			iconType = {
+				name = "GFX_lhl_MRC_TRPG_point_0"
+				position = { x = 157 y = 207 }
+				spriteType = "GFX_lhl_MRC_TRPG_point_0"
+			}
+
+			iconType = {
+				name = "GFX_lhl_MRC_TRPG_point_1A"
+				position = { x = 143 y = 130 }
+				spriteType = "GFX_lhl_MRC_TRPG_point_1A_locked"
+			}
+
+			iconType = {
+				name = "GFX_lhl_MRC_TRPG_point_1B"
+				position = { x = 282 y = 162 }
+				spriteType = "GFX_lhl_MRC_TRPG_point_1B_locked"
+			}
+
+			iconType = {
+				name = "GFX_lhl_MRC_TRPG_point_2A"
+				position = { x = 407 y = 49 }
+				spriteType = "GFX_lhl_MRC_TRPG_point_2A_locked"
+			}
+
+			iconType = {
+				name = "GFX_lhl_MRC_TRPG_point_2B"
+				position = { x = 435 y = 254 }
+				spriteType = "GFX_lhl_MRC_TRPG_point_2B_locked"
+			}
+
+			iconType = {
+				name = "GFX_lhl_MRC_TRPG_point_3A"
+				position = { x = 260 y = 99 }
+				spriteType = "GFX_lhl_MRC_TRPG_point_3A_locked"
+			}
+
+			iconType = {
+				name = "GFX_lhl_MRC_TRPG_point_3B"
+				position = { x = 241 y = 52 }
+				spriteType = "GFX_lhl_MRC_TRPG_point_3B_locked"
+			}
+		}
+	}	
+}
