@@ -1,7 +1,10 @@
 state={
 	id=1006
 	name="STATE_1006"
-
+	resources={
+		coal=2.000
+	}
+	
 	history={
 		owner = WES
 		add_core_of = WES
@@ -16,8 +19,9 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
-			arms_factory = 2
+			industrial_infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 4
 			5008 = {
 				naval_base = 2
 			}

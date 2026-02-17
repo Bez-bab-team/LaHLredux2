@@ -2,7 +2,9 @@
 state={
 	id=1148
 	name="STATE_1148"
-
+	resources={
+		aluminium=11.000
+	}
 	history={
 		owner = WLS
 		add_core_of = WLS
@@ -20,7 +22,10 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 2
+			industrial_infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
 			17543 = {
 				naval_base = 3
 			}

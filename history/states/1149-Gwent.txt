@@ -2,6 +2,10 @@
 state={
 	id=1149
 	name="STATE_1149"
+	resources={
+		coal=11.000
+		steel=4.000
+	}
 
 	history={
 		owner = WLS
@@ -16,8 +20,9 @@ state={
 			17558 2
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 3
+			infrastructure = 3
+			industrial_complex = 2
+			energy_infrastructure = 1
 			arms_factory = 3
 			air_base = 1
 			10658 = {
