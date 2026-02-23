@@ -59,6 +59,12 @@ guiTypes = {
 		#	position = { x = 513 y = 93 }
 		#}
 		#2 PANTLER #
+	    buttonType = { #Testing Thing
+			name = "lhl_progbar_cooldown"
+			spriteType = "GFX_WES_progbar_cooldown"
+			pdx_tooltip = ""
+			position = { x = 0 y = 0 }
+		}
 		buttonType = {
 			name = "lhl_slot_2_vacant"
 			spriteType = "GFX_lhl_table_opening_picture_default"

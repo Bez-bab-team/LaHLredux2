@@ -29,6 +29,9 @@ scripted_gui = {
 			has_country_flag = lhl_table_opening_screen_open
 			tag = WES
 		}
+		properties = {
+			lhl_progbar_cooldown = { frame = WES_cooldown_var }
+		}
 		### Buttons ###
 		triggers = {
 			#1
