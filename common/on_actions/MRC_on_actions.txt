@@ -1,4 +1,13 @@
 on_actions = {
+
+	on_startup = {
+		effect = {
+			MRC = {
+				MRC_rogue_land_effect = yes
+			}
+		}
+	}
+
     on_capitulation = {
 	    effect = {
 		    if = {

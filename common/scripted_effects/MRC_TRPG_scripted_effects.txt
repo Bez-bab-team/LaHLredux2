@@ -1,0 +1,158 @@
+MRC_rogue_land_effect = {
+	#This is to apply rogue land dynmod to MRC states at the start of the game.
+	every_controlled_state = {
+		limit = {
+			NOT = {
+				state = 1154
+			}
+		}
+		add_dynamic_modifier = {
+			modifier = MRC_rogue_land_mod
+		}
+	}
+}
+
+MRC_initial_trpg = {
+	clear_array = MRC_point_control
+
+	add_to_array = { MRC_point_control = 0 }
+	resize_array = { MRC_point_control = 6 }
+
+	#As it says, this array controls the status of the point along with the path
+	#attached to it
+	#Status: 0=locked 1=active 2=completed
+	#Index: 0=1A 1=1B 2=2A 3=2B 4=3A 5=3B
+	#(Currently I'm setting 1A and 1B to active, and the rest to locked)
+	set_variable = { MRC_point_control^0 = 1 }
+	set_variable = { MRC_point_control^1 = 1 }
+
+	#This is the variable used to call out the decision related to the points. If set to any value other than 0-5, no point-related decisions could be shown.
+	set_variable = { MRC_point_selection = 6 }
+
+	clear_array = MRC_pearce_stat
+	clear_array = MRC_moynihan_stat
+	clear_array = MRC_tibet_stat
+	clear_array = MRC_balance_stat
+
+	add_to_array = { MRC_pearce_stat = 0 }
+	resize_array = { MRC_pearce_stat = 4 }
+	add_to_array = { MRC_moynihan_stat = 0 }
+	resize_array = { MRC_moynihan_stat = 4 }
+	add_to_array = { MRC_tibet_stat = 0 }
+	resize_array = { MRC_tibet_stat = 4 }
+	add_to_array = { MRC_balance_stat = 0 }
+	resize_array = { MRC_balance_stat = 4 }
+
+	#These arries control the stat levels of each of the four characters
+	#Index: 0=Kingship 1=Warfare 2=Crafting 3=Charisma
+	set_variable = { MRC_pearce_stat^0 = 1 }
+	set_variable = { MRC_pearce_stat^1 = 1 }
+	set_variable = { MRC_pearce_stat^2 = 2 }
+	set_variable = { MRC_pearce_stat^3 = 3 }
+
+	set_variable = { MRC_moynihan_stat^0 = 2 }
+	set_variable = { MRC_moynihan_stat^1 = 3 }
+	set_variable = { MRC_moynihan_stat^2 = 1 }
+	set_variable = { MRC_moynihan_stat^3 = 1 }
+
+	set_variable = { MRC_tibet_stat^0 = 3 }
+	set_variable = { MRC_tibet_stat^1 = 1 }
+	set_variable = { MRC_tibet_stat^2 = 1 }
+	set_variable = { MRC_tibet_stat^3 = 2 }
+
+	set_variable = { MRC_balance_stat^0 = 1 }
+	set_variable = { MRC_balance_stat^1 = 2 }
+	set_variable = { MRC_balance_stat^2 = 3 }
+	set_variable = { MRC_balance_stat^3 = 1 }
+
+	#This is the flag to call out the TRPG decision category
+	set_country_flag = MRC_trpg_enabled
+}
+
+# We define the player index as 0=Pearce 1=Moynihan 2=Tibet 3=Balance
+# This dice effect sets up the "success point" to be used in flow controls
+# The dice effect should be loaded via this way:
+# set_temp_variable = { MRC_player_val = PLAYER_INDEX }
+# set_temp_variable = { MRC_player_stat = STAT_INDEX }
+# MRC_TRPG_dice = yes
+# For example, if Pearce is to roll a charisma dice, then:
+# set_temp_variable = { MRC_player_val = 0 }
+# set_temp_variable = { MRC_player_stat = 3 }
+# MRC_TRPG_dice = yes
+# The success point shall be saved in a temp variable, dice_result, as a number:
+# 0=Crit. Fail 1=Fail 2=Success 3=Crit. Success
+
+MRC_TRPG_dice = {
+	#Define a basic 1d20 dice
+	set_temp_variable = { dice_min = 1 }
+	set_temp_variable = { dice_max = 21 } #Must be larger than the largest number you want to have
+
+	#Define the player to roll the dice
+	set_temp_variable = { dice_player = MRC_player_val }
+	set_temp_variable = { dice_type = MRC_player_stat }
+
+	#Now modifier the dice according to the stat
+	meta_effect = {
+		text = {
+			set_temp_variable = { dice_mod = MRC_[GET_DICE_PLAYER]_stat^dice_type }
+		}
+		GET_DICE_PLAYER = "[MRC_TRPG_dice_player]"
+	}
+
+	#PLACEHOLDER FOR OTHER MODIFIERS
+
+	add_to_temp_variable = { dice_min = dice_mod }
+	add_to_temp_variable = { dice_max = dice_mod }
+
+	#Now rolls it
+	set_temp_variable_to_random = {
+    	var = dice_result
+    	max = dice_max
+		min = dice_min
+    	integer = yes
+	}
+
+	clamp_temp_variable = {
+		var = dice_result
+		min = 1
+		max = 20
+	}
+
+	set_temp_variable = { dice_remainder = dice_result }
+	modulo_temp_variable = { dice_remainder = 5 }
+	if = {
+		limit = {
+			check_variable = { dice_remainder = 0 }
+		}
+		add_to_temp_variable = { dice_remainder = 5 }
+	}
+	subtract_from_temp_variable = { dice_result = dice_remainder }
+	divide_temp_variable = { dice_result = 5 }
+}
+
+MRC_TRPG_dice_result_generic_event = {
+	if = {
+		limit = {
+			check_variable = { dice_result = 0 }
+		}
+		country_event = MRC_TRPG_dice.1
+	}
+	else_if = {
+		limit = {
+			check_variable = { dice_result = 1 }
+		}
+		country_event = MRC_TRPG_dice.2
+	}
+	else_if = {
+		limit = {
+			check_variable = { dice_result = 2 }
+		}
+		country_event = MRC_TRPG_dice.3
+	}
+	else_if = {
+		limit = {
+			check_variable = { dice_result = 3 }
+		}
+		country_event = MRC_TRPG_dice.4
+	}
+}

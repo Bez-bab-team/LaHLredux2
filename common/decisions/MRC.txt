@@ -1,13 +1,59 @@
 MRC_debug = {
-    #
+    MRC_TRPG_debug = {
+		icon = x
+		complete_effect = {
+			MRC_initial_trpg = yes
+		}
+	}
+
+	MRC_TRPG_dice_test = {
+		icon = x
+		available = {
+			has_country_flag = MRC_trpg_enabled
+		}
+		complete_effect = {
+			country_event = MRC_TRPG.1
+		}
+	}
 }
 
 
 MRC_TRPG_decision = {
-    MRC_TRPG_test = {
+    MRC_TRPG_1A = {
 		icon = x
+		visible = {
+			check_variable = { MRC_point_selection = 0 }
+		}
+		available = {
+			divisions_in_state = {
+   				size > 0
+   				state = 1151
+			}
+			has_equipment = {
+				infantry_equipment > 99
+			}
+		}
+		days_remove = 7
 		complete_effect = {
-			#
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -100
+			}
+		}
+		remove_effect = {
+			1151 = {
+				remove_dynamic_modifier = { modifier = MRC_rogue_land_mod }
+			}
+		}
+	}
+
+	MRC_TRPG_1B = {
+		icon = x
+		visible = {
+			check_variable = { MRC_point_selection = 1 }
+		}
+		complete_effect = {
+			
 		}
 	}
 }

@@ -63,6 +63,34 @@
  bae_systems_radway_green_organization:0 "BAE Systems Radway Green"
  bae_systems_waddington_organization:0 "BAE Systems Waddington"
  rolls_royce_leeds_organization:0 "Rolls Royce Leeds"
+
+ MRC_rogue_land_mod:0 "Rogue Land"
+
+ ##TRPG##
+ MRC_TRPG_1A:0 "Cleanse Stoke-on-Trent"
+ MRC_TRPG_1A_desc:0 "Lorem ipsum"
+
+ MRC_TRPG_dice.1.t:0 "Critical Fail"
+ MRC_TRPG_dice.1.d:0 ""
+ MRC_TRPG_dice.1.a:0 "We are fucked"
+
+ MRC_TRPG_dice.2.t:0 "Fail"
+ MRC_TRPG_dice.2.d:0 ""
+ MRC_TRPG_dice.2.a:0 "Such is destiny"
+
+ MRC_TRPG_dice.3.t:0 "Success"
+ MRC_TRPG_dice.3.d:0 ""
+ MRC_TRPG_dice.3.a:0 "Not bad"
+
+ MRC_TRPG_dice.4.t:0 "Critical Success"
+ MRC_TRPG_dice.4.d:0 ""
+ MRC_TRPG_dice.4.a:0 "I'm feeling hungry"
+
+ MRC_TRPG.1.t:0 "Dice Test"
+ MRC_TRPG.1.d:0 "Run a charisma dice on Balance"
+ MRC_TRPG.1.a:0 "Let's see..."
+
+
  ##FOCUS TREES##
  MRC_the_calling:0 "The Calling"
  MRC_the_calling_desc:0 ""

@@ -5,7 +5,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "map"
-			position = { x = -7 y = 0 }
+			position = { x = -8 y = 0 }
 			size = { width = 500 height = 400 }
 
 			iconType = {
@@ -50,43 +50,43 @@ guiTypes = {
 				spriteType = "GFX_lhl_MRC_TRPG_path_3A_3B_locked"
 			}
 
-			iconType = {
+			buttonType = {
 				name = "GFX_lhl_MRC_TRPG_point_0"
 				position = { x = 157 y = 207 }
 				spriteType = "GFX_lhl_MRC_TRPG_point_0"
 			}
 
-			iconType = {
+			buttonType = {
 				name = "GFX_lhl_MRC_TRPG_point_1A"
 				position = { x = 143 y = 130 }
 				spriteType = "GFX_lhl_MRC_TRPG_point_1A_locked"
 			}
 
-			iconType = {
+			buttonType = {
 				name = "GFX_lhl_MRC_TRPG_point_1B"
 				position = { x = 282 y = 162 }
 				spriteType = "GFX_lhl_MRC_TRPG_point_1B_locked"
 			}
 
-			iconType = {
+			buttonType = {
 				name = "GFX_lhl_MRC_TRPG_point_2A"
 				position = { x = 407 y = 49 }
 				spriteType = "GFX_lhl_MRC_TRPG_point_2A_locked"
 			}
 
-			iconType = {
+			buttonType = {
 				name = "GFX_lhl_MRC_TRPG_point_2B"
 				position = { x = 435 y = 254 }
 				spriteType = "GFX_lhl_MRC_TRPG_point_2B_locked"
 			}
 
-			iconType = {
+			buttonType = {
 				name = "GFX_lhl_MRC_TRPG_point_3A"
 				position = { x = 260 y = 99 }
 				spriteType = "GFX_lhl_MRC_TRPG_point_3A_locked"
 			}
 
-			iconType = {
+			buttonType = {
 				name = "GFX_lhl_MRC_TRPG_point_3B"
 				position = { x = 241 y = 52 }
 				spriteType = "GFX_lhl_MRC_TRPG_point_3B_locked"

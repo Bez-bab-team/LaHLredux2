@@ -15,11 +15,27 @@ spriteTypes = {
 		name = "GFX_lhl_MRC_TRPG_point_1A_locked"
 		texturefile = "gfx/interface/MRC_TRPG/locked_1A.dds"
 	}
+	spriteType = {
+		name = "GFX_lhl_MRC_TRPG_point_1A_active"
+		texturefile = "gfx/interface/MRC_TRPG/active_1A.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_MRC_TRPG_point_1A_completed"
+		texturefile = "gfx/interface/MRC_TRPG/completed_1A.dds"
+	}
 
 	#Point 1B
 	spriteType = {
 		name = "GFX_lhl_MRC_TRPG_point_1B_locked"
 		texturefile = "gfx/interface/MRC_TRPG/locked_1B.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_MRC_TRPG_point_1B_active"
+		texturefile = "gfx/interface/MRC_TRPG/active_1B.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_MRC_TRPG_point_1B_completed"
+		texturefile = "gfx/interface/MRC_TRPG/completed_1B.dds"
 	}
 
 	#Point 2A
@@ -51,6 +67,14 @@ spriteTypes = {
 		name = "GFX_lhl_MRC_TRPG_path_0_1A_locked"
 		texturefile = "gfx/interface/MRC_TRPG/locked_0_1A.dds"
 	}
+	spriteType = {
+		name = "GFX_lhl_MRC_TRPG_path_0_1A_active"
+		texturefile = "gfx/interface/MRC_TRPG/active_0_1A.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_MRC_TRPG_path_0_1A_completed"
+		texturefile = "gfx/interface/MRC_TRPG/completed_0_1A.dds"
+	}
 
 	#Path 0-2A
 	spriteType = {
@@ -68,6 +92,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_lhl_MRC_TRPG_path_1A_1B_locked"
 		texturefile = "gfx/interface/MRC_TRPG/locked_1A_1B.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_MRC_TRPG_path_1A_1B_active"
+		texturefile = "gfx/interface/MRC_TRPG/active_1A_1B.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_MRC_TRPG_path_1A_1B_completed"
+		texturefile = "gfx/interface/MRC_TRPG/completed_1A_1B.dds"
 	}
 
 	#Path 2A-2B

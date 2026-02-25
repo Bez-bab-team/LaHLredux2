@@ -2,14 +2,17 @@ MRC_debug = {
 	icon = GFX
 	picture = GFX
 	allowed = { original_tag = MRC }
+    priority = 10
 }
 
 MRC_TRPG_decision = {
     icon = x
     allowed = {
-        tag = MRC
+        original_tag = MRC
+    }
+    visible = {
+        has_country_flag = MRC_trpg_enabled
     }
     visible_when_empty = yes
-    priority = 10
     scripted_gui = lhl_MRC_TRPG_gui
 }

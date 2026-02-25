@@ -1,0 +1,108 @@
+defined_text = {
+	name = MRC_TRPG_point_1A
+
+	text = {
+		trigger = {
+			check_variable = { MRC_point_control^0 = 2 }
+		}
+		localization_key = "GFX_lhl_MRC_TRPG_point_1A_completed"
+	}
+	text = {
+		trigger = {
+			check_variable = { MRC_point_control^0 = 1 }
+		}
+		localization_key = "GFX_lhl_MRC_TRPG_point_1A_active"
+	}
+	text = {
+		localization_key = "GFX_lhl_MRC_TRPG_point_1A_locked"
+	}
+}
+
+defined_text = {
+	name = MRC_TRPG_path_0_1A
+
+	text = {
+		trigger = {
+			check_variable = { MRC_point_control^0 = 2 }
+		}
+		localization_key = "GFX_lhl_MRC_TRPG_path_0_1A_completed"
+	}
+	text = {
+		trigger = {
+			check_variable = { MRC_point_control^0 = 1 }
+		}
+		localization_key = "GFX_lhl_MRC_TRPG_path_0_1A_active"
+	}
+	text = {
+		localization_key = "GFX_lhl_MRC_TRPG_path_0_1A_locked"
+	}
+}
+
+defined_text = {
+	name = MRC_TRPG_point_1B
+
+	text = {
+		trigger = {
+			check_variable = { MRC_point_control^1 = 2 }
+		}
+		localization_key = "GFX_lhl_MRC_TRPG_point_1B_completed"
+	}
+	text = {
+		trigger = {
+			check_variable = { MRC_point_control^1 = 1 }
+		}
+		localization_key = "GFX_lhl_MRC_TRPG_point_1B_active"
+	}
+	text = {
+		localization_key = "GFX_lhl_MRC_TRPG_point_1B_locked"
+	}
+}
+
+defined_text = {
+	name = MRC_TRPG_path_1A_1B
+
+	text = {
+		trigger = {
+			check_variable = { MRC_point_control^1 = 2 }
+		}
+		localization_key = "GFX_lhl_MRC_TRPG_path_1A_1B_completed"
+	}
+	text = {
+		trigger = {
+			check_variable = { MRC_point_control^1 = 1 }
+		}
+		localization_key = "GFX_lhl_MRC_TRPG_path_1A_1B_active"
+	}
+	text = {
+		localization_key = "GFX_lhl_MRC_TRPG_path_1A_1B_locked"
+	}
+}
+
+defined_text = {
+	name = MRC_TRPG_dice_player
+
+	text = {
+		trigger = {
+			check_variable = { dice_player = 0 }
+		}
+		localization_key = "pearce"
+	}
+	text = {
+		trigger = {
+			check_variable = { dice_player = 1 }
+		}
+		localization_key = "moynihan"
+	}
+	text = {
+		trigger = {
+			check_variable = { dice_player = 2 }
+		}
+		localization_key = "tibet"
+	}
+	text = {
+		trigger = {
+			check_variable = { dice_player = 3 }
+		}
+		localization_key = "balance"
+	}
+}

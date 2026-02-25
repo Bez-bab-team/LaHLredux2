@@ -3,6 +3,39 @@ scripted_gui = {
 		window_name = lhl_MRC_TRPG_gui
 		context_type = decision_category
 		parent_window_token = decision_tab
+
+		properties = {
+			GFX_lhl_MRC_TRPG_point_1A = {
+				image = "[MRC_TRPG_point_1A]"
+			}
+			GFX_lhl_MRC_TRPG_path_0_1A = {
+				image = "[MRC_TRPG_path_0_1A]"
+			}
+			GFX_lhl_MRC_TRPG_point_1B = {
+				image = "[MRC_TRPG_point_1B]"
+			}
+			GFX_lhl_MRC_TRPG_path_1A_1B = {
+				image = "[MRC_TRPG_path_1A_1B]"
+			}
+		}
+
+		effects = {
+			GFX_lhl_MRC_TRPG_point_1A_click = {
+				if = {
+					limit = {
+						check_variable = { MRC_point_control^0 = 1 }
+					}
+					set_variable = { MRC_point_selection = 0 }
+				}
+			}
+			GFX_lhl_MRC_TRPG_point_1B_click = {
+				if = {
+					limit = {
+						check_variable = { MRC_point_control^1 = 1 }
+					}
+					set_variable = { MRC_point_selection = 1 }
+				}
+			}
+		}
 	}
-	
 }
