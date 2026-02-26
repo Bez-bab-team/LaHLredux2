@@ -1879,6 +1879,14 @@ country_event = {
 			remove_idea = lhl_regime_provisional_government
 			add_idea = lhl_regime_anarchy
 		}
+		hidden_effect = {
+			EAG = {
+				country_event = {
+					days = 10
+					id = EAG_event.250
+				}
+			}
+		}
 		
     }
 	
@@ -8661,3 +8669,15 @@ country_event = { #To someone who dare to bomb Thatcher's statue
     }
 }
 
+# Power to council
+country_event = { 
+	id = EAG_event.250
+	title = EAG_event.250.t
+	desc = EAG_event.250.d
+	is_triggered_only = yes	
+	option = {
+		name = EAG_event.250.a
+		set_country_flag = EAG_commune_mechanic_activated
+		custom_effect_tooltip = EAG_congress_of_communes_created_tt
+    }
+}
