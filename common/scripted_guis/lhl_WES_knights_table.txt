@@ -30,7 +30,7 @@ scripted_gui = {
 			tag = WES
 		}
 		properties = {
-			lhl_progbar_cooldown = { frame = WES_cooldown_var }
+			lhl_cooldown_1 = { frame = WES_cooldown_var }
 		}
 		### Buttons ###
 		triggers = {

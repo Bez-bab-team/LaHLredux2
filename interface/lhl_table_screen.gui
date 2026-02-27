@@ -33,13 +33,7 @@ guiTypes = {
 		}
 		
         ##Knights 
-		#1 KING ARTHUR #	
-		iconType = {
-			name = "lhl_test_stuff"
-			spriteType = "GFX_lhl_table_michael_mainelli"
-			pdx_tooltip = "KNIGHT_Michael_Mainelli_PANTLER"
-			position = { x = 513 y = 93 }
-		}		
+		#1 KING ARTHUR #			
 	    buttonType = { #George Legitimacy Low
 			name = "lhl_slot_1_george_low_legitimacy"
 			spriteType = "GFX_lhl_george_low_legitimacy"
@@ -58,6 +52,12 @@ guiTypes = {
 		#	pdx_tooltip = "KNIGHT_GEORGE_DEAD"
 		#	position = { x = 513 y = 93 }
 		#}
+		iconType = {
+			name = "lhl_cooldown_1"
+			spriteType = "GFX_WES_progbar_cooldown"
+			pdx_tooltip = ""
+			position = { x = 513 y = 93 }
+		}
 		#2 PANTLER #
 	    buttonType = { #Testing Thing
 			name = "lhl_progbar_cooldown"

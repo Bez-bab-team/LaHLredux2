@@ -183,7 +183,7 @@ spriteTypes = {
 		name = "GFX_WES_progbar_cooldown"
 		texturefile1 = "gfx/interface/knights_table/lhl_cooldown.dds"
 		texturefile2 = "gfx/interface/blank.dds"
-		size = { x = 83 y = 16 }
+		size = { x = 83 y = 112 }
 		effectfile = "gfx/FX/progress.lua"
 		horizontal = no	
 	}
