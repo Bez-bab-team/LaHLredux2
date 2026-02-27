@@ -755,6 +755,13 @@
 		completion_reward = {
 			add_ideas = KNT_protection_of_patents
 			add_political_power = 50
+			
+			KNT = {
+				country_event = {
+					days = 1
+					id = KNT_event.194
+				}
+			}
 		}
 		x = 17
 		y = 10
@@ -3210,6 +3217,89 @@
 		y = 10
 	}
 	shared_focus = {
+		id = KNT_no_mercy
+		icon = GFX_
+		cost = 4.3
+		allow_branch = {
+			has_country_flag = KNT_sabotage_republicans
+		}
+		prerequisite = {
+			focus = KNT_an_unwilling_alliance
+		}
+		completion_reward = {
+			# Add later
+		}
+		x = 27
+		y = 9
+	}
+	shared_focus = {
+		id = KNT_unleash_the_partisans
+		icon = GFX_
+		cost = 4.3
+		prerequisite = {
+			focus = KNT_no_mercy
+		}
+		completion_reward = {
+			# Add later
+		}
+		x = 25
+		y = 10
+	}
+	shared_focus = {
+		id = KNT_terrors_of_the_new_age
+		icon = GFX_
+		cost = 4.3
+		prerequisite = {
+			focus = KNT_no_mercy
+		}
+		completion_reward = {
+			# Add later
+		}
+		x = 27
+		y = 10
+	}
+	shared_focus = {
+		id = KNT_the_tory_line
+		icon = GFX_
+		cost = 4.3
+		prerequisite = {
+			focus = KNT_no_mercy
+		}
+		completion_reward = {
+			# Add later
+		}
+		x = 29
+		y = 10
+	}
+	shared_focus = {
+		id = KNT_the_runaways
+		icon = GFX_
+		cost = 4.3
+		prerequisite = {
+			focus = KNT_unleash_the_partisans
+			focus = KNT_terrors_of_the_new_age
+		}
+		completion_reward = {
+			# Add later
+		}
+		x = 26
+		y = 11
+	}
+	shared_focus = {
+		id = KNT_railway_warfare
+		icon = GFX_
+		cost = 4.3
+		prerequisite = {
+			focus = KNT_the_tory_line
+			focus = KNT_terrors_of_the_new_age
+		}
+		completion_reward = {
+			# Add later
+		}
+		x = 28
+		y = 11
+	}
+	shared_focus = {
 		id = KNT_it's_treason_then
 		icon = GFX_goal_KNT_it's_treason_then
 		cost = 4.3
@@ -3222,6 +3312,13 @@
 			#
 			focus = KNT_barbarism_vs_civilization
 			focus = KNT_traditional_leap_forward
+			#
+			focus = KNT_railway_warfare
+			focus = KNT_the_runaways
+		}
+		prerequisite = {
+		
+			
 		}
 		completion_reward = {
 			custom_effect_tooltip = KNT_its_treason_then.tt

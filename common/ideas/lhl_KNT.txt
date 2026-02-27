@@ -2940,6 +2940,77 @@ ideas = {
 			}
 		}
 	}
+	
+	country = {
+		KNT_lady_luck = {
+		
+			picture = GFX_
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1 
+			
+			modifier = {
+                monthly_population = 0.02
+            }
+		}
+	}
+	
+	country = {
+		KNT_energe_tea = {
+		
+			picture = GFX_
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1 
+			
+			modifier = {
+                production_factory_efficiency_gain_factor = 0.05
+				production_factory_max_efficiency_factor = -0.02
+            }
+		}
+	}
+	
+	country = {
+		KNT_flying_firemen = {
+		
+			picture = GFX_
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1 
+			
+			modifier = {
+				industry_repair_factor = 0.1
+				repair_speed_arms_factory_factor = 0.1
+            }
+		}
+	}
+	
+	country = {
+		KNT_dynosphere_mayhem = {
+		
+			picture = GFX_
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1 
+			
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.05
+            }
+		}
+	}
 ###EDUCATION##
 	hidden_ideas = {	
 		KNT_trad_education = {
