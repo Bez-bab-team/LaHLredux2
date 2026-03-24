@@ -61,9 +61,6 @@ bookmarks={
 				#
 			}
 			focuses = {
-				MRC_the_calling
-				MRC_little_black_angel
-				MRC_runes_and_men
 			}
 		}
 		NTH = {
