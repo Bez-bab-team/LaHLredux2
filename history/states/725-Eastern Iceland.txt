@@ -4,11 +4,14 @@ state={
 	provinces={
 		231 2712 6125 8546 9323 10027 
 	}
-	manpower=1
+	manpower=58678
 	buildings_max_level_factor=1.000
-    state_category=pastoral
+    state_category=rural
 	history={
 		owner = ICE
 		add_core_of = ICE
+		victory_points = {
+			231 2
+		}
 	}
 }

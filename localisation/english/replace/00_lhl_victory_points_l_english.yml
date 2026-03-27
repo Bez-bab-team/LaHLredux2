@@ -212,7 +212,12 @@
  VICTORY_POINTS_7825_NTH:0 "Harclay"
  VICTORY_POINTS_10418_NTH:0 "Blakeborough"
  VICTORY_POINTS_5183_NTH:0 "Pengwern"
-
+ 
+ ###EUROPE###
+ ##Scandinavia##
+ #Iceland#
+ VICTORY_POINTS_10037:0 "Reykjavík"
+ VICTORY_POINTS_231:0 "Akureyri"
  ###Greece###
  
  
