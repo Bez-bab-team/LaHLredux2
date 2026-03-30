@@ -10,6 +10,9 @@ state={
 	history={
 		owner = ICE
 		add_core_of = ICE
+		buildings = {
+			energy_infrastructure = 1
+		}
 		victory_points = {
 			231 2
 		}
