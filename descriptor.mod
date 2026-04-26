@@ -69,4 +69,4 @@ tags={
 	"Map"
 }
 name="LaHLredux"
-supported_version="1.17.*"
+supported_version="1.18.*"
