@@ -1,0 +1,37 @@
+focus_tree = {
+	id = NTH_according_to_plan
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+    shared_focus = NTH_according_to_plan
+    shared_focus = NTH_the_glorious_republican_army
+    shared_focus = NTH_the_reclamation_campaign
+    shared_focus = NTH_a_friend_in_need
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = NTH
+		}
+	}
+}
+
+focus_tree = {
+	id = NTH_after_galloway
+	default = no
+	continuous_focus_position = { x = 200 y = 4000 }
+    	shared_focus = NTH_the_shoutout
+	shared_focus = NTH_according_to_plan
+    	shared_focus = NTH_the_glorious_republican_army
+	shared_focus = NTH_the_reclamation_campaign
+	shared_focus = NTH_a_friend_in_need
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = NTH
+		}
+	}
+}
+
+
+

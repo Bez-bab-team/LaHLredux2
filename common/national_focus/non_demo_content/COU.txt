@@ -1,0 +1,485 @@
+focus_tree = {
+	id = couban
+
+	default = no
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = COU
+		}
+	}
+	
+	continuous_focus_position = { x = 400	y = 2000 }
+
+	focus = {
+		id = COU_in_god_we_trust
+		icon = GFX_goal_generic_position_armies
+		x = 7
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	focus = {
+		id = COU_crimson_banners
+		icon = GFX_goal_generic_position_armies
+		x = -3
+		y = 1
+		prerequisite = { focus = COU_in_god_we_trust }
+		cost = 1
+		relative_position_id = COU_in_god_we_trust
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = COU_personal_synod
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = COU_in_god_we_trust }
+		cost = 1
+		relative_position_id = COU_in_god_we_trust
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = COU_scarlet_rivers
+		icon = GFX_goal_generic_position_armies
+		x = 3
+		y = 1
+		prerequisite = { focus = COU_in_god_we_trust }		
+		cost = 1
+		relative_position_id = COU_in_god_we_trust
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = COU_rites_for_supplies
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = COU_personal_synod }	
+		cost = 1
+		relative_position_id = COU_personal_synod
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = COU_sinful_friendship
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = COU_personal_synod }	
+		cost = 1
+		relative_position_id = COU_personal_synod
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = COU_steel_peasants_of_kuban
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 2
+		prerequisite = { focus = COU_crimson_banners }	
+		cost = 1
+		relative_position_id = COU_crimson_banners
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = COU_no_more_rides
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 2
+		prerequisite = { focus = COU_crimson_banners }		
+		cost = 1
+		relative_position_id = COU_crimson_banners
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = COU_pipe_the_barrel
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = COU_steel_peasants_of_kuban }		
+		cost = 1
+		relative_position_id = COU_steel_peasants_of_kuban
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}	
+	focus = {
+		id = COU_null_the_taximeter
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = COU_no_more_rides }
+		
+		cost = 1
+		relative_position_id = COU_no_more_rides
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = COU_squatterhouses
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 2
+		prerequisite = { focus = COU_scarlet_rivers}
+					
+		cost = 1
+		relative_position_id = COU_scarlet_rivers
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}				
+	focus = {
+		id = COU_endless_estuaries
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 2
+		prerequisite = { focus = COU_scarlet_rivers}
+					
+		cost = 1
+		relative_position_id = COU_scarlet_rivers
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}				
+	focus = {
+		id = COU_narrow_the_gauges
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = COU_squatterhouses }	
+		cost = 1
+		relative_position_id = COU_squatterhouses
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		 mutually_exclusive = { 
+		
+		 }
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+				focus = {
+		id = COU_hiking_trails
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = COU_endless_estuaries}
+					
+		cost = 1
+		relative_position_id = COU_endless_estuaries
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}	
+focus = {				
+		id = COU_legitimacy
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 4
+		prerequisite = { focus = COU_hiking_trails}
+		prerequisite = { focus = COU_narrow_the_gauges}
+		prerequisite = { focus = COU_null_the_taximeter}
+		prerequisite = { focus = COU_sinful_friendship}
+		prerequisite = { focus = COU_rites_for_supplies}
+		prerequisite = { focus = COU_pipe_the_barrel}
+					
+		cost = 1
+		relative_position_id = COU_personal_synod
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}		
+focus = {				
+		id = COU_no_wonders
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = COU_legitimacy}
+					
+		cost = 1
+		relative_position_id = COU_legitimacy
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}					
+				focus = {				
+		id = COU_humiliate_the_pride
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = COU_legitimacy}
+					
+		cost = 1
+		relative_position_id = COU_legitimacy
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}					
+focus = {				
+		id = COU_from_sorrows_to_prays
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = COU_no_wonders}
+					
+		cost = 1
+		relative_position_id = COU_no_wonders
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}		
+focus = {				
+		id = COU_mundane_is_temporal
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = COU_humiliate_the_pride}
+					
+		cost = 1
+		relative_position_id = COU_humiliate_the_pride
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}		
+focus = {				
+		id = COU_know_your_place
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 3
+		prerequisite = { focus = COU_mundane_is_temporal}
+		prerequisite = { focus = COU_from_sorrows_to_prays}
+		cost = 1
+		relative_position_id = COU_legitimacy
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}		

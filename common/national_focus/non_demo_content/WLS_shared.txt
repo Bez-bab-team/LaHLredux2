@@ -1,0 +1,1907 @@
+	shared_focus = {
+		id = WLS_five_years_of_independence
+		icon = GFX_goal_WLS_five_years_of_independence
+		cost = 4.3
+		completion_reward = {
+		WLS = {
+			country_event = {
+				days = 4
+				id = WLS_event.4
+			}
+		}
+		add_ideas = WLS_Indepenpent_state
+		}
+		
+		x = 30
+		y = 0
+	}
+	shared_focus = {
+		id = WLS_order_on_streets
+		icon = GFX_goal_WLS_order_on_streets
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_five_years_of_independence
+		}
+		completion_reward = {
+		division_template = {
+			name = "Military Firm"
+			division_names_group = EAG_INF_02
+
+			regiments = {
+				infantry = { x = 0 y = 0 }	
+				infantry = { x = 0 y = 1 }
+				infantry = { x = 0 y = 2 }	
+				infantry = { x = 0 y = 3 }
+				infantry = { x = 1 y = 0 }
+				infantry = { x = 1 y = 1 }
+			}
+		}
+		random_owned_controlled_state = {
+			create_unit = {
+				division = "name = \"'The Little Lamb' PMC\" division_template = \"Military Firm\" start_experience_factor = 1.8 start_equipment_factor = 0.9"
+					
+				owner = WLS
+			}
+		}
+		}
+		x = 29
+		y = 1
+	}
+	shared_focus = {
+		id = WLS_question_of_unions
+		icon = GFX_goal_WLS_question_of_unions
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_order_on_streets
+		}
+		completion_reward = {
+		WLS = {
+			country_event = {
+				days = 4
+				id = WLS_event.5
+			}
+		}
+		}
+		x = 29
+		y = 2
+	}
+	shared_focus = {
+		id = WLS_ambush_on_smugglers
+		icon = GFX_goal_WLS_ambush_on_smugglers
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_question_of_unions
+		}
+		completion_reward = {
+		WLS = {
+			country_event = {
+				days = 4
+				id = WLS_event.6
+			}
+		}
+		}
+		x = 29
+		y = 3
+	}
+	shared_focus = {
+		id = WLS_army_unrest
+		icon = GFX_goal_WLS_army_unrest
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_ambush_on_smugglers
+		}
+		x = 29
+		y = 4
+	}
+	shared_focus = {
+		id = WLS_strict_border
+		icon = GFX_goal_WLS_strict_border
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_army_unrest
+		}
+		x = 29
+		y = 5
+	}
+	shared_focus = {
+		id = WLS_new_budget_plan
+		icon = GFX_goal_WLS_new_budget_plan
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_five_years_of_independence
+		}
+		completion_reward = {
+		add_political_power = 125
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 2
+			category = industry
+		}
+	}
+		x = 31
+		y = 1
+	}
+	shared_focus = {
+		id = WLS_we_need_money
+		icon = GFX_goal_WLS_we_need_money
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_new_budget_plan
+		}
+		completion_reward = {
+		add_timed_idea = {
+			idea = WLS_negativly_descending_taxes
+			days = 365
+		}
+	}
+		x = 31
+		y = 2
+	}
+	shared_focus = {
+		id = WLS_welsh_pastures
+		icon = GFX_goal_WLS_welsh_pastures
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_we_need_money
+		}
+		completion_reward = {
+			1149 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			1149 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			1148 = { 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			1150 = { 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			1147 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		x = 31
+		y = 3
+	}
+	shared_focus = {
+		id = WLS_minin_away
+		icon = GFX_goal_WLS_minin_away
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_welsh_pastures
+		}
+		completion_reward = {
+		add_resource = {
+			type = steel
+			amount = 12
+			state = 1147
+			}
+		}
+		x = 31
+		y = 4
+	}
+	shared_focus = {
+		id = WLS_fill_storages
+		icon = GFX_goal_WLS_fill_storages
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_minin_away
+		}
+		completion_reward = {
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 3500
+			producer = WLS
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 250
+			producer = WLS
+		}
+	}
+		x = 31
+		y = 5
+	}
+	shared_focus = {
+		id = WLS_results
+		icon = GFX_goal_WLS_results
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_fill_storages
+		}
+		prerequisite = {
+			focus = WLS_strict_border
+		}
+		x = 30
+		y = 6
+	}
+	shared_focus = {
+		id = WLS_vote_or_lose
+		icon = GFX_goal_WLS_vote_or_lose
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_results
+		}
+		x = 30
+		y = 7
+	}
+	shared_focus = {
+		id = WLS_welsh_labourism
+		icon = GFX_goal_WLS_welsh_labourism
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_vote_or_lose
+		}
+		mutually_exclusive = {
+	    focus = WLS_ein_gwlad
+		focus = WLS_wnp_victory
+		}
+		x = 30
+		y = 8
+	}
+	shared_focus = {
+		id = WLS_progressive_taxes
+		icon = GFX_goal_WLS_progressive_taxes
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_welsh_labourism
+		}
+		x = 30
+		y = 9
+	}
+	shared_focus = {
+		id = WLS_for_the_many_not_the_few
+		icon = GFX_goal_WLS_for_the_many_not_the_few
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_progressive_taxes
+		}
+		x = 30
+		y = 10
+	}
+	shared_focus = {
+		id = WLS_diversification_of_wales
+		icon = GFX_goal_WLS_diversification_of_wales
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_welsh_labourism
+		}
+		x = 28
+		y = 9
+	}
+	shared_focus = {
+		id = WLS_dig_more
+		icon = GFX_goal_WLS_dig_more
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_diversification_of_wales
+		}
+		x = 28
+		y = 10
+	}
+	shared_focus = {
+		id = WLS_reindustrialisation_of_cardiff
+		icon = GFX_goal_WLS_reindustrialisation_of_cardiff
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_welsh_labourism
+		}
+		x = 32
+		y = 9
+	}
+	shared_focus = {
+		id = WLS_steel_veins_of_wales
+		icon = GFX_goal_WLS_steel_veins_of_wales
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_reindustrialisation_of_cardiff
+		}
+		x = 32
+		y = 10
+	}
+	shared_focus = {
+		id = WLS_dragon_steel
+		icon = GFX_goal_WLS_dragon_steel
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_steel_veins_of_wales
+		}
+		prerequisite = {
+			focus = WLS_dig_more
+		}
+		prerequisite = {
+			focus = WLS_for_the_many_not_the_few
+		}
+		x = 29
+		y = 11
+	}
+	shared_focus = {
+		id = WLS_housing_boom
+		icon = GFX_goal_WLS_housing_boom
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_steel_veins_of_wales
+		}
+		prerequisite = {
+			focus = WLS_dig_more
+		}
+		prerequisite = {
+			focus = WLS_for_the_many_not_the_few
+		}
+		x = 31
+		y = 11
+	}
+	shared_focus = {
+		id = WLS_prefabrication
+		icon = GFX_goal_WLS_prefabrication
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_housing_boom
+		}
+		prerequisite = {
+			focus = WLS_dragon_steel
+		}
+		x = 30
+		y = 12
+	}
+	shared_focus = {
+		id = WLS_ein_gwlad
+		icon = GFX_goal_WLS_ein_gwald
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_vote_or_lose
+		}
+		mutually_exclusive = {
+	    focus = WLS_welsh_labourism
+		focus = WLS_wnp_victory
+		}
+		x = 24
+		y = 8
+	}
+	shared_focus = {
+		id = WLS_cut_welfare
+		icon = GFX_goal_WLS_cut_welfare
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_ein_gwlad
+		}
+		x = 24
+		y = 9
+	}
+	shared_focus = {
+		id = WLS_basic_income_system
+		icon = GFX_goal_WLS_basic_income_system
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_cut_welfare
+		}
+		x = 24
+		y = 10
+	}
+	shared_focus = {
+		id = WLS_sovereignty_over_skies
+		icon = GFX_goal_WLS_sovereignty_over_skies
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_ein_gwlad
+		}
+		x = 22
+		y = 9
+	}
+	shared_focus = {
+		id = WLS_squadron_taranis
+		icon = GFX_goal_WLS_squadron_taranis
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_sovereignty_over_skies
+		}
+		x = 22
+		y = 10
+	}
+	shared_focus = {
+		id = WLS_newport_line
+		icon = GFX_goal_WLS_newport_line
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_ein_gwlad
+		}
+		x = 26
+		y = 9
+	}
+	shared_focus = {
+		id = WLS_liverpool_flank
+		icon = GFX_goal_WLS_liverpool_flank
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_newport_line
+		}
+		x = 26
+		y = 10
+	}
+	shared_focus = {
+		id = WLS_expand_garrisons
+		icon = GFX_goal_WLS_expand_garrisons
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_squadron_taranis
+		}
+		prerequisite = {
+			focus = WLS_basic_income_system
+		}prerequisite = {
+			focus = WLS_liverpool_flank
+		}
+		x = 23
+		y = 11
+	}
+	shared_focus = {
+		id = WLS_plan_gwydion
+		icon = GFX_goal_WLS_plan_gwydion
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_squadron_taranis
+		}
+		prerequisite = {
+			focus = WLS_basic_income_system
+		}
+		prerequisite = {
+			focus = WLS_liverpool_flank
+		}
+		x = 25
+		y = 11
+	}
+	shared_focus = {
+		id = WLS_three_last_stands
+		icon = GFX_goal_WLS_plan_gwydion
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_plan_gwydion
+		}
+		prerequisite = {
+			focus = WLS_expand_garrisons
+		}
+		x = 24
+		y = 12
+	}
+	shared_focus = {
+		id = WLS_wnp_victory
+		icon = GFX_goal_WLS_wnp_victory
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_vote_or_lose
+		}
+		mutually_exclusive = {
+	    focus = WLS_welsh_labourism
+		focus = WLS_ein_gwlad
+		}
+		x = 36
+		y = 8
+	}
+	shared_focus = {
+		id = WLS_strong_safety_net
+		icon = GFX_goal_WLS_strong_safety_net
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_wnp_victory
+		}
+		x = 36
+		y = 9
+	}
+	shared_focus = {
+		id = WLS_demonopolisation
+		icon = GFX_goal_WLS_demonopolisation
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_strong_safety_net
+		}
+		x = 36
+		y = 10
+	}
+	shared_focus = {
+		id = WLS_working_underground
+		icon = GFX_goal_WLS_working_underground
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_wnp_victory
+		}
+		x = 34
+		y = 9
+	}
+	shared_focus = {
+		id = WLS_port_talbot_expansion
+		icon = GFX_goal_WLS_port_talbot_expansion
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_working_underground
+		}
+		x = 34
+		y = 10
+	}
+	shared_focus = {
+		id = WLS_to_employ_and_arm
+		icon = GFX_goal_WLS_to_employ_and_arm
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_wnp_victory
+		}
+		x = 38
+		y = 9
+	}
+	shared_focus = {
+		id = WLS_nationalization_of_timet
+		icon = GFX_goal_WLS_nationalization_of_timet
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_to_employ_and_arm
+		}
+		x = 38
+		y = 10
+	}
+	shared_focus = {
+		id = WLS_licenses_from_europe
+		icon = GFX_goal_WLS_licenses_from_europe
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_nationalization_of_timet
+		}
+		prerequisite = {
+			focus = WLS_demonopolisation
+		}
+		prerequisite = {
+			focus = WLS_port_talbot_expansion
+		}
+		x = 35
+		y = 11
+	}
+	shared_focus = {
+		id = WLS_nato_blueprints
+		icon = GFX_goal_WLS_nato_blueprints
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_nationalization_of_timet
+		}
+		prerequisite = {
+			focus = WLS_demonopolisation
+		}
+		prerequisite = {
+			focus = WLS_port_talbot_expansion
+		}
+		x = 37
+		y = 11
+	}
+	shared_focus = {
+		id = WLS_keep_your_powder_dry
+		icon = GFX_goal_WLS_keep_your_powder_dry
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_nato_blueprints
+		}
+		prerequisite = {
+			focus = WLS_licenses_from_europe
+		}
+		x = 36
+		y = 12
+	}
+	shared_focus = {
+		id = WLS_true_independence
+		icon = GFX_goal_WLS_true_independence
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_three_last_stands
+			focus = WLS_prefabrication
+			focus = WLS_keep_your_powder_dry
+		}		
+		x = 30
+		y = 13
+	}
+	shared_focus = {
+		id = WLS_shocking_leaks
+		icon = GFX_goal_WLS_shocking_leaks
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_true_independence
+		}		
+		x = 30
+		y = 14
+	}
+	shared_focus = {
+		id = WLS_plaid_restoration
+		icon = GFX_goal_WLS_plaid_restoration
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_shocking_leaks
+		}		
+		x = 30
+		y = 15
+	}
+	shared_focus = {
+		id = WLS_snowdonia_raid
+		icon = GFX_goal_WLS_snowdonia_raid
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_plaid_restoration
+		}		
+		x = 30
+		y = 16
+	}
+	shared_focus = {
+		id = WLS_skeleton_in_the_cupboard
+		icon = GFX_goal_WLS_skeleton_in_the_cupboard
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_plaid_restoration
+		}		
+		x = 28
+		y = 16
+	}
+	shared_focus = {
+		id = WLS_pacify_privates
+		icon = GFX_goal_WLS_pacify_privates
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_plaid_restoration
+		}		
+		x = 32
+		y = 16
+	}
+	shared_focus = {
+		id = WLS_the_senedd_will_decide_your_fate
+		icon = GFX_goal_WLS_the_senedd_will_decide_your_fate
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_pacify_privates
+		}
+		prerequisite = {
+			focus = WLS_skeleton_in_the_cupboard
+		}	
+		prerequisite = {
+			focus = WLS_snowdonia_raid
+		}	
+		x = 30
+		y = 17
+	}
+	shared_focus = {
+		id = WLS_new_course_new_independence
+		icon = GFX_goal_WLS_new_course_new_independence
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_the_senedd_will_decide_your_fate
+		}
+		mutually_exclusive = {
+	    focus = WLS_for_the_unity
+		}
+		x = 27
+		y = 18
+	}
+	shared_focus = {
+		id = WLS_final_reintegration_of_troops
+		icon = GFX_goal_WLS_final_reintegration_of_troops
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_new_course_new_independence
+		}
+		x = 26
+		y = 19
+	}
+	shared_focus = {
+		id = WLS_no_more_centre
+		icon = GFX_goal_WLS_no_more_centre
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_new_course_new_independence
+		}
+		x = 28
+		y = 19
+	}
+	shared_focus = {
+		id = WLS_indigenization
+		icon = GFX_goal_WLS_indigenization
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_no_more_centre
+		}
+		prerequisite = {
+			focus = WLS_final_reintegration_of_troops
+		}
+		mutually_exclusive = {
+	    focus = WLS_mutual_respect
+		}
+		x = 26
+		y = 20
+	}
+	shared_focus = {
+		id = WLS_mutual_respect
+		icon = GFX_goal_WLS_mutual_respect
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_no_more_centre
+		}
+		prerequisite = {
+			focus = WLS_final_reintegration_of_troops
+		}
+		mutually_exclusive = {
+	    focus = WLS_indigenization
+		}
+		x = 28
+		y = 20
+	}
+	shared_focus = {
+		id = WLS_invite_union_men
+		icon = GFX_goal_WLS_invite_union_men
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_mutual_respect
+			focus = WLS_indigenization
+		}
+		x = 27
+		y = 21
+	}
+	shared_focus = {
+		id = WLS_credit_housing_union
+		icon = GFX_goal_WLS_credit_housing_union
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_invite_union_men
+		}
+		x = 27
+		y = 22
+	}	
+	shared_focus = {
+		id = WLS_for_the_unity
+		icon = GFX_goal_WLS_for_the_unity
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_the_senedd_will_decide_your_fate
+		}
+		mutually_exclusive = {
+	    focus = WLS_new_course_new_independence
+		}
+		x = 33
+		y = 18
+	}
+	shared_focus = {
+		id = WLS_militarized_police
+		icon = GFX_goal_WLS_militarized_police
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_for_the_unity
+		}
+		x = 32
+		y = 19
+	}
+	shared_focus = {
+		id = WLS_one_country
+		icon = GFX_goal_WLS_one_country
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_for_the_unity
+		}
+		x = 34
+		y = 19
+	}
+	shared_focus = {
+		id = WLS_promise_the_autonomy
+		icon = GFX_goal_WLS_promise_the_autonomy
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_one_country
+		}
+		prerequisite = {
+			focus = WLS_militarized_police
+		}
+		mutually_exclusive = {
+	    focus = WLS_british_identity
+		}
+		x = 32
+		y = 20
+	}
+	shared_focus = {
+		id = WLS_british_identity
+		icon = GFX_goal_WLS_british_identity
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_one_country
+		}
+		prerequisite = {
+			focus = WLS_militarized_police
+		}
+		mutually_exclusive = {
+	    focus = WLS_promise_the_autonomy
+		}
+		x = 34
+		y = 20
+	}
+	shared_focus = {
+		id = WLS_guards_of_her_majesty
+		icon = GFX_goal_WLS_guards_of_her_majesty
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_british_identity
+			focus = WLS_promise_the_autonomy
+		}
+		x = 33
+		y = 21
+	}
+	shared_focus = {
+		id = WLS_wales_forever
+		icon = GFX_goal_WLS_wales_forever
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_guards_of_her_majesty
+		}
+		x = 33
+		y = 22
+	}
+	shared_focus = {
+		id = WLS_like_in_harlech
+		icon = GFX_goal_WLS_like_in_harlech
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_wales_forever
+			focus = WLS_credit_housing_union
+		}
+		x = 30
+		y = 23
+	}
+	shared_focus = {
+		id = WLS_irish_negotiations
+		icon = GFX_goal_WLS_irish_negotiations
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_like_in_harlech
+		}
+		x = 27
+		y = 24
+	}
+	shared_focus = {
+		id = WLS_united_and_free
+		icon = GFX_goal_WLS_united_and_free
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_irish_negotiations
+		}
+		mutually_exclusive = {
+	    focus = WLS_matter_of_time
+		}
+		x = 26
+		y = 25
+	}
+	shared_focus = {
+		id = WLS_matter_of_time
+		icon = GFX_goal_WLS_matter_of_time
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_irish_negotiations
+		}
+		mutually_exclusive = {
+	    focus = WLS_united_and_free
+		}
+		x = 28
+		y = 25
+	}
+	shared_focus = {
+		id = WLS_purchase_before_the_storm
+		icon = GFX_goal_WLS_purchase_before_the_storm
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_matter_of_time
+			focus = WLS_united_and_free
+		}
+		x = 27
+		y = 26
+	}
+	shared_focus = {
+		id = WLS_all_for_the_front
+		icon = GFX_goal_WLS_all_for_the_front
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_like_in_harlech
+		}
+		x = 30
+		y = 24
+	}
+	shared_focus = {
+		id = WLS_finish_sangars
+		icon = GFX_goal_WLS_finish_sangars
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_all_for_the_front
+		}
+		x = 30
+		y = 25
+	}
+	shared_focus = {
+		id = WLS_full_tank
+		icon = GFX_goal_WLS_full_tank
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_finish_sangars
+		}
+		x = 30
+		y = 26
+	}
+	shared_focus = {
+		id = WLS_ready_for_the_siege
+		icon = GFX_goal_WLS_ready_for_the_siege
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_like_in_harlech
+		}
+		x = 33
+		y = 24
+	}
+	shared_focus = {
+		id = WLS_thin_red_line
+		icon = GFX_goal_WLS_thin_red_line
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_ready_for_the_siege
+		}
+		mutually_exclusive = {
+	    focus = WLS_counter_offensive_tactics 
+		}
+		x = 32
+		y = 25
+	}
+	shared_focus = {
+		id = WLS_counter_offensive_tactics 
+		icon = GFX_goal_WLS_counter_offensive_tactics 
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_ready_for_the_siege
+		}
+		mutually_exclusive = {
+	    focus = WLS_thin_red_line
+		}
+		x = 34
+		y = 25
+	}
+	shared_focus = {
+		id = WLS_masters_of_the_battlefield
+		icon = GFX_goal_WLS_masters_of_the_battlefield
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_counter_offensive_tactics
+			focus = WLS_thin_red_line
+		}
+		x = 33
+		y = 26
+	}
+	shared_focus = {
+		id = WLS_hill_fighters
+		icon = GFX_goal_WLS_hill_fighters
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_full_tank
+		}
+		prerequisite = {
+			focus = WLS_masters_of_the_battlefield
+		}
+		prerequisite = {
+			focus = WLS_purchase_before_the_storm
+		}
+		x = 29
+		y = 27
+	}
+	shared_focus = {
+		id = WLS_dragons_in_the_air
+		icon = GFX_goal_WLS_dragons_in_the_air
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_full_tank
+		}
+		prerequisite = {
+			focus = WLS_masters_of_the_battlefield
+		}
+		prerequisite = {
+			focus = WLS_purchase_before_the_storm
+		}
+		x = 31
+		y = 27
+	}
+	shared_focus = {
+		id = WLS_english_turn
+		icon = GFX_goal_WLS_english_turn
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_hill_fighters
+		}
+		prerequisite = {
+			focus = WLS_dragons_in_the_air
+		}
+		x = 30
+		y = 28
+	}
+	shared_focus = {
+		id = WLS_hold_em
+		icon = GFX_goal_WLS_hold_em
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_english_turn
+		}
+		x = 30
+		y = 29
+	}
+	shared_focus = {
+		id = WLS_no_step_back
+		icon = GFX_goal_WLS_no_step_back
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_english_turn
+		}
+		x = 32
+		y = 29
+	}
+	shared_focus = {
+		id = WLS_race_for_london
+		icon = GFX_goal_WLS_race_for_london
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_english_turn
+		}
+		x = 34
+		y = 29
+	}
+	shared_focus = {
+		id = WLS_strike_the_weak
+		icon = GFX_goal_WLS_strike_the_weak
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_english_turn
+		}
+		x = 28
+		y = 29
+	}
+	shared_focus = {
+		id = WLS_saboteurs
+		icon = GFX_goal_WLS_saboteurs
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_english_turn
+		}
+		x = 26
+		y = 29
+	}
+	shared_focus = {
+		id = WLS_glad_its_all_over
+		icon = GFX_goal_WLS_glad_its_all_over
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_saboteurs
+		}
+		prerequisite = {
+			focus = WLS_strike_the_weak
+		}
+		prerequisite = {
+			focus = WLS_race_for_london
+		}
+		prerequisite = {
+			focus = WLS_no_step_back
+		}
+		prerequisite = {
+			focus = WLS_hold_em
+		}
+		x = 30
+		y = 30
+	}
+	shared_focus = {
+		id = WLS_brining_the_harmony
+		icon = GFX_goal_WLS_brining_the_harmony
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_glad_its_all_over
+		}
+		mutually_exclusive = {
+	    focus = WLS_rising_of_the_lark
+		}
+		x = 25
+		y = 31
+	}
+	shared_focus = {
+		id = WLS_peaceful_intentions
+		icon = GFX_goal_WLS_peaceful_intentions
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_brining_the_harmony
+		}
+		x = 25
+		y = 32
+	}
+	shared_focus = {
+		id = WLS_new_hq
+		icon = GFX_goal_WLS_new_hq
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_brining_the_harmony
+		}
+		x = 27
+		y = 32
+	}
+	shared_focus = {
+		id = WLS_english_reconstruction
+		icon = GFX_goal_WLS_english_reconstruction
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_brining_the_harmony
+		}
+		x = 23
+		y = 32
+	}
+	shared_focus = {
+		id = WLS_rehabilitation_to_sympathizers
+		icon = GFX_goal_WLS_rehabilitation_to_sympathizers
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_english_reconstruction
+		}
+		x = 22
+		y = 33
+	}
+	shared_focus = {
+		id = WLS_deal_with_the_hatred
+		icon = GFX_goal_WLS_deal_with_the_hatred
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_rehabilitation_to_sympathizers
+		}
+		x = 22
+		y = 34
+	}
+	shared_focus = {
+		id = WLS_parliamentary_cooperation
+		icon = GFX_goal_WLS_parliamentary_cooperation
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_english_reconstruction
+		}
+		prerequisite = {
+			focus = WLS_peaceful_intentions
+		}
+		x = 24
+		y = 33
+	}
+	shared_focus = {
+		id = WLS_question_of_language
+		icon = GFX_goal_WLS_question_of_language
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_parliamentary_cooperation
+		}
+		x = 24
+		y = 34
+	}
+	shared_focus = {
+		id = WLS_isles_economic_space
+		icon = GFX_goal_WLS_isles_economic_space
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_new_hq
+		}
+		prerequisite = {
+			focus = WLS_peaceful_intentions
+		}
+		x = 26
+		y = 33
+	}
+	shared_focus = {
+		id = WLS_united_tech_base
+		icon = GFX_goal_WLS_united_tech_base
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_isles_economic_space
+		}
+		x = 26
+		y = 34
+	}
+	shared_focus = {
+		id = WLS_collective_security
+		icon = GFX_goal_WLS_collective_security
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_new_hq
+		}
+		x = 28
+		y = 33
+	}
+	shared_focus = {
+		id = WLS_criminal_britain
+		icon = GFX_goal_WLS_criminal_britain
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_collective_security
+		}
+		x = 28
+		y = 34
+	}
+	shared_focus = {
+		id = WLS_autonomies_commission
+		icon = GFX_goal_WLS_autonomies_commission
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_deal_with_the_hatred
+		}
+		prerequisite = {
+			focus = WLS_question_of_language
+		}
+		x = 23
+		y = 35
+	}
+	shared_focus = {
+		id = WLS_the_commonwealth_chairman
+		icon = GFX_goal_WLS_the_commonwealth_chairman
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_united_tech_base
+		}
+		prerequisite = {
+			focus = WLS_question_of_language
+		}
+		x = 25
+		y = 35
+	}
+	shared_focus = {
+		id = WLS_the_regional_specialization
+		icon = GFX_goal_WLS_the_regional_specialization
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_united_tech_base
+		}
+		prerequisite = {
+			focus = WLS_criminal_britain
+		}
+		x = 27
+		y = 35
+	}
+	shared_focus = {
+		id = WLS_building_the_union
+		icon = GFX_goal_WLS_building_the_union
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_brining_the_harmony
+		}
+		x = 16
+		y = 32
+	}
+	shared_focus = {
+		id = WLS_break_the_labour_tories
+		icon = GFX_goal_WLS_break_the_labour_tories
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_building_the_union
+		}
+		x = 16
+		y = 33
+	}
+	shared_focus = {
+		id = WLS_students_of_leviathan
+		icon = GFX_goal_WLS_students_of_leviathan
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_break_the_labour_tories
+		}
+		x = 15
+		y = 34
+	}
+	shared_focus = {
+		id = WLS_pocket_albionists
+		icon = GFX_goal_WLS_pocket_albionists
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_break_the_labour_tories
+		}
+		x = 17
+		y = 34
+	}
+	shared_focus = {
+		id = WLS_the_last_knights
+		icon = GFX_goal_WLS_the_last_knights
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_pocket_albionists
+		}
+		prerequisite = {
+			focus = WLS_students_of_leviathan
+		}
+		x = 16
+		y = 35
+	}
+	shared_focus = {
+		id = WLS_separate_from_the_folk
+		icon = GFX_goal_WLS_separate_from_the_folk
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_the_last_knights
+		}
+		x = 15
+		y = 36
+	}
+	shared_focus = {
+		id = WLS_cat_and_mouse
+		icon = GFX_goal_WLS_cat_and_mouse
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_the_last_knights
+		}
+		x = 17
+		y = 36
+	}
+	shared_focus = {
+		id = WLS_after_them
+		icon = GFX_goal_WLS_after_them
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_cat_and_mouse
+		}
+		prerequisite = {
+			focus = WLS_separate_from_the_folk
+		}
+		x = 16
+		y = 37
+	}
+	shared_focus = {
+		id = WLS_england_is_safe
+		icon = GFX_goal_WLS_england_is_safe
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_after_them
+		}
+		x = 16
+		y = 38
+	}
+	shared_focus = {
+		id = WLS_hackers_and_detectives
+		icon = GFX_goal_WLS_hackers_and_detectives
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_building_the_union
+		}
+		x = 13
+		y = 33
+	}
+	shared_focus = {
+		id = WLS_our_people_in_snp
+		icon = GFX_goal_WLS_our_people_in_snp
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_hackers_and_detectives
+		}
+		x = 13
+		y = 34
+	}
+	shared_focus = {
+		id = WLS_order_in_glasgow
+		icon = GFX_goal_WLS_order_in_glasgow
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_our_people_in_snp
+		}
+		x = 13
+		y = 35
+	}
+	shared_focus = {
+		id = WLS_provoke_the_flame
+		icon = GFX_goal_WLS_provoke_the_flame
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_order_in_glasgow
+		}
+		x = 13
+		y = 36
+	}
+	shared_focus = {
+		id = WLS_open_sponsorship
+		icon = GFX_goal_WLS_open_sponsorship
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_provoke_the_flame
+		}
+		mutually_exclusive = {
+	    focus = WLS_shuttle_diplomacy
+		}
+		x = 12
+		y = 37
+	}
+	shared_focus = {
+		id = WLS_shuttle_diplomacy
+		icon = GFX_goal_WLS_shuttle_diplomacy
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_provoke_the_flame
+		}
+		mutually_exclusive = {
+	    focus = WLS_open_sponsorship
+		}
+		x = 14
+		y = 37
+	}
+	shared_focus = {
+		id = WLS_success_in_scotland
+		icon = GFX_goal_WLS_success_in_scotland
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_shuttle_diplomacy
+			focus = WLS_open_sponsorship
+		}
+		x = 13
+		y = 38
+	}
+	shared_focus = {
+		id = WLS_dialog_with_dublin
+		icon = GFX_goal_WLS_dialog_with_dublin
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_building_the_union
+		}
+		x = 19
+		y = 33
+	}
+	shared_focus = {
+		id = WLS_stomp_radicals
+		icon = GFX_goal_WLS_stomp_radicals
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_dialog_with_dublin
+		}
+		x = 19
+		y = 34
+	}
+	shared_focus = {
+		id = WLS_pan_celtist_activism
+		icon = GFX_goal_WLS_pan_celtist_activism
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_stomp_radicals
+		}
+		x = 18
+		y = 35
+	}
+	shared_focus = {
+		id = WLS_revive_good_friday_agreement
+		icon = GFX_goal_WLS_revive_good_friday_agreement
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_stomp_radicals
+		}
+		x = 20
+		y = 35
+	}
+	shared_focus = {
+		id = WLS_ulster_debates
+		icon = GFX_goal_WLS_ulster_debates
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_pan_celtist_activism
+		}
+		prerequisite = {
+			focus = WLS_revive_good_friday_agreement
+		}
+		x = 19
+		y = 36
+	}
+	shared_focus = {
+		id = WLS_rising_of_the_lark
+		icon = GFX_goal_WLS_rising_of_the_lark
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_glad_its_all_over
+		}
+		mutually_exclusive = {
+	    focus = WLS_brining_the_harmony
+		}
+		x = 35
+		y = 31
+	}
+	shared_focus = {
+		id = WLS_welsh_soldiers_fate
+		icon = GFX_goal_WLS_welsh_soldiers_fate
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_rising_of_the_lark
+		}
+		x = 33
+		y = 32
+	}
+	shared_focus = {
+		id = WLS_supreme_ruler_of_britain
+		icon = GFX_goal_WLS_supreme_ruler_of_britain
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_rising_of_the_lark
+		}
+		x = 35
+		y = 32
+	}
+	shared_focus = {
+		id = WLS_integrate_right_wing_paramilitaries
+		icon = GFX_goal_WLS_integrate_right_wing_paramilitaries
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_rising_of_the_lark
+		}
+		x = 37
+		y = 32
+	}
+	shared_focus = {
+		id = WLS_regional_bonds
+		icon = GFX_goal_WLS_regional_bonds
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_welsh_soldiers_fate
+		}
+		x = 32
+		y = 33
+	}
+	shared_focus = {
+		id = WLS_real_economy
+		icon = GFX_goal_WLS_real_economy
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_regional_bonds
+		}
+		x = 32
+		y = 34
+	}
+	shared_focus = {
+		id = WLS_cooperation_models
+		icon = GFX_goal_WLS_cooperation_models
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_welsh_soldiers_fate
+		}
+		prerequisite = {
+			focus = WLS_supreme_ruler_of_britain
+		}
+		x = 34
+		y = 33
+	}
+	shared_focus = {
+		id = WLS_subjugate_unions
+		icon = GFX_goal_WLS_subjugate_unions
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_cooperation_models
+		}
+		x = 34
+		y = 34
+	}
+	shared_focus = {
+		id = WLS_law_and_order
+		icon = GFX_goal_WLS_law_and_order
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_integrate_right_wing_paramilitaries
+		}
+		prerequisite = {
+			focus = WLS_supreme_ruler_of_britain
+		}
+		x = 36
+		y = 33
+	}
+	shared_focus = {
+		id = WLS_militarized_administration
+		icon = GFX_goal_WLS_militarized_administration
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_law_and_order
+		}
+		x = 36
+		y = 34
+	}
+	shared_focus = {
+		id = WLS_puppet_tory_remains
+		icon = GFX_goal_WLS_puppet_tory_remains
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_integrate_right_wing_paramilitaries
+		}
+		x = 38
+		y = 33
+	}
+	shared_focus = {
+		id = WLS_shame_on_traitors
+		icon = GFX_goal_WLS_shame_on_traitors
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_puppet_tory_remains
+		}
+		x = 38
+		y = 34
+	}
+	shared_focus = {
+		id = WLS_expand_mic
+		icon = GFX_goal_WLS_expand_mic
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_real_economy
+		}
+		prerequisite = {
+			focus = WLS_subjugate_unions
+		}
+		x = 33
+		y = 35
+	}
+	shared_focus = {
+		id = WLS_career_requirements
+		icon = GFX_goal_WLS_career_requirements
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_militarized_administration
+		}
+		prerequisite = {
+			focus = WLS_subjugate_unions
+		}
+		x = 35
+		y = 35
+	}
+	shared_focus = {
+		id = WLS_the_great_parade
+		icon = GFX_goal_WLS_the_great_parade
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_militarized_administration
+		}
+		prerequisite = {
+			focus = WLS_shame_on_traitors
+		}
+		x = 37
+		y = 35
+	}
+	shared_focus = {
+		id = WLS_return_to_london
+		icon = GFX_goal_WLS_return_to_london
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_rising_of_the_lark
+		}
+		x = 44
+		y = 32
+	}
+	shared_focus = {
+		id = WLS_guard_department
+		icon = GFX_goal_WLS_guard_department
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_return_to_london
+		}
+		x = 44
+		y = 33
+	}
+	shared_focus = {
+		id = WLS_counter_radicalism
+		icon = GFX_goal_WLS_counter_radicalism
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_guard_department
+		}
+		x = 43
+		y = 34
+	}
+	shared_focus = {
+		id = WLS_for_the_queen
+		icon = GFX_goal_WLS_for_the_queen
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_guard_department
+		}
+		x = 45
+		y = 34
+	}
+	shared_focus = {
+		id = WLS_purge_out_unloyalty
+		icon = GFX_goal_WLS_purge_out_unloyalty
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_for_the_queen
+		}
+		prerequisite = {
+			focus = WLS_counter_radicalism
+		}
+		mutually_exclusive = {
+	    focus = WLS_you_must_conform
+		}
+		x = 43
+		y = 35
+	}
+	shared_focus = {
+		id = WLS_you_must_conform
+		icon = GFX_goal_WLS_you_must_conform
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_for_the_queen
+		}
+		prerequisite = {
+			focus = WLS_counter_radicalism
+		}
+		mutually_exclusive = {
+	    focus = WLS_purge_out_unloyalty
+		}
+		x = 45
+		y = 35
+	}
+	shared_focus = {
+		id = WLS_invite_the_exiles
+		icon = GFX_goal_WLS_invite_the_exiles
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_you_must_conform
+			focus = WLS_purge_out_unloyalty
+		}
+		x = 44
+		y = 36
+	}
+	shared_focus = {
+		id = WLS_send_em_in
+		icon = GFX_goal_WLS_send_em_in
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_invite_the_exiles
+		}
+		x = 44
+		y = 37
+	}
+	shared_focus = {
+		id = WLS_put_a_gun_against_their_heads
+		icon = GFX_goal_WLS_put_a_gun_against_their_heads
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_return_to_london
+		}
+		x = 41
+		y = 33
+	}
+	shared_focus = {
+		id = WLS_police_state
+		icon = GFX_goal_WLS_police_state
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_put_a_gun_against_their_heads
+		}
+		x = 41
+		y = 34
+	}
+	shared_focus = {
+		id = WLS_hunt_the_highlanders
+		icon = GFX_goal_WLS_hunt_the_highlanders
+		cost = 4.3
+		prerequisite = {
+			focus =  WLS_police_state
+		}
+		x = 41
+		y = 35
+	}
+	shared_focus = {
+		id = WLS_collaborators_in_charge
+		icon = GFX_goal_WLS_collaborators_in_charge
+		cost = 4.3
+		prerequisite = {
+			focus =  WLS_hunt_the_highlanders
+		}
+		mutually_exclusive = {
+	    focus = WLS_will_of_jackson
+		}
+		x = 40
+		y = 36
+	}
+	shared_focus = {
+		id = WLS_will_of_jackson
+		icon = GFX_goal_WLS_will_of_jackson
+		cost = 4.3
+		prerequisite = {
+			focus =  WLS_hunt_the_highlanders
+		}
+		mutually_exclusive = {
+	    focus = WLS_collaborators_in_charge
+		}
+		x = 42
+		y = 36
+	}
+	shared_focus = {
+		id = WLS_no_more_parliament
+		icon = GFX_goal_WLS_no_more_parliament
+		cost = 4.3
+		prerequisite = {
+			focus =  WLS_will_of_jackson
+			focus =  WLS_collaborators_in_charge
+		}
+		x = 41
+		y = 37
+	}
+	shared_focus = {
+		id = WLS_prepare_the_invasion
+		icon = GFX_goal_WLS_prepare_the_invasion
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_return_to_london
+		}
+		mutually_exclusive = {
+	    focus = WLS_the_house_of_orange
+		}
+		x = 47
+		y = 33
+	}
+	shared_focus = {
+		id = WLS_the_house_of_orange
+		icon = GFX_goal_WLS_the_house_of_orange
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_return_to_london
+		}
+		mutually_exclusive = {
+	    focus = WLS_prepare_the_invasion
+		}
+		x = 49
+		y = 33
+	}
+	shared_focus = {
+		id = WLS_loyalist_network
+		icon = GFX_goal_WLS_loyalist_network
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_the_house_of_orange
+			focus = WLS_prepare_the_invasion
+		}
+		x = 48
+		y = 34
+	}
+	shared_focus = {
+		id = WLS_clear_out_the_ira
+		icon = GFX_goal_WLS_clear_out_the_ira
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_loyalist_network
+		}
+		x = 48
+		y = 35
+	}
+	shared_focus = {
+		id = WLS_orange_rule
+		icon = GFX_goal_WLS_orange_rule
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_clear_out_the_ira
+		}
+		mutually_exclusive = {
+	    focus = WLS_general_governate_ireland
+		}
+		x = 47
+		y = 36
+	}
+	shared_focus = {
+		id = WLS_general_governate_ireland
+		icon = GFX_goal_WLS_general_governate_ireland
+		cost = 4.3
+		prerequisite = {
+			focus = WLS_clear_out_the_ira
+		}
+		mutually_exclusive = {
+	    focus = WLS_orange_rule
+		}
+		x = 49
+		y = 36
+	}
+	
+	
+	
+	
+	

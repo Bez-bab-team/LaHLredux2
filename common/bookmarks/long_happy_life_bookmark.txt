@@ -34,9 +34,7 @@ bookmarks = {
 				NSU_extraordinary_commission
 			}
 			focuses = {
-				NSU_police_coup
-				NSU_predel
-				NSU_sacralisationofindustry
+				#
 			}
 		}
 		NRU = {

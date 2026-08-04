@@ -1,0 +1,90 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_goal_ACH_alone_on_your_own"
+		texturefile = "gfx/interface/goals/ACH/goal_ACH_alone_on_your_own.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ACH_by_the_balkans_by_the_mountains"
+		texturefile = "gfx/interface/goals/ACH/goal_ACH_by_the_balkans_by_the_mountains.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ACH_chetnik_the_serbian_cossack"
+		texturefile = "gfx/interface/goals/ACH/goal_ACH_chetnik_the_serbian_cossack.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ACH_cossack_is_always_a_cossack"
+		texturefile = "gfx/interface/goals/ACH/goal_ACH_cossack_is_always_a_cossack.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ACH_cossack_the_hundreds"
+		texturefile = "gfx/interface/goals/ACH/goal_ACH_cossack_the_hundreds.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ACH_exuberant_terek"
+		texturefile = "gfx/interface/goals/ACH/goal_ACH_exuberant_terek.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ACH_for_you_my_motherland"
+		texturefile = "gfx/interface/goals/ACH/goal_ACH_for_you_my_motherland.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ACH_from_the_forest_spears_of_swords"
+		texturefile = "gfx/interface/goals/ACH/goal_ACH_from_the_forest_spears_of_swords.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ACH_hidden_treasures_of_donbass"
+		texturefile = "gfx/interface/goals/ACH/goal_ACH_hidden_treasures_of_donbass.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ACH_hold_the_line"
+		texturefile = "gfx/interface/goals/ACH/goal_ACH_hold_the_line.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ACH_if_you_are_ready_slash"
+		texturefile = "gfx/interface/goals/ACH/goal_ACH_if_you_are_ready_slash.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ACH_masters_of_the_borderlands"
+		texturefile = "gfx/interface/goals/ACH/goal_ACH_masters_of_the_borderlands.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ACH_no_extradition_thats_don_tradition"
+		texturefile = "gfx/interface/goals/ACH/goal_ACH_no_extradition_thats_don_tradition.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ACH_no_more_raz_in_cossack"
+		texturefile = "gfx/interface/goals/ACH/goal_ACH_no_more_raz_in_cossack.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ACH_saber_on_the_carpet"
+		texturefile = "gfx/interface/goals/ACH/goal_ACH_saber_on_the_carpet.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ACH_seal_bonds_of_friendship"
+		texturefile = "gfx/interface/goals/ACH/goal_ACH_seal_bonds_of_friendship.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ACH_speech_of_the_free"
+		texturefile = "gfx/interface/goals/ACH/goal_ACH_speech_of_the_free.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ACH_stirred_moved"
+		texturefile = "gfx/interface/goals/ACH/goal_ACH_stirred_moved.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ACH_taller_than_the_ravens"
+		texturefile = "gfx/interface/goals/ACH/goal_ACH_taller_than_the_ravens.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ACH_test_the_basurmans"
+		texturefile = "gfx/interface/goals/ACH/goal_ACH_test_the_basurmans.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ACH_to_meet_the_bullets"
+		texturefile = "gfx/interface/goals/ACH/goal_ACH_to_meet_the_bullets.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ACH_wild_divisions"
+		texturefile = "gfx/interface/goals/ACH/goal_ACH_wild_divisions.tga"
+	}
+}

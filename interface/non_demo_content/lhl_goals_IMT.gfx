@@ -1,0 +1,34 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_IMT_Become_Human"
+		texturefile = "gfx/interface/goals/IMT/goal_IMT_Become_Human.tga"
+	}
+	SpriteType = {
+		name = "GFX_IMT_Bolts_and_Motherboards"
+		texturefile = "gfx/interface/goals/IMT/goal_IMT_Bolts_and_Motherboards.tga"
+	}
+	SpriteType = {
+		name = "GFX_IMT_City_Under_Siege"
+		texturefile = "gfx/interface/goals/IMT/goal_IMT_City_Under_Siege.tga"
+	}
+	SpriteType = {
+		name = "GFX_IMT_Grooming_The_Tsarina"
+		texturefile = "gfx/interface/goals/IMT/goal_IMT_Grooming_The_Tsarina.tga"
+	}
+	SpriteType = {
+		name = "GFX_IMT_Hello_World_"
+		texturefile = "gfx/interface/goals/IMT/goal_IMT_Hello_World_.dds"
+	}
+	SpriteType = {
+		name = "GFX_IMT_The_Cybernetic_Dilemma"
+		texturefile = "gfx/interface/goals/IMT/goal_IMT_The_Cybernetic_Dilemma.tga"
+	}
+	SpriteType = {
+		name = "GFX_IMT_The_Impossible_Path"
+		texturefile = "gfx/interface/goals/IMT/goal_IMT_The_Impossible_Path.tga"
+	}
+	SpriteType = {
+		name = "GFX_IMT_The_Shining_Beacon"
+		texturefile = "gfx/interface/goals/IMT/goal_IMT_The_Shining_Beacon.tga"
+	}
+}

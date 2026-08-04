@@ -1,0 +1,14 @@
+focus_tree = {
+	id = WLS_focus
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+        shared_focus = WLS_five_years_of_independence
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = WLS
+			
+		}
+	}
+}

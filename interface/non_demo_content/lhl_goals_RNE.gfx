@@ -1,0 +1,62 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_goal_RNE_Deeds_Of_The_Seven_Boyars"
+		texturefile = "gfx/interface/goals/RNE/goal_RNE_Deeds_Of_The_Seven_Boyars.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RNE_Christian_Welfare"
+		texturefile = "gfx/interface/goals/RNE/goal_RNE_Christian_Welfare.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RNE_Estate_Rights"
+		texturefile = "gfx/interface/goals/RNE/goal_RNE_Estate_Rights.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RNE_Inviolability_Of_Private_Property"
+		texturefile = "gfx/interface/goals/RNE/goal_RNE_Inviolability_Of_Private_Property.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RNE_True_Gender_Equality"
+		texturefile = "gfx/interface/goals/RNE/goal_RNE_True_Gender_Equality.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RNE_Worthy_Endeavours"
+		texturefile = "gfx/interface/goals/RNE/goal_RNE_Worthy_Endeavours.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RNE_Russian_Aesthetics"
+		texturefile = "gfx/interface/goals/RNE/goal_RNE_Russian_Aesthetics.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RNE_Factory_Stalls"
+		texturefile = "gfx/interface/goals/RNE/goal_RNE_Factory_Stalls.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RNE_Title_Sale"
+		texturefile = "gfx/interface/goals/RNE/goal_RNE_Title_Sale.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RNE_The_Orthodox_Labor_Code"
+		texturefile = "gfx/interface/goals/RNE/goal_RNE_The_Orthodox_Labor_Code.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RNE_The_Irreducible_Hierarchy"
+		texturefile = "gfx/interface/goals/RNE/goal_RNE_The_Irreducible_Hierarchy.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RNE_Russian_Patron_Union"
+		texturefile = "gfx/interface/goals/RNE/goal_RNE_Russian_Patron_Union.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RNE_Exclusive_Rights_Gurantee"
+		texturefile = "gfx/interface/goals/RNE/goal_RNE_Exclusive_Rights_Gurantee.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RNE_The_Salt_Of_The_Earth"
+		texturefile = "gfx/interface/goals/RNE/goal_RNE_The_Salt_Of_The_Earth.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RNE_One_Country_-_Many_Systems"
+		texturefile = "gfx/interface/goals/RNE/goal_RNE_One_Country_-_Many_Systems.dds"
+	}
+}

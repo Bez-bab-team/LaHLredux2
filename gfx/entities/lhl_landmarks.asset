@@ -1,0 +1,186 @@
+###############################
+######	    Whore Big Ben      ######
+###############################
+
+entity = {
+	name = "building_landmark_big_ben_whoreminster_tower"
+	pdxmesh = "landmark_big_ben_whoreminster_tower_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"				animation = "idle"       		animation_blend_time = 0.3 animation_speed = 1.0 looping = no }
+
+	scale = 0.3
+
+}
+
+#DESTROYED
+entity = {
+	name = "building_landmark_big_ben_whoreminster_tower_destroyed"
+	pdxmesh = "landmark_big_ben_whoreminster_tower_destroyed_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"				animation = "idle"       		animation_speed = 0.1 looping = no next_state = "destroy" 
+			event = { time = 0 node="watch_explode" particle = "building_explode_effect" keep_particle = yes }
+	}
+	state = { name = "destroy"			animation = "destroy" 			animation_blend_time = 0.0  animation_speed = 1.0 looping = no
+			event = { time = 0 node="watch_explode" particle = "ship_hit_effect_big_particle"  keep_particle = yes }
+			event = { time = 0 node="pre_explode1" particle = "ship_explosion_particle"  keep_particle = yes }	
+			event = { time = 2.1 node="pre_explode2" particle = "ship_explosion_particle"  keep_particle = yes }	
+			event = { time = 1.1 node="explosion" particle = "ship_hit_effect_big_particle"  keep_particle = yes }	
+			event = { time = 1.1 node="explosion1" particle = "ship_hit_effect_big_particle"  keep_particle = yes }	
+			#event = { time = 2.1 node="impact1" particle = "building_explode_effect" keep_particle = yes }
+			event = { time = 4.1 node="impact1" particle = "building_explode_effect" keep_particle = yes }
+			event = { time = 9.7 node="impact2" particle = "vehicle_explode_effect" keep_particle = yes }
+			event = { time = 2 node="damaged_smoke" particle = "bunker_smoke_effect"  keep_particle = yes trigger_once = yes }
+			event = { time = 2 node="fire1" particle = "ship_damaged_smoke_particle"  keep_particle = yes trigger_once = yes }
+			event = { time = 2 node="fire2" particle = "ship_damaged_smoke_particle"  keep_particle = yes trigger_once = yes }
+			event = { time = 11.1 node="fire3" particle = "ship_damaged_smoke_particle"  keep_particle = yes trigger_once = yes }
+			event = { time = 11.5 node="fire4" particle = "ship_damaged_smoke_particle"  keep_particle = yes trigger_once = yes }
+			event = { time = 2 node="watch" particle = "bunker_smoke_effect"  keep_particle = yes trigger_once = yes }
+			event = { time = 0 sound = { soundeffect = "building_landmark_big_ben_destroyed_test" }}
+	}
+
+
+	scale = 0.3
+
+}
+
+###############################
+######  Statues 1  ######
+###############################
+
+entity = {
+	name = "building_landmark_henry_v_statue"
+	pdxmesh = "landmark_henry_v_statue_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"				animation = "idle"       		animation_blend_time = 0.3 animation_speed = 1.0 looping = no }
+
+	scale = 0.3
+
+}
+
+#DESTROYED
+entity = {
+	name = "building_landmark_henry_v_statue_destroyed"
+	pdxmesh = "landmark_henry_v_statue_destroyed_mesh"
+
+	default_state = "destroy"
+	state = { name = "destroy"				animation = "destroy"       		animation_blend_time = 0.3 animation_speed = 1.0 looping = no  
+			event = { time = 0 node="explosion2" particle = "ship_explosion_particle"  keep_particle = yes sound = { soundeffect = "explosion_small" }}	
+			event = { time = 1.8 node="explosion1" particle = "ship_explosion_particle"  keep_particle = yes sound = { soundeffect = "explosion_flashbang_large" }}	
+			event = { time = 2.5 node="impact1" particle = "building_explode_effect" keep_particle = yes sound = { soundeffect = "explosion_big" }}
+			event = { time = 5 node="impact2" particle = "building_explode_effect" keep_particle = yes sound = { soundeffect = "explosion_large" }}
+			event = { time = 8 node="damaged_smoke1" particle = "bunker_smoke_effect"  keep_particle = yes }
+			event = { time = 8 node="damaged_smoke2" particle = "bunker_smoke_effect"  keep_particle = yes }
+			event = { time = 5.1 sound = { soundeffect = "sub_hit" }}
+	}
+
+	scale = 0.3
+
+}
+
+###############################
+######  Statues 2  ######
+###############################
+
+entity = {
+	name = "building_landmark_william_the_conqueror_statue"
+	pdxmesh = "landmark_william_the_conqueror_statue_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"				animation = "idle"       		animation_blend_time = 0.3 animation_speed = 1.0 looping = no }
+
+	scale = 0.3
+
+}
+
+#DESTROYED
+entity = {
+	name = "building_landmark_william_the_conqueror_statue_destroyed"
+	pdxmesh = "landmark_william_the_conqueror_statue_destroyed_mesh"
+
+	default_state = "destroy"
+	state = { name = "destroy"				animation = "destroy"       		animation_blend_time = 0.3 animation_speed = 1.0 looping = no  
+			event = { time = 0 node="explosion2" particle = "ship_explosion_particle"  keep_particle = yes sound = { soundeffect = "explosion_small" }}	
+			event = { time = 1.8 node="explosion1" particle = "ship_explosion_particle"  keep_particle = yes sound = { soundeffect = "explosion_flashbang_large" }}	
+			event = { time = 2.5 node="impact1" particle = "building_explode_effect" keep_particle = yes sound = { soundeffect = "explosion_big" }}
+			event = { time = 5 node="impact2" particle = "building_explode_effect" keep_particle = yes sound = { soundeffect = "explosion_large" }}
+			event = { time = 8 node="damaged_smoke1" particle = "bunker_smoke_effect"  keep_particle = yes }
+			event = { time = 8 node="damaged_smoke2" particle = "bunker_smoke_effect"  keep_particle = yes }
+			event = { time = 5.1 sound = { soundeffect = "sub_hit" }}
+	}
+
+	scale = 0.3
+
+}
+
+###############################
+######  Statues 3  ######
+###############################
+
+entity = {
+	name = "building_landmark_margaret_thatcher_public_latrine"
+	pdxmesh = "landmark_margaret_thatcher_public_latrine_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"				animation = "idle"       		animation_blend_time = 0.3 animation_speed = 1.0 looping = no }
+
+	scale = 0.3
+
+}
+
+#DESTROYED
+entity = {
+	name = "building_landmark_margaret_thatcher_public_latrine_destroyed"
+	pdxmesh = "landmark_margaret_thatcher_public_latrine_destroyed_mesh"
+
+	default_state = "destroy"
+	state = { name = "destroy"				animation = "destroy"       		animation_blend_time = 0.3 animation_speed = 1.0 looping = no  
+			event = { time = 0 node="explosion2" particle = "ship_explosion_particle"  keep_particle = yes sound = { soundeffect = "explosion_small" }}	
+			event = { time = 1.8 node="explosion1" particle = "ship_explosion_particle"  keep_particle = yes sound = { soundeffect = "explosion_flashbang_large" }}	
+			event = { time = 2.5 node="impact1" particle = "building_explode_effect" keep_particle = yes sound = { soundeffect = "explosion_big" }}
+			event = { time = 5 node="impact2" particle = "building_explode_effect" keep_particle = yes sound = { soundeffect = "explosion_large" }}
+			event = { time = 8 node="damaged_smoke1" particle = "bunker_smoke_effect"  keep_particle = yes }
+			event = { time = 8 node="damaged_smoke2" particle = "bunker_smoke_effect"  keep_particle = yes }
+			event = { time = 5.1 sound = { soundeffect = "sub_hit" }}
+	}
+
+	scale = 0.3
+
+}
+
+###############################
+######  Statues 4  ######
+###############################
+
+entity = {
+	name = "building_landmark_gunzel_statue"
+	pdxmesh = "landmark_gunzel_statue_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"				animation = "idle"       		animation_blend_time = 0.3 animation_speed = 1.0 looping = no }
+
+	scale = 0.3
+
+}
+
+#DESTROYED
+entity = {
+	name = "building_landmark_gunzel_statue_destroyed"
+	pdxmesh = "landmark_gunzel_statue_destroyed_mesh"
+
+	default_state = "destroy"
+	state = { name = "destroy"				animation = "destroy"       		animation_blend_time = 0.3 animation_speed = 1.0 looping = no  
+			event = { time = 0 node="explosion2" particle = "ship_explosion_particle"  keep_particle = yes sound = { soundeffect = "explosion_small" }}	
+			event = { time = 1.8 node="explosion1" particle = "ship_explosion_particle"  keep_particle = yes sound = { soundeffect = "explosion_flashbang_large" }}	
+			event = { time = 2.5 node="impact1" particle = "building_explode_effect" keep_particle = yes sound = { soundeffect = "explosion_big" }}
+			event = { time = 5 node="impact2" particle = "building_explode_effect" keep_particle = yes sound = { soundeffect = "explosion_large" }}
+			event = { time = 8 node="damaged_smoke1" particle = "bunker_smoke_effect"  keep_particle = yes }
+			event = { time = 8 node="damaged_smoke2" particle = "bunker_smoke_effect"  keep_particle = yes }
+			event = { time = 5.1 sound = { soundeffect = "sub_hit" }}
+	}
+
+	scale = 0.3
+
+}

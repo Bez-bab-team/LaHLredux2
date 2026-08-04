@@ -1,0 +1,186 @@
+
+shared_focus = {
+	id = RNE_deeds_of_the_seven_boyars
+	icon = GFX_goal_RNE_Deeds_Of_The_Seven_Boyars
+	cost = 10
+	x = 4
+	y = 1
+}
+
+shared_focus = {
+	id = RNE_worthy_endeavours
+	icon = GFX_goal_RNE_Worthy_Endeavours
+	prerequisite = {
+		focus = RNE_deeds_of_the_seven_boyars
+	}	
+	cost = 10
+	x = 0
+	y = 3
+}
+
+shared_focus = {
+	id = RNE_estate_rights
+	icon = GFX_goal_RNE_Estate_Rights
+	prerequisite = {
+		focus = RNE_deeds_of_the_seven_boyars
+	}	
+	cost = 10
+	x = 2
+	y = 3
+}
+
+shared_focus = {
+	id = RNE_inviolability_of_private_property
+	icon = GFX_goal_RNE_Inviolability_Of_Private_Property
+	prerequisite = {
+		focus = RNE_deeds_of_the_seven_boyars
+	}	
+	cost = 10
+	x = 4
+	y = 3
+}
+
+shared_focus = {
+	id = RNE_true_gender_equality
+	icon = GFX_goal_RNE_True_Gender_Equality
+	prerequisite = {
+		focus = RNE_deeds_of_the_seven_boyars
+	}	
+	cost = 10
+	x = 6
+	y = 3
+}
+
+shared_focus = {
+	id = RNE_christian_welfare
+	icon = GFX_goal_RNE_Christian_Welfare
+	prerequisite = {
+		focus = RNE_deeds_of_the_seven_boyars
+	}	
+	cost = 10
+	x = 8
+	y = 3
+}
+
+shared_focus = {
+	id = RNE_title_sale
+	icon = GFX_goal_RNE_Title_Sale
+	prerequisite = {
+		focus = RNE_worthy_endeavours
+	}	
+	prerequisite = {
+		focus = RNE_estate_rights
+	}
+	cost = 10
+	x = 1
+	y = 5
+}
+
+shared_focus = {
+	id = RNE_russian_aesthetics
+	icon = GFX_goal_RNE_Russian_Aesthetics
+	prerequisite = {
+		focus = RNE_estate_rights
+	}	
+	prerequisite = {
+		focus = RNE_inviolability_of_private_property
+	}
+	cost = 10
+	x = 3
+	y = 5
+}
+
+shared_focus = {
+	id = RNE_the_orthodox_labor_code
+	icon = GFX_goal_RNE_The_Orthodox_Labor_Code
+	prerequisite = {
+		focus = RNE_inviolability_of_private_property
+	}	
+	prerequisite = {
+		focus = RNE_true_gender_equality
+	}
+	cost = 10
+	x = 5
+	y = 5
+}
+
+shared_focus = {
+	id = RNE_factory_stalls
+	icon = GFX_goal_RNE_Factory_Stalls
+	prerequisite = {
+		focus = RNE_true_gender_equality
+	}	
+	prerequisite = {
+		focus = RNE_christian_welfare
+	}
+	cost = 10
+	x = 7
+	y = 5
+}
+
+shared_focus = {
+	id = RNE_the_irreducible_hierarchy
+	icon = GFX_goal_RNE_The_Irreducible_Hierarchy
+	prerequisite = {
+		focus = RNE_title_sale
+	}	
+	prerequisite = {
+		focus = RNE_russian_aesthetics
+	}	
+	prerequisite = {
+		focus = RNE_the_orthodox_labor_code
+	}	
+	prerequisite = {
+		focus = RNE_factory_stalls
+	}	
+	cost = 10
+	x = 4
+	y = 7
+}
+
+shared_focus = {
+	id = RNE_one_country_-_many_systems
+	icon = GFX_goal_RNE_One_Country_-_Many_Systems
+	prerequisite = {
+		focus = RNE_the_irreducible_hierarchy
+	}	
+	cost = 10
+	x = 3
+	y = 9
+}
+
+shared_focus = {
+	id = RNE_russian_patron_union
+	icon = GFX_goal_RNE_Russian_Patron_Union
+	prerequisite = {
+		focus = RNE_the_irreducible_hierarchy
+	}	
+	cost = 10
+	x = 5
+	y = 9
+}
+
+shared_focus = {
+	id = RNE_exclusive_rights_gurantee
+	icon = GFX_goal_RNE_Exclusive_Rights_Gurantee
+	prerequisite = {
+		focus = RNE_one_country_-_many_systems
+	}	
+	prerequisite = {
+		focus = RNE_russian_patron_union
+	}	
+	cost = 10
+	x = 4
+	y = 11
+}
+
+shared_focus = {
+	id = RNE_the_salt_of_the_earth
+	icon = GFX_goal_RNE_The_Salt_Of_The_Earth
+	prerequisite = {
+		focus = RNE_exclusive_rights_gurantee
+	}		
+	cost = 10
+	x = 4
+	y = 13
+}

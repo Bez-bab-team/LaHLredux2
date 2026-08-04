@@ -1,638 +1,638 @@
 
 
-NTH_debug_galloway_death = {
-	NTH_load_focuses = {
-		cost = 0
-		days_remove = 0
-		fire_only_once = yes
-		complete_effect = {
-			load_focus_tree = NTH_after_galloway
-		}
-	}
-}
-
-
-NTH_gallowayaka = {
-	NTH_build_1009_1 = {
-		available = {
-			industrial_complex > 1
-		}
-		cost = 10
-		fire_only_once = yes
-		complete_effect = {
-			1009 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-	NTH_build_1010_1 = {
-		available = {
-			industrial_complex > 1
-		}
-		cost = 10
-		fire_only_once = yes
-		complete_effect = {
-			1010 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-	NTH_build_1011_1 = {
-		available = {
-			industrial_complex > 1
-		}
-		cost = 10
-		fire_only_once = yes
-		complete_effect = {
-			1011 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-	NTH_build_1012_1 = {
-		available = {
-			industrial_complex > 1
-		}
-		cost = 10
-		fire_only_once = yes
-		complete_effect = {
-			1012 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-	NTH_build_1145_1 = {
-		available = {
-			industrial_complex > 1
-		}
-		cost = 10
-		fire_only_once = yes
-		complete_effect = {
-			1145 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-	NTH_build_1009_2 = {
-		visible = {
-			has_decision = NTH_build_1009_1
-		}
-		available = {
-			industrial_complex > 2
-		}
-		cost = 10
-		fire_only_once = yes
-		complete_effect = {
-			1009 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-	NTH_build_1010_2 = {
-		visible = {
-			has_decision = NTH_build_1010_1
-		}
-		available = {
-			industrial_complex > 2
-		}
-		cost = 10
-		fire_only_once = yes
-		complete_effect = {
-			1010 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-	NTH_build_1011_2 = {
-		visible = {
-			has_decision = NTH_build_1011_1
-		}
-		available = {
-			industrial_complex > 2
-		}
-		cost = 10
-		fire_only_once = yes
-		complete_effect = {
-			1011 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-	NTH_build_1012_2 = {
-		visible = {
-			has_decision = NTH_build_1012_1
-		}
-		available = {
-			industrial_complex > 2
-		}
-		cost = 10
-		fire_only_once = yes
-		complete_effect = {
-			1012 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-	NTH_build_1145_2 = {
-		visible = {
-			has_decision = NTH_build_1145_1
-		}
-		available = {
-			industrial_complex > 2
-		}
-		cost = 10
-		fire_only_once = yes
-		complete_effect = {
-			1145 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-	NTH_build_1009_3 = {
-		visible = {
-			has_decision = NTH_build_1009_2
-		}
-		available = {
-			industrial_complex > 2
-		}
-		cost = 10
-		fire_only_once = yes
-		complete_effect = {
-			1009 = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-	NTH_build_1010_3 = {
-		visible = {
-			has_decision = NTH_build_1010_2
-		}
-		available = {
-			industrial_complex > 2
-		}
-		cost = 10
-		fire_only_once = yes
-		complete_effect = {
-			1010 = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-	NTH_build_1011_3 = {
-		visible = {
-			has_decision = NTH_build_1011_2
-		}
-		available = {
-			industrial_complex > 2
-		}
-		cost = 10
-		fire_only_once = yes
-		complete_effect = {
-			1011 = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-	NTH_build_1012_3 = {
-		visible = {
-			has_decision = NTH_build_1012_2
-		}
-		available = {
-			industrial_complex > 2
-		}
-		cost = 10
-		fire_only_once = yes
-		complete_effect = {
-			1012 = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-	NTH_build_1145_3 = {
-		visible = {
-			has_decision = NTH_build_1145_2
-		}
-		available = {
-			industrial_complex > 2
-		}
-		cost = 10
-		fire_only_once = yes
-		complete_effect = {
-			1145 = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-}
-
-NTH_war_time_media = {
-}
-
-NTH_shock_and_wave = {
-	NTH_shock_folkists = {
-		visible = {
-			has_war_with = MRC
-		}
-		available = {
-			has_political_power > 74
-			
-			has_equipment = {
-				small_plane_cas_airframe > 50
-			}
-		}
-		cost = 30
-		fire_only_once = yes
-		complete_effect = {
-			MRC = {
-				add_timed_idea = {
-					idea = NTH_terror_bombings
-					days = 30
-				}
-			}
-		}
-	}
-	
-	NTH_shock_nationalists = {
-		visible = {
-			has_war_with = ESS
-		}
-		available = {
-			has_political_power > 74
-			
-			has_equipment = {
-				small_plane_cas_airframe > 50
-			}
-		}
-		cost = 30
-		fire_only_once = yes
-		complete_effect = {
-			ESS = {
-				add_timed_idea = {
-					idea = NTH_terror_bombings
-					days = 30
-				}
-			}
-		}
-	}
-	
-	NTH_shock_tories = {
-		visible = {
-			has_war_with = KNT
-		}
-		available = {
-			has_political_power > 74
-			
-			has_equipment = {
-				small_plane_cas_airframe > 50
-			}
-		}
-		cost = 30
-		fire_only_once = yes
-		complete_effect = {
-			KNT = {
-				add_timed_idea = {
-					idea = NTH_terror_bombings
-					days = 30
-				}
-			}
-		}
-	}
-	
-	NTH_shock_interventionists = {
-		visible = {
-			has_war_with = EAG
-		}
-		available = {
-			has_political_power > 74
-			
-			has_equipment = {
-				small_plane_cas_airframe > 50
-			}
-		}
-		cost = 30
-		fire_only_once = yes
-		complete_effect = {
-			EAG = {
-				add_timed_idea = {
-					idea = NTH_terror_bombings
-					days = 30
-				}
-			}
-		}
-	}
-	
-	NTH_shock_royalists = {
-		visible = {
-			has_war_with = WES
-		}
-		available = {
-			has_political_power > 74
-			
-			has_equipment = {
-				small_plane_cas_airframe > 50
-			}
-		}
-		cost = 30
-		fire_only_once = yes
-		complete_effect = {
-			WES = {
-				add_timed_idea = {
-					idea = NTH_terror_bombings
-					days = 30
-				}
-			}
-		}
-	}
-	
-	NTH_shock_absolutists = {
-		visible = {
-			has_war_with = SUS
-		}
-		available = {
-			has_political_power > 74
-			
-			has_equipment = {
-				small_plane_cas_airframe > 50
-			}
-		}
-		cost = 30
-		fire_only_once = yes
-		complete_effect = {
-			SUS = {
-				add_timed_idea = {
-					idea = NTH_terror_bombings
-					days = 30
-				}
-			}
-		}
-	}
-	
-	NTH_shock_scotland = {
-		visible = {
-			has_war_with = SCO
-		}
-		available = {
-			has_political_power > 74
-			
-			has_equipment = {
-				small_plane_cas_airframe > 50
-			}
-		}
-		cost = 30
-		fire_only_once = yes
-		complete_effect = {
-			SCO = {
-				add_timed_idea = {
-					idea = NTH_terror_bombings
-					days = 30
-				}
-			}
-		}
-	}
-	
-	NTH_shock_wales = {
-		visible = {
-			has_war_with = WLS
-		}
-		available = {
-			has_political_power > 74
-			
-			has_equipment = {
-				small_plane_cas_airframe > 50
-			}
-		}
-		cost = 30
-		fire_only_once = yes
-		complete_effect = {
-			WLS = {
-				add_timed_idea = {
-					idea = NTH_terror_bombings
-					days = 30
-				}
-			}
-		}
-	}
-	
-	NTH_mission_folkists = {
-		available = { 
-			MRC = {
-				surrender_progress > 0.5
-			}
-		}
-		activation = {
-			has_decision = NTH_shock_folkists
-		}
-		is_good = yes 
-		selectable_mission = yes
-		days_mission_timeout = 30
-		timeout_effect = {
-			country_event = { id = albion.25 days = 1 }
-		}
-		complete_effect = {
-			country_event = { id = albion.26 days = 1 }
-		}
-	}
-	
-	NTH_mission_nationalists = {
-		available = { 
-			ESS = {
-				surrender_progress > 0.5
-			}
-		}
-		activation = {
-			has_decision = NTH_shock_nationalists
-		}
-		is_good = yes 
-		selectable_mission = yes
-		days_mission_timeout = 30
-		timeout_effect = {
-			country_event = { id = albion.25 days = 1 }
-		}
-		complete_effect = {
-			country_event = { id = albion.27 days = 1 }
-		}
-	}
-	
-	NTH_mission_tories = {
-		available = { 
-			KNT = {
-				surrender_progress > 0.5
-			}
-		}
-		activation = {
-			has_decision = NTH_shock_tories
-		}
-		is_good = yes 
-		selectable_mission = yes
-		days_mission_timeout = 30
-		timeout_effect = {
-			country_event = { id = albion.25 days = 1 }
-		}
-		complete_effect = {
-			country_event = { id = albion.28 days = 1 }
-		}
-	}
-	
-	NTH_mission_interventionists = {
-		available = { 
-			EAG = {
-				surrender_progress > 0.5
-			}
-		}
-		activation = {
-			has_decision = NTH_shock_interventionists
-		}
-		is_good = yes 
-		selectable_mission = yes
-		days_mission_timeout = 30
-		timeout_effect = {
-			country_event = { id = albion.25 days = 1 }
-		}
-		complete_effect = {
-			country_event = { id = albion.29 days = 1 }
-		}
-	}
-	
-	NTH_mission_royalists = {
-		available = { 
-			WES = {
-				surrender_progress > 0.5
-			}
-		}
-		activation = {
-			has_decision = NTH_shock_royalists
-		}
-		is_good = yes 
-		selectable_mission = yes
-		days_mission_timeout = 30
-		timeout_effect = {
-			country_event = { id = albion.25 days = 1 }
-		}
-		complete_effect = {
-			country_event = { id = albion.30 days = 1 }
-		}
-	}
-	
-	NTH_mission_absolutists = {
-		available = { 
-			SUS = {
-				surrender_progress > 0.5
-			}
-		}
-		activation = {
-			has_decision = NTH_shock_absolutists
-		}
-		is_good = yes 
-		selectable_mission = yes
-		days_mission_timeout = 30
-		timeout_effect = {
-			country_event = { id = albion.25 days = 1 }
-		}
-		complete_effect = {
-			country_event = { id = albion.31 days = 1 }
-		}
-	}
-	
-	NTH_mission_scotland = {
-		available = { 
-			SCO = {
-				surrender_progress > 0.5
-			}
-		}
-		activation = {
-			has_decision = NTH_shock_scotland
-		}
-		is_good = yes 
-		selectable_mission = yes
-		days_mission_timeout = 30
-		timeout_effect = {
-			country_event = { id = albion.25 days = 1 }
-		}
-		complete_effect = {
-			country_event = { id = albion.32 days = 1 }
-		}
-	}
-	
-	NTH_mission_wales = {
-		available = { 
-			WLS = {
-				surrender_progress > 0.5
-			}
-		}
-		activation = {
-			has_decision = NTH_shock_wales
-		}
-		is_good = yes 
-		selectable_mission = yes
-		days_mission_timeout = 30
-		timeout_effect = {
-			country_event = { id = albion.25 days = 1 }
-		}
-		complete_effect = {
-			country_event = { id = albion.33 days = 1 }
-		}
-	}
-}
+#NTH_debug_galloway_death = {
+#	NTH_load_focuses = {
+#		cost = 0
+#		days_remove = 0
+#		fire_only_once = yes
+#		complete_effect = {
+#			load_focus_tree = NTH_after_galloway
+#		}
+#	}
+#}
+#
+#
+#NTH_gallowayaka = {
+#	NTH_build_1009_1 = {
+#		available = {
+#			industrial_complex > 1
+#		}
+#		cost = 10
+#		fire_only_once = yes
+#		complete_effect = {
+#			1009 = {
+#				add_building_construction = {
+#					type = infrastructure
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#	NTH_build_1010_1 = {
+#		available = {
+#			industrial_complex > 1
+#		}
+#		cost = 10
+#		fire_only_once = yes
+#		complete_effect = {
+#			1010 = {
+#				add_building_construction = {
+#					type = infrastructure
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#	NTH_build_1011_1 = {
+#		available = {
+#			industrial_complex > 1
+#		}
+#		cost = 10
+#		fire_only_once = yes
+#		complete_effect = {
+#			1011 = {
+#				add_building_construction = {
+#					type = infrastructure
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#	NTH_build_1012_1 = {
+#		available = {
+#			industrial_complex > 1
+#		}
+#		cost = 10
+#		fire_only_once = yes
+#		complete_effect = {
+#			1012 = {
+#				add_building_construction = {
+#					type = infrastructure
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#	NTH_build_1145_1 = {
+#		available = {
+#			industrial_complex > 1
+#		}
+#		cost = 10
+#		fire_only_once = yes
+#		complete_effect = {
+#			1145 = {
+#				add_building_construction = {
+#					type = infrastructure
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#	NTH_build_1009_2 = {
+#		visible = {
+#			has_decision = NTH_build_1009_1
+#		}
+#		available = {
+#			industrial_complex > 2
+#		}
+#		cost = 10
+#		fire_only_once = yes
+#		complete_effect = {
+#			1009 = {
+#				add_building_construction = {
+#					type = infrastructure
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#	NTH_build_1010_2 = {
+#		visible = {
+#			has_decision = NTH_build_1010_1
+#		}
+#		available = {
+#			industrial_complex > 2
+#		}
+#		cost = 10
+#		fire_only_once = yes
+#		complete_effect = {
+#			1010 = {
+#				add_building_construction = {
+#					type = infrastructure
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#	NTH_build_1011_2 = {
+#		visible = {
+#			has_decision = NTH_build_1011_1
+#		}
+#		available = {
+#			industrial_complex > 2
+#		}
+#		cost = 10
+#		fire_only_once = yes
+#		complete_effect = {
+#			1011 = {
+#				add_building_construction = {
+#					type = infrastructure
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#	NTH_build_1012_2 = {
+#		visible = {
+#			has_decision = NTH_build_1012_1
+#		}
+#		available = {
+#			industrial_complex > 2
+#		}
+#		cost = 10
+#		fire_only_once = yes
+#		complete_effect = {
+#			1012 = {
+#				add_building_construction = {
+#					type = infrastructure
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#	NTH_build_1145_2 = {
+#		visible = {
+#			has_decision = NTH_build_1145_1
+#		}
+#		available = {
+#			industrial_complex > 2
+#		}
+#		cost = 10
+#		fire_only_once = yes
+#		complete_effect = {
+#			1145 = {
+#				add_building_construction = {
+#					type = infrastructure
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#	NTH_build_1009_3 = {
+#		visible = {
+#			has_decision = NTH_build_1009_2
+#		}
+#		available = {
+#			industrial_complex > 2
+#		}
+#		cost = 10
+#		fire_only_once = yes
+#		complete_effect = {
+#			1009 = {
+#				add_building_construction = {
+#					type = industrial_complex
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#	NTH_build_1010_3 = {
+#		visible = {
+#			has_decision = NTH_build_1010_2
+#		}
+#		available = {
+#			industrial_complex > 2
+#		}
+#		cost = 10
+#		fire_only_once = yes
+#		complete_effect = {
+#			1010 = {
+#				add_building_construction = {
+#					type = industrial_complex
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#	NTH_build_1011_3 = {
+#		visible = {
+#			has_decision = NTH_build_1011_2
+#		}
+#		available = {
+#			industrial_complex > 2
+#		}
+#		cost = 10
+#		fire_only_once = yes
+#		complete_effect = {
+#			1011 = {
+#				add_building_construction = {
+#					type = industrial_complex
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#	NTH_build_1012_3 = {
+#		visible = {
+#			has_decision = NTH_build_1012_2
+#		}
+#		available = {
+#			industrial_complex > 2
+#		}
+#		cost = 10
+#		fire_only_once = yes
+#		complete_effect = {
+#			1012 = {
+#				add_building_construction = {
+#					type = industrial_complex
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#	NTH_build_1145_3 = {
+#		visible = {
+#			has_decision = NTH_build_1145_2
+#		}
+#		available = {
+#			industrial_complex > 2
+#		}
+#		cost = 10
+#		fire_only_once = yes
+#		complete_effect = {
+#			1145 = {
+#				add_building_construction = {
+#					type = industrial_complex
+#					level = 1
+#					instant_build = yes
+#				}
+#			}
+#		}
+#	}
+#}
+#
+#NTH_war_time_media = {
+#}
+#
+#NTH_shock_and_wave = {
+#	NTH_shock_folkists = {
+#		visible = {
+#			has_war_with = MRC
+#		}
+#		available = {
+#			has_political_power > 74
+#			
+#			has_equipment = {
+#				small_plane_cas_airframe > 50
+#			}
+#		}
+#		cost = 30
+#		fire_only_once = yes
+#		complete_effect = {
+#			MRC = {
+#				add_timed_idea = {
+#					idea = NTH_terror_bombings
+#					days = 30
+#				}
+#			}
+#		}
+#	}
+#	
+#	NTH_shock_nationalists = {
+#		visible = {
+#			has_war_with = ESS
+#		}
+#		available = {
+#			has_political_power > 74
+#			
+#			has_equipment = {
+#				small_plane_cas_airframe > 50
+#			}
+#		}
+#		cost = 30
+#		fire_only_once = yes
+#		complete_effect = {
+#			ESS = {
+#				add_timed_idea = {
+#					idea = NTH_terror_bombings
+#					days = 30
+#				}
+#			}
+#		}
+#	}
+#	
+#	NTH_shock_tories = {
+#		visible = {
+#			has_war_with = KNT
+#		}
+#		available = {
+#			has_political_power > 74
+#			
+#			has_equipment = {
+#				small_plane_cas_airframe > 50
+#			}
+#		}
+#		cost = 30
+#		fire_only_once = yes
+#		complete_effect = {
+#			KNT = {
+#				add_timed_idea = {
+#					idea = NTH_terror_bombings
+#					days = 30
+#				}
+#			}
+#		}
+#	}
+#	
+#	NTH_shock_interventionists = {
+#		visible = {
+#			has_war_with = EAG
+#		}
+#		available = {
+#			has_political_power > 74
+#			
+#			has_equipment = {
+#				small_plane_cas_airframe > 50
+#			}
+#		}
+#		cost = 30
+#		fire_only_once = yes
+#		complete_effect = {
+#			EAG = {
+#				add_timed_idea = {
+#					idea = NTH_terror_bombings
+#					days = 30
+#				}
+#			}
+#		}
+#	}
+#	
+#	NTH_shock_royalists = {
+#		visible = {
+#			has_war_with = WES
+#		}
+#		available = {
+#			has_political_power > 74
+#			
+#			has_equipment = {
+#				small_plane_cas_airframe > 50
+#			}
+#		}
+#		cost = 30
+#		fire_only_once = yes
+#		complete_effect = {
+#			WES = {
+#				add_timed_idea = {
+#					idea = NTH_terror_bombings
+#					days = 30
+#				}
+#			}
+#		}
+#	}
+#	
+#	NTH_shock_absolutists = {
+#		visible = {
+#			has_war_with = SUS
+#		}
+#		available = {
+#			has_political_power > 74
+#			
+#			has_equipment = {
+#				small_plane_cas_airframe > 50
+#			}
+#		}
+#		cost = 30
+#		fire_only_once = yes
+#		complete_effect = {
+#			SUS = {
+#				add_timed_idea = {
+#					idea = NTH_terror_bombings
+#					days = 30
+#				}
+#			}
+#		}
+#	}
+#	
+#	NTH_shock_scotland = {
+#		visible = {
+#			has_war_with = SCO
+#		}
+#		available = {
+#			has_political_power > 74
+#			
+#			has_equipment = {
+#				small_plane_cas_airframe > 50
+#			}
+#		}
+#		cost = 30
+#		fire_only_once = yes
+#		complete_effect = {
+#			SCO = {
+#				add_timed_idea = {
+#					idea = NTH_terror_bombings
+#					days = 30
+#				}
+#			}
+#		}
+#	}
+#	
+#	NTH_shock_wales = {
+#		visible = {
+#			has_war_with = WLS
+#		}
+#		available = {
+#			has_political_power > 74
+#			
+#			has_equipment = {
+#				small_plane_cas_airframe > 50
+#			}
+#		}
+#		cost = 30
+#		fire_only_once = yes
+#		complete_effect = {
+#			WLS = {
+#				add_timed_idea = {
+#					idea = NTH_terror_bombings
+#					days = 30
+#				}
+#			}
+#		}
+#	}
+#	
+#	NTH_mission_folkists = {
+#		available = { 
+#			MRC = {
+#				surrender_progress > 0.5
+#			}
+#		}
+#		activation = {
+#			has_decision = NTH_shock_folkists
+#		}
+#		is_good = yes 
+#		selectable_mission = yes
+#		days_mission_timeout = 30
+#		timeout_effect = {
+#			country_event = { id = albion.25 days = 1 }
+#		}
+#		complete_effect = {
+#			country_event = { id = albion.26 days = 1 }
+#		}
+#	}
+#	
+#	NTH_mission_nationalists = {
+#		available = { 
+#			ESS = {
+#				surrender_progress > 0.5
+#			}
+#		}
+#		activation = {
+#			has_decision = NTH_shock_nationalists
+#		}
+#		is_good = yes 
+#		selectable_mission = yes
+#		days_mission_timeout = 30
+#		timeout_effect = {
+#			country_event = { id = albion.25 days = 1 }
+#		}
+#		complete_effect = {
+#			country_event = { id = albion.27 days = 1 }
+#		}
+#	}
+#	
+#	NTH_mission_tories = {
+#		available = { 
+#			KNT = {
+#				surrender_progress > 0.5
+#			}
+#		}
+#		activation = {
+#			has_decision = NTH_shock_tories
+#		}
+#		is_good = yes 
+#		selectable_mission = yes
+#		days_mission_timeout = 30
+#		timeout_effect = {
+#			country_event = { id = albion.25 days = 1 }
+#		}
+#		complete_effect = {
+#			country_event = { id = albion.28 days = 1 }
+#		}
+#	}
+#	
+#	NTH_mission_interventionists = {
+#		available = { 
+#			EAG = {
+#				surrender_progress > 0.5
+#			}
+#		}
+#		activation = {
+#			has_decision = NTH_shock_interventionists
+#		}
+#		is_good = yes 
+#		selectable_mission = yes
+#		days_mission_timeout = 30
+#		timeout_effect = {
+#			country_event = { id = albion.25 days = 1 }
+#		}
+#		complete_effect = {
+#			country_event = { id = albion.29 days = 1 }
+#		}
+#	}
+#	
+#	NTH_mission_royalists = {
+#		available = { 
+#			WES = {
+#				surrender_progress > 0.5
+#			}
+#		}
+#		activation = {
+#			has_decision = NTH_shock_royalists
+#		}
+#		is_good = yes 
+#		selectable_mission = yes
+#		days_mission_timeout = 30
+#		timeout_effect = {
+#			country_event = { id = albion.25 days = 1 }
+#		}
+#		complete_effect = {
+#			country_event = { id = albion.30 days = 1 }
+#		}
+#	}
+#	
+#	NTH_mission_absolutists = {
+#		available = { 
+#			SUS = {
+#				surrender_progress > 0.5
+#			}
+#		}
+#		activation = {
+#			has_decision = NTH_shock_absolutists
+#		}
+#		is_good = yes 
+#		selectable_mission = yes
+#		days_mission_timeout = 30
+#		timeout_effect = {
+#			country_event = { id = albion.25 days = 1 }
+#		}
+#		complete_effect = {
+#			country_event = { id = albion.31 days = 1 }
+#		}
+#	}
+#	
+#	NTH_mission_scotland = {
+#		available = { 
+#			SCO = {
+#				surrender_progress > 0.5
+#			}
+#		}
+#		activation = {
+#			has_decision = NTH_shock_scotland
+#		}
+#		is_good = yes 
+#		selectable_mission = yes
+#		days_mission_timeout = 30
+#		timeout_effect = {
+#			country_event = { id = albion.25 days = 1 }
+#		}
+#		complete_effect = {
+#			country_event = { id = albion.32 days = 1 }
+#		}
+#	}
+#	
+#	NTH_mission_wales = {
+#		available = { 
+#			WLS = {
+#				surrender_progress > 0.5
+#			}
+#		}
+#		activation = {
+#			has_decision = NTH_shock_wales
+#		}
+#		is_good = yes 
+#		selectable_mission = yes
+#		days_mission_timeout = 30
+#		timeout_effect = {
+#			country_event = { id = albion.25 days = 1 }
+#		}
+#		complete_effect = {
+#			country_event = { id = albion.33 days = 1 }
+#		}
+#	}
+#}
 
 
 

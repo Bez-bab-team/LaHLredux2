@@ -925,7 +925,87 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/SUS/goal_SUS_provide_comfort.dds"
 	}
 	SpriteType = {
-		name = "GFX_goal_SUS_defence_in_a_competitive_aget"
+		name = "GFX_goal_SUS_defence_in_a_competitive_age"
 		texturefile = "gfx/interface/goals/SUS/goal_SUS_defence_in_a_competitive_age.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_SUS_great_grain_robbery"
+		texturefile = "gfx/interface/goals/SUS/goal_SUS_great_grain_robbery.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_SUS_hammer_into_anvil"
+		texturefile = "gfx/interface/goals/SUS/goal_SUS_hammer_into_anvil.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_SUS_primary_mortgage_company"
+		texturefile = "gfx/interface/goals/SUS/goal_SUS_primary_mortgage_company.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_SUS_icebreaker"
+		texturefile = "gfx/interface/goals/SUS/goal_SUS_icebreaker.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_SUS_yes_prime_minister"
+		texturefile = "gfx/interface/goals/SUS/goal_SUS_yes_prime_minister.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_SUS_tempora"
+		texturefile = "gfx/interface/goals/SUS/goal_SUS_tempora.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_SUS_royal_philanthropic_society"
+		texturefile = "gfx/interface/goals/SUS/goal_SUS_royal_philanthropic_society.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_SUS_cement_loyalty"
+		texturefile = "gfx/interface/goals/SUS/goal_SUS_cement_loyalty.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_SUS_civilian_conservation_corps"
+		texturefile = "gfx/interface/goals/SUS/goal_SUS_civil_resettlement_units.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_SUS_data_mining"
+		texturefile = "gfx/interface/goals/SUS/goal_SUS_data_mining.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_SUS_hire_londoner_firms"
+		texturefile = "gfx/interface/goals/SUS/goal_SUS_hire_londoner_firms.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_SUS_independent_intelligence_schools"
+		texturefile = "gfx/interface/goals/SUS/goal_SUS_independent_intelligence_schools.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_SUS_let_the_sky_fall"
+		texturefile = "gfx/interface/goals/SUS/goal_SUS_let_the_sky_fall.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_SUS_low_power_reactors"
+		texturefile = "gfx/interface/goals/SUS/goal_SUS_low_power_reactors.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_SUS_many_happy_returns"
+		texturefile = "gfx/interface/goals/SUS/goal_SUS_many_happy_returns.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_SUS_fifty_first_killometre"
+		texturefile = "gfx/interface/goals/SUS/goal_SUS__51st_kilometer.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_SUS_the_british_thaw"
+		texturefile = "gfx/interface/goals/SUS/goal_SUS_british_thaw.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_SUS_mass_amnesia"
+		texturefile = "gfx/interface/goals/SUS/goal_SUS_mass_amnesia.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_SUS_talks_with_the_underworld"
+		texturefile = "gfx/interface/goals/SUS/goal_SUS_talks_with_underworld.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_SUS_top_secret"
+		texturefile = "gfx/interface/goals/SUS/goal_SUS_top_secret.dds"
 	}
 }

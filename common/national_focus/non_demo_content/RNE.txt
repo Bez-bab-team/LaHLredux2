@@ -1,0 +1,14 @@
+focus_tree = {
+	id = RNE_first
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+    shared_focus = RNE_deeds_of_the_seven_boyars
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = RNE
+		}
+	}
+}
+

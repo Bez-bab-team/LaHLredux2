@@ -28,7 +28,7 @@ unit_medals = {
 	##SUS##
 	SUS_medal_1 = {	 #Conspicuous Gallantry Cross#
 		available = { should_have_sussex_medals_trigger = yes }
-		rame = 1
+		frame = 1
 		icon = "GFX_medal_icon_SUS"
 		cost = 50
 			

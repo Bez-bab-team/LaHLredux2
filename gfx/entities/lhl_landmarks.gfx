@@ -1,0 +1,177 @@
+objectTypes = {
+
+###############################
+######	    Whore Big Ben      ######
+###############################
+
+	pdxmesh = {
+		name = "landmark_big_ben_whoreminster_tower_mesh"
+		file = "gfx/models/buildings/landmarks/landmark_big_ben.mesh"
+
+		meshsettings = {
+			name = "landmark_big_benShape"
+			index = 0
+			texture_diffuse = "landmark_big_ben_diffuse.dds"
+			texture_normal = "landmark_big_ben_normal.dds"
+			texture_specular = "landmark_big_ben_specular.dds"
+			shader = "PdxMeshAdvancedSnow"
+		}
+	}
+
+#DESTROYED
+	pdxmesh = {
+		name = "landmark_big_ben_whoreminster_tower_destroyed_mesh"
+		file = "gfx/models/buildings/landmarks/landmark_big_ben_destroyed.mesh"
+
+		animation = { id = "idle"			type = "landmark_big_ben_destroyed_idle_animation" }
+		animation = { id = "destroy"			type = "landmark_big_ben_destroyed_destroy_animation" }
+
+		meshsettings = {
+			name = "landmark_big_ben_destroyedShape"
+			index = 0
+			texture_diffuse = "landmark_big_ben_destroyed_diffuse.dds"
+			texture_normal = "landmark_big_ben_destroyed_normal.dds"
+			texture_specular = "landmark_big_ben_destroyed_specular.dds"
+			shader = "PdxMeshAdvancedSnow"
+		}
+	}
+
+###############################
+######  Statues 1  ######
+###############################
+
+	pdxmesh = {
+		name = "landmark_henry_v_statue_mesh"
+		file = "gfx/models/buildings/landmarks/landmark_cristo_redentor.mesh"
+
+		meshsettings = {
+			name = "landmark_cristo_redentorShape"
+			index = 0
+			texture_diffuse = "landmark_cristo_redentor_diffuse.dds"
+			texture_normal = "landmark_cristo_redentor_normal.dds"
+			texture_specular = "landmark_cristo_redentor_specular.dds"
+			shader = "PdxMeshAdvancedSnow"
+		}
+	}
+
+#DESTROYED
+	pdxmesh = {
+		name = "landmark_henry_v_statue_destroyed_mesh"
+		file = "gfx/models/buildings/landmarks/landmark_cristo_redentor_destroyed.mesh"
+
+		animation = { id = "destroy"			type = "landmark_cristo_redentor_destroyed_destroy_animation" }
+
+		meshsettings = {
+			name = "landmark_cristo_redentor_destroyedShape"
+			index = 0
+			texture_diffuse = "landmark_cristo_redentor_diffuse.dds"
+			texture_normal = "landmark_cristo_redentor_normal.dds"
+			texture_specular = "landmark_cristo_redentor_specular.dds"
+			shader = "PdxMeshAdvancedSnow"
+		}
+	}
+	
+###############################
+######  Statues 2 ######
+###############################
+
+	pdxmesh = {
+		name = "landmark_william_the_conqueror_statue_mesh"
+		file = "gfx/models/buildings/landmarks/landmark_cristo_redentor.mesh"
+
+		meshsettings = {
+			name = "landmark_cristo_redentorShape"
+			index = 0
+			texture_diffuse = "landmark_cristo_redentor_diffuse.dds"
+			texture_normal = "landmark_cristo_redentor_normal.dds"
+			texture_specular = "landmark_cristo_redentor_specular.dds"
+			shader = "PdxMeshAdvancedSnow"
+		}
+	}
+
+#DESTROYED
+	pdxmesh = {
+		name = "landmark_william_the_conqueror_statue_destroyed_mesh"
+		file = "gfx/models/buildings/landmarks/landmark_cristo_redentor_destroyed.mesh"
+
+		animation = { id = "destroy"			type = "landmark_cristo_redentor_destroyed_destroy_animation" }
+
+		meshsettings = {
+			name = "landmark_cristo_redentor_destroyedShape"
+			index = 0
+			texture_diffuse = "landmark_cristo_redentor_diffuse.dds"
+			texture_normal = "landmark_cristo_redentor_normal.dds"
+			texture_specular = "landmark_cristo_redentor_specular.dds"
+			shader = "PdxMeshAdvancedSnow"
+		}
+	}
+
+###############################
+######  Statues 3 ######
+###############################
+
+	pdxmesh = {
+		name = "landmark_margaret_thatcher_public_latrine_mesh"
+		file = "gfx/models/buildings/landmarks/landmark_cristo_redentor.mesh"
+
+		meshsettings = {
+			name = "landmark_cristo_redentorShape"
+			index = 0
+			texture_diffuse = "landmark_cristo_redentor_diffuse.dds"
+			texture_normal = "landmark_cristo_redentor_normal.dds"
+			texture_specular = "landmark_cristo_redentor_specular.dds"
+			shader = "PdxMeshAdvancedSnow"
+		}
+	}
+
+#DESTROYED
+	pdxmesh = {
+		name = "landmark_margaret_thatcher_public_latrine_destroyed_mesh"
+		file = "gfx/models/buildings/landmarks/landmark_cristo_redentor_destroyed.mesh"
+
+		animation = { id = "destroy"			type = "landmark_cristo_redentor_destroyed_destroy_animation" }
+
+		meshsettings = {
+			name = "landmark_cristo_redentor_destroyedShape"
+			index = 0
+			texture_diffuse = "landmark_cristo_redentor_diffuse.dds"
+			texture_normal = "landmark_cristo_redentor_normal.dds"
+			texture_specular = "landmark_cristo_redentor_specular.dds"
+			shader = "PdxMeshAdvancedSnow"
+		}
+	}
+
+###############################
+######  Statues 4 ######
+###############################
+
+	pdxmesh = {
+		name = "landmark_gunzel_statue_mesh"
+		file = "gfx/models/buildings/landmarks/landmark_cristo_redentor.mesh"
+
+		meshsettings = {
+			name = "landmark_cristo_redentorShape"
+			index = 0
+			texture_diffuse = "landmark_cristo_redentor_diffuse.dds"
+			texture_normal = "landmark_cristo_redentor_normal.dds"
+			texture_specular = "landmark_cristo_redentor_specular.dds"
+			shader = "PdxMeshAdvancedSnow"
+		}
+	}
+
+#DESTROYED
+	pdxmesh = {
+		name = "landmark_gunzel_statue_destroyed_mesh"
+		file = "gfx/models/buildings/landmarks/landmark_cristo_redentor_destroyed.mesh"
+
+		animation = { id = "destroy"			type = "landmark_cristo_redentor_destroyed_destroy_animation" }
+
+		meshsettings = {
+			name = "landmark_cristo_redentor_destroyedShape"
+			index = 0
+			texture_diffuse = "landmark_cristo_redentor_diffuse.dds"
+			texture_normal = "landmark_cristo_redentor_normal.dds"
+			texture_specular = "landmark_cristo_redentor_specular.dds"
+			shader = "PdxMeshAdvancedSnow"
+		}
+	}	

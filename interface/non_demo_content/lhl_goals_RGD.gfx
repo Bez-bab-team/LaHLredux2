@@ -1,0 +1,98 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_goal_RGD_aftermath_of_the_medvedev"
+		texturefile = "gfx/interface/goals/RGD/goal_RGD_aftermath_of_the_medvedev.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RGD_Arise_Russian_People"
+		texturefile = "gfx/interface/goals/RGD/goal_RGD_Arise_Russian_People.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RGD_Extinguish_the_Sanitars"
+		texturefile = "gfx/interface/goals/RGD/goal_RGD_Extinguish_the_Sanitars.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RGD_Figures_on_the_board"
+		texturefile = "gfx/interface/goals/RGD/goal_RGD_Figures_on_the_board.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RGD_fresh_supplies"
+		texturefile = "gfx/interface/goals/RGD/goal_RGD_fresh_supplies.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RGD_Gearing_up_for_war"
+		texturefile = "gfx/interface/goals/RGD/goal_RGD_Gearing_up_for_war.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RGD_Little_Green_Island"
+		texturefile = "gfx/interface/goals/RGD/goal_RGD_Little_Green_Island.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RGD_Madman_of_the_South"
+		texturefile = "gfx/interface/goals/RGD/goal_RGD_Madman_of_the_South.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RGD_Matters_at_hand"
+		texturefile = "gfx/interface/goals/RGD/goal_RGD_Matters_at_hand.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RGD_Matters_of_Religions"
+		texturefile = "gfx/interface/goals/RGD/goal_RGD_Matters_of_Religions.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RGD_Mountain_Path"
+		texturefile = "gfx/interface/goals/RGD/goal_RGD_Mountain_Path.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RGD_our_dear_partners"
+		texturefile = "gfx/interface/goals/RGD/goal_RGD_our_dear_partners.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RGD_Persian_Policy"
+		texturefile = "gfx/interface/goals/RGD/goal_RGD_Persian_Policy.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RGD_Putins_armor"
+		texturefile = "gfx/interface/goals/RGD/goal_RGD_Putins_armor.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RGD_Rise_and_shine_mr_putin"
+		texturefile = "gfx/interface/goals/RGD/goal_RGD_Rise_and_shine_mr_putin.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RGD_Strategy_and_Tactics"
+		texturefile = "gfx/interface/goals/RGD/goal_RGD_Strategy_and_Tactics.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RGD_The_Arch_Enemy"
+		texturefile = "gfx/interface/goals/RGD/goal_RGD_The_Arch_Enemy.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RGD_The_Great_Eurasian_Lake"
+		texturefile = "gfx/interface/goals/RGD/goal_RGD_The_Great_Eurasian_Lake.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RGD_The_hammer_of_industry"
+		texturefile = "gfx/interface/goals/RGD/goal_RGD_The_hammer_of_industry.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RGD_The_mighty_Rosgvardia"
+		texturefile = "gfx/interface/goals/RGD/goal_RGD_The_mighty_Rosgvardia.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RGD_The_worker_of_Caucasus"
+		texturefile = "gfx/interface/goals/RGD/goal_RGD_The_worker_of_Caucasus.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RGD_those_who_fight"
+		texturefile = "gfx/interface/goals/RGD/goal_RGD_those_who_fight.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RGD_Ukrainian_Pawns"
+		texturefile = "gfx/interface/goals/RGD/goal_RGD_Ukrainian_Pawns.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_RGD_zombie_box"
+		texturefile = "gfx/interface/goals/RGD/goal_RGD_zombie_box.dds"
+	}
+}

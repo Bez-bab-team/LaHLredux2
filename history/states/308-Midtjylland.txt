@@ -1,19 +1,15 @@
-
 state={
 	id=308
 	name="STATE_308"
 	provinces={
-		4546 4710 5257 6071 6097 6550 7193 9729 10282 15059 
+		4546 4710 5257 6071 6097 7193 9729 10282 15059 
 	}
-	buildings_max_level_factor=1.000
-    state_category=pastoral
-	manpower=1988506
-	
-	buildings_max_level_factor=1.000
-    state_category=pastoral
 	history={
 		owner = SCA
 		add_core_of = SCA
-		add_core_of = DEN
 	}
+	manpower=1988506
+	buildings_max_level_factor=1
+	state_category=pastoral
+	local_supplies=0
 }
