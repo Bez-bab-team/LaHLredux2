@@ -6999,7 +6999,7 @@ SpriteType = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_GFX_goal_SUS_great_grain_robbery_shine"
+		name = "GFX_goal_SUS_great_grain_robbery_shine"
 		texturefile = "gfx/interface/goals/SUS/GFX_goal_SUS_great_grain_robbery.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
