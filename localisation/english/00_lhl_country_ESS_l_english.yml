@@ -193,7 +193,6 @@
  ESS_ideological_craze_desc:0 "A mob without a proper way of thinking is just that, a dumb messy mob. But when these goons get an idea of what it is doing, it can destroy anything in its path. That's why we need to assemble all those eggheads into one place and formulate a way for us to control the crowd. Or better yet, give them a purpose, like a Constitution, combining the best of all ideological doctrines, with a slight sprinkle of Sir Mosley Senior's thoughts."
  
  ##IDEAS##
- ESS_nick_land:0 "Nick Land"
  ESS_accelerated_army:0 "Accelerated Army"
  ESS_accelerated_army_desc:0 "Accelerated Army"
  ESS_accelerated_army_1:0 "Accelerated Army"
@@ -1970,80 +1969,7 @@
  ESS_modifier_local_CEO_1018:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
  ESS_modifier_local_CEO_1018_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_1018_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_1018_expertise]§!"
  #Sussex#
- ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
- ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
- #
- ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
- ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
- #
- ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
- ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
- #
- ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
- ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
- #
- ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
- ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
- #
- ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
- ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
- #
- ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
- ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
- #
- ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
- ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
- #
- ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
- ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
- #
- ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
- ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
- #
- ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
- ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
- #
- ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
- ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
- #
- ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
- ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
- #
- ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
- ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
- #
- ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
- ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
- #
- ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
- ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
- #
- ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
- ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
- #
- ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
- ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
- #
- ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
- ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
- #
- ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
- ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
- #
- ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
- ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
- #
- ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
- ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
- #
- ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
- ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
- #
- ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
- ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
- #
- ESS_modifier_local_CEO_998:0 "§WThe local CEO of this state§! is [GetESSLocalCEOName] [GetESSLocalCEOSurname]"
- ESS_modifier_local_CEO_998_desc:0 "§WCorruption Level =§! §R[?ESS_modifier_local_CEO_998_corruption]§!\n\n§WExpertise Level =§! §G[?ESS_modifier_local_CEO_998_expertise]§!"
+ #TODO#
  #
  
  ###Moldbug Stuff###

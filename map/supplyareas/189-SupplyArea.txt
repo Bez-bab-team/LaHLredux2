@@ -1,9 +1,0 @@
-
-supply_area={
-	id=189
-	name="SUPPLYAREA_189"
-	value=0
-	states={
-		429 1244 1245 1246 1017 
-	}
-}
