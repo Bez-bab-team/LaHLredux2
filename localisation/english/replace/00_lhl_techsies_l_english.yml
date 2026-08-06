@@ -534,7 +534,7 @@
  #
  night_vision1:0 "Special Forces Equipment I"
  night_vision2:0 "Special Forces Equipment II"
- night_vision2_desc:0 "fuck"
+ night_vision2_desc:0 "Early infra-red scopes, although initially intended for use by snipers, had a limited vision range. As both portability and vision improves, these devices can be used by more troops operating at night."
  night_vision3:0 "Special Forces Equipment III"
  night_vision4:0 "Special Forces Equipment IV"
  night_vision5:0 "Special Forces Equipment V"

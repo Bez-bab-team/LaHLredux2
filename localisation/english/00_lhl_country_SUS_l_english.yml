@@ -67,7 +67,6 @@
  SUS_peter_mandelson:0 "Peter Mandelson"
  SUS_alastair_campbell:0 "Alastair Campbell"
  SUS_jack_straw:0 "Jack Straw"
- SUS_andrew_adonis:0 "Andrew Adonis"
  SUS_jim_murphy:0 "Jim Murphy"
  SUS_david_miliband:0 "David Miliband"
  SUS_hilary_benn:0 "Hilary Benn"
@@ -119,15 +118,10 @@
  SUS_coring_cost_modifier:0 "Coring Cost"
  ##TRAITS##
  comrade_king:0 "Comrade King"
- mister_king:0 "Mister King"
  true_sovereign:0 "True Sovereign"
- three_digits_hero:0 "Three Digits Hero"
  moonraker:0 "Moonraker"
- comrade_king:0 "Comrade King"
  mister_king:0 "Mister King"
- true_sovereign:0 "True Sovereign"
  three_digits_hero:0 "Three Digits Hero"
- moonraker:0 "Moonraker"
  orthodox_labourist:0 "Orthodox Labourist"
  rebellious_sceptic:0 "Rebellious Sceptic"
  caring_baroness:0 "Caring Baroness"
@@ -211,7 +205,6 @@
  SUS_bewitched_army_1_of_3:0 "Bewitched Army"
  SUS_bewitched_army_1_of_3_desc:0 "The most beautiful and entrusted part of the military, the Amazonian Guard, betrayed Henry IX for the sake of taking power from the temporary vulnerable king. The Sovereign can no longer rely on these wicked witches and has to form new paramilitary forces to ensure security of his rule. Otherwise, Emma Watson and her coven would turn our land into nothing but the shade of Korea."
  SUS_bewitched_army_2_of_3:0 "Bewitched Army"
- SUS_bewitched_army_3_of_3_desc:0 "The most beautiful and entrusted part of the military, the Amazonian Guard, betrayed Henry IX for the sake of taking power from the temporary vulnerable king. The Sovereign can no longer rely on these wicked witches and has to form new paramilitary forces to ensure security of his rule. Otherwise, Emma Watson and her coven would turn our land into nothing but the shade of Korea."
  SUS_bewitched_army_3_of_3:0 "Bewitched Army"
  SUS_bewitched_army_3_of_3_desc:0 "The most beautiful and entrusted part of the military, the Amazonian Guard, betrayed Henry IX for the sake of taking power from the temporary vulnerable king. The Sovereign can no longer rely on these wicked witches and has to form new paramilitary forces to ensure security of his rule. Otherwise, Emma Watson and her coven would turn our land into nothing but the shade of Korea."
  SUS_state_anglicanism_1_of_3:0 "State Anglicanism"
@@ -1737,7 +1730,7 @@
  SUS_event.1116.a:0 "Find a perfect spot for the launch pad"
  SUS_event.1116.b:0 "Call up those Yankees"
  SUS_event.1116.c:0 "I heard Wembley has a good place to launch a “rocket”"
- SUS_event.1124.a:0 "Buildings and bureaucracy"
+ SUS_event.1124.t:0 "Buildings and bureaucracy"
  SUS_event.1124.d:0 "While all of the British Isles are under our rightful control there is a bit of a problem. That is much of the bureaucratic infrastructure is in shambles, offices have been reduced to rubble and manors have been burned to the ground. At this moment if we are to get Britain up and running again we need to resolve this problem.\n\nLuckly, our advisors have presented several projects involving the transformation of town of Winchester, the cradle of English statehood, along with resettlement of government officials to the renewed town to prevent disturbance within the royal court during potential riots in big cities such as London. It is up to King to decide what will be the best solution to this Winchester Project"
  SUS_event.1124.a:0 "New residency there would be enough"
  SUS_event.1124.b:0 "I will build a monument more lasting than bronze"
@@ -2169,7 +2162,6 @@
  #
  SUS_request_4_mission_tt:0 "§YGloustershire§!: All border provinces with §YHerefordshire§!, §YStafford§! and §YNorthampton§!: More than §Y4§! Land Ford"
  #
- SUS_weapon_shortages:0 "Weapon Shortages"
  SUS_product_deficit:0 "Product Deficit"
  SUS_transportation_issues:0 "Transportation Issues"
  SUS_bandit_raids:0 "Bandit Raids"
@@ -2195,8 +2187,6 @@
  SUS_socecon_current_budget:0 "Current §CUSC§! budget:\n§Y££[?SUS_socecon_current_budget] million§!\n\nMonthly §CUSC§! income:\n§Y££[?global.SUS_socecon_current_budget_income] million§!"
  #
  SUS_socecon_interact_member:0 "§Y[FROM.GetName]§!  Loyalty: §Y[GetSUSSoceconLoyaltyColor]§!  Budget Fee: §Y££[?FROM.num_of_civilian_factories] million§!"
- #
- SUS_socecon_member:0 "USC member"
  #
  SUS_socecon_event_price_20:0 "This will cost §Y££20 million§!"
  SUS_socecon_event_price_25:0 "This will cost §Y££25 million§!"

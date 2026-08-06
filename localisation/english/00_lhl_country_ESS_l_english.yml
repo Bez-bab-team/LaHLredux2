@@ -148,7 +148,6 @@
  ESS_band_loyalty_all_plus.tt:0 "§GLoyality for all bands+10§!"
  ESS_band_loyalty_minus.tt:0 "§RLoyality -10§!"
  ESS_band_loyalty_minus_2.tt:0 "§RLoyality -20§!"
- ESS_band_loyalty_plus.tt:0 "§GLoyality +10§!"
  ESS_big_b_loyalty_plus.tt:0 "Big B's §GLoyality +10§!"
  ESS_sharpers_loyalty_plus.tt:0 "Sharpers §GLoyality +10§!"
  ESS_undergrounders_loyalty_plus.tt:0 "Undergrounders §GLoyality +10§!"
@@ -249,7 +248,6 @@
  ESS_land_concessions:0 "Nick Land Fights for Your Rights!"
  #
  ESS_bands_economy:0 "Bandit Economy"
- ESS_interlude:0 "Interlude"
  ESS_interlude:0 "Interlude"
  ESS_interlude_1:0 "Interlude"
  ESS_interlude_1_desc:0 "Interlude"
@@ -416,9 +414,6 @@
  ESS_reopen_thames:0 "Re-Open Themes"
  ESS_reopen_thames_desc:0 "Revival of Formula One" 
  
- ESS_constructing_utopia:0 "Constructing Utopia"
- ESS_constructing_utopia_desc:0 "Revival of Formula One" 
- 
  ESS_kickstart_institutions:0 "Kickstart Institutions"
  ESS_kickstart_institutions_desc:0 "Revival of Formula One"
  
@@ -436,9 +431,6 @@
  
  ESS_civil_control:0 "Civil Control"
  ESS_civil_control_desc:0 "Revival of Formula One"
- 
- ESS_constructing_utopia:0 "Constructing Utopia"
- ESS_constructing_utopia_desc:0 "Revival of Formula One"
  
  ESS_vote_smart_not_hard:0 "Vote Smarter, Not Harder"
  ESS_vote_smart_not_hard_desc:0 "Revival of Formula One"
@@ -532,9 +524,6 @@
  
  ESS_middle_command_primacy:0 "Middle Command Primacy"
  ESS_middle_command_primacy_desc:0 "Revival of Formula One"
- 
- ESS_constructing_utopia:0 "Constructing Utopia"
- ESS_constructing_utopia_desc:0 "Revival of Formula One"
  
  ESS_delayless_bombardment:0 "Delayless Bombardment"
  ESS_delayless_bombardment_desc:0 "Revival of Formula One"
@@ -632,9 +621,7 @@
   
  ESS_beating_heart:0 "Beating Heart"
  ESS_beating_heart_desc:0 "Revival of Formula One"
-  
- ESS_emergency_dictatorship:0 "Emergency Dictatorship"
- ESS_emergency_dictatorship_desc:0 "Revival of Formula One"
+ 
   
  ESS_great_ouse_march:0 "Great Ouse March"
  ESS_great_ouse_march_desc:0 "Revival of Formula One"
@@ -1656,9 +1643,6 @@
  
  ESS_provost:0 "Implementation of Military Provosts"
  ESS_provost_desc:0 "Implementation of Military Provosts"
- 
- NSU_enserf:0 "Enserf the Peasants"
- NSU_enserf_desc:0 "Enserf the Peasants"
  
  ESS_integration_of_paramilitar_corps:0 "Integration of Paramilitary Corps"
  ESS_integration_of_paramilitar_corps_desc:0 "Integration of Paramilitary Corps"

@@ -118,11 +118,6 @@
  EAG_event.241.a:0 "Campaign as Klumb."
  EAG_event.241.b:0 "Campaign as May."
  #
- EAG_event.241.t:0 "The Elections have begun: EPC"
- EAG_event.241.d:0 "The elections have begun, we have to choose who to campaign as."
- EAG_event.241.a:0 "Campaign as Klumb."
- EAG_event.241.b:0 "Campaign as May."
- #
  EAG_event.242.t:0 "The Elections have begun: FPE"
  EAG_event.242.d:0 "The elections have begun, we have to choose who to campaign as."
  EAG_event.242.a:0 "Campaign as Yea."

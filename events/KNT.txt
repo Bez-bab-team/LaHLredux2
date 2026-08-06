@@ -2360,7 +2360,7 @@ country_event = {
 		}
     }
 	option = {
-		name = KNT_event.94.d
+		name = KNT_event.94.e
 		KNT = {
 			country_event = {
 				days = 5
@@ -3038,7 +3038,7 @@ country_event = { #Coronation
 		}
     }
 	option = {
-		name = KNT_event.117.d
+		name = KNT_event.117.e
 		trigger = {
 			has_country_flag = KNT_flag_king_edward
 		}
@@ -3054,7 +3054,7 @@ country_event = { #Coronation
 		}
     }
 	option = {
-		name = KNT_event.117.e
+		name = KNT_event.117.f
 		trigger = {
 			has_country_flag = KNT_flag_king_michael
 		}
@@ -3070,7 +3070,7 @@ country_event = { #Coronation
 		}
     }
 	option = {
-		name = KNT_event.117.f
+		name = KNT_event.117.g
 		trigger = {
 			has_country_flag = KNT_flag_king_william
 		}
@@ -3086,7 +3086,7 @@ country_event = { #Coronation
 		}
     }
 	option = {
-		name = KNT_event.117.g
+		name = KNT_event.117.h
 		trigger = {
 			has_country_flag = KNT_flag_king_diana
 		}
@@ -3102,7 +3102,7 @@ country_event = { #Coronation
 		}
     }
 	option = {
-		name = KNT_event.117.h
+		name = KNT_event.117.i
 		trigger = {
 			has_country_flag = KNT_flag_king_anne
 		}
@@ -3118,7 +3118,7 @@ country_event = { #Coronation
 		}
     }
 	option = {
-		name = KNT_event.117.i
+		name = KNT_event.117.j
 		trigger = {
 			has_country_flag = KNT_flag_king_dead
 		}
