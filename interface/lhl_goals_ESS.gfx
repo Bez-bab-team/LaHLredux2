@@ -192,7 +192,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/ESS/goal_ESS_greater_gangs_on_london.dds"
 	}	
 	SpriteType = {
-		name = "GFX_ESS_awakening_of_atlas"
+		name = "GFX_goal_ESS_awakening_of_atlas"
 		texturefile = "gfx/interface/goals/ESS/goal_ESS_awakening_of_atlas.dds"
 	}	
 	SpriteType = {
@@ -2063,5 +2063,45 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_ESS_melt_their_hearts"
 		texturefile = "gfx/interface/goals/ESS/goal_ESS_melt_their_hearts.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_meltdown"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_meltdown.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_bear_our_fangs"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_bear_our_fangs.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_no_future"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_no_future.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_nuclear_accelerationism"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_nuclear_accelerationism.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_delight_the_isles_to_death"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_delight_the_isles_to_death.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_expand_the_cyber_revolution"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_expand_the_cyber_revolution.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_anarchitecture_of_britain"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_anarchitecture_of_britain.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_circuitries"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_circuitries.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_rotten_meat"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_rotten_meat.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_desiring_production"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_desiring_production.dds"
 	}
 }

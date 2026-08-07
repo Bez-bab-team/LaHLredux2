@@ -3218,7 +3218,7 @@
 	}
 	shared_focus = {
 		id = KNT_no_mercy
-		icon = GFX_
+		icon = GFX_goal_KNT_no_mercy
 		cost = 4.3
 		allow_branch = {
 			has_country_flag = KNT_sabotage_republicans
@@ -3234,7 +3234,7 @@
 	}
 	shared_focus = {
 		id = KNT_unleash_the_partisans
-		icon = GFX_
+		icon = GFX_goal_KNT_unleash_the_partisans
 		cost = 4.3
 		prerequisite = {
 			focus = KNT_no_mercy
@@ -3247,7 +3247,7 @@
 	}
 	shared_focus = {
 		id = KNT_terrors_of_the_new_age
-		icon = GFX_
+		icon = GFX_goal_KNT_terrors_of_the_new_age
 		cost = 4.3
 		prerequisite = {
 			focus = KNT_no_mercy
@@ -3260,7 +3260,7 @@
 	}
 	shared_focus = {
 		id = KNT_the_tory_line
-		icon = GFX_
+		icon = GFX_goal_KNT_the_tory_line
 		cost = 4.3
 		prerequisite = {
 			focus = KNT_no_mercy
@@ -3273,7 +3273,7 @@
 	}
 	shared_focus = {
 		id = KNT_the_runaways
-		icon = GFX_
+		icon = GFX_goal_KNT_the_runaways
 		cost = 4.3
 		prerequisite = {
 			focus = KNT_unleash_the_partisans
@@ -3287,7 +3287,7 @@
 	}
 	shared_focus = {
 		id = KNT_railway_warfare
-		icon = GFX_
+		icon = GFX_goal_KNT_railway_warfare
 		cost = 4.3
 		prerequisite = {
 			focus = KNT_the_tory_line

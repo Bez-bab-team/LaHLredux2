@@ -2128,7 +2128,7 @@
  SUS_senate_minus_15_tt:0 "£stability_texticon §CJustice§! §R-15§!"
  #
  SUS_weapon_shortages:0 "Weapon Shortages"
- SUS_request_1_mission:0 "Request Deadline"
+ #SUS_request_1_mission:0 "Request Deadline"
  #
  SUS_state_planning_comission_decisions:0 "State Planning Commission"
  SUS_national_enterprise_board_plan:0 "National Enterprise Board Plan"

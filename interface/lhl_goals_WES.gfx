@@ -430,8 +430,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/WES/goal_WES_arise_ye_english_folk.dds"
 	}
 	SpriteType = {
-		name = "GFX_goal_WES_echo_of_wars"
-		texturefile = "gfx/interface/goals/WES/goal_WES_echo_of_wars.dds"
+		name = "GFX_goal_WES_echo_of_war"
+		texturefile = "gfx/interface/goals/WES/goal_WES_echo_of_war.dds"
 	}
 	SpriteType = {
 		name = "GFX_goal_WES_fill_the_treasure"

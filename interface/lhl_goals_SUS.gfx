@@ -962,6 +962,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_goal_SUS_civilian_conservation_corps"
+		texturefile = "gfx/interface/goals/SUS/goal_SUS_civilian_conservation_corps.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_SUS_civil_resettlement_units"
 		texturefile = "gfx/interface/goals/SUS/goal_SUS_civil_resettlement_units.dds"
 	}
 	SpriteType = {

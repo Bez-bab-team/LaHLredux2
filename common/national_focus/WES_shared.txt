@@ -316,7 +316,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = WES_echo_of_war
-	icon = GFX_goal_WES_echo_of_wars
+	icon = GFX_goal_WES_echo_of_war
 	cost = 4.3
 	prerequisite = {
         focus = WES_trials_of_courage

@@ -516,4 +516,28 @@ spriteTypes = {
 		name = "GFX_goal_KNT_reforging_britain"
 		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_reforging_britain.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_KNT_no_mercy"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_no_mercy.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_unleash_the_partisans"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_unleash_the_partisans.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_terrors_of_the_new_age"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_terrors_of_the_new_age.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_the_tory_line"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_the_tory_line.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_the_runaways"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_the_runaways.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_railway_warfare"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_railway_warfare.dds"
+	}
 }
