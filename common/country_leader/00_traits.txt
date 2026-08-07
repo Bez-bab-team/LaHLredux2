@@ -3922,7 +3922,7 @@ leader_traits = {
 			factor = @navy_command_factor_3
 			modifier = {
 				factor = 0
-				has_navy_size = { unit = carrier size < 1 }
+				has_navy_size = { unit = modern_carrier size < 1 }
 			}
 			modifier = {
 				factor = 0

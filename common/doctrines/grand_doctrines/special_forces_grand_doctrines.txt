@@ -9,7 +9,8 @@ special_forces_quantity = {
             has_tech = tech_mountaineers
             has_tech = marines
             has_tech = paratroopers
-            has_tech = rangers_tech
+            #has_tech = rangers_tech
+			has_tech = urban_special_forces
         }
     }
 
@@ -83,7 +84,8 @@ special_forces_quality = {
             has_tech = tech_mountaineers
             has_tech = marines
             has_tech = paratroopers
-            has_tech = rangers_tech
+            #has_tech = rangers_tech
+			has_tech = urban_special_forces
         }
     }
 
