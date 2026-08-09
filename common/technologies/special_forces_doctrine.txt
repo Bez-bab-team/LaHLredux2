@@ -1149,9 +1149,9 @@ technologies = {
 		doctrine = yes	
 		research_cost = 4.5
 		
-		enable_subunits = {
-			airborne_light_armor
-		}
+		#enable_subunits = { #Add this after reworking airborne vehicles
+		#	airborne_light_armor
+		#}
 		
 		categories = {
 			special_forces_doctrine

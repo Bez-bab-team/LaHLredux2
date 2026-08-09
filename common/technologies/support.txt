@@ -419,7 +419,7 @@ technologies = {
 			recon
 			mot_recon
 			armored_car_recon
-			light_tank_recon
+			#light_tank_recon #Fix this after fixing light tanks
 		}
 		
 		path = {

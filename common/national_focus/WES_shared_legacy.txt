@@ -43,7 +43,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_strength_monarchy
-	icon = GFX_goal_WES_Strength_Of-Monarchy
+	icon = GFX_goal_WES_Strength_Of_Monarchy
 	prerequisite = {
         focus = WES_worthie_england
 	}

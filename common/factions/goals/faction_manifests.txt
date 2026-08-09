@@ -4,7 +4,7 @@ faction_manifest_generic = {
 	is_manifest = yes
 	ratio_progress = {
 		total_amount = 1000
-		completed_amount_collection = collection:faction_manifest_never
+		completed_amount_collection = collection:world_at_peace_countries
 		
 		scale = {
 		}

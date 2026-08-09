@@ -8,8 +8,8 @@ set_war_support = 0.8
 # Starting tech
 set_technology = {
 	basic_machine_tools = 1
-	automatization_overall = 1
-	automatization_overall_dummy = 1
+	green_overall = 1
+	green_overall_dummy = 1
 	obsolete_main_battle_tank = 1
 	outdated_main_battle_tank = 1
 	support_weapons1 = 1

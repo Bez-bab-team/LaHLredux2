@@ -325,12 +325,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/WES/goal_WES_Sword_In_The_Stone.dds"
 	}
 	SpriteType = {
-		name = "GFX_goal_WES_Strength_Of-Monarchy"
-		texturefile = "gfx/interface/goals/WES/goal_WES_Strength_Of-Monarchy.dds"
-	}
-	SpriteType = {
-		name = "GFX_goal_WES_Strength Of Monarchy"
-		texturefile = "gfx/interface/goals/WES/goal_WES_Strength Of Monarchy.dds"
+		name = "GFX_goal_WES_Strength_Of_Monarchy"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Strength_Of_Monarchy.dds"
 	}
 	SpriteType = {
 		name = "GFX_goal_WES_Perish_The_Thought"
@@ -1189,5 +1185,9 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_WES_the_justice_will_be_done"
 		texturefile = "gfx/interface/goals/WES/goal_WES_the_justice_will_be_done.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_sea_and_sky"
+		texturefile = "gfx/interface/goals/WES/goal_WES_sea_and_sky.dds"
 	}
 }
