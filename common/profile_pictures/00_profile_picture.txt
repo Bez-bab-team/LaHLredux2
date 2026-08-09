@@ -1,1 +1,6 @@
-#adapt this
+profile_pictures = {
+	# default
+	1 = {
+		icon = GFX_profile_picture_goal_continuous_armor_production
+	}
+}
