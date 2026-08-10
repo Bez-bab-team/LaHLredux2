@@ -6299,6 +6299,11 @@ guiTypes = {
 			name = "Background"
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
 		}
+		
+		gridboxtype = {
+			# contains detailed_output_item
+			name = "special_project_specialization_list"
+		}
 
 		iconType = {
 			name = "Icon"
