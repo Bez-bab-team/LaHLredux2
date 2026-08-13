@@ -1,8 +1,6 @@
 ﻿capital = 141
 
 oob = "BAL_2020"
-
-recruit_character = BAL_vladimir_linderman
 recruit_character = BAL_viktor_alksnis
 
 set_research_slots = 3

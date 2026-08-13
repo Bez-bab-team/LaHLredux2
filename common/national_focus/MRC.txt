@@ -1,0 +1,13 @@
+focus_tree = {
+	id = MRC_intro_tree
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+	shared_focus = MRC_the_calling
+	country = {
+		factor = 1
+		modifier = {
+			add = 0
+			tag = MRC
+		}
+	}
+}

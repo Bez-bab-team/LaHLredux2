@@ -1,0 +1,264 @@
+#Intro Tree#
+#Middle#
+shared_focus = {
+	id = MRC_the_calling
+	icon = GFX_goal_MRC_the_calling
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_the_calling"
+    }
+	x = 20
+	y = 0
+}
+
+shared_focus = {
+	id = MRC_no_more_sins
+	icon = GFX_goal_MRC_no_more_sins
+	cost = 4.3
+	prerequisite = {
+		focus = MRC_the_calling
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_no_more_sins"
+    }
+	x = 19
+	y = 1
+}
+
+shared_focus = {
+	id = MRC_english_quilt
+	icon = GFX_goal_MRC_english_quilt
+	cost = 4.3
+	prerequisite = {
+		focus = MRC_the_calling
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_english_quilt"
+    }
+	x = 21
+	y = 1
+}
+
+shared_focus = {
+	id = MRC_life_under_siege
+	icon = GFX_goal_MRC_life_under_siege
+	cost = 4.3
+	prerequisite = {
+		focus = MRC_no_more_sins
+	}
+	prerequisite = {
+		focus = MRC_english_quilt
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_life_under_siege"
+    }
+	x = 20
+	y = 2
+}
+
+shared_focus = {
+	id = MRC_killing_the_joke
+	icon = GFX_goal_MRC_killing_the_joke
+	cost = 4.3
+	prerequisite = {
+		focus = MRC_life_under_siege
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_killing_the_joke"
+    }
+	x = 19
+	y = 3
+}
+
+shared_focus = {
+	id = MRC_in_sacrilege
+	icon = GFX_goal_MRC_in_sacrilege
+	cost = 4.3
+	prerequisite = {
+		focus = MRC_life_under_siege
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_in_sacrilege"
+    }
+	x = 21
+	y = 3
+}
+
+shared_focus = {
+	id = MRC_hunt_the_bolshevik_beast
+	icon = GFX_goal_MRC_hunt_the_bolshevik_beast
+	cost = 4.3
+	prerequisite = {
+		focus = MRC_killing_the_joke
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_hunt_the_bolshevik_beast"
+    }
+	x = 19
+	y = 4
+}
+
+shared_focus = {
+	id = MRC_dispel_magik
+	icon = GFX_goal_MRC_dispel_magick
+	cost = 4.3
+	prerequisite = {
+		focus = MRC_in_sacrilege
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_dispel_magick"
+    }
+	x = 21
+	y = 4
+}
+
+shared_focus = {
+	id = MRC_the_perfume_of_traitors
+	icon = GFX_goal_MRC_the_perfume_of_traitors
+	cost = 4.3
+	prerequisite = {
+		focus = MRC_hunt_the_bolshevik_beast
+	}
+	prerequisite = {
+		focus = MRC_dispel_magick
+	}
+	prerequisite = {
+		focus = MRC_black_radio
+	}
+	prerequisite = {
+		focus = MRC_fury_road
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_the_perfume_of_traitors"
+    }
+	x = 20
+	y = 5
+}
+#Left#
+shared_focus = {
+	id = MRC_three_little_piglets
+	icon = GFX_goal_MRC_three_little_piglets
+	cost = 4.3
+	prerequisite = {
+		focus = MRC_the_calling
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_three_little_piglets"
+    }
+	x = 16
+	y = 2
+}
+
+shared_focus = {
+	id = MRC_accidental_protege
+	icon = GFX_goal_MRC_accidental_protege
+	cost = 4.3
+	prerequisite = {
+		focus = MRC_three_little_piglets
+	}
+	mutually_exclusive = {
+		focus = MRC_brothers_in_arms
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_accidental_protege"
+    }
+	x = 15
+	y = 3
+}
+
+shared_focus = {
+	id = MRC_brothers_in_arms
+	icon = GFX_goal_MRC_brothers_in_arms
+	cost = 4.3
+	prerequisite = {
+		focus = MRC_three_little_piglets
+	}
+	mutually_exclusive = {
+		focus = MRC_accidental_protege
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_brothers_in_arms"
+    }
+	x = 17
+	y = 3
+}
+
+shared_focus = {
+	id = MRC_black_radio
+	icon = GFX_goal_MRC_black_radio
+	cost = 4.3
+	prerequisite = {
+		focus = MRC_accidental_protege
+		focus = MRC_brothers_in_arms
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_black_radio"
+    }
+	x = 16
+	y = 4
+}
+
+#Right#
+
+shared_focus = {
+	id = MRC_heroes_day
+	icon = GFX_goal_MRC_heroes_day
+	cost = 4.3
+	prerequisite = {
+		focus = MRC_the_calling
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_heroes_day"
+    }
+	x = 24
+	y = 2
+}
+
+shared_focus = {
+	id = MRC_gorilla_tactics
+	icon = GFX_goal_MRC_gorilla_tactics
+	cost = 4.3
+	prerequisite = {
+		focus = MRC_heroes_day
+	}
+	mutually_exclusive = {
+		focus = MRC_blocking_batallions
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_gorilla_tactics"
+    }
+	x = 23
+	y = 3
+}
+
+shared_focus = {
+	id = MRC_blocking_batallions
+	icon = GFX_goal_MRC_blocking_batallions
+	cost = 4.3
+	prerequisite = {
+		focus = MRC_heroes_day
+	}
+	mutually_exclusive = {
+		focus = MRC_gorilla_tactics
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_blocking_batallions"
+    }
+	x = 25
+	y = 3
+}
+
+shared_focus = {
+	id = MRC_fury_road
+	icon = GFX_goal_MRC_fury_road
+	cost = 4.3
+	prerequisite = {
+		focus = MRC_gorilla_tactics
+		focus = MRC_blocking_batallions
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_fury_road"
+    }
+	x = 24
+	y = 4
+}

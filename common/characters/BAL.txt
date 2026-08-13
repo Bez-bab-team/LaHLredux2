@@ -1,17 +1,4 @@
 characters={
-	BAL_vladimir_linderman={
-		name=BAL_vladimir_linderman
-		portraits={
-			civilian={
-				large="gfx/leaders/BAL/Portrait_BAL_Vladimir_Linderman.dds"
-			}
-		}
-		country_leader={
-			ideology=nazbol_gang
-			expire="1.1.1.1"
-			id=-1
-		}
-	}
 	BAL_viktor_alksnis={
 		name=BAL_viktor_alksnis
 		portraits={
