@@ -67,4 +67,56 @@ spriteTypes = {
 		name = "GFX_goal_MRC_fury_road"
 		texturefile = "gfx/interface/goals/MRC/goal_MRC_fury_road.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_MRC_born_again"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_born_again.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_english_liberation_army"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_english_liberation_army.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_storm_of_steel"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_storm_of_steel.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_rain_of_despair"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_rain_of_despair.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_love_thy_neighbour"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_love_thy_neighbour.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_blood_over_iron"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_blood_over_iron.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_hidden_among_the_leaves"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_hidden_among_the_leaves.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_here_we_stand"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_here_we_stand.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_state_laughter"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_state_laughter.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_the_hangman_waits"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_the_hangman_waits.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_golden_book"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_golden_book.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_northforth"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_northforth.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_oh_how_we_laughed"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_oh_how_we_laughed.dds"
+	}
 }

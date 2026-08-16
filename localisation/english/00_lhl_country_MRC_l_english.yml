@@ -143,6 +143,46 @@
  MRC_the_perfume_of_traitors:0 "The Perfume Of Traitors"
  MRC_the_perfume_of_traitors_desc:0 ""
  #
+ MRC_born_again:0 "Born Again"
+ MRC_born_again_desc:0 ""
+ #
+ MRC_english_liberation_army:0 "English Liberation Army"
+ MRC_english_liberation_army_desc:0 ""
+ #
+ MRC_storm_of_steel:0 "Storm of Steel"
+ MRC_storm_of_steel_desc:0 ""
+ #
+ MRC_rain_of_despair:0 "Rain of Despair"
+ MRC_rain_of_despair_desc:0 ""
+ #
+ MRC_love_thy_neighbor:0 "Love Thy Neighbor"
+ MRC_love_thy_neighbor_desc:0 ""
+ #
+ MRC_blood_over_iron:0 "Blood over Iron"
+ MRC_blood_over_iron_desc:0 ""
+ #
+ MRC_here_we_stand:0 "Here We Stand"
+ MRC_here_we_stand_desc:0 ""
+ #
+ MRC_hidden_among_the_leaves:0 "Hidden Among The Leaves"
+ MRC_hidden_among_the_leaves_desc:0 ""
+ #
+ MRC_state_laughter:0 "State Laughter"
+ MRC_state_laughter_desc:0 ""
+ #
+ MRC_the_hangman_waits:0 "The Hangman Waits"
+ MRC_the_hangman_waits_desc:0 ""
+ #
+ MRC_golden_book:0 "Golden Book"
+ MRC_golden_book_desc:0 ""
+ #
+ MRC_northforth:0 "Northforth"
+ MRC_northforth_desc:0 ""
+ #
+ MRC_oh_how_we_laughed:0 "Oh How We Laughed"
+ MRC_oh_how_we_laughed_desc:0 ""
+ #
+ #EVENTS#
  MRC_event.27.t:0 "Sabotage!"
  MRC_event.27.d:0 "Unknown elements within our state have been sowing discord among our pagan and christian population. This have lowered the morale of our troops and population. We suspect a rival English government is responsible for these rumors."
  MRC_event.27.a:0 "Investigate this!"
