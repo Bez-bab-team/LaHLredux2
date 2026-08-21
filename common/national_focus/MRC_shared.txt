@@ -705,7 +705,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus MRC_we_said_destroy"
     }
 	x = 6
-	y = 10
+	y = 11
 }
 shared_focus = {
 	id = MRC_the_november_men
@@ -718,5 +718,733 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus MRC_the_november_men"
     }
 	x = 8
+	y = 11
+}
+shared_focus = {
+	id = MRC_little_black_angel
+	icon = GFX_goal_MRC_little_black_angel
+	cost = 4.3
+	prerequisite = {
+		focus = MRC_we_said_destroy
+	}
+	prerequisite = {
+		focus = MRC_the_november_men
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_little_black_angel"
+    }
+	x = 6
+	y = 12
+}
+shared_focus = {
+	id = MRC_the_wall_of_sacrifice 
+	icon = GFX_goal_MRC_the_wall_of_sacrifice 
+	cost = 4.3
+	prerequisite = {
+		focus = MRC_we_said_destroy
+	}
+	prerequisite = {
+		focus = MRC_the_november_men
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_the_wall_of_sacrifice"
+    }
+	x = 8
+	y = 12
+}
+shared_focus = {
+	id = MRC_enemy_within
+	icon = GFX_goal_MRC_enemy_within
+	cost = 4.3
+	prerequisite = {
+		focus = MRC_little_black_angel
+	}
+	prerequisite = {
+		focus = MRC_the_wall_of_sacrifice
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_enemy_within"
+    }
+	x = 5
+	y = 13
+}
+shared_focus = {
+	id = MRC_going_dark
+	icon = GFX_goal_MRC_going_dark
+	cost = 4.3
+	prerequisite = {
+		focus = MRC_little_black_angel
+	}
+	prerequisite = {
+		focus = MRC_the_wall_of_sacrifice
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_going_dark"
+    }
+	x = 7
+	y = 13
+}
+shared_focus = {
+	id = MRC_till_the_living_flesh_is_burned
+	icon = GFX_goal_MRC_till_the_living_flesh_is_burned
+	cost = 4.3
+	prerequisite = {
+		focus = MRC_little_black_angel
+	}
+	prerequisite = {
+		focus = MRC_the_wall_of_sacrifice
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_till_the_living_flesh_is_burned"
+    }
+	x = 9
+	y = 13
+}
+shared_focus = {
+	id = MRC_into_the_black_sun
+	icon = GFX_goal_MRC_into_the_black_sun
+	cost = 4.3
+	prerequisite = {
+		focus = MRC_enemy_within
+	}
+	prerequisite = {
+		focus = MRC_going_dark
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_into_the_black_sun"
+    }
+	x = 4
+	y = 14
+}
+shared_focus = {
+	id = MRC_kameradschaft
+	icon = GFX_goal_MRC_kameradschaft
+	cost = 4.3
+	prerequisite = {
+		focus = MRC_enemy_within
+	}
+	prerequisite = {
+		focus = MRC_going_dark
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_kameradschaft"
+    }
+	x = 6
+	y = 14
+}
+shared_focus = {
+	id = MRC_there_is_no_more_sleep
+	icon = GFX_goal_MRC_there_is_no_more_sleep
+	cost = 4.3
+	prerequisite = {
+		focus = MRC_till_the_living_flesh_is_burned
+	}
+	prerequisite = {
+		focus = MRC_going_dark
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_there_is_no_more_sleep"
+    }
+	x = 8
+	y = 14
+}
+shared_focus = {
+	id = MRC_break_the_black_ice
+	icon = GFX_goal_MRC_break_the_black_ice
+	cost = 4.3
+	prerequisite = {
+		focus = MRC_till_the_living_flesh_is_burned
+	}
+	prerequisite = {
+		focus = MRC_going_dark
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_break_the_black_ice"
+    }
+	x = 10
+	y = 14
+}
+shared_focus = {
+	id = MRC_smashed_to_bits
+	icon = GFX_goal_MRC_smashed_to_bits
+	cost = 4.3
+	prerequisite = {
+		focus = MRC_into_the_black_sun
+	}
+	prerequisite = {
+		focus = MRC_kameradschaft
+	}
+	prerequisite = {
+		focus = MRC_there_is_no_more_sleep
+	}
+	prerequisite = {
+		focus = MRC_break_the_black_ice
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_smashed_to_bits"
+    }
+	x = 7
+	y = 15
+}
+#Right#
+shared_focus = {
+	id = MRC_take_care_and_control
+	icon = GFX_goal_MRC_take_care_and_control
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_take_care_and_control"
+    }
+	x = 29
 	y = 10
+}
+shared_focus = {
+	id = MRC_pearls_before_swine
+	icon = GFX_goal_MRC_pearls_before_swine
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_pearls_before_swine"
+    }
+	prerequisite = {
+		focus = MRC_take_care_and_control
+	}
+	x = 29
+	y = 11
+}
+shared_focus = {
+	id = MRC_pipes_of_gold
+	icon = GFX_goal_MRC_pipes_of_gold
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_pipes_of_gold"
+    }
+	prerequisite = {
+		focus = MRC_pearls_before_swine
+	}
+	x = 28
+	y = 12
+}
+shared_focus = {
+	id = MRC_the_last_film
+	icon = GFX_goal_MRC_the_last_film
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_the_last_film"
+    }
+	prerequisite = {
+		focus = MRC_pearls_before_swine
+	}
+	x = 30
+	y = 12
+}
+shared_focus = {
+	id = MRC_symbols_of_the_sun
+	icon = GFX_goal_MRC_symbols_of_the_sun
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_symbols_of_the_sun"
+    }
+	mutually_exclusive = {
+		focus = MRC_because_of_him
+	}
+	prerequisite = {
+		focus = MRC_pipes_of_gold
+	}
+	x = 28
+	y = 13
+}
+shared_focus = {
+	id = MRC_because_of_him
+	icon = GFX_goal_MRC_because_of_him
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_because_of_him"
+    }
+	mutually_exclusive = {
+		focus = MRC_symbols_of_the_sun
+	}
+	prerequisite = {
+		focus = MRC_the_last_film
+	}
+	x = 30
+	y = 13
+}
+shared_focus = {
+	id = MRC_fount_of_life
+	icon = GFX_goal_MRC_fount_of_life
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_fount_of_life"
+    }
+	mutually_exclusive = {
+		focus = MRC_death_is_a_drummer
+	}
+	prerequisite = {
+		focus = MRC_symbols_of_the_sun
+	}
+	x = 28
+	y = 14
+}
+shared_focus = {
+	id = MRC_death_is_a_drummer
+	icon = GFX_goal_MRC_death_is_a_drummer
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_death_is_a_drummer"
+    }
+	mutually_exclusive = {
+		focus = MRC_fount_of_life
+	}
+	prerequisite = {
+		focus = MRC_because_of_him
+	}
+	x = 30
+	y = 14
+}
+shared_focus = {
+	id = MRC_fall_apart
+	icon = GFX_goal_MRC_fall_apart
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_fall_apart"
+    }
+	prerequisite = {
+		focus = MRC_fount_of_life
+		focus = MRC_death_is_a_drummer
+	}
+	x = 29
+	y = 15
+}
+shared_focus = {
+	id = MRC_promote_homoeroticism
+	icon = GFX_goal_MRC_promote_homoeroticism
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_promote_homoeroticism"
+    }
+	prerequisite = {
+		focus = MRC_take_care_and_control
+	}
+	x = 33
+	y = 11
+}
+shared_focus = {
+	id = MRC_struggle_for_the_joy
+	icon = GFX_goal_MRC_struggle_for_the_joy
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_struggle_for_the_joy"
+    }
+	prerequisite = {
+		focus = MRC_promote_homoeroticism
+	}
+	mutually_exclusive = {
+		focus = MRC_he_said_destroy
+	}
+	x = 32
+	y = 12
+}
+shared_focus = {
+	id = MRC_he_said_destroy
+	icon = GFX_goal_MRC_he_said_destroy
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_he_said_destroy"
+    }
+	prerequisite = {
+		focus = MRC_promote_homoeroticism
+	}
+	mutually_exclusive = {
+		focus = MRC_struggle_for_the_joy
+	}
+	x = 34
+	y = 12
+}
+shared_focus = {
+	id = MRC_something_is_coming
+	icon = GFX_goal_MRC_something_is_coming
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_something_is_coming"
+    }
+	prerequisite = {
+		focus = MRC_struggle_for_the_joy
+		focus = MRC_he_said_destroy
+	}
+	x = 33
+	y = 13
+}
+shared_focus = {
+	id = MRC_men_of_the_night
+	icon = GFX_goal_MRC_men_of_the_night
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_men_of_the_night"
+    }
+	prerequisite = {
+		focus = MRC_take_care_and_control
+	}
+	x = 25
+	y = 11
+}
+shared_focus = {
+	id = MRC_hail_the_white_grain
+	icon = GFX_goal_MRC_hail_the_white_grain
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_hail_the_white_grain"
+    }
+	prerequisite = {
+		focus = MRC_men_of_the_night
+	}
+	mutually_exclusive = {
+		focus = MRC_fire_feast
+	}
+	x = 24
+	y = 12
+}
+shared_focus = {
+	id = MRC_fire_feast
+	icon = GFX_goal_MRC_fire_feast
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_fire_feast"
+    }
+	prerequisite = {
+		focus = MRC_men_of_the_night
+	}
+	mutually_exclusive = {
+		focus = MRC_hail_the_white_grain
+	}
+	x = 26
+	y = 12
+}
+shared_focus = {
+	id = MRC_concrete_fountain
+	icon = GFX_goal_MRC_concrete_fountain
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_concrete_fountain"
+    }
+	prerequisite = {
+		focus = MRC_hail_the_white_grain
+		focus = MRC_fire_feast
+	}
+	x = 25
+	y = 13
+}
+#Diplomacy#
+shared_focus = {
+	id = MRC_fog_of_the_world
+	icon = GFX_goal_MRC_fog_of_the_world
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_fog_of_the_world"
+    }
+	x = 42
+	y = 10
+}
+shared_focus = {
+	id = MRC_land_of_sun_and_steel
+	icon = GFX_goal_MRC_land_of_sun_and_steel
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_land_of_sun_and_steel"
+    }
+	prerequisite = {
+		focus = MRC_fog_of_the_world
+	}
+	x = 42
+	y = 12
+}
+shared_focus = {
+	id = MRC_only_europa_knows
+	icon = GFX_goal_MRC_only_europa_knows
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_only_europa_knows"
+    }
+	prerequisite = {
+		focus = MRC_fog_of_the_world
+	}
+	x = 38
+	y = 11
+}
+shared_focus = {
+	id = MRC_cest_un_reve
+	icon = GFX_goal_MRC_cest_un_reve
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_cest_un_reve"
+    }
+	prerequisite = {
+		focus = MRC_only_europa_knows
+	}
+	x = 36
+	y = 12
+}
+shared_focus = {
+	id = MRC_greek_milchcow
+	icon = GFX_goal_MRC_greek_milchcow
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_greek_milchcow"
+    }
+	prerequisite = {
+		focus = MRC_only_europa_knows
+	}
+	x = 38
+	y = 12
+}
+shared_focus = {
+	id = MRC_we_drive_east
+	icon = GFX_goal_MRC_we_drive_east
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_we_drive_east"
+    }
+	prerequisite = {
+		focus = MRC_only_europa_knows
+	}
+	x = 40
+	y = 12
+}
+shared_focus = {
+	id = MRC_sons_of_europe
+	icon = GFX_goal_MRC_sons_of_europe
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_sons_of_europe"
+    }
+	prerequisite = {
+		focus = MRC_fog_of_the_world
+	}
+	x = 44
+	y = 11
+}
+shared_focus = {
+	id = MRC_satans_feast
+	icon = GFX_goal_MRC_satans_feast
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_satans_feast"
+    }
+	prerequisite = {
+		focus = MRC_fog_of_the_world
+	}
+	x = 46
+	y = 11
+}
+shared_focus = {
+	id = MRC_last_pound_of_flesh
+	icon = GFX_goal_MRC_last_pound_of_flesh
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_last_pound_of_flesh"
+    }
+	prerequisite = {
+		focus = MRC_sons_of_europe
+	}
+	prerequisite = {
+		focus = MRC_satans_feast
+	}
+	x = 45
+	y = 12
+}
+shared_focus = {
+	id = MRC_the_honour_of_silence
+	icon = GFX_goal_MRC_the_honour_of_silence
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_the_honour_of_silence"
+    }
+	prerequisite = {
+		focus = MRC_last_pound_of_flesh
+	}
+	mutually_exclusive = {
+		focus = MRC_fields_of_rape
+	}
+	x = 44
+	y = 13
+}
+shared_focus = {
+	id = MRC_fields_of_rape
+	icon = GFX_goal_MRC_fields_of_rape
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_fields_of_rape"
+    }
+	prerequisite = {
+		focus = MRC_last_pound_of_flesh
+	}
+	mutually_exclusive = {
+		focus = MRC_the_honour_of_silence
+	}
+	x = 46
+	y = 13
+}
+#Economics#
+shared_focus = {
+	id = MRC_the_corn_years
+	icon = GFX_goal_MRC_the_corn_years
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_the_corn_years"
+    }
+	x = -1
+	y = 10
+}
+shared_focus = {
+	id = MRC_fall_in_pastures
+	icon = GFX_goal_MRC_fall_in_pastures
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_fall_in_pastures"
+    }
+	prerequisite = {
+		focus = MRC_the_corn_years
+	}
+	x = -1
+	y = 11
+}
+shared_focus = {
+	id = MRC_reaping_time
+	icon = GFX_goal_MRC_reaping_time
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_reaping_time"
+    }
+	prerequisite = {
+		focus = MRC_the_corn_years
+	}
+	x = -3
+	y = 11
+}
+shared_focus = {
+	id = MRC_the_hammer_and_the_sword
+	icon = GFX_goal_MRC_the_hammer_and_the_sword
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_the_hammer_and_the_sword"
+    }
+	prerequisite = {
+		focus = MRC_the_corn_years
+	}
+	x = 1
+	y = 11
+}
+shared_focus = {
+	id = MRC_last_pound_of_flesh
+	icon = GFX_goal_MRC_last_pound_of_flesh
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_last_pound_of_flesh"
+    }
+	prerequisite = {
+		focus = MRC_reaping_time
+	}
+	prerequisite = {
+		focus = MRC_fall_in_pastures
+	}
+	x = -4
+	y = 12
+}
+shared_focus = {
+	id = MRC_glue_the_piggy_bank
+	icon = GFX_goal_MRC_glue_the_piggy_bank
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_glue_the_piggy_bank"
+    }
+	prerequisite = {
+		focus = MRC_reaping_time
+	}
+	prerequisite = {
+		focus = MRC_fall_in_pastures
+	}
+	x = -2
+	y = 12
+}
+shared_focus = {
+	id = MRC_serpents_play
+	icon = GFX_goal_MRC_serpents_play
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_serpents_play"
+    }
+	prerequisite = {
+		focus = MRC_the_hammer_and_the_sword
+	}
+	prerequisite = {
+		focus = MRC_fall_in_pastures
+	}
+	x = 0
+	y = 12
+}
+shared_focus = {
+	id = MRC_the_black_heart
+	icon = GFX_goal_MRC_the_black_heart
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_the_black_heart"
+    }
+	prerequisite = {
+		focus = MRC_the_hammer_and_the_sword
+	}
+	prerequisite = {
+		focus = MRC_fall_in_pastures
+	}
+	x = 2
+	y = 12
+}
+shared_focus = {
+	id = MRC_state_feudalism
+	icon = GFX_goal_MRC_state_feudalism
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_state_feudalism"
+    }
+	prerequisite = {
+		focus = MRC_glue_the_piggy_bank
+	}
+	prerequisite = {
+		focus = MRC_serpents_play
+	}
+	mutually_exclusive = {
+		focus = MRC_suum_feudalism
+	}
+	x = -2
+	y = 13
+}
+shared_focus = {
+	id = MRC_suum_cuique
+	icon = GFX_goal_MRC_suum_cuique
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_suum_cuique"
+    }
+	prerequisite = {
+		focus = MRC_glue_the_piggy_bank
+	}
+	prerequisite = {
+		focus = MRC_serpents_play
+	}
+	mutually_exclusive = {
+		focus = MRC_state_feudalism
+	}
+	x = 0
+	y = 13
+}
+shared_focus = {
+	id = MRC_daedalus_rising
+	icon = GFX_goal_MRC_daedalus_rising
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_daedalus_rising"
+    }
+	prerequisite = {
+		focus = MRC_state_feudalism
+		focus = MRC_suum_cuique
+	}
+	x = -1
+	y = 14
 }
