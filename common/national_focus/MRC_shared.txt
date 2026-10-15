@@ -1,12 +1,19 @@
-#Intro Tree#
-#Middle#
+
+
 shared_focus = {
 	id = MRC_the_calling
 	icon = GFX_goal_MRC_the_calling
-	cost = 4.3
+	cost = 0
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_the_calling_prologue_required_tt
+			has_country_flag = MRC_quest_zero_completed
+		}
+	}
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus MRC_the_calling"
-    }
+		custom_effect_tooltip = MRC_the_calling_exploration_tt
+		hidden_effect = { MRC_quest_zero_open_paths = yes }
+	}
 	x = 17
 	y = 0
 }
@@ -17,6 +24,12 @@ shared_focus = {
 	cost = 4.3
 	prerequisite = {
 		focus = MRC_the_calling
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_TRPG_1A_focus_required_tt
+			MRC_TRPG_1A_is_complete = yes
+		}
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MRC_no_more_sins"
@@ -31,6 +44,12 @@ shared_focus = {
 	cost = 4.3
 	prerequisite = {
 		focus = MRC_the_calling
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_TRPG_1B_focus_required_tt
+			MRC_TRPG_1B_is_complete = yes
+		}
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MRC_english_quilt"
@@ -63,6 +82,12 @@ shared_focus = {
 	prerequisite = {
 		focus = MRC_life_under_siege
 	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_TRPG_3A_focus_required_tt
+			MRC_TRPG_3A_is_complete = yes
+		}
+	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MRC_killing_the_joke"
     }
@@ -76,6 +101,12 @@ shared_focus = {
 	cost = 4.3
 	prerequisite = {
 		focus = MRC_life_under_siege
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_TRPG_2A_focus_required_tt
+			MRC_TRPG_2A_is_complete = yes
+		}
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MRC_in_sacrilege"
@@ -91,6 +122,12 @@ shared_focus = {
 	prerequisite = {
 		focus = MRC_killing_the_joke
 	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_TRPG_3B_focus_required_tt
+			MRC_TRPG_3B_is_complete = yes
+		}
+	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MRC_hunt_the_bolshevik_beast"
     }
@@ -105,8 +142,14 @@ shared_focus = {
 	prerequisite = {
 		focus = MRC_in_sacrilege
 	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_TRPG_2B_focus_required_tt
+			MRC_TRPG_2B_is_complete = yes
+		}
+	}
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus MRC_dispel_magick"
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_dispel_magik"
     }
 	x = 18
 	y = 4
@@ -120,7 +163,7 @@ shared_focus = {
 		focus = MRC_hunt_the_bolshevik_beast
 	}
 	prerequisite = {
-		focus = MRC_dispel_magick
+		focus = MRC_dispel_magik
 	}
 	prerequisite = {
 		focus = MRC_black_radio
@@ -134,7 +177,7 @@ shared_focus = {
 	x = 17
 	y = 5
 }
-#Left#
+
 shared_focus = {
 	id = MRC_three_little_piglets
 	icon = GFX_goal_MRC_three_little_piglets
@@ -198,8 +241,6 @@ shared_focus = {
 	y = 4
 }
 
-#Right#
-
 shared_focus = {
 	id = MRC_heroes_day
 	icon = GFX_goal_MRC_heroes_day
@@ -262,7 +303,7 @@ shared_focus = {
 	x = 21
 	y = 4
 }
-##ARMY TREE##
+
 shared_focus = {
 	id = MRC_born_again
 	icon = GFX_goal_MRC_born_again
@@ -380,7 +421,7 @@ shared_focus = {
 	x = 34
 	y = 3
 }
-#Post War#
+
 shared_focus = {
 	id = MRC_state_laughter
 	icon = GFX_goal_MRC_state_laughter
@@ -453,7 +494,7 @@ shared_focus = {
 	x = 17
 	y = 9
 }
-#Central Tree#
+
 shared_focus = {
 	id = MRC_flies_have_their_house
 	icon = GFX_goal_MRC_flies_have_their_house
@@ -683,7 +724,7 @@ shared_focus = {
 	x = 21
 	y = 13
 }
-#Left#
+
 shared_focus = {
 	id = MRC_bring_in_the_night
 	icon = GFX_goal_MRC_bring_in_the_night
@@ -886,7 +927,7 @@ shared_focus = {
 	x = 7
 	y = 15
 }
-#Right#
+
 shared_focus = {
 	id = MRC_take_care_and_control
 	icon = GFX_goal_MRC_take_care_and_control
@@ -1132,7 +1173,7 @@ shared_focus = {
 	x = 25
 	y = 13
 }
-#Diplomacy#
+
 shared_focus = {
 	id = MRC_fog_of_the_world
 	icon = GFX_goal_MRC_fog_of_the_world
@@ -1282,7 +1323,7 @@ shared_focus = {
 	x = 46
 	y = 13
 }
-#Economics#
+
 shared_focus = {
 	id = MRC_the_corn_years
 	icon = GFX_goal_MRC_the_corn_years
@@ -1333,11 +1374,11 @@ shared_focus = {
 	y = 11
 }
 shared_focus = {
-	id = MRC_last_pound_of_flesh
+	id = MRC_last_pound_of_flesh_economy
 	icon = GFX_goal_MRC_last_pound_of_flesh
 	cost = 4.3
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus MRC_last_pound_of_flesh"
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_last_pound_of_flesh_economy"
     }
 	prerequisite = {
 		focus = MRC_reaping_time
@@ -1410,7 +1451,7 @@ shared_focus = {
 		focus = MRC_serpents_play
 	}
 	mutually_exclusive = {
-		focus = MRC_suum_feudalism
+		focus = MRC_suum_cuique
 	}
 	x = -2
 	y = 13

@@ -393,6 +393,13 @@ characters={
 			allowed = {
 				original_tag = MRC
 			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = MRC_boyd_rice_joined_required_tt
+					check_variable = { MRC_party_boyd_rice = 2 }
+					NOT = { has_country_flag = MRC_boyd_rice_rejected }
+				}
+			}
 			ai_will_do  = {
 				factor  = 1.000
 			}
@@ -1236,54 +1243,73 @@ characters={
 			legacy_id=-1
 		}
 	}
-	MRC_charles_bronson={
-		name="Charles Bronson"
-		portraits={
-			army={
-				small="gfx/interface/ideas/MRC/idea_MRC_charles_bronson.dds"
-			}
-			army={
-				large="gfx/leaders/MRC/Portrait_MRC_Charles_Bronson.dds"
-			}
-		}
-		corps_commander={
-			skill=2
-			traits = { harsh_leader media_personality }
-			attack_skill=2
-			defense_skill=2
-			planning_skill=1
-			logistics_skill=2
-			legacy_id=-1
-		}
-		advisor = {
-			slot = army_chief
-			idea_token = MRC_charles_bronson
-			allowed = {
-				original_tag = MRC
-			}
-			traits = {
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-		advisor = {
-			cost = 100
-			slot = high_command
-			idea_token = MRC_charles_bronson
-			ledger = army
-			allowed = {
-				original_tag = MRC
-			}
-			traits = {
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-	}
+	MRC_charles_bronson = {
+ name = "Charles Bronson"
+ portraits = {
+  army = {
+   small = "gfx/leaders/MRC/Portrait_MRC_Charles_Salvador_Bronson.dds"
+   large = "gfx/leaders/MRC/Portrait_MRC_Charles_Salvador_Bronson.dds"
+  }
+  civilian = {
+   small = "gfx/leaders/MRC/Portrait_MRC_Charles_Salvador_Bronson.dds"
+   large = "gfx/leaders/MRC/Portrait_MRC_Charles_Salvador_Bronson.dds"
+  }
+ }
+ corps_commander = {
+  skill = 2
+  traits = { harsh_leader media_personality }
+  attack_skill = 2
+  defense_skill = 2
+  planning_skill = 1
+  logistics_skill = 2
+  legacy_id = -1
+ }
+ advisor = {
+ slot = political_advisor
+ idea_token = MRC_charles_bronson_artist
+ 
+ allowed = { original_tag = MRC }
+ available = {
+  custom_trigger_tooltip = {
+   tooltip = MRC_bronson_artist_required_tt
+   check_variable = { MRC_charles_bronson_role = 1 }
+  }
+ }
+ traits = { peoples_artist }
+ cost = 100
+ ai_will_do = { factor = 1 }
+}
+ advisor = {
+ slot = army_chief
+ idea_token = MRC_charles_bronson
+ 
+ allowed = { original_tag = MRC }
+ available = {
+  custom_trigger_tooltip = {
+   tooltip = MRC_bronson_military_required_tt
+   check_variable = { MRC_charles_bronson_role = 2 }
+  }
+ }
+ traits = {  }
+ cost = 100
+ ai_will_do = { factor = 1 }
+}
+ advisor = {
+ slot = high_command
+ idea_token = MRC_charles_bronson
+ ledger = army
+ allowed = { original_tag = MRC }
+ available = {
+  custom_trigger_tooltip = {
+   tooltip = MRC_bronson_military_required_tt
+   check_variable = { MRC_charles_bronson_role = 2 }
+  }
+ }
+ traits = {  }
+ cost = 100
+ ai_will_do = { factor = 1 }
+}
+}
 	MRC_chris_bell={
 		name="Chris Bell"
 		portraits={

@@ -1,0 +1,214 @@
+add_namespace = MRC_adventure
+
+country_event = {
+ id = MRC_adventure.1
+ title = MRC_adventure.1.t
+ desc = MRC_adventure.1.d
+ picture = GFX_report_event_german_speech
+ is_triggered_only = yes
+ fire_only_once = yes
+ trigger = {
+  original_tag = MRC
+  MRC_TRPG_can_complete_1A = yes
+  has_country_flag = MRC_adventure_1A_main_pending
+ }
+ option = {
+  name = MRC_adventure.1.brute
+  
+  MRC_TRPG_complete_1A_brute = yes
+  add_manpower = -100
+  MRC_adventure_1A_finish_main = yes
+ }
+ option = {
+  name = MRC_adventure.1.left
+  
+  MRC_TRPG_complete_1A_left = yes
+  add_equipment_to_stockpile = { type = infantry_equipment amount = 100 }
+  MRC_adventure_1A_finish_main = yes
+ }
+ option = {
+  name = MRC_adventure.1.right
+  
+  MRC_TRPG_complete_1A_right = yes
+  MRC_adventure_1A_finish_main = yes
+ }
+}
+country_event = {
+ id = MRC_adventure.2
+ title = MRC_adventure.2.t
+ desc = MRC_adventure.2.d
+ picture = GFX_report_event_german_speech
+ is_triggered_only = yes
+ fire_only_once = yes
+ trigger = {
+  original_tag = MRC
+  has_country_flag = MRC_adventure_1A_bonus_pending
+ }
+ option = {
+  name = MRC_adventure.2.force
+  
+  clr_country_flag = MRC_adventure_1A_bonus_pending
+  add_manpower = -100
+  add_political_power = 10
+ }
+ option = {
+  name = MRC_adventure.2.roll
+  
+  set_variable = { MRC_adventure_assurance = 0 }
+  MRC_adventure_1A_roll = yes
+ }
+ option = {
+  name = MRC_adventure.2.assurance
+  trigger = { MRC_TRPG_pearce_charisma_is_prominent = yes }
+  set_variable = { MRC_adventure_assurance = 1 }
+  MRC_adventure_1A_roll = yes
+ }
+}
+country_event = {
+ id = MRC_adventure.3
+ title = MRC_adventure.3.t
+ desc = MRC_adventure.3.d
+ picture = GFX_report_event_german_speech
+ is_triggered_only = yes
+ fire_only_once = yes
+ trigger = {
+  original_tag = MRC
+  has_country_flag = MRC_adventure_1A_result_pending
+  check_variable = { MRC_adventure_1A_roll_result = 0 }
+ }
+ option = {
+  name = MRC_adventure.3.a
+  
+  clr_country_flag = MRC_adventure_1A_result_pending
+  1151 = { damage_building = { type = infrastructure damage = 1 } }
+  add_political_power = -25
+ }
+}
+country_event = {
+ id = MRC_adventure.4
+ title = MRC_adventure.4.t
+ desc = MRC_adventure.4.d
+ picture = GFX_report_event_german_speech
+ is_triggered_only = yes
+ fire_only_once = yes
+ trigger = {
+  original_tag = MRC
+  has_country_flag = MRC_adventure_1A_result_pending
+  check_variable = { MRC_adventure_1A_roll_result = 1 }
+ }
+ option = {
+  name = MRC_adventure.4.a
+  
+  clr_country_flag = MRC_adventure_1A_result_pending
+  add_political_power = 25
+ }
+}
+country_event = {
+ id = MRC_adventure.5
+ title = MRC_adventure.5.t
+ desc = MRC_adventure.5.d
+ picture = GFX_report_event_german_speech
+ is_triggered_only = yes
+ fire_only_once = yes
+ trigger = {
+  original_tag = MRC
+  has_country_flag = MRC_adventure_1A_result_pending
+  check_variable = { MRC_adventure_1A_roll_result = 2 }
+ }
+ option = {
+  name = MRC_adventure.5.a
+  
+  clr_country_flag = MRC_adventure_1A_result_pending
+  add_equipment_to_stockpile = { type = infantry_equipment amount = 200 }
+  add_manpower = 500
+ }
+}
+country_event = {
+ id = MRC_adventure.6
+ title = MRC_adventure.6.t
+ desc = MRC_adventure.6.d
+ picture = GFX_report_event_german_speech
+ is_triggered_only = yes
+ fire_only_once = yes
+ trigger = {
+  original_tag = MRC
+  has_country_flag = MRC_adventure_1A_result_pending
+  check_variable = { MRC_adventure_1A_roll_result = 3 }
+ }
+ option = {
+  name = MRC_adventure.6.a
+  
+  clr_country_flag = MRC_adventure_1A_result_pending
+  MRC_adventure_1A_veteran_militia = yes
+ }
+}
+country_event = {
+ id = MRC_adventure.10
+ title = MRC_adventure.10.t
+ desc = MRC_adventure.10.d
+ picture = GFX_report_event_german_speech
+ is_triggered_only = yes
+ fire_only_once = yes
+ trigger = {
+  original_tag = MRC
+  MRC_TRPG_can_complete_1B = yes
+  has_country_flag = MRC_adventure_1B_started
+  NOT = { has_country_flag = MRC_adventure_1B_result_pending }
+ }
+ option = {
+  name = MRC_adventure.10.continue
+  
+  MRC_adventure_1B_open_resolution = yes
+ }
+ option = {
+  name = MRC_adventure.10.brute
+  
+  MRC_TRPG_complete_1B_brute = yes
+  add_manpower = -100
+  MRC_adventure_1B_cleanse = yes
+ }
+}
+country_event = {
+ id = MRC_adventure.11
+ title = MRC_adventure.11.t
+ desc = MRC_adventure.11.d
+ picture = GFX_report_event_german_speech
+ is_triggered_only = yes
+ fire_only_once = yes
+ trigger = {
+  original_tag = MRC
+  MRC_TRPG_can_complete_1B = yes
+  has_country_flag = MRC_adventure_1B_result_pending
+ }
+ option = {
+  name = MRC_adventure.11.left
+  
+  MRC_TRPG_complete_1B_left = yes
+  MRC_adventure_1B_recruit_artist = yes
+  MRC_adventure_1B_cleanse = yes
+ }
+ option = {
+  name = MRC_adventure.11.right
+  
+  MRC_TRPG_complete_1B_right = yes
+  MRC_adventure_1B_recruit_general = yes
+  MRC_adventure_1B_cleanse = yes
+ }
+}
+country_event = {
+ id = MRC_adventure.12
+ hidden = yes
+ is_triggered_only = yes
+ trigger = { original_tag = MRC MRC_TRPG_can_complete_1B = yes }
+ immediate = { MRC_adventure_1B_open_resolution = yes }
+}
+country_event = {
+ id = MRC_adventure.20
+ hidden = yes
+ is_triggered_only = yes
+ trigger = { original_tag = MRC has_country_flag = MRC_training_arc_active }
+ immediate = {
+  MRC_adventure_1B_check_training = yes
+
+ }
+}

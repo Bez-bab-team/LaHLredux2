@@ -60,36 +60,48 @@ guiTypes = {
 				name = "GFX_lhl_MRC_TRPG_point_1A"
 				position = { x = 143 y = 130 }
 				spriteType = "GFX_lhl_MRC_TRPG_point_1A_locked"
+				pdx_tooltip = "MRC_TRPG_point_1A_tooltip"
+				pdx_disabled_tooltip = "MRC_TRPG_point_1A_tooltip"
 			}
 
 			buttonType = {
 				name = "GFX_lhl_MRC_TRPG_point_1B"
 				position = { x = 282 y = 162 }
 				spriteType = "GFX_lhl_MRC_TRPG_point_1B_locked"
+				pdx_tooltip = "MRC_TRPG_point_1B_tooltip"
+				pdx_disabled_tooltip = "MRC_TRPG_point_1B_tooltip"
 			}
 
 			buttonType = {
 				name = "GFX_lhl_MRC_TRPG_point_2A"
 				position = { x = 407 y = 49 }
 				spriteType = "GFX_lhl_MRC_TRPG_point_2A_locked"
+				pdx_tooltip = "MRC_TRPG_point_2A_tooltip"
+				pdx_disabled_tooltip = "MRC_TRPG_point_2A_tooltip"
 			}
 
 			buttonType = {
 				name = "GFX_lhl_MRC_TRPG_point_2B"
 				position = { x = 435 y = 254 }
 				spriteType = "GFX_lhl_MRC_TRPG_point_2B_locked"
+				pdx_tooltip = "MRC_TRPG_point_2B_tooltip"
+				pdx_disabled_tooltip = "MRC_TRPG_point_2B_tooltip"
 			}
 
 			buttonType = {
 				name = "GFX_lhl_MRC_TRPG_point_3A"
 				position = { x = 260 y = 99 }
 				spriteType = "GFX_lhl_MRC_TRPG_point_3A_locked"
+				pdx_tooltip = "MRC_TRPG_point_3A_tooltip"
+				pdx_disabled_tooltip = "MRC_TRPG_point_3A_tooltip"
 			}
 
 			buttonType = {
 				name = "GFX_lhl_MRC_TRPG_point_3B"
 				position = { x = 241 y = 52 }
 				spriteType = "GFX_lhl_MRC_TRPG_point_3B_locked"
+				pdx_tooltip = "MRC_TRPG_point_3B_tooltip"
+				pdx_disabled_tooltip = "MRC_TRPG_point_3B_tooltip"
 			}
 		}
 	}	

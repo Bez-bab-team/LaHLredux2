@@ -1,0 +1,6 @@
+MRC_TRPG_pearce_charisma_is_prominent = {
+ MRC_TRPG_progression_ready = yes
+ NOT = { check_variable = { MRC_pearce_stat^3 < MRC_pearce_stat^0 } }
+ NOT = { check_variable = { MRC_pearce_stat^3 < MRC_pearce_stat^1 } }
+ NOT = { check_variable = { MRC_pearce_stat^3 < MRC_pearce_stat^2 } }
+}

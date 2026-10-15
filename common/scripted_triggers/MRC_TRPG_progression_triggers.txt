@@ -1,0 +1,78 @@
+MRC_TRPG_progression_ready = {
+	original_tag = MRC
+	has_country_flag = MRC_trpg_enabled
+	has_country_flag = MRC_trpg_progression_initialized
+}
+
+MRC_TRPG_can_complete_1A = {
+	MRC_TRPG_progression_ready = yes
+	check_variable = { MRC_point_control^0 = 1 }
+}
+
+MRC_TRPG_1A_is_complete = {
+	MRC_TRPG_progression_ready = yes
+	check_variable = { MRC_point_control^0 = 2 }
+}
+
+MRC_TRPG_can_complete_1B = {
+	MRC_TRPG_progression_ready = yes
+	check_variable = { MRC_point_control^1 = 1 }
+	check_variable = { MRC_point_control^0 = 2 }
+}
+
+MRC_TRPG_1B_is_complete = {
+	MRC_TRPG_progression_ready = yes
+	check_variable = { MRC_point_control^1 = 2 }
+}
+
+MRC_TRPG_can_complete_2A = {
+	MRC_TRPG_progression_ready = yes
+	check_variable = { MRC_point_control^2 = 1 }
+}
+
+MRC_TRPG_2A_is_complete = {
+	MRC_TRPG_progression_ready = yes
+	check_variable = { MRC_point_control^2 = 2 }
+}
+
+MRC_TRPG_can_complete_2B = {
+	MRC_TRPG_progression_ready = yes
+	check_variable = { MRC_point_control^3 = 1 }
+	check_variable = { MRC_point_control^2 = 2 }
+}
+
+MRC_TRPG_2B_is_complete = {
+	MRC_TRPG_progression_ready = yes
+	check_variable = { MRC_point_control^3 = 2 }
+}
+
+MRC_TRPG_can_complete_3A = {
+	MRC_TRPG_progression_ready = yes
+	check_variable = { MRC_point_control^4 = 1 }
+}
+
+MRC_TRPG_3A_is_complete = {
+	MRC_TRPG_progression_ready = yes
+	check_variable = { MRC_point_control^4 = 2 }
+}
+
+MRC_TRPG_can_complete_3B = {
+	MRC_TRPG_progression_ready = yes
+	check_variable = { MRC_point_control^5 = 1 }
+	check_variable = { MRC_point_control^4 = 2 }
+}
+
+MRC_TRPG_3B_is_complete = {
+	MRC_TRPG_progression_ready = yes
+	check_variable = { MRC_point_control^5 = 2 }
+}
+
+MRC_TRPG_all_locations_complete = {
+	MRC_TRPG_progression_ready = yes
+	MRC_TRPG_1A_is_complete = yes
+	MRC_TRPG_1B_is_complete = yes
+	MRC_TRPG_2A_is_complete = yes
+	MRC_TRPG_2B_is_complete = yes
+	MRC_TRPG_3A_is_complete = yes
+	MRC_TRPG_3B_is_complete = yes
+}

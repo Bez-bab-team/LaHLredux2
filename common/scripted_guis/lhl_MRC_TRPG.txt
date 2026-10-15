@@ -17,23 +17,112 @@ scripted_gui = {
 			GFX_lhl_MRC_TRPG_path_1A_1B = {
 				image = "[MRC_TRPG_path_1A_1B]"
 			}
+			GFX_lhl_MRC_TRPG_point_2A = {
+				image = "[MRC_TRPG_point_2A]"
+			}
+			GFX_lhl_MRC_TRPG_path_0_2A = {
+				image = "[MRC_TRPG_path_0_2A]"
+			}
+			GFX_lhl_MRC_TRPG_point_2B = {
+				image = "[MRC_TRPG_point_2B]"
+			}
+			GFX_lhl_MRC_TRPG_path_2A_2B = {
+				image = "[MRC_TRPG_path_2A_2B]"
+			}
+			GFX_lhl_MRC_TRPG_point_3A = {
+				image = "[MRC_TRPG_point_3A]"
+			}
+			GFX_lhl_MRC_TRPG_path_0_3A = {
+				image = "[MRC_TRPG_path_0_3A]"
+			}
+			GFX_lhl_MRC_TRPG_point_3B = {
+				image = "[MRC_TRPG_point_3B]"
+			}
+			GFX_lhl_MRC_TRPG_path_3A_3B = {
+				image = "[MRC_TRPG_path_3A_3B]"
+			}
+		}
+
+		triggers = {
+			GFX_lhl_MRC_TRPG_point_1A_click_enabled = {
+				MRC_TRPG_progression_ready = yes
+				OR = {
+					check_variable = { MRC_point_control^0 = 1 }
+					check_variable = { MRC_point_control^0 = 2 }
+				}
+			}
+			GFX_lhl_MRC_TRPG_point_1B_click_enabled = {
+				MRC_TRPG_progression_ready = yes
+				OR = {
+					check_variable = { MRC_point_control^1 = 1 }
+					check_variable = { MRC_point_control^1 = 2 }
+				}
+			}
+			GFX_lhl_MRC_TRPG_point_2A_click_enabled = {
+				MRC_TRPG_progression_ready = yes
+				OR = {
+					check_variable = { MRC_point_control^2 = 1 }
+					check_variable = { MRC_point_control^2 = 2 }
+				}
+			}
+			GFX_lhl_MRC_TRPG_point_2B_click_enabled = {
+				MRC_TRPG_progression_ready = yes
+				OR = {
+					check_variable = { MRC_point_control^3 = 1 }
+					check_variable = { MRC_point_control^3 = 2 }
+				}
+			}
+			GFX_lhl_MRC_TRPG_point_3A_click_enabled = {
+				MRC_TRPG_progression_ready = yes
+				OR = {
+					check_variable = { MRC_point_control^4 = 1 }
+					check_variable = { MRC_point_control^4 = 2 }
+				}
+			}
+			GFX_lhl_MRC_TRPG_point_3B_click_enabled = {
+				MRC_TRPG_progression_ready = yes
+				OR = {
+					check_variable = { MRC_point_control^5 = 1 }
+					check_variable = { MRC_point_control^5 = 2 }
+				}
+			}
 		}
 
 		effects = {
 			GFX_lhl_MRC_TRPG_point_1A_click = {
 				if = {
-					limit = {
-						check_variable = { MRC_point_control^0 = 1 }
-					}
+					limit = { MRC_TRPG_can_complete_1A = yes }
 					set_variable = { MRC_point_selection = 0 }
 				}
 			}
 			GFX_lhl_MRC_TRPG_point_1B_click = {
 				if = {
-					limit = {
-						check_variable = { MRC_point_control^1 = 1 }
-					}
+					limit = { MRC_TRPG_can_complete_1B = yes }
 					set_variable = { MRC_point_selection = 1 }
+				}
+			}
+			GFX_lhl_MRC_TRPG_point_2A_click = {
+				if = {
+					limit = { MRC_TRPG_can_complete_2A = yes }
+					set_variable = { MRC_point_selection = 2 }
+				}
+			}
+			GFX_lhl_MRC_TRPG_point_2B_click = {
+				if = {
+					limit = { MRC_TRPG_can_complete_2B = yes }
+					set_variable = { MRC_point_selection = 3 }
+				}
+			}
+			GFX_lhl_MRC_TRPG_point_3A_click = {
+				if = {
+					limit = { MRC_TRPG_can_complete_3A = yes }
+					set_variable = { MRC_point_selection = 4 }
+				}
+			}
+			GFX_lhl_MRC_TRPG_point_3B_click = {
+				if = {
+					limit = { MRC_TRPG_can_complete_3B = yes }
+					set_variable = { MRC_point_selection = 5 }
 				}
 			}
 		}

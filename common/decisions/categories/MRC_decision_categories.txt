@@ -2,6 +2,7 @@ MRC_debug = {
 	icon = GFX
 	picture = GFX
 	allowed = { original_tag = MRC }
+	visible = { has_country_flag = MRC_trpg_debug_tools }
     priority = 10
 }
 

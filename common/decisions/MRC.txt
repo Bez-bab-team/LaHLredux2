@@ -1,59 +1,66 @@
 MRC_debug = {
-    MRC_TRPG_debug = {
-		icon = x
-		complete_effect = {
-			MRC_initial_trpg = yes
-		}
-	}
-
-	MRC_TRPG_dice_test = {
-		icon = x
-		available = {
-			has_country_flag = MRC_trpg_enabled
-		}
-		complete_effect = {
-			country_event = MRC_TRPG.1
-		}
-	}
+ MRC_TRPG_debug = {
+  icon = generic_prepare_civil_war
+  complete_effect = { MRC_initial_trpg = yes }
+ }
+ MRC_TRPG_dice_test = {
+  icon = generic_prepare_civil_war
+  available = { has_country_flag = MRC_trpg_enabled }
+  complete_effect = { country_event = MRC_TRPG.1 }
+ }
 }
 
-
 MRC_TRPG_decision = {
-    MRC_TRPG_1A = {
-		icon = x
-		visible = {
-			check_variable = { MRC_point_selection = 0 }
-		}
-		available = {
-			divisions_in_state = {
-   				size > 0
-   				state = 1151
-			}
-			has_equipment = {
-				infantry_equipment > 99
-			}
-		}
-		days_remove = 7
-		complete_effect = {
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = -100
-			}
-		}
-		remove_effect = {
-			1151 = {
-				remove_dynamic_modifier = { modifier = MRC_rogue_land_mod }
-			}
-		}
-	}
-
-	MRC_TRPG_1B = {
-		icon = x
-		visible = {
-			check_variable = { MRC_point_selection = 1 }
-		}
-		complete_effect = {
-			
-		}
-	}
+ MRC_TRPG_1A = {
+  icon = generic_prepare_civil_war
+  visible = {
+   MRC_TRPG_can_complete_1A = yes
+   OR = {
+    check_variable = { MRC_point_selection = 0 }
+    has_country_flag = MRC_adventure_1A_started
+   }
+   NOT = { has_country_flag = MRC_adventure_1A_main_pending }
+  }
+  available = {
+   NOT = { has_country_flag = MRC_adventure_1A_started }
+   controls_state = 1151
+   divisions_in_state = { state = 1151 size > 0 }
+   has_equipment = { infantry_equipment > 99 }
+  }
+  days_remove = 7
+  fire_only_once = yes
+  complete_effect = {
+   set_country_flag = MRC_adventure_1A_started
+   add_equipment_to_stockpile = { type = infantry_equipment amount = -100 }
+  }
+  remove_effect = { MRC_adventure_1A_open_main = yes }
+ }
+ MRC_TRPG_1B = {
+  icon = generic_prepare_civil_war
+  cost = 25
+  visible = {
+   MRC_TRPG_can_complete_1B = yes
+   check_variable = { MRC_point_selection = 1 }
+   NOT = { has_country_flag = MRC_adventure_1B_started }
+  }
+  available = {
+   controls_state = 1155
+   divisions_in_state = { state = 1155 size > 0 }
+  }
+  fire_only_once = yes
+  complete_effect = {
+   set_country_flag = MRC_adventure_1B_started
+   country_event = { id = MRC_adventure.10 hours = 1 }
+  }
+ }
+ MRC_TRPG_training_arc = {
+  visible = { always = no }
+  icon = generic_army_support
+  activation = { always = no }
+  available = { always = no }
+  is_good = yes
+  days_mission_timeout = 7
+  timeout_effect = { MRC_adventure_1B_finish_training = yes }
+  cancel_trigger = { NOT = { has_country_flag = MRC_training_arc_active } }
+ }
 }

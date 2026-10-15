@@ -1,0 +1,525 @@
+MRC_TRPG_initialize_progression = {
+	if = {
+		limit = {
+			original_tag = MRC
+			has_country_flag = MRC_trpg_enabled
+			NOT = { has_country_flag = MRC_trpg_progression_initialized }
+		}
+		clear_array = MRC_location_alignment
+		resize_array = { MRC_location_alignment = 6 }
+		set_variable = { MRC_party_pearce = 2 }
+		set_variable = { MRC_party_moynihan = 2 }
+		set_variable = { MRC_party_tibet = 1 }
+		set_variable = { MRC_party_balance = 1 }
+		set_variable = { MRC_party_boyd_rice = 0 }
+		set_variable = { MRC_party_lord_miles = 0 }
+		set_variable = { MRC_party_charles_bronson = 0 }
+		set_variable = { MRC_party_vivianne_crowley = 0 }
+		set_variable = { MRC_party_alan_moore = 0 }
+		set_variable = { MRC_party_sheffield_officer = 0 }
+		set_variable = { MRC_charles_bronson_role = 0 }
+		set_country_flag = MRC_trpg_progression_initialized
+	}
+	MRC_TRPG_refresh_progress = yes
+}
+
+MRC_TRPG_refresh_progress = {
+	if = {
+		limit = { MRC_TRPG_progression_ready = yes }
+		if = {
+			limit = { check_variable = { MRC_point_control^0 = 0 } }
+			set_variable = { MRC_point_control^0 = 1 }
+		}
+		if = {
+			limit = {
+				check_variable = { MRC_point_control^0 = 2 }
+				check_variable = { MRC_point_control^1 = 0 }
+			}
+			set_variable = { MRC_point_control^1 = 1 }
+		}
+		else_if = {
+			limit = {
+				NOT = { check_variable = { MRC_point_control^0 = 2 } }
+				check_variable = { MRC_point_control^1 = 1 }
+			}
+			set_variable = { MRC_point_control^1 = 0 }
+		}
+		if = {
+			limit = { check_variable = { MRC_point_control^2 = 0 } }
+			set_variable = { MRC_point_control^2 = 1 }
+		}
+		if = {
+			limit = {
+				check_variable = { MRC_point_control^2 = 2 }
+				check_variable = { MRC_point_control^3 = 0 }
+			}
+			set_variable = { MRC_point_control^3 = 1 }
+		}
+		else_if = {
+			limit = {
+				NOT = { check_variable = { MRC_point_control^2 = 2 } }
+				check_variable = { MRC_point_control^3 = 1 }
+			}
+			set_variable = { MRC_point_control^3 = 0 }
+		}
+		if = {
+			limit = { check_variable = { MRC_point_control^4 = 0 } }
+			set_variable = { MRC_point_control^4 = 1 }
+		}
+		if = {
+			limit = {
+				check_variable = { MRC_point_control^4 = 2 }
+				check_variable = { MRC_point_control^5 = 0 }
+			}
+			set_variable = { MRC_point_control^5 = 1 }
+		}
+		else_if = {
+			limit = {
+				NOT = { check_variable = { MRC_point_control^4 = 2 } }
+				check_variable = { MRC_point_control^5 = 1 }
+			}
+			set_variable = { MRC_point_control^5 = 0 }
+		}
+		set_variable = { MRC_locations_completed = 0 }
+		set_variable = { MRC_left_choices = 0 }
+		set_variable = { MRC_right_choices = 0 }
+		if = {
+			limit = { check_variable = { MRC_point_control^0 = 2 } }
+			set_country_flag = MRC_TRPG_1A_completed
+			add_to_variable = { MRC_locations_completed = 1 }
+			if = {
+				limit = { check_variable = { MRC_location_alignment^0 = 1 } }
+				add_to_variable = { MRC_left_choices = 1 }
+			}
+			else_if = {
+				limit = { check_variable = { MRC_location_alignment^0 = 2 } }
+				add_to_variable = { MRC_right_choices = 1 }
+			}
+		}
+		else = {
+			clr_country_flag = MRC_TRPG_1A_completed
+		}
+		if = {
+			limit = {
+				check_variable = { MRC_point_selection = 0 }
+				NOT = { check_variable = { MRC_point_control^0 = 1 } }
+			}
+			set_variable = { MRC_point_selection = 6 }
+		}
+		if = {
+			limit = { check_variable = { MRC_point_control^1 = 2 } }
+			set_country_flag = MRC_TRPG_1B_completed
+			add_to_variable = { MRC_locations_completed = 1 }
+			if = {
+				limit = { check_variable = { MRC_location_alignment^1 = 1 } }
+				add_to_variable = { MRC_left_choices = 1 }
+			}
+			else_if = {
+				limit = { check_variable = { MRC_location_alignment^1 = 2 } }
+				add_to_variable = { MRC_right_choices = 1 }
+			}
+		}
+		else = {
+			clr_country_flag = MRC_TRPG_1B_completed
+		}
+		if = {
+			limit = {
+				check_variable = { MRC_point_selection = 1 }
+				NOT = { check_variable = { MRC_point_control^1 = 1 } }
+			}
+			set_variable = { MRC_point_selection = 6 }
+		}
+		if = {
+			limit = { check_variable = { MRC_point_control^2 = 2 } }
+			set_country_flag = MRC_TRPG_2A_completed
+			add_to_variable = { MRC_locations_completed = 1 }
+			if = {
+				limit = { check_variable = { MRC_location_alignment^2 = 1 } }
+				add_to_variable = { MRC_left_choices = 1 }
+			}
+			else_if = {
+				limit = { check_variable = { MRC_location_alignment^2 = 2 } }
+				add_to_variable = { MRC_right_choices = 1 }
+			}
+		}
+		else = {
+			clr_country_flag = MRC_TRPG_2A_completed
+		}
+		if = {
+			limit = {
+				check_variable = { MRC_point_selection = 2 }
+				NOT = { check_variable = { MRC_point_control^2 = 1 } }
+			}
+			set_variable = { MRC_point_selection = 6 }
+		}
+		if = {
+			limit = { check_variable = { MRC_point_control^3 = 2 } }
+			set_country_flag = MRC_TRPG_2B_completed
+			add_to_variable = { MRC_locations_completed = 1 }
+			if = {
+				limit = { check_variable = { MRC_location_alignment^3 = 1 } }
+				add_to_variable = { MRC_left_choices = 1 }
+			}
+			else_if = {
+				limit = { check_variable = { MRC_location_alignment^3 = 2 } }
+				add_to_variable = { MRC_right_choices = 1 }
+			}
+		}
+		else = {
+			clr_country_flag = MRC_TRPG_2B_completed
+		}
+		if = {
+			limit = {
+				check_variable = { MRC_point_selection = 3 }
+				NOT = { check_variable = { MRC_point_control^3 = 1 } }
+			}
+			set_variable = { MRC_point_selection = 6 }
+		}
+		if = {
+			limit = { check_variable = { MRC_point_control^4 = 2 } }
+			set_country_flag = MRC_TRPG_3A_completed
+			add_to_variable = { MRC_locations_completed = 1 }
+			if = {
+				limit = { check_variable = { MRC_location_alignment^4 = 1 } }
+				add_to_variable = { MRC_left_choices = 1 }
+			}
+			else_if = {
+				limit = { check_variable = { MRC_location_alignment^4 = 2 } }
+				add_to_variable = { MRC_right_choices = 1 }
+			}
+		}
+		else = {
+			clr_country_flag = MRC_TRPG_3A_completed
+		}
+		if = {
+			limit = {
+				check_variable = { MRC_point_selection = 4 }
+				NOT = { check_variable = { MRC_point_control^4 = 1 } }
+			}
+			set_variable = { MRC_point_selection = 6 }
+		}
+		if = {
+			limit = { check_variable = { MRC_point_control^5 = 2 } }
+			set_country_flag = MRC_TRPG_3B_completed
+			add_to_variable = { MRC_locations_completed = 1 }
+			if = {
+				limit = { check_variable = { MRC_location_alignment^5 = 1 } }
+				add_to_variable = { MRC_left_choices = 1 }
+			}
+			else_if = {
+				limit = { check_variable = { MRC_location_alignment^5 = 2 } }
+				add_to_variable = { MRC_right_choices = 1 }
+			}
+		}
+		else = {
+			clr_country_flag = MRC_TRPG_3B_completed
+		}
+		if = {
+			limit = {
+				check_variable = { MRC_point_selection = 5 }
+				NOT = { check_variable = { MRC_point_control^5 = 1 } }
+			}
+			set_variable = { MRC_point_selection = 6 }
+		}
+		if = {
+			limit = { MRC_TRPG_all_locations_complete = yes }
+			set_country_flag = MRC_TRPG_all_locations_completed
+		}
+		else = {
+			clr_country_flag = MRC_TRPG_all_locations_completed
+		}
+		MRC_TRPG_refresh_party = yes
+	}
+}
+
+MRC_TRPG_refresh_party = {
+	if = {
+		limit = { MRC_TRPG_progression_ready = yes }
+		set_variable = { MRC_left_party_size = 0 }
+		set_variable = { MRC_right_party_size = 0 }
+		if = {
+			limit = { check_variable = { MRC_party_pearce = 1 } }
+			add_to_variable = { MRC_left_party_size = 1 }
+		}
+		else_if = {
+			limit = { check_variable = { MRC_party_pearce = 2 } }
+			add_to_variable = { MRC_right_party_size = 1 }
+		}
+		if = {
+			limit = { check_variable = { MRC_party_moynihan = 1 } }
+			add_to_variable = { MRC_left_party_size = 1 }
+		}
+		else_if = {
+			limit = { check_variable = { MRC_party_moynihan = 2 } }
+			add_to_variable = { MRC_right_party_size = 1 }
+		}
+		if = {
+			limit = { check_variable = { MRC_party_tibet = 1 } }
+			add_to_variable = { MRC_left_party_size = 1 }
+		}
+		else_if = {
+			limit = { check_variable = { MRC_party_tibet = 2 } }
+			add_to_variable = { MRC_right_party_size = 1 }
+		}
+		if = {
+			limit = { check_variable = { MRC_party_balance = 1 } }
+			add_to_variable = { MRC_left_party_size = 1 }
+		}
+		else_if = {
+			limit = { check_variable = { MRC_party_balance = 2 } }
+			add_to_variable = { MRC_right_party_size = 1 }
+		}
+		if = {
+			limit = { check_variable = { MRC_party_boyd_rice = 1 } }
+			add_to_variable = { MRC_left_party_size = 1 }
+		}
+		else_if = {
+			limit = { check_variable = { MRC_party_boyd_rice = 2 } }
+			add_to_variable = { MRC_right_party_size = 1 }
+		}
+		if = {
+			limit = { check_variable = { MRC_party_lord_miles = 1 } }
+			add_to_variable = { MRC_left_party_size = 1 }
+		}
+		else_if = {
+			limit = { check_variable = { MRC_party_lord_miles = 2 } }
+			add_to_variable = { MRC_right_party_size = 1 }
+		}
+		if = {
+			limit = { check_variable = { MRC_party_charles_bronson = 1 } }
+			add_to_variable = { MRC_left_party_size = 1 }
+		}
+		else_if = {
+			limit = { check_variable = { MRC_party_charles_bronson = 2 } }
+			add_to_variable = { MRC_right_party_size = 1 }
+		}
+		if = {
+			limit = { check_variable = { MRC_party_vivianne_crowley = 1 } }
+			add_to_variable = { MRC_left_party_size = 1 }
+		}
+		else_if = {
+			limit = { check_variable = { MRC_party_vivianne_crowley = 2 } }
+			add_to_variable = { MRC_right_party_size = 1 }
+		}
+		if = {
+			limit = { check_variable = { MRC_party_alan_moore = 1 } }
+			add_to_variable = { MRC_left_party_size = 1 }
+		}
+		else_if = {
+			limit = { check_variable = { MRC_party_alan_moore = 2 } }
+			add_to_variable = { MRC_right_party_size = 1 }
+		}
+		if = {
+			limit = { check_variable = { MRC_party_sheffield_officer = 1 } }
+			add_to_variable = { MRC_left_party_size = 1 }
+		}
+		else_if = {
+			limit = { check_variable = { MRC_party_sheffield_officer = 2 } }
+			add_to_variable = { MRC_right_party_size = 1 }
+		}
+	}
+}
+
+MRC_TRPG_record_boyd_rice_right = {
+	if = {
+		limit = {
+			MRC_TRPG_progression_ready = yes
+			check_variable = { MRC_party_boyd_rice = 0 }
+			NOT = { has_country_flag = MRC_boyd_rice_rejected }
+		}
+		set_variable = { MRC_party_boyd_rice = 2 }
+		MRC_TRPG_refresh_party = yes
+	}
+}
+
+MRC_TRPG_record_lord_miles_right = {
+	if = {
+		limit = {
+			MRC_TRPG_progression_ready = yes
+			check_variable = { MRC_party_lord_miles = 0 }
+		}
+		set_variable = { MRC_party_lord_miles = 2 }
+		MRC_TRPG_refresh_party = yes
+	}
+}
+
+MRC_TRPG_record_charles_bronson_right = {
+	if = {
+		limit = {
+			MRC_TRPG_progression_ready = yes
+			check_variable = { MRC_party_charles_bronson = 0 }
+		}
+		set_variable = { MRC_party_charles_bronson = 2 }
+		MRC_TRPG_refresh_party = yes
+	}
+}
+
+MRC_TRPG_record_vivianne_crowley_left = {
+	if = {
+		limit = {
+			MRC_TRPG_progression_ready = yes
+			check_variable = { MRC_party_vivianne_crowley = 0 }
+		}
+		set_variable = { MRC_party_vivianne_crowley = 1 }
+		MRC_TRPG_refresh_party = yes
+	}
+}
+
+MRC_TRPG_record_vivianne_crowley_right = {
+	if = {
+		limit = {
+			MRC_TRPG_progression_ready = yes
+			check_variable = { MRC_party_vivianne_crowley = 0 }
+		}
+		set_variable = { MRC_party_vivianne_crowley = 2 }
+		MRC_TRPG_refresh_party = yes
+	}
+}
+
+MRC_TRPG_record_alan_moore_left = {
+	if = {
+		limit = {
+			MRC_TRPG_progression_ready = yes
+			check_variable = { MRC_party_alan_moore = 0 }
+		}
+		set_variable = { MRC_party_alan_moore = 1 }
+		MRC_TRPG_refresh_party = yes
+	}
+}
+
+MRC_TRPG_record_sheffield_officer_left = {
+	if = {
+		limit = {
+			MRC_TRPG_progression_ready = yes
+			check_variable = { MRC_party_sheffield_officer = 0 }
+		}
+		set_variable = { MRC_party_sheffield_officer = 1 }
+		MRC_TRPG_refresh_party = yes
+	}
+}
+
+MRC_TRPG_reject_boyd_rice = {
+	if = {
+		limit = {
+			MRC_TRPG_progression_ready = yes
+			check_variable = { MRC_party_boyd_rice = 0 }
+		}
+		set_country_flag = MRC_boyd_rice_rejected
+	}
+}
+
+MRC_TRPG_complete_1A_left = {
+	if = {
+		limit = { MRC_TRPG_can_complete_1A = yes }
+		set_variable = { MRC_location_alignment^0 = 1 }
+		set_variable = { MRC_point_control^0 = 2 }
+		MRC_TRPG_refresh_progress = yes
+	}
+}
+
+MRC_TRPG_complete_1A_right = {
+	if = {
+		limit = { MRC_TRPG_can_complete_1A = yes }
+		set_variable = { MRC_location_alignment^0 = 2 }
+		set_variable = { MRC_point_control^0 = 2 }
+		MRC_TRPG_record_lord_miles_right = yes
+		MRC_TRPG_refresh_progress = yes
+	}
+}
+
+MRC_TRPG_complete_1B_left = {
+	if = {
+		limit = { MRC_TRPG_can_complete_1B = yes }
+		set_variable = { MRC_location_alignment^1 = 1 }
+		set_variable = { MRC_point_control^1 = 2 }
+		set_variable = { MRC_charles_bronson_role = 1 }
+		MRC_TRPG_refresh_progress = yes
+	}
+}
+
+MRC_TRPG_complete_1B_right = {
+	if = {
+		limit = { MRC_TRPG_can_complete_1B = yes }
+		set_variable = { MRC_location_alignment^1 = 2 }
+		set_variable = { MRC_point_control^1 = 2 }
+		set_variable = { MRC_charles_bronson_role = 2 }
+		MRC_TRPG_record_charles_bronson_right = yes
+		MRC_TRPG_refresh_progress = yes
+	}
+}
+
+MRC_TRPG_complete_2A_left = {
+	if = {
+		limit = { MRC_TRPG_can_complete_2A = yes }
+		set_variable = { MRC_location_alignment^2 = 1 }
+		set_variable = { MRC_point_control^2 = 2 }
+		MRC_TRPG_record_vivianne_crowley_left = yes
+		MRC_TRPG_refresh_progress = yes
+	}
+}
+
+MRC_TRPG_complete_2A_right = {
+	if = {
+		limit = { MRC_TRPG_can_complete_2A = yes }
+		set_variable = { MRC_location_alignment^2 = 2 }
+		set_variable = { MRC_point_control^2 = 2 }
+		MRC_TRPG_record_vivianne_crowley_right = yes
+		MRC_TRPG_refresh_progress = yes
+	}
+}
+
+MRC_TRPG_complete_2B_left = {
+	if = {
+		limit = { MRC_TRPG_can_complete_2B = yes }
+		set_variable = { MRC_location_alignment^3 = 1 }
+		set_variable = { MRC_point_control^3 = 2 }
+		MRC_TRPG_refresh_progress = yes
+	}
+}
+
+MRC_TRPG_complete_2B_right = {
+	if = {
+		limit = { MRC_TRPG_can_complete_2B = yes }
+		set_variable = { MRC_location_alignment^3 = 2 }
+		set_variable = { MRC_point_control^3 = 2 }
+		MRC_TRPG_refresh_progress = yes
+	}
+}
+
+MRC_TRPG_complete_3A_left = {
+	if = {
+		limit = { MRC_TRPG_can_complete_3A = yes }
+		set_variable = { MRC_location_alignment^4 = 1 }
+		set_variable = { MRC_point_control^4 = 2 }
+		MRC_TRPG_record_alan_moore_left = yes
+		MRC_TRPG_refresh_progress = yes
+	}
+}
+
+MRC_TRPG_complete_3A_right = {
+	if = {
+		limit = { MRC_TRPG_can_complete_3A = yes }
+		set_variable = { MRC_location_alignment^4 = 2 }
+		set_variable = { MRC_point_control^4 = 2 }
+		MRC_TRPG_refresh_progress = yes
+	}
+}
+
+MRC_TRPG_complete_3B_left = {
+	if = {
+		limit = { MRC_TRPG_can_complete_3B = yes }
+		set_variable = { MRC_location_alignment^5 = 1 }
+		set_variable = { MRC_point_control^5 = 2 }
+		MRC_TRPG_record_sheffield_officer_left = yes
+		MRC_TRPG_refresh_progress = yes
+	}
+}
+
+MRC_TRPG_complete_3B_right = {
+	if = {
+		limit = { MRC_TRPG_can_complete_3B = yes }
+		set_variable = { MRC_location_alignment^5 = 2 }
+		set_variable = { MRC_point_control^5 = 2 }
+		MRC_TRPG_refresh_progress = yes
+	}
+}

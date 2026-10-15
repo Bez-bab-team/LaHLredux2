@@ -111,7 +111,6 @@ add_ai_strategy = {
 ##CHARACTER##
 #leaders#
 recruit_character = MRC_douglas_pearce
-recruit_character = MRC_vivianne_crowley
 recruit_character = MRC_david_tibet
 recruit_character = MRC_jeff_kent
 recruit_character = MRC_russell_brand
@@ -125,7 +124,6 @@ recruit_character = MRC_adrian_bradshaw
 recruit_character = MRC_shaun_alex_burley
 recruit_character = MRC_chris_brown
 recruit_character = MRC_gerald_berragan
-recruit_character = MRC_charles_bronson
 recruit_character = MRC_chris_bell
 recruit_character = MRC_mark_mans
 recruit_character = MRC_simon_mayall
@@ -139,7 +137,6 @@ recruit_character = MRC_freya_aswynn
 recruit_character = MRC_patrick_sanders
 recruit_character = MRC_michael_york
 recruit_character = MRC_ronald_hutton
-recruit_character = MRC_boyd_rice
 recruit_character = MRC_genesis_breyer_p-orridge
 recruit_character = MRC_philip_shallcrass
 recruit_character = MRC_patrick_leagas

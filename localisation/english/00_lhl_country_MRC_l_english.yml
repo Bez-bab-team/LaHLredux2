@@ -1,6 +1,4 @@
 ﻿ l_english:
- ##LEADERS##
- ##POLITICAL PARTIES##
  MRC_millenarism_party:0 "The Sabbat"
  MRC_millenarism_party_long:0 "The Sabbat"
  MRC_commendationism_party:0 "Mercian Nationalists"
@@ -21,7 +19,6 @@
  MRC_regressionism_party_long:0 "Church of Jediism "
  MRC_ur_fascism_party:0 "Black Army of Britain"
  MRC_ur_fascism_party_long:0 "Black Army of Britain"
- ##COUNTRY NAME##
  MRC_right_populism:0 "Folcists"
  MRC_right_populism_DEF:0 "Black Army of Britain"
  MRC_millenarism:0 "Realm of Britain"
@@ -46,13 +43,10 @@
  MRC_REUNIFIED2:0 "Archbishopric of England"
  MRC_REUNIFIED3:0 "Anglia" 
  MRC_REUNIFIED4:0 "Britannia"
- ##TRAITS##
  lastbelovedofeurope:0 "Last Beloved of Evropa"
- ##IDEAS##
  MRC_regency_councilmer:0 "Regency Council"
  MRC_exorcists_in_mercia:0 "Exorcists in Mercia"
  MRC_cambridge_protection:0 "Cambridge University Authonomy"
- ##DESIGN COMPANIES##
  westley_richards:0 "Westley Richards"
  webley_scott:0 "Webley & Scott"
  bae_systems_radway_green:0 "BAE Systems Radway Green"
@@ -66,9 +60,8 @@
 
  MRC_rogue_land_mod:0 "Rogue Land"
 
- ##TRPG##
  MRC_TRPG_1A:0 "Cleanse Stoke-on-Trent"
- MRC_TRPG_1A_desc:0 "Lorem ipsum"
+ MRC_TRPG_1A_desc:0 "Station at least one division in Stoke-on-Trent and provide 100 infantry equipment. The expedition lasts seven days."
 
  MRC_TRPG_dice.1.t:0 "Critical Fail"
  MRC_TRPG_dice.1.d:0 ""
@@ -90,99 +83,111 @@
  MRC_TRPG.1.d:0 "Run a charisma dice on Balance"
  MRC_TRPG.1.a:0 "Let's see..."
 
-
- ##FOCUS TREES##
  MRC_the_calling:0 "The Calling"
  MRC_the_calling_desc:0 ""
- #
  MRC_three_little_piglets:0 "Three Little Piggies"
  MRC_three_little_piglets_desc:0 ""
- #
  MRC_accidental_protege:0 "Accidental Protégé"
  MRC_accidental_protege_desc:0 ""
- #
  MRC_brothers_in_arms:0 "Brothers In Arms"
  MRC_brothers_in_arms_desc:0 ""
- #
  MRC_black_radio:0 "Black Radio"
  MRC_black_radio_desc:0 ""
- #
  MRC_heroes_day:0 "Heroes Day"
  MRC_heroes_day_desc:0 ""
- #
  MRC_gorilla_tactics:0 "Gorilla Tactics"
  MRC_gorilla_tactics_desc:0 ""
- #
  MRC_blocking_batallions:0 "Blocking Batallions"
  MRC_blocking_batallions_desc:0 ""
- #
  MRC_fury_road:0 "Fury Road"
  MRC_fury_road_desc:0 ""
- #
  MRC_no_more_sins:0 "No More Sins"
  MRC_no_more_sins_desc:0 ""
- #
  MRC_english_quilt:0 "English Quilt"
  MRC_english_quilt_desc:0 ""
- #
  MRC_life_under_siege:0 "Life Under Siege"
  MRC_life_under_siege_desc:0 ""
- #
  MRC_killing_the_joke:0 "Killing The Joke"
  MRC_killing_the_joke_desc:0 ""
- #
  MRC_hunt_the_bolshevik_beast:0 "Hunt The Bolshevik Beast"
  MRC_hunt_the_bolshevik_beast_desc:0 ""
- #
  MRC_in_sacrilege:0 "In Sacrilege"
  MRC_in_sacrilege_desc:0 ""
- #
  MRC_dispel_magik:0 "Dispel Magik"
  MRC_dispel_magik_desc:0 ""
- #
  MRC_the_perfume_of_traitors:0 "The Perfume Of Traitors"
  MRC_the_perfume_of_traitors_desc:0 ""
- #
  MRC_born_again:0 "Born Again"
  MRC_born_again_desc:0 ""
- #
  MRC_english_liberation_army:0 "English Liberation Army"
  MRC_english_liberation_army_desc:0 ""
- #
  MRC_storm_of_steel:0 "Storm of Steel"
  MRC_storm_of_steel_desc:0 ""
- #
  MRC_rain_of_despair:0 "Rain of Despair"
  MRC_rain_of_despair_desc:0 ""
- #
  MRC_love_thy_neighbor:0 "Love Thy Neighbor"
  MRC_love_thy_neighbor_desc:0 ""
- #
  MRC_blood_over_iron:0 "Blood over Iron"
  MRC_blood_over_iron_desc:0 ""
- #
  MRC_here_we_stand:0 "Here We Stand"
  MRC_here_we_stand_desc:0 ""
- #
  MRC_hidden_among_the_leaves:0 "Hidden Among The Leaves"
  MRC_hidden_among_the_leaves_desc:0 ""
- #
  MRC_state_laughter:0 "State Laughter"
  MRC_state_laughter_desc:0 ""
- #
  MRC_the_hangman_waits:0 "The Hangman Waits"
  MRC_the_hangman_waits_desc:0 ""
- #
  MRC_golden_book:0 "Golden Book"
  MRC_golden_book_desc:0 ""
- #
  MRC_northforth:0 "Northforth"
  MRC_northforth_desc:0 ""
- #
  MRC_oh_how_we_laughed:0 "Oh How We Laughed"
  MRC_oh_how_we_laughed_desc:0 ""
- #
- #EVENTS#
  MRC_event.27.t:0 "Sabotage!"
  MRC_event.27.d:0 "Unknown elements within our state have been sowing discord among our pagan and christian population. This have lowered the morale of our troops and population. We suspect a rival English government is responsible for these rumors."
  MRC_event.27.a:0 "Investigate this!"
+
+ MRC_last_pound_of_flesh:0 "Last Pound Of Flesh"
+ MRC_last_pound_of_flesh_desc:0 ""
+ MRC_last_pound_of_flesh_economy:0 "Last Pound Of Flesh"
+ MRC_last_pound_of_flesh_economy_desc:0 ""
+
+ MRC_TRPG_status_locked:0 "Locked"
+ MRC_TRPG_status_active:0 "Available"
+ MRC_TRPG_status_completed:0 "Completed"
+ MRC_TRPG_point_1A_tooltip:0 "Stoke-on-Trent\nStatus: [MRC_TRPG_status_1A]"
+ MRC_TRPG_point_1B_tooltip:0 "Leicester\nStatus: [MRC_TRPG_status_1B]"
+ MRC_TRPG_point_2A_tooltip:0 "Grimsby\nStatus: [MRC_TRPG_status_2A]"
+ MRC_TRPG_point_2B_tooltip:0 "Cambridge\nStatus: [MRC_TRPG_status_2B]"
+ MRC_TRPG_point_3A_tooltip:0 "Nottingham\nStatus: [MRC_TRPG_status_3A]"
+ MRC_TRPG_point_3B_tooltip:0 "Sheffield\nStatus: [MRC_TRPG_status_3B]"
+
+ MRC_the_calling_prologue_required_tt:0 "Complete Quest Zero in Birmingham."
+ MRC_the_calling_exploration_tt:0 "Unlock adventure paths 1, 2, and 3."
+ MRC_debug:0 "Exploration Tests"
+ MRC_TRPG_debug:0 "Initialize Exploration"
+ MRC_TRPG_dice_test:0 "Test a Character Roll"
+ MRC_TRPG_decision:0 "The Black Army's Road"
+ MRC_TRPG_decision_desc:0 "Our companions are ready to travel beyond Birmingham."
+
+ MRC_TRPG_1B:0 "On the Ring"
+ MRC_TRPG_1B_desc:0 "Station at least one division in Leicester and spend 25 political power to meet Charles Bronson."
+ MRC_TRPG_training_arc:0 "Training Arc"
+ MRC_TRPG_training_arc_desc:0 ""
+ MRC_charles_bronson_artist:0 "Charles Bronson"
+
+ MRC_TRPG_1A_focus_required_tt:0 "Complete the adventure in Stoke-on-Trent."
+
+ MRC_TRPG_1B_focus_required_tt:0 "Complete the adventure in Leicester."
+
+ MRC_TRPG_2A_focus_required_tt:0 "Complete the adventure in Grimsby."
+
+ MRC_TRPG_2B_focus_required_tt:0 "Complete the adventure in Cambridge."
+
+ MRC_TRPG_3A_focus_required_tt:0 "Complete the adventure in Nottingham."
+
+ MRC_TRPG_3B_focus_required_tt:0 "Complete the adventure in Sheffield."
+
+ MRC_boyd_rice_joined_required_tt:0 "Boyd Rice has joined the expedition."
+ MRC_bronson_artist_required_tt:0 "Choose Charles Bronson as an artist after the Leicester adventure."
+ MRC_bronson_military_required_tt:0 "Choose Charles Bronson as a general after the Leicester adventure."
