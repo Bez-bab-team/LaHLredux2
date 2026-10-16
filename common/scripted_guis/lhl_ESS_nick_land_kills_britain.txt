@@ -1,0 +1,10 @@
+scripted_gui = {
+	lhl_ESS_nick_land_kills_britain = {
+		context_type = decision_category
+		parent_window_token = decision_tab
+		window_name = "lhl_ESS_nick_land_kills_britain_screen_full"
+		visible = {
+			tag = ESS
+		}
+	}
+}

@@ -3,7 +3,7 @@
  ##POLITICAL PARTIES##
  ##COUNTRY NAME##
  SEG:0 "Shanxi Emergency Government"
- SEG:0 "the Shanxi Emergency Government"
+ SEG_DEF:0 "the Shanxi Emergency Government"
  ##TRAITS##
  ##IDEAS##
  ##FOCUS TREES##

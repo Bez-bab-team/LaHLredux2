@@ -1,0 +1,270 @@
+MRC_TRPG_adventure_roll = {
+ set_temp_variable = { dice_player = MRC_player_val }
+ set_temp_variable = { dice_type = MRC_player_stat }
+ meta_effect = {
+  text = {
+   set_temp_variable = { dice_mod = MRC_[GET_DICE_PLAYER]_stat^dice_type }
+   set_temp_variable = { dice_prominent = 1 }
+   if = {
+    limit = { check_variable = { dice_mod < MRC_[GET_DICE_PLAYER]_stat^0 } }
+    set_temp_variable = { dice_prominent = 0 }
+   }
+   if = {
+    limit = { check_variable = { dice_mod < MRC_[GET_DICE_PLAYER]_stat^1 } }
+    set_temp_variable = { dice_prominent = 0 }
+   }
+   if = {
+    limit = { check_variable = { dice_mod < MRC_[GET_DICE_PLAYER]_stat^2 } }
+    set_temp_variable = { dice_prominent = 0 }
+   }
+   if = {
+    limit = { check_variable = { dice_mod < MRC_[GET_DICE_PLAYER]_stat^3 } }
+    set_temp_variable = { dice_prominent = 0 }
+   }
+  }
+  GET_DICE_PLAYER = "[MRC_TRPG_dice_player]"
+ }
+ if = {
+  limit = {
+   check_variable = { MRC_adventure_assurance = 1 }
+   check_variable = { dice_prominent = 1 }
+  }
+  set_temp_variable = { dice_mod = 4 }
+ }
+ set_variable = { MRC_adventure_roll_bonus = dice_mod }
+ set_temp_variable_to_random = { var = dice_raw min = 1 max = 21 integer = yes }
+ set_variable = { MRC_adventure_roll_raw = dice_raw }
+ add_to_temp_variable = { dice_raw = dice_mod }
+ clamp_temp_variable = { var = dice_raw min = 1 max = 20 }
+ set_variable = { MRC_adventure_roll_total = dice_raw }
+ if = {
+  limit = { check_variable = { dice_raw > 15 } }
+  set_variable = { MRC_adventure_roll_result = 3 }
+ }
+ else_if = {
+  limit = { check_variable = { dice_raw > 10 } }
+  set_variable = { MRC_adventure_roll_result = 2 }
+ }
+ else_if = {
+  limit = { check_variable = { dice_raw > 5 } }
+  set_variable = { MRC_adventure_roll_result = 1 }
+ }
+ else = { set_variable = { MRC_adventure_roll_result = 0 } }
+ set_variable = { MRC_adventure_assurance = 0 }
+}
+
+MRC_adventure_1A_open_main = {
+ if = {
+  limit = {
+   MRC_TRPG_can_complete_1A = yes
+   has_country_flag = MRC_adventure_1A_started
+   NOT = { has_country_flag = MRC_adventure_1A_main_pending }
+  }
+  set_country_flag = MRC_adventure_1A_main_pending
+  1151 = { remove_dynamic_modifier = { modifier = MRC_rogue_land_mod } }
+  country_event = { id = MRC_adventure.1 hours = 1 }
+ }
+}
+
+MRC_adventure_1A_finish_main = {
+ clr_country_flag = MRC_adventure_1A_main_pending
+ set_country_flag = MRC_adventure_1A_bonus_pending
+ country_event = { id = MRC_adventure.2 hours = 1 }
+}
+
+MRC_adventure_1A_roll = {
+ if = {
+  limit = { has_country_flag = MRC_adventure_1A_bonus_pending }
+  clr_country_flag = MRC_adventure_1A_bonus_pending
+  set_temp_variable = { MRC_player_val = 0 }
+  set_temp_variable = { MRC_player_stat = 3 }
+  MRC_TRPG_adventure_roll = yes
+  set_variable = { MRC_adventure_1A_roll_result = MRC_adventure_roll_result }
+  set_country_flag = MRC_adventure_1A_result_pending
+  if = {
+   limit = { check_variable = { MRC_adventure_roll_result = 3 } }
+   country_event = { id = MRC_adventure.6 hours = 1 }
+  }
+  else_if = {
+   limit = { check_variable = { MRC_adventure_roll_result = 2 } }
+   country_event = { id = MRC_adventure.5 hours = 1 }
+  }
+  else_if = {
+   limit = { check_variable = { MRC_adventure_roll_result = 1 } }
+   country_event = { id = MRC_adventure.4 hours = 1 }
+  }
+  else = { country_event = { id = MRC_adventure.3 hours = 1 } }
+ }
+}
+
+MRC_adventure_1A_veteran_militia = {
+ if = {
+  limit = { NOT = { has_template = "Stoke Militia" } }
+  division_template = {
+   name = "Stoke Militia"
+   regiments = {
+    militia = { x = 0 y = 0 }
+    militia = { x = 0 y = 1 }
+    militia = { x = 1 y = 0 }
+    militia = { x = 1 y = 1 }
+   }
+  }
+ }
+ create_unit = {
+  division = "name = \"Stoke Veterans\" division_template = \"Stoke Militia\" start_experience_factor = 0.9 start_equipment_factor = 1.0"
+  owner = MRC
+  prioritize_location = 17614
+ }
+}
+
+MRC_adventure_1B_open_resolution = {
+ if = {
+  limit = {
+   MRC_TRPG_can_complete_1B = yes
+   has_country_flag = MRC_adventure_1B_started
+  }
+  clr_country_flag = MRC_training_arc_active
+  set_country_flag = MRC_adventure_1B_result_pending
+  country_event = { id = MRC_adventure.11 hours = 1 }
+ }
+}
+
+MRC_adventure_1B_start_training = {
+ MRC_adventure_1B_open_resolution = yes
+}
+
+MRC_adventure_1B_check_training = {
+ if = {
+  limit = { has_country_flag = MRC_training_arc_active }
+  MRC_adventure_1B_open_resolution = yes
+ }
+}
+
+MRC_adventure_1B_finish_training = {
+ MRC_adventure_1B_open_resolution = yes
+}
+
+MRC_adventure_1B_cleanse = {
+ clr_country_flag = MRC_adventure_1B_result_pending
+ 1155 = { remove_dynamic_modifier = { modifier = MRC_rogue_land_mod } }
+}
+
+MRC_adventure_1B_recruit_general = {
+ MRC_adventure_sync_characters = yes
+}
+
+MRC_adventure_1B_recruit_artist = {
+ MRC_adventure_sync_characters = yes
+}
+
+MRC_adventure_sync_characters = {
+ if = {
+  limit = { original_tag = MRC }
+  if = {
+   limit = { NOT = { has_character = MRC_boyd_rice } }
+   recruit_character = MRC_boyd_rice
+  }
+  if = {
+   limit = { NOT = { has_character = MRC_charles_bronson } }
+   recruit_character = MRC_charles_bronson
+  }
+  MRC_charles_bronson = {
+   if = {
+    limit = { NOT = { has_advisor_role = political_advisor } }
+    add_advisor_role = { advisor = {
+ slot = political_advisor
+ idea_token = MRC_charles_bronson_artist
+ 
+ allowed = { original_tag = MRC }
+ available = {
+  custom_trigger_tooltip = {
+   tooltip = MRC_bronson_artist_required_tt
+   check_variable = { MRC_charles_bronson_role = 1 }
+  }
+ }
+ traits = { peoples_artist }
+ cost = 100
+ ai_will_do = { factor = 1 }
+} }
+   }
+   if = {
+    limit = { NOT = { has_advisor_role = army_chief } }
+    add_advisor_role = { advisor = {
+ slot = army_chief
+ idea_token = MRC_charles_bronson
+ 
+ allowed = { original_tag = MRC }
+ available = {
+  custom_trigger_tooltip = {
+   tooltip = MRC_bronson_military_required_tt
+   check_variable = { MRC_charles_bronson_role = 2 }
+  }
+ }
+ traits = {  }
+ cost = 100
+ ai_will_do = { factor = 1 }
+} }
+   }
+   if = {
+    limit = { NOT = { has_advisor_role = high_command } }
+    add_advisor_role = { advisor = {
+ slot = high_command
+ idea_token = MRC_charles_bronson
+ ledger = army
+ allowed = { original_tag = MRC }
+ available = {
+  custom_trigger_tooltip = {
+   tooltip = MRC_bronson_military_required_tt
+   check_variable = { MRC_charles_bronson_role = 2 }
+  }
+ }
+ traits = {  }
+ cost = 100
+ ai_will_do = { factor = 1 }
+} }
+   }
+  }
+  if = {
+   limit = { check_variable = { MRC_charles_bronson_role = 2 } }
+   MRC_charles_bronson = {
+    if = {
+     limit = { is_corps_commander = no }
+     add_corps_commander_role = {
+      skill = 2
+      traits = { harsh_leader media_personality }
+      attack_skill = 2
+      defense_skill = 2
+      planning_skill = 1
+      logistics_skill = 2
+     }
+    }
+   }
+  }
+  else = {
+   MRC_charles_bronson = {
+    if = {
+     limit = { is_unit_leader = yes }
+     remove_unit_leader_role = yes
+    }
+   }
+  }
+ }
+}
+
+MRC_TRPG_complete_1A_brute = {
+ if = {
+  limit = { MRC_TRPG_can_complete_1A = yes }
+  set_variable = { MRC_location_alignment^0 = 3 }
+  set_variable = { MRC_point_control^0 = 2 }
+  MRC_TRPG_refresh_progress = yes
+ }
+}
+
+MRC_TRPG_complete_1B_brute = {
+ if = {
+  limit = { MRC_TRPG_can_complete_1B = yes }
+  set_variable = { MRC_location_alignment^1 = 3 }
+  set_variable = { MRC_point_control^1 = 2 }
+  MRC_TRPG_refresh_progress = yes
+ }
+}

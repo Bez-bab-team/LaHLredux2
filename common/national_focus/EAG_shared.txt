@@ -2603,7 +2603,6 @@ shared_focus = {
 			value = -25
 		}
 		custom_effect_tooltip = EAG_coring_cost_lowered_25_tt
-		custom_effect_tooltip = EAG_congress_of_communes_created_tt
 	}
 	x = 5
 	y = 5

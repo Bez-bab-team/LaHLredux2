@@ -1,0 +1,54 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ESS_torch_of_revolution"
+		textureFile = "gfx/interface/scripted_guis/ESS_torch_of_revolution/ESS_torch_of_revolution.dds"
+	}
+	spriteType = {
+		name = "GFX_ESS_torch_of_revolution_activated"
+		textureFile = "gfx/interface/scripted_guis/ESS_torch_of_revolution/ESS_torch_of_revolution_activated.dds"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_ESS_torch_flame_1"
+		textureFile = "gfx/interface/scripted_guis/ESS_torch_of_revolution/ESS_torch_flame_1.dds"
+		noOfFrames = 2
+		loadType = "INGAME"
+		alwaystransparent = no
+		animation_rate_fps = 1.5
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_ESS_torch_flame_2"
+		textureFile = "gfx/interface/scripted_guis/ESS_torch_of_revolution/ESS_torch_flame_2.dds"
+		noOfFrames = 2
+		loadType = "INGAME"
+		alwaystransparent = no
+		animation_rate_fps = 1.5
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_ESS_torch_flame_3"
+		textureFile = "gfx/interface/scripted_guis/ESS_torch_of_revolution/ESS_torch_flame_3.dds"
+		noOfFrames = 2
+		loadType = "INGAME"
+		alwaystransparent = no
+		animation_rate_fps = 1.5
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_ESS_torch_flame_4"
+		textureFile = "gfx/interface/scripted_guis/ESS_torch_of_revolution/ESS_torch_flame_4.dds"
+		noOfFrames = 2
+		loadType = "INGAME"
+		alwaystransparent = no
+		animation_rate_fps = 1.5
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+}

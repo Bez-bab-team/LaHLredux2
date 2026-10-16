@@ -1641,14 +1641,14 @@ country_event = { #Plea 9: GULAG Revolt
 		}
 		1001 = {
 			create_unit = {
-				division = "name = \"Penal Battalion 01\" division_template = \"Penal Battalion"\" start_experience_factor = 2.0 start_equipment_factor = 0.9"
+				division = "name = \"Penal Battalion 01\" division_template = \"Penal Battalion\" start_experience_factor = 2.0 start_equipment_factor = 0.9"
 					
 				owner = SUS
 			}
 		}
 		1001 = {
 			create_unit = {
-				division = "name = \"Penal Battalion 02\" division_template = \"Penal Battalion"\" start_experience_factor = 2.0 start_equipment_factor = 0.9"
+				division = "name = \"Penal Battalion 02\" division_template = \"Penal Battalion\" start_experience_factor = 2.0 start_equipment_factor = 0.9"
 					
 				owner = SUS
 			}
@@ -3338,7 +3338,7 @@ country_event = { #Request 20 Wha?
 	option = {
 		name = SUS_event.71.a
 		SUS = {
-			activate_mission = SUS_request_21_mission
+			activate_mission = SUS_request_20_mission
 			set_country_flag = SUS_council_request_active
 		}
     }
@@ -3978,7 +3978,7 @@ country_event = { #Giving a loan
 			limit = {
 				has_idea = SUS_socecon_member
 				has_country_flag = SUS_socecon_event_chosen
-				set_country_flag = SUS_socecon_event_chosen_loan
+				has_country_flag = SUS_socecon_event_chosen_loan
 			}
 			clr_country_flag = SUS_socecon_event_chosen
 			add_political_power = 100
@@ -4767,6 +4767,42 @@ country_event = { #Superweapon Reset Kinetic Bombardment
 		clr_global_flag = SUS_superweapon_kinetic_bombardment_activated_true
 	}
 }
+###ARCHEGETES EVENTS###
+country_event = { #SUS_archegetes_elections_hodge_spirit_of_three_revolutions
+	id = SUS_event.107
+	title = SUS_event.107.t
+	desc = SUS_event.107.d
+    is_triggered_only = yes
+	option = {
+		name = SUS_event.107.b
+		set_country_flag = SUS_archegetes_elections_hodge_spirit_of_three_revolutions_active
+    }
+    fire_only_once = yes
+}
+
+country_event = { #SUS_archegetes_elections_ogrady_perdurable_perfect_products_programme
+	id = SUS_event.108
+	title = SUS_event.108.t
+	desc = SUS_event.108.d
+    is_triggered_only = yes
+	option = {
+		name = SUS_event.108.b
+		set_country_flag = SUS_archegetes_elections_ogrady_pppp_programme_active
+    }
+    fire_only_once = yes
+}
+
+country_event = { #SUS_archegetes_elections_hodge_counter_counter_revolution
+	id = SUS_event.109
+	title = SUS_event.109.t
+	desc = SUS_event.109.d
+    is_triggered_only = yes
+	option = {
+		name = SUS_event.109.b
+		set_country_flag = SUS_archegetes_elections_hodge_counter_counter_revolution_active
+    }
+    fire_only_once = yes
+}
 
 country_event = { #Wardecc deciision
 	id = SUS_event.300
@@ -4793,16 +4829,15 @@ country_event = { #Victory Celebrations
 	title = SUS_event.499.t
 	desc = SUS_event.499.d
 	picture = GFX_SUS_victory_celebrations_event
-    is_triggered_only = yes
     fire_only_once = yes
 	trigger = {
 	    original_tag = SUS
 		OR = {
 		   WES = {
-		   exists = no
+				exists = no
 		   }
 		   KNT = {
-		   exists = no
+				exists = no
 		   }
 		}
 	}
@@ -5112,7 +5147,7 @@ country_event = { #LABOUR Secularization Debates
     fire_only_once = yes
 	option = {
 		name = SUS_event.702.a
-		modifier = {
+		set_variable = {
 			var = SUS_l_pol_surrender_limit
 			value = 0.2
 		}
@@ -5129,7 +5164,7 @@ country_event = { #LABOUR Secularization Debates
     }
 	option = {
 		name = SUS_event.702.b
-		modifier = {
+		set_variable = {
             var = SUS_l_pol_local_building_slots_factor
 			value = 0.1
 		}
@@ -6774,5 +6809,17 @@ country_event = { #SOCECON test
 			set_variable = { SUS_socecon_member_count = 1 }
 			set_variable = { global.SUS_socecon_member_limit = 0 }
 		}
+    }
+}
+
+###WESSEX DEFECTION###
+country_event = { 
+	id = SUS_event.3001
+	title = SUS_event.3001.t
+	desc = SUS_event.3001.d
+	hidden = yes
+    is_triggered_only = yes
+	option = {
+		name = SUS_event.3001.a
     }
 }

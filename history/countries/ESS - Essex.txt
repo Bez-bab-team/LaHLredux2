@@ -126,6 +126,11 @@ recruit_character = ESS_tim_collins
 recruit_character = ESS_moira_cameron
 recruit_character = ESS_nick_land
 recruit_character = ESS_mark_fisher
+#CEOs#
+recruit_character = ESS_emma_walmsley
+recruit_character = ESS_clive_palmer
+recruit_character = ESS_peter_thiel
+recruit_character = ESS_alois
 #generals#
 #recruit_character = ESS_bob_stewart
 recruit_character = ESS_philip_hollobone
@@ -177,6 +182,11 @@ recruit_character = ESS_raheem_kassam
 recruit_character = ESS_andrew_rosindell
 recruit_character = ESS_david_starkey
 recruit_character = ESS_william_legge
+#Mercenery#
+recruit_character = ESS_erik_prince
+recruit_character = ESS_andrew_milburn
+recruit_character = ESS_jordan_goudreau
+#
 
 set_country_flag = {
     flag = ENG_mosley_here
@@ -198,7 +208,7 @@ set_country_flag = {
 	value = 1
 }
 add_ideas = {
-	ESS_fallen_london
+	#ESS_fallen_london
 	ESS_spoils_of_kent
 	ESS_towers_troubles
 	ESS_mild_case_of_distributism

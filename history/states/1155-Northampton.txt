@@ -2,7 +2,9 @@
 state={
 	id=1155
 	name="STATE_1155"
-
+	resources={
+		steel=28.000
+	}
 	history={
 		owner = MRC
 		add_core_of = MRC
@@ -23,6 +25,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
+			industrial_infrastructure = 1
 			industrial_complex = 2
 			arms_factory = 2
         }

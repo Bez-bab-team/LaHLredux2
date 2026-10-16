@@ -245,7 +245,7 @@ EAG_parliament_gui_decision = {
 	visible_when_empty = yes
 	visible = { 
 		EAG = {
-			has_completed_focus = EAG_no_to_opression
+			has_country_flag = EAG_commune_mechanic_activated
 		}
 	}
 }

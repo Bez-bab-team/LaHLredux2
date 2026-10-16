@@ -1,0 +1,37 @@
+scripted_gui = {
+	lhl_ESS_torch_of_revolution = {
+		context_type = decision_category
+		parent_window_token = decision_tab
+		window_name = "lhl_ESS_torch_of_revolution_screen_full"
+		visible = {
+			tag = ESS
+		}
+		triggers = {
+			lhl_ESS_torch_flame_1_visible = {
+				ESS = {
+					has_country_flag = ESS_torch_of_revolution_1
+				}			
+			}
+			lhl_ESS_torch_flame_2_visible = {
+				ESS = {
+					has_country_flag = ESS_torch_of_revolution_2
+				}			
+			}
+			lhl_ESS_torch_flame_3_visible = {
+				ESS = {
+					has_country_flag = ESS_torch_of_revolution_3
+				}			
+			}
+			lhl_ESS_torch_flame_4_visible = {
+				ESS = {
+					has_country_flag = ESS_torch_of_revolution_4
+				}			
+			}
+			lhl_ESS_torch_of_revolution_activated_visible = {
+				ESS = {
+					has_country_flag = ESS_torch_of_revolution_5
+				}			
+			}
+		}
+	}
+}

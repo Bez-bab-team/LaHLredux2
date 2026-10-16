@@ -1,6 +1,618 @@
 ideas = {
 
 	country = {
+		
+		##Idea Hah##
+		ESS_idea_hah = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.08
+			}
+		}
+		##Moldbug##
+		ESS_mass_protests_politicized = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.3
+				political_power_gain = -0.25
+			}
+		}
+		ESS_external_propaganda = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				opinion_gain_monthly_factor = 0.5
+				political_power_gain = 0.2
+				license_purchase_cost = -0.5 #is this correct?
+			}
+		}
+		ESS_internal_propaganda = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+				political_power_gain = -0.08
+				compliance_growth_on_our_occupied_states = 0.5
+			}
+		}
+		ESS_banned_research = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = -0.30
+			}
+		}
+		ESS_market_of_ideas = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.15
+				political_advisor_cost_factor = -0.1
+				political_power_gain = 0.1
+			}
+		}
+		ESS_new_british_state = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.1
+				political_power_gain = 0.08
+				resistance_activity = -0.15
+				required_garrison_factor = -0.15
+			}
+		}
+		ESS_new_british_state_1 = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.15
+				political_power_gain = 0.08
+				resistance_activity = -0.15
+				required_garrison_factor = -0.15
+				production_speed_infrastructure_factor = 0.15
+				army_speed_factor = 0.05
+			}
+		}
+		ESS_new_british_state_2 = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.15
+				political_power_gain = 0.08
+				resistance_activity = -0.15
+				required_garrison_factor = -0.15
+				production_speed_infrastructure_factor = 0.15
+				army_speed_factor = 0.05
+				research_speed_factor = 0.1
+			}
+		}
+		ESS_competing_firms = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				military_industrial_organization_research_bonus = 0.15
+				military_industrial_organization_funds_gain = 0.1
+				production_factory_efficiency_gain_factor = 0.08
+				experience_gain_army_factor = 0.1
+			}
+		}
+		ESS_moldbugged_software = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				civilian_intel_to_others = -0.25
+				intelligence_agency_defense = 0.25
+			}
+			targeted_modifier = {
+				tag = ESS 
+				cic_to_target_factor = 0.02
+			}
+		}
+		ESS_moldbug_army_1 = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				planning_speed = 0.05
+			}
+		}
+		ESS_moldbug_army_2 = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				planning_speed = 0.05
+				army_attack_factor = 0.05
+				weekly_manpower = 150
+				org_loss_when_moving = 0.05
+			}
+		}
+		ESS_moldbug_army_3 = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				planning_speed = 0.1
+				army_attack_factor = 0.05
+				weekly_manpower = 150
+				org_loss_when_moving = 0.05
+				experience_gain_army = 0.1
+			}
+		}
+		ESS_moldbug_army_4_1 = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				planning_speed = 0.1
+				army_attack_factor = 0.05
+				weekly_manpower = 150
+				org_loss_when_moving = 0.05
+				experience_gain_army = 0.1
+				resistance_damage_to_garrison_on_our_occupied_states = 0.25
+				resistance_target_on_our_occupied_states = 0.25
+				resistance_growth_on_our_occupied_states = 0.25
+				compliance_growth_on_our_occupied_states = -0.25
+			}
+		}
+		ESS_moldbug_army_4_2 = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				planning_speed = 0.1
+				army_attack_factor = 0.05
+				weekly_manpower = 150
+				org_loss_when_moving = 0.05
+				experience_gain_army = 0.1
+				air_strategic_bomber_bombing_factor = 0.15
+				army_artillery_attack_factor = 0.08
+			}
+		}
+		ESS_moldbug_army_4_3 = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				planning_speed = 0.1
+				army_attack_factor = 0.05
+				weekly_manpower = 150
+				org_loss_when_moving = 0.05
+				experience_gain_army = 0.1
+				resistance_damage_to_garrison_on_our_occupied_states = 0.25
+				resistance_target_on_our_occupied_states = 0.25
+				resistance_growth_on_our_occupied_states = 0.25
+				compliance_growth_on_our_occupied_states = -0.25
+				air_strategic_bomber_bombing_factor = 0.15
+				army_artillery_attack_factor = 0.08
+			}
+		}
+		ESS_bitcoin = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.08
+				trade_opinion_factor = 0.15
+			}
+		}
+		ESS_farming_companies = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				attrition = -0.05
+				supply_factor = 0.05
+			}
+		}
+		ESS_no_regulations = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				monthly_population = -0.1
+				stability_factor = -0.1
+				recruitable_population_factor = -0.05
+			}
+		}
+		ESS_healthcare_companies_1 = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				monthly_population = 0.15
+				recruitable_population_factor = 0.05
+			}
+		}
+		ESS_healthcare_companies = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				monthly_population = 0.05
+				recruitable_population_factor = 0.02
+			}
+		}
+		ESS_gentle_reform_1 = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.08
+				production_factory_max_efficiency_factor = 0.08
+				production_speed_buildings_factor = 0.08
+			}
+		}
+		ESS_shock_therapy_1 = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.08
+				production_factory_max_efficiency_factor = 0.08
+				production_speed_buildings_factor = 0.08
+			}
+		}
+		ESS_shock_therapy = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = -0.1
+				production_factory_max_efficiency_factor = -0.1
+				production_speed_buildings_factor = -0.1
+				stability_factor = -0.1
+				
+			}
+		}
+		ESS_flushing_em_out = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.25
+				weekly_manpower = -100
+				resistance_damage_to_garrison = 0.25
+			}
+		}
+		ESS_tanked_economy = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.25
+				consumer_goods_factor = 0.15
+				production_factory_efficiency_gain_factor = -0.15
+				production_factory_max_efficiency_factor = -0.15
+			}
+		}
+		ESS_transition_period_1 = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.35
+				political_advisor_cost_factor = -0.3
+				mobilization_laws_cost_factor = -0.3
+				trade_laws_cost_factor = -0.3
+				head_of_government_cost_factor = -0.3
+			}
+		}
+		ESS_transition_period_2 = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.30
+				weekly_manpower = 1500
+				political_advisor_cost_factor = -0.3
+				mobilization_laws_cost_factor = -0.3
+				trade_laws_cost_factor = -0.3
+				head_of_government_cost_factor = -0.3
+			}
+		}
+		ESS_transition_period_3 = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.15
+				weekly_manpower = 1500
+				political_advisor_cost_factor = -0.3
+				mobilization_laws_cost_factor = -0.3
+				trade_laws_cost_factor = -0.3
+				head_of_government_cost_factor = -0.3
+			}
+		}
+		ESS_transition_period_4 = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				weekly_manpower = 2000
+				political_advisor_cost_factor = -0.3
+				mobilization_laws_cost_factor = -0.3
+				trade_laws_cost_factor = -0.3
+				head_of_government_cost_factor = -0.3
+			}
+		}
+		##Land & Co##
+		ESS_land_concessions = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				monthly_population = 0.05
+				stability_weekly_factor = 0.005
+			}
+		}
+		ESS_improved_economy_land = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				stability_factor = -0.08
+			}
+		}
+		ESS_improved_economy_moldbug = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				stability_factor = 0.08
+			}
+		}
+		ESS_improved_economy_fisher = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.02
+				monthly_population = 0.05
+				stability_factor = 0.1
+			}
+		}
+		ESS_bands_economy = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = -0.05
+				conscription_factor = -0.05
+			}
+		}
 
 		ESS_accelerated_army = {
 			
@@ -72,21 +684,6 @@ ideas = {
 				army_morale_factor = 0.15
 				required_garrison_factor = -0.1
 				army_core_defence_factor = 0.05
-			}
-		}
-		
-		ESS_accelerated_army_2b = {
-			
-			picture = GFX_idea_ESS_accelerated_army
-
-			allowed = {
-				always = no
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				
 			}
 		}
 		
@@ -454,10 +1051,10 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				production_rail_way_factory_factor  = 0.15
-				production_rail_supply_node_factor  = 0.6
-				production_rail_infrastructure_factor = 0.15
-				production_rail_air_base_factor  = 0.15
+				production_speed_rail_way_factor  = 0.15
+				production_speed_supply_node_factor  = 0.6
+				production_speed_infrastructure_factor = 0.15
+				production_speed_air_base_factor  = 0.15
 				custom_modifier_tooltip = ESS_employment_rush_tt
 			}
 		}
@@ -981,6 +1578,22 @@ ideas = {
 				required_garrison_factor = -0.1
 				weekly_manpower = 1000
 				supply_factor = 0.1
+			}
+		}
+		###
+		ESS_stolen_vocaloid = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.01
+				stability_factor = 0.02
 			}
 		}
 	}

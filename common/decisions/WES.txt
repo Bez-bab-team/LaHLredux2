@@ -197,6 +197,404 @@ WES_wars = {
 		}
 	}
 }
+###King's Legitimacy##
+WES_king_legitimacy = {
+	WES_rally_the_people = {
+		custom_cost_trigger = {
+			check_variable = { WES_george_legitimacy_level > 29 }
+		}
+		custom_cost_text = WES_decision_cost_legitimacy_30
+		days_remove = 30
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	WES_meet_with_soldiers = {
+		cost = 50
+		days_remove = 30
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	WES_sell_jewels = {
+		custom_cost_trigger = {
+			check_variable = { WES_george_legitimacy_level > 4 }
+		}
+		available = {
+			WES = {
+				has_completed_focus = WES_royal_purse
+			}
+		}
+		visible = {
+			WES = {
+				has_completed_focus = WES_royal_purse
+			}
+		}
+		custom_cost_text = WES_decision_cost_legitimacy_5
+		fire_only_once = yes
+		complete_effect = {
+			add_to_variable = {
+				var = WES_george_legitimacy_level
+				value = -5
+			}			
+		}
+		remove_effect = {
+			add_political_power = 150
+		}
+		days_remove = 15
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	WES_sell_car_fleet = {
+		custom_cost_trigger = {
+			check_variable = { WES_george_legitimacy_level > 9 }
+		}
+		available = {
+			WES = {
+				has_completed_focus = WES_royal_purse
+			}
+		}
+		visible = {
+			WES = {
+				has_completed_focus = WES_royal_purse
+			}
+		}
+		custom_cost_text = WES_decision_cost_legitimacy_10
+		fire_only_once = yes
+		complete_effect = {
+			add_to_variable = {
+				var = WES_george_legitimacy_level
+				value = -10
+			}			
+		}
+		remove_effect = {
+			random_owned_controlled_state = {	
+				add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+		days_remove = 15
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	WES_sell_finances = {
+		custom_cost_trigger = {
+			check_variable = { WES_george_legitimacy_level > 9 }
+		}
+		available = {
+			WES = {
+				has_completed_focus = WES_royal_purse
+			}
+		}
+		visible = {
+			WES = {
+				has_completed_focus = WES_royal_purse
+			}
+		}
+		custom_cost_text = WES_decision_cost_legitimacy_10
+		fire_only_once = yes
+		complete_effect = {
+			add_to_variable = {
+				var = WES_george_legitimacy_level
+				value = -15
+			}			
+		}
+		remove_effect = {
+			random_owned_controlled_state = {	
+				add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+		days_remove = 15
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	WES_sell_highgrove_house = {
+		custom_cost_trigger = {
+			check_variable = { WES_george_legitimacy_level > 14 }
+		}
+		available = {
+			WES = {
+				has_completed_focus = WES_royal_purse
+			}
+		}
+		visible = {
+			WES = {
+				has_completed_focus = WES_royal_purse
+			}
+		}
+		custom_cost_text = WES_decision_cost_legitimacy_15
+		fire_only_once = yes
+		complete_effect = {
+			add_to_variable = {
+				var = WES_george_legitimacy_level
+				value = -15
+			}			
+		}
+		remove_effect = {
+			random_owned_controlled_state = {	
+				add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			random_owned_controlled_state = {	
+				add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+		days_remove = 15
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	WES_sell_duchy_of_cornwall = {
+		custom_cost_trigger = {
+			check_variable = { WES_george_legitimacy_level > 29 }
+		}
+		available = {
+			WES = {
+				has_completed_focus = WES_royal_purse
+			}
+		}
+		visible = {
+			WES = {
+				has_completed_focus = WES_royal_purse
+			}
+		}
+		custom_cost_text = WES_decision_cost_legitimacy_30
+		fire_only_once = yes
+		complete_effect = {
+			add_to_variable = {
+				var = WES_george_legitimacy_level
+				value = -30
+			}			
+		}
+		remove_effect = {
+			random_owned_controlled_state = {	
+				add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			random_owned_controlled_state = {	
+				add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			random_owned_controlled_state = {	
+				add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			random_owned_controlled_state = {	
+				add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+		days_remove = 15
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	 WES_sussex_defection_decision = {
+		custom_cost_trigger = {
+			check_variable = { WES_george_legitimacy_level > 9 }
+		}
+		available = {
+			WES = {
+				has_completed_focus = WES_home_awaits
+			}
+		}
+		visible = {
+			WES = {
+				has_completed_focus = WES_home_awaits
+			}
+		}
+		custom_cost_text = WES_decision_cost_legitimacy_10
+		complete_effect = {
+			add_to_variable = {
+				var = WES_george_legitimacy_level
+				value = -10
+			}			
+		}
+		remove_effect = {
+			SUS = { country_event = { id = SUS_event.3001 days = 1 } }
+		}
+		days_remove = 15
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	##Diplomacy##
+	WES_contact_commonwealth = {
+		custom_cost_trigger = {
+			check_variable = { WES_george_legitimacy_level > 29 }
+		}
+		available = {
+			WES = {
+				has_completed_focus = WES_call_the_subjects
+			}
+		}
+		visible = {
+			WES = {
+				has_completed_focus = WES_call_the_subjects
+			}
+		}
+		custom_cost_text = WES_decision_cost_legitimacy_30
+		targets = { IND }
+		icon = my_icon
+		cost = 20
+		complete_effect = {
+		}
+		remove_effect = {
+		}
+	}	
+	WES_increase_kings_legitimacy = {
+		custom_cost_trigger = {
+			check_variable = { WES_george_legitimacy_level > 149 }
+		}
+		custom_cost_text = WES_decision_cost_legitimacy_150
+		days_remove = 30
+		complete_effect = {
+			add_to_variable = {
+				var = WES_george_legitimacy_level
+				value = -150
+			}			
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					check_variable = {
+						var = WES_george_legitimacy
+						value = 1
+						compare = equals
+					}
+				}
+				set_variable = { WES_george_legitimacy = 2 }
+				custom_effect_tooltip = WES_upgrade_legitimacy_2
+				WES_george_vii = {
+					add_country_leader_trait = fisher_king_2
+					remove_country_leader_trait = fisher_king_1
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = WES_george_legitimacy
+						value = 2
+						compare = equals
+					}
+				}
+				set_variable = { WES_george_legitimacy = 3 }
+				custom_effect_tooltip = WES_upgrade_legitimacy_3
+				WES_george_vii = {
+					add_country_leader_trait = fisher_king_3
+					remove_country_leader_trait = fisher_king_2
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = WES_george_legitimacy
+						value = 3
+						compare = equals
+					}
+				}
+				set_variable = { WES_george_legitimacy = 4 }
+				custom_effect_tooltip = WES_upgrade_legitimacy_4
+				WES_george_vii = {
+					add_country_leader_trait = new_pendragon_1
+					remove_country_leader_trait = fisher_king_3
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = WES_george_legitimacy
+						value = 4
+						compare = equals
+					}
+				}
+				set_variable = { WES_george_legitimacy = 5 }
+				custom_effect_tooltip = WES_upgrade_legitimacy_5
+				WES_george_vii = {
+					add_country_leader_trait = new_pendragon_2
+					remove_country_leader_trait = new_pendragon_1
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = WES_george_legitimacy
+						value = 5
+						compare = equals
+					}
+				}
+				set_variable = { WES_george_legitimacy = 6 }
+				custom_effect_tooltip = WES_upgrade_legitimacy_6
+				WES_george_vii = {
+					add_country_leader_trait = new_pendragon_3
+					remove_country_leader_trait = new_pendragon_2
+				}
+			}
+		}
+		available = {
+			OR = {
+				check_variable = {
+					var = WES_george_legitimacy
+					value = 2
+					compare = less_than_or_equals
+				}
+				AND = {
+					check_variable = {
+						var = WES_george_legitimacy
+						value = 2
+						compare = greater_than
+					}
+					has_completed_focus = WES_the_hero_rests
+				}
+			}
+		}
+		visible = {
+			NOT = {
+				check_variable = { WES_george_legitimacy = 6 }
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}
 WES_Royal_military_schools = {
 
     Rebuild_Naval_College = {
@@ -3848,10 +4246,10 @@ WES_england_transformation = {
 		fire_only_once = yes
 	    visible = {
 			WES = {
-				has_completed_focus = WES_rebuild_scenery
+				has_country_flag = WES_set_shit
 			}
         } 
-		days_remove = 90
+		days_remove = 5
 		icon = my_icon
 		state_target = yes
 		cost = 50
@@ -4633,14 +5031,14 @@ WES_england_transformation = {
 			if = {
 				limit = {
 					WES = {
-						has_tech = green_modern_economics_1
+						has_tech = green_resources_1_1
 					}
 					NOT = {
 						WES = {
-							has_tech = green_modern_economics_2
+							has_tech = green_resources_2
 						}
 						WES = {
-							has_tech = green_modern_economics_3
+							has_tech = green_resources_3_1
 						}
 					}
 				}
@@ -4658,14 +5056,14 @@ WES_england_transformation = {
 			if = {
 				limit = {
 					WES = {
-						has_tech = green_modern_economics_1
+						has_tech = green_resources_1_1
 					}
 					WES = {
-						has_tech = green_modern_economics_2
+						has_tech = green_resources_2
 					}
 					NOT = {
 						WES = {
-							has_tech = green_modern_economics_3
+							has_tech = green_resources_3_1
 						}
 					}
 				}
@@ -4683,13 +5081,13 @@ WES_england_transformation = {
 			if = {
 				limit = {
 					WES = {
-						has_tech = green_modern_economics_1
+						has_tech = green_resources_1_1
 					}
 					WES = {
-						has_tech = green_modern_economics_2
+						has_tech = green_resources_2
 					}
 					WES = {
-						has_tech = green_modern_economics_3
+						has_tech = green_resources_3_1
 					}
 				}
 				WES = {
@@ -4707,13 +5105,13 @@ WES_england_transformation = {
 				limit = {
 					NOT = {
 						WES = {
-							has_tech = green_modern_economics_1
+							has_tech = green_resources_1_1
 						}
 						WES = {
-							has_tech = green_modern_economics_2
+							has_tech = green_resources_2
 						}
 						WES = {
-							has_tech = green_modern_economics_3
+							has_tech = green_resources_3_1
 						}
 					}
 				}

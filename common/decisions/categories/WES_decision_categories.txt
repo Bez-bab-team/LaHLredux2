@@ -38,7 +38,9 @@ WES_england_transformation = {
 	allowed = { original_tag = WES }
 	visible_when_empty = yes
 	visible = {
-	    has_completed_focus = WES_rule_george	
+		WES = {
+			has_country_flag = WES_set_shit	
+		}
 	}
 }
 
@@ -58,6 +60,19 @@ WES_unification_offence = {
 	visible = {
 		WES = {
 			has_country_flag = WES_unification_offence
+		}
+	}
+}
+
+###
+
+WES_king_legitimacy = {
+	icon = GFX_
+	allowed = { original_tag = WES }
+	visible_when_empty = yes
+	visible = {
+		WES = {
+			has_completed_focus = WES_return_of_the_king
 		}
 	}
 }

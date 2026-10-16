@@ -65,6 +65,7 @@
  KNT_ur_fascism_DEF:0  "Shamanic State of Britain"
  KNT_REUNIFIED1:0 "United Kingdom"
  KNT_REUNIFIED2:0 "United Kingdom"
+ KNT_COLLIDER:0 ""
  ##TRAITS##
  high_handed_despot:0 "High-handed Despot"
  viscount:0 "Viscount"
@@ -79,7 +80,7 @@
  influential_ideologist:0 "Influential Ideologist"
  inventors_lobbyist:0 "Inventors Lobbyist"
  eurasian_specialist:0 "Eurasian Specialist"
- war_hero:0 "War Hero"
+ #war_hero:0 "War Hero"
  saviour_of_housewifes:0 "Saviour Of Housewifes"
  charity_gentlemen:0 "Charity Gentlemen"
  go_getter:0 "Go-Getter"
@@ -108,6 +109,7 @@
  KNT_neal_asher:0 "Neal Asher"
  KNT_tim_berners_lee:0 "Tim Berners-Lee"
  KNT_tom_purgslove:0 "Tom Pursglove"
+ KNT_hadron_collider:0 "No Leader"
  ##FOCUS TREES##
  KNT_shaky_ground:0 "Shaky Ground"
  KNT_art_of_war:0 "Art of War"
@@ -209,6 +211,12 @@
  KNT_lilliburlero:0 "Lilliburlero"
  KNT_the_new_good_friday:0 "The New Good Friday"
  KNT_an_unwilling_alliance:0 "An Unwilling Alliance"
+ KNT_no_mercy:0 "No Mercy"
+ KNT_unleash_the_partisans:0 "Unleash The Partisans"
+ KNT_terrors_of_the_new_age:0 "Terrors of The New Age"
+ KNT_the_tory_line:0 "The Tory Line"
+ KNT_the_runaways:0 "The Runaways"
+ KNT_railway_warfare:0 "Railway Warfare"
  KNT_our_germanic_brothers:0 "Our Germanic Brothers"
  KNT_white_youth:0 "White Youth"
  KNT_pimp_my_panzer:0 "Pimp My Panzer"
@@ -374,6 +382,8 @@
  KNT_import_volvos:0 "Import Swedish volvos"
  KNT_import_belgian_arty:0 "Import Belgian artillery"
  KNT_import_dutch_electronics:0 "Import Dutch electronics"
+ KNT_cultural_propaganda_campaign:0 "Cultural propaganda campaign"
+ KNT_host_cultural_festival:0 "Host a cultural festival"
  #
  KNT_culture_people_ecstatic:0 "§Gare ecstatic about the reforms!§!"
  KNT_culture_people_jubilation:0 "§Gare in jubilation due to the reforms!§!"
@@ -532,7 +542,7 @@
  KNT_event.94.a:0 "Demolish"
  KNT_event.94.b:0 "Don't Demolish"
  KNT_event.94.c:0 "Rebuild"
- KNT_event.94.d:0 "Attraction!"
+ KNT_event.94.e:0 "Attraction!"
  #
  KNT_event.95.t:0 "Battersea 2"
  KNT_event.95.d:0 "Battersea is now a working coal plant but people are dying from smog"
@@ -622,7 +632,6 @@
  KNT_Strata.tt:0 "§RStrata SE1 has been destroyed§!"
  KNT_Strata2.tt:0 "§RStrata SE1 will be demolished§!"
  KNT_Sark.tt:0 "§RCutty Sark has burned down§!"
- KNT_Sark2.tt:0 "§GCutty Sark has been rebuild§!"
  KNT_Sark2.tt:0 "§GCutty Sark has been rebuild§!"
  KNT_Fenchurch.tt:0 "§RThe Fenchurch Building will be demolished§!"
  KNT_Trellick.tt:0 "§RThe Trellick Tower will be demolished§!"
@@ -759,7 +768,7 @@
  KNT_event.31.a:0 "Civil Engineering"
  KNT_event.31.b:0 "Electronics and IT"
  KNT_event.31.c:0 "Military Engineering"
- KNT_event.31.d:0 "Aviation and machinery"
+ KNT_event.31.e:0 "Aviation and machinery"
  KNT_event.32.t:0 "Gulivers"
  KNT_event.32.d:0 "Big robots from the Code Geass"
  KNT_event.32.a:0 "Blood and Iron"
@@ -768,7 +777,7 @@
  KNT_event.33.a:0 "Infrasound guns"
  KNT_event.33.b:0 "Radium Bullets"
  KNT_event.33.c:0 "Plasma Guns"
- KNT_event.33.d:0 "Mine-throwers"
+ KNT_event.33.e:0 "Mine-throwers"
  KNT_event.34.t:0 "Experimental forces"
  KNT_event.34.d:0 "Our officers had developed new tactical support groups that could help us in the unsual warfare conditions."
  KNT_event.34.a:0 "Flamethrowerers sound destructive"
@@ -912,9 +921,12 @@
  KNT_event.133.d:0 "West or East border"
  KNT_event.133.a:0 "Fortify Border with London"
  KNT_event.133.b:0 "Fortify Border with Midlands"
- KNT_event.134.t:0 "Letters of peace"
- KNT_event.134.d:0 "We need some temporary allies"
- KNT_event.134.a:0 "Save our souls"
+ KNT_event.134.t:0 "Sabotage"
+ KNT_event.134.d:0 "We will choose which clique we intent to sabotage when the war comes"
+ KNT_event.134.a:0 "London"
+ KNT_event.134.b:0 "Mercia"
+ KNT_event.134.c:0 "Republicans"
+ KNT_event.134.e:0 "Germans"
  ##NATIONAL IDEAS##
  KNT_thin_purple_line:0 "Thin Purple Line"
  KNT_multitool_rifle:0 "Multitool Rifles Contract"
@@ -940,7 +952,6 @@
  KNT_medium_manufacturers_suport:0 "Medium manufacturers support"
  KNT_workshopers_suport:0 "Workshopers support"
  KNT_recent_imports:0 "Recent imports"
- KNT_the_iter_project:0 "The ITER project"
  KNT_neovictorians_economic_plan:0 "Economic rationalism"
  KNT_neovictorians_economic_plan_2:0 "Economic rationalism"
  KNT_neovictorians_economic_plan_3a:0 "Economic rationalism"
@@ -1037,15 +1048,21 @@
  KNT_british_reconstruction:0 "British Reconstruction"
  KNT_successful_exhibition:0 "Exhibition Success"
  KNT_failed_exhibition:0 "Exhibition Fail"
+ KNT_freedom_of_expression_1:0 "Freedom of Expression"
+ KNT_freedom_of_expression_2:0 "Freedom of Expression"
+ KNT_lady_luck:0 "Lady Luck"
+ KNT_energe_tea:0 "Energe-tea"
+ KNT_flying_firemen:0 "Flying Firemen"
+ KNT_dynosphere_mayhem:0 "Dynosphere Mayhem"
  #dont look
- KNT_event.1000.t:0 "Time Machine?"
- KNT_event.1000.d:0 "One of our great scientists claimed to have created a time machine. We can go back to the past, kill Dugin and prevent this nightmare from ever happenning. All we have to do is send a group of our soldiers back in time and blow up Moscow! (Custom icons test event, replace it with an actul event concerning technological development)"
- KNT_event.1000.a:0 "Let's do this!"
- KNT_event.1000.b:0 "This is insane!"
- KNT_event.1001.t:0 "Time Machine Failure"
- KNT_event.1001.d:0 "It seems that time machine has not worked and our soldiers have dissapeared. This is a very tragic turn of events."
- KNT_event.1001.a:0 "We can only wonder where they are now..."
- KNT_event1000.tt:0 "( £lhl_equestria_state  §YEquestria§!) Gets event '§YStrange Visitors§!'"
+ KNT_event.205.t:0 "Time Machine?"
+ KNT_event.205.d:0 "One of our great scientists claimed to have created a time machine. We can go back to the past, kill Dugin and prevent this nightmare from ever happenning. All we have to do is send a group of our soldiers back in time and blow up Moscow! (Custom icons test event, replace it with an actul event concerning technological development)"
+ KNT_event.205.a:0 "Let's do this!"
+ KNT_event.205.b:0 "This is insane!"
+ KNT_event.206.t:0 "Time Machine Failure"
+ KNT_event.206.d:0 "It seems that time machine has not worked and our soldiers have dissapeared. This is a very tragic turn of events."
+ KNT_event.206.a:0 "We can only wonder where they are now..."
+ KNT_event205.tt:0 "( £lhl_equestria_state  §YEquestria§!) Gets event '§YStrange Visitors§!'"
  ##DESIGN COMPANIES##
  bae_systems_rochester:0 "BAE Systems Rochester Facility"
  KNT_tank_guilds_w_armor_emphasis_organization:0 "Wessex Tank Guild. Armor Optimization"
@@ -1255,6 +1272,10 @@
  KNT_event.335.t:0 "A terrorist attack!"
  KNT_event.335.d:0 "A major terrorist attack has occured!"
  KNT_event.335.a:0 "Damn!"
+ #
+ KNT_event.337.t:0 "Knights of George"
+ KNT_event.337.d:0 "Knights of George join us"
+ KNT_event.337.a:0 "Cool"
  #Resistance Supression Decisions#
  KNT_britain_pacification:0 "Pacification of Britain"
  KNT_partisan_uprising:0 "Partisan Attack incoming!"
@@ -1296,6 +1317,7 @@
  KNT_humanitarian_help_1:0 "Humanitarian Help"
  KNT_humanitarian_help_2:0 "Humanitarian Help"
  KNT_humanitarian_help_3:0 "Humanitarian Help"
+ KNT_fighting_against_corruption:0 "Fighting Against Corruption"
  #Demolish Decisions#
  KNT_destroy_redrock_stockport:0 "The issue of Redrock Stockport"
  KNT_destroy_greetham_street:0 "The issue of Greetham Street building"
@@ -1327,10 +1349,6 @@
  KNT_event.293.t:0 "Radio Waves: Romeo and Juliet"
  KNT_event.293.d:0 "A classic tale of Romeo and Juliet remade for modern radio audience!"
  KNT_event.293.a:0 "Cool!"
- #
- KNT_event.294.t:0 "Radio Waves: BBC"
- KNT_event.294.d:0 "BBC has been reborn in the new UK"
- KNT_event.294.a:0 "Cool!"
  #
  KNT_event.294.t:0 "Radio Waves: BBC"
  KNT_event.294.d:0 "BBC has been reborn in the new UK"
@@ -1508,6 +1526,76 @@
  KNT_event.174.a:0 "Return the Knighthood title to those who deserve it"
  KNT_event.174.b:0 "Our media journalists deserve more"
  KNT_event.174.c:0 "Invest into philosophy and science"
+ #
+ KNT_event.175.t:0 "Artificial Singer"
+ KNT_event.175.d:0 "One of our scientists created a vocaloid. Do we want to give it a tour in our territory."
+ KNT_event.175.a:0 "Good idea. Give her proper security too"
+ KNT_event.175.b:0 "Good idea"
+ KNT_event.175.c:0 "Don't do it"
+ #
+ KNT_event.176.t:0 "Artificial Singer: Concert in Kent"
+ KNT_event.176.d:0 "Everyone loves the vocaloid in Kent"
+ KNT_event.176.a:0 "Cool"
+ #
+ KNT_event.177.t:0 "Artificial Singer: Concert in Plymouth"
+ KNT_event.177.d:0 "Everyone loves the vocaloid in Plymouth, some people even volunteered"
+ KNT_event.177.a:0 "Cool"
+ #
+ KNT_event.178.t:0 "Artificial Singer: Concert in Bristol"
+ KNT_event.178.d:0 "Everyone loves the vocaloid in Plymouth, but some George conservatives protested it"
+ KNT_event.178.a:0 "Cool"
+ #
+ KNT_event.179.t:0 "Artificial Singer: Stolen!"
+ KNT_event.179.d:0 "Bastards from London raided the concert in Kent and have stolen our vocaloid!"
+ KNT_event.179.a:0 "Bastards!"
+ #
+ KNT_event.180.t:0 "Hadron Collider"
+ KNT_event.180.d:0 "Do we spend a large amount of money to build a giant Hadron Collider"
+ KNT_event.180.a:0 "Yes, obviously"
+ KNT_event.180.b:0 "This makes no sense"
+ #
+ KNT_event.181.t:0 "Hadron Collider goes critical"
+ KNT_event.181.d:0 "Oops"
+ KNT_event.181.a:0 "Farewell everyone"
+ #
+ KNT_event.182.t:0 "Britain Destroyed!"
+ KNT_event.182.d:0 "The British government accidentally destroyed the British isles!"
+ KNT_event.182.a:0 "And Nothing of value was lost!"
+ #
+ KNT_event.183.t:0 "British Literature Disneyland"
+ KNT_event.183.d:0 "Do we build a british disneyland, based on classic british literature"
+ KNT_event.183.a:0 "Good idea! Invest money!"
+ KNT_event.183.b:0 "Good idea! Invest less money"
+ KNT_event.183.c:0 "Nah"
+ #
+ KNT_event.184.t:0 "British Disneyland is a total success!"
+ KNT_event.184.d:0 "Cool"
+ KNT_event.184.a:0 "Cool"
+ #
+ KNT_event.185.t:0 "British Disneyland is a parial success!"
+ KNT_event.185.d:0 "The park is pretty cool, but due to the civil war we didn't have enough money to invest"
+ KNT_event.185.a:0 "It's not that important"
+ #
+ KNT_event.186.t:0 "Really cool pens"
+ KNT_event.186.d:0 "An inventor created really cool pens"
+ KNT_event.186.a:0 "Cool!"
+ #
+ KNT_event.187.t:0 "An inventor proposed an obvious scam"
+ KNT_event.187.d:0 "An inventor proposed to sell us an obviosu scam"
+ KNT_event.187.a:0 "Let's invest into it"
+ KNT_event.187.b:0 "Let's not do that"
+ #
+ KNT_event.188.t:0 "An obvious scam is an obvious scam"
+ KNT_event.188.d:0 "We lost money"
+ KNT_event.188.a:0 "Fucking great"
+ #
+ KNT_event.189.t:0 "We uncovered an obvious scam"
+ KNT_event.189.d:0 "We were able to uncover the obvious scam and also initiated an anti-corruption campaign"
+ KNT_event.189.a:0 "Cool!"
+ #
+ KNT_event.190.t:0 "An invested into something"
+ KNT_event.190.d:0 "We have recieved a message about investing into SCP-055 so we forgot what it actually was"
+ KNT_event.190.a:0 "I guess it wasn't round?"
  ###KINGS AND CORONATION###
  #Neovics#
  KNT_event.109.t:0 "Choosing a monarch!"
@@ -1574,12 +1662,12 @@
  KNT_event.117.a:0 "Frederick!"
  KNT_event.117.b:0 "George VIII!"
  KNT_event.117.c:0 "Peter!"
- KNT_event.117.d:0 "Edward!"
- KNT_event.117.e:0 "Michael!"
- KNT_event.117.f:0 "William!"
- KNT_event.117.g:0 "Diana!"
- KNT_event.117.h:0 "Anne!"
- KNT_event.117.i:0 "Wait, what?!"
+ KNT_event.117.e:0 "Edward!"
+ KNT_event.117.f:0 "Michael!"
+ KNT_event.117.g:0 "William!"
+ KNT_event.117.h:0 "Diana!"
+ KNT_event.117.i:0 "Anne!"
+ KNT_event.117.j:0 "Wait, what?!"
  #
  KNT_event.118.t:0 "Coronation"
  KNT_event.118.d:0 "The king is Frederick!"
@@ -1795,46 +1883,154 @@
  KNT_event.169.t:0 "Falkland War Celebrations"
  KNT_event.169.d:0 "Cool but costly"
  KNT_event.169.a:0 "Yes!"
-
- KNT_event.2000.t:0 "Amazing Velo-eco-cipede!"
- KNT_event.2000.d:0 "Coming straight from Cambridge United Mechanics, the VEC is the latest word in transportation! Forget about bicycles and cars! And hop onto the joyful adventure that we offer you! A classy experience of your ancestors with a twist of modern machinery, a portable steam generator with a special network around your body to gather the sweat of your brow and legs to push your iron stallion forth! All you need is a simple push, a few drops and you'll be taken forward in no time! Also comes in tandems and children's options! Only 65 pounds!"
- KNT_event.2000.a:0 "Ugh, I think Id just buy a bike"
- 
- KNT_event.2001.t:0 "Sir Cleanington's Soap!"
- KNT_event.2001.d:0 "Tired of breaking your spine and arms? Can't stand the odor of chemicals? Exhausted to clean the same spot again and again every few hours? Sir Cleanington's Soap is what you need! With the finest minds of our Empire working tirelessly to free the housewives from the burden of mundane routine, Cleaningston's Boston Transnational offers you the most advanced soap there is! Just would you take a look? Cleans the sauce, cleans the rust, cleans melanin, and more! With Cleaningston's Soap, one can make anything white and shiny!\n\nTheproductisnotrecommendedforpeoplewithanyformofskindiseasessidesymptomsmayincludehypothermiaheadachenauseaandvomitingCleaningstonsBostonTransnationalbearsnoresponsibilityfortheimproperuseoftheproduct"
- KNT_event.2001.a:0 "But can it clean blood?"
-
- KNT_event.2002.t:0 "Spark-a Park-a!"
- KNT_event.2002.d:0 "Some say that a book is judged by the cover?  Then Paddington's Ordnances & Research National can offer you the brightest and most exquisite cover that will help you open your inner world to the fine ladies and gentlemen! Become not the spark, but the star to gaze at! With Spark-a Park-a every walk down London's streets would be unforgivable! For just 85 pounds, a fine gentleman can get a Special-mineral coated jacket of any kind, becoming a lighthouse and a lightning bearer! No longer shall you be lost on the streets, or wander in search of a plug, Spark-a Park-a can act as a portable warmer, powerbank and a flashlight at the same time! Special! Get your Spark-a Skirt-a for a fine gal for just 54!"
- KNT_event.2002.a:0 "Why does it glows with such bright green?"
-
- KNT_event.2003.t:0 "The Genie to Cure Your Head!"
- KNT_event.2003.d:0 "Cannot sleep or have trouble thinking? Why don't you indulge in the newest achievements of British Science? Dickenson's Independent Curing Kiosk at No 88 Fifth Avenue offers an unforgettable experience. Get the Genie Lamp and let the aroma of the Eastern Herbs cure your worries and sickness away! For just 299, one can forever forget about the pain and sleepless nights! Comes with a variety of recipes with "special powders" and mixtures for every sickness there is!\n\nNote from producer: We require you to ventilate your room every time after Genie's Lamp usage, otherwise, we do not bear responsibility for the consequences."
- KNT_event.2003.a:0 "Finally, some sleep"
-
- KNT_event.2004.t:0 "A Light Crown for the Brightest Minds!"
- KNT_event.2004.d:0 "Have your kid been struggling with even the basic math? Cant make the young man stand in line? Sheddington's Hamlet Institute for Trepanation and Sons can make your child the next Einstein or Caroll! For what can the feeble brain do without proper motivation? Embark with your child on a wonderful and energizing journey of mechanics and learning! A Light Crown with all the attached instructions and instruments for just 999 pounds! With a simple Zap-to a great future! Illuminate your future generations and make them kings with a Light Crown!"
- KNT_event.2004.a:0 "I think I've seen such things in prison before"
-
- KNT_event.2005.t:0 "Sandclock Shell"
- KNT_event.2005.d:0 "Even in such a splendid place as Brittain one may encounter a threat to his life, but where the man always gets out safe, the ladies may have a harder time, but Alcester's Scientific and Specials got your back! Introducing the Sandclock Shell, the new corset model for those who feel less than safe in the streets and at home! Powered by the mighty microcomputers, Shell-y can\n\n1-talk to you\n2-Automatically regulate the tightness\n3-Give out advice to lose weight\n4-And remind you of proper attire with a pinch of British humor!\n\nBut importantly-the finest kevlar can assure that whatever comes-storm or invader-the fine ladies of Britain will never get any harm!\n\nNote: It is recommended to follow Shelly's instructions, otherwise, Alcester's Scientific and Specials are not responsible for the consequences."
- KNT_event.2005.a:0 "What next? Titanium tophats?"
-
- KNT_event.2006.t:0 "Cigars of Joy"
- KNT_event.2006.d:0 "We all crave a little relief in times of trouble. JOY'S CIGARETTES afford immediate relief in cases of CURE ASTHMA, WHEEZING, and WINTER COUCH, and a little perseverance will effect a permanent cure. Universally recommended by the most eminent physicians and medical authors. Agreeable to use, certain in their effects, and harmless in their action, they may be safely smoked by ladies and children!\n\nNote: Does not applies to the cases of cancer"
- KNT_event.2006.a:0 "That tobacco sure smells weird"
-
- KNT_event.2007.t:0 "Energe-tea!"
- KNT_event.2007.d:0 "Come around, ye British folk! It's time to work and conquer! What? Lacking power? Why worry not! The Clinton's Liquor International Trades got your back chap! Why don't you power up the British style? Come forth and taste the Energe-tea! Every boy and girl should try one if wishes to act fast like Nelson, hard as Wellington, and smart as John Bull! A cup of water and this bag of very potent herbs and chems can do magic to your bones and brain! Don't forget- it's five o'clock soon!"
- KNT_event.2007.a:0 "What would Britain be without the tea?"
-
- KNT_event.2008.t:0 "The Copter-Tophat"
- KNT_event.2008.d:0 "Late for the Five o'clock? Stuck in traffic? Late for your lady? The folks who bought Cornwall Robotics Advanced Product's Copter-Tophat have none of those issues! Just pull the rope and the power of helium and metal can take you from Liverpool to London in one go! Repeat the feat of the Montgolfie Brothers on your own with Copter-Tophat, with little delay-a continent away!"
- KNT_event.2008.a:0 "Extravagant, but promising?"
-
- KNT_event.2009.t:0 "Para-mbrella!"
- KNT_event.2009.d:0 "Ever dreamed of becoming like Mary Poppins? Drifting like a leaf on the wind on your way to the unknown destiny? Cardiff United National Technologies offers a technically proven solution equal to none other than the legendary lady of British folklore! For 44 pounds, you will receive the perfect fine work that will put Chinese silk to shame! The thin, light and sturdy fabric of British masters that not just deflect any water, but the air as well, allowing for smooth transition from heavens to earth! Trust no other, but your dreams and Cardiff United National Technologies! For we bring forth the fairy tale!"
- KNT_event.2009.a:0 "I believe I can fly"
+ #
+ KNT_event.191.t:0 "An adventurer on the horizon"
+ KNT_event.191.d:0 "Amid the smoke of our own civil war, when the fate of Kent itself hangs in the balance, a most unexpected proposal has reached our leadership.\nA seasoned operative — part strategist, part opportunist — has approached us with an audacious plan. While our rivals fight for control at home, he suggests looking outward. Eurasia today remains a vast and fractured arena of competing governments, uneasy coalitions, proxy conflicts, and ambitious regional powers. Where giants hesitate, smaller actors — even embattled ones — may act with deniability and flexibility.\nHe proposes a discreetly funded expedition: a network of contacts, advisers, and private contractors to establish ties in unstable regions, secure future allies, and potentially gain material support for our own struggle. Arms channels, financial backers, political recognition — all, he claims, could be cultivated beyond our shores if we are bold enough to invest now.\nYet the irony is stark. Can a nation divided afford foreign adventures? Diverting funds and manpower during a civil war may weaken us internally. And if exposed, our enemies would brand us reckless conspirators meddling abroad while Kent burns.\nIs this a reckless distraction from our survival — or a calculated gamble to ensure victory at home?"
+ KNT_event.191.a:0 "We will allocate a lot of money."
+ KNT_event.191.b:0 "Interesting, but risky. We will allocate small funds"
+ #
+ KNT_event.192.t:0 "The adventurer is back with the trophies!"
+ KNT_event.192.d:0 "Against all odds, he has returned.\nFrom the fractured frontiers of Eurasia he brings contracts signed in shadow, crates of modern equipment and secrets of Eurasian technologies. What many dismissed as reckless fantasy has yielded tangible gains for our struggling cause.\nWhispers of doubt have turned into cheers. In a time of division and uncertainty, his gamble delivered results.\nToday, he is no longer merely an adventurer — he is hailed as a hero of Kent."
+ KNT_event.192.a:0 "Glory to the new hero of Kent!"
+ #
+ KNT_event.193.t:0 "The adventurer died during the journey"
+ KNT_event.193.d:0 "The famous adventurer of Kent, who set out on a bold expedition into the depths of Eurasia, has perished on the road. His body now lies somewhere in the swamps of Penza, but his name has already become a legend. Newspapers glorify his courage and spirit of discovery, turning a failed journey into a heroic saga for the newborn nation."
+ KNT_event.193.a:0 "His feat will not be forgotten."
+#
+ KNT_event.195.t:0 "Amazing Velo-eco-cipede!"
+ KNT_event.195.d:0 "Coming straight from Cambridge United Mechanics, the VEC is the latest word in transportation! Forget about bicycles and cars! And hop onto the joyful adventure that we offer you! A classy experience of your ancestors with a twist of modern machinery, a portable steam generator with a special network around your body to gather the sweat of your brow and legs to push your iron stallion forth! All you need is a simple push, a few drops and you'll be taken forward in no time! Also comes in tandems and children's options! Only 65 pounds!"
+ KNT_event.195.a:0 "Ugh, I think Id just buy a bike"
+ #
+ KNT_event.196.t:0 "Sir Cleanington's Soap!"
+ KNT_event.196.d:0 "Tired of breaking your spine and arms? Can't stand the odor of chemicals? Exhausted to clean the same spot again and again every few hours? Sir Cleanington's Soap is what you need! With the finest minds of our Empire working tirelessly to free the housewives from the burden of mundane routine, Cleaningston's Boston Transnational offers you the most advanced soap there is! Just would you take a look? Cleans the sauce, cleans the rust, cleans melanin, and more! With Cleaningston's Soap, one can make anything white and shiny!\n\nTheproductisnotrecommendedforpeoplewithanyformofskindiseasessidesymptomsmayincludehypothermiaheadachenauseaandvomitingCleaningstonsBostonTransnationalbearsnoresponsibilityfortheimproperuseoftheproduct"
+ KNT_event.196.a:0 "But can it clean blood?"
+#
+ KNT_event.197.t:0 "Spark-a Park-a!"
+ KNT_event.197.d:0 "Some say that a book is judged by the cover?  Then Paddington's Ordnances & Research National can offer you the brightest and most exquisite cover that will help you open your inner world to the fine ladies and gentlemen! Become not the spark, but the star to gaze at! With Spark-a Park-a every walk down London's streets would be unforgivable! For just 85 pounds, a fine gentleman can get a Special-mineral coated jacket of any kind, becoming a lighthouse and a lightning bearer! No longer shall you be lost on the streets, or wander in search of a plug, Spark-a Park-a can act as a portable warmer, powerbank and a flashlight at the same time! Special! Get your Spark-a Skirt-a for a fine gal for just 54!"
+ KNT_event.197.a:0 "Why does it glows with such bright green?"
+#
+ KNT_event.198.t:0 "The Genie to Cure Your Head!"
+ KNT_event.198.d:0 "Cannot sleep or have trouble thinking? Why don't you indulge in the newest achievements of British Science? Dickenson's Independent Curing Kiosk at No 88 Fifth Avenue offers an unforgettable experience. Get the Genie Lamp and let the aroma of the Eastern Herbs cure your worries and sickness away! For just 299, one can forever forget about the pain and sleepless nights! Comes with a variety of recipes with "special powders" and mixtures for every sickness there is!\n\nNote from producer: We require you to ventilate your room every time after Genie's Lamp usage, otherwise, we do not bear responsibility for the consequences."
+ KNT_event.198.a:0 "Finally, some sleep"
+#
+ KNT_event.199.t:0 "A Light Crown for the Brightest Minds!"
+ KNT_event.199.d:0 "Have your kid been struggling with even the basic math? Cant make the young man stand in line? Sheddington's Hamlet Institute for Trepanation and Sons can make your child the next Einstein or Caroll! For what can the feeble brain do without proper motivation? Embark with your child on a wonderful and energizing journey of mechanics and learning! A Light Crown with all the attached instructions and instruments for just 999 pounds! With a simple Zap-to a great future! Illuminate your future generations and make them kings with a Light Crown!"
+ KNT_event.199.a:0 "I think I've seen such things in prison before"
+#
+ KNT_event.200.t:0 "Sandclock Shell"
+ KNT_event.200.d:0 "Even in such a splendid place as Brittain one may encounter a threat to his life, but where the man always gets out safe, the ladies may have a harder time, but Alcester's Scientific and Specials got your back! Introducing the Sandclock Shell, the new corset model for those who feel less than safe in the streets and at home! Powered by the mighty microcomputers, Shell-y can\n\n1-talk to you\n2-Automatically regulate the tightness\n3-Give out advice to lose weight\n4-And remind you of proper attire with a pinch of British humor!\n\nBut importantly-the finest kevlar can assure that whatever comes-storm or invader-the fine ladies of Britain will never get any harm!\n\nNote: It is recommended to follow Shelly's instructions, otherwise, Alcester's Scientific and Specials are not responsible for the consequences."
+ KNT_event.200.a:0 "What next? Titanium tophats?"
+#
+ KNT_event.201.t:0 "Cigars of Joy"
+ KNT_event.201.d:0 "We all crave a little relief in times of trouble. JOY'S CIGARETTES afford immediate relief in cases of CURE ASTHMA, WHEEZING, and WINTER COUCH, and a little perseverance will effect a permanent cure. Universally recommended by the most eminent physicians and medical authors. Agreeable to use, certain in their effects, and harmless in their action, they may be safely smoked by ladies and children!\n\nNote: Does not applies to the cases of cancer"
+ KNT_event.201.a:0 "That tobacco sure smells weird"
+#
+ KNT_event.202.t:0 "Energe-tea!"
+ KNT_event.202.d:0 "Come around, ye British folk! It's time to work and conquer! What? Lacking power? Why worry not! The Clinton's Liquor International Trades got your back chap! Why don't you power up the British style? Come forth and taste the Energe-tea! Every boy and girl should try one if wishes to act fast like Nelson, hard as Wellington, and smart as John Bull! A cup of water and this bag of very potent herbs and chems can do magic to your bones and brain! Don't forget- it's five o'clock soon!"
+ KNT_event.202.a:0 "What would Britain be without the tea?"
+#
+ KNT_event.203.t:0 "The Copter-Tophat"
+ KNT_event.203.d:0 "Late for the Five o'clock? Stuck in traffic? Late for your lady? The folks who bought Cornwall Robotics Advanced Product's Copter-Tophat have none of those issues! Just pull the rope and the power of helium and metal can take you from Liverpool to London in one go! Repeat the feat of the Montgolfie Brothers on your own with Copter-Tophat, with little delay-a continent away!"
+ KNT_event.203.a:0 "Extravagant, but promising?"
+#
+ KNT_event.204.t:0 "Para-mbrella!"
+ KNT_event.204.d:0 "Ever dreamed of becoming like Mary Poppins? Drifting like a leaf on the wind on your way to the unknown destiny? Cardiff United National Technologies offers a technically proven solution equal to none other than the legendary lady of British folklore! For 44 pounds, you will receive the perfect fine work that will put Chinese silk to shame! The thin, light and sturdy fabric of British masters that not just deflect any water, but the air as well, allowing for smooth transition from heavens to earth! Trust no other, but your dreams and Cardiff United National Technologies! For we bring forth the fairy tale!"
+ KNT_event.204.a:0 "I believe I can fly"
+ #
+ KNT_event.207.t:0 "The Underground Fortresses Project"
+ KNT_event.207.d:0 "A group of military engineers has presented the government with ambitious blueprints for a network of underground cities. These subterranean shelters could protect our population and industry from aerial bombardment, but the cost would be staggering. The parliament is divided on whether Kent should burrow deep or remain on the surface."
+ KNT_event.207.a:0 "Fund them fully."
+ KNT_event.207.b:0 "Fund a smaller pilot project."
+ KNT_event.207.c:0 "Reject the plan entirely."
+ #
+ KNT_event.208.t:0 "Subterranean Construction Program"
+ KNT_event.208.d:0 "Our engineers have successfully adapted industrial machinery for underground use. New factories are now being assembled beneath the hills of Kent, safe from enemy bombers."
+ KNT_event.208.a:0 "This is a great news!"
+ #
+ KNT_event.209.t:0 "Revised Excavation Project"
+ KNT_event.209.d:0 "The ambitious plan for full-scale underground cities has proven too complex for current technology. However, our efforts were not wasted — we have successfully constructed a network of reinforced military bunkers across the countryside."
+ KNT_event.209.a:0 "Well, better than nothing."
+ #
+ KNT_event.210.t:0 "The Kent Skycraft Initiative"
+ KNT_event.210.d:0 "An eccentric industrialist from the port towns has unveiled a startling prototype — a disc-shaped aircraft that hovers silently using experimental propulsion systems. While the military shows little interest, tourism operators and wealthy collectors are already placing orders. The government must decide whether to support this strange venture or let it remain a curiosity."
+ KNT_event.210.a:0 "Fund that strange project fully."
+ KNT_event.210.b:0 "Reject the prototype entirely."
+ #
+ KNT_event.211.t:0 "Commercial flying saucers are very successful"
+ KNT_event.211.d:0 "Against all expectations, the first fleet of commercial UFO-style aircraft has taken to the skies above Kent. These gleaming discs now ferry wealthy passengers between coastal cities, drawing crowds of astonished onlookers below. Foreign journalists call it eccentric; we call it progress."
+ KNT_event.211.a:0 "Another success of the Kent aircraft industry"
+ #
+ KNT_event.212.t:0 "The Star Defense Initiative"
+ KNT_event.212.d:0 "A wealthy industrialist and known eccentric has appeared before the War Office with a bizarre proposal. Citing "unusual aerial phenomena" reported by fishermen along the coast, he is offering to fund and equip a specialized military unit dedicated to defending Kent from potential extraterrestrial threats. His sincerity is unquestionable; his sanity, perhaps less so."
+ KNT_event.212.a:0 "Approve the funding."
+ KNT_event.212.b:0 "Politely decline."
+ #
+ KNT_event.213.t:0 "Alien Defense Corps Established"
+ KNT_event.213.d:0 "The eccentric industrialist's dream has become reality. The Alien Defense Corps now stands ready, equipped with the strangest assortment of weapons Kent has ever issued—and a manual on how to peacefully communicate with visitors from the stars. Whether they will ever face a real threat remains to be seen, but their parade drills are certainly entertaining."
+ KNT_event.213.a:0 "At least they look good in the photos."
+ #
+ KNT_event.214.t:0 "Friendly Fire Incident"
+ KNT_event.214.d:0 "In a startling display of enthusiasm, the Alien Defense Corps has successfully intercepted and downed an unidentified flying object over the Kent countryside. Unfortunately, it was one of our own commercial UFOs—the disc-shaped tourist aircraft from last year's initiative. No fatalities, but the passengers are demanding refunds and the industrialist is furious."
+ KNT_event.214.a:0 "Blame it on "radar malfunction."
+ #
+ KNT_event.215.t:0 "The Kent Television Spectacular"
+ KNT_event.215.d:0 "A famous producer from the capital has approached the government with an ambitious proposal: a grand television series showcasing the beauty, culture, and eccentric spirit of Kent. Filmed entirely on location and broadcast across the continent, it would be the most expensive production this nation has ever funded. The question is whether national pride is worth the price tag."
+ KNT_event.215.a:0 "Let the world see Kent in all its glory."
+ KNT_event.215.b:0 "A smaller documentary will suffice."
+ KNT_event.215.c:0 "Decline to participate."
+ #
+ KNT_event.216.t:0 "The Golden Turkeys of Kent Television"
+ KNT_event.216.d:0 "Despite the lavish funding, the finished series is a disaster. Critics call it "visually stunning but utterly empty" — all drone shots, no soul. The continent is laughing at us."
+ KNT_event.216.a:0 "At least the scenery looked nice."
+ #
+ KNT_event.217.t:0 "A Modest Masterpiece"
+ KNT_event.217.d:0 "With limited resources, the production team focused on storytelling and authentic local charm. The series has become an unexpected hit across borders. Foreign tourists are already booking trips to see the real Kent."
+ KNT_event.217.a:0 "Authenticity always wins."
+ #
+ KNT_event.218.t:0 "Jetpack Firefighters Deployed"
+ KNT_event.218.d:0 "A private company has unveiled a stunning innovation: firefighters equipped with personal jetpacks. They now soar over the Kent countryside, reaching remote fires in minutes. The public is delighted, though the Firefighters Union has raised concerns about "unfair vertical advantages."
+ KNT_event.218.a:0 "Look, up in the sky! It's a bird... it's a plane... it's a fireman!"
+ #
+ KNT_event.219.t:0 "The Dinosfera Proposal"
+ KNT_event.219.d:0 "An eccentric paleontologist-turned-inventor has unveiled his latest creation: the "Dinosfera"—a spherical vehicle with dinosaur-themed styling, designed to roll through cities and countryside alike. He claims it is the future of personal transport and requests government funding to begin mass production. The public is either intrigued or bewildered."
+ KNT_event.219.a:0 "Invest in the Dinosfera."
+ KNT_event.219.b:0 "Decline the offer."
+ #
+ KNT_event.220.t:0 "Dinosfere Take the World by Storm"
+ KNT_event.220.d:0 "The Dinosfere has become a global sensation! From city streets to countryside lanes, these quirky dinosaur-spheres are rolling everywhere. Foreign nations are placing bulk orders, and Kent's economy is booming thanks to this prehistoric innovation."
+ KNT_event.220.a:0 "We're riding in style."
+ #
+ KNT_event.221.t:0 "The Dinosfere Gang Rises"
+ KNT_event.221.d:0 "Humiliated by the government's refusal, the eccentric scientist has turned to crime. He and his followers now roam the countryside in a fleet of modified, armor-plated Dinosfere, robbing banks and evading capture. Their spherical vehicles roll through every roadblock, and the police are helpless."
+ KNT_event.221.a:0 "Well, this escalated quickly."
+ #
+ KNT_event.222.t:0 "The Steam Sky Initiative"
+ KNT_event.222.d:0 "A group of nostalgic engineers has presented blueprints for a new line of aircraft powered by advanced steam engines. They argue that steam technology is reliable, proven, and utterly glorious. Critics call it a nostalgic fantasy. The question is whether Kent should look forward or backward for its aerial future."
+ KNT_event.222.a:0 "Fund the full program."
+ KNT_event.222.b:0 "Provide modest funding for a prototype."
+ KNT_event.222.c:0 "Reject the proposal."
+ #
+ KNT_event.223.t:0 "Steambirds Take Flight"
+ KNT_event.223.d:0 "The first fleet of steam-powered aircraft has rolled off the production lines and into the skies. Airlines across the continent are placing orders, captivated by their vintage charm and surprising reliability. Kent has proven that sometimes the old ways still work."
+ KNT_event.223.a:0 "Full steam ahead!"
+ #
+ KNT_event.224.t:0 "The Flying Museum Piece"
+ KNT_event.224.d:0 "While mass production proved too costly, the single prototype steam aircraft has become a beloved attraction. It now tours air shows across Kent, drawing crowds who cheer the sight of billowing steam trails against the modern sky. A symbol of ambition, if not practicality."
+ KNT_event.224.a:0 "At least it looks magnificent."
+  #
+ KNT_event.225.t:0 "The Civil War Chronicle Project"
+ KNT_event.225.d:0 "A prominent publisher has approached the government with a proposal to commission a definitive literary account of UK's civil war. The book could shape how future generations remember the conflict—but grand visions require grand budgets."
+ KNT_event.225.a:0 "Fund the masterpiece."
+ KNT_event.225.b:0 "Support a modest edition."
+ KNT_event.225.c:0 "Decline to participate."
+ #
+ KNT_event.226.t:0 "A Honest Account of the War"
+ KNT_event.226.d:0 "The newly published civil war chronicle has struck a chord with readers. Its unflinching honesty about the hardships and heroism of ordinary people has earned critical acclaim and genuine public emotion. Schools are already adding it to their curriculum."
+ KNT_event.226.a:0 "Truth resonates with the people."
+ #
+ KNT_event.227.t:0 "A Glorious, Embellished Saga"
+ KNT_event.227.d:0 "The lavish civil war epic has arrived — and it is magnificent to behold. Gold lettering, heroic engravings, and battles so grand they barely resemble reality. The public loves every inflated page, though serious critics quietly roll their eyes."
+ KNT_event.227.a:0 "Give them spectacle, not facts."
  #FOCUS TT#
  KNT_channel_tunnel.tt:0 "§YWe will be able to smuggle weapons through the English Channel tunnel§!"
  KNT_georges_knights.tt:0 "§YWe will try to recruit the "knights" of King George VII§!"
@@ -1869,7 +2065,7 @@
  KNT_exact_education:0 ""
  KNT_forceful_education:0 ""
  KNT_leisure_education:0 ""
- KNT_steampunk:0 ""
+ KNT_steampunk:0 "Steampunk Technology"
  KNT_aesthetics:0 ""
  ##SIR ADVISERS##
  KNT_edward_leigh_2:0 "Sir Edward Leigh"
@@ -1909,3 +2105,11 @@
  knight_blogger:0 "Knight Bachelor"
  knight_young:0 "Knight Bachelor"
  knight_pioneer:0 "Knight Bachelor"
+
+##Protect The Investors Events##
+KNT_event.194.t:0 "Protect the Inventors"
+KNT_event.194.d:0 "Starting today, our leadership has decided to support inventors working for the benefit of their country. Every inventor who considers his invention worthy must submit it to the territorial commission for the "evaluation of inventions" and register with the supervisory authority. After that, he can count on all the benefits provided for by the adoption of this law."
+KNT_event.194.a:0 "The country values those it considers valuable."
+
+#
+KNT_new_inventions.tt:0 "From now on, new inventions with §Gdifferent§! effects will periodically appear!"

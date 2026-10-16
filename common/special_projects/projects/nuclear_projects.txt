@@ -275,11 +275,11 @@ sp_commercial_nuclear_reactor = {
 	allowed = {
 		has_dlc = "Gotterdammerung"
 	}
-	available = { 
-		FROM = {
-			has_tech = construction4
-		}
-	}
+	#available = {  #FIX THIS
+	#	FROM = {
+	#		has_tech = construction4
+	#	}
+	#}
 	
 	project_output = {
 		country_effects = {
@@ -486,6 +486,16 @@ sp_nuclear_bomb = {
 				set_technology = {
 					nukes = 1
 					popup = no
+				}
+				if = {
+					limit = {
+						not = {
+							has_variable = global.first_country_sp_nuclear_bomb
+						}
+					}
+					set_variable = {
+						global.first_country_sp_nuclear_bomb = ROOT
+					}
 				}
 			}
 		}
@@ -791,7 +801,7 @@ sp_nuclear_warheads = {
 	special_project_parent = {
 		sp_nuclear_bomb
 		# Country must have Medium range ballistic missiles to be able to start this project
-		sp_rockets_medium_range_ballistic_missile
+		#sp_rockets_medium_range_ballistic_missile #FIX THIS PROJECT STUFF
 	}
 	allowed = {
 		has_dlc = "Gotterdammerung"

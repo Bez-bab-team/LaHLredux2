@@ -23,7 +23,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/knights_table/no_knight.dds"
 	}
 	spriteType = {
-		name = "GFX_lhl_george_knight"
+		name = "GFX_lhl_george_low_legitimacy"
 		textureFile = "gfx/interface/knights_table/georgevii.dds"
 	}
 	spriteType = {
@@ -31,7 +31,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/knights_table/henrywindsor.dds"
 	}
 	spriteType = {
-		name = "GFX_lhl_henry_knight_redeemed"
+		name = "GFX_lhl_george_high_legitimacy"
 		textureFile = "gfx/interface/knights_table/henrywindsor_2.dds"
 	}
 	spriteType = {
@@ -39,7 +39,152 @@ spriteTypes = {
 		textureFile = "gfx/interface/knights_table/george_dead.dds"
 	}
 	spriteType = {
-		name = "GFX_lhl_douglas_pearce"
+		name = "GFX_lhl_table_douglas_pearce"
 		textureFile = "gfx/interface/knights_table/douglas_pearce.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_david_triggs"
+		textureFile = "gfx/interface/knights_table/lhl_david_triggs.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_johnathan_sumption"
+		textureFile = "gfx/interface/knights_table/lhl_johnathan_sumption.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_nikolai_tolstoy"
+		textureFile = "gfx/interface/knights_table/lhl_nikolai_tolstoy-miloslavsky.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_patrick_moore"
+		textureFile = "gfx/interface/knights_table/lhl_patrick_moore.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_paul_kingsnorth"
+		textureFile = "gfx/interface/knights_table/lhl_paul_kingsnorth.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_phillip_blond"
+		textureFile = "gfx/interface/knights_table/lhl_phillip_blonde.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_philip_luty"
+		textureFile = "gfx/interface/knights_table/lhl_phillip_luty.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_robin_page"
+		textureFile = "gfx/interface/knights_table/lhl_robin_page.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_rupert_smith"
+		textureFile = "gfx/interface/knights_table/lhl_rupert_smith.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_tony_johnstone-burt"
+		textureFile = "gfx/interface/knights_table/lhl_tony_johnstone-burt.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_michael_mainelli"
+		textureFile = "gfx/interface/knights_table/lhl_michael_mainelli.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_jacob_rees-mogg"
+		textureFile = "gfx/interface/knights_table/lhl_jacob_rees-mogg.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_stephen_fry"
+		textureFile = "gfx/interface/knights_table/lhl_stephen_fry.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_ephraim_of_vatopedi"
+		textureFile = "gfx/interface/knights_table/lhl_ephraim_of_vatopedi.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_clive_alderton"
+		textureFile = "gfx/interface/knights_table/lhl_clive_alderton.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_michael_of_kent"
+		textureFile = "gfx/interface/knights_table/lhl_michael_of_kent.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_douglas_pearce"
+		textureFile = "gfx/interface/knights_table/lhl_douglas_pearce.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_ian_martin"
+		textureFile = "gfx/interface/knights_table/lhl_ian_martin.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_peter_st_clair-erskine"
+		textureFile = "gfx/interface/knights_table/lhl_peter_st_clair-erskine.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_edward_young"
+		textureFile = "gfx/interface/knights_table/lhl_edward_young.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_link_byfield"
+		textureFile = "gfx/interface/knights_table/lhl_link_byfield.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_jonathon_porritt"
+		textureFile = "gfx/interface/knights_table/lhl_jonathon_porritt.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_roger_scruton"
+		textureFile = "gfx/interface/knights_table/lhl_roger_scruton.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_ian_forbes"
+		textureFile = "gfx/interface/knights_table/lhl_ian_forbes.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_stephen_dalton"
+		textureFile = "gfx/interface/knights_table/lhl_stephen_dalton.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_richard_evans"
+		textureFile = "gfx/interface/knights_table/lhl_richard_evans.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_alex_cresswell"
+		textureFile = "gfx/interface/knights_table/lhl_alex_cresswell.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_andrew_garrad"
+		textureFile = "gfx/interface/knights_table/lhl_andrew_garrad.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_nikita_lobanov"
+		textureFile = "gfx/interface/knights_table/lhl_nikita_lobanov.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_mark_carney"
+		textureFile = "gfx/interface/knights_table/lhl_mark_carney.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_leon_krier"
+		textureFile = "gfx/interface/knights_table/lhl_leon_krier.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_prince_harry"
+		textureFile = "gfx/interface/knights_table/lhl_prince_harry.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_prince_harry"
+		textureFile = "gfx/interface/knights_table/lhl_prince_harry.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_table_david_richards"
+		textureFile = "gfx/interface/knights_table/lhl_david_richards.dds"
+	}
+	#
+	progressbartype = {
+		name = "GFX_WES_progbar_cooldown"
+		texturefile1 = "gfx/interface/knights_table/lhl_cooldown.dds"
+		texturefile2 = "gfx/interface/blank.dds"
+		size = { x = 83 y = 112 }
+		effectfile = "gfx/FX/progress.lua"
+		horizontal = no	
 	}
 }

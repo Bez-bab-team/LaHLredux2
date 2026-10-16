@@ -199,6 +199,40 @@ WES_sussex_unrest = {
 	recruitable_population_factor = 0.35
 }
 
+WES_battle_for_wessex = { 
+	icon = GFX_sex
+	#Marhsalls Prowess#
+	experience_gain_army_factor = 0.03
+	#Game of Chess#
+	army_morale_factor = WES_battle_for_wessex_army_morale_factor
+	army_org_factor = WES_battle_for_wessex_army_org_factor
+	#Trial of Courage#
+	breakthrough_factor = WES_battle_for_wessex_breakthrough_factor
+	#In Foxes Den#
+	dig_in_speed_factor = WES_battle_for_wessex_dig_in_speed_factor
+	max_dig_in_factor = WES_battle_for_wessex_max_dig_in_factor
+	#Battle of Camlann#
+	army_core_attack_factor = WES_battle_for_wessex_army_core_attack_factor
+	army_core_defence_factor = WES_battle_for_wessex_army_core_defence_factor
+	army_speed_factor = WES_battle_for_wessex_army_speed_factor
+
+}
+WES_desperate_measures = { 
+	icon = GFX_sex
+	#Fill in The Treasure#
+	consumer_goods_factor = -0.05
+	#King's Fair#
+	industrial_capacity_factory = WES_desperate_measures_industrial_capacity_factory
+	production_factory_start_efficiency_factor = WES_desperate_measures_production_factory_start_efficiency_factor	
+	#Ploughs to Swords#
+	conversion_cost_civ_to_mil_factor = WES_desperate_measures_conversion_cost_civ_to_mil_factor
+	#Concessions to Gentry#
+	production_speed_buildings_factor = WES_desperate_measures_production_speed_buildings_factor
+	production_factory_efficiency_gain_factor = WES_desperate_measures_production_factory_efficiency_gain_factor
+	#The Last Quitrent#
+	production_factory_max_efficiency_factor = WES_desperate_measures_production_factory_max_efficiency_factor
+}
+
 ##SUS##
 
 SUS_king_economy_spirit = { 
@@ -307,7 +341,7 @@ SUS_labourist_economy_spirit = {
 	production_speed_buildings_factor = SUS_production_speed_buildings_factor
 	political_power_factor = SUS_political_power_factor
 	production_factory_max_efficiency_factor = SUS_production_factory_max_efficiency_factor
-	production_factory_max_efficiency_factor = SUS_production_factory_start_efficiency_factor
+	production_factory_start_efficiency_factor = SUS_production_factory_start_efficiency_factor
 	production_factory_efficiency_gain_factor = SUS_production_factory_efficiency_gain_factor
 	supply_factor = SUS_supply_factor
 	global_building_slots_factor = SUS_global_building_slots_factor
@@ -549,6 +583,11 @@ ESS_brunel_university_bonus  = {
 	local_resources_factor = ESS_brunel_local_resources_factor
 }
 
+ESS_united_britain  = { 
+	icon = GFX_hui
+
+}
+
 ##SUS##
 SUS_pillars_wessex = {
 	monthly_population = SUS_pillars_wessex_monthly_population
@@ -627,6 +666,199 @@ SUS_weather_device_modifier = {
 	planning_speed = -3.0
 	max_dig_in_factor = -1.0
 	state_production_speed_buildings_factor = -3.0
+}
+###Moldbug Modifiers###
+ESS_modifier_corpo_state = {
+	political_power_gain = ESS_corpo_state_political_power_gain
+	political_advisor_cost_factor = ESS_corpo_state_political_advisor_cost_factor
+	mobilization_laws_cost_factor = ESS_corpo_state_mobilization_laws_cost_factor
+	trade_laws_cost_factor = ESS_corpo_state_trade_laws_cost_factor
+	head_of_government_cost_factor = ESS_corpo_state_head_of_government_cost_factor
+	research_speed_factor = ESS_corpo_state_research_speed_factor
+	#Healthcare#
+	monthly_population = ESS_corpo_state_monthly_population
+	recruitable_population_factor = ESS_corpo_state_recruitable_population_factor
+	#Construction#
+	production_speed_buildings_factor = ESS_corpo_state_production_speed_buildings_factor
+	production_factory_max_efficiency_factor = ESS_corpo_state_production_factory_max_efficiency_factor
+	production_factory_efficiency_gain_factor = ESS_corpo_state_production_factory_efficiency_gain_factor
+	local_resources_factor = ESS_corpo_state_local_resources_factor
+	#Military#
+	army_org_factor = ESS_corpo_state_army_org_factor
+	army_morale_factor = ESS_corpo_state_army_morale_factor
+	war_support_factor = ESS_corpo_state_war_support_factor
+}
+ESS_modifier_corpo_healthcare = {
+	monthly_population = ESS_corpo_healthcare_monthly_population
+	recruitable_population_factor = ESS_corpo_healthcare_recruitable_population_factor
+}
+ESS_modifier_corpo_construction = {
+	production_speed_buildings_factor = ESS_corpo_construction_production_speed_buildings_factor
+	production_factory_max_efficiency_factor = ESS_corpo_construction_production_factory_max_efficiency_factor
+	production_factory_efficiency_gain_factor = ESS_corpo_construction_production_factory_efficiency_gain_factor
+	local_resources_factor = ESS_corpo_construction_local_resources_factor
+}
+ESS_modifier_corpo_pmc = {
+	army_org_factor = ESS_corpo_pmc_army_org_factor
+	army_morale_factor = ESS_corpo_pmc_army_morale_factor
+	war_support_factor = ESS_corpo_pmc_war_support_factor
+}
+ESS_modifier_corpo_spy = {
+	intel_from_operatives_factor = ESS_corpo_spy_intel_from_operatives_factor
+	intel_network_gain_factor = ESS_corpo_spy_intel_network_gain_factor
+	agency_upgrade_time = ESS_corpo_spy_agency_upgrade_time
+}
+ESS_modifier_corpo_media = {
+	compliance_growth_on_our_occupied_states = ESS_corpo_media_compliance_growth
+	resistance_activity = ESS_corpo_media_resistance_activity
+	send_volunteer_factor = ESS_corpo_media_send_volunteer_factor
+	opinion_gain_monthly_factor = ESS_corpo_media_opinion_gain_monthly_factor
+}
+ESS_modifier_corpo_tourism = {
+	trade_opinion_factor = ESS_corpo_tourism_trade_opinion_factor
+	min_export = ESS_corpo_tourism_min_export
+	weekly_manpower = ESS_corpo_tourism_weekly_manpower
+}
+ESS_modifier_corpo_farming = {
+	attrition = ESS_corpo_farming_attrition
+	supply_factor = ESS_corpo_farming_supply_factor
+}
+ESS_modifier_corpo_companies = {
+	#Alternative Fuel Company#
+	base_fuel_gain_factor = ESS_corpo_companies_base_fuel_gain_factor 
+	#Sturdy Buildings Company#
+	industry_air_damage_factor = ESS_corpo_companies_industry_air_damage_factor
+	#Woman Corporation#
+	female_random_operative_chance = ESS_corpo_companies_female_random_operative_chance
+	female_random_army_leader_chance = ESS_corpo_companies_female_random_army_leader_chance
+	female_random_admiral_chance = ESS_corpo_companies_female_random_admiral_chance
+	female_divisional_commander_chance = ESS_corpo_companies_female_divisional_commander_chance
+	#Naval Industry Company#
+	transport_capacity = ESS_corpo_companies_transport_capacity
+	naval_equipment_upgrade_xp_cost = ESS_corpo_companies_naval_equipment_upgrade_xp_cost
+	#Safety Company#
+	naval_accidents_chance = ESS_corpo_companies_naval_accidents_chance
+	air_accidents_factor = ESS_corpo_companies_air_accidents_factor
+	#Equipment#
+	equipment_conversion_speed = ESS_corpo_companies_equipment_conversion_speed
+	equipment_upgrade_xp_cost = ESS_corpo_companies_equipment_upgrade_xp_cost
+	#Clothes Company#
+	acclimatization_cold_climate_gain_factor = ESS_corpo_companies_acclimatization_cold_climate_gain_factor
+	acclimatization_hot_climate_gain_factor = ESS_corpo_companies_acclimatization_hot_climate_gain_factor
+	#Air Training#
+	air_volunteer_cap = ESS_corpo_companies_air_volunteer_cap
+	air_ace_bonuses_factor = ESS_corpo_companies_air_ace_bonuses_factor
+	air_ace_generation_chance_factor = ESS_corpo_companies_air_ace_generation_chance_factor
+	ace_effectiveness_factor = ESS_corpo_companies_ace_effectiveness_factor
+	#Infrastructure Company#
+	production_speed_supply_node_factor = ESS_corpo_companies_production_speed_supply_node_factor
+	#Fake Company#
+	#Fake Modifier#
+}
+ESS_modifier_corpo_shares = {
+	consumer_goods_factor = ESS_corpo_shares_consumer_goods_factor
+	stability_factor = ESS_corpo_shares_stability_factor
+}
+
+###Moldbug local CEOs###
+ESS_modifier_local_CEO_998 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_999 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1007 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1006 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1000 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1161 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1153 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1018 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1001 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1156 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1002 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1165 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1159 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1158 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1157 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1160 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1003 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1143 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1004 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1005 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1144 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1155 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1154 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1152 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1144 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1008 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1146 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1151 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1010 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1011 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1009 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1145 = {
+	icon = GFX_based
+}
+ESS_modifier_local_CEO_1012 = {
+	icon = GFX_based
 }
 
 ##XIJ##

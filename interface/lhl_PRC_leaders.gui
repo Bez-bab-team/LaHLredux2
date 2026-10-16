@@ -8,7 +8,7 @@ guiTypes = {
 			name ="prc_general_secretary_icon"
 			spriteType = "GFX_prc_general_secretary_icon"
 			position = { x= 200	 y= 45 } 
-			size = { width = 75 height= 75 }
+			#size = { width = 75 height= 75 }
 			pdx_tooltip = prc_general_secretary_localisation_tt
 
 		}
@@ -28,7 +28,7 @@ guiTypes = {
 			name ="prc_state_council_icon"
 			spriteType = "GFX_prc_state_council_icon"
 			position = { x= 100	 y= 195 } 
-			size = { width = 75 height= 75 }
+			#size = { width = 75 height= 75 }
 			pdx_tooltip = prc_state_council_localisation_tt
 
 		}
@@ -48,7 +48,7 @@ guiTypes = {
 			name ="prc_npcsc_icon"
 			spriteType = "GFX_prc_npcsc_icon"
 			position = { x= 300	 y= 195 }
-			size = { width = 75 height= 75 } 
+			#size = { width = 75 height= 75 } 
 			pdx_tooltip = prc_npcsc_localisation_tt
 
 		}
@@ -68,7 +68,7 @@ guiTypes = {
 			name ="prc_secretariat_icon"
 			spriteType = "GFX_prc_secretariat_icon"
 			position = { x= 100	 y= 375 } 
-			size = { width = 75 height= 75 }
+			#size = { width = 75 height= 75 }
 			pdx_tooltip = prc_secretariat_localisation_tt
 
 		}
@@ -88,7 +88,7 @@ guiTypes = {
 			name ="prc_cppcc_icon"
 			spriteType = "GFX_prc_cppcc_icon"
 			position = { x= 300	 y= 375 } 
-			size = { width = 75 height= 75 }
+			#size = { width = 75 height= 75 }
 			pdx_tooltip = prc_cppcc_localisation_tt
 
 		}
@@ -108,7 +108,7 @@ guiTypes = {
 			name ="prc_cabinet_1_icon"
 			spriteType = "GFX_prc_cabinet_1_icon"
 			position = { x= 100	 y= 555 } 
-			size = { width = 75 height= 75 }
+			#size = { width = 75 height= 75 }
 			pdx_tooltip = prc_cabinet_1_localisation_tt
 
 		}
@@ -128,7 +128,7 @@ guiTypes = {
 			name ="prc_cabinet_2_icon"
 			spriteType = "GFX_prc_cabinet_2_icon"
 			position = { x= 300 y= 555 } 
-			size = { width = 75 height= 75 }
+			#size = { width = 75 height= 75 }
 			pdx_tooltip = prc_cabinet_2_localisation_tt
 
 		}

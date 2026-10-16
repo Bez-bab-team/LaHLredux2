@@ -1,0 +1,5 @@
+MRC_rogue_land_mod = {
+	enable = { always = yes }
+
+	local_resources = -0.5 #Placeholder
+}

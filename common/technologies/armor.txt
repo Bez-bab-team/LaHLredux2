@@ -2141,11 +2141,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		sub_technologies = {
-			basic_antitank_car
-			basic_antiair_car
-			basic_command_car
-		}
+		#sub_technologies = {
+		#	basic_antitank_car
+		#	basic_antiair_car
+		#	basic_command_car
+		#}
 		
 		research_cost = 2
 		start_year = 2020
@@ -2192,11 +2192,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		sub_technologies = {
-			improved_antitank_car
-			improved_antiair_car
-			improved_command_car
-		}
+		#sub_technologies = {
+		#	improved_antitank_car
+		#	improved_antiair_car
+		#	improved_command_car
+		#}
 		
 		research_cost = 2
 		start_year = 2025
@@ -2248,11 +2248,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		sub_technologies = {
-			advanced_antitank_car
-			advanced_antiair_car
-			advanced_command_car
-		}
+		#sub_technologies = {
+		#	advanced_antitank_car
+		#	advanced_antiair_car
+		#	advanced_command_car
+		#}
 		
 		folder = {
 			name = armour_folder
@@ -2295,11 +2295,11 @@ technologies = {
 		research_cost = 2
 		start_year = 2030
 		
-		sub_technologies = {
-			futuristic_antitank_car
-			futuristic_antiair_car
-			futuristic_command_car
-		}
+		#sub_technologies = {
+		#	futuristic_antitank_car
+		#	futuristic_antiair_car
+		#	futuristic_command_car
+		#}
 				
 		folder = {
 			name = armour_folder

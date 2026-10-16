@@ -112,4 +112,134 @@ on_actions = {
 			}
 		}
 	}
+	
+	on_daily_KNT = {
+		effect = {
+			if = {
+				limit = {
+					has_country_flag = KNT_ufo_activated
+					has_country_flag = KNT_xcom_activated
+					NOT = { has_country_flag = KNT_event214_activated }
+				}
+				set_country_flag = KNT_event214_activated
+				country_event = { id = KNT_event.214 days = 30}				
+			}
+		}
+	}
+	
+	on_monthly_KNT = {
+		effect = {
+			if = {
+				limit = {
+					has_country_flag = KNT_inventions_started
+				}
+				random_list = {
+                    10 = {
+						country_event = { id = KNT_event.175 }
+					}
+
+					10 = {
+						country_event = { id = KNT_event.180 }
+					}
+
+					10 = {
+						country_event = { id = KNT_event.183 }
+					}
+
+					10 = {
+						country_event = { id = KNT_event.186 }
+					}
+
+					10 = {
+						country_event = { id = KNT_event.187 }
+					}
+
+					10 = {
+						country_event = { id = KNT_event.190 }
+					}
+
+					10 = {
+						country_event = { id = KNT_event.191 }
+					}
+
+					10 = {
+						country_event = { id = KNT_event.195 }
+					}
+
+					10 = {
+						country_event = { id = KNT_event.196 }
+					}
+
+					10 = {
+						country_event = { id = KNT_event.197 }
+					}
+
+					10 = {
+						country_event = { id = KNT_event.198 }
+					}
+
+					10 = {
+						country_event = { id = KNT_event.199 }
+					}
+
+					10 = {
+						country_event = { id = KNT_event.200 }
+					}
+
+					10 = {
+						country_event = { id = KNT_event.201 }
+					}
+
+					10 = {
+						country_event = { id = KNT_event.202 }
+					}
+
+					10 = {
+						country_event = { id = KNT_event.203 }
+					}
+
+					10 = {
+						country_event = { id = KNT_event.204 }
+					}
+
+					10 = {
+						country_event = { id = KNT_event.205 }
+					}
+
+					10 = {
+						country_event = { id = KNT_event.207 }
+					}
+
+					10 = {
+						country_event = { id = KNT_event.210 }
+					}
+
+					10 = {
+						country_event = { id = KNT_event.212 }
+					}
+
+					10 = {
+						country_event = { id = KNT_event.215 }
+					}
+
+					10 = {
+						country_event = { id = KNT_event.218 }
+					}
+
+					10 = {
+						country_event = { id = KNT_event.219 }
+					}
+
+					10 = {
+						country_event = { id = KNT_event.222 }
+					}
+
+					10 = {
+						country_event = { id = KNT_event.225 }
+					}
+
+				}
+			}
+		}
+	}
 }					  

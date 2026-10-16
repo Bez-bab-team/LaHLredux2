@@ -3,8 +3,8 @@ defined_text = {
 	text = {
 		trigger = {
             check_variable = {
-                var = WES_george_legitimacy_level
-                value = 100
+                var = WES_george_legitimacy
+                value = 6
 				compare = equals	
 			}
 		}
@@ -13,9 +13,9 @@ defined_text = {
 	text = {
 		trigger = {
             check_variable = {
-                var = WES_george_legitimacy_level
-                value = 80
-				compare = greater_than_or_equals	
+                var = WES_george_legitimacy
+                value = 5
+				compare = equals	
 			}
 		}
 		localization_key = WES_george_legitimacy_very_high
@@ -23,9 +23,9 @@ defined_text = {
 	text = {
 		trigger = {
             check_variable = {
-                var = WES_george_legitimacy_level
-                value = 60
-				compare = greater_than_or_equals	
+                var = WES_george_legitimacy
+                value = 4
+				compare = equals	
 			}
 		}
 		localization_key = WES_george_legitimacy_high
@@ -33,9 +33,9 @@ defined_text = {
 	text = {
 		trigger = {
             check_variable = {
-                var = WES_george_legitimacy_level
-                value = 40
-				compare = greater_than_or_equals	
+                var = WES_george_legitimacy
+                value = 3
+				compare = equals	
 			}
 		}
 		localization_key = WES_george_legitimacy_medium
@@ -43,9 +43,9 @@ defined_text = {
 	text = {
 		trigger = {
             check_variable = {
-                var = WES_george_legitimacy_level
-                value = 20
-				compare = greater_than_or_equals	
+                var = WES_george_legitimacy
+                value = 2
+				compare = equals	
 			}
 		}
 		localization_key = WES_george_legitimacy_low
@@ -53,9 +53,9 @@ defined_text = {
 	text = {
 		trigger = {
             check_variable = {
-                var = WES_george_legitimacy_level
-                value = 5
-				compare = greater_than_or_equals	
+                var = WES_george_legitimacy
+                value = 1
+				compare = equals	
 			}
 		}
 		localization_key = WES_george_legitimacy_very_low
@@ -63,12 +63,85 @@ defined_text = {
 	text = {
 		trigger = {
             check_variable = {
-                var = WES_george_legitimacy_level
+                var = WES_george_legitimacy
                 value = 0
 				compare = equals	
 			}
 		}
 		localization_key = WES_george_legitimacy_dead
+	}
+}
+defined_text = {
+	name = GetWessexLegitimacyKnightLoc
+	text = {
+		trigger = {
+            check_variable = {
+                var = WES_george_legitimacy
+                value = 6
+				compare = equals	
+			}
+		}
+		localization_key = WES_george_loc_legitimacy_top
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = WES_george_legitimacy
+                value = 5
+				compare = equals	
+			}
+		}
+		localization_key = WES_george_loc_legitimacy_very_high
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = WES_george_legitimacy
+                value = 4
+				compare = equals	
+			}
+		}
+		localization_key = WES_george_loc_legitimacy_high
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = WES_george_legitimacy
+                value = 3
+				compare = equals	
+			}
+		}
+		localization_key = WES_george_loc_legitimacy_medium
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = WES_george_legitimacy
+                value = 2
+				compare = equals	
+			}
+		}
+		localization_key = WES_george_loc_legitimacy_low
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = WES_george_legitimacy
+                value = 1
+				compare = equals	
+			}
+		}
+		localization_key = WES_george_loc_legitimacy_very_low
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = WES_george_legitimacy
+                value = 0
+				compare = equals	
+			}
+		}
+		localization_key = WWES_george_loc_legitimacy_dead
 	}
 }
 
@@ -3024,7 +3097,7 @@ defined_text = {
 		trigger = {
 			NOT = {
 				WES = {
-					has_tech = green_modern_economics_1
+					has_tech = green_construction_1_1
 				}
 			}
 		}
@@ -3033,7 +3106,7 @@ defined_text = {
 	text = {
 		trigger = {
 			WES = {
-				is_researching_technology = green_modern_economics_1
+				is_researching_technology = green_construction_1_1
 			}
 		}
 		localization_key = "GetWESGreenTech_1_2"
@@ -3041,7 +3114,7 @@ defined_text = {
 	text = {
 		trigger = {
 			WES = {
-				has_tech = green_modern_economics_1
+				has_tech = green_construction_1_1
 			}
 		}
 		localization_key = "GetWESGreenTech_1_3"
@@ -3054,7 +3127,7 @@ defined_text = {
 		trigger = {
 			NOT = {
 				WES = {
-					has_tech = green_modern_economics_2
+					has_tech = green_construction_2
 				}
 			}
 		}
@@ -3063,7 +3136,7 @@ defined_text = {
 	text = {
 		trigger = {
 			WES = {
-				is_researching_technology = green_modern_economics_2
+				is_researching_technology = green_construction_2
 			}
 		}
 		localization_key = "GetWESGreenTech_2_2"
@@ -3071,7 +3144,7 @@ defined_text = {
 	text = {
 		trigger = {
 			WES = {
-				has_tech = green_modern_economics_2
+				has_tech = green_construction_2
 			}
 		}
 		localization_key = "GetWESGreenTech_2_3"
@@ -3084,7 +3157,7 @@ defined_text = {
 		trigger = {
 			NOT = {
 				WES = {
-					has_tech = green_modern_economics_3
+					has_tech = green_construction_3_1
 				}
 			}
 		}
@@ -3093,7 +3166,7 @@ defined_text = {
 	text = {
 		trigger = {
 			WES = {
-				is_researching_technology = green_modern_economics_3
+				is_researching_technology = green_construction_3_1
 			}
 		}
 		localization_key = "GetWESGreenTech_3_2"
@@ -3101,7 +3174,7 @@ defined_text = {
 	text = {
 		trigger = {
 			WES = {
-				has_tech = green_modern_economics_3
+				has_tech = green_construction_3_1
 			}
 		}
 		localization_key = "GetWESGreenTech_3_3"

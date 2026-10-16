@@ -8,6 +8,13 @@ ESS_london_bands = {
 	visible_when_empty = yes
 	scripted_gui = lhl_london_bands_screen_body
 	allowed = { original_tag = ESS }
+	visible = {
+		NOT = {
+			ESS = {
+				has_country_flag = ESS_bands_destroyed
+			}
+		}
+	}
 }
 
 ESS_desperate_measures = {
@@ -58,4 +65,39 @@ ESS_board_of_directors = {
 	visible_when_empty = yes
 	scripted_gui = lhl_ESS_board_of_directors_screen_body
 	allowed = { original_tag = ESS }
+	visible = {
+	    has_country_flag = ESS_board_of_directors_activated
+	}
+}
+
+###Nick Land###
+ESS_nick_land_main_decision = {
+	icon = GFX_
+	visible_when_empty = yes
+	scripted_gui = lhl_ESS_nick_land_kills_britain
+	allowed = { original_tag = ESS }
+}
+
+##Collins##
+ESS_workers_parliament_gui_decision = {
+	icon = usa_congress
+
+	allowed = { original_tag = ESS }
+
+	priority = 1000
+
+	scripted_gui = ESS_workers_parliament_gui
+	visible_when_empty = yes
+}
+
+##Mark Fisher##
+ESS_torch_of_the_revolution = {
+	icon = GFX_
+
+	allowed = { original_tag = ESS }
+
+	priority = 1000
+
+	scripted_gui = lhl_ESS_torch_of_revolution
+	visible_when_empty = yes
 }

@@ -1,0 +1,77 @@
+add_namespace = MRC_prologue
+
+country_event = {
+	id = MRC_prologue.1
+	title = MRC_prologue.1.t
+	desc = MRC_prologue.1.d
+	picture = GFX_report_event_german_speech
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = MRC
+		has_country_flag = MRC_birmingham_prologue_started
+		NOT = { has_country_flag = MRC_quest_zero_completed }
+		check_variable = { MRC_prologue_stage = 0 }
+	}
+	option = {
+		name = MRC_prologue.1.a
+		hidden_effect = { MRC_prologue_advance_1 = yes }
+	}
+}
+
+country_event = {
+	id = MRC_prologue.2
+	title = MRC_prologue.2.t
+	desc = MRC_prologue.2.d
+	picture = GFX_report_event_german_speech
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = MRC
+		has_country_flag = MRC_birmingham_prologue_started
+		NOT = { has_country_flag = MRC_quest_zero_completed }
+		check_variable = { MRC_prologue_stage = 1 }
+	}
+	option = {
+		name = MRC_prologue.2.a
+		hidden_effect = { MRC_prologue_advance_2 = yes }
+	}
+}
+
+country_event = {
+	id = MRC_prologue.3
+	title = MRC_prologue.3.t
+	desc = MRC_prologue.3.d
+	picture = GFX_report_event_german_speech
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = MRC
+		has_country_flag = MRC_birmingham_prologue_started
+		NOT = { has_country_flag = MRC_quest_zero_completed }
+		check_variable = { MRC_prologue_stage = 2 }
+	}
+	option = {
+		name = MRC_prologue.3.a
+		hidden_effect = { MRC_prologue_advance_3 = yes }
+	}
+}
+
+country_event = {
+	id = MRC_prologue.4
+	title = MRC_prologue.4.t
+	desc = MRC_prologue.4.d
+	picture = GFX_report_event_german_speech
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = MRC
+		has_country_flag = MRC_birmingham_prologue_started
+		NOT = { has_country_flag = MRC_quest_zero_completed }
+		check_variable = { MRC_prologue_stage = 3 }
+	}
+	option = {
+		name = MRC_prologue.4.a
+		hidden_effect = { MRC_prologue_finish = yes }
+	}
+}

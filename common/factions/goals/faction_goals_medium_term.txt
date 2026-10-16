@@ -1,0 +1,26 @@
+##########################################################
+
+ ##  ### #  # ### ###  ###  ##       ##   ##   ##  #    ## 
+#    #   ## # #   #  #  #  #  #     #    #  # #  # #   #   
+# ## ##  # ## ##  ###   #  #        # ## #  # #### #    #  
+#  # #   #  # #   #  #  #  #  #     #  # #  # #  # #     # 
+ ##  ### #  # ### #  # ###  ##       ##   ##  #  # ### ##  
+
+#########################################################
+
+faction_goal_fake_medium = {
+	name = faction_goal_fake_medium_name
+	description = faction_goal_fake_medium_desc
+	category = medium_term
+	group = FOCUS_FILTER_INDUSTRY
+	visible = {
+		always = no
+	}
+	completed = {
+	}
+	complete_effect = {
+	}
+	ai_will_do = {
+		base = 0
+	}
+}

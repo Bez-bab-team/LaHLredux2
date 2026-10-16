@@ -1,0 +1,139 @@
+MRC_rogue_land_effect = {
+
+	every_controlled_state = {
+		limit = {
+			NOT = {
+				state = 1154
+			}
+		}
+		add_dynamic_modifier = {
+			modifier = MRC_rogue_land_mod
+		}
+	}
+}
+
+MRC_initial_trpg = {
+	if = {
+		limit = {
+			original_tag = MRC
+			NOT = { has_country_flag = MRC_trpg_enabled }
+		}
+		clear_array = MRC_point_control
+
+		add_to_array = { MRC_point_control = 0 }
+		resize_array = { MRC_point_control = 6 }
+
+		set_variable = { MRC_point_control^0 = 1 }
+		set_variable = { MRC_point_control^2 = 1 }
+		set_variable = { MRC_point_control^4 = 1 }
+
+		set_variable = { MRC_point_selection = 6 }
+
+		clear_array = MRC_pearce_stat
+		clear_array = MRC_moynihan_stat
+		clear_array = MRC_tibet_stat
+		clear_array = MRC_balance_stat
+
+		add_to_array = { MRC_pearce_stat = 0 }
+		resize_array = { MRC_pearce_stat = 4 }
+		add_to_array = { MRC_moynihan_stat = 0 }
+		resize_array = { MRC_moynihan_stat = 4 }
+		add_to_array = { MRC_tibet_stat = 0 }
+		resize_array = { MRC_tibet_stat = 4 }
+		add_to_array = { MRC_balance_stat = 0 }
+		resize_array = { MRC_balance_stat = 4 }
+
+		set_variable = { MRC_pearce_stat^0 = 1 }
+		set_variable = { MRC_pearce_stat^1 = 1 }
+		set_variable = { MRC_pearce_stat^2 = 2 }
+		set_variable = { MRC_pearce_stat^3 = 3 }
+
+		set_variable = { MRC_moynihan_stat^0 = 2 }
+		set_variable = { MRC_moynihan_stat^1 = 3 }
+		set_variable = { MRC_moynihan_stat^2 = 1 }
+		set_variable = { MRC_moynihan_stat^3 = 1 }
+
+		set_variable = { MRC_tibet_stat^0 = 3 }
+		set_variable = { MRC_tibet_stat^1 = 1 }
+		set_variable = { MRC_tibet_stat^2 = 1 }
+		set_variable = { MRC_tibet_stat^3 = 2 }
+
+		set_variable = { MRC_balance_stat^0 = 1 }
+		set_variable = { MRC_balance_stat^1 = 2 }
+		set_variable = { MRC_balance_stat^2 = 3 }
+		set_variable = { MRC_balance_stat^3 = 1 }
+
+		set_country_flag = MRC_trpg_enabled
+	}
+	MRC_TRPG_initialize_progression = yes
+}
+
+MRC_TRPG_dice = {
+
+	set_temp_variable = { dice_min = 1 }
+	set_temp_variable = { dice_max = 21 }
+
+	set_temp_variable = { dice_player = MRC_player_val }
+	set_temp_variable = { dice_type = MRC_player_stat }
+
+	meta_effect = {
+		text = {
+			set_temp_variable = { dice_mod = MRC_[GET_DICE_PLAYER]_stat^dice_type }
+		}
+		GET_DICE_PLAYER = "[MRC_TRPG_dice_player]"
+	}
+
+	add_to_temp_variable = { dice_min = dice_mod }
+	add_to_temp_variable = { dice_max = dice_mod }
+
+	set_temp_variable_to_random = {
+    	var = dice_result
+    	max = dice_max
+		min = dice_min
+    	integer = yes
+	}
+
+	clamp_temp_variable = {
+		var = dice_result
+		min = 1
+		max = 20
+	}
+
+	set_temp_variable = { dice_remainder = dice_result }
+	modulo_temp_variable = { dice_remainder = 5 }
+	if = {
+		limit = {
+			check_variable = { dice_remainder = 0 }
+		}
+		add_to_temp_variable = { dice_remainder = 5 }
+	}
+	subtract_from_temp_variable = { dice_result = dice_remainder }
+	divide_temp_variable = { dice_result = 5 }
+}
+
+MRC_TRPG_dice_result_generic_event = {
+	if = {
+		limit = {
+			check_variable = { dice_result = 0 }
+		}
+		country_event = MRC_TRPG_dice.1
+	}
+	else_if = {
+		limit = {
+			check_variable = { dice_result = 1 }
+		}
+		country_event = MRC_TRPG_dice.2
+	}
+	else_if = {
+		limit = {
+			check_variable = { dice_result = 2 }
+		}
+		country_event = MRC_TRPG_dice.3
+	}
+	else_if = {
+		limit = {
+			check_variable = { dice_result = 3 }
+		}
+		country_event = MRC_TRPG_dice.4
+	}
+}

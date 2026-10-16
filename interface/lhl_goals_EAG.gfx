@@ -716,4 +716,8 @@ spriteTypes = {
 		name = "GFX_goal_EAG_and_the_winner_is"
 		texturefile = "gfx/interface/goals/EAG/goal_EAG_and_the_winner_is.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_EAG_governors_care"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_governors_care.dds"
+	}
 }

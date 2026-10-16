@@ -460,7 +460,6 @@ equipments = {
 		fuel_consumption = 0.42
 		air_superiority = 1
 		reliability = 0.8
-		}
 
 		naval_strike_attack = 3
 		naval_strike_targetting = 5
@@ -2250,7 +2249,6 @@ equipments = {
 		fuel_consumption = 0.42
 		air_superiority = 1
 		reliability = 0.8
-		}
 
 		naval_strike_targetting = 5
 	}

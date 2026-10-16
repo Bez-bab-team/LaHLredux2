@@ -3,24 +3,41 @@ categories = {
 	air_raids = {
 	    visible = { has_dlc = "Gotterdammerung" }
 	    intel_source = air
+	    faction_influence_score_on_success = 200
+		available = {
+			always = no
+		}
 	}
 	
 
 	paratrooper_raids = {
 	    intel_source = air
 	    visible = { has_dlc = "Gotterdammerung" }
+	    faction_influence_score_on_success = 100
 		available = {
 		    has_tech = paratroopers
+			always = no
 		}
 	}
 
 	nuclear_raids = {
 	    intel_source = air
 	    free_targeting = yes
-
+	    faction_influence_score_on_success = -100
 	    available = {
-	        is_special_project_completed = sp:sp_nuclear_bomb
+			always = no
 	    }
 	}
 
+	land_infiltration_raids = {
+	    intel_source = army
+	    faction_influence_score_on_success = 50
+	    visible = {
+	    	has_dlc = "No Compromise, No Surrender"
+	    	always = no
+	    }
+		available = {
+			always = no
+		}
+	}
 }

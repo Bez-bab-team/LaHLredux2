@@ -5,6 +5,9 @@ on_actions = {
 				parliament_gui_initial = yes
 				klumb_parliament_gui_initial = yes
 			}
+			ESS = {
+				ESS_workers_parliament_gui_initial = yes
+			}
 		}
 	}
 }

@@ -53,4 +53,9 @@ spriteTypes = {
 		name = "GFX_lhl_uk_monarchy_no_king"
 		textureFile = "gfx/interface/uk_monarchy/monarchy_no_king.dds"
 	}
+	##hehe##
+	spriteType = {
+		name = "GFX_Portrait_KNT_Collapsed_Authority"
+		textureFile = "gfx/leaders/KNT/Portrait_KNT_Collapsed_Authority.dds"
+	}
 }

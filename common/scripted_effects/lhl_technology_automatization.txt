@@ -188,7 +188,7 @@ technology_check_automatization = {
 		}
 		ROOT = {
 			set_technology = {
-				automatization_construction_5 = 1
+				automatization_construction_4 = 1
 			}
 		}
 	}
@@ -321,7 +321,7 @@ technology_check_automatization = {
 		}
 		ROOT = {
 			set_technology = {
-				automatization_resources_5 = 1
+				automatization_resources_4 = 1
 			}
 		}
 	}
@@ -537,7 +537,7 @@ technology_switch_automatization = {
 		industrialization_organization_1 = 0
 		industrialization_organization_2_1 = 0
 		industrialization_organization_2_2 = 0
-		industrialization_organization_3:0 = 0
+		industrialization_organization_3 = 0
 		industrialization_organization_4_1 = 0
 		industrialization_organization_4_2 = 0
 		industrialization_organization_5 = 0
@@ -570,7 +570,7 @@ technology_switch_automatization = {
 		green_organization_1 = 0
 		green_organization_2_1 = 0
 		green_organization_2_2 = 0
-		green_organization_3:0 = 0
+		green_organization_3 = 0
 		green_organization_4_1 = 0
 		green_organization_4_2 = 0
 		green_organization_5 = 0
@@ -603,7 +603,7 @@ technology_switch_automatization = {
 		unorthodox_organization_1 = 0
 		unorthodox_organization_2_1 = 0
 		unorthodox_organization_2_2 = 0
-		unorthodox_organization_3:0 = 0
+		unorthodox_organization_3 = 0
 		unorthodox_organization_4_1 = 0
 		unorthodox_organization_4_2 = 0
 		unorthodox_organization_5 = 0

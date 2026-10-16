@@ -1,3 +1,5 @@
 # Yes, this is an empty file.
 # We have to keep it there because Paradox decided to create a whole new country tags file to be used exclusively for Kosovo
 # I have no idea why they would do that when the other country tag file is perfectly serviceable
+#
+# I think this file was taken from TNO. Honestly no idea if it is needed anymore, I just belive in the inherit esoteric nature of HoI4 modding, that requires cetrain things to remain as they are. 

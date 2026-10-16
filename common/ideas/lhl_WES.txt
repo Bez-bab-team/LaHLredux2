@@ -142,6 +142,20 @@ ideas = {
 				war_support_factor = 0.15
 			}
 		}
+		WES_bureaucratic_chaos = {
+			
+			picture = GFX_
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+		        political_power_gain = -0.2		
+			}
+		}
 		
 		WES_electromagnetic_warfare = {
 			
@@ -791,6 +805,207 @@ ideas = {
 	}
 	country = {
 	
+		WES_stuff = {
+			
+			picture = WES_test
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			modifier = {
+				land_doctrine_cost_factor = -0.1
+				production_factory_start_efficiency_factor = 0.08
+				production_factory_efficiency_gain_factor = 0.08
+			}
+		}
+	
+		WES_restored_yeomanry = {
+			
+			picture = WES_test
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			modifier = {
+				cavalry_attack_factor = 0.15
+				cavalry_defence_factor = 0.15
+			}
+		}
+	
+		WES_law_of_the_king_1 = {
+			
+			picture = WES_test
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			modifier = {
+				army_core_defence_factor = 0.05
+				stability_factor = -0.05
+				required_garrison_factor = -0.1
+				compliance_growth_on_our_occupied_states = -0.15
+			}
+		}
+		
+		WES_law_of_the_king_2 = {
+			
+			picture = WES_test
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			modifier = {
+				army_core_defence_factor = 0.02
+				political_power_gain = -0.02
+				required_garrison_factor = -0.08
+				compliance_growth_on_our_occupied_states = -0.4
+			}
+		}
+	
+		WES_winter_of_our_discontent = {
+			
+			picture = WES_test
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			modifier = {
+				army_core_attack_factor = -0.12
+				army_core_defence_factor = -0.12
+				army_speed_factor = -0.08
+				production_factory_max_efficiency_factor = -0.1 
+			}
+		}
+		WES_winter_of_our_discontent_2 = {
+			
+			picture = WES_test
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			modifier = {
+				army_core_attack_factor = -0.06
+				army_core_defence_factor = -0.06
+				army_speed_factor = -0.04
+				production_factory_max_efficiency_factor = -0.1 
+			}
+		}
+		WES_winter_of_our_discontent_3 = {
+			
+			picture = WES_test
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			modifier = {
+				army_core_attack_factor = -0.02
+				army_core_defence_factor = -0.02
+				army_speed_factor = -0.04
+				production_factory_max_efficiency_factor = -0.1 
+				coordination_bonus = 0.15
+				army_org_factor = 0.1
+			}
+		}
+		WES_winter_of_our_discontent_4_1 = {
+			
+			picture = WES_test
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			modifier = {
+				army_core_attack_factor = -0.02
+				army_core_defence_factor = -0.02
+				army_speed_factor = -0.04
+				production_factory_max_efficiency_factor = -0.1 
+				coordination_bonus = 0.15
+				army_org_factor = 0.1
+				pocket_penalty = -0.35
+			}
+		}
+		WES_winter_of_our_discontent_4_2 = {
+			
+			picture = WES_test
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			modifier = {
+				army_core_attack_factor = -0.02
+				army_core_defence_factor = -0.02
+				army_speed_factor = -0.04
+				production_factory_max_efficiency_factor = -0.1 
+				coordination_bonus = 0.15
+				army_org_factor = 0.1
+				naval_invasion_prep_speed = 1.0
+				naval_invasion_penalty = -0.3
+				invasion_preparation = -0.3
+			}
+		}
+		WES_sussex_defectors = {
+			
+			picture = WES_test
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			modifier = {
+				weekly_manpower = 300
+			}
+		}
+		WES_a_commonwealth_of_hope = {
+			
+			picture = WES_test
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.25
+				army_org_factor = 0.05
+				army_morale_factor = 0.05
+				experience_loss_factor = -0.15
+			}
+		}
+		WES_anti_vehicle_training = {
+			
+			picture = WES_test
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.25
+				army_org_factor = 0.05
+				army_morale_factor = 0.05
+				experience_loss_factor = -0.15
+			}
+		}
+		
 		WES_battle_camlann = {
 			
 			picture = WES_test
@@ -829,17 +1044,6 @@ ideas = {
 				production_factory_start_efficiency_factor = -0.15
 			}
 		}
-		
-		WES_george_legitimacy = {
-			
-			picture = WES_test
-
-			allowed = {
-				always = no
-			}
-
-			removal_cost = -1
-		}
 		###RULE OF HELL##
 		WES_transformation_build_infrastructure = {
 			
@@ -870,6 +1074,350 @@ ideas = {
 				industry_repair_factor = 0.3
 				production_factory_max_efficiency_factor = 0.3
 				production_lack_of_resource_penalty_factor = -0.3
+			}
+		}
+		###KNIGHTS OF GEORGE###
+		#Pantler#
+		WES_knight_Michael_Mainelli = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.03
+				production_speed_buildings_factor = 0.03
+				political_advisor_cost_factor = -0.1
+				economy_cost_factor = -0.1
+				trade_laws_cost_factor = -0.1
+				mobilization_laws_cost_factor = -0.1
+			}
+		}
+		#WES_knight_Jacob_Rees-Mogg = { #Replace with Dynamic Modifier
+		#	allowed = {
+		#		always = no
+		#	}
+		#	removal_cost = -1
+		#	modifier = {
+		#	}
+		#}
+		WES_knight_Phillip_Blond = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		#CHAPELMASTER#
+		WES_knight_Stephen_Fry = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Ephraim_of_Vatopedi = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Paul_Kingsnorth = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		#CHANCELLOR#
+		WES_knight_Clive_Alderton = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Michael_of_Kent = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Douglas_Pearce = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		#KEEPER OF SEALS#
+		WES_knight_Ian_Martin = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Peter_St_Clair-Erskine = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Jonathan_Sumption = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		#HERALD#
+		WES_knight_Edward_Young = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Link_Byfield = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Robin_Page = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				monthly_population = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+		#CHAMBERLAIN#
+		WES_knight_Jonathon_Porritt = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				supply_consumption_factor = -0.15
+				line_change_production_efficiency_factor = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+		WES_knight_Roger_Scruton = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				army_core_defence_factor = 0.1
+				army_morale_factor = 0.08
+				production_factory_start_efficiency_factor = 0.05
+			}
+		}
+		WES_knight_Nikolai_Tolstoy = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.05
+				war_support_factor = 0.05
+				required_garrison_factor = -0.15
+			}
+		}
+		#HIGH ADMIRAL#
+		WES_knight_Ian_Forbes = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				special_forces_training_time_factor = -0.2
+				experience_gain_navy_factor = 0.15
+				modern_ship_hull_heavy_design_cost_factor = -0.25
+				modern_ship_hull_cruiser_design_cost_factor = -0.25
+				modern_ship_hull_carrier_design_cost_factor = -0.25
+				modern_ship_hull_light_design_cost_factor = -0.25
+				modern_ship_hull_submarine_design_cost_factor = -0.25
+			}
+		}
+		WES_knight_Stephen_Dalton = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				air_superiority_efficiency = 0.15
+				experience_gain_air_factor = 0.15
+				small_plane_airframe_design_cost_factor = -0.25
+				cv_small_plane_airframe_design_cost_factor = -0.25
+				medium_plane_airframe_design_cost_factor = -0.25
+				large_plane_airframe_design_cost_factor = -0.25
+				cv_medium_plane_airframe_design_cost_factor = -0.25
+			}
+		}
+		WES_knight_Tony_Johnstone-Burt = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				experience_gain_air_factor = 0.05
+				experience_gain_navy_factor = 0.05
+				pocket_penalty = -0.3
+				special_forces_defence_factor = 0.1
+			}
+		}
+		#HIGH CONSTABLE#
+		WES_knight_Richard_Evans = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Alex_Cresswell = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Philip_Luty = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		#SCHOLAR#
+		WES_knight_Andrew_Garrad = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		WES_knight_Nikita_Lobanov = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.05
+				local_resources_factor = 0.1
+				base_fuel_gain_factor = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+		WES_knight_Patrick_Moore = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		#TREASURER#
+		WES_knight_Mark_Carney = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_start_efficiency_factor = 0.05
+				production_factory_max_efficiency_factor = 0.1		
+			}
+		}
+		WES_knight_Leon_Krier = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				supply_consumption_factor = -0.1
+				consumer_goods_factor = -0.05
+				global_building_slots_factor = 0.05
+			}
+		}
+		WES_knight_David_Triggs = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.08
+				consumer_goods_factor = -0.05
+				production_factory_start_efficiency_factor = 0.1
+			}
+		}
+		#MARSHAL#
+		WES_knight_Prince_Harry_traitor = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.1
+			}
+		}
+		WES_knight_Prince_Harry = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				air_strategic_bomber_bombing_factor = 0.3
+				coordination_bonus = 0.25
+				supply_factor = 0.15
+			}
+		}
+		WES_knight_David_Richards = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				breakthrough_factor = 0.05
+				army_speed_factor = 0.05
+				army_armor_attack_factor = 0.15
+			}
+		}
+		WES_knight_Rupert_Smith = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				cavalry_attack_factor = 0.25
+				cavalry_defence_factor = 0.25
+				army_speed_factor = 0.1
 			}
 		}
 	}

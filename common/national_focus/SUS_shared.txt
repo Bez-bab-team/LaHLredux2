@@ -98,10 +98,28 @@ shared_focus = {
 	cost = 4.3
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus SUS_witches_squadrons"
-		add_manpower = -3500
-		recruit_character = SUS_hannah_winterbourne
-		recruit_character = SUS_preet_chandi
-		hidden_effect = { load_oob = SUS_Amazons }
+		SUS = {
+			add_manpower = -3500
+			add_corps_commander_role = {
+				Character = SUS_hannah_winterbourne
+				skill = 1
+				attack_skill = 1
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+				legacy_id = -1
+			}
+			add_corps_commander_role = {
+				Character = SUS_preet_chandi
+				skill = 1
+				attack_skill = 1
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+				legacy_id = -1
+			}
+			hidden_effect = { load_oob = SUS_Amazons }
+		}
 		custom_effect_tooltip = SUS_witches_squadrons_tt
     }
 	prerequisite = {
@@ -1639,8 +1657,9 @@ shared_focus = {
 				category = air_doctrine 
 			}
 		add_equipment_subsidy = {
-				cic = 2000
-				equipment_type = medium_plane_airframe
+			cic = 2000
+			equipment_type = medium_plane_airframe
+			seller_tags = { SUS }
 		}
 	}
 	prerequisite = {
@@ -3251,7 +3270,7 @@ shared_focus = {
 		focus = SUS_integrate_peoples_militias
 	}	
 	mutually_exclusive = {
-		focus = SUS_machine_warfare
+		focus = SUS_automatic_death
 	}
 	relative_position_id = SUS_national_service_act
 	cost = 4.3
@@ -3498,7 +3517,6 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus SUS_face_the_future"
 		add_dynamic_modifier = { 
 			modifier = SUS_labourist_reconstruction_spirit 
-			}
 		}
 		add_to_variable = {
 			var = SUS_l_reconstruction_industry_free_repair_factor
@@ -3509,6 +3527,7 @@ shared_focus = {
 			value = 0.05
 		}
 		custom_effect_tooltip = SUS_face_the_future_tt
+	}
 	available = {
 		has_country_flag = SUSSEX_labour_britain_reunified
 	}
@@ -5094,7 +5113,7 @@ shared_focus = {
 			}
 		}
 		add_equipment_to_stockpile = {
-			type = ship_torpedo_sub_1
+			type = modern_submarine_1
 			amount = 100
 			variant_name = "#"
 		}
@@ -7060,7 +7079,7 @@ shared_focus = {
 		SUS = {
 			division_template = {
 				name = "Legalised Militia"
-				division_names_group = SUS_INF_22
+				division_names_group = SUS_INF_01
 				force_allow_recruiting = yes
 
 				regiments = {
@@ -7144,7 +7163,7 @@ shared_focus = {
 		focus = SUS_top_secret
 	}
 	mutually_exclusive = {
-		focus = SUS_civil_resettlement_units
+		focus = SUS_civilian_conservation_corps
 	}
 	relative_position_id = SUS_top_secret
 	cost = 4.3
@@ -7314,7 +7333,7 @@ shared_focus = {
 			var = SUS_s_reconstruction_decryption_factor
 			value = 0.2
 		}
-		add_research_slots = 1
+		add_research_slot = 1
 		custom_effect_tooltip = SUS_tempora_tt
 	}
 	prerequisite = {

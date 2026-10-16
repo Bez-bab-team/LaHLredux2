@@ -1,0 +1,58 @@
+guiTypes = {
+	containerWindowType = {
+		name = "lhl_ESS_torch_of_revolution_screen_full"
+		size = { width = 1000 height = 400 }
+		position = { x = 150 y = 0 }
+		scale = 1.0
+		moveable = no
+		clipping = yes
+		##Torch of The Revolution##
+		#Normal#
+		iconType = {
+			name = "lhl_ESS_torch_of_revolution"
+			spriteType = "GFX_ESS_torch_of_revolution"
+			position = { x = 150 y = 0 }
+		}
+		#Activated#
+		iconType = {
+			name = "lhl_ESS_torch_of_revolution_activated"
+			spriteType = "GFX_ESS_torch_of_revolution_activated"
+			position = { x = 150 y = 0 }
+		}
+		##Flames##
+		#1#
+		iconType = { 
+			name = "lhl_ESS_torch_flame_1"
+			position = { x = 200 y = 45 }
+			spriteType = "GFX_ESS_torch_flame_1"
+		}
+		#2#
+		iconType = { 
+			name = "lhl_ESS_torch_flame_2"
+			position = { x = 280 y = 25 }
+			spriteType = "GFX_ESS_torch_flame_2"
+		}
+		#3#
+		iconType = { 
+			name = "lhl_ESS_torch_flame_3"
+			position = { x = 170 y = 5 }
+			spriteType = "GFX_ESS_torch_flame_3"
+		}
+		#4#
+		iconType = { 
+			name = "lhl_ESS_torch_flame_4"
+			position = { x = 150 y = 0 }
+			spriteType = "GFX_ESS_torch_flame_4"
+		}
+		#Text#
+		instantTextboxType = {
+			name = "lhl_ESS_torch_of_revolution_text"
+			position = { x = 100 y = 320 }
+			font = "hoi_24header"
+			text = "ESS_TORCH_TITLE"
+			maxWidth = 300
+			format = centre
+			alwaystransparent = yes
+		}
+	}
+}

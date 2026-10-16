@@ -1,0 +1,136 @@
+MRC_prologue_start = {
+	MRC_adventure_sync_characters = yes
+	if = {
+		limit = {
+			original_tag = MRC
+			NOT = { has_country_flag = MRC_quest_zero_completed }
+		}
+		if = {
+			limit = { has_country_flag = MRC_trpg_enabled }
+			MRC_prologue_migrate = yes
+		}
+		else_if = {
+			limit = { has_country_flag = MRC_birmingham_prologue_completed }
+			set_country_flag = MRC_quest_zero_completed
+			set_variable = { MRC_prologue_stage = 4 }
+		}
+		else_if = {
+			limit = { NOT = { has_country_flag = MRC_birmingham_prologue_started } }
+			set_country_flag = MRC_birmingham_prologue_started
+			set_variable = { MRC_prologue_stage = 0 }
+			country_event = { id = MRC_prologue.1 days = 1 }
+		}
+	}
+	if = {
+		limit = {
+			original_tag = MRC
+			has_country_flag = MRC_quest_zero_completed
+			OR = {
+				NOT = { has_completed_focus = MRC_the_calling }
+				NOT = { has_country_flag = MRC_trpg_enabled }
+			}
+		}
+		MRC_quest_zero_complete_calling = yes
+	}
+}
+
+MRC_prologue_migrate = {
+	if = {
+		limit = {
+			original_tag = MRC
+			has_country_flag = MRC_trpg_enabled
+			NOT = { has_country_flag = MRC_quest_zero_completed }
+		}
+		set_country_flag = MRC_birmingham_prologue_started
+		set_country_flag = MRC_birmingham_prologue_completed
+		set_country_flag = MRC_quest_zero_completed
+		set_variable = { MRC_prologue_stage = 4 }
+		if = {
+			limit = { NOT = { has_completed_focus = MRC_the_calling } }
+			complete_national_focus = MRC_the_calling
+		}
+	}
+}
+
+MRC_prologue_advance_1 = {
+	if = {
+		limit = {
+			original_tag = MRC
+			has_country_flag = MRC_birmingham_prologue_started
+			NOT = { has_country_flag = MRC_quest_zero_completed }
+			check_variable = { MRC_prologue_stage = 0 }
+		}
+		set_variable = { MRC_prologue_stage = 1 }
+		set_country_flag = MRC_prologue_pearce_arrived
+		country_event = { id = MRC_prologue.2 days = 6 }
+	}
+}
+
+MRC_prologue_advance_2 = {
+	if = {
+		limit = {
+			original_tag = MRC
+			has_country_flag = MRC_birmingham_prologue_started
+			NOT = { has_country_flag = MRC_quest_zero_completed }
+			check_variable = { MRC_prologue_stage = 1 }
+		}
+		set_variable = { MRC_prologue_stage = 2 }
+		set_country_flag = MRC_prologue_moynihan_arrived
+		country_event = { id = MRC_prologue.3 days = 7 }
+	}
+}
+
+MRC_prologue_advance_3 = {
+	if = {
+		limit = {
+			original_tag = MRC
+			has_country_flag = MRC_birmingham_prologue_started
+			NOT = { has_country_flag = MRC_quest_zero_completed }
+			check_variable = { MRC_prologue_stage = 2 }
+		}
+		set_variable = { MRC_prologue_stage = 3 }
+		set_country_flag = MRC_prologue_tibet_arrived
+		set_country_flag = MRC_prologue_balance_arrived
+		country_event = { id = MRC_prologue.4 days = 6 }
+	}
+}
+
+MRC_prologue_finish = {
+	if = {
+		limit = {
+			original_tag = MRC
+			has_country_flag = MRC_birmingham_prologue_started
+			check_variable = { MRC_prologue_stage = 3 }
+			NOT = { has_country_flag = MRC_quest_zero_completed }
+		}
+		set_variable = { MRC_prologue_stage = 4 }
+		set_country_flag = MRC_quest_zero_completed
+		set_country_flag = MRC_birmingham_prologue_completed
+		MRC_quest_zero_complete_calling = yes
+	}
+}
+
+MRC_quest_zero_complete_calling = {
+ if = {
+  limit = {
+   original_tag = MRC
+   has_country_flag = MRC_quest_zero_completed
+  }
+  if = {
+   limit = { NOT = { has_completed_focus = MRC_the_calling } }
+   complete_national_focus = MRC_the_calling
+  }
+  MRC_quest_zero_open_paths = yes
+ }
+}
+
+MRC_quest_zero_open_paths = {
+	if = {
+		limit = {
+			original_tag = MRC
+			has_country_flag = MRC_quest_zero_completed
+			has_completed_focus = MRC_the_calling
+		}
+		MRC_initial_trpg = yes
+	}
+}

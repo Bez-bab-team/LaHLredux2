@@ -2,7 +2,7 @@
 
 oob = "ROM_2020"
 
-recruit_character = ANR_dorin_george_lala
+recruit_character = ANR_sergiu_lascu
 
 set_research_slots = 3
 

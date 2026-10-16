@@ -18,7 +18,7 @@
  ##TRAITS##
  greatraven:0 "Great Raven"
  maenad:0 "Maenad"
- renaissance_man:0 "Renaissance Man"
+ #renaissance_man:0 "Renaissance Man"
  black_monk:0 "Black Monk"
  at_the_crossroads:0 "At The Crossroads"
  ##IDEAS##
@@ -114,7 +114,6 @@
  MSC_nordic_heritage_desc:0 "Black Church" 
 
  MSC_legalization_of_Pogroms:0 "Black Faith"
- MSC_legalization_of_Pogroms:0 "Black Faith" 
  ##DECISIONS##
  ##EVENTS##
 

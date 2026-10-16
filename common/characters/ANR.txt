@@ -1,9 +1,9 @@
 characters={
-	ANR_dorin_george_lala={
-		name=ANR_dorin_george_lala
+	ANR_sergiu_lascu={
+		name=ANR_sergiu_lascu
 		portraits={
 			civilian={
-				large="gfx/leaders/ANR/Portrait_ANR_Dorin_George_Lala.dds"
+				large="gfx/leaders/ANR/Portrait_ANR_Sergiu_Lascu.dds"
 			}
 		}
 		country_leader={

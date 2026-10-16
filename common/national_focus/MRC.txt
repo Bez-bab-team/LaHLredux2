@@ -1,24 +1,15 @@
 focus_tree = {
-	id = MRC_first
+	id = MRC_intro_tree
 	default = no
 	continuous_focus_position = { x = 20 y = 4000 }
-        shared_focus = MRC_the_calling
-	country = {
-		factor = 0
-		modifier = {
-			add = 1
-			tag = MRC
-			
-		}
-	}
-}
-
-focus_tree = {
-	id = MRC_madoka_magica
-	default = no
-	continuous_focus_position = { x = 20 y = 4000 }
-        shared_focus = MRC_the_calling
-		shared_focus = MRC_falling_into_darkness
+	shared_focus = MRC_the_calling
+	shared_focus = MRC_born_again
+	shared_focus = MRC_state_laughter
+	shared_focus = MRC_flies_have_their_house
+	shared_focus = MRC_bring_in_the_night
+	shared_focus = MRC_take_care_and_control
+	shared_focus = MRC_fog_of_the_world
+	shared_focus = MRC_the_corn_years
 	country = {
 		factor = 0
 		modifier = {
@@ -27,49 +18,3 @@ focus_tree = {
 		}
 	}
 }
-
-focus_tree = {
-	id = MRC_christian
-	default = no
-	continuous_focus_position = { x = 20 y = 4000 }
-        shared_focus = MRC_the_calling
-		shared_focus = MRC_apostolic_nation
-	country = {
-		factor = 0
-		modifier = {
-			add = 1
-			tag = MRC
-		}
-	}
-}
-
-focus_tree = {
-	id = MRC_ancient_empire
-	default = no
-	continuous_focus_position = { x = 20 y = 4000 }
-        shared_focus = MRC_the_calling
-		shared_focus = MRC_ancient_empire
-	country = {
-		factor = 0
-		modifier = {
-			add = 1
-			tag = MRC
-		}
-	}
-}
-
-focus_tree = {
-	id = MRC_anglo_saxons
-	default = no
-	continuous_focus_position = { x = 20 y = 4000 }
-        shared_focus = MRC_the_calling
-		shared_focus = MRC_anglo_saxons
-	country = {
-		factor = 0
-		modifier = {
-			add = 1
-			tag = MRC
-		}
-	}
-}
-

@@ -1,9 +1,9 @@
 characters={
-	BUL_slavcho_binev={
-		name=BUL_slavcho_binev
+	BUL_rumen_ralchev={
+		name=BUL_rumen_ralchev
 		portraits={
 			civilian={
-				large="gfx/leaders/BUL/Portrait_BUL_Slavcho_Binev.dds"
+				large="gfx/leaders/BUL/Portrait_BUL_Rumen_Ralchev.dds"
 			}
 		}
 		country_leader={

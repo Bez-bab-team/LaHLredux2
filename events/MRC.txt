@@ -1,4 +1,72 @@
 add_namespace = MRC_event
+add_namespace = MRC_TRPG
+add_namespace = MRC_TRPG_dice
+
+country_event = { #Generic Critical Fail
+	id = MRC_TRPG_dice.1
+	title = MRC_TRPG_dice.1.t
+	desc = MRC_TRPG_dice.1.d
+	picture = x
+	is_triggered_only = yes
+	option = {
+		name = MRC_TRPG_dice.1.a
+		
+	}
+}
+
+country_event = { #Generic Fail
+	id = MRC_TRPG_dice.2
+	title = MRC_TRPG_dice.2.t
+	desc = MRC_TRPG_dice.2.d
+	picture = x
+	is_triggered_only = yes
+	option = {
+		name = MRC_TRPG_dice.2.a
+		
+	}
+}
+
+country_event = { #Generic Success
+	id = MRC_TRPG_dice.3
+	title = MRC_TRPG_dice.3.t
+	desc = MRC_TRPG_dice.3.d
+	picture = x
+	is_triggered_only = yes
+	option = {
+		name = MRC_TRPG_dice.3.a
+		
+	}
+}
+
+country_event = { #Generic Critical Success
+	id = MRC_TRPG_dice.4
+	title = MRC_TRPG_dice.4.t
+	desc = MRC_TRPG_dice.4.d
+	picture = x
+	is_triggered_only = yes
+	option = {
+		name = MRC_TRPG_dice.4.a
+		
+	}
+}
+
+country_event = { 
+	id = MRC_TRPG.1
+	title = MRC_TRPG.1.t
+	desc = MRC_TRPG.1.d
+	picture = x
+	is_triggered_only = yes
+	option = {
+		name = MRC_TRPG.1.a
+		hidden_effect = {
+			set_temp_variable = { MRC_player_val = 3 }
+			set_temp_variable = { MRC_player_stat = 3 }
+			MRC_TRPG_dice = yes
+			MRC_TRPG_dice_result_generic_event = yes
+		}
+	}
+}
+
 
 country_event = {
 	id = MRC_event.1

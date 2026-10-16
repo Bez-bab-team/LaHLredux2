@@ -124,3 +124,577 @@ defined_text = {
 	}
 
 }
+
+defined_text = {
+	name = GetESSPiechartState
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_state_active = 1 }
+		}
+		localization_key = ESS_pie_chart_state_active_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartConstruction
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_construction_active = 1 }
+		}
+		localization_key = ESS_pie_chart_construction_active_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartPmc
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_pmc_active = 1 }
+		}
+		localization_key = ESS_pie_chart_pmc_active_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartSpy
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_spy_active = 1 }
+		}
+		localization_key = ESS_pie_chart_spy_active_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartMedia
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_media_active = 1 }
+		}
+		localization_key = ESS_pie_chart_media_active_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartTourism
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_tourism_active = 1 }
+		}
+		localization_key = ESS_pie_chart_tourism_active_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartFarming
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_farming_active = 1 }
+		}
+		localization_key = ESS_pie_chart_farming_active_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartHealthcare
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_healthcare_active = 1 }
+		}
+		localization_key = ESS_pie_chart_healthcare_active_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartPeople
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_people_shares_active = 1 }
+		}
+		localization_key = ESS_pie_chart_people_shares_active_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartSmallCompanies
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+		}
+		localization_key = ESS_pie_chart_small_companies_active_tt
+	}
+}
+###ESS MOLDBUG INCOME###
+defined_text = {
+	name = GetESSPiechartMilIncome
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_crack_down_on_unions
+			}
+		}
+		localization_key = ESS_mil_income_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartDubaiIncome
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_dubai_london
+			}
+		}
+		localization_key = ESS_dubai_income_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartResourcesIncome
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_revitalize_mining_indudstry
+			}
+		}
+		localization_key = ESS_resources_income_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartPrisonsIncome
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_private_prisons_active
+			}
+		}
+		localization_key = ESS_prisons_income_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartFairGroundsIncome
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_fair_grounds_active
+			}
+		}
+		localization_key = ESS_fair_grounds_income_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartInvestmentIncome
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_investment_active
+			}
+		}
+		localization_key = ESS_investment_income_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartBankingIncome
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_banking_active
+			}
+		}
+		localization_key = ESS_banking_income_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartSoftwareIncome
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_software_active
+			}
+		}
+		localization_key = ESS_software_income_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartSpaceTourismIncome
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_space_tourism_active
+			}
+		}
+		localization_key = ESS_space_tourism_income_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartFeudalismIncome
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_feudal_lords_active
+			}
+		}
+		localization_key = ESS_feudal_lords_income_tt
+	}
+}
+defined_text = {
+	name = GetESSPiechartBioreactorIncome
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_bioreactor_active
+			}
+		}
+		localization_key = ESS_bioreactor_income_tt
+	}
+}
+###ESS LOCAL CEO NAME GENERATOR###
+defined_text = {
+    name = GetESSLocalCEOName
+    text = {
+        random_list = {
+            10 = { localization_key = ESS_local_CEO_name_1 }
+            10 = { localization_key = ESS_local_CEO_name_2 }
+			10 = { localization_key = ESS_local_CEO_name_3 }
+			10 = { localization_key = ESS_local_CEO_name_4 }
+			10 = { localization_key = ESS_local_CEO_name_5 }
+			10 = { localization_key = ESS_local_CEO_name_6 }
+			10 = { localization_key = ESS_local_CEO_name_7 }
+			10 = { localization_key = ESS_local_CEO_name_8 }
+			10 = { localization_key = ESS_local_CEO_name_9 }
+			10 = { localization_key = ESS_local_CEO_name_10 }
+        }
+    }
+}
+defined_text = {
+    name = GetESSLocalCEOSurname
+    text = {
+        random_list = {
+            10 = { localization_key = ESS_local_CEO_surname_1 }
+            10 = { localization_key = ESS_local_CEO_surname_2 }
+			10 = { localization_key = ESS_local_CEO_surname_3 }
+			10 = { localization_key = ESS_local_CEO_surname_4 }
+			10 = { localization_key = ESS_local_CEO_surname_5 }
+			10 = { localization_key = ESS_local_CEO_surname_6 }
+			10 = { localization_key = ESS_local_CEO_surname_7 }
+			10 = { localization_key = ESS_local_CEO_surname_8 }
+			10 = { localization_key = ESS_local_CEO_surname_9 }
+			10 = { localization_key = ESS_local_CEO_surname_10 }
+        }
+    }
+}
+####
+defined_text = {
+	name = GetESSQuarterRequestLoc
+	text = {
+		trigger = {
+			check_variable = {
+				var = ESS_board_of_directors_income
+				value = ESS_board_of_directors_income_new
+				compare = less_than
+			}
+		}
+		localization_key = ESS_quarter_request_failing
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ESS_board_of_directors_income
+				value = ESS_board_of_directors_income_new
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = ESS_quarter_request_success
+	}
+}
+###
+defined_text = {
+	name = GetESSStateCorpoHealthcareTT
+	text = {
+		trigger = {
+			ESS = {
+				ESS_emma_walmsley = {
+					is_country_leader = yes
+				}
+			}
+		}
+		localization_key = ESS_corpo_state_healthcare_tt
+	}
+}
+defined_text = {
+	name = GetESSStateCorpoConstructionTT
+	text = {
+		trigger = {
+			ESS = {
+				ESS_clive_palmer = {
+					is_country_leader = yes
+				}
+			}
+		}
+		localization_key = ESS_corpo_state_construction_tt
+	}
+}
+defined_text = {
+	name = GetESSStateCorpoPMCTT
+	text = {
+		trigger = {
+			ESS = {
+				SUS_tim_spicer = {
+					is_country_leader = yes
+				}
+			}
+		}
+		localization_key = ESS_corpo_state_pmc_tt
+	}
+}
+defined_text = {
+	name = GetESSMiscCorpo1
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_1_active
+			}
+		}
+		localization_key = ESS_corpo_small_companies_1_tt
+	}
+}
+defined_text = {
+	name = GetESSMiscCorpo2
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_2_active
+			}
+		}
+		localization_key = ESS_corpo_small_companies_2_tt
+	}
+}
+defined_text = {
+	name = GetESSMiscCorpo3
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_3_active
+			}
+		}
+		localization_key = ESS_corpo_small_companies_3_tt
+	}
+}
+defined_text = {
+	name = GetESSMiscCorpo4
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_4_active
+			}
+		}
+		localization_key = ESS_corpo_small_companies_4_tt
+	}
+}
+defined_text = {
+	name = GetESSMiscCorpo5
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_5_active
+			}
+		}
+		localization_key = ESS_corpo_small_companies_5_tt
+	}
+}
+defined_text = {
+	name = GetESSMiscCorpo6
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_6_active
+			}
+		}
+		localization_key = ESS_corpo_small_companies_6_tt
+	}
+}
+defined_text = {
+	name = GetESSMiscCorpo7
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_7_active
+			}
+		}
+		localization_key = ESS_corpo_small_companies_7_tt
+	}
+}
+defined_text = {
+	name = GetESSMiscCorpo8
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_8_active
+			}
+		}
+		localization_key = ESS_corpo_small_companies_8_tt
+	}
+}
+defined_text = {
+	name = GetESSMiscCorpo9
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_9_active
+			}
+		}
+		localization_key = ESS_corpo_small_companies_9_tt
+	}
+}
+defined_text = {
+	name = GetESSMiscCorpo10
+	text = {
+		trigger = {
+			check_variable = { ESS_pie_chart_small_companies_active = 1 }
+			ESS = {
+				has_country_flag = ESS_small_corpo_10_active
+			}
+		}
+		localization_key = ESS_corpo_small_companies_10_tt
+	}
+}
+
+defined_text = {
+	name = GetESSRevolutionaryFire
+	text = {
+		trigger = {
+			NOT = {
+				OR = {
+					ESS = {
+						has_country_flag = ESS_torch_of_revolution_1
+					}
+					ESS = {
+						has_country_flag = ESS_torch_of_revolution_2
+					}
+					ESS = {
+						has_country_flag = ESS_torch_of_revolution_3
+					}
+					ESS = {
+						has_country_flag = ESS_torch_of_revolution_4
+					}
+					ESS = {
+						has_country_flag = ESS_torch_of_revolution_5
+					}
+				}
+			}
+		}
+		localization_key = ESS_revolutionary_fire_0
+	}
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_1
+			}
+			NOT = {
+				OR = {
+					ESS = {
+						has_country_flag = ESS_torch_of_revolution_2
+					}
+					ESS = {
+						has_country_flag = ESS_torch_of_revolution_3
+					}
+					ESS = {
+						has_country_flag = ESS_torch_of_revolution_4
+					}
+					ESS = {
+						has_country_flag = ESS_torch_of_revolution_5
+					}
+				}
+			}
+		}
+		localization_key = ESS_revolutionary_fire_1
+	}
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_1
+			}
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_2
+			}
+			NOT = {
+				OR = {
+					ESS = {
+						has_country_flag = ESS_torch_of_revolution_3
+					}
+					ESS = {
+						has_country_flag = ESS_torch_of_revolution_4
+					}
+					ESS = {
+						has_country_flag = ESS_torch_of_revolution_5
+					}
+				}
+			}
+		}
+		localization_key = ESS_revolutionary_fire_2
+	}
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_1
+			}
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_2
+			}
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_3
+			}
+			NOT = {
+				OR = {
+					ESS = {
+						has_country_flag = ESS_torch_of_revolution_4
+					}
+					ESS = {
+						has_country_flag = ESS_torch_of_revolution_5
+					}
+				}
+			}
+		}
+		localization_key = ESS_revolutionary_fire_3
+	}
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_1
+			}
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_2
+			}
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_3
+			}
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_4
+			}
+			NOT = {
+				ESS = {
+					has_country_flag = ESS_torch_of_revolution_5
+				}
+			}
+		}
+		localization_key = ESS_revolutionary_fire_4
+	}
+	text = {
+		trigger = {
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_1
+			}
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_2
+			}
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_3
+			}
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_4
+			}
+			ESS = {
+				has_country_flag = ESS_torch_of_revolution_5
+			}
+		}
+		localization_key = ESS_revolutionary_fire_5
+	}
+}

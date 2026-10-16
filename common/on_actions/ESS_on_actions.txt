@@ -1,4 +1,37 @@
 on_actions = {
+	on_weekly_ESS = { 
+		effect = {
+			if = {
+				limit = {
+					check_variable = { ESS_corpo_state < 50 }	
+					NOT = {
+						ESS = {
+							has_country_flag = ESS_increase_state_corpo_request_active
+						}
+						hidden_trigger = {
+							ESS_alois = {
+								is_country_leader = yes
+							}
+						}
+					}
+				}
+				ESS = {
+					country_event = {
+						days = 0
+						id = ESS_event.71
+					}
+				}
+			}
+		}
+	}
+	on_weekly_ESS = {  ###Piechart on_action. Big thanks to Yard1 and his "HoI4-Scripted-GUI-Pie-Chart" example mod###
+		effect = {
+			if = {
+				limit = { is_ai = no }
+				lhl_ESS_piechart_corporations_calculations = yes
+			}
+		}
+	}
 	on_daily = {  ###Piechart on_action. Big thanks to Yard1 and his "HoI4-Scripted-GUI-Pie-Chart" example mod###
 		effect = {
 			if = {
@@ -7,22 +40,34 @@ on_actions = {
 			}
 		}
 	}
+	on_daily_ESS = {  ###Piechart on_action. Big thanks to Yard1 and his "HoI4-Scripted-GUI-Pie-Chart" example mod###
+		effect = {
+			lhl_ESS_income_calculation = yes
+		}
+	}
+	on_monthly_ESS = {  ###Piechart on_action. Big thanks to Yard1 and his "HoI4-Scripted-GUI-Pie-Chart" example mod###
+		effect = {
+			add_to_variable = { ESS_board_of_directors_budget = ESS_board_of_directors_income }
+		}
+	}
 	on_startup = {
-		set_variable = {
-			var = ESS_corpo_state
-			value = 50
-		}
-		set_variable = {
-			var = ESS_corpo_healthcare
-			value = 30
-		}
-		set_variable = {
-			var = ESS_corpo_construction
-			value = 10
-		}
-		set_variable = {
-			var = ESS_corpo_farming
-			value = 10
+		effect = {
+			set_variable = {
+				var = ESS_corpo_state
+				value = 50
+			}
+			set_variable = {
+				var = ESS_corpo_healthcare
+				value = 30
+			}
+			set_variable = {
+				var = ESS_corpo_construction
+				value = 10
+			}
+			set_variable = {
+				var = ESS_corpo_farming
+				value = 10
+			}
 		}
 	}
     on_capitulation = {
@@ -157,6 +202,27 @@ on_actions = {
 					value = 250
 				} 
 			}
+		}
+	}
+	on_monthly_ESS = {  ###Small Companies event###
+		random_events = {
+			100 = ESS_event.78
+			100 = ESS_event.79
+			100 = ESS_event.80
+			100 = ESS_event.81
+			100 = ESS_event.82
+			100 = ESS_event.83
+			100 = ESS_event.84
+			100 = ESS_event.85
+			100 = ESS_event.86
+			100 = ESS_event.87
+		}
+	}
+	on_monthly_ESS = {  ###Small Companies event###
+		random_events = {
+			100 = ESS_event.54
+			100 = ESS_event.55
+			100 = ESS_event.56
 		}
 	}
 }					  

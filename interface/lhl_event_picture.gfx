@@ -72,6 +72,18 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/ESS_german_POWs.dds"
 	}	
 	spriteType = {
+		name = "GFX_ESS_nicks_letter_1"
+		texturefile = "gfx/event_pictures/ESS_nicks_letter_1.dds"
+	}	
+	spriteType = {
+		name = "GFX_ESS_narcowar_on_babylon_1"
+		texturefile = "gfx/event_pictures/ESS_narcowar_on_babylon_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ESS_paying_the_bill_event"
+		texturefile = "gfx/event_pictures/ESS_paying_the_bill_event.dds"
+	}
+	spriteType = {
 		name = "GFX_EAG_german_soldiers"
 		texturefile = "gfx/event_pictures/EAG_german_soldiers.dds"
 	}
@@ -137,4 +149,18 @@ spriteTypes = {
 		name = "GFX_NTH_galloway_dismissed_event"
 		texturefile = "gfx/event_pictures/NTH_galloway_dismissed.dds"
 	}
+	#ESS#
+	spriteType = {
+		name = "GFX_ESS_choosing_CEO"
+		texturefile = "gfx/event_pictures/ESS_choosing_CEO.dds"
+	}
+	#WES#
+	spriteType = {
+		name = "GFX_WES_three_angry_men"
+		texturefile = "gfx/event_pictures/WES_three_angry_men.dds"
+	}
+	spriteType = {
+		name = "GFX_WES_a_man_of_fire_and_arms"
+		texturefile = "gfx/event_pictures/WES_a_man_of_fire_and_arms.dds"
+	}	
 }

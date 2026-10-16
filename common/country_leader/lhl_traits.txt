@@ -203,10 +203,9 @@ leader_traits = {
 	}
 	Bombardier = { #Konstantin_Labetskij#
 		random = no
-		air_strategic_bomber_attack_factor = 0.01
-		air_strategic_bomber_defence_factor = 0.01
-		air_strategic_bomber_agility_factor = 0.01
-		air_strategic_bomber_bombing_factor = 0.03
+		air_strategic_bomber_bombing_factor= 0.03
+		air_strategic_bomber_night_penalty = -0.01
+		strategic_bomb_visibility = -0.01
 		ai_will_do = {
 			factor = 1
 		}
@@ -388,7 +387,7 @@ leader_traits = {
 ##LEADERS_ALTAI_TUVA_ARMY##
 	intendant = { #Sergej Shojgu#
 		random = no
-		supply_factor = 0.15
+		supply_consumption_factor = 0.15
 		out_of_supply_factor = -0.15
 		army_org_factor = 0.05
 		
@@ -881,19 +880,17 @@ leader_traits = {
 	}
 	Airborne_assault = { #Valeriy_Evtuhovich#
 		random = no
-		air_paradrop_agility_factor = 0.03
-		air_paradrop_defence_factor = 0.03
-		air_paradrop_attack_factor = 0.01
+		paradrop_organization_factor = 0.03
+		paratrooper_weight_factor = -0.03
 		ai_will_do = {
 			factor = 1
 		}
 	}
 	Battle_Angel = { #Sergey_Dronov#
 		random = no
-		air_interception_attack_factor = 0.02
-		air_interception_defence_factor = 0.02
-		air_interception_agility_factor = 0.02
-		air_air_superiority_attack_factor = 0.02
+		air_intercept_efficiency = 0.02
+		air_interception_detect_factor = 0.02
+		air_superiority_efficiency = 0.02
 		ai_will_do = {
 			factor = 1
 		}
@@ -1285,7 +1282,7 @@ leader_traits = {
 
 ###ROYALISTS/WESSEX### #WES#
 ##LEADERS_ROYALISTS/WESSEX##
-	fisher_king = { #George VII#
+	fisher_king_1 = { #George VII#
 		random = no
 		political_power_gain = -0.1
 		stability_factor = -0.10
@@ -1295,12 +1292,50 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	new_pendragon = { #George VII_but_based#
+	fisher_king_2 = { #George VII#
+		random = no
+		political_power_gain = -0.05
+		stability_factor = -0.05
+		war_support_factor = -0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	fisher_king_3 = { #George VII#
+		random = no
+		political_power_gain = -0.025
+		stability_factor = -0.025
+		war_support_factor = -0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	new_pendragon_1 = { #George VII_but_based#
+		random = no
+		political_power_gain = 0.025
+		stability_factor = 0.025
+		war_support_factor = 0.025
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	new_pendragon_2 = { #George VII_but_based#
+		random = no
+		political_power_gain = 0.05
+		stability_factor = 0.1
+		war_support_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	new_pendragon_3 = { #George VII_but_based#
 		random = no
 		political_power_gain = 0.1
-        political_advisor_cost_factor = -0.25
-		trade_opinion_factor = 0.25
 		stability_factor = 0.2
+		war_support_factor = 0.1
 		
 		ai_will_do = {
 			factor = 1
@@ -1366,6 +1401,22 @@ leader_traits = {
 	}
 	
 ##IDEAS_ROYALISTS/WESSEX##
+	untrustworhy_advisor = { #Everyone#
+		random = no
+		war_support_factor = -0.05
+		surrender_limit = -0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	untrustworhy_advisor_2 = { #Everyone#
+		random = no
+		war_support_factor = -0.02
+		surrender_limit = -0.02
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	Black_bird = { #Roger Scruton#
 		random = no
 		
@@ -1396,14 +1447,14 @@ leader_traits = {
 	}
 	Old_Guard = { #Christopher Chope#
 		random = no
-		
+		political_power_gain = 0.05
 		ai_will_do = {
 			factor = 1
 		}
 	}
 	hospitaller = { #John Hayes#
 		random = no
-		
+		stability_factor = 0.1
 		ai_will_do = {
 			factor = 1
 		}
@@ -1424,14 +1475,14 @@ leader_traits = {
 	}
 	protectionist = { #Laurence Robertson#
 		random = no
-		
+		min_export = -0.25
 		ai_will_do = {
 			factor = 1
 		}
 	}
 	Herald = { #Melanie Phillips#
 		random = no
-		
+		recruitable_population_factor = 0.01
 		ai_will_do = {
 			factor = 1
 		}
@@ -1439,7 +1490,7 @@ leader_traits = {
 	
 	goodwill_ambassador = { #Fiona Bruce#
 		random = no
-		
+		monthly_population = 0.08
 		ai_will_do = {
 			factor = 1
 		}
@@ -1670,6 +1721,59 @@ leader_traits = {
 		ai_will_do = {
 			factor = 1
 		}
+		army_speed_factor = 0.12
+		stability_factor = -0.1
+	}
+	#
+	strong_and_dynamic = { #Emma_Walmsley#
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+		consumer_goods_factor = -0.1
+		stability_factor = 0.1
+	}
+	#
+	the_apprentice = { #Peter_Thiel#
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+		research_speed_factor = 0.1
+		operation_cost = -0.25
+	}
+	#
+	mountain_king = { #Max_Mosley#
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+		local_resources_factor = 0.15
+		production_lack_of_resource_penalty_factor = -0.25 
+	}
+	#
+	soldier_ceo = { #Tim Spicer#
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+		war_support_factor = 0.15
+		send_volunteer_factor = 0.25
+	}
+	#
+	king_of_two_kingdoms = { #Alois#
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+		stability_factor = 0.1
+		war_support_factor = 0.1
+		consumer_goods_factor = -0.15
 	}
 	
 #################################ENGLAND#######################################
@@ -1696,7 +1800,7 @@ leader_traits = {
 	dark_enlightener = { #Curtis Yarvin#
 		random = no
 		production_factory_efficiency_gain_factor = 0.02
-		production_speed_building_factor = 0.02
+		production_speed_buildings_factor = 0.02
 		research_speed_factor = 0.02
 		stability_factor = -0.08
 		ai_will_do = {
@@ -1715,14 +1819,14 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	cyberfemenist = { #Amy Ireland#
-		random = no
-		army_org_factor = -0.03
-		army_core_attack_factor = 0.08
-		ai_will_do = {
-			factor = 1
-		}
-	}
+	#cyberfemenist = { #Amy Ireland#
+	#	random = no
+	#	army_org_factor = -0.03
+	#	army_core_attack_factor = 0.08
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
 	situationist = { #Sadie Plant#
 		random = no
 		army_morale_factor = 0.08
@@ -1747,14 +1851,14 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	shadow_hand = { #Reza Negarestani#
-		random = no
-		political_power_factor = 0.15
-		local_resources_factor = 0.15
-		ai_will_do = {
-			factor = 1
-		}
-	}
+	#shadow_hand = { #Reza Negarestani#
+	#	random = no
+	#	political_power_factor = 0.15
+	#	local_resources_factor = 0.15
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
 	american_moldbug = { #Curtis Yarvin#
 		random = no
 		political_power_factor = -0.1
@@ -1780,15 +1884,15 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	sole_goodman = { #Steve Goodman#
-		random = no
-		political_power_factor = -0.50
-		political_advisor_cost_factor = 0.30
-		army_core_defence_factor = 0.20
-		ai_will_do = {
-			factor = 1
-		}
-	}
+	#sole_goodman = { #Steve Goodman#
+	#	random = no
+	#	political_power_factor = -0.50
+	#	political_advisor_cost_factor = 0.30
+	#	army_core_defence_factor = 0.20
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
 	practical_cybermancer = { #Anna Greenspan#
 		random = no
 		research_speed_factor = 0.05
@@ -2005,7 +2109,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
     }
     neorationalist = { #Кибернетический Неорационалист
         random = no
@@ -2016,7 +2119,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
     }
     dubstep_king = { #Король Дабстепа
         random = no
@@ -2027,7 +2129,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
     }
 	eco_activist = { #Эко-активист
         random = no
@@ -2039,7 +2140,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
 	}
 	CCRU_workhorse = { #Рабочая лошадка CCRU
         random = no
@@ -2049,7 +2149,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
 	}
 	lands_disciple = { #Ученик Ланда
         random = no
@@ -2060,7 +2159,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
 	}
 	
 	afrofuturist = { #Афрофутурист
@@ -2071,7 +2169,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
 	}
 	cybernetic_realist = { #Кибернетический Реалист
         random = no
@@ -2081,7 +2178,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
 	}
 	xenofeminist_army = { #Ксенофеминист, название трейта совпадает со следующим, так и надо.
         random = no
@@ -2095,7 +2191,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
 	}
 	xenofeminist_econ = { #Ксенофеминист, название трейта совпадает со предыдущим, так и надо.
         random = no
@@ -2106,7 +2201,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
 	}
 	CCRU_workhorse_1 = { #Рабочая лошадка CCRU, мне лень придумывать Нойсу другой трейт
         random = no
@@ -2116,7 +2210,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
 	}
 	left_accel = { #Один из левых асклерационистов
         random = no
@@ -2127,7 +2220,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
 	}
 	mystical_cybernetic = { #Мистический Кибернетик
         random = no
@@ -2139,7 +2231,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
 	}
 	cute_accel = { #Автор Cute Accelerationism
         random = no
@@ -2149,7 +2240,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
 	}
 	
 	linguist_futurist = { #Лингвист-Футурист
@@ -2159,7 +2249,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
 	}
 	geotrauma_theorist = { #Теоретик Геотравмы
         random = no
@@ -2171,7 +2260,6 @@ leader_traits = {
         ai_will_do = {
             base = #
         }
-        command_cap = 0
 	}
 	
 ###CONSERVATIVES/KENT### #KNT#
@@ -2896,7 +2984,7 @@ leader_traits = {
 
 	combinator  = { #Michelle Joyce#
 	    random = no
-		military_industrial_organizations_funds_gain = 0.2
+		military_industrial_organization_funds_gain = 0.2
 		trade_opinion_factor = 0.25
 		ai_will_do = {
 			factor = 1
@@ -3008,7 +3096,7 @@ leader_traits = {
 	
 	red_whistleblower   = { #Vladimir Rezun#
 	    random = no
-		army_experience_gain = 0.1
+		experience_gain_army_factor = 0.1
 		command_power_gain = 0.25
 		decryption_factor = 0.15
 	    ai_will_do = {
@@ -3166,7 +3254,7 @@ leader_traits = {
 	
 	annihilator = { #Wolfgang Schneiderhan#
 		random = no
-		air_close_air_support_attack_factor = 0.15
+		air_close_air_support_org_damage_factor = 0.15
 		ai_will_do = {
 			factor = 1
 		}
@@ -3174,7 +3262,7 @@ leader_traits = {
 	
 	air_support_theorist = { #Wolfgang Schneiderhan#
 		random = no
-		air_close_air_support_attack_factor = 0.05
+		air_close_air_support_org_damage_factor = 0.05
 		air_cas_efficiency = 0.05
 		air_doctrine_cost_factor = -0.05
 		ai_will_do = {

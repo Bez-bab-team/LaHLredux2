@@ -1,4 +1,19 @@
 on_actions = {
+	on_daily = {
+		effect = {
+			MRC = { MRC_prologue_start = yes }
+		}
+	}
+
+	on_startup = {
+		effect = {
+			MRC = {
+				MRC_rogue_land_effect = yes
+				MRC_prologue_start = yes
+			}
+		}
+	}
+
     on_capitulation = {
 	    effect = {
 		    if = {
@@ -15,7 +30,7 @@ on_actions = {
 			}
 		}
 	}
-	
+
 	 on_capitulation = {
 	    effect = {
 		    if = {
@@ -35,4 +50,4 @@ on_actions = {
 			}
 		}
 	}
-}					  
+}

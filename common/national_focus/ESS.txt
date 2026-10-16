@@ -88,6 +88,40 @@ focus_tree = {
 	}
 }
 
+focus_tree = {
+	id = ESS_land_interregnum
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+        shared_focus = ESS_luciferoverlondon
+		shared_focus = ESS_national_revolutionary_army
+		shared_focus = ESS_interregnum
+		shared_focus = ESS_the_republic_triumphant
+		
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = ESS
+		}
+	}
+}
+
+focus_tree = {
+	id = ESS_interregnum
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+        shared_focus = ESS_luciferoverlondon
+		shared_focus = ESS_national_revolutionary_army
+		shared_focus = ESS_interregnum	
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = ESS
+		}
+	}
+}
+
 
 focus_tree = {
 	id = ESS_moldbug_1
@@ -107,4 +141,155 @@ focus_tree = {
 		}
 	}
 }
+
+focus_tree = {
+	id = ESS_moldbug_1_main
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+		shared_focus = ESS_luciferoverlondon
+        shared_focus = ESS_found_the_british_company
+		shared_focus = ESS_national_revolutionary_army
+		shared_focus = ESS_interregnum
+		shared_focus = ESS_the_republic_triumphant
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = ESS
+		}
+	}
+}
+
+focus_tree = {
+	id = ESS_moldbug_1_walmsley
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+		shared_focus = ESS_emma_walmsley_leader
+		shared_focus = ESS_luciferoverlondon
+        shared_focus = ESS_found_the_british_company
+		shared_focus = ESS_national_revolutionary_army
+		shared_focus = ESS_interregnum
+		shared_focus = ESS_the_republic_triumphant
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = ESS
+		}
+	}
+}
+
+focus_tree = {
+	id = ESS_moldbug_1_palmer
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+		shared_focus = ESS_clive_palmer_leader
+		shared_focus = ESS_luciferoverlondon
+        shared_focus = ESS_found_the_british_company
+		shared_focus = ESS_national_revolutionary_army
+		shared_focus = ESS_interregnum
+		shared_focus = ESS_the_republic_triumphant
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = ESS
+		}
+	}
+}
+
+focus_tree = {
+	id = ESS_moldbug_1_monarchy
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+		shared_focus = ESS_moldbug_monarchy_leader
+		shared_focus = ESS_luciferoverlondon
+        shared_focus = ESS_found_the_british_company
+		shared_focus = ESS_national_revolutionary_army
+		shared_focus = ESS_interregnum
+		shared_focus = ESS_the_republic_triumphant
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = ESS
+		}
+	}
+}
+
+focus_tree = {
+	id = ESS_moldbug_1_thiel
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+		shared_focus = ESS_peter_thiel_leader
+		shared_focus = ESS_luciferoverlondon
+        shared_focus = ESS_found_the_british_company
+		shared_focus = ESS_national_revolutionary_army
+		shared_focus = ESS_interregnum
+		shared_focus = ESS_the_republic_triumphant
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = ESS
+		}
+	}
+}
+
+focus_tree = {
+	id = ESS_moldbug_1_spicer
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+		shared_focus = ESS_timothy_simon_spicer_leader
+		shared_focus = ESS_luciferoverlondon
+        shared_focus = ESS_found_the_british_company
+		shared_focus = ESS_national_revolutionary_army
+		shared_focus = ESS_interregnum
+		shared_focus = ESS_the_republic_triumphant
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = ESS
+		}
+	}
+}
+
+focus_tree = {
+	id = ESS_land_main
+	default = no
+	continuous_focus_position = { x = 20 y = 4000}
+		shared_focus = ESS_nonstandart_numeracies
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = ESS
+		}
+	}
+}
+
+focus_tree = {
+	id = ESS_fisher_main
+	default = no
+	continuous_focus_position = { x = 20 y = 4000}
+	shared_focus = ESS_planting_the_seeds
+	shared_focus = ESS_psychodelic_shacks
+	shared_focus = ESS_techno_cats
+	shared_focus = ESS_glass_case_democracy
+	shared_focus = ESS_solidarity_forever
+	shared_focus = ESS_post_modern_republic
+	shared_focus = ESS_zerowork_direction
+	shared_focus = ESS_collective_capitalism
+	shared_focus = ESS_britain_liberation_army
+	shared_focus = ESS_psychowar_on_babylon
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = ESS
+		}
+	}
+}
+
 

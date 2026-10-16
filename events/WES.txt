@@ -1,74 +1,47 @@
 ﻿add_namespace = WES_event
 
-country_event = {
+country_event = { #King is gone
 	id = WES_event.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.1"}
 	title = WES_event.1.t
 	desc = WES_event.1.d
     is_triggered_only = yes
 	
     fire_only_once = yes	
 	option = {
-		name = WES_event.1.a
-		set_party_name = { 
-		    ideology = regressionism
-			long_name = collapsed_government_long
-			name = collapsed_government
-		}	
-		kill_country_leader = yes
-		add_popularity = {
-		    ideology = regressionism
-            popularity = 1.00
-        }
-		create_country_leader = {
-	        name = "Collapsed Authority"
-            desc = "POLITICS_ANARCHY_DESC"
-	        picture = "Portrait_WES_Collapsed_Authority.dds"
-	        expire = "9999.1.1"
-	        ideology = neo_feudalism 
-	        traits = {
-		        total_anarchy
-	        }
+	    name = WES_event.1.a
+		add_political_power = -25
+		add_ideas = WES_knight_Nikolai_Tolstoy
+		hidden_effect = {
+			country_event = {
+				days = 10
+				id = WES_event.2
+			}
 		}
-        set_variable = {
-           var = george_slot_1
-           value = 2`
-        }
-		set_cosmetic_tag = collapsed_name
-		set_politics = {
-	        ruling_party = regressionism
-        }
     } 
 }
 
-country_event = {
+country_event = { #Nation is scared
 	id = WES_event.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.2"}
 	title = WES_event.2.t
 	desc = WES_event.2.d
     is_triggered_only = yes
 	
     fire_only_once = yes	
 	option = {
-		name = WES_event.2.a
-		add_popularity = {
-		    ideology = regressionism
-            popularity = 0.3
-        }
-		set_country_leader_portrait = {
-			ideology = regressionism
-			portrait = GFX_George_Based_Portrait
+	    name = WES_event.2.a
+		add_political_power = -50
+		hidden_effect = {
+			country_event = {
+				days = 10
+				id = WES_event.3
+			}
 		}
-		add_country_leader_trait = new_pendragon
-		remove_country_leader_trait = fisher_king
-		set_country_leader_description = {
-			ideology = regressionism
-			desc = POLITICS_GEORGE_BASED_DESC
-		}
-		remove_ideas = WES_george_legitimacy
-		set_variable = { WES_george_legitimacy_level = 0 }
     } 
 }
 
-country_event = {
+country_event = { #King comes back
 	id = WES_event.3
 	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.3"}
 	title = WES_event.3.t
@@ -78,16 +51,12 @@ country_event = {
     fire_only_once = yes	
 	option = {
 	    name = WES_event.3.a
+		complete_national_focus = WES_return_of_the_king
 		custom_effect_tooltip = WES_event3.tt
-	    add_political_power = 150
-		WES = {
-			add_ideas = WES_george_legitimacy
-		}
-
     } 
 }
 
-country_event = {
+country_event = { #Arise ye english folk
 	id = WES_event.4
 	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.4"}
 	title = WES_event.4.t
@@ -98,7 +67,6 @@ country_event = {
 	option = {
 	    name = WES_event.4.a
 	    add_war_support = 0.05
-		add_manpower = 100000
     } 
 }
 
@@ -397,13 +365,6 @@ country_event = {
 	option = {
 	    name = WES_event.13.a
 		WES = {
-			add_stability = 0.05
-			add_political_power = 100
-		}
-    } 
-	option = {
-	    name = WES_event.13.b
-		WES = {
 			add_stability = -0.05
 			add_advisor_role = {
 				character = WES_james_glancy
@@ -444,7 +405,7 @@ country_event = {
 		}
     } 
 	option = {
-	    name = WES_event.13.c
+	    name = WES_event.13.b
 		WES = {
 			add_stability = -0.01
 			add_advisor_role = {
@@ -583,8 +544,10 @@ country_event = { #Deal with collabs
     } 
 }
 
-country_event = {
-	id = WES_event.17
+
+#Initial Tree#
+country_event = { #Wargames
+	id = WES_event.17 
 	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.17"}
 	title = WES_event.17.t
 	desc = WES_event.17.d
@@ -592,10 +555,24 @@ country_event = {
     fire_only_once = yes	
 	option = {
 	    name = WES_event.17.a
+		WES = {
+			add_manpower = 10000
+		}
+    } 
+	option = {
+	    name = WES_event.17.b
+		WES = {
+			add_manpower = 15000
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -400
+				producer = WES
+			}
+		}
     } 
 }
 
-country_event = {
+country_event = { #Battle of Camlann
 	id = WES_event.18
 	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.18"}
 	title = WES_event.18.t
@@ -605,10 +582,11 @@ country_event = {
     fire_only_once = yes	
 	option = {
 	    name = WES_event.18.a
+		add_political_power = 100
     } 
 }
 
-country_event = {
+country_event = { #Our Finest Hour
 	id = WES_event.19
 	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.19"}
 	title = WES_event.19.t
@@ -618,10 +596,13 @@ country_event = {
     fire_only_once = yes	
 	option = {
 	    name = WES_event.19.a
+		WES = {
+			add_political_power = 150
+		}
     } 
 }
 
-country_event = {
+country_event = { #Winter of Our Discontent
 	id = WES_event.20
 	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.20"}
 	title = WES_event.20.t
@@ -631,10 +612,16 @@ country_event = {
     fire_only_once = yes	
 	option = {
 	    name = WES_event.20.a
+		WES = {
+			add_timed_idea = {
+				idea = WES_winter_of_our_discontent
+				days = 200
+			}			
+		}
     } 
 }
 
-country_event = {
+country_event = { #Help
 	id = WES_event.21
 	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.21"}
 	title = WES_event.21.t
@@ -1840,7 +1827,7 @@ country_event = {
 		WES = {
 			country_event = {
 				days = 0
-				id = GER_event.125
+				id = WES_event.125
 			}
 		}
     }
@@ -2139,7 +2126,7 @@ country_event = {
 	option = {
 	    name = WES_event.69.b
 		WES = {
-			add_political_power = -75
+			add_political_power = -50
 			add_to_variable = { 
 				WES_george_legitimacy_level = 5
 			}
@@ -2204,7 +2191,7 @@ country_event = {
 	option = {
 	    name = WES_event.69.e
 		WES = {
-			add_political_power = -50
+			add_political_power = -75
 			add_stability = -0.05
 			add_manpower = 10000
 			random_state = {
@@ -2229,10 +2216,6 @@ country_event = {
 				ideology = national_bolshevism
 				popularity = -0.02
 			}
-		}
-		custom_effect_tooltip = WES_legitimacy_small_plus
-		add_to_variable = { 
-			WES_george_legitimacy_level = 5
 		}
 		hidden_effect = {
 			WES = {
@@ -3645,7 +3628,7 @@ country_event = { #Competitive Spirit
 	}	
 }
 
-country_event = { #Museum Pieces
+country_event = { #Museum Pieces ##CAN BE REPURPOSED
 	id = WES_event.102
 	title = WES_event.102.t
 	desc = WES_event.102.d
@@ -3710,20 +3693,20 @@ country_event = { #Navy Stuff
 	}	
 }
 
-country_event = { #GREEN ECONOMY
+country_event = { #GREEN ECONOMY #DEAD FIX IT
 	id = WES_event.104
 	title = WES_event.104.t
 	desc = WES_event.104.d
     is_triggered_only = yes	
 	option = {
 		name = WES_event.104.a 
-		WES = {
-			hidden_effect = {
-				set_technology = {
-					change_economy_g = 1
-				}
-			}
-		}
+		#WES = {
+		#	hidden_effect = {
+		#		set_technology = {
+		#			change_economy_g = 1
+		#		}
+		#	}
+		#}
 	}	
 }
 
@@ -3940,6 +3923,7 @@ country_event = {
 					level = 1
 					instant_build = yes
 				}
+				add_extra_state_shared_building_slots = 1
 			}
 			random_state = {
 				add_building_construction = {
@@ -3947,18 +3931,15 @@ country_event = {
 					level = 1
 					instant_build = yes
 				}
+				add_extra_state_shared_building_slots = 1
 			}
 			add_popularity = {
 				ideology = regressionism
-				popularity = 0.12
+				popularity = 0.08
 			}
 			add_popularity = {
 				ideology = neocameralism
 				popularity = -0.08
-			}
-			add_popularity = {
-				ideology = right_populism
-				popularity = -0.04
 			}
 			add_to_variable = { 
 				WES_george_legitimacy_level = 5
@@ -3980,15 +3961,11 @@ country_event = {
 			add_political_power = 50
 			add_popularity = {
 				ideology = regressionism
-				popularity = 0.12
+				popularity = 0.08
 			}
 			add_popularity = {
 				ideology = neocameralism
 				popularity = -0.08
-			}
-			add_popularity = {
-				ideology = right_populism
-				popularity = -0.04
 			}
 			add_to_variable = { 
 				WES_george_legitimacy_level = 5
@@ -4020,23 +3997,15 @@ country_event = {
 					level = 1
 				}
 			}
-			add_ideas = war_economy
+			add_ideas = partial_economic_mobilisation
 			add_popularity = {
 				ideology = regressionism
-				popularity = 0.12
+				popularity = 0.08
 			}
 			add_popularity = {
 				ideology = neocameralism
 				popularity = -0.08
 			}
-			add_popularity = {
-				ideology = right_populism
-				popularity = -0.04
-			}
-			add_to_variable = { 
-				WES_george_legitimacy_level = 5
-			}
-			custom_effect_tooltip = WES_legitimacy_small_plus
 		}	
 		hidden_effect = {
 			WES = {
@@ -4096,7 +4065,7 @@ country_event = {
 	option = {
 	    name = WES_event.118.b
 		WES = {
-			add_political_power = -75
+			add_political_power = -25
 			998 = {
 				damage_building = {
 					type = infrastructure
@@ -4188,15 +4157,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 	    name = WES_event.121.a
-		WES_george_vii = {
-			gain_xp = 350
-		}
-		WES_george_vii = {
-			add_unit_leader_trait = brilliant_strategist
-		}
-		WES_george_vii = {
-			add_unit_leader_trait = aggressive_assaulter
-		}
 		WES = {
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
@@ -4226,15 +4186,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 	    name = WES_event.122.a
-		WES_george_vii = {
-			gain_xp = 350
-		}
-		WES_george_vii = {
-			add_unit_leader_trait = brilliant_strategist
-		}
-		WES_george_vii = {
-			add_unit_leader_trait = expert_delegator
-		}
 		WES = {
 			add_manpower = 7500
 			add_political_power = 75
@@ -4255,15 +4206,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 	    name = WES_event.123.a
-		WES_george_vii = {
-			gain_xp = 350
-		}
-		WES_george_vii = {
-			add_unit_leader_trait = brilliant_strategist
-		}
-		WES_george_vii = {
-			add_unit_leader_trait = thorough_planner
-		}
 		WES = {
 			random_owned_controlled_state = {	
 					add_building_construction = {
@@ -4337,12 +4279,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 	    name = WES_event.126.a
-		WES_george_vii = {
-			gain_xp = 250
-		}
-		WES_george_vii = {
-			add_unit_leader_trait = brilliant_strategist
-		}
 		WES = {
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
@@ -4367,12 +4303,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 	    name = WES_event.127.a
-		WES_george_vii = {
-			gain_xp = 250
-		}
-		WES_george_vii = {
-			add_unit_leader_trait = brilliant_strategist
-		}
 		WES = {
 			add_manpower = 500
 			add_political_power = 40
@@ -4393,12 +4323,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 	    name = WES_event.128.a
-		WES_george_vii = {
-			gain_xp = 250
-		}
-		WES_george_vii = {
-			add_unit_leader_trait = brilliant_strategist
-		}
 		WES = {
 			add_tech_bonus = {
 				bonus = 0.5
@@ -4415,5 +4339,250 @@ country_event = {
     }
 }
 
-##PURGING PEOPLE##
+###HIRING KNIGHTS###
+#Jacob Rees-Mogg#
+country_event = { 
+	id = WES_event.129 #Dealing with Kent#
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.129"}
+	title = WES_event.129.t
+	desc = WES_event.129.d
+	is_triggered_only = yes
+	option = {
+	    name = WES_event.129.a #Kill all Conservatives
+		WES = {
+			add_political_power = 100
+			add_to_variable = {
+				var = WES_george_legitimacy_level
+				value = 20
+			}			
+		}
+		custom_effect_tooltip = WES_legitimacy_medium_plus
+    }
+	option = {
+	    name = WES_event.129.b #Forigve Rees-Mogg and friends
+		WES = {
+			country_event = {
+				days = 5
+				id = WES_event.13
+			}
+		} 
+    }
+	option = {
+	    name = WES_event.129.c #Forgive Rees-Mogg and make him a knight
+		trigger = {
+			NOT = {
+				OR = {
+					check_variable = {
+						var = WES_table_slot_2
+						value = 1	
+					}
+					check_variable = {
+						var = WES_table_slot_2
+						value = 3			
+					}
+				}
+			}
+		}
+		add_political_power = -75
+		WES = {
+			country_event = {
+				days = 5
+				id = WES_event.13
+			}
+		} 
+		WES = {
+			country_event = {
+				days = 10
+				id = WES_event.130
+			}
+		} 
+    }
+}
+country_event = { 
+	id = WES_event.130 #Meeting with Mogg#
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.130"}
+	title = WES_event.130.t
+	desc = WES_event.130.d
+	is_triggered_only = yes
+	option = {
+	    name = WES_event.130.a 
+		WES = {
+			country_event = {
+				days = 10
+				id = WES_event.131
+			}
+		} 
+    }
+}
+country_event = { 
+	id = WES_event.131 #Meeting with Mogg#
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.131"}
+	title = WES_event.131.t
+	desc = WES_event.131.d
+	is_triggered_only = yes
+	option = {
+	    name = WES_event.131.a 
+		WES = {
+			country_event = {
+				days = 10
+				id = WES_event.132
+			}
+		} 
+    }
+}
+country_event = { 
+	id = WES_event.132 #Meeting with Mogg#
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.132"}
+	title = WES_event.132.t
+	desc = WES_event.132.d
+	is_triggered_only = yes
+	option = {
+	    name = WES_event.132.a 
+		set_variable = {
+			var = WES_table_slot_2
+			value = 3			
+		}		
+    }
+}
 
+##PURGING PEOPLE##
+country_event = { 
+	id = WES_event.9999 #Test Focus Tree#
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.9999"}
+	title = WES_event.9999.t
+	desc = WES_event.9999.d
+	is_triggered_only = yes
+	option = {
+	    name = WES_event.9999.a
+		WES = {
+			set_politics = {
+				ruling_party = neocameralism
+			}
+			load_focus_tree = WES_neofeudal
+			add_ideas = WES_stuff
+		}
+	}
+	option = {
+	    name = WES_event.9999.b
+		WES = {
+			set_politics = {
+				ruling_party = regressionism
+			}
+			load_focus_tree = WES_medievalist
+			add_ideas = WES_stuff
+		}
+	}
+}
+
+country_event = { #Arise ye english folk
+	id = WES_event.1509
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.1509"}
+	title = WES_event.1509.t
+	desc = WES_event.1509.d
+    is_triggered_only = yes
+	picture = GFX_WES_three_angry_men
+	
+    fire_only_once = yes	
+	option = {
+	    name = WES_event.1509.a
+    } 
+	option = {
+	    name = WES_event.1509.b
+    }
+}
+
+country_event = { #Arise ye english folk
+	id = WES_event.1510
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.1510"}
+	title = WES_event.1510.t
+	desc = WES_event.1510.d
+    is_triggered_only = yes
+	picture = GFX_WES_a_man_of_fire_and_arms
+	
+    fire_only_once = yes	
+	option = {
+	    name = WES_event.1510.a
+    } 
+}
+
+country_event = { #Arise ye english folk
+	id = WES_event.1511
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.1510"}
+	title = WES_event.1511.t
+	desc = WES_event.1511.d
+    is_triggered_only = yes
+	picture = GFX_WES_a_man_of_fire_and_arms
+	
+    fire_only_once = yes	
+	option = {
+	    name = WES_event.1511.a
+    } 
+}
+
+#country_event = {
+#	id = WES_event.1
+#	title = WES_event.1.t
+#	desc = WES_event.1.d
+#    is_triggered_only = yes
+#	
+#    fire_only_once = yes	
+#	option = {
+#		name = WES_event.1.a
+#		set_party_name = { 
+#		    ideology = regressionism
+#			long_name = collapsed_government_long
+#			name = collapsed_government
+#		}	
+#		kill_country_leader = yes
+#		add_popularity = {
+#		    ideology = regressionism
+#            popularity = 1.00
+#        }
+#		create_country_leader = {
+#	        name = "Collapsed Authority"
+#            desc = "POLITICS_ANARCHY_DESC"
+#	        picture = "Portrait_WES_Collapsed_Authority.dds"
+#	        expire = "9999.1.1"
+#	        ideology = neo_feudalism 
+#	        traits = {
+#		        total_anarchy
+#	        }
+#		}
+#        set_variable = {
+#           var = george_slot_1
+#           value = 2`
+#        }
+#		set_cosmetic_tag = collapsed_name
+#		set_politics = {
+#	        ruling_party = regressionism
+#        }
+#    } 
+#}
+
+#country_event = {
+#	id = WES_event.2
+#	title = WES_event.2.t
+#	desc = WES_event.2.d
+#    is_triggered_only = yes
+#	
+#    fire_only_once = yes	
+#	option = {
+#		name = WES_event.2.a
+#		add_popularity = {
+#		    ideology = regressionism
+#            popularity = 0.3
+#        }
+#		set_country_leader_portrait = {
+#			ideology = regressionism
+#			portrait = GFX_George_Based_Portrait
+#		}
+#		add_country_leader_trait = new_pendragon
+#		remove_country_leader_trait = fisher_king
+#		set_country_leader_description = {
+#			ideology = regressionism
+#			desc = POLITICS_GEORGE_BASED_DESC
+#		}
+#		remove_ideas = WES_george_legitimacy
+#		set_variable = { WES_george_legitimacy_level = 0 }
+#    } 
+#}

@@ -1,0 +1,20 @@
+guiTypes = {
+	containerWindowType = {
+		name = "lhl_ESS_nick_land_kills_britain_screen_full"
+		size = { width = 1000 height = 200 }
+		position = { x = 150 y = 0 }
+		scale = 0.65
+		moveable = no
+		clipping = yes
+		iconType = {
+			name = "lhl_ESS_land_people_wrath"
+			spriteType = "GFX_ESS_land_people_wrath"
+			position = { x = 500 y = 20 }
+		}
+		iconType = {
+			name = "lhl_ESS_land_acceleration"
+			spriteType = "GFX_ESS_land_acceleration"
+			position = { x = 50 y = 80 }
+		}
+	}
+}

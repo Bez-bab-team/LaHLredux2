@@ -491,11 +491,6 @@ technologies = {
 			factor = 20
 			modifier = {
 				factor = 0
-				tag = USA
-				NOT = { has_tech = special_forces_paratroopers }
-			}
-			modifier = {
-				factor = 0
 				NOT = { ai_has_completed_naval_doctrine = yes }
 			}
 		}
@@ -1154,9 +1149,9 @@ technologies = {
 		doctrine = yes	
 		research_cost = 4.5
 		
-		enable_subunits = {
-			airborne_light_armor
-		}
+		#enable_subunits = { #Add this after reworking airborne vehicles
+		#	airborne_light_armor
+		#}
 		
 		categories = {
 			special_forces_doctrine
