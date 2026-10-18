@@ -182,3 +182,7 @@ set_variable = {
     var = MRC_coring_cost
     value = 120
 }
+recruit_character = MRC_boyd_rice
+
+recruit_character = MRC_charles_bronson
+MRC_charles_bronson = { remove_unit_leader_role = yes }

@@ -159,70 +159,9 @@ MRC_adventure_1B_recruit_artist = {
 
 MRC_adventure_sync_characters = {
  if = {
-  limit = { original_tag = MRC }
-  if = {
-   limit = { NOT = { has_character = MRC_boyd_rice } }
-   recruit_character = MRC_boyd_rice
-  }
-  if = {
-   limit = { NOT = { has_character = MRC_charles_bronson } }
-   recruit_character = MRC_charles_bronson
-  }
-  MRC_charles_bronson = {
-   if = {
-    limit = { NOT = { has_advisor_role = political_advisor } }
-    add_advisor_role = { advisor = {
- slot = political_advisor
- idea_token = MRC_charles_bronson_artist
- 
- allowed = { original_tag = MRC }
- available = {
-  custom_trigger_tooltip = {
-   tooltip = MRC_bronson_artist_required_tt
-   check_variable = { MRC_charles_bronson_role = 1 }
-  }
- }
- traits = { peoples_artist }
- cost = 100
- ai_will_do = { factor = 1 }
-} }
-   }
-   if = {
-    limit = { NOT = { has_advisor_role = army_chief } }
-    add_advisor_role = { advisor = {
- slot = army_chief
- idea_token = MRC_charles_bronson
- 
- allowed = { original_tag = MRC }
- available = {
-  custom_trigger_tooltip = {
-   tooltip = MRC_bronson_military_required_tt
-   check_variable = { MRC_charles_bronson_role = 2 }
-  }
- }
- traits = {  }
- cost = 100
- ai_will_do = { factor = 1 }
-} }
-   }
-   if = {
-    limit = { NOT = { has_advisor_role = high_command } }
-    add_advisor_role = { advisor = {
- slot = high_command
- idea_token = MRC_charles_bronson
- ledger = army
- allowed = { original_tag = MRC }
- available = {
-  custom_trigger_tooltip = {
-   tooltip = MRC_bronson_military_required_tt
-   check_variable = { MRC_charles_bronson_role = 2 }
-  }
- }
- traits = {  }
- cost = 100
- ai_will_do = { factor = 1 }
-} }
-   }
+  limit = {
+   original_tag = MRC
+   has_character = MRC_charles_bronson
   }
   if = {
    limit = { check_variable = { MRC_charles_bronson_role = 2 } }
