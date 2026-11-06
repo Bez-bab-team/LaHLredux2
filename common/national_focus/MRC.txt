@@ -5,11 +5,81 @@ focus_tree = {
 	shared_focus = MRC_the_calling
 	shared_focus = MRC_born_again
 	shared_focus = MRC_state_laughter
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = MRC
+		}
+	}
+}
+
+focus_tree = {
+	id = MRC_douglas_tree
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+	shared_focus = MRC_the_calling
+	shared_focus = MRC_born_again
+	shared_focus = MRC_state_laughter
 	shared_focus = MRC_flies_have_their_house
 	shared_focus = MRC_bring_in_the_night
 	shared_focus = MRC_take_care_and_control
 	shared_focus = MRC_fog_of_the_world
 	shared_focus = MRC_the_corn_years
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = MRC
+		}
+	}
+}	
+
+focus_tree = {
+	id = MRC_tibet_tree
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+	shared_focus = MRC_the_calling
+	shared_focus = MRC_born_again
+	shared_focus = MRC_state_laughter
+	shared_focus = MRC_the_autistic_imperium
+	shared_focus = MRC_the_final_church
+	shared_focus = MRC_sleep_has_his_house
+	shared_focus = MRC_unchoke_from_gold
+	shared_focus = MRC_ballad_of_the_pale_christ
+	shared_focus = MRC_throne_and_stall
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = MRC
+		}
+	}
+}
+
+focus_tree = {
+	id = MRC_moynihan_tree
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+	shared_focus = MRC_the_calling
+	shared_focus = MRC_born_again
+	shared_focus = MRC_state_laughter
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = MRC
+		}
+	}
+}
+
+focus_tree = {
+	id = MRC_balance_tree
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+	shared_focus = MRC_the_calling
+	shared_focus = MRC_born_again
+	shared_focus = MRC_state_laughter
 	country = {
 		factor = 0
 		modifier = {

@@ -1,13 +1,41 @@
 MRC_debug = {
- MRC_TRPG_debug = {
-  icon = generic_prepare_civil_war
-  complete_effect = { MRC_initial_trpg = yes }
- }
- MRC_TRPG_dice_test = {
-  icon = generic_prepare_civil_war
-  available = { has_country_flag = MRC_trpg_enabled }
-  complete_effect = { country_event = MRC_TRPG.1 }
- }
+	MRC_TRPG_debug = {
+	  icon = generic_prepare_civil_war
+	  complete_effect = { MRC_initial_trpg = yes }
+	}
+	MRC_TRPG_dice_test = {
+	  icon = generic_prepare_civil_war
+	  available = { has_country_flag = MRC_trpg_enabled }
+	  complete_effect = { country_event = MRC_TRPG.1 }
+	}
+	MRC_douglas_tree_1 = {
+		cost = 0
+		days_remove = 1
+        complete_effect = {
+            load_focus_tree = MRC_douglas_tree
+		}
+	}	
+	MRC_tibet_tree_1 = {
+		cost = 0
+		days_remove = 1
+        complete_effect = {
+            load_focus_tree = MRC_tibet_tree
+		}
+	}
+	MRC_moynihan_tree_1 = {
+		cost = 0
+		days_remove = 1
+        complete_effect = {
+            load_focus_tree = MRC_moynihan_tree
+		}
+	}
+	MRC_balance_tree_1 = {
+		cost = 0
+		days_remove = 1
+        complete_effect = {
+            load_focus_tree = MRC_balance_tree
+		}
+	}
 }
 
 MRC_TRPG_decision = {
