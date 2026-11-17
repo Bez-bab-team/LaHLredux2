@@ -2491,3 +2491,1420 @@ shared_focus = {
 	x = 25
 	y = 15
 }
+
+###Michael Moynihan###
+shared_focus = {
+	id = MRC_cut_of_the_modernity
+	icon = GFX_goal_MRC_cut_of_the_modernity
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_cut_of_the_modernity"
+    }
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_autumn_focuses
+			MRC_focus_autumn_trigger = yes
+		}
+	}
+	x = 7
+	y = 10
+}
+shared_focus = {
+	id = MRC_herd_the_dogmen
+	icon = GFX_goal_MRC_herd_the_dogmen
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_herd_the_dogmen"
+    }
+	prerequisite = {
+		focus = MRC_cut_of_the_modernity
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_autumn_focuses
+			MRC_focus_autumn_trigger = yes
+		}
+	}
+	x = 8
+	y = 11
+}
+shared_focus = {
+	id = MRC_brotherly_aid
+	icon = GFX_goal_MRC_brotherly_aid
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_brotherly_aid"
+    }
+	prerequisite = {
+		focus = MRC_herd_the_dogmen
+	}
+	mutually_exclusive = {
+		focus = MRC_strength_through_strife
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_autumn_focuses
+			MRC_focus_autumn_trigger = yes
+		}
+	}
+	x = 9
+	y = 12
+}
+shared_focus = {
+	id = MRC_the_worshippers_of_lies
+	icon = GFX_goal_MRC_the_worshippers_of_lies
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_the_worshippers_of_lies"
+    }
+	prerequisite = {
+		focus = MRC_brotherly_aid
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_autumn_focuses
+			MRC_focus_autumn_trigger = yes
+		}
+	}
+	x = 10
+	y = 13
+}
+shared_focus = {
+	id = MRC_stewardship_of_earth
+	icon = GFX_goal_MRC_stewardship_of_earth
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_stewardship_of_earth"
+    }
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_autumn_focuses
+			MRC_focus_autumn_trigger = yes
+		}
+	}
+	x = 15
+	y = 10
+}
+shared_focus = {
+	id = MRC_dismantle_titanic_humanism
+	icon = GFX_goal_MRC_dismantle_titanic_humanism
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_dismantle_titanic_humanism"
+    }
+	prerequisite = {
+		focus = MRC_stewardship_of_earth
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_autumn_focuses
+			MRC_focus_autumn_trigger = yes
+		}
+	}
+	x = 14
+	y = 11
+}
+shared_focus = {
+	id = MRC_strength_through_strife
+	icon = GFX_goal_MRC_dismantle_titanic_humanism
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_dismantle_titanic_humanism"
+    }
+	prerequisite = {
+		focus = MRC_dismantle_titanic_humanism
+	}
+	mutually_exclusive = {
+		focus = MRC_brotherly_aid
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_autumn_focuses
+			MRC_focus_autumn_trigger = yes
+		}
+	}
+	x = 13
+	y = 12
+}
+shared_focus = {
+	id = MRC_steep_is_the_path
+	icon = GFX_goal_MRC_steep_is_the_path
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_steep_is_the_path"
+    }
+	prerequisite = {
+		focus = MRC_strength_through_strife
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_autumn_focuses
+			MRC_focus_autumn_trigger = yes
+		}
+	}
+	x = 12
+	y = 13
+}
+shared_focus = {
+	id = MRC_towered_blocks
+	icon = GFX_goal_MRC_towered_blocks
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_towered_blocks"
+    }
+	prerequisite = {
+		focus = MRC_steep_is_the_path
+	}
+	prerequisite = {
+		focus = MRC_the_worshippers_of_lies
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_autumn_focuses
+			MRC_focus_autumn_trigger = yes
+		}
+	}
+	x = 11
+	y = 14
+}
+shared_focus = {
+	id = MRC_false_knowing
+	icon = GFX_goal_MRC_false_knowing
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_false_knowing"
+    }
+	prerequisite = {
+		focus = MRC_towered_blocks
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_autumn_focuses
+			MRC_focus_autumn_trigger = yes
+		}
+	}
+	x = 10
+	y = 15
+}
+shared_focus = {
+	id = MRC_through_furnace
+	icon = GFX_goal_MRC_through_furnace
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_through_furnace"
+    }
+	mutually_exclusive = {
+		focus = MRC_smokey_mill
+	}
+	prerequisite = {
+		focus = MRC_false_knowing
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_autumn_focuses
+			MRC_focus_autumn_trigger = yes
+		}
+	}
+	x = 9
+	y = 16
+}
+shared_focus = {
+	id = MRC_stretched_sail
+	icon = GFX_goal_MRC_stretched_sail
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_stretched_sail"
+    }
+	prerequisite = {
+		focus = MRC_through_furnace
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_autumn_focuses
+			MRC_focus_autumn_trigger = yes
+		}
+	}
+	x = 8
+	y = 17
+}
+shared_focus = {
+	id = MRC_gold_was_gone
+	icon = GFX_goal_MRC_gold_was_gone
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_gold_was_gone"
+    }
+	prerequisite = {
+		focus = MRC_stretched_sail
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_autumn_focuses
+			MRC_focus_autumn_trigger = yes
+		}
+	}
+	x = 7
+	y = 18
+}
+shared_focus = {
+	id = MRC_the_corn_mother_sang
+	icon = GFX_goal_MRC_the_corn_mother_sang
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_the_corn_mother_sang"
+    }
+	prerequisite = {
+		focus = MRC_towered_blocks
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_autumn_focuses
+			MRC_focus_autumn_trigger = yes
+		}
+	}
+	x = 12
+	y = 15
+}
+shared_focus = {
+	id = MRC_smokey_mill
+	icon = GFX_goal_MRC_smokey_mill
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_smokey_mill"
+    }
+	mutually_exclusive = {
+		focus = MRC_through_furnace
+	}
+	prerequisite = {
+		focus = MRC_the_corn_mother_sang
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_autumn_focuses
+			MRC_focus_autumn_trigger = yes
+		}
+	}
+	x = 13
+	y = 16
+}
+shared_focus = {
+	id = MRC_the_gods_have_given
+	icon = GFX_goal_MRC_the_gods_have_given
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_the_gods_have_given"
+    }
+	prerequisite = {
+		focus = MRC_smokey_mill
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_autumn_focuses
+			MRC_focus_autumn_trigger = yes
+		}
+	}
+	x = 14
+	y = 17
+}
+shared_focus = {
+	id = MRC_the_great_stones_rose
+	icon = GFX_goal_MRC_the_great_stones_rose
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_the_great_stones_rose"
+    }
+	prerequisite = {
+		focus = MRC_the_gods_have_given
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_autumn_focuses
+			MRC_focus_autumn_trigger = yes
+		}
+	}
+	x = 15
+	y = 18
+}
+shared_focus = {
+	id = MRC_knowing_the_gods
+	icon = GFX_goal_MRC_knowing_the_gods
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_knowing_the_gods"
+    }
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_spring_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	x = 22
+	y = 10
+}
+shared_focus = {
+	id = MRC_joys_of_the_last_men
+	icon = GFX_goal_MRC_joys_of_the_last_men
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_joys_of_the_last_men"
+    }
+	prerequisite = {
+		focus = MRC_knowing_the_gods
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_spring_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	x = 19
+	y = 11
+}
+shared_focus = {
+	id = MRC_lore_givers
+	icon = GFX_goal_MRC_lore_givers
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_lore_givers"
+    }
+	prerequisite = {
+		focus = MRC_joys_of_the_last_men
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_spring_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	x = 20
+	y = 12
+}
+shared_focus = {
+	id = MRC_nature_resacrilized 
+	icon = GFX_goal_MRC_nature_resacrilized 
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_nature_resacrilized"
+    }
+	prerequisite = {
+		focus = MRC_knowing_the_gods
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_spring_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	x = 22
+	y = 11
+}
+shared_focus = {
+	id = MRC_the_primal_dust
+	icon = GFX_goal_MRC_the_primal_dust
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_the_primal_dust"
+    }
+	prerequisite = {
+		focus = MRC_nature_resacrilized 
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_spring_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	x = 22
+	y = 12
+}
+shared_focus = {
+	id = MRC_banish_freudian_logos
+	icon = GFX_goal_MRC_banish_freudian_logos
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_banish_freudian_logos"
+    }
+	prerequisite = {
+		focus = MRC_knowing_the_gods
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_spring_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	x = 25
+	y = 11
+}
+shared_focus = {
+	id = MRC_achivement_of_openness
+	icon = GFX_goal_MRC_achivement_of_openness
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_achivement_of_openness"
+    }
+	prerequisite = {
+		focus = MRC_banish_freudian_logos
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_spring_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	x = 24
+	y = 12
+}
+shared_focus = {
+	id = MRC_these_last_great_men
+	icon = GFX_goal_MRC_these_last_great_men
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_these_last_great_men"
+    }
+	prerequisite = {
+		focus = MRC_lore_givers
+	}
+	prerequisite = {
+		focus = MRC_the_primal_dust
+	}
+	prerequisite = {
+		focus = MRC_achivement_of_openness
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_spring_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	x = 22
+	y = 13
+}
+shared_focus = {
+	id = MRC_lords_of_chaos
+	icon = GFX_goal_MRC_lords_of_chaos
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_lords_of_chaos"
+    }
+	prerequisite = {
+		focus = MRC_these_last_great_men
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_spring_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	x = 22
+	y = 14
+}
+shared_focus = {
+	id = MRC_strike_the_dwellings
+	icon = GFX_goal_MRC_strike_the_dwellings
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_strike_the_dwellings"
+    }
+	prerequisite = {
+		focus = MRC_lords_of_chaos
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_spring_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	x = 21
+	y = 15
+}
+shared_focus = {
+	id = MRC_who_came_before
+	icon = GFX_goal_MRC_who_came_before
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_who_came_before"
+    }
+	prerequisite = {
+		focus = MRC_lords_of_chaos
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_spring_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	x = 23
+	y = 15
+}
+shared_focus = {
+	id = MRC_harmonious_relationship
+	icon = GFX_goal_MRC_harmonious_relationship
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_harmonious_relationship"
+    }
+	prerequisite = {
+		focus = MRC_strike_the_dwellings
+	}
+	prerequisite = {
+		focus = MRC_who_came_before
+	}
+	mutually_exclusive = {
+		focus = MRC_blood_unions
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_spring_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	x = 21
+	y = 16
+}
+shared_focus = {
+	id = MRC_blood_unions
+	icon = GFX_goal_MRC_blood_unions
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_blood_unions"
+    }
+	prerequisite = {
+		focus = MRC_strike_the_dwellings
+	}
+	prerequisite = {
+		focus = MRC_who_came_before
+	}
+	mutually_exclusive = {
+		focus = MRC_harmonious_relationship
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_spring_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	x = 23
+	y = 16
+}
+shared_focus = {
+	id = MRC_our_trumpets_waken_the_world
+	icon = GFX_goal_MRC_our_trumpets_waken_the_world
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_our_trumpets_waken_the_world"
+    }
+	prerequisite = {
+		focus = MRC_harmonious_relationship
+		focus = MRC_blood_unions
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_spring_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	x = 21
+	y = 17
+}
+shared_focus = {
+	id = MRC_integral_culture
+	icon = GFX_goal_MRC_integral_culture
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_integral_culture"
+    }
+	prerequisite = {
+		focus = MRC_harmonious_relationship
+		focus = MRC_blood_unions
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_spring_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	x = 23
+	y = 17
+}
+
+shared_focus = {
+	id = MRC_herjafather
+	icon = GFX_goal_MRC_herjafather
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_herjafather"
+    }
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_summer_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	x = 28
+	y = 11
+}
+shared_focus = {
+	id = MRC_convict_soldiers
+	icon = GFX_goal_MRC_convict_soldiers
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_herjafather 
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_summer_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_convict_soldiers"
+	}
+	x = 28
+	y = 12
+}
+shared_focus = {
+	id = MRC_seeker
+	icon = GFX_goal_MRC_seeker
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_convict_soldiers 
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_summer_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_seeker"
+	}
+	x = 28
+	y = 13
+}
+shared_focus = {
+	id = MRC_tolling_clang
+	icon = GFX_goal_MRC_tolling_clang
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_seeker 
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_summer_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_tolling_clang"
+	}
+	x = 28
+	y = 14
+}
+shared_focus = {
+	id = MRC_scildweall
+	icon = GFX_goal_MRC_scildweall
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_tolling_clang
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_summer_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_scildweall"
+	}
+	x = 28
+	y = 15
+}
+shared_focus = {
+	id = MRC_between_birds_of_prey
+	icon = GFX_goal_MRC_between_birds_of_prey
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_scildweall 
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_summer_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_between_birds_of_prey"
+	}
+	x = 28
+	y = 16
+}
+shared_focus = {
+	id = MRC_the_voyage
+	icon = GFX_goal_MRC_the_voyage
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_convict_soldiers 
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_summer_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_the_voyage"
+	}
+	x = 30
+	y = 13
+}
+shared_focus = {
+	id = MRC_wolfpack
+	icon = GFX_goal_MRC_wolfpack
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_the_voyage 
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_summer_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	mutually_exclusive = { 
+		focus = MRC_death_by_a_thousand_cuts 
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_wolfpack"
+	}
+	x = 30
+	y = 14
+}
+shared_focus = {
+	id = MRC_death_by_a_thousand_cuts
+	icon = GFX_goal_MRC_death_by_a_thousand_cuts
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_the_voyage 
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_summer_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	mutually_exclusive = { 
+		focus = MRC_wolfpack 
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_death_by_a_thousand_cuts"
+	}
+	x = 32
+	y = 14
+}
+shared_focus = {
+	id = MRC_we_call_upon_our_wolves
+	icon = GFX_goal_MRC_we_call_upon_our_wolves
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_death_by_a_thousand_cuts 
+		focus = MRC_wolfpack 
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_summer_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_we_call_upon_our_wolves"
+	}
+	x = 32
+	y = 15
+}
+shared_focus = {
+	id = MRC_song_of_the_comrade
+	icon = GFX_goal_MRC_song_of_the_comrade
+	cost = 4.3
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_summer_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_song_of_the_comrade"
+	}
+	x = 34
+	y = 11
+}
+
+shared_focus = {
+	id = MRC_the_ride
+	icon = GFX_goal_MRC_the_ride
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_song_of_the_comrade 
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_summer_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_the_ride"
+	}
+	x = 34
+	y = 12
+}
+
+shared_focus = {
+	id = MRC_battle_spoil_dreory_arms
+	icon = GFX_goal_MRC_battle_spoil_dreory_arms
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_the_ride 
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_summer_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_battle_spoil_dreory_arms"
+	}
+	x = 34
+	y = 13
+}
+
+shared_focus = {
+	id = MRC_we_walk_in_line
+	icon = GFX_goal_MRC_we_walk_in_line
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_battle_spoil_dreory_arms 
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_summer_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_we_walk_in_line"
+	}
+	x = 34
+	y = 14
+}
+
+shared_focus = {
+	id = MRC_this_is_my_hammer
+	icon = GFX_goal_MRC_this_is_my_hammer
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_we_walk_in_line 
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_summer_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_this_is_my_hammer"
+	}
+	x = 34
+	y = 15
+}
+
+shared_focus = {
+	id = MRC_the_grey_host
+	icon = GFX_goal_MRC_the_grey_host
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_this_is_my_hammer 
+	}
+	prerequisite = { 
+		focus = MRC_we_call_upon_our_wolves 
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_summer_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_the_grey_host"
+	}
+	x = 34
+	y = 16
+}
+
+shared_focus = {
+	id = MRC_chief_of_chiefs
+	icon = GFX_goal_MRC_chief_of_chiefs
+	cost = 4.3
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_winter_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus  MRC_chief_of_chiefs"
+	}
+	x = 2
+	y = 10
+}
+shared_focus = {
+	id = MRC_the_black_one
+	icon = GFX_goal_MRC_the_black_one
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_chief_of_chiefs
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_winter_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_the_black_one"
+	}
+	x = 2
+	y = 11
+}
+shared_focus = {
+	id = MRC_blood_axis
+	icon = GFX_goal_MRC_blood_axis
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_the_black_one 
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_winter_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_blood_axis"
+	}
+	x = 0
+	y = 12
+}
+shared_focus = {
+	id = MRC_petty_kingdoms
+	icon = GFX_goal_MRC_petty_kingdoms
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_the_black_one 
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_winter_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_petty_kingdoms"
+	}
+	x = 2
+	y = 12
+}
+shared_focus = {
+	id = MRC_all_is_one
+	icon = GFX_goal_MRC_all_is_one
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_the_black_one 
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_winter_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_all_is_one"
+	}
+	x = 4
+	y = 12
+}
+shared_focus = {
+	id = MRC_the_papist_walks_his_cell
+	icon = GFX_goal_MRC_the_papist_walks_his_cell
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_blood_axis 
+	}
+	prerequisite = { 
+		focus = MRC_petty_kingdoms 
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_winter_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_the_papist_walks_his_cell"
+	}
+	x = 1
+	y = 13
+}
+shared_focus = {
+	id = MRC_return_back_into_the_soil
+	icon = GFX_goal_MRC_return_back_into_the_soil
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_all_is_one 
+	}
+	prerequisite = { 
+		focus = MRC_petty_kingdoms 
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_winter_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_return_back_into_the_soil"
+	}
+	x = 3
+	y = 13
+}
+shared_focus = {
+	id = MRC_meekness_is_weakness
+	icon = GFX_goal_MRC_meekness_is_weakness
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_return_back_into_the_soil 
+	}
+	prerequisite = { 
+		focus = MRC_the_papist_walks_his_cell 
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_winter_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_meekness_is_weakness"
+	}
+	x = 0
+	y = 14
+}
+
+shared_focus = {
+	id = MRC_from_rome_to_ireland
+	icon = GFX_goal_MRC_from_rome_to_ireland
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_return_back_into_the_soil 
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_winter_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_from_rome_to_ireland"
+	}
+	x = 2
+	y = 14
+}
+
+shared_focus = {
+	id = MRC_tribal_over_national
+	icon = GFX_goal_MRC_tribal_over_national
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_the_papist_walks_his_cell 
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_winter_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_tribal_over_national"
+	}
+	x = 4
+	y = 14
+}
+shared_focus = {
+	id = MRC_strength_is_triumphant
+	icon = GFX_goal_MRC_strength_is_triumphant
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_meekness_is_weakness 
+	}
+	prerequisite = { 
+		focus = MRC_tribal_over_national 
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_winter_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_strength_is_triumphant"
+	}
+	x = 1
+	y = 15
+}
+
+shared_focus = {
+	id = MRC_driven_to_the_fern
+	icon = GFX_goal_MRC_driven_to_the_fern
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_from_rome_to_ireland 
+	}
+	prerequisite = { 
+		focus = MRC_meekness_is_weakness 
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_winter_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_driven_to_the_fern"
+	}
+	x = 3
+	y = 15
+}
+
+shared_focus = {
+	id = MRC_living_in_place
+	icon = GFX_goal_MRC_living_in_place
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_strength_is_triumphant 
+	}
+	prerequisite = { 
+		focus = MRC_driven_to_the_fern
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_winter_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_living_in_place"
+	}
+	x = 1
+	y = 16
+}
+
+shared_focus = {
+	id = MRC_the_gospel_of_inhumanity
+	icon = GFX_goal_MRC_the_gospel_of_inhumanity
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_driven_to_the_fern 
+	}
+	prerequisite = { 
+		focus = MRC_strength_is_triumphant 
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_winter_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_the_gospel_of_inhumanity"
+	}
+	x = 3
+	y = 16
+}
+
+shared_focus = {
+	id = MRC_laws_were_laid_down
+	icon = GFX_goal_MRC_laws_were_laid_down
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_living_in_place 
+	}
+	prerequisite = { 
+		focus = MRC_the_gospel_of_inhumanity 
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = MRC_winter_focuses
+			MRC_focus_spring_trigger = yes
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_laws_were_laid_down"
+	}
+	x = 2
+	y = 17
+}
+shared_focus = {
+	id = MRC_lord_of_ages
+	icon = GFX_goal_MRC_lord_of_ages
+	cost = 4.3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_lord_of_ages"
+	}
+	x = 15
+	y = 19
+}
+shared_focus = {
+	id = MRC_the_children_of_the_gael
+	icon = GFX_goal_MRC_the_children_of_the_gael
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_lord_of_ages 
+	}
+	mutually_exclusive = { 
+		focus = MRC_follow_me_up_to_carlow 
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_the_children_of_the_gael"
+	}
+	x = 13
+	y = 20
+}
+
+shared_focus = {
+	id = MRC_follow_me_up_to_carlow
+	icon = GFX_goal_MRC_follow_me_up_to_carlow
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_lord_of_ages 
+	}
+	mutually_exclusive = { 
+		focus = MRC_the_children_of_the_gael 
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_follow_me_up_to_carlow"
+	}
+	x = 17
+	y = 20
+}
+
+shared_focus = {
+	id = MRC_he_must_hang
+	icon = GFX_goal_MRC_he_must_hang
+	cost = 4.3
+	prerequisite = { 
+		focus = MRC_the_children_of_the_gael 
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_he_must_hang"
+	}
+	x = 39
+	y = 10
+}
+
+shared_focus = {
+	id = MRC_littered_streets
+	icon = GFX_goal_MRC_littered_streets
+	cost = 4.3
+	prerequisite = { focus = MRC_follow_me_up_to_carlow focus = MRC_the_children_of_the_gael }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_littered_streets"
+	}
+	x = 46
+	y = 10
+}
+
+shared_focus = {
+	id = MRC_the_truth_is_one
+	icon = GFX_goal_MRC_the_truth_is_one
+	cost = 4.3
+	prerequisite = { focus = MRC_he_must_hang }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_the_truth_is_one"
+	}
+	x = 41
+	y = 11
+}
+
+shared_focus = {
+	id = MRC_take_our_sacrifice
+	icon = GFX_goal_MRC_take_our_sacrifice
+	cost = 4.3
+	prerequisite = { focus = MRC_he_must_hang }
+	prerequisite = { focus = MRC_littered_streets }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_take_our_sacrifice"
+	}
+	x = 45
+	y = 11
+}
+
+shared_focus = {
+	id = MRC_the_hour_approaches
+	icon = GFX_goal_MRC_the_hour_approaches
+	cost = 4.3
+	prerequisite = { focus = MRC_take_our_sacrifice focus = MRC_the_truth_is_one }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_the_hour_approaches"
+	}
+	x = 43
+	y = 12
+}
+
+shared_focus = {
+	id = MRC_age_of_will
+	icon = GFX_goal_MRC_age_of_will
+	cost = 4.3
+	prerequisite = { focus = MRC_the_hour_approaches }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_age_of_will"
+	}
+	x = 41
+	y = 13
+}
+
+shared_focus = {
+	id = MRC_reign_i_forever
+	icon = GFX_goal_MRC_reign_i_forever
+	cost = 4.3
+	prerequisite = { focus = MRC_the_hour_approaches }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_reign_i_forever"
+	}
+	x = 45
+	y = 13
+}
+
+shared_focus = {
+	id = MRC_here_amid_icebergs
+	icon = GFX_goal_MRC_here_amid_icebergs
+	cost = 4.3
+	prerequisite = { focus = MRC_age_of_will }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_here_amid_icebergs"
+	}
+	x = 39
+	y = 14
+}
+
+shared_focus = {
+	id = MRC_the_light_thou_beholdest
+	icon = GFX_goal_MRC_the_light_thou_beholdest
+	cost = 4.3
+	prerequisite = { focus = MRC_reign_i_forever }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRC_the_light_thou_beholdest"
+	}
+	x = 46
+	y = 14
+}

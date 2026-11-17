@@ -119,4 +119,8 @@ spriteTypes = {
 		name = "GFX_goal_MRC_oh_how_we_laughed"
 		texturefile = "gfx/interface/goals/MRC/goal_MRC_oh_how_we_laughed.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_MRC_flies_have_their_house"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_flies_have_their_house.dds"
+	}
 }

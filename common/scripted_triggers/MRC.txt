@@ -1,0 +1,151 @@
+MRC_TRPG_pearce_charisma_is_prominent = {
+	MRC_TRPG_progression_ready = yes
+	NOT = { check_variable = { MRC_pearce_stat^3 < MRC_pearce_stat^0 } }
+	NOT = { check_variable = { MRC_pearce_stat^3 < MRC_pearce_stat^1 } }
+	NOT = { check_variable = { MRC_pearce_stat^3 < MRC_pearce_stat^2 } }
+}
+
+MRC_focus_autumn_trigger = {
+	OR = {
+		AND = {
+			date > 2020.09.01
+			date < 2020.12.01
+		}
+		AND = {
+			date > 2021.09.01
+			date < 2021.12.01
+		}
+		AND = {
+			date > 2022.09.01
+			date < 2022.12.01
+		}
+		AND = {
+			date > 2023.09.01
+			date < 2023.12.01
+		}
+		AND = {
+			date > 2024.09.01
+			date < 2024.12.01
+		}
+		AND = {
+			date > 2025.09.01
+			date < 2025.12.01
+		}
+		AND = {
+			date > 2026.09.01
+			date < 2026.12.01
+		}
+		AND = {
+			date > 2027.09.01
+			date < 2027.12.01
+		}
+	}
+}
+MRC_focus_summer_trigger = {
+	OR = {
+		AND = {
+			date > 2020.06.01
+			date < 2020.09.01
+		}
+		AND = {
+			date > 2021.06.01
+			date < 2021.09.01
+		}
+		AND = {
+			date > 2022.06.01
+			date < 2022.09.01
+		}
+		AND = {
+			date > 2023.06.01
+			date < 2023.09.01
+		}
+		AND = {
+			date > 2024.06.01
+			date < 2024.09.01
+		}
+		AND = {
+			date > 2025.06.01
+			date < 2025.09.01
+		}
+		AND = {
+			date > 2026.06.01
+			date < 2026.09.01
+		}
+		AND = {
+			date > 2027.06.01
+			date < 2027.09.01
+		}
+	}
+}
+MRC_focus_winter_trigger = {
+	OR = {
+		AND = {
+			date > 2020.12.01
+			date < 2021.03.01
+		}
+		AND = {
+			date > 2021.12.01
+			date < 2022.03.01
+		}
+		AND = {
+			date > 2022.12.01
+			date < 2023.03.01
+		}
+		AND = {
+			date > 2023.12.01
+			date < 2024.03.01
+		}
+		AND = {
+			date > 2024.12.01
+			date < 2025.03.01
+		}
+		AND = {
+			date > 2025.12.01
+			date < 2026.03.01
+		}
+		AND = {
+			date > 2026.12.01
+			date < 2027.03.01
+		}
+		AND = {
+			date > 2027.12.01
+			date < 2028.03.01
+		}
+	}
+}
+MRC_focus_spring_trigger = {
+	OR = {
+		AND = {
+			date > 2020.03.01
+			date < 2020.06.01
+		}
+		AND = {
+			date > 2021.03.01
+			date < 2021.06.01
+		}
+		AND = {
+			date > 2022.03.01
+			date < 2022.06.01
+		}
+		AND = {
+			date > 2023.03.01
+			date < 2023.06.01
+		}
+		AND = {
+			date > 2024.03.01
+			date < 2024.06.01
+		}
+		AND = {
+			date > 2025.03.01
+			date < 2025.06.01
+		}
+		AND = {
+			date > 2026.03.01
+			date < 2026.06.01
+		}
+		AND = {
+			date > 2027.03.01
+			date < 2027.06.01
+		}
+	}
+}

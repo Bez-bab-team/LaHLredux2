@@ -326,3 +326,8 @@
  MRC_boyd_rice_joined_required_tt:0 "Boyd Rice has joined the expedition."
  MRC_bronson_artist_required_tt:0 "Choose Charles Bronson as an artist after the Leicester adventure."
  MRC_bronson_military_required_tt:0 "Choose Charles Bronson as a general after the Leicester adventure."
+ ##TOOLTIPS##
+ MRC_autumn_focuses:0 "§8Samhain§! is upon us"
+ MRC_winter_focuses:0 "§5Yule§! is upon us"
+ MRC_summer_focuses:0 "§tMidsommar§! is upon us"
+ MRC_spring_focuses:0 "§7Ostara§! is upon us"
